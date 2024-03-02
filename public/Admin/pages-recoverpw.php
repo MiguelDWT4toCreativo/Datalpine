@@ -20,34 +20,34 @@
                                 <div class="d-flex flex-column h-100">
                                     <div class="mb-4 mb-md-5 text-center">
                                         <a href="index.php" class="d-block auth-logo">
-                                            <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">Minia</span>
+                                            <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
                                         </a>
                                     </div>
                                     <div class="auth-content my-auto">
                                         <div class="text-center">
-                                            <h5 class="mb-0">Reset Password</h5>
-                                            <p class="text-muted mt-2">Reset Password with Minia.</p>
+                                            <h5 class="mb-0">Recuperar contraseña</h5>
+                                            <p class="text-muted mt-2">Recuperar contraseña con DatAlpine</p>
                                         </div>
                                         <div class="alert alert-success text-center mb-4 mt-4 pt-2" role="alert">
-                                            Enter your Email and instructions will be sent to you!
+                                            Ingresa tu Email recibirás instrucciones
                                         </div>
                                         <form class="custom-form mt-4">
                                             <div class="mb-3">
                                                 <label class="form-label">Email</label>
-                                                <input type="text" class="form-control" id="email" placeholder="Enter email">
+                                                <input type="text" class="form-control" id="email" placeholder="email">
                                             </div>
                                             <div class="mb-3 mt-4">
-                                                <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Reset</button>
+                                                <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Recuperar</button>
                                             </div>
                                         </form>
 
                                         <div class="mt-5 text-center">
-                                            <p class="text-muted mb-0">Remember It ?  <a href="auth-login.php"
-                                                    class="text-primary fw-semibold"> Sign In </a> </p>
+                                            <p class="text-muted mb-0"><a href="auth-login.php"
+                                                    class="text-primary fw-semibold">Iniciar sesión</a> </p>
                                         </div>
                                     </div>
                                     <div class="mt-4 mt-md-5 text-center">
-                                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Minia   . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> DatAlpine <i class="mdi mdi-heart text-danger"></i></p>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                             </div>
                                             <!-- end carouselIndicators -->
                                             <div class="carousel-inner">
-                                                <div class="carousel-item active">
+                                                <!-- <div class="carousel-item active">
                                                     <div class="testi-contain text-white">
                                                         <i class="bx bxs-quote-alt-left text-success display-6"></i>
 
@@ -106,7 +106,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
 
                                                 <div class="carousel-item">
                                                     <div class="testi-contain text-white">

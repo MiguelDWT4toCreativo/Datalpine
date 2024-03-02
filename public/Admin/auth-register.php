@@ -124,53 +124,53 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.php" class="d-block auth-logo">
-                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">Minia</span>
+                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
                                 </a>
                             </div>
                             <div class="auth-content my-auto">
                                 <div class="text-center">
-                                    <h5 class="mb-0">Register Account</h5>
-                                    <p class="text-muted mt-2">Get your free Minia account now.</p>
+                                    <h5 class="mb-0">Registro de usuario</h5>
+                                    <p class="text-muted mt-2"></p>
                                 </div>
                                 <form class="needs-validation mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($useremail_err)) ? 'has-error' : ''; ?>">
                                         <label for="useremail" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="useremail" placeholder="Enter email" required name="email" value="<?php echo $useremail; ?>">
+                                        <input type="email" class="form-control" id="useremail" placeholder="Email" required name="email" value="<?php echo $useremail; ?>">
                                         <span class="text-danger"><?php echo $useremail_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                                        <label for="username" class="form-label">Username</label>
-                                        <input type="text" class="form-control" id="username" placeholder="Enter username" required name="nombre" value="<?php echo $username; ?>">
+                                        <label for="username" class="form-label">Nombre de usuario</label>
+                                        <input type="text" class="form-control" id="username" placeholder="Usuario" required name="nombre" value="<?php echo $username; ?>">
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                                        <label for="userpassword" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="userpassword" placeholder="Enter password" required name="contraseña" value="<?php echo $password; ?>">
+                                        <label for="userpassword" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="userpassword" placeholder="Contraseña" required name="contraseña" value="<?php echo $password; ?>">
                                         <span class="text-danger"><?php echo $password_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-                                        <label class="form-label" for="userpassword">Confirm Password</label>
-                                        <input type="password" class="form-control" id="confirm_password" placeholder="Enter confirm password" name="confirm_password" value="<?php echo $confirm_password; ?>">
+                                        <label class="form-label" for="userpassword">Confirmar contraseña</label>
+                                        <input type="password" class="form-control" id="confirm_password" placeholder="Contraseña" name="confirm_password" value="<?php echo $confirm_password; ?>">
                                         <span class="text-danger"><?php echo $confirm_password_err; ?></span>
                                     </div>
                                     
                                     <div class="mb-4">
-                                        <p class="mb-0">By registering you agree to the Minia <a href="#" class="text-primary">Terms of Use</a></p>
+                                        <p class="mb-0">Acepto los <a href="#" class="text-primary">Términos y condiciones</a></p>
                                     </div>
                                     <div class="mb-3">
-                                        <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Register</button>
+                                        <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Registrarse</button>
                                     </div>
                                 </form>
 
                                 <div class="mt-4 pt-2 text-center">
                                     <div class="signin-other-title">
-                                        <h5 class="font-size-14 mb-3 text-muted fw-medium">- Sign up using -</h5>
+                                        <h5 class="font-size-14 mb-3 text-muted fw-medium"></h5>
                                     </div>
 
-                                    <ul class="list-inline mb-0">
+                                    <!-- <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
                                             <a href="javascript:void()" class="social-list-item bg-primary text-white border-primary">
                                                 <i class="mdi mdi-facebook"></i>
@@ -186,17 +186,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                 <i class="mdi mdi-google"></i>
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
 
                                 <div class="mt-5 text-center">
-                                    <p class="text-muted mb-0">Already have an account ? <a href="auth-login.php" class="text-primary fw-semibold"> Login </a> </p>
+                                    <p class="text-muted mb-0">¿Ya tienes una cuenta? <a href="auth-login.php" class="text-primary fw-semibold"> Iniciar sesión</a> </p>
                                 </div>
                             </div>
                             <div class="mt-4 mt-md-5 text-center">
                                 <p class="mb-0">© <script>
                                         document.write(new Date().getFullYear())
-                                    </script> Minia . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                    </script> DatAlpine<i class="mdi mdi-heart text-danger"></i> </p>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <button type="button" data-bs-target="#reviewcarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <!-- end carouselIndicators -->
-                                    <div class="carousel-inner">
+                                    <!-- <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <div class="testi-contain text-white">
                                                 <i class="bx bxs-quote-alt-left text-success display-6"></i>
@@ -255,7 +255,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="carousel-item">
                                             <div class="testi-contain text-white">

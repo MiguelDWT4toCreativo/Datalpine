@@ -85,13 +85,13 @@ if (isset($_POST['submit'])) {
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.php" class="d-block auth-logo">
-                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">Minia</span>
+                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
                                 </a>
                             </div>
                             <div class="auth-content my-auto">
                                 <div class="text-center">
-                                    <h5 class="mb-0">Reset Password</h5>
-                                    <p class="text-muted mt-2">Reset Password with Minia.</p>
+                                    <h5 class="mb-0">Recuperar contraseña</h5>
+                                    <p class="text-muted mt-2">Recuperar contraseña con DatAlpine</p>
                                 </div>
                                 <?php if ($msg) { ?>
                                     <div class="alert alert-success text-center my-4" role="alert">
@@ -102,22 +102,22 @@ if (isset($_POST['submit'])) {
                                 <form class="mt-4" action="<?php echo htmlentities($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($useremail_err)) ? 'has-error' : ''; ?>">
                                         <label class="form-label">Email</label>
-                                        <input type="text" class="form-control" id="email" placeholder="Enter email">
+                                        <input type="text" class="form-control" id="email" placeholder="email">
                                         <span class="text-danger"><?php echo $useremail_err; ?></span>
                                     </div>
                                     <div class="mb-3 mt-4">
-                                        <button class="btn btn-primary w-100 waves-effect waves-light" type='submit' name='submit' value='Submit'>Reset</button>
+                                        <button class="btn btn-primary w-100 waves-effect waves-light" type='submit' name='submit' value='Submit'>Recuperar</button>
                                     </div>
                                 </form>
 
                                 <div class="mt-5 text-center">
-                                    <p class="text-muted mb-0">Remember It ? <a href="auth-login.php" class="text-primary fw-semibold"> Sign In </a> </p>
+                                    <p class="text-muted mb-0"><a href="auth-login.php" class="text-primary fw-semibold"> Iniciar sesión</a> </p>
                                 </div>
                             </div>
                             <div class="mt-4 mt-md-5 text-center">
                                 <p class="mb-0">© <script>
                                         document.write(new Date().getFullYear())
-                                    </script> Minia. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                    </script> DatAlpine<i class="mdi mdi-heart text-danger"></i></p>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ if (isset($_POST['submit'])) {
                                     </div>
                                     <!-- end carouselIndicators -->
                                     <div class="carousel-inner">
-                                        <div class="carousel-item active">
+                                        <!-- <div class="carousel-item active">
                                             <div class="testi-contain text-white">
                                                 <i class="bx bxs-quote-alt-left text-success display-6"></i>
 
@@ -176,7 +176,7 @@ if (isset($_POST['submit'])) {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="carousel-item">
                                             <div class="testi-contain text-white">
