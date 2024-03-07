@@ -1,7 +1,7 @@
 <?php
-
+//require_once 'conexion.php';
 // Crear una instancia de la clase de conexión
-require_once 'resources/db/conexion.php';
+require_once '../db/conexion.php';
 $conexion = Conexion::getInstancia();
 $dbh = $conexion->getDbh();
 
