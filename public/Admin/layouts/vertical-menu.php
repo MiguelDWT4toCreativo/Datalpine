@@ -249,6 +249,8 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="apps-contacts-grid.php" data-key="t-user-grid">Análisis de mercado</a></li>
                         <li><a href="apps-contacts-list.php" data-key="t-user-list">Investigación de Mercado</a></li>
+                        <li><a href="apps-contacts-profile.php" data-key="t-profile">Proyecciones y Tendencias</a></li>
+                        <li><a href="apps-blog-list.php" data-key="t-blog-list">Análisis de Inversión</a></li>
                     </ul>
                 </li>
             </ul>
