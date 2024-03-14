@@ -43,8 +43,6 @@
                     </div>
                 </div>
                 <!-- end page title -->
-                
-
                 <div class="mdk-header-layout__content">
                 <div class="mdk-drawer-layout js-mdk-drawer-layout"
                     data-push
@@ -55,194 +53,140 @@
                                 <!-- Contenido del div -->
                             </div>
                         </div>
-                        <div class="container-fluid page__container" style="background-color: #f0f0f0;">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-9">
-                                    <div class="card" style="margin-bottom: 60px;">
-                                        <div class="card-header bg-white d-flex align-items-center">
-                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons"></i>
-                                            <h4 class="card-header__title flex m-0">Busca la ubicacion de interés </h4>
-                                        </div>
-                                        <div class="card-body align-items-center justify-content-center">
-                                            <form id="searchForm" novalidate>
-                                                <div class="row align-items-center">
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label for="estado">Estados</label>
-                                                            <select id="estado" class="custom-select">
-                                                                <option value="">Seleccionar</option>
-                                                                <option value="hidalgo">Hidalgo</option>
-                                                                <option value="puebla">Puebla</option>
-                                                                <option value="queretaro">Querétaro</option>
-                                                                <option value="jalisco">Jalisco</option>
-                                                                <!--<option value="queretaro">Querétaro</option>-->
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label for="ciudad">Ciudad</label>
-                                                            <select id="ciudad" class="custom-select mb-2 mr-sm-2 mb-sm-0">
-                                                                <option value="">Seleccionar</option>
-                                                                <option value="pachuca" data-estado="hidalgo">Pachuca</option>
-                                                                <option value="tulancingo" data-estado="hidalgo">Tulancingo</option>
-                                                                <option value="puebla" data-estado="puebla">Puebla</option>
-                                                                <option value="queretaro" data-estado="queretaro">Santiago de Querétaro</option>
-                                                                <option value="puertov" data-estado="jalisco">Puerto Vallarta</option>
-
-                                                        <!-- <option value="queretaro">Querétaro</option> -->
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="col-lg-4 mt-2 align-items-center" > <!-- Coloca el botón en una fila nueva -->
-                                                        <button class="btn btn-primary mb-0 align-items-center justify-content-center" type="button" onclick="buscar()">Buscar</button>
-                                                    </div>
-                                                </div>
-                                                <div class="row align-items-center px-2">
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    
-                                    
+                        
+                        </div> <br> <br>
+                        <div class="row align-items-center justify-content-center text-center">
+        <div class="col-xl-8">
+            <h1 class="display-4 mt-5 mb-3">¡Bienvenido a DatAlpine!</h1>
+            <p class="lead mb-4">Tu socio en la toma de decisiones inteligentes en el mercado inmobiliario mexicano.</p>
+            <p class="text-muted">En DatAlpine, ofrecemos análisis detallados y personalizados del mercado inmobiliario en México. Desde tendencias de precios hasta segmentación de mercado, te proporcionamos la información precisa que necesitas para tomar decisiones estratégicas con confianza.</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-12">
+            <!-- card -->
+            <div class="card bg-primary text-center shadow-primary card-h-100">
+                <!-- card body -->
+                <div class="card-body p-0">
+                    <div id="carouselExampleCaptions" class="carousel slide text-center widget-carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center p-4">
+                                    <i class="mdi mdi-bitcoin widget-box-1-icon"></i>
+                                    <h4 class="mt-3 lh-base fw-normal text-white"><b>Inteligencia de Mercado Personalizada</b></h4>
+                                    <p class="text-white-50 font-size-13">DatAlpine ofrece un análisis detallado y personalizado de 
+                                        tendencias, precios y segmentación del mercado inmobiliario en México, proporcionando a los 
+                                        usuarios información precisa para tomar decisiones estratégicas. </p>
                                 </div>
                             </div>
-                        </div> <br> <br>
-
-                        <div class="col-lg-12">
-                                            <div class="card" style="background-color: #EAECFF;">
-                                                <div class="card-body">
-                                                    <div class="d-flex align-items-center">
-                                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons" style="color: #6773DF;"></i>
-                                                        <h4 class="text m-0"><strong>Desbloquea todo el potencial</strong></h4>
-                                                    </div>
-                                                    <div class="d-flex align-items-center justify-content-between">
-                                                        <div class="text">Obtén todos los beneficios que tenemos para ti.</div>
-                                                        <div class="text">
-                                                            <div style="margin-top: -30px;"> <!-- Ajusta el valor del margen superior según sea necesario -->
-                                                                <a href="https://datalpine.mx/#pricing" class="btn btn-primary">Ver planes</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <!-- end carousel-item -->
+                            <div class="carousel-item">
+                                <div class="text-center p-4">
+                                    <i class="mdi mdi-ethereum widget-box-1-icon"></i>
+                                    <h4 class="mt-3 lh-base fw-normal text-white"><b>Toma de Decisiones Estratégicas</b></h4>
+                                    <p class="text-white-50 font-size-13">Con datos actualizados y análisis profundos, los usuarios 
+                                        pueden anticiparse a los cambios del mercado, identificar oportunidades de inversión y 
+                                        mitigar riesgos, lo que les otorga una ventaja competitiva significativa. </p>
                                 </div>
-                
-
-
-                <div class="row">
-                <div class="container-fluid page__container">
-                            <div class="row">
-                                <div class="col-lg">
-                                    <div class="card">
-                                        <div class="card-header card-header-large bg-white d-flex align-items-center">
-                                            <h4 class="card-header__title flex m-0">Estados</h4>
-                                        </div>
-                                    
-                                        <div class="list-group tab-content list-group-flush">
-                                            <div class="tab-pane active show fade"
-                                                id="activity_all">
-
-                                                <div class="list-group-item list-group-item-action d-flex align-items-center" onclick="redirigirAPagina()">
-                                                    <div class="avatar avatar-xs" style="width: 32px; height: 32px;">
-                                                        <span class="avatar-title rounded-circle">H</span>
-                                                    </div>
-                                                
-                                                    <div class="flex px-3">
-                                                        <div class="d-flex align-items-middle">
-                                                            <div style="color: #6773DF;" class="text-15pt">Hidalgo</div>
-                                                            <div class="text px-1"></div>
-                                                        </div>
-                                                        <small class="text-muted">Ya disponible</small>
-                                                    </div>
-                                                    <i class="material-icons icon-muted ml-3"></i>
-                                                </div>
-                                                
-                                                <script>
-                                                    function redirigirAPagina() {
-                                                        // Cambiar 'nuevaPagina.html' por la URL de la página a la que deseas redirigir
-                                                        window.location.href = 'prueba.php';
-                                                    }
-                                                </script>
-
-                                                <div class="list-group-item list-group-item-action d-flex align-items-center" onclick="redirigirAPaginaPuebla()">
-                                                    <div class="avatar avatar-xs"
-                                            style="width: 32px; height: 32px;">
-                                            <span class="avatar-title rounded-circle">P</span>
-                                                    </div>
-
-                                                    <div class="flex px-3">
-                                                        <div class="d-flex align-items-middle">
-                                                            <div style="color: #6773DF;" class="text-15pt" >Puebla</div> <div class="text px-1" ></div>
-                                                        </div>
-                                                        <small class="text-muted">Ya disponible</small>
-                                                    </div>
-                                                    <i class="material-icons icon-muted ml-3"></i>
-                                                </div>
-                                                <script>
-                                                    function redirigirAPaginaPuebla() {
-                                                        // Cambiar 'nuevaPagina.html' por la URL de la página a la que deseas redirigir
-                                                        window.location.href = 'ppam.php';
-                                                    }
-                                                </script>
-
-                                                <div class="list-group-item list-group-item-action d-flex align-items-center ">
-                                                    <div class="avatar avatar-xs"
-                                            style="width: 32px; height: 32px;">
-                                            <span class="avatar-title rounded-circle">Q</span>
-                                                    </div>
-
-                                                    <div class="flex px-3">
-                                                        <div class="d-flex align-items-middle">
-                                                            <div style="color: #6773DF;" class="text-15pt" >Queretaro</div> <div class="text px-1" ></div>
-                                                        </div>
-                                                        <small class="text-muted">Ya disponible</small>
-                                                    </div>
-                                                    <i class="material-icons icon-muted ml-3"></i>
-                                                </div>
-                                                <script>
-                                                    function redirigirAPaginaPuebla() {
-                                                        // Cambiar 'nuevaPagina.html' por la URL de la página a la que deseas redirigir
-                                                        window.location.href = 'qqam.php';
-                                                    }
-                                                </script>
-
-                                                <div class="list-group-item list-group-item-action d-flex align-items-center ">
-                                                    <div class="avatar avatar-xs"
-                                            style="width: 32px; height: 32px;">
-                                            <span class="avatar-title rounded-circle">V</span>
-                                                    </div>
-
-                                                    <div class="flex px-3">
-                                                        <div class="d-flex align-items-middle">
-                                                            <div style="color: #6773DF;" class="text-15pt" >Veracruz</div> <div class="text px-1" ></div>
-                                                        </div>
-                                                        <small class="text-muted">Próximamente</small>
-                                                    </div>
-                                                    <i class="material-icons icon-muted ml-3"></i>
-                                                </div>
-
-                                                <div class="list-group-item list-group-item-action d-flex align-items-center ">
-                                                    <div class="avatar avatar-xs"
-                                                    style="width: 32px; height: 32px;">
-                                                    <span class="avatar-title rounded-circle">J</span>
-                                                    </div>
-
-                                                    <div class="flex px-3">
-                                                        <div class="d-flex align-items-middle">
-                                                            <div style="color: #6773DF;" class="text-15pt" >Jalisco</div> <div class="text px-1" ></div>
-                                                        </div>
-                                                        <small class="text-muted">Ya disponible</small>
-                                                    </div>
-                                                    <i class="material-icons icon-muted ml-3"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <!-- end carousel-item -->
+                            <div class="carousel-item">
+                                <div class="text-center p-4">
+                                    <i class="mdi mdi-litecoin widget-box-1-icon"></i>
+                                    <h4 class="mt-3 lh-base fw-normal text-white"><b>Visión Completa del Panorama Inmobiliario</b></h4>
+                                    <p class="text-white-50 font-size-13">La plataforma proporciona una visión completa y actualizada del 
+                                        mercado inmobiliario en México, permitiendo a los usuarios acceder a investigaciones detalladas y 
+                                        proyecciones de tendencias específicas para diversas ciudades del país, lo que les permite tomar 
+                                        decisiones informadas con un alto grado de certeza. </p>
                                 </div>
+                            </div>
+                            <!-- end carousel-item -->
+                        </div>
+                        <!-- end carousel-inner -->
+
+                        <div class="carousel-indicators carousel-indicators-rounded">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <!-- end carousel-indicators -->
+                    </div>
+                    <!-- end carousel -->
+                </div>
+                <!-- end card body -->
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+        <div class="col-xl-12">
+            <!-- card -->
+            <div class="card">
+                <!-- card body -->
+                <div class="card-body">
+                    <div class="d-flex flex-wrap align-items-center mb-4">
+                        <h5 class="card-title me-2">Sales by Locations</h5>
+                        <div class="ms-auto">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle text-reset" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="text-muted font-size-12">Sort By:</span> <span class="fw-medium">World<i class="mdi mdi-chevron-down ms-1"></i></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <a class="dropdown-item" href="#">Pachuca</a>
+                                    <a class="dropdown-item" href="#">Tulancingo</a>
+                                    <a class="dropdown-item" href="#">Queretaro</a>
+                                    <a class="dropdown-item" href="#">Puebla</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sales-by-locations" data-colors='["#5156be"]' style="height: 250px"></div>
+
+                    <div class="px-2 py-2">
+                        <p class="mb-1">Pachuca <span class="float-end">75%</span></p>
+                        <div class="progress mt-2" style="height: 6px;">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">
+                            </div>
+                        </div>
+
+                        <p class="mt-3 mb-1">Tulancingo <span class="float-end">55%</span></p>
+                        <div class="progress mt-2" style="height: 6px;">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="55">
+                            </div>
+                        </div>
+
+                        <p class="mt-3 mb-1">Puebla <span class="float-end">85%</span></p>
+                        <div class="progress mt-2" style="height: 6px;">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-1">Queretaro <span class="float-end">85%</span></p>
+                        <div class="progress mt-2" style="height: 6px;">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card body -->
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+</div>
+
                                 <div class="row card-group-row">
                                 <div class="col-lg-4 col-md-6 card-group-row__col">
                                     <div class="card card-group-row__card">
