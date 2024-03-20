@@ -5,6 +5,7 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,131 +16,229 @@
 </head>
 
 <body>
-<?php include 'layouts/body.php'; ?>
+    <?php include 'layouts/body.php'; ?>
 
-<div id="layout-wrapper">
-    <?php include 'layouts/menu.php'; ?>
+    <div id="layout-wrapper">
+        <?php include 'layouts/menu.php'; ?>
 
-    <div class="main-content">
-        <div class="page-content">
-            <div class="container-fluid">
-                <!-- start page title -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                            <h4 class="mb-sm-0 font-size-18">Análisis de mercado</h4>
-                            <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Pachuca</a></li>
-                                    <li class="breadcrumb-item active">Análisis de mercado</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end page title -->
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-header bg-white d-flex align-items-center justify-content-between">
-                                <h4 class="card-header__title m-0">Mapa de calor</h4>
-                                <div>
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido01') & ocultar('contenido02') " value="Códigos postales por precios ">
-                                    <!--<input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido02') & ocultar('contenido01') " value="Mapa 2"> -->
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                <h4 class="mb-sm-0 font-size-18">Análisis de mercado</h4>
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Pachuca</a></li>
+                                        <li class="breadcrumb-item active">Análisis de mercado</li>
+                                    </ol>
                                 </div>
                             </div>
-                            <div class="card-header bg-white d-flex justify-content-center align-items-center">
-                                <form style="text-align: center;">
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header bg-white d-flex align-items-center justify-content-between">
+                                    <h4 class="card-header__title m-0">Mapa de calor</h4>
                                     <div>
-                                        <!--
+                                        <input type="button" class="btn btn-outline-dark"
+                                            onclick="mostrar('contenido01') & ocultar('contenido02') "
+                                            value="Códigos postales por precios ">
+                                        <!--<input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido02') & ocultar('contenido01') " value="Mapa 2"> -->
+                                    </div>
+                                </div>
+                                <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                                    <form style="text-align: center;">
+                                        <div>
+                                            <!--
                                         <iframe src="/dashboard/pachuca_property_map_formatted2.html" width="800" height="400" frameborder="0" id="contenido01"></iframe>
                                          <iframe src="/pachuca_property_map_formatted.html" width="800" height="500" frameborder="0" id="contenido02" class="oculto"></iframe> -->
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="px-4 py-3" style="background-color: #FAFBFE;">
-                                <h4 class="card-header__title flex m-0">Descripción: </h4>
-                                <div class="text"> Este mapa interactivo proporciona una visión detallada de las colonias locales, presentando datos esenciales para la toma de decisiones inmobiliarias. Desde los precios por metro cuadrado hasta la distribución de construcciones, el número de baños y estacionamientos disponibles, cada punto en el mapa revela aspectos cruciales para entender el mercado..<br><br></div>
-                            </div>
-                            <div class="px-4 py-3" style="background-color: #FAFBFE;">
-                                <ul class="nav navbar-nav align-items-center">
-                                    <button type="button" class="mr-auto" style="color: #000000; height: 40px; border: #FAFBFE; border-radius: 8px; padding: 5px 15px;" data-toggle="modal" data-placement="bottom" data-target="#modal-large-mdc">
-                                        <i class="material-icons icon-14pt text-success">info</i> Interpretación
-                                    </button>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--1. Segmentos -->
-                <div class="row align-items-center" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title" style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">1. Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
-                        </div>
-                    </div>
-                    <!--1.1 Distribución de segmentos -->
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>1.1 Distribución de segmentos</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
-                        <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
-                        <!-- Explicación de la gráfica -->
-                        <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Conoce la participación en el mercado inmobiliario por segmentos (S, A, B, C, D, E). Cada sección representa el porcentaje o proporción en ese segmento específico en relación con el total.</p>
-                        </div>
-
-                        <!--1.2 Distribución por M2 construcción por rango -->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                            <?php
-                            echo "<li style='font-size: 20px;'>1.2 Distribución por M2 construcción por rango</li>";
-                            echo "</ol>";
-                            echo "</ol>";
-                            ?>
-                            <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
-                            <!-- Explicación de la gráfica -->
-                            <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
-                                <div style="text-align: left;">
-                                    <ul style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Segmento S: Posee una alta concentración de propiedades con un tamaño de construcción mayor a los 300 m2.</li>
-                                        <li>Segmento A: Tiene una cantidad significativa de propiedades de 0-100m2 de construcción.</li>
-                                        <li>Segmento B: Destaca las propiedades con 100-150m2, seguido de 150-200m2 de construcción.</li>
-                                        <li>Segmento C: Las mayores concentraciones son en 200-250m2, seguido de 150-200m2 de construcción.</li>
-                                        <li>Segmento D: Posee los valores más cercanos a la media presupuestal y tiene una distribución equitativa. Destaca las propiedades con un tamaño de construcción mayor a los 200-250M2 y mayor a 300M2 de construcción.</li>
-                                        <li>Segmento E: Tiene pocos terrenos en m2 de construcción en todos los rangos. Esto podría indicar que este segmento tiene una oferta limitada de terrenos debido a su poco valor en el mercado.</li>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="px-4 py-3" style="background-color: #FAFBFE;">
+                                    <h4 class="card-header__title flex m-0">Descripción: </h4>
+                                    <div class="text"> Este mapa interactivo proporciona una visión detallada de las
+                                        colonias locales, presentando datos esenciales para la toma de decisiones
+                                        inmobiliarias. Desde los precios por metro cuadrado hasta la distribución de
+                                        construcciones, el número de baños y estacionamientos disponibles, cada punto en
+                                        el mapa revela aspectos cruciales para entender el mercado..<br><br></div>
+                                </div>
+                                <div class="px-4 py-3" style="background-color: #FAFBFE;">
+                                    <ul class="nav navbar-nav align-items-center">
+                                        <button type="button" class="mr-auto"
+                                            style="color: #000000; height: 40px; border: #FAFBFE; border-radius: 8px; padding: 5px 15px;"
+                                            data-toggle="modal" data-placement="bottom" data-target="#modal-large-mdc">
+                                            <i class="material-icons icon-14pt text-success">info</i> Interpretación
+                                        </button>
                                     </ul>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!--1.2.2 Precio promedio por M2 totales -->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                    <!--1. Segmentos -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">1.
+                                    Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <!--1.1 Distribución de segmentos -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                             <?php
-                            echo "<li style='font-size: 20px;'>1.2.2 Precio promedio por M2 totales</li>";
+                            echo "<li style='font-size: 20px;'>1.1 Distribución de segmentos</li>";
                             echo "</ol>";
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica -->
-
-
-
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
-                            <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos, ofreciendo una perspectiva clara de la variación de costos en el mercado inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652 para propiedades que superan los 300 metros cuadrados, la visualización destaca la evolución de los precios a medida que aumenta la dimensión de las propiedades.</p>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
+                                    demográfica por rango de edad y género. La gráfica proporciona una representación
+                                    visual de la población de Hidalgo para 2024, segmentada por rangos de edad y género
+                                    para observar cómo se distribuye la población en el estado. </p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Conoce la
+                                    participación en el mercado inmobiliario por segmentos (S, A, B, C, D, E). Cada
+                                    sección representa el porcentaje o proporción en ese segmento específico en relación
+                                    con el total.</p>
+                            </div>
+
+                            <!--1.2 Distribución por M2 construcción por rango -->
+                            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                                <?php
+                                echo "<li style='font-size: 20px;'>1.2 Distribución por M2 construcción por rango</li>";
+                                echo "</ol>";
+                                echo "</ol>";
+                                ?>
+                                <!-- Link de la gráfica -->
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Segmentos</h5>
+                                                <iframe
+                                                    src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html"
+                                                    width="100%" height="300" frameborder="0"
+                                                    style="border: none;"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title">General</h5>
+                                                <iframe
+                                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_construido_pachuca.html"
+                                                    width="100%" height="300" frameborder="0"
+                                                    style="border: none;"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Explicación de la gráfica -->
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Descripción:</strong>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                            Distribución por M2 de construcción por rango para las propiedades en
+                                            diferentes segmentos (S, A, B, C, D, E).
+                                            En función de la cantidad de metros cuadrados de construcción, observa cómo
+                                            se agrupan las viviendas según su tamaño disponible permitiendo una visión
+                                            rápida y clara de cómo se distribuyen y cuales son más predominantes en un
+                                            cierto mercado inmobiliario.
+                                        </p>
+                                        <ul
+                                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                            <li>Si una barra es alta, significa que hay muchas propiedades que tienen un
+                                                tamaño de construcción dentro de ese rango específico.</li>
+                                            <li>Si una barra es baja, existen menos propiedades en ese rango en
+                                                particular.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Interpretación:</strong>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <ul
+                                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                            <li>Segmento S: Posee una alta concentración de propiedades con un tamaño de
+                                                construcción mayor a los 300 m2.</li>
+                                            <li>Segmento A: Tiene una cantidad significativa de propiedades de 0-100m2
+                                                de construcción.</li>
+                                            <li>Segmento B: Destaca las propiedades con 100-150m2, seguido de 150-200m2
+                                                de construcción.</li>
+                                            <li>Segmento C: Las mayores concentraciones son en 200-250m2, seguido de
+                                                150-200m2 de construcción.</li>
+                                            <li>Segmento D: Posee los valores más cercanos a la media presupuestal y
+                                                tiene una distribución equitativa. Destaca las propiedades con un tamaño
+                                                de construcción mayor a los 200-250M2 y mayor a 300M2 de construcción.
+                                            </li>
+                                            <li>Segmento E: Tiene pocos terrenos en m2 de construcción en todos los
+                                                rangos. Esto podría indicar que este segmento tiene una oferta limitada
+                                                de terrenos debido a su poco valor en el mercado.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--1.2.2 Precio promedio por M2 totales -->
+                            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                                <?php
+                                echo "<li style='font-size: 20px;'>1.2.2 Precio promedio por M2 totales</li>";
+                                echo "</ol>";
+                                echo "</ol>";
+                                ?>
+                                <!-- Link de la gráfica -->
+                                <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_pachuca.html"
+                                    width="800" height="400" frameborder="0" id="contenido01"
+                                    style="display: block; margin: 0 auto;"></iframe>
+                                <!-- Explicación de la gráfica -->
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Interpretación:</strong>
+                                    </p>
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
+                                        gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                        ofreciendo una perspectiva clara de la variación de costos en el mercado
+                                        inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
+                                        para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                        la evolución de los precios a medida que aumenta la dimensión de las
+                                        propiedades.</p>
                                 </div>
                             </div>
                         </div>
 
-                         <!-- 1.3 Distribución M2 de terreno por rango -->
+                        <!-- 1.3 Distribución M2 de terreno por rango -->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                             <?php
                             echo "<li style='font-size: 20px;'>1.3 Distribución M2 de terreno por rango</li>";
@@ -148,77 +247,682 @@
                             ?>
                             <!-- Link de la gráfica -->
                             <div class="row">
-                            <div class="col-md-6 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Gráfico de m² Totales</h5>
-                <iframe src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Gráfico de Pastel</h5>
-                <iframe src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>                            <!-- Explicación de la gráfica -->
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">General</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Explicación de la gráfica -->
 
-<div style="text-align: center; margin-top: 50px;">
-    <button onclick="toggleDescription()" style="font-size: 18px; font-family: 'Arial', sans-serif; color: #fff; background-color: #007bff; border: none; cursor: pointer; padding: 10px 20px; border-radius: 5px;">Mostrar Descripción</button>
-    <div id="descriptionContainer" style="display: none; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Descripción:</strong></p>
-        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos, ofreciendo una perspectiva clara de la variación de costos en el mercado inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652 para propiedades que superan los 300 metros cuadrados, la visualización destaca la evolución de los precios a medida que aumenta la dimensión de las propiedades.</p>
-    </div>
-</div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                    ofreciendo una perspectiva clara de la variación de costos en el mercado
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    la evolución de los precios a medida que aumenta la dimensión de las
+                                    propiedades.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La gráfica de
+                                    pastel revela que en Pachuca de Soto el 76.6% de los titulares de créditos tienen
+                                    entre 30 y 59 años, destacando la actividad crediticia de este grupo. Asimismo, el
+                                    14.3% de personas menores de 29 años muestra cierta inclusión financiera en este
+                                    segmento más joven, mientras que el 9.1% de personas mayores de 60 años con créditos
+                                    sugiere su participación en actividades financieras. </p>
+                            </div>
+                        </div>
+                        <!-- 1.4 Distribución recámaras -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>1.4 Distribución recámaras</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_recamaras_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">General</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_pastel_recamaras_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Explicación de la gráfica -->
 
-<script>
-    function toggleDescription() {
-        var descriptionContainer = document.getElementById("descriptionContainer");
-        if (descriptionContainer.style.display === "none") {
-            descriptionContainer.style.display = "block";
-            document.getElementsByTagName("button")[0].textContent = "Ocultar Descripción";
-        } else {
-            descriptionContainer.style.display = "none";
-            document.getElementsByTagName("button")[0].textContent = "Mostrar Descripción";
-        }
-    }
-</script>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                    ofreciendo una perspectiva clara de la variación de costos en el mercado
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    la evolución de los precios a medida que aumenta la dimensión de las
+                                    propiedades.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>Las propiedades con 3 recámaras son las más comunes en todos los segmentos,
+                                            esto se puede observar en las barras altas, con una cantidad significativa
+                                            para el segmento B.</li>
+                                        <li>Subsiguiente, las propiedades con 2 recámaras también son populares en el
+                                            segmento A y B. En contraste, las propiedades con 4 o más recámaras en los
+                                            segmentos C y D.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1.5 Distribución de baños -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>1.5 Distribución de baños</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_baños_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">General</h5>
+                                            <iframe src="/datalpine/resources/jupyter/graficas/g_pie_baños_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Explicación de la gráfica -->
 
-</script>
-<div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
-    <div style="text-align: left;">
-        <ul style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-            <li>Segmento S: Predominan los terrenos con 150-200 M2. Esto significa que en este segmento hay una gran cantidad de terrenos construidos de tamaño medio-amplio.</li>
-            <li>Segmento A : Tiene una concentración de terrenos en el rango de 100-150 M2. Esto indica que los terrenos de tamaño medio son comunes en este segmento.</li>
-            <li>Segmento B, C y D: Muestran una distribución más acentuada entre los terrenos con 100-150 M2 de tamaño. Esto implica que este segmento es más adecuado para aquellos que buscan terrenos de tamaño medio.</li>
-            <li>Segmento E: Tiene pocos terrenos disponibles en todos los rangos. Esto podría indicar que este segmento tiene una oferta limitada de terrenos debido a su poco valor en el mercado.</li>
-        </ul>
-        <div style="text-align: left;">
-            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esto puede ayudar a los compradores a entender qué tamaños de terreno son más comunes en cada segmento.</p>
-        </div>
-    </div>
-</div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                    ofreciendo una perspectiva clara de la variación de costos en el mercado
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    la evolución de los precios a medida que aumenta la dimensión de las
+                                    propiedades.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>En el segmento S, la mayoría de las propiedades tienen 3 y 5 baños. Esto se
+                                            puede observar en las barras altas en este segmento para las propiedades con
+                                            dicho números de baños.</li>
+                                        <li>Para el segmento A, hay una distribución más uniforme entre propiedades con
+                                            2 baños seguido de 1 baño.</li>
+                                        <li>El segmento B muestra una predominancia de propiedades con 3 baños. Esto se
+                                            puede observar en la barra alta en este segmento para las propiedades,
+                                            seguido de 2 baños.</li>
+                                        <li>En los segmentos C y D, la mayoría de las propiedades es común encontrar
+                                            entre 2 a 4 baños.</li>
+                                        <li>El segmento E tiene muy pocas propiedades en cada categoría de número de
+                                            baños. Esto se puede observar en las barras bajas en este segmento para las
+                                            propiedades con cualquier número de baños, predominando 2 baños.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1.6 Distribución de estacionamientos -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>1.6 Distribución de estacionamientos</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_estacionamiento_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">General</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/grafica_pastel_estacionamientos_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                    ofreciendo una perspectiva clara de la variación de costos en el mercado
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    la evolución de los precios a medida que aumenta la dimensión de las
+                                    propiedades.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>La mayoría de las propiedades en todos los segmentos tienen 2 lugares de
+                                            estacionamiento seguido de 1 estacionamiento. Esto se puede observar en las
+                                            barras altas en estos segmentos para las propiedades con estos números de
+                                            estacionamientos.</li>
+                                        <li>El segmento S tiene una notable cantidad de propiedades con 2
+                                            estacionamientos.</li>
+                                        <li>Los segmentos A, B, C, D Y E muestran una preferencia marcada por 2
+                                            estacionamientos. Esto se puede observar en la barra alta en estos segmentos
+                                            para las propiedades seguido de 1 estacionamiento.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--2. Tiempo estimado de venta -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">2.
+                                    Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <!-- 2.1 Tiempo estimado de venta -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>2.1 Tiempo estimado de venta</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">General</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
+                                    de las viviendas en función de la cantidad de meses que han estado en existencia
+                                    para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de venta estimado
+                                    se puede identificar que segmentos tienen una demanda más alta y tienden a venderse
+                                    un poco más rápido y cuales requieren un poco más de tiempo para encontrar
+                                    compradores.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    La mayoría de las viviendas en todos los segmentos tienden a tener una
+                                    antigüedad mayor a los 13 meses antes de ser vendidas. Esto indica que las
+                                    viviendas para dicho mercado requieren de más tiempo para encontrar comprador.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--3. Créditos -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">3.
+                                    Créditos<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <!-- 3.1. Distribución de créditos por género -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>3.1. Distribución de créditos por género</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                        </div> <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
+                                de las viviendas en función de la cantidad de meses que han estado en existencia
+                                para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de venta estimado
+                                se puede identificar que segmentos tienen una demanda más alta y tienden a venderse
+                                un poco más rápido y cuales requieren un poco más de tiempo para encontrar
+                                compradores.</p>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>Un mayor porcentaje de préstamos se otorga a hombres en el mercado
+                                        inmobiliario. Los hombres tienen el 54.4% de los créditos.</li>
+                                    <li>Las mujeres tienen el 45.6% de los créditos. Esto indica que un menor porcentaje
+                                        de préstamos se otorga a mujeres.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 3.2. Destino del crédito-->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>3.2. Destino del crédito</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                        </div> <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Número de
+                                    créditos por tipo de vivienda. Descubre como se distribuyen los créditos de acuerdo
+                                    al
+                                    tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada sección del
+                                    gráfico
+                                    representa la proporción del número de créditos que se destina a un propósito
+                                    específico
+                                    en relación con el total de créditos otorgados para viviendas. Explora hacia donde
+                                    se
+                                    dirige el dinero prestado y comprende las preferencias y necesidades de las personas
+                                    que
+                                    invierten en este sector inmobiliario.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si una sección es grande, significa que una parte significativa de los créditos
+                                        se utiliza para dicho destino.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>La mayoría de los créditos se destinan a viviendas nuevas (838). Esto se
+                                        puede observar en la barra más alta en el gráfico para las viviendas nuevas.
+                                    </li>
+                                    <li>Los créditos para viviendas usadas son también significativos (772).</li>
+                                    <li>Los créditos para mejoramientos son significativamente menores (255).</li>
+                                    <li>Otros programas reciben la menor cantidad de créditos (154).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mercado salario por persona -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Mercado salario por persona<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rango en $</h5>
+                                            <iframe src="/datalpine/resources/jupyter/graficas/mercadosalarial.png"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                clasificación se basa en rangos de valores que representan diferentes niveles en el
+                                mercado salarial promedio por persona. Lo que nos permite entender y comunicar de manera
+                                efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>La tabla proporciona una clasificación del mercado salarial por persona,
+                                        dividida en diferentes categorías desde “G” hasta “S”. Cada categoría representa
+                                        un rango de salario específico.</li>
+                                    <li>La mayoría de las personas se encuentran en la categoría “F” (30.03%), que
+                                        representa salarios entre $5000 y $7,999 pesos, seguida por la categoría
+                                        “F1”(25.56%), que incluye salarios entre $8,000 y $11,999 pesos, y en tercer
+                                        lugar la categoría “G” (23.32%) que representa salarios que ronda los $10 y
+                                        $4,999 pesos indicando que una gran proporción de individuos tiene ingresos
+                                        dentro de esos rangos. A partir de la clasificación “E” y”E1”, los porcentajes
+                                        disminuyen significativamente. Las demás categorías tienen una menor proporción
+                                        de personas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mercado salario por pareja -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <!-- Link de la gráfica -->
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Segmentos</h5>
+                                            <iframe
+                                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_parejas_pachuca.html"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rango en $</h5>
+                                            <iframe src="/datalpine/resources/jupyter/graficas/mercadosalarial.png"
+                                                width="100%" height="300" frameborder="0"
+                                                style="border: none;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                clasificación se basa en rangos de valores que representan diferentes niveles en el
+                                mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de manera
+                                efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>La tabla proporciona una clasificación del mercado salarial por pareja, dividida
+                                        en diferentes categorías desde “G” hasta “S”. Cada categoría representa un rango
+                                        de salario específico y el porcentaje de parejas que caen dentro de ese rango.
+                                    </li>
+                                    <li>La mayoría de las parejas se encuentran en la categoría “F1” (24.00%), que
+                                        representa salarios entre $8000 y $11,999 pesos, seguida por la categoría “E”
+                                        (18.46%), que incluye salarios entre $12000 y $15,999 pesos, y en tercer lugar
+                                        la categoría “F”(14.46%) que incluye a parejas que ganan entre $5000 y $7,999
+                                        pesos. Dichos segmentos representan la proporción de parejas con mayor
+                                        participación del total dentro de los rangos salariales. Las demás categorías
+                                        tienen una menor proporción.</li>
+                                    <li> Esta gráfica nos permite comprender de manera efectiva cómo se distribuyen los
+                                        salarios en el mercado laboral y dónde se encuentra un elemento específico
+                                        dentro de este mercado. Es una herramienta útil para analizar la estructura
+                                        salarial de la población.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Volumen del mercado salarial de parejas -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Volumen del mercado salarial de parejas<span
+                                        class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <!-- Link de la gráfica -->
+                            <iframe
+                                src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta gráfica
+                                    es una representación visual del volumen total de salarios por pareja anuales,
+                                    segmentados por categorías. En otras palabras, nos muestra cómo se divide el dinero
+                                    ganado neto entre diferentes tipos de trabajos y ocupaciones. De un vistazo, podemos
+                                    comprender cómo se distribuye este volumen salarial en diferentes niveles de
+                                    ingresos, lo que proporciona una visión completa de la estructura salarial en
+                                    nuestro mercado laboral.</p>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>Las barras están coloreadas para representar visualmente cada rango de
+                                            ingreso; hay una barra verde, una amarilla y café que son prominentes porque
+                                            representan los volúmenes salariales netos más altos. Los valores exactos
+                                            del volumen salarial están indicados en cada barra para proporcionar
+                                            detalles precisos.
+                                        </li>
+                                        <li>Se observa que la categoría color verde de ingresos de $8000-$11999(F1)
+                                            tiene el volumen salarial más alto, seguido por la categoría de $5000-$8999
+                                            (F). Las categorías con ingresos superiores a 25K(D1) en adelante tienen un
+                                            volumen salarial significativamente menor.</li>
+                                        <li> Este gráfico nos permite comprender de manera efectiva cómo se distribuyen
+                                            los salarios en el mercado laboral y dónde se encuentra un elemento
+                                            específico dentro de este mercado. Es una herramienta útil para analizar la
+                                            estructura salarial de la población.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Profesiones -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <!-- Salario Individual -->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>Salario Individual</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                            <!-- Explicación de la gráfica -->
 
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Explora
+                                        nuestra plataforma para conocer las profesiones que lideran los ingresos y
+                                        aquellas
+                                        que presentan retos económicos. Obtén información detallada sobre los salarios,
+                                        tendencias y perspectivas profesionales, brindándote una visión clara de las
+                                        carreras más y menos lucrativas en el mercado laboral actual..</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- container-fluid -->
-        </div>
-        <!-- End Page-content -->
-        <?php include 'layouts/footer.php'; ?>
+            </div>
+        </div> <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+    <?php include 'layouts/footer.php'; ?>
     </div>
     <!-- end main content-->
-</div>
-<!-- END layout-wrapper -->
-<!-- Right Sidebar -->
-<?php include 'layouts/right-sidebar.php'; ?>
-<!-- /Right-bar -->
-<!-- JAVASCRIPT -->
-<?php include 'layouts/vendor-scripts.php'; ?>
-<script src="assets/js/app.js"></script>
+    </div>
+    <!-- END layout-wrapper -->
+    <!-- Right Sidebar -->
+    <?php include 'layouts/right-sidebar.php'; ?>
+    <!-- /Right-bar -->
+    <!-- JAVASCRIPT -->
+    <?php include 'layouts/vendor-scripts.php'; ?>
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
