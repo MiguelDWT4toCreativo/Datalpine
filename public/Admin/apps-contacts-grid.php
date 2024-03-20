@@ -73,12 +73,14 @@
                     </div>
                 </div>
 
+                <!--1. Segmentos -->
                 <div class="row align-items-center" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;">
                     <div class="col-md-6">
                         <div class="mb-3">
                             <h5 class="card-title" style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">1. Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
+                    <!--1.1 Distribución de segmentos -->
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                         <?php
                         echo "<li style='font-size: 20px;'>1.1 Distribución de segmentos</li>";
@@ -86,13 +88,14 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_segmentosdist_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
                             <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Conoce la participación en el mercado inmobiliario por segmentos (S, A, B, C, D, E). Cada sección representa el porcentaje o proporción en ese segmento específico en relación con el total.</p>
                         </div>
 
+                        <!--1.2 Distribución por M2 construcción por rango -->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                             <?php
                             echo "<li style='font-size: 20px;'>1.2 Distribución por M2 construcción por rango</li>";
@@ -116,14 +119,17 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--1.2.2 Precio promedio por M2 totales -->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                             <?php
                             echo "<li style='font-size: 20px;'>1.2.2 Precio promedio por M2 totales</li>";
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!-- <iframe src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe> -->
+                            <!-- Link de la gráfica -->
+
+
 
                             <!-- Explicación de la gráfica -->
                             <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -132,6 +138,8 @@
                                 </div>
                             </div>
                         </div>
+
+                         <!-- 1.3 Distribución M2 de terreno por rango -->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                             <?php
                             echo "<li style='font-size: 20px;'>1.3 Distribución M2 de terreno por rango</li>";
@@ -139,22 +147,62 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html" width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
-                            <!-- Explicación de la gráfica -->
-                            <div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
-                                <div style="text-align: left;">
-                                    <ul style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Segmento S: Predominan los terrenos con 150-200 M2. Esto significa que en este segmento hay una gran cantidad de terrenos construidos de tamaño medio-amplio.</li>
-                                        <li>Segmento A : Tiene una concentración de terrenos en el rango de 100-150 M2. Esto indica que los terrenos de tamaño medio son comunes en este segmento.</li>
-                                        <li>Segmento B, C y D: Muestran una distribución más acentuada entre los terrenos con 100-150 M2 de tamaño. Esto implica que este segmento es más adecuado para aquellos que buscan terrenos de tamaño medio.</li>
-                                        <li>Segmento E: Tiene pocos terrenos disponibles en todos los rangos. Esto podría indicar que este segmento tiene una oferta limitada de terrenos debido a su poco valor en el mercado.</li>
-                                    </ul>
-                                    <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esto puede ayudar a los compradores a entender qué tamaños de terreno son más comunes en cada segmento.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="row">
+                            <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Gráfico de m² Totales</h5>
+                <iframe src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Gráfico de Pastel</h5>
+                <iframe src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>                            <!-- Explicación de la gráfica -->
+
+<div style="text-align: center; margin-top: 50px;">
+    <button onclick="toggleDescription()" style="font-size: 18px; font-family: 'Arial', sans-serif; color: #fff; background-color: #007bff; border: none; cursor: pointer; padding: 10px 20px; border-radius: 5px;">Mostrar Descripción</button>
+    <div id="descriptionContainer" style="display: none; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Descripción:</strong></p>
+        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos, ofreciendo una perspectiva clara de la variación de costos en el mercado inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652 para propiedades que superan los 300 metros cuadrados, la visualización destaca la evolución de los precios a medida que aumenta la dimensión de las propiedades.</p>
+    </div>
+</div>
+
+<script>
+    function toggleDescription() {
+        var descriptionContainer = document.getElementById("descriptionContainer");
+        if (descriptionContainer.style.display === "none") {
+            descriptionContainer.style.display = "block";
+            document.getElementsByTagName("button")[0].textContent = "Ocultar Descripción";
+        } else {
+            descriptionContainer.style.display = "none";
+            document.getElementsByTagName("button")[0].textContent = "Mostrar Descripción";
+        }
+    }
+</script>
+
+</script>
+<div style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;"><strong>Interpretación:</strong></p>
+    <div style="text-align: left;">
+        <ul style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+            <li>Segmento S: Predominan los terrenos con 150-200 M2. Esto significa que en este segmento hay una gran cantidad de terrenos construidos de tamaño medio-amplio.</li>
+            <li>Segmento A : Tiene una concentración de terrenos en el rango de 100-150 M2. Esto indica que los terrenos de tamaño medio son comunes en este segmento.</li>
+            <li>Segmento B, C y D: Muestran una distribución más acentuada entre los terrenos con 100-150 M2 de tamaño. Esto implica que este segmento es más adecuado para aquellos que buscan terrenos de tamaño medio.</li>
+            <li>Segmento E: Tiene pocos terrenos disponibles en todos los rangos. Esto podría indicar que este segmento tiene una oferta limitada de terrenos debido a su poco valor en el mercado.</li>
+        </ul>
+        <div style="text-align: left;">
+            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esto puede ayudar a los compradores a entender qué tamaños de terreno son más comunes en cada segmento.</p>
+        </div>
+    </div>
+</div>
+
                         </div>
                     </div>
                 </div>
