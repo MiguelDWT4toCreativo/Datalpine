@@ -28,11 +28,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0 font-size-18">Análisis de mercado</h4>
+                                <h4 class="mb-sm-0 font-size-18">Pachuca</h4>
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Pachuca</a></li>
-                                        <li class="breadcrumb-item active">Análisis de mercado</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
+                                        <li class="breadcrumb-item active">Pachuca</li>
                                     </ol>
                                 </div>
                             </div>
@@ -40,45 +40,251 @@
                     </div>
                     <!-- end page title -->
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="card">
-                                <div class="card-header bg-white d-flex align-items-center justify-content-between">
-                                    <h4 class="card-header__title m-0">Mapa de calor</h4>
-                                    <div>
-                                        <input type="button" class="btn btn-outline-dark"
-                                            onclick="mostrar('contenido01') & ocultar('contenido02') "
-                                            value="Códigos postales por precios ">
-                                        <!--<input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido02') & ocultar('contenido01') " value="Mapa 2"> -->
-                                    </div>
-                                </div>
-                                <div class="card-header bg-white d-flex justify-content-center align-items-center">
-                                    <form style="text-align: center;">
-                                        <div>
-                                            <!--
-                                        <iframe src="/dashboard/pachuca_property_map_formatted2.html" width="800" height="400" frameborder="0" id="contenido01"></iframe>
-                                         <iframe src="/pachuca_property_map_formatted.html" width="800" height="500" frameborder="0" id="contenido02" class="oculto"></iframe> -->
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="px-4 py-3" style="background-color: #FAFBFE;">
-                                    <h4 class="card-header__title flex m-0">Descripción: </h4>
-                                    <div class="text"> Este mapa interactivo proporciona una visión detallada de las
-                                        colonias locales, presentando datos esenciales para la toma de decisiones
-                                        inmobiliarias. Desde los precios por metro cuadrado hasta la distribución de
-                                        construcciones, el número de baños y estacionamientos disponibles, cada punto en
-                                        el mapa revela aspectos cruciales para entender el mercado..<br><br></div>
-                                </div>
-                                <div class="px-4 py-3" style="background-color: #FAFBFE;">
-                                    <ul class="nav navbar-nav align-items-center">
-                                        <button type="button" class="mr-auto"
-                                            style="color: #000000; height: 40px; border: #FAFBFE; border-radius: 8px; padding: 5px 15px;"
-                                            data-toggle="modal" data-placement="bottom" data-target="#modal-large-mdc">
-                                            <i class="material-icons icon-14pt text-success">info</i> Interpretación
-                                        </button>
-                                    </ul>
+
+                    <!-- Análisis de mercado -->
+                    <style>
+                        /* Estilos CSS para el título */
+                        .titulo {
+                            text-align: center;
+                            /* Centrar el texto */
+                            color: #0F53E3;
+                            /* Color llamativo (en este caso, naranja) */
+                            font-size: 24px;
+                            /* Tamaño del texto */
+                            font-weight: bold;
+                            /* Negrita */
+                            font-family: Arial, sans-serif;
+                            /* Fuente del texto */
+                        }
+                    </style>
+                    <div class="titulo">
+                        Análisis de mercado
+                    </div>
+                    <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
+                        actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                        transformaciones, tendencias y precios a lo largo del tiempo.</p>
+
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">PRECIO
+                                    MERCADO<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Minimo</p>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Maximo</p>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Promedio</p>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Mediana</p>
+                            </div>
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <!--Mapa de calor -->
+                        <div class="row align-items-center"
+                            style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title"
+                                        style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                        Mapa
+                                        de calor<span class="text-muted fw-normal ms-2"></span></h5>
                                 </div>
                             </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <!-- Link de la gráfica -->
+                                <iframe src="/datalpine/resources/jupyter/mapas/map_2_pachuca.html" width="800"
+                                    height="400" frameborder="0" id="contenido01"
+                                    style="display: block; margin: 0 auto;"></iframe>
+                                <!-- Explicación de la gráfica -->
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Descripción:</strong>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Este
+                                            mapa
+                                            interactivo despliega una representación visual de las colonias locales
+                                            junto
+                                            con
+                                            información clave sobre el mercado inmobiliario como el el precio promedio
+                                            tanto
+                                            de
+                                            propiedades como de m2 de terreno y m2 construido, de igual forma, engloba
+                                            información sobre el promedio de recamaras, baños, cajones de
+                                            estacionamiento y
+                                            precios promedio de m2 de terreno y de construcción.
+                                            Cada colonia se clasifica en un segmento específico, desde E (menor precio)
+                                            hasta S
+                                            (mayor precio), según el rango de precios de las propiedades y están
+                                            representados
+                                            de la siguiente manera: </p>
+                                        <ul
+                                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                            <li>SEGMENTO E: Menor a 1M (Verde)</li>
+                                            <li>SEGMENTO D: 1M - 1.75M (Amarillo)</li>
+                                            <li>SEGMENTO C: 1.75M-2.5M (Azul)</li>
+                                            <li>SEGMENTO B: 2.5M-3.25 (Morado)</li>
+                                            <li>SEGMENTO A: 3.25M-4M (Naranja)</li>
+                                            <li>SEGMENTO S: 4KK+ (Rojo)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Interpretación:</strong>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                            Analizando el mapa, se destaca que en Pachuca, varias colonias se encuentran
+                                            principalmente en el segmento de precios más alto, identificado como S.
+                                            Entre
+                                            ellas se incluyen:</p>
+                                        <ul
+                                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                            <li>Valle de San Javier</li>
+                                            <li>Club de Golf</li>
+                                            <li>La Moraleja</li>
+                                            <li>Periodista</li>
+                                        </ul>
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                            Por otro lado, se observa que entre las colonias con precios más accesibles
+                                            se
+                                            encuentra:</p>
+                                        <ul
+                                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                            <li>Santa Julia</li>
+                                            <li>Piracantos</li>
+                                            <li>Pitahayas</li>
+                                        </ul>
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                            Este mapa nos proporciona una visión clara de la diversidad de precios en
+                                            las
+                                            diferentes colonias de Pachuca.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Mapa de calor Propiedades -->
+                        <div class="row align-items-center"
+                            style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title"
+                                        style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                        Mapa
+                                        de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
+                                </div>
+                            </div>
+                    
+                            <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" width="800"
+                                height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">El mapa
+                                    de calor presentado ofrece una visualización de la densidad de propiedades
+                                    disponibles en la ciudad. La representación utiliza una escala de colores que va
+                                    desde el rojo intenso, indicando una alta concentración de propiedades en una
+                                    zona específica, hasta el azul más claro, denotando una menor oferta de
+                                    propiedades en esa área, donde cada propiedad está geolocalizada mediante sus
+                                    coordenadas de latitud y longitud.
+                                    Esta representación permite identificar fácilmente áreas con alta demanda y
+                                    concentración de propiedades, así como áreas con menor competencia y potencial
+                                    para el desarrollo inmobiliario. </p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                El análisis de la distribución de la oferta de propiedades revela que algunas
+                                colonias destacan por su alta densidad de disponibilidad, como La Providencia,
+                                Miguel Hidalgo, Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa.
+                                Por otro lado, existen colonias donde la oferta es notablemente más limitada, como
+                                La Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
+                                Privada Rinconadas del Sur. Este panorama ofrece una visión clara de las áreas con
+                                mayor y menor disponibilidad de propiedades.</p>
+                        </div>
+                    </div>
+
+                    <!--Clientes potenciales foráneos -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Clientes potenciales foráneos<span class="text-muted fw-normal ms-2"></span></h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                            <!-- Link de la gráfica -->
+                            <?php
+                            // Ruta de la imagen
+                            $ruta_imagen = "/datalpine/resources/jupyter/mapas/map_ClientesPotencialesForaneos_pachuca.png";
+                            $ancho_imagen = 800; // Ancho deseado para la imagen
+                            $alto_imagen = 400; // Alto deseado para la imagen
+                            ?>
+
+                            <!-- Contenedor para centrar la imagen -->
+                            <div style="display: flex; justify-content: center;">
+                                <!-- Insertar la imagen en el contenedor -->
+                                <img src="<?php echo $ruta_imagen; ?>" width="<?php echo $ancho_imagen; ?>"
+                                    height="<?php echo $alto_imagen; ?>" alt="Imagen">
+                            </div>
+
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">El mapa
+                                    proporciona una representación de la distribución de compradores foráneos
+                                    interesados en adquirir propiedades en la zona metropolitana de Pachuca. Estos
+                                    compradores están clasificados por su región de origen y se ponderan según la
+                                    importancia relativa asignada basada en un meticuloso análisis de variables clave,
+                                    como el tamaño del mercado, la demanda del producto o servicio y la accesibilidad
+                                    logística. Con esta información, se puede comprender la procedencia geográfica de
+                                    los interesados en el mercado inmobiliario local, lo que facilita la identificación
+                                    de tendencias y preferencias de compra. </p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                El mapa proporciona datos sobre la distribución de compradores foráneos interesados en
+                                adquirir propiedades en la ciudad de Pachuca. Estos compradores están clasificados por
+                                región de origen y se muestran sus respectivas ponderaciones, reflejando el porcentaje
+                                de contribución relativa de cada región al total de compradores foráneos.
+                                Según los datos, la región de Ciudad de México representa el mayor porcentaje, con un
+                                33%, seguida por el Estado de México con un 27%, Nuevo León con un 20%, Jalisco con un
+                                13%, y finalmente Puebla con un 7%.
+                                Este análisis revela la procedencia geográfica de los compradores foráneos y su
+                                importancia relativa en el mercado inmobiliario de Pachuca, lo que puede ser esencial
+                                para comprender y atender las necesidades de estos grupos de compradores en particular.
+                            </p>
                         </div>
                     </div>
 
@@ -88,7 +294,8 @@
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <h5 class="card-title"
-                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">1.
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    1.
                                     Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
                             </div>
                         </div>
@@ -109,9 +316,13 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
-                                    demográfica por rango de edad y género. La gráfica proporciona una representación
-                                    visual de la población de Hidalgo para 2024, segmentada por rangos de edad y género
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Distribución
+                                    demográfica por rango de edad y género. La gráfica proporciona una
+                                    representación
+                                    visual de la población de Hidalgo para 2024, segmentada por rangos de
+                                    edad y
+                                    género
                                     para observar cómo se distribuye la población en el estado. </p>
                             </div>
                             <div
@@ -119,9 +330,14 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Interpretación:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Conoce la
-                                    participación en el mercado inmobiliario por segmentos (S, A, B, C, D, E). Cada
-                                    sección representa el porcentaje o proporción en ese segmento específico en relación
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Conoce la
+                                    participación en el mercado inmobiliario por segmentos (S, A, B, C, D,
+                                    E).
+                                    Cada
+                                    sección representa el porcentaje o proporción en ese segmento específico
+                                    en
+                                    relación
                                     con el total.</p>
                             </div>
 
@@ -165,18 +381,28 @@
                                     </p>
                                     <div style="text-align: left;">
                                         <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                            Distribución por M2 de construcción por rango para las propiedades en
+                                            Distribución por M2 de construcción por rango para las
+                                            propiedades
+                                            en
                                             diferentes segmentos (S, A, B, C, D, E).
-                                            En función de la cantidad de metros cuadrados de construcción, observa cómo
-                                            se agrupan las viviendas según su tamaño disponible permitiendo una visión
-                                            rápida y clara de cómo se distribuyen y cuales son más predominantes en un
+                                            En función de la cantidad de metros cuadrados de construcción,
+                                            observa cómo
+                                            se agrupan las viviendas según su tamaño disponible permitiendo
+                                            una
+                                            visión
+                                            rápida y clara de cómo se distribuyen y cuales son más
+                                            predominantes
+                                            en un
                                             cierto mercado inmobiliario.
                                         </p>
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                            <li>Si una barra es alta, significa que hay muchas propiedades que tienen un
+                                            <li>Si una barra es alta, significa que hay muchas propiedades
+                                                que
+                                                tienen un
                                                 tamaño de construcción dentro de ese rango específico.</li>
-                                            <li>Si una barra es baja, existen menos propiedades en ese rango en
+                                            <li>Si una barra es baja, existen menos propiedades en ese rango
+                                                en
                                                 particular.</li>
                                         </ul>
                                     </div>
@@ -190,20 +416,35 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>Segmento S: Posee una alta concentración de propiedades con un tamaño de
+                                            <li>Segmento S: Posee una alta concentración de propiedades con
+                                                un
+                                                tamaño de
                                                 construcción mayor a los 300 m2.</li>
-                                            <li>Segmento A: Tiene una cantidad significativa de propiedades de 0-100m2
+                                            <li>Segmento A: Tiene una cantidad significativa de propiedades
+                                                de
+                                                0-100m2
                                                 de construcción.</li>
-                                            <li>Segmento B: Destaca las propiedades con 100-150m2, seguido de 150-200m2
+                                            <li>Segmento B: Destaca las propiedades con 100-150m2, seguido
+                                                de
+                                                150-200m2
                                                 de construcción.</li>
-                                            <li>Segmento C: Las mayores concentraciones son en 200-250m2, seguido de
+                                            <li>Segmento C: Las mayores concentraciones son en 200-250m2,
+                                                seguido de
                                                 150-200m2 de construcción.</li>
-                                            <li>Segmento D: Posee los valores más cercanos a la media presupuestal y
-                                                tiene una distribución equitativa. Destaca las propiedades con un tamaño
-                                                de construcción mayor a los 200-250M2 y mayor a 300M2 de construcción.
+                                            <li>Segmento D: Posee los valores más cercanos a la media
+                                                presupuestal y
+                                                tiene una distribución equitativa. Destaca las propiedades
+                                                con
+                                                un tamaño
+                                                de construcción mayor a los 200-250M2 y mayor a 300M2 de
+                                                construcción.
                                             </li>
-                                            <li>Segmento E: Tiene pocos terrenos en m2 de construcción en todos los
-                                                rangos. Esto podría indicar que este segmento tiene una oferta limitada
+                                            <li>Segmento E: Tiene pocos terrenos en m2 de construcción en
+                                                todos
+                                                los
+                                                rangos. Esto podría indicar que este segmento tiene una
+                                                oferta
+                                                limitada
                                                 de terrenos debido a su poco valor en el mercado.</li>
                                         </ul>
                                     </div>
@@ -227,11 +468,19 @@
                                     <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                         <strong>Interpretación:</strong>
                                     </p>
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
-                                        gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
-                                        ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                        inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
-                                        para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        La
+                                        gráfica presenta los precios promedio por metro cuadrado en
+                                        diferentes
+                                        rangos,
+                                        ofreciendo una perspectiva clara de la variación de costos en el
+                                        mercado
+                                        inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados
+                                        hasta
+                                        $19,652
+                                        para propiedades que superan los 300 metros cuadrados, la
+                                        visualización
+                                        destaca
                                         la evolución de los precios a medida que aumenta la dimensión de las
                                         propiedades.</p>
                                 </div>
@@ -276,11 +525,15 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
-                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes
+                                    rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
-                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta
+                                    $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización
+                                    destaca
                                     la evolución de los precios a medida que aumenta la dimensión de las
                                     propiedades.</p>
                             </div>
@@ -289,11 +542,20 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Interpretación:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La gráfica de
-                                    pastel revela que en Pachuca de Soto el 76.6% de los titulares de créditos tienen
-                                    entre 30 y 59 años, destacando la actividad crediticia de este grupo. Asimismo, el
-                                    14.3% de personas menores de 29 años muestra cierta inclusión financiera en este
-                                    segmento más joven, mientras que el 9.1% de personas mayores de 60 años con créditos
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La
+                                    gráfica de
+                                    pastel revela que en Pachuca de Soto el 76.6% de los titulares de
+                                    créditos
+                                    tienen
+                                    entre 30 y 59 años, destacando la actividad crediticia de este grupo.
+                                    Asimismo, el
+                                    14.3% de personas menores de 29 años muestra cierta inclusión financiera
+                                    en
+                                    este
+                                    segmento más joven, mientras que el 9.1% de personas mayores de 60 años
+                                    con
+                                    créditos
                                     sugiere su participación en actividades financieras. </p>
                             </div>
                         </div>
@@ -335,11 +597,15 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
-                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes
+                                    rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
-                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta
+                                    $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización
+                                    destaca
                                     la evolución de los precios a medida que aumenta la dimensión de las
                                     propiedades.</p>
                             </div>
@@ -351,11 +617,17 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Las propiedades con 3 recámaras son las más comunes en todos los segmentos,
-                                            esto se puede observar en las barras altas, con una cantidad significativa
+                                        <li>Las propiedades con 3 recámaras son las más comunes en todos los
+                                            segmentos,
+                                            esto se puede observar en las barras altas, con una cantidad
+                                            significativa
                                             para el segmento B.</li>
-                                        <li>Subsiguiente, las propiedades con 2 recámaras también son populares en el
-                                            segmento A y B. En contraste, las propiedades con 4 o más recámaras en los
+                                        <li>Subsiguiente, las propiedades con 2 recámaras también son
+                                            populares
+                                            en el
+                                            segmento A y B. En contraste, las propiedades con 4 o más
+                                            recámaras
+                                            en los
                                             segmentos C y D.</li>
                                     </ul>
                                 </div>
@@ -397,11 +669,15 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
-                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes
+                                    rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
-                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta
+                                    $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización
+                                    destaca
                                     la evolución de los precios a medida que aumenta la dimensión de las
                                     propiedades.</p>
                             </div>
@@ -413,19 +689,31 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>En el segmento S, la mayoría de las propiedades tienen 3 y 5 baños. Esto se
-                                            puede observar en las barras altas en este segmento para las propiedades con
+                                        <li>En el segmento S, la mayoría de las propiedades tienen 3 y 5
+                                            baños.
+                                            Esto se
+                                            puede observar en las barras altas en este segmento para las
+                                            propiedades con
                                             dicho números de baños.</li>
-                                        <li>Para el segmento A, hay una distribución más uniforme entre propiedades con
+                                        <li>Para el segmento A, hay una distribución más uniforme entre
+                                            propiedades con
                                             2 baños seguido de 1 baño.</li>
-                                        <li>El segmento B muestra una predominancia de propiedades con 3 baños. Esto se
-                                            puede observar en la barra alta en este segmento para las propiedades,
+                                        <li>El segmento B muestra una predominancia de propiedades con 3
+                                            baños.
+                                            Esto se
+                                            puede observar en la barra alta en este segmento para las
+                                            propiedades,
                                             seguido de 2 baños.</li>
-                                        <li>En los segmentos C y D, la mayoría de las propiedades es común encontrar
+                                        <li>En los segmentos C y D, la mayoría de las propiedades es común
+                                            encontrar
                                             entre 2 a 4 baños.</li>
-                                        <li>El segmento E tiene muy pocas propiedades en cada categoría de número de
-                                            baños. Esto se puede observar en las barras bajas en este segmento para las
-                                            propiedades con cualquier número de baños, predominando 2 baños.</li>
+                                        <li>El segmento E tiene muy pocas propiedades en cada categoría de
+                                            número de
+                                            baños. Esto se puede observar en las barras bajas en este
+                                            segmento
+                                            para las
+                                            propiedades con cualquier número de baños, predominando 2 baños.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -468,11 +756,15 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">La
-                                    gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La
+                                    gráfica presenta los precios promedio por metro cuadrado en diferentes
+                                    rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta $19,652
-                                    para propiedades que superan los 300 metros cuadrados, la visualización destaca
+                                    inmobiliario. Desde $17,784 en el rango de 0-100 metros cuadrados hasta
+                                    $19,652
+                                    para propiedades que superan los 300 metros cuadrados, la visualización
+                                    destaca
                                     la evolución de los precios a medida que aumenta la dimensión de las
                                     propiedades.</p>
                             </div>
@@ -484,14 +776,21 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>La mayoría de las propiedades en todos los segmentos tienen 2 lugares de
-                                            estacionamiento seguido de 1 estacionamiento. Esto se puede observar en las
-                                            barras altas en estos segmentos para las propiedades con estos números de
+                                        <li>La mayoría de las propiedades en todos los segmentos tienen 2
+                                            lugares de
+                                            estacionamiento seguido de 1 estacionamiento. Esto se puede
+                                            observar
+                                            en las
+                                            barras altas en estos segmentos para las propiedades con estos
+                                            números de
                                             estacionamientos.</li>
                                         <li>El segmento S tiene una notable cantidad de propiedades con 2
                                             estacionamientos.</li>
-                                        <li>Los segmentos A, B, C, D Y E muestran una preferencia marcada por 2
-                                            estacionamientos. Esto se puede observar en la barra alta en estos segmentos
+                                        <li>Los segmentos A, B, C, D Y E muestran una preferencia marcada
+                                            por 2
+                                            estacionamientos. Esto se puede observar en la barra alta en
+                                            estos
+                                            segmentos
                                             para las propiedades seguido de 1 estacionamiento.</li>
                                     </ul>
                                 </div>
@@ -504,8 +803,10 @@
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <h5 class="card-title"
-                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">2.
-                                    Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span></h5>
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    2.
+                                    Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
                             </div>
                         </div>
                         <!-- 2.1 Tiempo estimado de venta -->
@@ -545,11 +846,18 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
-                                    de las viviendas en función de la cantidad de meses que han estado en existencia
-                                    para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de venta estimado
-                                    se puede identificar que segmentos tienen una demanda más alta y tienden a venderse
-                                    un poco más rápido y cuales requieren un poco más de tiempo para encontrar
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Distribución
+                                    de las viviendas en función de la cantidad de meses que han estado en
+                                    existencia
+                                    para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
+                                    venta
+                                    estimado
+                                    se puede identificar que segmentos tienen una demanda más alta y tienden
+                                    a
+                                    venderse
+                                    un poco más rápido y cuales requieren un poco más de tiempo para
+                                    encontrar
                                     compradores.</p>
                             </div>
                             <div
@@ -560,8 +868,10 @@
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     La mayoría de las viviendas en todos los segmentos tienden a tener una
-                                    antigüedad mayor a los 13 meses antes de ser vendidas. Esto indica que las
-                                    viviendas para dicho mercado requieren de más tiempo para encontrar comprador.</p>
+                                    antigüedad mayor a los 13 meses antes de ser vendidas. Esto indica que
+                                    las
+                                    viviendas para dicho mercado requieren de más tiempo para encontrar
+                                    comprador.</p>
                             </div>
                         </div>
                     </div>
@@ -571,7 +881,8 @@
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <h5 class="card-title"
-                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">3.
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    3.
                                     Créditos<span class="text-muted fw-normal ms-2"></span></h5>
                             </div>
                         </div>
@@ -592,10 +903,14 @@
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                 <strong>Descripción:</strong>
                             </p>
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Distribución
-                                de las viviendas en función de la cantidad de meses que han estado en existencia
-                                para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de venta estimado
-                                se puede identificar que segmentos tienen una demanda más alta y tienden a venderse
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                Distribución
+                                de las viviendas en función de la cantidad de meses que han estado en
+                                existencia
+                                para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de venta
+                                estimado
+                                se puede identificar que segmentos tienen una demanda más alta y tienden a
+                                venderse
                                 un poco más rápido y cuales requieren un poco más de tiempo para encontrar
                                 compradores.</p>
                         </div>
@@ -609,7 +924,9 @@
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     <li>Un mayor porcentaje de préstamos se otorga a hombres en el mercado
                                         inmobiliario. Los hombres tienen el 54.4% de los créditos.</li>
-                                    <li>Las mujeres tienen el 45.6% de los créditos. Esto indica que un menor porcentaje
+                                    <li>Las mujeres tienen el 45.6% de los créditos. Esto indica que un
+                                        menor
+                                        porcentaje
                                         de préstamos se otorga a mujeres.</li>
                                 </ul>
                             </div>
@@ -632,21 +949,33 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Número de
-                                    créditos por tipo de vivienda. Descubre como se distribuyen los créditos de acuerdo
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Número de
+                                    créditos por tipo de vivienda. Descubre como se distribuyen los créditos
+                                    de
+                                    acuerdo
                                     al
-                                    tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada sección del
+                                    tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada
+                                    sección
+                                    del
                                     gráfico
-                                    representa la proporción del número de créditos que se destina a un propósito
+                                    representa la proporción del número de créditos que se destina a un
+                                    propósito
                                     específico
-                                    en relación con el total de créditos otorgados para viviendas. Explora hacia donde
+                                    en relación con el total de créditos otorgados para viviendas. Explora
+                                    hacia
+                                    donde
                                     se
-                                    dirige el dinero prestado y comprende las preferencias y necesidades de las personas
+                                    dirige el dinero prestado y comprende las preferencias y necesidades de
+                                    las
+                                    personas
                                     que
                                     invierten en este sector inmobiliario.</p>
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>Si una sección es grande, significa que una parte significativa de los créditos
+                                    <li>Si una sección es grande, significa que una parte significativa de
+                                        los
+                                        créditos
                                         se utiliza para dicho destino.</li>
                                 </ul>
                             </div>
@@ -658,11 +987,16 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>La mayoría de los créditos se destinan a viviendas nuevas (838). Esto se
-                                        puede observar en la barra más alta en el gráfico para las viviendas nuevas.
+                                    <li>La mayoría de los créditos se destinan a viviendas nuevas (838).
+                                        Esto se
+                                        puede observar en la barra más alta en el gráfico para las viviendas
+                                        nuevas.
                                     </li>
-                                    <li>Los créditos para viviendas usadas son también significativos (772).</li>
-                                    <li>Los créditos para mejoramientos son significativamente menores (255).</li>
+                                    <li>Los créditos para viviendas usadas son también significativos (772).
+                                    </li>
+                                    <li>Los créditos para mejoramientos son significativamente menores
+                                        (255).
+                                    </li>
                                     <li>Otros programas reciben la menor cantidad de créditos (154).</li>
                                 </ul>
                             </div>
@@ -675,7 +1009,8 @@
                             <div class="mb-3">
                                 <h5 class="card-title"
                                     style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Mercado salario por persona<span class="text-muted fw-normal ms-2"></span></h5>
+                                    Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
                             </div>
                         </div>
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
@@ -710,8 +1045,12 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
-                                clasificación se basa en rangos de valores que representan diferentes niveles en el
-                                mercado salarial promedio por persona. Lo que nos permite entender y comunicar de manera
+                                clasificación se basa en rangos de valores que representan diferentes
+                                niveles en
+                                el
+                                mercado salarial promedio por persona. Lo que nos permite entender y
+                                comunicar
+                                de manera
                                 efectiva dónde se encuentra un determinado elemento en el mercado.</p>
                         </div>
                         <div
@@ -722,16 +1061,29 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>La tabla proporciona una clasificación del mercado salarial por persona,
-                                        dividida en diferentes categorías desde “G” hasta “S”. Cada categoría representa
+                                    <li>La tabla proporciona una clasificación del mercado salarial por
+                                        persona,
+                                        dividida en diferentes categorías desde “G” hasta “S”. Cada
+                                        categoría
+                                        representa
                                         un rango de salario específico.</li>
-                                    <li>La mayoría de las personas se encuentran en la categoría “F” (30.03%), que
-                                        representa salarios entre $5000 y $7,999 pesos, seguida por la categoría
-                                        “F1”(25.56%), que incluye salarios entre $8,000 y $11,999 pesos, y en tercer
-                                        lugar la categoría “G” (23.32%) que representa salarios que ronda los $10 y
-                                        $4,999 pesos indicando que una gran proporción de individuos tiene ingresos
-                                        dentro de esos rangos. A partir de la clasificación “E” y”E1”, los porcentajes
-                                        disminuyen significativamente. Las demás categorías tienen una menor proporción
+                                    <li>La mayoría de las personas se encuentran en la categoría “F”
+                                        (30.03%),
+                                        que
+                                        representa salarios entre $5000 y $7,999 pesos, seguida por la
+                                        categoría
+                                        “F1”(25.56%), que incluye salarios entre $8,000 y $11,999 pesos, y
+                                        en
+                                        tercer
+                                        lugar la categoría “G” (23.32%) que representa salarios que ronda
+                                        los
+                                        $10 y
+                                        $4,999 pesos indicando que una gran proporción de individuos tiene
+                                        ingresos
+                                        dentro de esos rangos. A partir de la clasificación “E” y”E1”, los
+                                        porcentajes
+                                        disminuyen significativamente. Las demás categorías tienen una menor
+                                        proporción
                                         de personas.</li>
                                 </ul>
                             </div>
@@ -744,7 +1096,8 @@
                             <div class="mb-3">
                                 <h5 class="card-title"
                                     style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span></h5>
+                                    Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
                             </div>
                         </div>
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
@@ -779,8 +1132,12 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
-                                clasificación se basa en rangos de valores que representan diferentes niveles en el
-                                mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de manera
+                                clasificación se basa en rangos de valores que representan diferentes
+                                niveles en
+                                el
+                                mercado salarial promedio por pareja. Lo que nos permite entender y
+                                comunicar de
+                                manera
                                 efectiva dónde se encuentra un determinado elemento en el mercado.</p>
                         </div>
                         <div
@@ -791,20 +1148,38 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>La tabla proporciona una clasificación del mercado salarial por pareja, dividida
-                                        en diferentes categorías desde “G” hasta “S”. Cada categoría representa un rango
-                                        de salario específico y el porcentaje de parejas que caen dentro de ese rango.
+                                    <li>La tabla proporciona una clasificación del mercado salarial por
+                                        pareja,
+                                        dividida
+                                        en diferentes categorías desde “G” hasta “S”. Cada categoría
+                                        representa
+                                        un rango
+                                        de salario específico y el porcentaje de parejas que caen dentro de
+                                        ese
+                                        rango.
                                     </li>
-                                    <li>La mayoría de las parejas se encuentran en la categoría “F1” (24.00%), que
-                                        representa salarios entre $8000 y $11,999 pesos, seguida por la categoría “E”
-                                        (18.46%), que incluye salarios entre $12000 y $15,999 pesos, y en tercer lugar
-                                        la categoría “F”(14.46%) que incluye a parejas que ganan entre $5000 y $7,999
-                                        pesos. Dichos segmentos representan la proporción de parejas con mayor
-                                        participación del total dentro de los rangos salariales. Las demás categorías
+                                    <li>La mayoría de las parejas se encuentran en la categoría “F1”
+                                        (24.00%),
+                                        que
+                                        representa salarios entre $8000 y $11,999 pesos, seguida por la
+                                        categoría “E”
+                                        (18.46%), que incluye salarios entre $12000 y $15,999 pesos, y en
+                                        tercer
+                                        lugar
+                                        la categoría “F”(14.46%) que incluye a parejas que ganan entre $5000
+                                        y
+                                        $7,999
+                                        pesos. Dichos segmentos representan la proporción de parejas con
+                                        mayor
+                                        participación del total dentro de los rangos salariales. Las demás
+                                        categorías
                                         tienen una menor proporción.</li>
-                                    <li> Esta gráfica nos permite comprender de manera efectiva cómo se distribuyen los
-                                        salarios en el mercado laboral y dónde se encuentra un elemento específico
-                                        dentro de este mercado. Es una herramienta útil para analizar la estructura
+                                    <li> Esta gráfica nos permite comprender de manera efectiva cómo se
+                                        distribuyen los
+                                        salarios en el mercado laboral y dónde se encuentra un elemento
+                                        específico
+                                        dentro de este mercado. Es una herramienta útil para analizar la
+                                        estructura
                                         salarial de la población.</li>
                                 </ul>
                             </div>
@@ -818,7 +1193,8 @@
                                 <h5 class="card-title"
                                     style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
                                     Volumen del mercado salarial de parejas<span
-                                        class="text-muted fw-normal ms-2"></span></h5>
+                                        class="text-muted fw-normal ms-2"></span>
+                                </h5>
                             </div>
                         </div>
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
@@ -833,12 +1209,22 @@
                                 <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                     <strong>Descripción:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta gráfica
-                                    es una representación visual del volumen total de salarios por pareja anuales,
-                                    segmentados por categorías. En otras palabras, nos muestra cómo se divide el dinero
-                                    ganado neto entre diferentes tipos de trabajos y ocupaciones. De un vistazo, podemos
-                                    comprender cómo se distribuye este volumen salarial en diferentes niveles de
-                                    ingresos, lo que proporciona una visión completa de la estructura salarial en
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Esta
+                                    gráfica
+                                    es una representación visual del volumen total de salarios por pareja
+                                    anuales,
+                                    segmentados por categorías. En otras palabras, nos muestra cómo se
+                                    divide el
+                                    dinero
+                                    ganado neto entre diferentes tipos de trabajos y ocupaciones. De un
+                                    vistazo,
+                                    podemos
+                                    comprender cómo se distribuye este volumen salarial en diferentes
+                                    niveles de
+                                    ingresos, lo que proporciona una visión completa de la estructura
+                                    salarial
+                                    en
                                     nuestro mercado laboral.</p>
                             </div>
                             <div
@@ -849,19 +1235,32 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Las barras están coloreadas para representar visualmente cada rango de
-                                            ingreso; hay una barra verde, una amarilla y café que son prominentes porque
-                                            representan los volúmenes salariales netos más altos. Los valores exactos
-                                            del volumen salarial están indicados en cada barra para proporcionar
+                                        <li>Las barras están coloreadas para representar visualmente cada
+                                            rango
+                                            de
+                                            ingreso; hay una barra verde, una amarilla y café que son
+                                            prominentes porque
+                                            representan los volúmenes salariales netos más altos. Los
+                                            valores
+                                            exactos
+                                            del volumen salarial están indicados en cada barra para
+                                            proporcionar
                                             detalles precisos.
                                         </li>
-                                        <li>Se observa que la categoría color verde de ingresos de $8000-$11999(F1)
-                                            tiene el volumen salarial más alto, seguido por la categoría de $5000-$8999
-                                            (F). Las categorías con ingresos superiores a 25K(D1) en adelante tienen un
+                                        <li>Se observa que la categoría color verde de ingresos de
+                                            $8000-$11999(F1)
+                                            tiene el volumen salarial más alto, seguido por la categoría de
+                                            $5000-$8999
+                                            (F). Las categorías con ingresos superiores a 25K(D1) en
+                                            adelante
+                                            tienen un
                                             volumen salarial significativamente menor.</li>
-                                        <li> Este gráfico nos permite comprender de manera efectiva cómo se distribuyen
-                                            los salarios en el mercado laboral y dónde se encuentra un elemento
-                                            específico dentro de este mercado. Es una herramienta útil para analizar la
+                                        <li> Este gráfico nos permite comprender de manera efectiva cómo se
+                                            distribuyen
+                                            los salarios en el mercado laboral y dónde se encuentra un
+                                            elemento
+                                            específico dentro de este mercado. Es una herramienta útil para
+                                            analizar la
                                             estructura salarial de la población.</li>
                                     </ul>
                                 </div>
@@ -897,25 +1296,30 @@
                                     <strong>Interpretación:</strong>
                                 </p>
                                 <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Explora
-                                        nuestra plataforma para conocer las profesiones que lideran los ingresos y
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Explora
+                                        nuestra plataforma para conocer las profesiones que lideran los
+                                        ingresos
+                                        y
                                         aquellas
-                                        que presentan retos económicos. Obtén información detallada sobre los salarios,
-                                        tendencias y perspectivas profesionales, brindándote una visión clara de las
+                                        que presentan retos económicos. Obtén información detallada sobre
+                                        los
+                                        salarios,
+                                        tendencias y perspectivas profesionales, brindándote una visión
+                                        clara de
+                                        las
                                         carreras más y menos lucrativas en el mercado laboral actual..</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div> <!-- container-fluid -->
-    </div>
-    <!-- End Page-content -->
-    <?php include 'layouts/footer.php'; ?>
+            </div> <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+        <?php include 'layouts/footer.php'; ?>
     </div>
     <!-- end main content-->
-    </div>
     <!-- END layout-wrapper -->
     <!-- Right Sidebar -->
     <?php include 'layouts/right-sidebar.php'; ?>
