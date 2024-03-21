@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.php" class="d-block auth-logo">
-                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
+                                    <img src="assets/images/LogoD1.jpg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
                                 </a>
                             </div>
                             <div class="auth-content my-auto">
@@ -117,14 +117,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                                 <form class="mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                                        <label class="form-label" for="username">CORREO ELECTRÓNICO:</label>
-                                        <input type="text" class="form-control" id="nombre" placeholder="EMAIL" name="nombre" value="miguel">
+                                        <label class="form-label" for="username">Usuario:</label>
+                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre del usuario" name="nombre" value="miguel">
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
                                     <div class="mb-3 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                                         <div class="d-flex align-items-start">
                                             <div class="flex-grow-1">
-                                                <label class="form-label" for="password">CONTRASEÑA:</label>
+                                                <label class="form-label" for="password">Contraseña:</label>
                                             </div>
                                             <div class="flex-shrink-0">
                                                 <div class="">
