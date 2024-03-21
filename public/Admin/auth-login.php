@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <head>
 
-    <title>Login | Minia - Admin & Dashboard Template</title>
+    <title>Login | Datalpine</title>
     <?php include 'layouts/head.php'; ?>
 
     <?php include 'layouts/head-style.php'; ?>
@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                                 <form class="mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                                        <label class="form-label" for="username">CORREO ELECTRÓNICO:</label>
+                                        <label class="form-label" for="username">USUARIO:</label>
                                         <input type="text" class="form-control" id="nombre" placeholder="EMAIL" name="nombre" value="miguel">
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>

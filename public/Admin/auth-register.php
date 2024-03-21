@@ -79,12 +79,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt = mysqli_prepare($link, $sql)) {
             // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "ssss", $param_username, $param_useremail, $param_password, $param_typeuser="usuario");
+            mysqli_stmt_bind_param($stmt, "ssss", $param_username, $param_useremail, $param_password, $param_typeuser);
 
             // Set parameters
             $param_username = $username;
             $param_useremail = $useremail;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
+            $param_typeuser="usuario";
 
             // Attempt to execute the prepared statement
             if (mysqli_stmt_execute($stmt)) {
@@ -107,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <head>
 
-    <title>Register | Minia - Admin & Dashboard Template</title>
+    <title>Register | Datalpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
