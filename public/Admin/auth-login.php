@@ -117,13 +117,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                                 <form class="mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-<<<<<<< HEAD
+
                                         <label class="form-label" for="username">Usuario:</label>
                                         <input type="text" class="form-control" id="nombre" placeholder="Nombre del usuario" name="nombre" value="miguel">
-=======
-                                        <label class="form-label" for="username">USUARIO:</label>
-                                        <input type="text" class="form-control" id="nombre" placeholder="EMAIL" name="nombre" value="miguel">
->>>>>>> 701129298094118b596769af4fef25e0d9995504
+
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
                                     <div class="mb-3 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
