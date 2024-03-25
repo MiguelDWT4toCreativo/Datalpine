@@ -949,16 +949,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- 4.4. Promedio de valor de Créditos para casas nueva y para vivienda usada -->
-                <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    <?php
-                    echo "<li style='font-size: 20px;'>4.4. Promedio de valor de Créditos para casas nueva y para vivienda usada</li>";
-                    echo "</ol>";
-                    echo "</ol>";
-                    ?>
-                    <!-- Link de la gráfica PENDIENTE-->
-                    <!-- 
+
+                    <!-- 4.4. Promedio de valor de Créditos para casas nueva y para vivienda usada -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.4. Promedio de valor de Créditos para casas nueva y para vivienda usada</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
@@ -983,125 +983,125 @@
                                         </div>
                                     </div>
                 -->
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                Tendencia del valor promedio de los créditos para viviendas nuevas y de uso a lo
-                                largo de 2022 en el mercado inmobiliario.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>Si se observa una tendencia ascendente, significa que el valor promedio de los
-                                    créditos ha ido aumentando a lo largo del año.
-                                </li>
-                                <li>Si muestra una tendencia descendente, señala que la media de los precios ha
-                                    disminuido.
-                                </li>
-                                <li>Si se observan picos en la tendencia puede indicar momentos en el que el mercado
-                                    experimentó un aumento significativo en el valor de los créditos , por el
-                                    contrario, si se observan caídas podrían representar periodos de disminución.
-                                </li>
-                            </ul>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Tendencia del valor promedio de los créditos para viviendas nuevas y de uso a lo
+                                    largo de 2022 en el mercado inmobiliario.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si se observa una tendencia ascendente, significa que el valor promedio de los
+                                        créditos ha ido aumentando a lo largo del año.
+                                    </li>
+                                    <li>Si muestra una tendencia descendente, señala que la media de los precios ha
+                                        disminuido.
+                                    </li>
+                                    <li>Si se observan picos en la tendencia puede indicar momentos en el que el mercado
+                                        experimentó un aumento significativo en el valor de los créditos , por el
+                                        contrario, si se observan caídas podrían representar periodos de disminución.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    En la gráfica podemos ver el comportamiento del promedio de valor de crédito
+                                    para viviendas nuevas y usadas a lo largo de los últimos años.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>En 2019 el tercer trimestre fue el que obtuvo mayor valor en créditos, sin
+                                        embargo para vivienda nueva el trimestre uno destacó con un valor promedio
+                                        de $1,822,819.15.
+                                    </li>
+                                    <li>En 2020 al igual que en 2019, el primer trimestre de vivienda nueva fue el
+                                        que tuvo mayor valor promedio con un monto de $1,649,837.68.
+                                    </li>
+                                    <li>Para 2021 el trimestre cuatro obtuvo el mayor valor promedio de créditos,
+                                        sin embargo el trimestre 3 predomina con con un valor de $1,805,033.07 en
+                                        vivienda usada, siendo este el monto mayo en todo el año.
+                                    </li>
+                                    <li>En 2022 el promedio de valor para viviendas nuevas fue mayor que el de
+                                        vivienda usada, siendo el Tercer trimestre el que tuvo mayor valor con
+                                        $2,107,348.
+                                    </li>
+                                    <li>En 2023 el primer trimestre fue el que reflejó mayor valor promedio en
+                                        viviendas usadas con un monto total de $1,872,784.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                En la gráfica podemos ver el comportamiento del promedio de valor de crédito
-                                para viviendas nuevas y usadas a lo largo de los últimos años.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>En 2019 el tercer trimestre fue el que obtuvo mayor valor en créditos, sin
-                                    embargo para vivienda nueva el trimestre uno destacó con un valor promedio
-                                    de $1,822,819.15.
-                                </li>
-                                <li>En 2020 al igual que en 2019, el primer trimestre de vivienda nueva fue el
-                                    que tuvo mayor valor promedio con un monto de $1,649,837.68.
-                                </li>
-                                <li>Para 2021 el trimestre cuatro obtuvo el mayor valor promedio de créditos,
-                                    sin embargo el trimestre 3 predomina con con un valor de $1,805,033.07 en
-                                    vivienda usada, siendo este el monto mayo en todo el año.
-                                </li>
-                                <li>En 2022 el promedio de valor para viviendas nuevas fue mayor que el de
-                                    vivienda usada, siendo el Tercer trimestre el que tuvo mayor valor con
-                                    $2,107,348.
-                                </li>
-                                <li>En 2023 el primer trimestre fue el que reflejó mayor valor promedio en
-                                    viviendas usadas con un monto total de $1,872,784.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 4.5 Estacionalidad -->
-            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                <?php
-                echo "<li style='font-size: 20px;'>4.5 Estacionalidad</li>";
-                echo "</ol>";
-                echo "</ol>";
-                ?>
-                <!-- Link de la gráfica PENDIENTE-->
-                <!-- 
+
+                    <!-- 4.5 Estacionalidad -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.5 Estacionalidad</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- 
                             <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 -->
-                <!-- Explicación de la gráfica -->
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Descripción:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                            Número de créditos para vivienda adquiridos por trimestre en los años 2022 y 2023.
-                            Proporciona una representación visual de cómo ha variado la adquisición de créditos
-                            hipotecarios en diferentes trimestres.</p>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Número de créditos para vivienda adquiridos por trimestre en los años 2022 y 2023.
+                                    Proporciona una representación visual de cómo ha variado la adquisición de créditos
+                                    hipotecarios en diferentes trimestres.</p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    La gráfica nos permite observar la variación de créditos en los trimestres de
+                                    2022 y 2023, en donde podemos observar. En general, podemos observar que el
+                                    trimestre cuatro del 2022 fue el que tuvo un mayor número de créditos otorgados
+                                    con un total de 395.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>En 2022 el trimestre cuatro fue el más alto, seguido del trimestre 3 con un
+                                        total de 341 créditos.
+                                    </li>
+                                    <li>En 2023,en base a la información que se tiene, el trimestre dos fue el que
+                                        obtuvo un mayor número de créditos con un total de 310.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Interpretación:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            La gráfica nos permite observar la variación de créditos en los trimestres de
-                            2022 y 2023, en donde podemos observar. En general, podemos observar que el
-                            trimestre cuatro del 2022 fue el que tuvo un mayor número de créditos otorgados
-                            con un total de 395.</p>
-                        <ul
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                            <li>En 2022 el trimestre cuatro fue el más alto, seguido del trimestre 3 con un
-                                total de 341 créditos.
-                            </li>
-                            <li>En 2023,en base a la información que se tiene, el trimestre dos fue el que
-                                obtuvo un mayor número de créditos con un total de 310.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- 4.6 Créditos por porcentaje de UMAS -->
-            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                <?php
-                echo "<li style='font-size: 20px;'>4.6 Créditos por porcentaje de UMAS</li>";
-                echo "</ol>";
-                echo "</ol>";
-                ?>
-                <!-- Link de la gráfica PENDIENTE-->
-                <!-- 
+                    <!-- 4.6 Créditos por porcentaje de UMAS -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.6 Créditos por porcentaje de UMAS</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
@@ -1126,51 +1126,57 @@
                                         </div>
                                     </div>
                 -->
-                <!-- Explicación de la gráfica -->
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Descripción:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                            Visualiza la distribución de créditos según el porcentaje de Unidades de Medida y
-                            Actualización (UMAS)</p>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Visualiza la distribución de créditos según el porcentaje de Unidades de Medida y
+                                    Actualización (UMAS)</p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    La distribución de créditos por porcentaje de (UMAS) muestra cambios significativos
+                                    entre
+                                    los años 2022 y 2023. </p>
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    En el año 2022, los segmentos de ingresos más bajos (menor o igual a 2.60), tuvieron
+                                    una
+                                    participación relativamente baja en la obtención de créditos, con un porcentaje del
+                                    5.51%.
+                                    Sin embargo, en el año 2023, este segmento experimentó un aumento significativo en
+                                    su
+                                    participación, alcanzando el 12.33%.</p>
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    Por otro lado, los segmentos de ingresos más altos (más de 12.00) tuvieron una alta
+                                    participación en la obtención de créditos en ambos años, con un porcentaje del 8.82%
+                                    en
+                                    2022
+                                    y un aumento notable al 17.89% en 2023. </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Interpretación:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            La distribución de créditos por porcentaje de (UMAS) muestra cambios significativos entre
-                            los años 2022 y 2023. </p>
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            En el año 2022, los segmentos de ingresos más bajos (menor o igual a 2.60), tuvieron una
-                            participación relativamente baja en la obtención de créditos, con un porcentaje del 5.51%.
-                            Sin embargo, en el año 2023, este segmento experimentó un aumento significativo en su
-                            participación, alcanzando el 12.33%.</p>
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            Por otro lado, los segmentos de ingresos más altos (más de 12.00) tuvieron una alta
-                            participación en la obtención de créditos en ambos años, con un porcentaje del 8.82% en 2022
-                            y un aumento notable al 17.89% en 2023. </p>
-                    </div>
-                </div>
-            </div>
-            <!-- 4.7 Distribución % de créditos por organismo -->
-            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                <?php
-                echo "<li style='font-size: 20px;'>4.7 Distribución % de créditos por organismo</li>";
-                echo "</ol>";
-                echo "</ol>";
-                ?>
-                <!-- Link de la gráfica PENDIENTE-->
-                <!-- 
+                    <!-- 4.7 Distribución % de créditos por organismo -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.7 Distribución % de créditos por organismo</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
@@ -1195,62 +1201,74 @@
                                         </div>
                                     </div>
                 -->
-                <!-- Explicación de la gráfica -->
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Descripción:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                            La distribución porcentual de créditos por organismo muestra la participación de diferentes
-                            entidades financieras en el otorgamiento de préstamos hipotecarios durante los años 2022 y
-                            2023.</p>
-                        <ul
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                            <li>Si se observan barras elevadas significa que se tiene una gran concentración de créditos
-                                otorgados por dicha entidad.
-                            </li>
-                            <li>Si se presentan variaciones entre las barras , podría señalar una temporada en la cual
-                                se otorgaron más créditos.
-                            </li>
-                            <li>Si se visualiza barras uniformes podría indicar una distribución constante a lo largo
-                                del tiempo.
-                            </li>
-                        </ul>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    La distribución porcentual de créditos por organismo muestra la participación de
+                                    diferentes
+                                    entidades financieras en el otorgamiento de préstamos hipotecarios durante los años
+                                    2022
+                                    y
+                                    2023.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si se observan barras elevadas significa que se tiene una gran concentración de
+                                        créditos
+                                        otorgados por dicha entidad.
+                                    </li>
+                                    <li>Si se presentan variaciones entre las barras , podría señalar una temporada en
+                                        la
+                                        cual
+                                        se otorgaron más créditos.
+                                    </li>
+                                    <li>Si se visualiza barras uniformes podría indicar una distribución constante a lo
+                                        largo
+                                        del tiempo.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    En el año 2022, el INFONAVIT representó el mayor porcentaje de créditos, con un
+                                    35.0%,
+                                    seguido por la CNBV con un 42.9% y el FOVISSSTE con un 21.6%. Otros organismos, como
+                                    BANJERCITO, contribuyeron con un porcentaje menor al 1% del total de créditos
+                                    otorgados.
+                                </p>
+                                <p
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    En 2023, la distribución porcentual de créditos por organismo experimentó algunos
+                                    cambios.
+                                    El INFONAVIT mantuvo su posición como el principal otorgante de créditos, con un
+                                    36.7%,
+                                    seguido por la CNBV con un 39.1% y el FOVISSSTE con un 21.3%. Además, se observó la
+                                    participación de otros organismos como CONAVI, BANJERCITO e INSUS, aunque en menor
+                                    medida en
+                                    comparación con los principales otorgantes.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Interpretación:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            En el año 2022, el INFONAVIT representó el mayor porcentaje de créditos, con un 35.0%,
-                            seguido por la CNBV con un 42.9% y el FOVISSSTE con un 21.6%. Otros organismos, como
-                            BANJERCITO, contribuyeron con un porcentaje menor al 1% del total de créditos otorgados.
-                        </p>
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            En 2023, la distribución porcentual de créditos por organismo experimentó algunos cambios.
-                            El INFONAVIT mantuvo su posición como el principal otorgante de créditos, con un 36.7%,
-                            seguido por la CNBV con un 39.1% y el FOVISSSTE con un 21.3%. Además, se observó la
-                            participación de otros organismos como CONAVI, BANJERCITO e INSUS, aunque en menor medida en
-                            comparación con los principales otorgantes.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- 4.8 Distribución % de créditos por vivienda valor -->
-            <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                <?php
-                echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";
-                echo "</ol>";
-                echo "</ol>";
-                ?>
-                <!-- Link de la gráfica PENDIENTE-->
-                <!-- 
+                    <!-- 4.8 Distribución % de créditos por vivienda valor -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
@@ -1275,41 +1293,55 @@
                                         </div>
                                     </div>
                 -->
-                <!-- Explicación de la gráfica -->
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Descripción:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                            Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que
-                            representan las proporciones de los créditos otorgados al valor de la vivienda clasificado
-                            en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.</p>
-                    </div>
-                </div>
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Interpretación:</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <ul
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                            <li>En 2022, la vivienda tradicional representó el mayor porcentaje de créditos, con un
-                                41.0%, seguida por la vivienda residencial con un 33.4%. Las viviendas económicas y
-                                populares también tuvieron una participación significativa, con un 7.3% y un 10.4%,
-                                respectivamente. Las viviendas residenciales plus representaron el menor porcentaje de
-                                créditos, con un 7.9% del total.
-                            </li>
-                            <li>En 2023, hubo cambios en la distribución porcentual de créditos por valor de vivienda.
-                                La categoría de vivienda tradicional continuó siendo la más demandada, representando el
-                                43.5% de los créditos. Sin embargo, se observó un aumento notable en la participación de
-                                las viviendas económicas y populares, que pasaron a representar el 12.3% y el 16.2%,
-                                respectivamente. Por otro lado, la participación de las viviendas residenciales y
-                                residenciales plus disminuyó en comparación con el año anterior.
-                            </li>
-                        </ul>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que
+                                    representan las proporciones de los créditos otorgados al valor de la vivienda
+                                    clasificado
+                                    en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.</p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>En 2022, la vivienda tradicional representó el mayor porcentaje de créditos, con
+                                        un
+                                        41.0%, seguida por la vivienda residencial con un 33.4%. Las viviendas
+                                        económicas y
+                                        populares también tuvieron una participación significativa, con un 7.3% y un
+                                        10.4%,
+                                        respectivamente. Las viviendas residenciales plus representaron el menor
+                                        porcentaje
+                                        de
+                                        créditos, con un 7.9% del total.
+                                    </li>
+                                    <li>En 2023, hubo cambios en la distribución porcentual de créditos por valor de
+                                        vivienda.
+                                        La categoría de vivienda tradicional continuó siendo la más demandada,
+                                        representando
+                                        el
+                                        43.5% de los créditos. Sin embargo, se observó un aumento notable en la
+                                        participación de
+                                        las viviendas económicas y populares, que pasaron a representar el 12.3% y el
+                                        16.2%,
+                                        respectivamente. Por otro lado, la participación de las viviendas residenciales
+                                        y
+                                        residenciales plus disminuyó en comparación con el año anterior.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
