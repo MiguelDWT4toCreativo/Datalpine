@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <head>
 
-    <title>Login | Datalpine</title>
+    <title>Login | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
 
     <?php include 'layouts/head-style.php'; ?>
