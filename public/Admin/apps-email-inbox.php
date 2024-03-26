@@ -3,7 +3,7 @@
 
 <head>
 
-    
+
     <title>Menú | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
@@ -44,8 +44,8 @@
                 </div>
                 <!-- end page title -->
 
-               <!-- Amenidades -->
-               <div class="row align-items-center"
+                <!-- Amenidades -->
+                <div class="row align-items-center"
                     style="border: 1px solid #86ADFF; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
                     <style>
                         /* Estilos CSS para el título */
@@ -63,7 +63,7 @@
                         }
                     </style>
                     <div class="titulo">
-                    Amenidades
+                        Amenidades
                     </div>
                     <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
                         <p style="font-size: 16px; line-height: 1.5; color: #666;">Estamos trabajando diligentemente
@@ -71,49 +71,16 @@
                             lista para ti!
                         </p>
                     </div>
-
-
                 </div> <!-- container-fluid -->
             </div>
-            </div> <!-- container-fluid -->
-        </div>
-        <!-- End Page-content -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="composemodal" tabindex="-1" role="dialog" aria-labelledby="composemodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title font-size-16" id="composemodalTitle">New Message</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="To">
-                            </div>
-
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Subject">
-                            </div>
-                            <div class="mb-3 email-editor">
-                                <div id="email-editor"></div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send <i class="fab fa-telegram-plane ms-1"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end modal -->
-
-        <?php include 'layouts/footer.php'; ?>
+        </div> <!-- container-fluid -->
     </div>
-    <!-- end main content-->
+    <!-- End Page-content -->
+
+
+    <?php include 'layouts/footer.php'; ?>
+</div>
+<!-- end main content-->
 
 </div>
 <!-- END layout-wrapper -->
