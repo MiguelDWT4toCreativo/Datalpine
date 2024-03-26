@@ -1,59 +1,60 @@
 <?php include 'layouts/session.php'; ?>
 <?php include 'layouts/head-main.php'; ?>
 
-    <head>
-        
-        <title>Menú | DatAlpine</title>
-        
-        <?php include 'layouts/head.php'; ?>
+<head>
 
-        <!-- flatpickr css -->
-        <link href="assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css">
+    <title>Menú | DatAlpine</title>
 
-        <!-- DataTables -->
-        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <?php include 'layouts/head.php'; ?>
 
-        <!-- Responsive datatable examples -->
-        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
+    <!-- flatpickr css -->
+    <link href="assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css">
 
-        <?php include 'layouts/head-style.php'; ?>
+    <!-- DataTables -->
+    <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
-    </head>
+    <!-- Responsive datatable examples -->
+    <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <?php include 'layouts/head-style.php'; ?>
+
+</head>
 
 <?php include 'layouts/body.php'; ?>
 
-        <!-- Begin page -->
-        <div id="layout-wrapper">
+<!-- Begin page -->
+<div id="layout-wrapper">
 
-        <?php include 'layouts/menu.php'; ?>
+    <?php include 'layouts/menu.php'; ?>
 
-            <!-- ============================================================== -->
-            <!-- Start right Content here -->
-            <!-- ============================================================== -->
-            <div class="main-content">
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="main-content">
 
-                <div class="page-content">
-                    <div class="container-fluid">
+        <div class="page-content">
+            <div class="container-fluid">
 
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Consultoria</h4>
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                            <h4 class="mb-sm-0 font-size-18">Consultoria</h4>
 
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Menú</a></li>
-                                            <li class="breadcrumb-item active">Consultoria</li>
-                                        </ol>
-                                    </div>
-
-                                </div>
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Menú</a></li>
+                                    <li class="breadcrumb-item active">Consultoria</li>
+                                </ol>
                             </div>
-                        </div>
-                        <!-- end page title -->
 
-                        <!-- Consultoria -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                <!-- Consultoria -->
                 <div class="row align-items-center"
                     style="border: 1px solid #86ADFF; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
                     <style>
@@ -72,7 +73,7 @@
                         }
                     </style>
                     <div class="titulo">
-                    Consultoria
+                        Consultoria
                     </div>
                     <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
                         <p style="font-size: 16px; line-height: 1.5; color: #666;">Estamos trabajando diligentemente
@@ -82,41 +83,42 @@
                     </div>
                 </div> <!-- container-fluid -->
 
-                    </div> <!-- container-fluid -->
-                </div>
-                <!-- End Page-content -->
-
-                
-                <?php include 'layouts/footer.php'; ?>
-            </div>
-            <!-- end main content-->
-
+            </div> <!-- container-fluid -->
         </div>
-        <!-- END layout-wrapper -->
+        <!-- End Page-content -->
 
-        
-        <!-- Right Sidebar -->
-    <?php include 'layouts/right-sidebar.php'; ?>
+
+        <?php include 'layouts/footer.php'; ?>
+    </div>
+    <!-- end main content-->
+
+</div>
+<!-- END layout-wrapper -->
+
+
+<!-- Right Sidebar -->
+<?php include 'layouts/right-sidebar.php'; ?>
 <!-- /Right-bar -->
 
-        <!-- JAVASCRIPT -->
+<!-- JAVASCRIPT -->
 
 <?php include 'layouts/vendor-scripts.php'; ?>
 
-        <!-- flatpickr js -->
-        <script src="assets/libs/flatpickr/flatpickr.min.js"></script>
+<!-- flatpickr js -->
+<script src="assets/libs/flatpickr/flatpickr.min.js"></script>
 
-        <!-- Required datatable js -->
-        <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-        <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-        
-        <!-- Responsive examples -->
-        <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-        <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+<!-- Required datatable js -->
+<script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 
-        <!-- init js -->
-        <script src="assets/js/pages/invoices-list.init.js"></script>
+<!-- Responsive examples -->
+<script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
 
-        <script src="assets/js/app.js"></script>
-    </body>
+<!-- init js -->
+<script src="assets/js/pages/invoices-list.init.js"></script>
+
+<script src="assets/js/app.js"></script>
+</body>
+
 </html>
