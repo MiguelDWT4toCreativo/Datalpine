@@ -2,7 +2,7 @@
 <?php include 'layouts/head-main.php'; ?>
 
 <head>
-    <title><?php echo $language["Dashboard"]; ?> | Minia - Admin & Dashboard Template</title>
+    <title>Inicio | DatAlpine</title>
 
     <?php include 'layouts/head.php'; ?>
 
