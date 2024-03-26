@@ -4,7 +4,7 @@
 <head>
 
 
-    <title>Chat | Minia - Admin & Dashboard Template</title>
+    <title>Menú | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
