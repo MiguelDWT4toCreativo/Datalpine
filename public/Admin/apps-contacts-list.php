@@ -726,14 +726,13 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="card-title">2022</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2022_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
@@ -744,13 +743,12 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">2023</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -815,14 +813,13 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="card-title">2022</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2022_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
@@ -833,13 +830,12 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">2023</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2023_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -886,14 +882,13 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="card-title">2022</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2022_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
@@ -904,13 +899,12 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">2023</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2023_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1051,11 +1045,9 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1101,14 +1093,13 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
                             <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="card-title">2022</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2022_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
@@ -1119,13 +1110,12 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">2023</h5>
                                                 <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2023_pachuca.html"
                                                     width="100%" height="300" frameborder="0"
                                                     style="border: none;"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
