@@ -111,8 +111,11 @@
                             </div>
                             <div class="circle">
                                 <div>
-                                    <img src="assets/images/contacto/map.png" alt="Icono de ubicación">
-                                    <span>Pachuca de Soto, Hidalgo</span>
+                                    <a href="https://www.google.com/maps/place/pachuca+soto+hidalgo/data=!4m2!3m1!1s0x85d1a7716f1e038b:0x13315c101496b749?sa=X&ved=1t:155783&ictx=111"
+                                        style="text-decoration: none; color: #333;">
+                                        <img src="assets/images/contacto/map.png" alt="Icono de ubicación">
+                                        <span>Pachuca de Soto, Hidalgo</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
