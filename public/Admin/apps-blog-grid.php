@@ -8,7 +8,50 @@
 </head>
 
 <?php include 'layouts/body.php'; ?>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    .circle:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .circle img {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .circle span {
+        font-size: 12px;
+        text-align: center;
+        display: block;
+        color: #555;
+        padding: 5px;
+        line-height: 1.2;
+    }
+</style>
 <!-- Begin page -->
 <div id="layout-wrapper">
 
@@ -53,37 +96,23 @@
                             Tu satisfacción es nuestra prioridad número uno. No dudes en contactarnos para cualquier
                             consulta o asistencia que necesites.
                         </p>
-                        <div style="text-align: center; display: flex; flex-wrap: wrap; justify-content: center;">
-                            <div style="margin-right: 40px;">
+                        <div class="container">
+                            <div class="circle">
                                 <a href="tel:7713306407" style="text-decoration: none; color: #333;">
-                                    <img src="assets/images/contacto/phone.png" alt="Icono de teléfono"
-                                        style="width: 50px; height: 50px; margin-bottom: 10px;">
-                                    <br>
-                                    <span style="font-size: 22px;">771 330 64 07</span>
+                                    <img src="assets/images/contacto/phone.png" alt="Icono de teléfono">
+                                    <span>(771) 330 64 07</span>
                                 </a>
                             </div>
-                            <div style="margin-right: 40px;">
+                            <div class="circle">
                                 <a href="mailto:contacto@datalpine.mx" style="text-decoration: none; color: #333;">
-                                    <img src="assets/images/contacto/gmail.png" alt="Icono de correo"
-                                        style="width: 50px; height: 50px; margin-bottom: 10px;">
-                                    <br>
-                                    <span style="font-size: 22px;">contacto@datalpine.mx</span>
+                                    <img src="assets/images/contacto/gmail.png" alt="Icono de correo">
+                                    <span>Envíanos un correo</span>
                                 </a>
                             </div>
-                            <div style="margin-right: 40px;">
-                                <a href="https://datalpine.mx/" style="text-decoration: none; color: #333;">
-                                    <img src="assets/images/contacto/web.png" alt="Icono de sitio web"
-                                        style="width: 50px; height: 50px; margin-bottom: 10px;">
-                                    <br>
-                                    <span style="font-size: 22px;">Visita nuestro sitio web</span>
-                                </a>
-                            </div>
-                            <div style="margin-right: 40px;">
+                            <div class="circle">
                                 <div>
-                                    <img src="assets/images/contacto/map.png" alt="Icono de ubicación"
-                                        style="width: 50px; height: 50px; margin-bottom: 10px;">
-                                    <br>
-                                    <span style="font-size: 22px;">Estamos en Pachuca de Soto, Hidalgo.</span>
+                                    <img src="assets/images/contacto/map.png" alt="Icono de ubicación">
+                                    <span>Pachuca de Soto, Hidalgo</span>
                                 </div>
                             </div>
                         </div>
