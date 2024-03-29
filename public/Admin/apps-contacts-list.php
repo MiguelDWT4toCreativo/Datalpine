@@ -148,9 +148,10 @@
                                     de contribución relativa de cada región al total de compradores foráneos.
                                     Según los datos, la región de Ciudad de México representa el mayor porcentaje, con
                                     un
-                                    33%, seguida por el Estado de México con un 27%, Nuevo León con un 20%, Jalisco con
+                                    <strong>33%</strong>, seguida por el Estado de México con un <strong>27%</strong>,
+                                    Nuevo León con un <strong>20%</strong>, Jalisco con
                                     un
-                                    13%, y finalmente Puebla con un 7%.
+                                    <strong>13%</strong>, y finalmente Puebla con un <strong>7%</strong>.
                                     Este análisis revela la procedencia geográfica de los compradores foráneos y su
                                     importancia relativa en el mercado inmobiliario de Pachuca, lo que puede ser
                                     esencial
@@ -242,9 +243,12 @@
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                         Distribución de la estructura demográfica de la población de la Zona
                                         Metropolitana de Pachuca por grupos de edad y género, se tiene un
-                                        registro de 314,331 habitantes de los cuales los menores de 29 años
-                                        representan 28.0%, personas de 30 a 60 años con 32.8%, y mayores de 64
-                                        años con 4.3%.
+                                        registro de <strong>314,331 habitantes</strong> de los cuales los menores de
+                                        <strong>29</strong>
+                                        años
+                                        representan <strong>28.0%</strong>, personas de <strong>30 a 60 años</strong>
+                                        con <strong>32.8%</strong>, y mayores de 64
+                                        años con <strong>4.3%</strong>.
                                     </p>
                                 </div>
                             </div>
@@ -256,10 +260,13 @@
                                 </p>
                                 <div style="text-align: left;">
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                        Distribución de la estructura demográfica de la población de la Zona
-                                        Metropolitana de Pachuca por grupos de edad y género, se tiene un registro de
-                                        314,331 habitantes de los cuales los menores de 29 años representan 28.0%,
-                                        personas de 30 a 60 años con 32.8%, y mayores de 64 años con 4.3%.
+                                        Distribución de la estructura demográfica de la población de la <strong>Zona
+                                            Metropolitana de Pachuca</strong> por grupos de edad y género, se tiene un
+                                        registro de <strong>314,331 habitantes</strong> de los cuales los menores de 29
+                                        años
+                                        representan <strong>28.0%</strong>, personas de <strong>30 a 60 años</strong>
+                                        con <strong>32.8%</strong>, y mayores de 64
+                                        años con <strong>4.3%</strong>.
                                     </p>
                                 </div>
                             </div>
@@ -308,11 +315,15 @@
                                 </p>
                                 <div style="text-align: left;">
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                        La gráfica de pastel revela que en Pachuca de Soto el 76.6% de los
-                                        titulares de créditos tienen entre 30 y 59 años, destacando la actividad
-                                        crediticia de este grupo. Asimismo, el 14.3% de personas menores de 29
+                                        La gráfica de pastel revela que en Pachuca de Soto el <strong>76.6%</strong> de
+                                        los
+                                        titulares de créditos tienen entre <strong>30 y 59 años</strong>, destacando la
+                                        actividad
+                                        crediticia de este grupo. Asimismo, el <strong>14.3%</strong> de personas
+                                        menores de <strong>29</strong>
                                         años muestra cierta inclusión financiera en este segmento más joven,
-                                        mientras que el 9.1% de personas mayores de 60 años con créditos sugiere
+                                        mientras que el <strong>9.1%</strong> de personas mayores de <strong>60
+                                            años</strong> con créditos sugiere
                                         su participación en actividades financieras. </p>
                                 </div>
                             </div>
@@ -380,11 +391,14 @@
                                     En los últimos doce meses, el mercado inmobiliario en Pachuca ha
                                     experimentado fluctuaciones en los precios de las propiedades. A pesar de
                                     ciertas variaciones mensuales, se observa un crecimiento general del valor
-                                    promedio. Desde Octubre de 2022 hasta Septiembre de 2023, ha habido un
-                                    aumento acumulado del 6.8% en el precio promedio de las propiedades. Este
-                                    incremento se traduce en un valor promedio de $227,650, indicando un cambio
-                                    significativo en la tendencia alcista de los precios a partir de Marzo de
-                                    2023.</p>
+                                    promedio. Desde <strong>Octubre de 2022</strong> hasta Septiembre de 2023, ha habido
+                                    un
+                                    aumento acumulado del <strong>6.8%</strong> en el precio promedio de las
+                                    propiedades. Este
+                                    incremento se traduce en un valor promedio de <strong>$227,650</strong>, indicando
+                                    un cambio
+                                    significativo en la tendencia alcista de los precios a partir de <strong>Marzo de
+                                        2023</strong>.</p>
                             </div>
                         </div>
                     </div>
@@ -432,16 +446,19 @@
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     La gráfica muestra cómo han variado los precios medios de las viviendas de
-                                    octubre de 2022 a septiembre de 2023.</p>
+                                    <strong>octubre de 2022</strong> a <strong>septiembre de 2023</strong>.
+                                </p>
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    Se observa que los precios fueron subiendo de forma constante hasta junio de
-                                    2023, cuando alcanzaron su punto más alto. Esto nos muestra un mercado muy
+                                    Se observa que los precios fueron subiendo de forma constante hasta <strong>junio de
+                                        2023</strong>, cuando alcanzaron su punto más alto. Esto nos muestra un mercado
+                                    muy
                                     activo y una gran demanda de propiedades. </p>
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    A partir de julio, los precios empezaron a bajar ligeramente en agosto y
-                                    septiembre. Aunque aún son altos en comparación con el inicio del período,
+                                    A partir de julio, los precios empezaron a bajar ligeramente en <strong>agosto y
+                                        septiembre</strong>. Aunque aún son altos en comparación con el inicio del
+                                    período,
                                     esta bajada nos indica una estabilización en el mercado y así mismo una
                                     disminución en la demanda.</p>
                             </div>
@@ -490,15 +507,18 @@
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     La gráfica muestra la proporción de viviendas ofertadas según su antigüedad
-                                    durante los años 2022 y 2023. .</p>
+                                    durante los años <strong>2022 y 2023</strong>.</p>
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>La mayoría de las viviendas ofertadas, el 85%, tienen entre 0 y 5 años
+                                    <li>La mayoría de las viviendas ofertadas, el <strong>85%</strong>, tienen entre
+                                        <strong>0 y 5 años</strong>
                                         de antigüedad. Esto nos da una alta concentración de propiedades nuevas
                                         en el mercado durante este período que muestra un aumento en la oferta
-                                        de viviendas recientes. </li>
+                                        de viviendas recientes.
+                                    </li>
                                     <li>Por otro lado, hay una proporción menor de viviendas con antigüedad
-                                        entre 6 y 15 años (11%), y una presencia aún menor de viviendas con más
+                                        entre <strong>6 y 15</strong> años <strong>(11%)</strong>, y una presencia aún
+                                        menor de viviendas con más
                                         antigüedad señalando una disponibilidad limitada de viviendas de edades
                                         intermedias o antiguas en el mercado.</li>
                                 </ul>
@@ -572,11 +592,15 @@
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     Podemos observar concentraciones en 2022 y 2023
-                                    del 28% y 29.1% respectivamente en casas del segmento S con un valor
-                                    promedio del  $6.681,071, seguidas de viviendas del segmento C con 
-                                    26.9% y  25.1% de forma respectiva con un precio medio de  $1,916,723 y
-                                    finalmente del segmento D con  23% y  22.9% en el orden dado con un valor
-                                    medio de  $1,322,676.</p>
+                                    del <strong>28% y 29.1%</strong> respectivamente en casas del segmento S con un
+                                    valor
+                                    promedio del  <strong>$6.681,071</strong>, seguidas de viviendas del segmento C con 
+                                    <strong>26.9%</strong> y  <strong>25.1%</strong> de forma respectiva con un precio
+                                    medio de  $1,916,723 y
+                                    finalmente del segmento D con  <strong>23%</strong> y  <strong>22.9%</strong> en el
+                                    orden dado con un valor
+                                    medio de  <strong>$1,322,676</strong>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -625,15 +649,19 @@
                                     Se observa que: </p>
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>El segmento S tiene el precio promedio más alto, con $6,590,148.53.
+                                    <li>El <strong>segmento S</strong> tiene el precio promedio más alto, con
+                                        $6,590,148.53.
                                     </li>
-                                    <li>Le sigue el segmento A, con un precio promedio de $3,384,341.67 mientras
+                                    <li>Le sigue el <strong>segmento A</strong>, con un precio promedio de $3,384,341.67
+                                        mientras
                                         que el segmento B tiene un precio promedio de $2,604,431.68. </li>
-                                    <li>En el segmento C, el precio promedio es de $1,909,157.39, y en el
-                                        segmento D, es de $1,304,533.43.
+                                    <li>En el <strong>segmento C</strong>, el precio promedio es de
+                                        <strong>$1,909,157.39</strong>, y en el
+                                        segmento D, es de <strong>$1,304,533.43</strong>.
                                     </li>
-                                    <li>Finalmente, el segmento E tiene el precio promedio más bajo, con
-                                        $634,980.59.
+                                    <li>Finalmente, el <strong>segmento E</strong> tiene el precio promedio más bajo,
+                                        con
+                                        <strong>$634,980.59</strong>.
                                     </li>
                                 </ul>
                                 <p
@@ -693,19 +721,26 @@
                                     segmentos de mercado. </p>
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    El Segmento S experimentó la mayor variación positiva, con un aumento del
-                                    9.30%, un incremento significativo en los precios de las viviendas en este
+                                    El <strong>Segmento S</strong> experimentó la mayor variación positiva, con un
+                                    aumento del
+                                    <strong>9.30%</strong>, un incremento significativo en los precios de las viviendas
+                                    en este
                                     segmento durante el período de estudio, indicando un mercado inmobiliario en
-                                    alza. </p>
+                                    alza.
+                                </p>
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    Por otro lado, los segmentos D, C y B mostraron variaciones negativas, con
-                                    disminuciones del 7.20%, 3.20% y 1.90% respectivamente interpretándose como
+                                    Por otro lado, los segmentos <strong>D, C y B</strong> mostraron variaciones
+                                    negativas, con
+                                    disminuciones del <strong>7.20%, 3.20% y 1.90%</strong> respectivamente
+                                    interpretándose como
                                     un mercado más accesible durante el período analizado. </p>
                                 <p
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    Por último, el segmento A registró una variación positiva del 1%, indicando
-                                    un ligero aumento en los precios de las viviendas en este segmento.</p>
+                                    Por último, el <strong>segmento A</strong> registró una variación positiva del
+                                    <strong>1%</strong>, indicando
+                                    un ligero aumento en los precios de las viviendas en este segmento.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -785,33 +820,41 @@
                         <div style="text-align: left;">
                             <p
                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                En el año 2023, la distribución de créditos presenta algunas variaciones con
-                                respecto a 2022. </p>
+                                En el año <strong>2023</strong>, la distribución de créditos presenta algunas
+                                variaciones con
+                                respecto a <strong>2022</strong>. </p>
                             <p
                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                El segmento E sigue siendo el más solicitado, representa el 50% de los créditos,
-                                aunque con una ligera disminución en comparación con el 50.40% del año anterior.
+                                El <strong>segmento E</strong> sigue siendo el más solicitado, representa el
+                                <strong>50%</strong> de los créditos,
+                                aunque con una ligera disminución en comparación con el <strong>50.40%</strong> del año
+                                anterior.
                             </p>
                             <p
                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                Por otro lado, el segmento D experimenta un aumento en su proporción, pasando
+                                Por otro lado, el <strong>segmento D</strong> experimenta un aumento en su proporción,
+                                pasando
                                 del
-                                18.67% en 2022 al 19.23% en 2023.
+                                <strong>18.67%</strong> en <strong>2022</strong> al <strong>19.23%</strong> en
+                                <strong>2023</strong>.
                             </p>
                             <p
                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                Se observa un incremento en la proporción de créditos para el segmento C, que
+                                Se observa un incremento en la proporción de créditos para el <strong>segmento
+                                    C</strong>, que
                                 pasa a
-                                12.31%
+                                <strong>12.31%</strong>.
                             </p>
                             <p
                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                Los segmentos B, A y S muestran una disminución en sus proporciones de créditos
+                                Los segmentos <strong>B, A y S</strong> muestran una disminución en sus proporciones de
+                                créditos
                                 en
-                                2023 en comparación con el año anterior. Estas variaciones indican posibles
+                                <strong>2023</strong> en comparación con el año anterior. Estas variaciones indican
+                                posibles
                                 cambios
                                 en las preferencias de financiamiento para diferentes rangos de precios de
-                                propiedades durante el año 2023.
+                                propiedades durante el <strong>año 2023</strong>.
                             </p>
                         </div>
                     </div>
@@ -871,12 +914,14 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>En el año 2022, el cuarto trimestre registró la mayor cantidad de
+                                    <li>En el <strong>año 2022</strong>, el cuarto trimestre registró la mayor cantidad
+                                        de
                                         crédito, donde
                                         el segmento E tuvo la mayor proporción de créditos en todos los
                                         trimestres.
                                     </li>
-                                    <li>En el año 2023, el segundo trimestre destacó con el mayor número de
+                                    <li>En el <strong>año 2023</strong>, el segundo trimestre destacó con el mayor
+                                        número de
                                         créditos,
                                         experimentando un aumento en comparación con el mismo trimestre del año
                                         anterior. Nuevamente el segmento E lideró en términos de proporción de
@@ -887,7 +932,7 @@
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                     Comparando los dos años, notamos un aumento en la actividad crediticia en el
                                     mercado
-                                    inmobiliario durante el segundo trimestre del 2023.</p>
+                                    inmobiliario durante el segundo trimestre del <strong>2023</strong>.</p>
                             </div>
                         </div>
                     </div>
@@ -929,10 +974,11 @@
                                 <div style="text-align: left;">
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                         Distribución de créditos otorgados para cada rango de monto entre el
-                                        2022 y el 2023.
+                                        <strong>2022 y el 2023</strong>.
                                         Explora una visión de los créditos para viviendas en términos de
                                         cantidad de dinero
-                                        y observa el alcance de los préstamos en el mercado inmobiliario</p>
+                                        y observa el alcance de los préstamos en el mercado inmobiliario
+                                    </p>
                                 </div>
                             </div>
                             <div
@@ -943,25 +989,33 @@
                                 <div style="text-align: left;">
                                     <p
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        En el año 2022, se observa una mayor cantidad de créditos otorgados en
+                                        En el año <strong>2022</strong>, se observa una mayor cantidad de créditos
+                                        otorgados en
                                         los
-                                        rangos de monto más bajos, especialmente en el intervalo de $0 a
-                                        $1,000,000, con
-                                        un total de 637 créditos. Sin embargo, a medida que aumenta el monto, la
+                                        rangos de monto más bajos, especialmente en el intervalo de <strong>$0</strong>
+                                        a
+                                        <strong>$1,000,000</strong>, con
+                                        un total de <strong>637 créditos</strong>. Sin embargo, a medida que aumenta el
+                                        monto, la
                                         cantidad de créditos disminuye gradualmente, con números
                                         significativamente
-                                        menores en los rangos superiores, como el intervalo de $4,000,001 a
-                                        $20,000,000,
-                                        que registró solo 103 créditos.</p>
+                                        menores en los rangos superiores, como el intervalo de
+                                        <strong>$4,000,001</strong> a
+                                        <strong> $20,000,000</strong>,
+                                        que registró solo <strong>103 créditos</strong>.
+                                    </p>
                                     <p
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        Por otro lado, en el año 2023, se observa una disminución general en la
+                                        Por otro lado, en el <strong>año 2023</strong>, se observa una disminución
+                                        general en la
                                         cantidad
                                         de créditos otorgados en todos los rangos de monto en comparación con el
                                         año
-                                        anterior. Es notable la reducción en el intervalo de $0 a $1,000,000,
+                                        anterior. Es notable la reducción en el intervalo de <strong>$0 a
+                                            $1,000,000</strong>,
                                         que pasó
-                                        de 637 créditos en 2022 a 320 créditos en 2023. Además, se observa una
+                                        de <strong>637 créditos</strong> en <strong>2022</strong> a <strong>320
+                                            créditos</strong> en <strong>2023</strong>. Además, se observa una
                                         disminución en los rangos de monto más altos, mostrando menor actividad
                                         en el
                                         segmento de propiedades de mayor valor.</p>
@@ -1057,31 +1111,37 @@
                                         para viviendas nuevas y usadas a lo largo de los últimos años.</p>
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                        <li>En 2019 el tercer trimestre fue el que obtuvo mayor valor en
+                                        <li>En <strong>2019</strong> el tercer trimestre fue el que obtuvo mayor valor
+                                            en
                                             créditos, sin
                                             embargo para vivienda nueva el trimestre uno destacó con un valor
                                             promedio
-                                            de $1,822,819.15.
+                                            de <strong>$1,822,819.15</strong>.
                                         </li>
-                                        <li>En 2020 al igual que en 2019, el primer trimestre de vivienda nueva
+                                        <li>En <strong>2020</strong> al igual que en <strong>2019</strong>, el primer
+                                            trimestre de vivienda nueva
                                             fue el
-                                            que tuvo mayor valor promedio con un monto de $1,649,837.68.
+                                            que tuvo mayor valor promedio con un monto de
+                                            <strong>$1,649,837.68</strong>.
                                         </li>
-                                        <li>Para 2021 el trimestre cuatro obtuvo el mayor valor promedio de
+                                        <li>Para <strong>2021</strong> el trimestre cuatro obtuvo el mayor valor
+                                            promedio de
                                             créditos,
-                                            sin embargo el trimestre 3 predomina con con un valor de
-                                            $1,805,033.07 en
+                                            sin embargo el <strong>trimestre 3</strong> predomina con con un valor de
+                                            <strong>$1,805,033.07</strong> en
                                             vivienda usada, siendo este el monto mayo en todo el año.
                                         </li>
-                                        <li>En 2022 el promedio de valor para viviendas nuevas fue mayor que el
+                                        <li>En <strong>2022</strong> el promedio de valor para viviendas nuevas fue
+                                            mayor que el
                                             de
                                             vivienda usada, siendo el Tercer trimestre el que tuvo mayor valor
                                             con
-                                            $2,107,348.
+                                            <strong>$2,107,348</strong>.
                                         </li>
-                                        <li>En 2023 el primer trimestre fue el que reflejó mayor valor promedio
+                                        <li>En <strong>2023</strong> el primer trimestre fue el que reflejó mayor valor
+                                            promedio
                                             en
-                                            viviendas usadas con un monto total de $1,872,784.
+                                            viviendas usadas con un monto total de <strong>$1,872,784</strong>.
                                         </li>
                                     </ul>
                                 </div>
@@ -1124,20 +1184,25 @@
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                         La gráfica nos permite observar la variación de créditos en los
                                         trimestres de
-                                        2022 y 2023, en donde podemos observar. En general, podemos observar que
+                                        <strong>2022 y 2023</strong>, en donde podemos observar. En general, podemos
+                                        observar que
                                         el
-                                        trimestre cuatro del 2022 fue el que tuvo un mayor número de créditos
+                                        trimestre cuatro del <strong>2022</strong> fue el que tuvo un mayor número de
+                                        créditos
                                         otorgados
-                                        con un total de 395.</p>
+                                        con un total de <strong>395</strong>.
+                                    </p>
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                        <li>En 2022 el trimestre cuatro fue el más alto, seguido del trimestre 3
+                                        <li>En <strong>2022</strong> el trimestre cuatro fue el más alto, seguido del
+                                            trimestre 3
                                             con un
-                                            total de 341 créditos.
+                                            total de <strong>341 créditos</strong>.
                                         </li>
-                                        <li>En 2023,en base a la información que se tiene, el trimestre dos fue
+                                        <li>En <strong>2023</strong>,en base a la información que se tiene, el trimestre
+                                            dos fue
                                             el que
-                                            obtuvo un mayor número de créditos con un total de 310.
+                                            obtuvo un mayor número de créditos con un total de <strong>310</strong>.
                                         </li>
                                     </ul>
                                 </div>
@@ -1198,7 +1263,7 @@
                                             La distribución de créditos por porcentaje de (UMAS) muestra cambios
                                             significativos
                                             entre
-                                            los años 2022 y 2023. </p>
+                                            los años <strong>2022 y 2023</strong>. </p>
                                         <p
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                             En el año 2022, los segmentos de ingresos más bajos (menor o igual a
@@ -1206,20 +1271,23 @@
                                             una
                                             participación relativamente baja en la obtención de créditos, con un
                                             porcentaje del
-                                            5.51%.
-                                            Sin embargo, en el año 2023, este segmento experimentó un aumento
+                                            <strong>5.51%</strong>.
+                                            Sin embargo, en el año <strong>2023</strong>, este segmento experimentó un
+                                            aumento
                                             significativo en
                                             su
-                                            participación, alcanzando el 12.33%.</p>
+                                            participación, alcanzando el <strong>12.33%</strong>.
+                                        </p>
                                         <p
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
                                             Por otro lado, los segmentos de ingresos más altos (más de 12.00)
                                             tuvieron una alta
                                             participación en la obtención de créditos en ambos años, con un
-                                            porcentaje del 8.82%
+                                            porcentaje del <strong>8.82%</strong>
                                             en
-                                            2022
-                                            y un aumento notable al 17.89% en 2023. </p>
+                                            <strong>2022</strong>
+                                            y un aumento notable al <strong>17.89% en 2023</strong>.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1267,9 +1335,10 @@
                                                 diferentes
                                                 entidades financieras en el otorgamiento de préstamos
                                                 hipotecarios durante los años
-                                                2022
-                                                y
-                                                2023.</p>
+                                                <strong>2022
+                                                    y
+                                                    2023</strong>.
+                                            </p>
                                             <ul
                                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                                 <li>Si se observan barras elevadas significa que se tiene una
@@ -1299,29 +1368,35 @@
                                         <div style="text-align: left;">
                                             <p
                                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                                En el año 2022, el INFONAVIT representó el mayor porcentaje de
+                                                En el año <strong>2022</strong>, el INFONAVIT representó el mayor
+                                                porcentaje de
                                                 créditos, con un
-                                                35.0%,
-                                                seguido por la CNBV con un 42.9% y el FOVISSSTE con un 21.6%.
+                                                <strong>35.0%</strong>,
+                                                seguido por la CNBV con un <strong>42.9%</strong> y el FOVISSSTE con un
+                                                <strong>21.6%</strong>.
                                                 Otros organismos, como
-                                                BANJERCITO, contribuyeron con un porcentaje menor al 1% del
+                                                BANJERCITO, contribuyeron con un porcentaje menor al <strong>1%</strong>
+                                                del
                                                 total de créditos
                                                 otorgados.
                                             </p>
                                             <p
                                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                                En 2023, la distribución porcentual de créditos por organismo
+                                                En <strong> 2023</strong>, la distribución porcentual de créditos por
+                                                organismo
                                                 experimentó algunos
                                                 cambios.
                                                 El INFONAVIT mantuvo su posición como el principal otorgante de
                                                 créditos, con un
-                                                36.7%,
-                                                seguido por la CNBV con un 39.1% y el FOVISSSTE con un 21.3%.
+                                                <strong>36.7%</strong>,
+                                                seguido por la CNBV con un <strong>39.1%</strong> y el FOVISSSTE con un
+                                                <strong>21.3%</strong>.
                                                 Además, se observó la
                                                 participación de otros organismos como CONAVI, BANJERCITO e
                                                 INSUS, aunque en menor
                                                 medida en
-                                                comparación con los principales otorgantes.</p>
+                                                comparación con los principales otorgantes.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1365,13 +1440,14 @@
                                             <div style="text-align: left;">
                                                 <p
                                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                                    Distribución de créditos por vivienda valor 2022-2023.
+                                                    Distribución de créditos por vivienda valor
+                                                    <strong>2022-2023</strong>.
                                                     Visualiza los porcentajes que
                                                     representan las proporciones de los créditos otorgados al
                                                     valor de la vivienda
                                                     clasificado
-                                                    en: Economía, Popular, Tradicional, Media, Residencial y
-                                                    Residencial plus.</p>
+                                                    en: <strong>Economía, Popular, Tradicional, Media, Residencial y
+                                                        Residencial plus</strong>.</p>
                                             </div>
                                         </div>
                                         <div
@@ -1382,34 +1458,38 @@
                                             <div style="text-align: left;">
                                                 <ul
                                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                                    <li>En 2022, la vivienda tradicional representó el mayor
+                                                    <li>En <strong>2022</strong>, la vivienda tradicional representó el
+                                                        mayor
                                                         porcentaje de créditos, con
                                                         un
-                                                        41.0%, seguida por la vivienda residencial con un 33.4%.
+                                                        <strong>41.0%</strong>, seguida por la vivienda residencial con
+                                                        un <strong>33.4%</strong>.
                                                         Las viviendas
                                                         económicas y
                                                         populares también tuvieron una participación
-                                                        significativa, con un 7.3% y un
-                                                        10.4%,
+                                                        significativa, con un <strong>7.3%</strong> y un
+                                                        <strong>10.4%</strong>
                                                         respectivamente. Las viviendas residenciales plus
                                                         representaron el menor
                                                         porcentaje
                                                         de
-                                                        créditos, con un 7.9% del total.
+                                                        créditos, con un <strong>7.9%</strong> del total.
                                                     </li>
-                                                    <li>En 2023, hubo cambios en la distribución porcentual de
+                                                    <li>En <strong>2023</strong>, hubo cambios en la distribución
+                                                        porcentual de
                                                         créditos por valor de
                                                         vivienda.
                                                         La categoría de vivienda tradicional continuó siendo la
                                                         más demandada,
                                                         representando
                                                         el
-                                                        43.5% de los créditos. Sin embargo, se observó un
+                                                        <strong>43.5%</strong> de los créditos. Sin embargo, se observó
+                                                        un
                                                         aumento notable en la
                                                         participación de
                                                         las viviendas económicas y populares, que pasaron a
-                                                        representar el 12.3% y el
-                                                        16.2%,
+                                                        representar el <strong>12.3%</strong> y el
+                                                        <strong>16.2%</strong>,
                                                         respectivamente. Por otro lado, la participación de las
                                                         viviendas residenciales
                                                         y
