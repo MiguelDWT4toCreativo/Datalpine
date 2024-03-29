@@ -259,25 +259,26 @@
                 <!-- Forecast créditos generales (valor ) -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Forecast créditos generales (valor )<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+
+                    <!-- Link de la gráfica PENDIENTE-->
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Forecast créditos generales (valor )<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido8')"
+                                value="Segmentos">
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido9')"
+                                value="General">
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
 
-                            <div>
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido8')"
-                                    value="Segmentos">
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido9')"
-                                    value="General">
-                            </div>
-                        </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
@@ -736,7 +737,8 @@
                                         una disminución de aproximadamente el <strong>13.34%</strong> en
                                         <strong>noviembre de 2022</strong> en comparación con <strong>octubre de
                                             2022</strong>, seguida de un aumento notable del <strong>15.43%</strong> en
-                                        <strong>febrero de 2023</strong>.</li>
+                                        <strong>febrero de 2023</strong>.
+                                    </li>
                                     <li>El dato más reciente, <strong>diciembre de 2023</strong>, muestra una
                                         disminución del <strong>15.44%</strong> en comparación con <strong>septiembre de
                                             2023</strong>.</li>
