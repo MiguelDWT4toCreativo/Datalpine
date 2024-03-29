@@ -104,10 +104,13 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En el año 2023, el precio medio de las propiedades en Pachuca se situó en
-                                    $2,039,843.00, y se anticipa que este valor mantendrá una trayectoria de
-                                    crecimiento constante, alcanzando los $2,644,873.55 en el año 2026.</p>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">En el año
+                                    <strong>2023</strong>, el precio medio de las propiedades en Pachuca se situó en
+                                    <strong>$2,039,843.00</strong>, y se anticipa que este valor mantendrá una
+                                    trayectoria
+                                    de crecimiento constante, alcanzando los <strong>$2,644,873.55</strong> en el año
+                                    <strong>2026</strong>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -181,14 +184,16 @@
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     Los datos revelan una proyección ascendente en la plusvalía del precio promedio de
-                                    las viviendas en Pachuca para los próximos años. En el año 2023, se muestra un valor
-                                    de $3,534,894.07, evidenciando un crecimiento significativo que se espera continúe
-                                    de manera constante hasta alcanzar $14,633,277.84 en el año 2026.</p>
+                                    las viviendas en Pachuca para los próximos años. En el año <strong>2023</strong>, se
+                                    muestra un valor de <strong>$3,534,894.07</strong>, evidenciando un crecimiento
+                                    significativo que se espera continúe de manera constante hasta alcanzar
+                                    <strong>$14,633,277.84</strong> en el año <strong>2026</strong>.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Forecast créditos generales (cantidad)s -->
+                <!-- Forecast créditos generales (cantidad) -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
@@ -214,10 +219,14 @@
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     Estos datos representan las proyecciones de créditos generales en cantidad para los
-                                    años 2019 a 2026, desglosados en dos categorías: 'Vivienda Nueva' y 'Vivienda
-                                    Usada'. A lo largo de este periodo, se proporciona información sobre el número total
-                                    de créditos otorgados, así como la cantidad específica de créditos destinados a
-                                    viviendas nuevas y usadas</p>
+                                    años <strong> 2019 a 2026 </strong>, desglosados en dos categorías:
+                                    <strong>'Vivienda Nueva'</strong> y <strong>'Vivienda
+                                        Usada'</strong>. A lo largo de este periodo, se proporciona información sobre el
+                                    <strong>número total
+                                        de créditos</strong> otorgados, así como la cantidad específica de créditos
+                                    destinados a
+                                    viviendas nuevas y usadas
+                                </p>
                             </div>
                         </div>
                         <div
@@ -226,19 +235,23 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <<ul
+                                <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Entre los años 2019 y 2021, se observó una variación significativa en el número
-                                        total de créditos, alcanzando niveles destacados durante esos años. Sin embargo,
-                                        en 2022, se registra una marcada disminución en el total de créditos.</li>
-                                    <li>En cuanto a las proyecciones para las categorías "Vivienda Nueva" y "Vivienda
-                                        Usada", ambas muestran patrones similares de descenso en 2022, con un ligero
-                                        repunte anticipado en los años que siguen a este periodo. Se espera que la
-                                        categoría de "Vivienda Nueva" experimente una recuperación progresiva,
-                                        alcanzando 669 créditos en el año 2026, mientras que la categoría de "Vivienda
-                                        Usada" se proyecta a recuperarse hasta alcanzar 57 créditos en el mismo año,
-                                        después de la disminución observada en 2022.</li>
-                                    </ul>
+                                    <li>Entre los años <strong>2019 y 2021</strong>, se observó una variación
+                                        significativa en el número total de créditos, alcanzando niveles destacados
+                                        durante esos años. Sin embargo, en <strong>2022</strong>, se registra una
+                                        marcada disminución en el total de créditos.</li>
+                                    <li> En cuanto a las proyecciones para las categorías <strong>"Vivienda
+                                            Nueva"</strong> y <strong>"Vivienda Usada"</strong>, ambas muestran patrones
+                                        similares de descenso en <strong>2022</strong>, con un ligero repunte anticipado
+                                        en los años que siguen a este periodo. Se espera que la categoría de
+                                        <strong>"Vivienda Nueva"</strong> experimente una recuperación progresiva,
+                                        alcanzando <strong>669 créditos</strong> en el año <strong>2026</strong>,
+                                        mientras que la categoría de <strong>"Vivienda Usada"</strong> se proyecta a
+                                        recuperarse hasta alcanzar <strong>57 créditos</strong> en el mismo año, después
+                                        de la disminución observada en <strong>2022</strong>.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -294,10 +307,13 @@
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     Se muestran las proyecciones de créditos generales en términos de valor monetario
-                                    (total y promedio) para los años 2019 a 2026, subdividiendose en las categorías
-                                    "Vivienda Nueva" y "Vivienda Usada" , proporcionando un análisis detallado de cómo
+                                    <strong>(total y promedio)</strong> para los años <strong>2019 a 2026</strong>,
+                                    subdividiendose en las categorías
+                                    <strong>"Vivienda Nueva"</strong> y <strong>"Vivienda Usada"</strong> ,
+                                    proporcionando un análisis detallado de cómo
                                     se espera que evolucione el valor monetario de los créditos en estas dos
-                                    clasificaciones a lo largo de los años proyectados.</p>
+                                    clasificaciones a lo largo de los años proyectados.
+                                </p>
                             </div>
                         </div>
                         <div
@@ -308,26 +324,36 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Monto total: El monto total de créditos en Pachuca presenta una proyección
-                                        ascendente, estimándose un aumento de $1,476,067,496.32 en 2019 a
-                                        $3,740,297,148.39 en 2026. Esta tendencia refleja un crecimiento constante a lo
-                                        largo del periodo analizado.
-                                        Para vivienda nueva se observa un aumento gradual de $1,030,751,267.28 en 2019 a
-                                        $2,066,886,543.92 en 2026 evidenciando una estabilidad y crecimiento constante
-                                        en los años posteriores.
-                                        Por otro lado, los créditos destinados a la "Vivienda Usada" aunque se registran
-                                        fluctuaciones, destaca un incremento progresivo de $5,098,355.41 en 2019 a
-                                        $9,964,910.88 en 2026.</li>
-                                    <li>Monto promedio: Para todas las categorías, se evidencia un crecimiento constante
-                                        de $1,214,870.37 en 2019 a $2,940,485.18 en 2026.
-                                        En relación a "Vivienda Nueva" en Pachuca, se observa una trayectoria ascendente
-                                        en los montos promedio por crédito a lo largo de los años proyectados. Desde
-                                        $1,662,502.04 en 2019, se anticipa un crecimiento constante hasta alcanzar
-                                        $3,399,484.45 en 2026.
-                                        En cuanto a la categoría de "Vivienda Usada" en Pachuca, se observa una
-                                        variación en los montos promedio por crédito a lo largo de los años proyectados.
-                                        Partiendo de $67,978.07 en 2019, se experimenta un aumento a $191,632.90 en
-                                        2026.</li>
+                                    <li><strong>Monto total</strong>: El monto total de créditos en Pachuca presenta una
+                                        proyección ascendente, estimándose un aumento de
+                                        <strong>$1,476,067,496.32</strong> en <strong>2019</strong> a
+                                        <strong>$3,740,297,148.39</strong> en <strong>2026</strong>. Esta tendencia
+                                        refleja un crecimiento constante a lo largo del periodo analizado.
+                                    </li>
+                                    <p>Para <strong>vivienda nueva</strong> se observa un aumento gradual de
+                                        <strong>$1,030,751,267.28</strong> en <strong>2019</strong> a
+                                        <strong>$2,066,886,543.92</strong> en <strong>2026</strong> evidenciando una
+                                        estabilidad y crecimiento constante en los años posteriores.
+                                    </p>
+                                    <p>Por otro lado, los créditos destinados a la <strong>"Vivienda Usada"</strong>
+                                        aunque se registran fluctuaciones, destaca un incremento progresivo de
+                                        <strong>$5,098,355.41</strong> en <strong>2019</strong> a
+                                        <strong>$9,964,910.88</strong> en <strong>2026</strong>.
+                                    </p>
+                                    <li><strong>Monto promedio</strong>: Para todas las categorías, se evidencia un
+                                        crecimiento constante de <strong>$1,214,870.37</strong> en <strong>2019</strong>
+                                        a <strong>$2,940,485.18</strong> en <strong>2026</strong>.</li>
+                                    <p>En relación a <strong>"Vivienda Nueva"</strong> en Pachuca, se observa una
+                                        trayectoria ascendente en los montos promedio por crédito a lo largo de los años
+                                        proyectados. Desde <strong>$1,662,502.04</strong> en <strong>2019</strong>, se
+                                        anticipa un crecimiento constante hasta alcanzar <strong>$3,399,484.45</strong>
+                                        en <strong>2026</strong>.</p>
+                                    <p>En cuanto a la categoría de <strong>"Vivienda Usada"</strong> en Pachuca, se
+                                        observa una variación en los montos promedio por crédito a lo largo de los años
+                                        proyectados. Partiendo de <strong>$67,978.07</strong> en <strong>2019</strong>,
+                                        se experimenta un aumento a <strong>$191,632.90</strong> en
+                                        <strong>2026</strong>.
+                                    </p>
                                 </ul>
                             </div>
                         </div>
@@ -372,14 +398,18 @@
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                     <li>La línea azul representa el porcentaje de cambio en la oferta de casas. Comienza
-                                        en un 75% en 2023, aumenta a un 135% en 2024, y llega a un pico del 161% tanto
-                                        para los años 2025 como para el año siguiente. Esto indica un aumento
-                                        significativo en la oferta de casas durante este período.</li>
+                                        en un <strong>75%</strong> en <strong>2023</strong>, aumenta a un
+                                        <strong>135%</strong> en <strong>202</strong>4, y llega a un pico del
+                                        <strong>161%</strong> tanto para los años 2025 como para el año siguiente. Esto
+                                        indica un aumento significativo en la oferta de casas durante este período.
+                                    </li>
                                     <li>La línea roja representa el porcentaje de cambio en la oferta de departamentos.
-                                        De acuerdo a la tendencia comienza con una disminución del 22% en 2024, para el
-                                        año siguiente, disminuye ligeramente a 15% y se mantiene constante durante el
-                                        próximo año. Esto sugiere que la oferta de departamentos se mantiene a la baja
-                                        durante este período.</li>
+                                        De acuerdo a la tendencia comienza con una disminución del <strong>22%</strong>
+                                        en <strong>2024</strong>, para el año siguiente, disminuye ligeramente a
+                                        <strong>15%</strong> y se mantiene constante durante el próximo año. Esto
+                                        sugiere que la oferta de departamentos se mantiene a la baja durante este
+                                        período.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -427,12 +457,14 @@
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                     <li>El análisis de la información revela que la categoría con el mayor número de
-                                        unidades es la de "101-365 días", con un total de 1319 unidades. Este intervalo
-                                        de tiempo indica que una cantidad significativa de unidades inmobiliarias
-                                        permanecen en el mercado durante un periodo relativamente prolongado antes de
-                                        concretar la venta.</li>
-                                    <li>Por otro lado, la categoría con el menor número de unidades es la de "0-10
-                                        días", que registra 159 unidades.</li>
+                                        unidades es la de <strong>"101-365 días"</strong>, con un total de
+                                        <strong>1319</strong> unidades. Este intervalo de tiempo indica que una cantidad
+                                        significativa de unidades inmobiliarias permanecen en el mercado durante un
+                                        periodo relativamente prolongado antes de concretar la venta.
+                                    </li>
+                                    <li>Por otro lado, la categoría con el menor número de unidades es la de
+                                        <strong>"0-10 días"</strong>, que registra <strong>159</strong> unidades.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -478,8 +510,10 @@
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     La estimación poblacional revela un crecimiento progresivo en la región a lo largo
-                                    de los años 2020 a 2026. Iniciando con 6,583,278 habitantes en 2020, la población
-                                    experimenta un incremento constante, alcanzando los 11,556,676 habitantes en 2026.
+                                    de los años <strong>2020 a 2026</strong>. Iniciando con <strong>6,583,278
+                                        habitantes</strong> en <strong>2020</strong>, la población
+                                    experimenta un incremento constante, alcanzando los <strong>11,556,676</strong>
+                                    habitantes en <strong>2026</strong>.
                                 </p>
                             </div>
                         </div>
@@ -525,10 +559,12 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En este contexto, las casas que llevan más de un año en stock (16.6%) representan un
+                                    En este contexto, las casas que llevan más de un año en stock
+                                    <strong>(16.6%)</strong> representan un
                                     riesgo menor en términos de porcentaje, pero aún así indican una proporción
                                     significativa. Por otro lado, las casas que llevan menos de un año en stock
-                                    representan la mayoría en términos porcentuales (84.44%) e indican una rotación más
+                                    representan la mayoría en términos porcentuales <strong>(84.44%)</strong> e indican
+                                    una rotación más
                                     activa del inventario.
                                 </p>
                             </div>
@@ -577,11 +613,13 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>En el historial de stock, se evidencia una duración de 165 días en julio de
-                                        2023, seguida de una ligera reducción a 155 días en agosto y 145 días en
-                                        septiembre. La proyección para octubre, noviembre y diciembre sugiere una
-                                        continuación de esta tendencia, con estimaciones de 150, 148 y 149 días
-                                        respectivamente.</li>
+                                    <li>En el historial de stock, se evidencia una duración de <strong>165 días</strong>
+                                        en <strong>julio de 2023</strong>, seguida de una ligera reducción a <strong>155
+                                            días</strong> en <strong>agosto</strong> y <strong>145 días</strong> en
+                                        <strong>septiembre</strong>. La proyección para <strong>octubre, noviembre y
+                                            diciembre</strong> sugiere una continuación de esta tendencia, con
+                                        estimaciones de <strong>150, 148 y 149 días</strong> respectivamente.
+                                    </li>
                                     <li>La tendencia descendente en los días en stock refleja un posible aumento en la
                                         demanda o una mejora en las estrategias de comercialización, factores que
                                         contribuyen a una mayor dinámica en la rotación del inventario.</li>
@@ -636,13 +674,17 @@
                                     Este gráfico te permite visualizar cómo es la relación entre la oferta de
                                     propiedades y la demanda de créditos a lo largo del tiempo. Un promedio de meses
                                     alto indica que se tiene un mercado más competitivo, puesto que hay más propiedades
-                                    "peleando" contra los créditos otorgados para dicho mercado inmobiliario. En julio
-                                    de 2023, la cifra alcanzó su punto más alto, con aproximadamente 37.89 meses. Esto
+                                    "peleando" contra los créditos otorgados para dicho mercado inmobiliario. En
+                                    <strong>julio
+                                        de 2023</strong>, la cifra alcanzó su punto más alto, con aproximadamente
+                                    <strong>37.89 meses</strong>. Esto
                                     podría sugerir un exceso de oferta de propiedades o una disminución en la demanda de
                                     créditos. Por otra parte, el mejor punto para invertir se encontró en octubre de
-                                    2023, debido a que disminuyó significativamente a aproximadamente 16.72 meses. Esto
+                                    <strong>2023</strong>, debido a que disminuyó significativamente a aproximadamente
+                                    <strong>16.72 meses</strong>. Esto
                                     podría indicar una reducción en el número de propiedades listadas o un aumento en la
-                                    demanda de créditos y, por lo tanto, un mercado menos competitivo.</p>
+                                    demanda de créditos y, por lo tanto, un mercado menos competitivo.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -691,11 +733,13 @@
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                     <li>Hay fluctuaciones significativas en los precios de mes a mes. Por ejemplo, hubo
-                                        una disminución de aproximadamente el 13.34% en noviembre de 2022 en comparación
-                                        con octubre de 2022, seguida de un aumento notable del 15.43% en febrero de
-                                        2023.</li>
-                                    <li>El dato más reciente, diciembre de 2023, muestra una disminución del 15.44% en
-                                        comparación con septiembre de 2023.</li>
+                                        una disminución de aproximadamente el <strong>13.34%</strong> en
+                                        <strong>noviembre de 2022</strong> en comparación con <strong>octubre de
+                                            2022</strong>, seguida de un aumento notable del <strong>15.43%</strong> en
+                                        <strong>febrero de 2023</strong>.</li>
+                                    <li>El dato más reciente, <strong>diciembre de 2023</strong>, muestra una
+                                        disminución del <strong>15.44%</strong> en comparación con <strong>septiembre de
+                                            2023</strong>.</li>
                                 </ul>
                             </div>
                         </div>
