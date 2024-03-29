@@ -299,7 +299,7 @@
                                                 mercado</a></li>
                                         <li><a href="apps-contacts-list.php" data-key="t-user-list">Investigación de
                                                 Mercado</a></li>
-                                        <li><a href="apps-contacts-profile.php" data-key="t-profile">Proyecciones y
+                                        <li><a href="apps-invoices-detail.php" data-key="t-profile">Proyecciones y
                                                 Tendencias</a></li>
                                         <li><a href="apps-blog-list.php" data-key="t-blog-list">Análisis de
                                                 Inversión</a></li>
