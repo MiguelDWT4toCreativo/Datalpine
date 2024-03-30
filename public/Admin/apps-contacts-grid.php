@@ -395,12 +395,12 @@
                                             propiedades y están representados de la siguiente manera:</p>
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                            <li>SEGMENTO E: Menor a 1M (Verde)</li>
-                                            <li>SEGMENTO D: 1M - 1.75M (Amarillo)</li>
-                                            <li>SEGMENTO C: 1.75M-2.5M (Azul)</li>
-                                            <li>SEGMENTO B: 2.5M-3.25 (Morado)</li>
-                                            <li>SEGMENTO A: 3.25M-4M (Naranja)</li>
-                                            <li>SEGMENTO S: 4KK+ (Rojo)</li>
+                                            <li>SEGMENTO E: Menor a <strong>1M</strong> (Verde)</li>
+                                            <li>SEGMENTO D: <strong>1M - 1.75M</strong> (Amarillo)</li>
+                                            <li>SEGMENTO C: <strong>1.75M-2.5M</strong> (Azul)</li>
+                                            <li>SEGMENTO B: <strong>2.5M-3.25</strong> (Morado)</li>
+                                            <li>SEGMENTO A: <strong>3.25M-4M</strong> (Naranja)</li>
+                                            <li>SEGMENTO S: <strong>4KK+</strong> (Rojo)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -508,16 +508,18 @@
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                         El análisis de la distribución de la oferta de propiedades revela que algunas
                                         colonias
-                                        destacan por su alta densidad de disponibilidad, como La Providencia, Miguel
-                                        Hidalgo,
-                                        Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa. </p>
+                                        destacan por su alta densidad de disponibilidad, como <strong>La Providencia,
+                                            Miguel
+                                            Hidalgo,
+                                            Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa. </strong></p>
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                         Por otro lado, existen colonias donde la oferta es notablemente más limitada,
                                         como
-                                        La
-                                        Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
-                                        Privada
-                                        Rinconadas del Sur. </p>
+                                        <strong>La
+                                            Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
+                                            Privada
+                                            Rinconadas del Sur.</strong>
+                                    </p>
                                     <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                         Este panorama ofrece una visión clara de las áreas con mayor y menor
                                         disponibilidad
@@ -576,22 +578,28 @@
                                             mercado inmobiliario.</p>
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                            <li>Segmento E: El subsegmento E1 es el más destacado, mientras que E2 y E3
+                                            <li><strong>Segmento E:</strong> El subsegmento <strong>E1</strong> es el
+                                                más destacado, mientras que <strong>E2 y E3</strong>
                                                 tienen una menor representación, indicando una demanda más limitada en
                                                 los rangos de precios más altos.</li>
-                                            <li>Segmento B: Los subsegmentos B1, B2 y B3 ofrecen una variedad de
+                                            <li><strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y
+                                                    B3</strong> ofrecen una variedad de
                                                 opciones para compradores con presupuestos variados, mostrando una
                                                 distribución equilibrada de propiedades en diferentes rangos de precios.
                                             </li>
-                                            <li>Segmento D: Aunque D1 muestra una presencia notable, D2 y D3 tienen una
+                                            <li><strong>Segmento D:</strong> Aunque <strong>D1</strong> muestra una
+                                                presencia notable, <strong>D2 y D3</strong> tienen una
                                                 representación más baja, sugiriendo una demanda relativamente menor en
                                                 los rangos de precios más altos.</li>
-                                            <li>Segmento C: Los subsegmentos C1, C2 y C3 muestran una distribución
+                                            <li><strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y
+                                                    C3</strong> muestran una distribución
                                                 uniforme, reflejando estabilidad en la demanda en la gama media del
                                                 mercado.</li>
-                                            <li>Segmento A: A1, A2 y A3 tienen una representación similar, indicando una
+                                            <li><strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una
+                                                representación similar, indicando una
                                                 demanda estable en los rangos de precios más altos..</li>
-                                            <li>Segmento S: Este segmento no está dividido en subsegmentos, siendo S1 el
+                                            <li><strong>Segmento S:</strong> Este segmento no está dividido en
+                                                subsegmentos, siendo <strong>S1</strong> el
                                                 más prominente.</li>
                                         </ul>
                                         <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
@@ -679,30 +687,40 @@
                                         <div style="text-align: left;">
                                             <ul
                                                 style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                                <li>Segmento S: Posee una alta concentración de propiedades con
+                                                <li><strong>Segmento S:</strong> Posee una alta concentración de
+                                                    propiedades con
                                                     un
                                                     tamaño de
-                                                    construcción mayor a los 300 m2.</li>
-                                                <li>Segmento A: Tiene una cantidad significativa de propiedades
+                                                    construcción mayor a los <strong>300 m2</strong>.</li>
+                                                <li><strong>Segmento A:</strong> Tiene una cantidad significativa de
+                                                    propiedades
                                                     de
-                                                    0-100m2
-                                                    de construcción.</li>
-                                                <li>Segmento B: Destaca las propiedades con 100-150m2, seguido
+                                                    <strong>0-100m2
+                                                        de construcción</strong>.
+                                                </li>
+                                                <li><strong>Segmento B:</strong> Destaca las propiedades con 100-150m2,
+                                                    seguido
                                                     de
-                                                    150-200m2
-                                                    de construcción.</li>
-                                                <li>Segmento C: Las mayores concentraciones son en 200-250m2,
+                                                    <strong>150-200m2
+                                                        de construcción</strong>.
+                                                </li>
+                                                <li><strong>Segmento C:</strong> Las mayores concentraciones son en
+                                                    200-250m2,
                                                     seguido de
-                                                    150-200m2 de construcción.</li>
-                                                <li>Segmento D: Posee los valores más cercanos a la media
+                                                    <strong>150-200m2 de construcción</strong>.
+                                                </li>
+                                                <li><strong>Segmento D:</strong> Posee los valores más cercanos a la
+                                                    media
                                                     presupuestal y
                                                     tiene una distribución equitativa. Destaca las propiedades
                                                     con
                                                     un tamaño
-                                                    de construcción mayor a los 200-250M2 y mayor a 300M2 de
-                                                    construcción.
+                                                    de construcción mayor a los <strong>200-250M2</strong> y mayor a
+                                                    <strong>300M2 de
+                                                        construcción</strong>.
                                                 </li>
-                                                <li>Segmento E: Tiene pocos terrenos en m2 de construcción en
+                                                <li><strong>Segmento E:</strong> Tiene pocos terrenos en m2 de
+                                                    construcción en
                                                     todos
                                                     los
                                                     rangos. Esto podría indicar que este segmento tiene una
@@ -751,9 +769,12 @@
                                             <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                                 La gráfica presenta los precios promedio por metro cuadrado en
                                                 diferentes rangos, ofreciendo una perspectiva clara de la variación de
-                                                costos en el mercado inmobiliario. Desde $17,784 en el rango de 0-100
-                                                metros cuadrados hasta $19,652 para propiedades que superan los 300
-                                                metros cuadrados, la visualización destaca la evolución de los precios a
+                                                costos en el mercado inmobiliario. Desde <strong>$17,784</strong> en el
+                                                rango de <strong>0-100</strong>
+                                                metros cuadrados hasta <strong>$19,652</strong> para propiedades que
+                                                superan los <strong>300
+                                                    metros</strong> cuadrados, la visualización destaca la evolución de
+                                                los precios a
                                                 medida que aumenta la dimensión de las propiedades.</p>
                                         </div>
                                     </div>
@@ -817,19 +838,23 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>Segmento S: Predominan los terrenos con 150-200 M2. Esto significa que
+                                            <li><strong>Segmento S:</strong> Predominan los terrenos con <strong>150-200
+                                                    M2</strong>. Esto significa que
                                                 en
                                                 este segmento hay una gran cantidad de terrenos construidos de tamaño
                                                 medio-amplio.</li>
-                                            <li>Segmento A : Tiene una concentración de terrenos en el rango de 100-150
-                                                M2.
+                                            <li><strong>Segmento A:</strong> Tiene una concentración de terrenos en el
+                                                rango de <strong>100-150
+                                                    M2</strong>.
                                                 Esto indica que los terrenos de tamaño medio son comunes en este
                                                 segmento.
                                             </li>
-                                            <li>Segmento B, C y D: Muestran una distribución más acentuada entre los
+                                            <li><strong>Segmento B, C y D:</strong> Muestran una distribución más
+                                                acentuada entre los
                                                 terrenos con 100-150 M2 de tamaño. Esto implica que este segmento es más
                                                 adecuado para aquellos que buscan terrenos de tamaño medio.</li>
-                                            <li>Segmento E: Tiene pocos terrenos disponibles en todos los rangos. Esto
+                                            <li><strong>Segmento E:</strong> Tiene pocos terrenos disponibles en todos
+                                                los rangos. Esto
                                                 podría indicar que este segmento tiene una oferta limitada de terrenos
                                                 debido a su poco valor en el mercado.
                                             </li>
@@ -897,18 +922,23 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>Las propiedades con 3 recámaras son las más comunes en todos los
-                                                segmentos,
+                                            <li>Las propiedades con <strong>3 recámaras</strong> son las más comunes en
+                                                <strong>todos los
+                                                    segmentos</strong>,
                                                 esto se puede observar en las barras altas, con una cantidad
                                                 significativa
-                                                para el segmento B.</li>
-                                            <li>Subsiguiente, las propiedades con 2 recámaras también son
+                                                para el <strong>segmento B</strong>.
+                                            </li>
+                                            <li>Subsiguiente, las propiedades con <strong>2 recámaras</strong> también
+                                                son
                                                 populares
                                                 en el
-                                                segmento A y B. En contraste, las propiedades con 4 o más
-                                                recámaras
+                                                <strong>segmento A y B</strong>. En contraste, las propiedades con
+                                                <strong>4 o más
+                                                    recámaras</strong>
                                                 en los
-                                                segmentos C y D.</li>
+                                                <strong>segmentos C y D</strong>.
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -969,30 +999,37 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>En el segmento S, la mayoría de las propiedades tienen 3 y 5
-                                                baños.
+                                            <li>En el <strong>segmento S</strong>, la mayoría de las propiedades tienen
+                                                <strong>3 y 5
+                                                    baños</strong>.
                                                 Esto se
                                                 puede observar en las barras altas en este segmento para las
                                                 propiedades con
-                                                dicho números de baños.</li>
-                                            <li>Para el segmento A, hay una distribución más uniforme entre
+                                                dicho números de baños.
+                                            </li>
+                                            <li>Para el <strong>segmento A</strong>, hay una distribución más uniforme
+                                                entre
                                                 propiedades con
-                                                2 baños seguido de 1 baño.</li>
-                                            <li>El segmento B muestra una predominancia de propiedades con 3
-                                                baños.
+                                                2 baños seguido de <strong>1 baño</strong>.</li>
+                                            <li>El <strong>segmento B</strong> muestra una predominancia de propiedades
+                                                con <strong>3
+                                                    baños</strong>.
                                                 Esto se
                                                 puede observar en la barra alta en este segmento para las
                                                 propiedades,
-                                                seguido de 2 baños.</li>
-                                            <li>En los segmentos C y D, la mayoría de las propiedades es común
+                                                seguido de <strong>2 baños</strong>.</li>
+                                            <li>En los <strong>segmentos C y D</strong>, la mayoría de las propiedades
+                                                es común
                                                 encontrar
-                                                entre 2 a 4 baños.</li>
-                                            <li>El segmento E tiene muy pocas propiedades en cada categoría de
+                                                entre <strong>2 a 4 baños</strong>.</li>
+                                            <li>El <strong>segmento E</strong> tiene muy pocas propiedades en cada
+                                                categoría de
                                                 número de
                                                 baños. Esto se puede observar en las barras bajas en este
                                                 segmento
                                                 para las
-                                                propiedades con cualquier número de baños, predominando 2 baños.
+                                                propiedades con cualquier número de baños, predominando <strong>2
+                                                    baños</strong>.
                                             </li>
                                         </ul>
                                     </div>
@@ -1056,19 +1093,22 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>La mayoría de las propiedades en todos los segmentos tienen 2
-                                                lugares de
-                                                estacionamiento seguido de 1 estacionamiento. Esto se puede
+                                            <li>La mayoría de las propiedades en todos los segmentos <strong>tienen 2
+                                                    lugares de
+                                                    estacionamiento</strong> seguido de 1 estacionamiento. Esto se puede
                                                 observar
                                                 en las
                                                 barras altas en estos segmentos para las propiedades con estos
                                                 números de
                                                 estacionamientos.</li>
-                                            <li>El segmento S tiene una notable cantidad de propiedades con 2
-                                                estacionamientos.</li>
-                                            <li>Los segmentos A, B, C, D Y E muestran una preferencia marcada
-                                                por 2
-                                                estacionamientos. Esto se puede observar en la barra alta en
+                                            <li>El <strong>segmento S</strong> tiene una notable cantidad de propiedades
+                                                con <strong>2
+                                                    estacionamientos</strong>.</li>
+                                            <li>Los <strong>segmentos A, B, C, D Y E</strong> muestran una preferencia
+                                                marcada
+                                                por <strong>2
+                                                    estacionamientos</strong>. Esto se puede observar en la barra alta
+                                                en
                                                 estos
                                                 segmentos
                                                 para las propiedades seguido de 1 estacionamiento.</li>
@@ -1150,11 +1190,14 @@
                                     <div style="text-align: left;">
                                         <p
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            La mayoría de las viviendas en todos los segmentos tienden a tener una
-                                            antigüedad mayor a los 13 meses antes de ser vendidas. Esto indica que
+                                            La mayoría de las viviendas en <strong>todos los segmentos</strong> tienden
+                                            a tener una
+                                            antigüedad <strong>mayor a los 13 meses</strong> antes de ser
+                                            <strong>vendidas</strong>. Esto indica que
                                             las
                                             viviendas para dicho mercado requieren de más tiempo para encontrar
-                                            comprador.</p>
+                                            comprador.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1210,12 +1253,16 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Un mayor porcentaje de préstamos se otorga a hombres en el mercado
-                                            inmobiliario. Los hombres tienen el 54.4% de los créditos.</li>
-                                        <li>Las mujeres tienen el 45.6% de los créditos. Esto indica que un
-                                            menor
-                                            porcentaje
-                                            de préstamos se otorga a mujeres.</li>
+                                        <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
+                                            mercado
+                                            inmobiliario. Los hombres tienen el <strong>54.4%</strong> de los créditos.
+                                        </li>
+                                        <li>Las mujeres tienen el <strong>45.6%</strong> de los créditos. Esto indica
+                                            que un
+                                            <strong>menor
+                                                porcentaje
+                                                de préstamos se otorga a mujeres</strong>.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -1275,17 +1322,20 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>La mayoría de los créditos se destinan a viviendas nuevas (838).
-                                            Esto se
-                                            puede observar en la barra más alta en el gráfico para las viviendas
-                                            nuevas.
+                                        <li>La tabla proporciona una clasificación del mercado salarial por persona,
+                                            dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
+                                            representa un rango de salario específico. </li>
+                                        <li>La mayoría de las personas se encuentran en la <strong>categoría “F”
+                                                (30.03%)</strong>, que representa salarios entre <strong>$5000 y $7,999
+                                                pesos</strong>, seguida por la <strong>categoría “F1”(25.56%)</strong>,
+                                            que incluye salarios entre <strong>$8,000 y $11,999 pesos</strong>, y en
+                                            tercer lugar la <strong>categoría “G” (23.32%)</strong> que representa
+                                            salarios que ronda los <strong>$10 y $4,999 pesos</strong> indicando que una
+                                            gran proporción de individuos tiene ingresos dentro de esos rangos.
+                                            <strong>A partir</strong> de la <strong>clasificación “E” y”E1”</strong>,
+                                            los <strong>porcentajes disminuyen</strong> significativamente. Las demás
+                                            categorías tienen una menor proporción de personas.
                                         </li>
-                                        <li>Los créditos para viviendas usadas son también significativos (772).
-                                        </li>
-                                        <li>Los créditos para mejoramientos son significativamente menores
-                                            (255).
-                                        </li>
-                                        <li>Otros programas reciben la menor cantidad de créditos (154).</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1351,30 +1401,20 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>La tabla proporciona una clasificación del mercado salarial por
-                                            persona,
-                                            dividida en diferentes categorías desde “G” hasta “S”. Cada
-                                            categoría
-                                            representa
-                                            un rango de salario específico.</li>
-                                        <li>La mayoría de las personas se encuentran en la categoría “F”
-                                            (30.03%),
-                                            que
-                                            representa salarios entre $5000 y $7,999 pesos, seguida por la
-                                            categoría
-                                            “F1”(25.56%), que incluye salarios entre $8,000 y $11,999 pesos, y
-                                            en
-                                            tercer
-                                            lugar la categoría “G” (23.32%) que representa salarios que ronda
-                                            los
-                                            $10 y
-                                            $4,999 pesos indicando que una gran proporción de individuos tiene
-                                            ingresos
-                                            dentro de esos rangos. A partir de la clasificación “E” y”E1”, los
-                                            porcentajes
-                                            disminuyen significativamente. Las demás categorías tienen una menor
-                                            proporción
-                                            de personas.</li>
+                                        <li>La tabla proporciona una clasificación del mercado salarial por persona,
+                                            dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
+                                            representa un rango de salario específico. </li>
+                                        <li>La mayoría de las personas se encuentran en la <strong>categoría “F”
+                                                (30.03%)</strong>, que representa salarios entre <strong>$5000 y $7,999
+                                                pesos</strong>, seguida por la <strong>categoría “F1”(25.56%)</strong>,
+                                            que incluye salarios entre <strong>$8,000 y $11,999 pesos</strong>, y en
+                                            tercer lugar la <strong>categoría “G” (23.32%)</strong> que representa
+                                            salarios que ronda los <strong>$10 y $4,999 pesos</strong> indicando que una
+                                            gran proporción de individuos tiene ingresos dentro de esos rangos.
+                                            <strong>A partir</strong> de la <strong>clasificación “E” y”E1”</strong>,
+                                            los <strong>porcentajes disminuyen</strong> significativamente. Las demás
+                                            categorías tienen una menor proporción de personas.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -1440,39 +1480,24 @@
                                 <div style="text-align: left;">
                                     <ul
                                         style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>La tabla proporciona una clasificación del mercado salarial por
-                                            pareja,
-                                            dividida
-                                            en diferentes categorías desde “G” hasta “S”. Cada categoría
-                                            representa
-                                            un rango
-                                            de salario específico y el porcentaje de parejas que caen dentro de
-                                            ese
-                                            rango.
+                                        <li>La tabla proporciona una clasificación del mercado salarial por pareja,
+                                            dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
+                                            representa un rango de salario específico y el porcentaje de parejas que
+                                            caen dentro de ese rango.</li>
+                                        <li>La mayoría de las parejas se encuentran en la <strong>categoría “F1”
+                                                (24.00%)</strong>, que representa salarios entre <strong>$8000 y $11,999
+                                                pesos</strong>, seguida por la <strong>categoría “E” (18.46%)</strong>,
+                                            que incluye salarios entre <strong>$12000 y $15,999 pesos</strong>, y en
+                                            tercer lugar la <strong>categoría “F”(14.46%)</strong> que incluye a parejas
+                                            que ganan entre <strong>$5000 y $7,999 pesos</strong>. Dichos segmentos
+                                            representan la proporción de parejas con mayor participación del total
+                                            dentro de los rangos salariales. Las demás categorías tienen una menor
+                                            proporción.</li>
+                                        <li>Esta gráfica nos permite comprender de manera efectiva cómo se distribuyen
+                                            los salarios en el mercado laboral y dónde se encuentra un elemento
+                                            específico dentro de este mercado. Es una herramienta útil para analizar la
+                                            estructura salarial de la población.
                                         </li>
-                                        <li>La mayoría de las parejas se encuentran en la categoría “F1”
-                                            (24.00%),
-                                            que
-                                            representa salarios entre $8000 y $11,999 pesos, seguida por la
-                                            categoría “E”
-                                            (18.46%), que incluye salarios entre $12000 y $15,999 pesos, y en
-                                            tercer
-                                            lugar
-                                            la categoría “F”(14.46%) que incluye a parejas que ganan entre $5000
-                                            y
-                                            $7,999
-                                            pesos. Dichos segmentos representan la proporción de parejas con
-                                            mayor
-                                            participación del total dentro de los rangos salariales. Las demás
-                                            categorías
-                                            tienen una menor proporción.</li>
-                                        <li> Esta gráfica nos permite comprender de manera efectiva cómo se
-                                            distribuyen los
-                                            salarios en el mercado laboral y dónde se encuentra un elemento
-                                            específico
-                                            dentro de este mercado. Es una herramienta útil para analizar la
-                                            estructura
-                                            salarial de la población.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1529,33 +1554,21 @@
                                     <div style="text-align: left;">
                                         <ul
                                             style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                            <li>Las barras están coloreadas para representar visualmente cada
-                                                rango
-                                                de
-                                                ingreso; hay una barra verde, una amarilla y café que son
-                                                prominentes porque
-                                                representan los volúmenes salariales netos más altos. Los
-                                                valores
-                                                exactos
-                                                del volumen salarial están indicados en cada barra para
-                                                proporcionar
-                                                detalles precisos.
-                                            </li>
+                                            <li>Las barras están coloreadas para representar visualmente cada rango de
+                                                ingreso; hay una barra verde, una amarilla y café que son prominentes
+                                                porque representan los volúmenes salariales netos más altos. Los valores
+                                                exactos del volumen salarial están indicados en cada barra para
+                                                proporcionar detalles precisos.</li>
                                             <li>Se observa que la categoría color verde de ingresos de
-                                                $8000-$11999(F1)
-                                                tiene el volumen salarial más alto, seguido por la categoría de
-                                                $5000-$8999
-                                                (F). Las categorías con ingresos superiores a 25K(D1) en
-                                                adelante
-                                                tienen un
+                                                <strong>$8000-$11999(F1)</strong> tiene el volumen salarial más alto,
+                                                seguido por la categoría de <strong>$5000-$8999 (F)</strong>. Las
+                                                categorías con ingresos superiores a 25K(D1) en adelante tienen un
                                                 volumen salarial significativamente menor.</li>
-                                            <li> Este gráfico nos permite comprender de manera efectiva cómo se
-                                                distribuyen
-                                                los salarios en el mercado laboral y dónde se encuentra un
-                                                elemento
-                                                específico dentro de este mercado. Es una herramienta útil para
-                                                analizar la
-                                                estructura salarial de la población.</li>
+                                            <li>Este gráfico nos permite comprender de manera efectiva cómo se
+                                                distribuyen los salarios en el mercado laboral y dónde se encuentra un
+                                                elemento específico dentro de este mercado. Es una herramienta útil para
+                                                analizar la estructura salarial de la población.
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
