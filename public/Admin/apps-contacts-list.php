@@ -280,12 +280,10 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica PENDIENTE-->
-                            <!--
                                     <iframe
-                                        src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_pachuca.html"
+                                        src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
                                         width="800" height="400" frameborder="0" id="contenido01"
                                         style="display: block; margin: 0 auto;"></iframe>
-                -->
                             <!-- Explicación de la gráfica -->
                             <div
                                 style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
