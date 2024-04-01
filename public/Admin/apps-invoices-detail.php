@@ -429,12 +429,10 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_casasdepart_proyecanualofert_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                        -->
 
                         <!-- Explicación de la gráfica -->
                         <div
