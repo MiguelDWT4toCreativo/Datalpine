@@ -8,6 +8,15 @@
     <?php include 'layouts/head-style.php'; ?>
 
 </head>
+<script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
 
 <?php include 'layouts/body.php'; ?>
 
@@ -79,12 +88,9 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_preciomediaanual_direct_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -118,51 +124,36 @@
                 <!-- Plusvalía estimada (5 años) -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Plusvalía estimada (5 años)<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+
+                    <!-- Link de la gráfica PENDIENTE-->
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <h5 class="card-title"
+                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                    Plusvalía estimada (5 años)<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                value="Estimación">
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                value="Porcentual">
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
-                            <?php
-                            echo "<li style='font-size: 20px;'>3.1 Distribución de propiedades por segmento</li>";
-                            echo "</ol>";
-                            echo "</ol>";
-                            ?>
-                            <div>
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
-                                    value="2022">
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
-                                    value="2023">
-                            </div>
-                        </div>
+
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_direct_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_porcentual_direct_pachuca.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
-                        <script>
-                            function mostrar(id) {
-                                var iframes = document.getElementsByTagName('iframe');
-                                for (var i = 0; i < iframes.length; i++) {
-                                    iframes[i].style.display = 'none';
-                                }
-                                document.getElementById(id).style.display = 'block';
-                            }
-                        </script>
-                        -->
-
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -289,15 +280,6 @@
                                     id="contenido9" style="display: none;"></iframe>
                             </div>
                         </div>
-                        <script>
-                            function mostrar(id) {
-                                var iframes = document.getElementsByTagName('iframe');
-                                for (var i = 0; i < iframes.length; i++) {
-                                    iframes[i].style.display = 'none';
-                                }
-                                document.getElementById(id).style.display = 'block';
-                            }
-                        </script>
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -429,9 +411,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->
@@ -528,9 +509,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->
@@ -578,9 +558,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->
@@ -633,9 +612,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div
@@ -692,8 +670,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
