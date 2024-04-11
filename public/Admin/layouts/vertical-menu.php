@@ -295,6 +295,13 @@
                                         <span data-key="t-contacts">Pachuca</span>
                                     </a>
                                     <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="charts-chartjs.php" data-key="t-user-grid">Visión General del
+                                                Mercado</a></li>
+                                        <li><a href="charts-knob.php" data-key="t-user-grid">Análisis de Segmentos y
+                                                Precios</a></li>
+                                        <li><a href="charts-sparkline.php" data-key="t-user-grid"> Características y
+                                                Distribución de Propiedades</a></li>
+                                                <!--
                                         <li><a href="apps-contacts-grid.php" data-key="t-user-grid">Análisis de
                                                 mercado</a></li>
                                         <li><a href="apps-contacts-list.php" data-key="t-user-list">Investigación de
@@ -303,6 +310,7 @@
                                                 Tendencias</a></li>
                                         <li><a href="apps-blog-list.php" data-key="t-blog-list">Análisis de
                                                 Inversión</a></li>
+                    -->
                                     </ul>
                                 </li>
                             </ul>
