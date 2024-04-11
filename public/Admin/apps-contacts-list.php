@@ -60,7 +60,7 @@
                 </div>
                 <!-- end page title -->
 
-                <!-- Investigación de Mercado -->
+                <!-- 5. Demografía y Tendencias de Mercado -->
                 <style>
                     /* Estilos CSS para el título */
                     .titulo {
@@ -77,91 +77,11 @@
                     }
                 </style>
                 <div class="titulo">
-                    Investigación de Mercado
+                5. Demografía y Tendencias de Mercado
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">En este informe, exploramos el proceso de
                     investigación de mercado, que incluye la recopilación, el análisis y la
                     interpretación de datos, evaluar la competencia y encontrar oportunidades de crecimiento.</p>
-
-                <!--Clientes potenciales foráneos -->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Clientes potenciales foráneos<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <!-- Link de la gráfica -->
-                        <?php
-                        // Ruta de la imagen
-                        $ruta_imagen = "/datalpine/resources/jupyter/mapas/map_ClientesPotencialesForaneos_pachuca.png";
-                        $ancho_imagen = 800; // Ancho deseado para la imagen
-                        $alto_imagen = 400; // Alto deseado para la imagen
-                        ?>
-
-                        <!-- Contenedor para centrar la imagen -->
-                        <div style="display: flex; justify-content: center;">
-                            <!-- Insertar la imagen en el contenedor -->
-                            <img src="<?php echo $ruta_imagen; ?>" width="<?php echo $ancho_imagen; ?>"
-                                height="<?php echo $alto_imagen; ?>" alt="Imagen">
-                        </div>
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">El mapa
-                                    proporciona una representación de la distribución de compradores foráneos
-                                    interesados en adquirir propiedades en la zona metropolitana de Pachuca. Estos
-                                    compradores están clasificados por su región de origen y se ponderan según la
-                                    importancia relativa asignada basada en un meticuloso análisis de variables
-                                    clave,
-                                    como el tamaño del mercado, la demanda del producto o servicio y la
-                                    accesibilidad
-                                    logística. Con esta información, se puede comprender la procedencia geográfica
-                                    de
-                                    los interesados en el mercado inmobiliario local, lo que facilita la
-                                    identificación
-                                    de tendencias y preferencias de compra. </p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El mapa proporciona datos sobre la distribución de compradores foráneos interesados
-                                    en
-                                    adquirir propiedades en la ciudad de Pachuca. Estos compradores están clasificados
-                                    por
-                                    región de origen y se muestran sus respectivas ponderaciones, reflejando el
-                                    porcentaje
-                                    de contribución relativa de cada región al total de compradores foráneos.
-                                    Según los datos, la región de Ciudad de México representa el mayor porcentaje, con
-                                    un
-                                    <strong>33%</strong>, seguida por el Estado de México con un <strong>27%</strong>,
-                                    Nuevo León con un <strong>20%</strong>, Jalisco con
-                                    un
-                                    <strong>13%</strong>, y finalmente Puebla con un <strong>7%</strong>.
-                                    Este análisis revela la procedencia geográfica de los compradores foráneos y su
-                                    importancia relativa en el mercado inmobiliario de Pachuca, lo que puede ser
-                                    esencial
-                                    para comprender y atender las necesidades de estos grupos de compradores en
-                                    particular.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!--1. Demográfico -->
                 <div class="row align-items-center"
@@ -347,12 +267,10 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/graficas/Precio_oferta_2022_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -407,12 +325,10 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        <!-- Link de la gráfica -->
+                            <iframe src="/datalpine/resources/jupyter/graficas/mediana_precio_oferta.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1395,107 +1311,6 @@
                                                 medida en
                                                 comparación con los principales otorgantes.
                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 4.8 Distribución % de créditos por vivienda valor -->
-                                <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                                    <?php
-                                    echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";
-                                    echo "</ol>";
-                                    echo "</ol>";
-                                    ?>
-                                    <!-- Link de la gráfica PENDIENTE-->
-                                    <div class="row">
-                                        <div class="col-md-6 mb-4">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">2022</h5>
-                                                    <iframe
-                                                        src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2022_pachuca.html"
-                                                        width="100%" height="300" frameborder="0"
-                                                        style="border: none;"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-4">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">2023</h5>
-                                                    <iframe
-                                                        src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2023_pachuca.html"
-                                                        width="100%" height="300" frameborder="0"
-                                                        style="border: none;"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Explicación de la gráfica -->
-                                        <div
-                                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                                <strong>Descripción:</strong>
-                                            </p>
-                                            <div style="text-align: left;">
-                                                <p
-                                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                                    Distribución de créditos por vivienda valor
-                                                    <strong>2022-2023</strong>.
-                                                    Visualiza los porcentajes que
-                                                    representan las proporciones de los créditos otorgados al
-                                                    valor de la vivienda
-                                                    clasificado
-                                                    en: <strong>Economía, Popular, Tradicional, Media, Residencial y
-                                                        Residencial plus</strong>.</p>
-                                            </div>
-                                        </div>
-                                        <div
-                                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                                <strong>Interpretación:</strong>
-                                            </p>
-                                            <div style="text-align: left;">
-                                                <ul
-                                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                                    <li>En <strong>2022</strong>, la vivienda tradicional representó el
-                                                        mayor
-                                                        porcentaje de créditos, con
-                                                        un
-                                                        <strong>41.0%</strong>, seguida por la vivienda residencial con
-                                                        un <strong>33.4%</strong>.
-                                                        Las viviendas
-                                                        económicas y
-                                                        populares también tuvieron una participación
-                                                        significativa, con un <strong>7.3%</strong> y un
-                                                        <strong>10.4%</strong>
-                                                        respectivamente. Las viviendas residenciales plus
-                                                        representaron el menor
-                                                        porcentaje
-                                                        de
-                                                        créditos, con un <strong>7.9%</strong> del total.
-                                                    </li>
-                                                    <li>En <strong>2023</strong>, hubo cambios en la distribución
-                                                        porcentual de
-                                                        créditos por valor de
-                                                        vivienda.
-                                                        La categoría de vivienda tradicional continuó siendo la
-                                                        más demandada,
-                                                        representando
-                                                        el
-                                                        <strong>43.5%</strong> de los créditos. Sin embargo, se observó
-                                                        un
-                                                        aumento notable en la
-                                                        participación de
-                                                        las viviendas económicas y populares, que pasaron a
-                                                        representar el <strong>12.3%</strong> y el
-                                                        <strong>16.2%</strong>,
-                                                        respectivamente. Por otro lado, la participación de las
-                                                        viviendas residenciales
-                                                        y
-                                                        residenciales plus disminuyó en comparación con el año
-                                                        anterior.
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

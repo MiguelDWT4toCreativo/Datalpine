@@ -301,7 +301,13 @@
                                                 Precios</a></li>
                                         <li><a href="charts-sparkline.php" data-key="t-user-grid"> Características y
                                                 Distribución de Propiedades</a></li>
-                                                <!--
+                                        <li><a href="extended-lightbox.php" data-key="t-user-grid"> Dinámicas de Venta y
+                                                Financiamiento</a></li>
+                                        <li><a href="apps-contacts-list.php" data-key="t-user-list"> Demografía y
+                                                Tendencias de Mercado</a></li>
+                                        <li><a href="apps-invoices-detail.php" data-key="t-profile"> Proyecciones
+                                                Oportunidades de Inversión y Análisis de Colonias</a></li>
+                                        <!--
                                         <li><a href="apps-contacts-grid.php" data-key="t-user-grid">Análisis de
                                                 mercado</a></li>
                                         <li><a href="apps-contacts-list.php" data-key="t-user-list">Investigación de
