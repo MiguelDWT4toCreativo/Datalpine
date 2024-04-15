@@ -242,37 +242,37 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="apps-calendar.php">
+                            <a href="menu-explorador.php">
                                 <span data-key="t-calendar">Explorador de valuación y precios</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="apps-chat.php">
+                            <a href="menu-segmentaciones.php">
                                 <span data-key="t-chat">Segmentaciones de mercado</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="apps-email-inbox.php">
+                            <a href="menu-amenidades.php">
                                 <span data-key="t-email">Amenidades</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="apps-invoices-list.php">
+                            <a href="menu-consultoria.php">
                                 <span data-key="t-invoices">Consultoria</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="charts-apex.php">
+                            <a href="menu-tendencias.php">
                                 <span data-key="t-contacts">Tendencias</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="apps-blog-grid.php">
+                            <a href="menu-contacto.php">
                                 <span data-key="t-blog">Contacto</span>
                             </a>
                         </li>
@@ -280,49 +280,59 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow">
+                    <a href="javascript:void(0);" class="has-arrow">
                         <i data-feather="map"></i>
                         <span data-key="t-authentication">Estados</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="javascript: void(0);" class="has-arrow">
+                            <a href="javascript:void(0);" class="has-arrow">
                                 <span data-key="t-contacts">Hidalgo</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li>
-                                    <a href="javascript: void(0);" class="has-arrow">
+                                    <a href="javascript:void(0);" class="has-arrow">
                                         <span data-key="t-contacts">Pachuca</span>
                                     </a>
                                     <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="charts-chartjs.php" data-key="t-user-grid">Visión General del
+                                        <li><a href="pac-vision.php" data-key="t-user-grid">Visión General del
                                                 Mercado</a></li>
-                                        <li><a href="charts-knob.php" data-key="t-user-grid">Análisis de Segmentos y
+                                        <li><a href="pac-analisis.php" data-key="t-user-grid">Análisis de Segmentos y
                                                 Precios</a></li>
-                                        <li><a href="charts-sparkline.php" data-key="t-user-grid"> Características y
+                                        <li><a href="pac-caracteristicas.php" data-key="t-user-grid">Características y
                                                 Distribución de Propiedades</a></li>
-                                        <li><a href="extended-lightbox.php" data-key="t-user-grid"> Dinámicas de Venta y
+                                        <li><a href="pac-dinamica.php" data-key="t-user-grid">Dinámicas de Venta y
                                                 Financiamiento</a></li>
-                                        <li><a href="apps-contacts-list.php" data-key="t-user-list"> Demografía y
+                                        <li><a href="pac-demografia.php" data-key="t-user-list">Demografía y
                                                 Tendencias de Mercado</a></li>
-                                        <li><a href="apps-invoices-detail.php" data-key="t-profile"> Proyecciones
+                                        <li><a href="pac-proyecciones.php" data-key="t-profile">Proyecciones
                                                 Oportunidades de Inversión y Análisis de Colonias</a></li>
-                                        <!--
-                                        <li><a href="apps-contacts-grid.php" data-key="t-user-grid">Análisis de
-                                                mercado</a></li>
-                                        <li><a href="apps-contacts-list.php" data-key="t-user-list">Investigación de
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="has-arrow">
+                                        <span data-key="t-contacts">Tulancingo</span>
+                                    </a>
+                                    <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="tulan-vision.php" data-key="t-user-grid">Visión General del
                                                 Mercado</a></li>
-                                        <li><a href="apps-invoices-detail.php" data-key="t-profile">Proyecciones y
-                                                Tendencias</a></li>
-                                        <li><a href="apps-blog-list.php" data-key="t-blog-list">Análisis de
-                                                Inversión</a></li>
-                    -->
+                                        <li><a href="tulan-analisis.php" data-key="t-user-list">Análisis de
+                                                Segmentos y Precios</a></li>
+                                        <li><a href="tulan-caracteristicas.php" data-key="t-profile">Características y
+                                                Distribución de Propiedades</a></li>
+                                        <li><a href="tulan-dinamica.php" data-key="t-blog-list">Dinámicas de
+                                                Venta y Financiamiento</a></li>
+                                        <li><a href="tulan-demografica.php" data-key="t-user-list">Demografía y
+                                                Tendencias de Mercado</a></li>
+                                        <li><a href="tulan-proyecciones.php" data-key="t-profile">Proyecciones
+                                                Oportunidades de Inversión y Análisis de Colonias</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
+
             </ul>
         </div>
         <!-- Sidebar -->
