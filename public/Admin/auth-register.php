@@ -11,9 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate useremail
     if (empty(trim($_POST["email"]))) {
-        $useremail_err = "Please enter a useremail.";
+        $useremail_err = "Por favor ingrese un correo electrónico de usuario.";
     } elseif (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
-        $useremail_err = "Invalid email format";
+        $useremail_err = "Formato de correo inválido";
     } else {
         // Prepare a select statement
         $sql = "SELECT id FROM usuarios WHERE email = ?";
@@ -31,12 +31,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 mysqli_stmt_store_result($stmt);
 
                 if (mysqli_stmt_num_rows($stmt) == 1) {
-                    $useremail_err = "This useremail is already taken.";
+                    $useremail_err = "Este correo electrónico de usuario ya está en uso.";
                 } else {
                     $useremail = trim($_POST["email"]);
                 }
             } else {
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "¡Ups! Algo salió mal. Por favor, inténtelo de nuevo más tarde.";
             }
 
             // Close statement
@@ -54,20 +54,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate password
     if (empty(trim($_POST["contraseña"]))) {
-        $password_err = "Please enter a password.";
+        $password_err = "Porfavor ingrese una contraseña.";
     } elseif (strlen(trim($_POST["contraseña"])) < 6) {
-        $password_err = "Password must have atleast 6 characters.";
+        $password_err = "La contraseña debe tener al menos 6 caracteres.";
     } else {
         $password = trim($_POST["contraseña"]);
     }
 
     // Validate confirm password
     if (empty(trim($_POST["confirm_password"]))) {
-        $confirm_password_err = "Please enter a confirm password.";
+        $confirm_password_err = "Por favor ingrese una contraseña de confirmación.";
     } else {
         $confirm_password = trim($_POST["confirm_password"]);
         if (empty($password_err) && ($password != $confirm_password)) {
-            $confirm_password_err = "Password did not match.";
+            $confirm_password_err = "La contraseña no coincidió.";
         }
     }
 
@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <head>
 
-    <title>Register | Datalpine</title>
+    <title>Registro | Datalpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -135,26 +135,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
                                 <form class="needs-validation mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                     <div class="mb-3 <?php echo (!empty($useremail_err)) ? 'has-error' : ''; ?>">
-                                        <label for="useremail" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="useremail" placeholder="Email" required name="email" value="<?php echo $useremail; ?>">
+                                        <label for="useremail" class="form-label">Correo Electrónico:</label>
+                                        <input type="email" class="form-control" id="useremail" placeholder=" Ingresa una dirección de correo electrónico" required name="email" value="<?php echo $useremail; ?>">
                                         <span class="text-danger"><?php echo $useremail_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                                        <label for="username" class="form-label">Nombre de usuario</label>
+                                        <label for="username" class="form-label">Nombre de usuario:</label>
                                         <input type="text" class="form-control" id="username" placeholder="Usuario" required name="nombre" value="<?php echo $username; ?>">
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                                        <label for="userpassword" class="form-label">Contraseña</label>
+                                        <label for="userpassword" class="form-label">Contraseña:</label>
                                         <input type="password" class="form-control" id="userpassword" placeholder="Contraseña" required name="contraseña" value="<?php echo $password; ?>">
                                         <span class="text-danger"><?php echo $password_err; ?></span>
                                     </div>
 
                                     <div class="mb-3 <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-                                        <label class="form-label" for="userpassword">Confirmar contraseña</label>
-                                        <input type="password" class="form-control" id="confirm_password" placeholder="Contraseña" name="confirm_password" value="<?php echo $confirm_password; ?>">
+                                        <label class="form-label" for="userpassword">Confirmar contraseña:</label>
+                                        <input type="password" class="form-control" id="confirm_password" placeholder="Confirmar contraseña" name="confirm_password" value="<?php echo $confirm_password; ?>">
                                         <span class="text-danger"><?php echo $confirm_password_err; ?></span>
                                     </div>
                                     

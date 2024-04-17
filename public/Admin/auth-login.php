@@ -66,15 +66,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             header("location: index.php");
                         } else {
                             // Display an error message if password is not valid
-                            $password_err = "The password you entered was not valid.";
+                            $password_err = "La contraseña introducida no es válida.";
                         }
                     }
                 } else {
                     // Display an error message if username doesn't exist
-                    $username_err = "No account found with that username.";
+                    $username_err = "No se encontró ninguna cuenta con ese nombre de usuario.";
                 }
             } else {
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "¡Ups! Algo salió mal. Por favor, inténtelo de nuevo más tarde.";
             }
 
             // Close statement
@@ -107,7 +107,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.php" class="d-block auth-logo">
-                                    <img src="assets/images/LogoD1.jpg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
+                                    <img src="assets/images/LogoD1.jpg" alt="" height="28"> <span
+                                        class="logo-txt">DatAlpine</span>
                                 </a>
                             </div>
                             <div class="auth-content my-auto">
@@ -115,11 +116,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <h5 class="mb-0">Bienvenido de vuelta</h5>
                                     <p class="text-muted mt-2">Ingresa tu cuenta para tener acceso a Datalpine</p>
                                 </div>
-                                <form class="mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                                <form class="mt-4 pt-2" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
+                                    method="post">
                                     <div class="mb-3 <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
 
                                         <label class="form-label" for="username">Usuario:</label>
-                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre del usuario" name="nombre" value="miguel">
+                                        <input type="text" class="form-control" id="nombre"
+                                            placeholder="Nombre del usuario" name="nombre" value="">
 
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
@@ -130,31 +133,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             </div>
                                             <div class="flex-shrink-0">
                                                 <div class="">
-                                                    <a href="auth-recoverpw.php" class="text-muted">¿No recuerdas tu contraseña?</a>
+                                                    <a href="auth-recoverpw.php" class="text-muted">¿No recuerdas tu
+                                                        contraseña?</a>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="input-group auth-pass-inputgroup">
-                                            <input type="password" class="form-control" placeholder="Contraseña" name="contraseña" value="123456" aria-label="Password" aria-describedby="password-addon">
+                                            <input type="password" class="form-control" placeholder="Contraseña"
+                                                name="contraseña" value="" aria-label="Password"
+                                                aria-describedby="password-addon">
                                             <span class="text-danger"><?php echo $password_err; ?></span>
-                                            <button class="btn btn-light ms-0" type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
+                                            <button class="btn btn-light ms-0" type="button" id="password-addon"><i
+                                                    class="mdi mdi-eye-outline"></i></button>
                                         </div>
                                     </div>
                                     <div class="row mb-4">
                                         <div class="col">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="remember-check">
+                                                <input class="form-check-input" type="checkbox" id="remember-check"
+                                                    name="recordar">
                                                 <label class="form-check-label" for="remember-check">
-                                                Recordarme
+                                                    Recordarme
                                                 </label>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="mb-3">
-                                        <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Entrar</button>
+                                        <button class="btn btn-primary w-100 waves-effect waves-light"
+                                            type="submit">Entrar</button>
                                     </div>
+
                                 </form>
 
                                 <div class="mt-4 pt-2 text-center">
@@ -167,7 +176,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <a href="javascript:void()" class="social-list-item bg-primary text-white border-primary">
                                                 <i class="mdi mdi-facebook"></i>
                                             </a> -->
-                                        <!-- </li>
+                                    <!-- </li>
                                         <li class="list-inline-item">
                                             <a href="javascript:void()" class="social-list-item bg-info text-white border-info">
                                                 <i class="mdi mdi-twitter"></i>
@@ -182,7 +191,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
 
                                 <div class="mt-5 text-center">
-                                    <p class="text-muted mb-0">¿No tienes una cuenta? <a href="auth-register.php" class="text-primary fw-semibold"> Solicítala aquí </a> </p>
+                                    <p class="text-muted mb-0">¿No tienes una cuenta? <a href="auth-register.php"
+                                            class="text-primary fw-semibold"> Solicítala aquí </a> </p>
                                 </div>
                             </div>
                             <!-- <div class="mt-4 mt-md-5 text-center">
@@ -216,10 +226,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="col-xl-7">
                             <div class="p-0 p-sm-4 px-xl-0">
                                 <div id="reviewcarouselIndicators" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-indicators carousel-indicators-rounded justify-content-start ms-0 mb-0">
-                                        <button type="button" data-bs-target="#reviewcarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#reviewcarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#reviewcarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <div
+                                        class="carousel-indicators carousel-indicators-rounded justify-content-start ms-0 mb-0">
+                                        <button type="button" data-bs-target="#reviewcarouselIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#reviewcarouselIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#reviewcarouselIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <!-- end carouselIndicators -->
                                     <div class="carousel-inner">
@@ -257,7 +272,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                 <div class="mt-4 pt-3 pb-5">
                                                     <div class="d-flex align-items-start">
                                                         <div class="flex-shrink-0">
-                                                            <img src="assets/images/users/avatar-2.jpg" class="avatar-md img-fluid rounded-circle" alt="...">
+                                                            <img src="assets/images/users/avatar-2.jpg"
+                                                                class="avatar-md img-fluid rounded-circle" alt="...">
                                                         </div>
                                                         <div class="flex-grow-1 ms-3 mb-4">
                                                             <h5 class="font-size-18 text-white">Rosanna French
@@ -281,7 +297,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                     feel.”</h4>
                                                 <div class="mt-4 pt-3 pb-5">
                                                     <div class="d-flex align-items-start">
-                                                        <img src="assets/images/users/avatar-3.jpg" class="avatar-md img-fluid rounded-circle" alt="...">
+                                                        <img src="assets/images/users/avatar-3.jpg"
+                                                            class="avatar-md img-fluid rounded-circle" alt="...">
                                                         <div class="flex-1 ms-3 mb-4">
                                                             <h5 class="font-size-18 text-white">Ilse R. Eaton</h5>
                                                             <p class="mb-0 text-white-50">Manager
