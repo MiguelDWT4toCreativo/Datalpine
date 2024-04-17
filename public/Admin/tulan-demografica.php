@@ -12,7 +12,15 @@
     <?php include 'layouts/head-style.php'; ?>
 
 </head>
-
+<script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
 <?php include 'layouts/body.php'; ?>
 
 <!-- Begin page -->
@@ -473,37 +481,30 @@
                     </div>
                     <!-- 4.1 Distribución de créditos por segmento -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>4.1 Distribución de créditos por segmento</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">2022</h5>
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2022_pachuca.html"
-                                        width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>4.1 Distribución de créditos por segmento</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                    value="2023">
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">2023</h5>
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_pachuca.html"
-                                        width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2022_tulancingo.html"
+                                    id="contenido1"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_tulancingo.html"
+                                    id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
-                    </div>
-                -->
-
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -531,35 +532,30 @@
                     </div>
                     <!-- 4.2 Distribución % de créditos por categoría (trimestre)  -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>4.2 Distribución % de créditos por categoría (trimestre)</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">2022</h5>
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2022_pachuca.html"
-                                        width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>4.2 Distribución % de créditos por categoría (trimestre)</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido3')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido4')"
+                                    value="2023">
                             </div>
                         </div>
-                        <div class="col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">2023</h5>
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2023_pachuca.html"
-                                        width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2022_tulancingo.html"
+                                    id="contenido3"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2023_tulancingo.html"
+                                    id="contenido4" style="display: none;"></iframe>
                             </div>
                         </div>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -582,35 +578,30 @@
                     </div>
                     <!-- 4.3 Distribución de créditos por monto -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>4.3 Distribución de créditos por monto</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">2022</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2022_pachuca.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>4.3 Distribución de créditos por monto</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido5')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido6')"
+                                    value="2023">
                             </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">2023</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2023_pachuca.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2022_tulancingo.html"
+                                    id="contenido5"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2023_tulancingo.html"
+                                    id="contenido6" style="display: none;"></iframe>
                             </div>
-                -->
+                        </div>
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -639,230 +630,254 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                                <div>
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido18')"
-                                        value="2019">
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido19')"
-                                        value="2020">
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido20')"
-                                        value="2021">
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido12')"
-                                        value="2022">
-                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido13')"
-                                        value="2023">
-                                </div>
+                            <!-- Link de la gráfica -->
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido7')"
+                                    value="2019">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido8')"
+                                    value="2020">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido9')"
+                                    value="2021">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido10')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido11')"
+                                    value="2023">
                             </div>
-                            <div class="card-header bg-white d-flex justify-content-center align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                        src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_pachuca.html"
-                                        id="contenido18"></iframe>
-                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                        src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_pachuca.html"
-                                        id="contenido19" style="display: none;"></iframe>
-                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                        src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_pachuca.html"
-                                        id="contenido20" style="display: none;"></iframe>
-                                    <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
-                                        src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_pachuca.html"
-                                        id="contenido12" style="display: none;"></iframe>
-                                    <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
-                                        src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_pachuca.html"
-                                        id="contenido13" style="display: none;"></iframe>
-                                </div>
-                            </div>
-                -->
-
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
-                                </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                        Tendencia del valor promedio de los créditos para viviendas nuevas y de
-                                        uso a lo
-                                        largo de 2022 en el mercado inmobiliario.</p>
-                                    <ul
-                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                        <li>Si se observa una tendencia ascendente, significa que el valor
-                                            promedio de los
-                                            créditos ha ido aumentando a lo largo del año.
-                                        </li>
-                                        <li>Si muestra una tendencia descendente, señala que la media de los
-                                            precios ha
-                                            disminuido.
-                                        </li>
-                                        <li>Si se observan picos en la tendencia puede indicar momentos en el
-                                            que el mercado
-                                            experimentó un aumento significativo en el valor de los créditos ,
-                                            por el
-                                            contrario, si se observan caídas podrían representar periodos de
-                                            disminución.
-                                        </li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_tulancingo.html"
+                                    id="contenido7"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_tulancingo.html"
+                                    id="contenido8" style="display: none;"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_tulancingo.html"
+                                    id="contenido9" style="display: none;"></iframe>
+                                <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_tulancingo.html"
+                                    id="contenido10" style="display: none;"></iframe>
+                                <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_tulancingo.html"
+                                    id="contenido11" style="display: none;"></iframe>
                             </div>
                         </div>
 
-                        <!-- 4.5 Estacionalidad -->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                            <?php
-                            echo "<li style='font-size: 20px;'>4.5 Estacionalidad</li>";
-                            echo "</ol>";
-                            echo "</ol>";
-                            ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_pachuca.html"
-                                width="800" height="400" frameborder="0" id="contenido01"
-                                style="display: block; margin: 0 auto;"></iframe>
-                -->
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
-                                </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                        Número de créditos para vivienda adquiridos por trimestre en los años
-                                        2022 y 2023.
-                                        Proporciona una representación visual de cómo ha variado la adquisición
-                                        de créditos
-                                        hipotecarios en diferentes trimestres.</p>
-                                </div>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    Tendencia del valor promedio de los créditos para viviendas nuevas y de
+                                    uso a lo
+                                    largo de 2022 en el mercado inmobiliario.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si se observa una tendencia ascendente, significa que el valor
+                                        promedio de los
+                                        créditos ha ido aumentando a lo largo del año.
+                                    </li>
+                                    <li>Si muestra una tendencia descendente, señala que la media de los
+                                        precios ha
+                                        disminuido.
+                                    </li>
+                                    <li>Si se observan picos en la tendencia puede indicar momentos en el
+                                        que el mercado
+                                        experimentó un aumento significativo en el valor de los créditos ,
+                                        por el
+                                        contrario, si se observan caídas podrían representar periodos de
+                                        disminución.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <!-- 4.6 Créditos por porcentaje de UMAS -->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                    </div>
+
+                    <!-- 4.5 Estacionalidad -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>4.5 Estacionalidad</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    Número de créditos para vivienda adquiridos por trimestre en los años
+                                    2022 y 2023.
+                                    Proporciona una representación visual de cómo ha variado la adquisición
+                                    de créditos
+                                    hipotecarios en diferentes trimestres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4.6 Créditos por porcentaje de UMAS -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <!-- Link de la gráfica -->
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.6 Créditos por porcentaje de UMAS</li>";
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                            <div class="row">
-                                <div class="col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2022</h5>
-                                            <iframe
-                                                src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2022_pachuca.html"
-                                                width="100%" height="300" frameborder="0"
-                                                style="border: none;"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">2023</h5>
-                                            <iframe
-                                                src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2023_pachuca.html"
-                                                width="100%" height="300" frameborder="0"
-                                                style="border: none;"></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                -->
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
-                                </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                        Visualiza la distribución de créditos según el porcentaje de
-                                        Unidades de Medida y
-                                        Actualización (UMAS)</p>
-                                </div>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido12')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido13')"
+                                    value="2023">
                             </div>
                         </div>
-                        <!-- 4.7 Distribución % de créditos por organismo -->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2022_tulancingo.html"
+                                    id="contenido12"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2023_tulancingo.html"
+                                    id="contenido13" style="display: none;"></iframe>
+                            </div>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    Visualiza la distribución de créditos según el porcentaje de
+                                    Unidades de Medida y
+                                    Actualización (UMAS)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4.7 Distribución % de créditos por organismo -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.7 Distribución % de créditos por organismo</li>";
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">2022</h5>
-                                                <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2022_pachuca.html"
-                                                    width="100%" height="300" frameborder="0"
-                                                    style="border: none;"></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">2023</h5>
-                                                <iframe
-                                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2023_pachuca.html"
-                                                    width="100%" height="300" frameborder="0"
-                                                    style="border: none;"></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                -->
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido14')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido15')"
+                                    value="2023">
+                            </div>
+                        </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2022_tulancingo.html"
+                                    id="contenido14"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2023_tulancingo.html"
+                                    id="contenido15" style="display: none;"></iframe>
+                            </div>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    La distribución porcentual de créditos por organismo muestra la
+                                    participación de
+                                    diferentes
+                                    entidades financieras en el otorgamiento de préstamos
+                                    hipotecarios durante los años
+                                    <strong>2022
+                                        y
+                                        2023</strong>.
                                 </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                        La distribución porcentual de créditos por organismo muestra la
-                                        participación de
-                                        diferentes
-                                        entidades financieras en el otorgamiento de préstamos
-                                        hipotecarios durante los años
-                                        <strong>2022
-                                            y
-                                            2023</strong>.
-                                    </p>
-                                    <ul
-                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                        <li>Si se observan barras elevadas significa que se tiene una
-                                            gran concentración de
-                                            créditos
-                                            otorgados por dicha entidad.
-                                        </li>
-                                        <li>Si se presentan variaciones entre las barras , podría
-                                            señalar una temporada en
-                                            la
-                                            cual
-                                            se otorgaron más créditos.
-                                        </li>
-                                        <li>Si se visualiza barras uniformes podría indicar una
-                                            distribución constante a lo
-                                            largo
-                                            del tiempo.
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si se observan barras elevadas significa que se tiene una
+                                        gran concentración de
+                                        créditos
+                                        otorgados por dicha entidad.
+                                    </li>
+                                    <li>Si se presentan variaciones entre las barras , podría
+                                        señalar una temporada en
+                                        la
+                                        cual
+                                        se otorgaron más créditos.
+                                    </li>
+                                    <li>Si se visualiza barras uniformes podría indicar una
+                                        distribución constante a lo
+                                        largo
+                                        del tiempo.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4.8 Distribución % de créditos por vivienda valor -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido16')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido17')"
+                                    value="2023">
+                            </div>
+                        </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2022_tulancingo.html"
+                                    id="contenido16"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2023_tulancingo.html"
+                                    id="contenido17" style="display: none;"></iframe>
+                            </div>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que
+                                    representan las proporciones de los créditos otorgados al valor de la vivienda
+                                    clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial
+                                    plus.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end table responsive -->
     </div>
-    <!-- End Page-content -->
+    <!-- end table responsive -->
+</div>
+<!-- End Page-content -->
 </div> <!-- container-fluid -->
 </div>
 <!-- End Page-content -->
