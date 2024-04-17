@@ -63,7 +63,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    4. Dinámicas de Venta y Financiamiento
+                    Dinámicas de Venta y Financiamiento
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las

@@ -68,7 +68,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    6. Proyecciones Oportunidades de Inversión y Análisis de Colonias
+                    Proyecciones Oportunidades de Inversión y Análisis de Colonias
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">Esta sección muestra un análisis exhaustivo
                     de las proyecciones y tendencias del mercado inmobiliario en los próximos años, proporcionando una
@@ -775,19 +775,19 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio promedio por número de baños PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Precio promedio por número de baños <span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
+                        <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
+
                         <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -824,20 +824,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -860,27 +846,8 @@
                                     para familias o segmentos de mercado de mayor nivel.</p>
                             </div>
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    Los datos para Pachuca revelan una tendencia ascendente consistente en los precios
-                                    de las propiedades con el aumento en el número de baños. Las propiedades con dos
-                                    baños tienen un precio <strong>51.40%</strong> más alto en promedio que aquellas con
-                                    solo uno. Esta tendencia ascendente continúa con propiedades de tres baños, que son
-                                    <strong>31.52%</strong> más caras que las de dos baños. La tendencia es aún más
-                                    pronunciada para las propiedades con cuatro baños, mostrando un incremento del
-                                    <strong>39.80%</strong> sobre las de tres baños. Este aumento constante en el precio
-                                    con baños adicionales indica una fuerte preferencia del mercado por propiedades con
-                                    más comodidades, reflejando la demanda de confort y lujo.
-                                </p>
+                -->
 
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- Precio Promedio de la Propiedad por Número de Baños (de 1 a 4) -->
@@ -890,18 +857,16 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4) PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
+                        <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -939,20 +904,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1009,7 +960,13 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Explicación de la gráfica -->
+                        <!-- Link de la gráfica -->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_pachuca.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                    <!-- Explicación de la gráfica -->
+                     <!--  
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1035,29 +992,7 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>'Colonias' de Alto Potencial en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En la segunda visualización, analizamos los precios promedio de las propiedades en
-                                    diferentes colonias, ahora filtradas para excluir aquellas con datos escasos. Este
-                                    enfoque refinado destaca las colonias de alto potencial, con precios promedio
-                                    expresados en millones de pesos para una interpretación directa de los valores de
-                                    las propiedades.</p>
-                            </div>
-                        </div>
+                        
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1075,36 +1010,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
                 -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- 'Colonias' de Alto Potencial en Pachuca -->
@@ -1114,12 +1020,19 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                'Colonias' de Alto Potencial en Pachuca `PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                'Colonias' de Alto Potencial en Pachuca<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Explicación de la gráfica -->
+                    
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_pachuca.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                    <!-- Explicación de la gráfica -->
+                    <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1145,29 +1058,6 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>'Colonias' de Alto Potencial en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En la segunda visualización, analizamos los precios promedio de las propiedades en
-                                    diferentes colonias, ahora filtradas para excluir aquellas con datos escasos. Este
-                                    enfoque refinado destaca las colonias de alto potencial, con precios promedio
-                                    expresados en millones de pesos para una interpretación directa de los valores de
-                                    las propiedades.</p>
-                            </div>
-                        </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1185,36 +1075,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
                 -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- Colonias Para inversión (las que más han crecido en precio m² trimestre) -->
@@ -1224,12 +1085,19 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Colonias Para inversión (las que más han crecido en precio m² trimestre) PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Colonias Para inversión (las que más han crecido en precio m² trimestre)<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Explicación de la gráfica -->
+                    <!-- Link de la gráfica -->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_pachuca.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                            
+                    <!-- Explicación de la gráfica -->
+                    <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1255,29 +1123,6 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>'Colonias' de Alto Potencial en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En la segunda visualización, analizamos los precios promedio de las propiedades en
-                                    diferentes colonias, ahora filtradas para excluir aquellas con datos escasos. Este
-                                    enfoque refinado destaca las colonias de alto potencial, con precios promedio
-                                    expresados en millones de pesos para una interpretación directa de los valores de
-                                    las propiedades.</p>
-                            </div>
-                        </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1295,36 +1140,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
                 -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div> <!-- container-fluid -->

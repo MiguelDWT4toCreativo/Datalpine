@@ -77,7 +77,7 @@
                     }
                 </style>
                 <div class="titulo">
-                5. Demografía y Tendencias de Mercado
+                Demografía y Tendencias de Mercado
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">En este informe, exploramos el proceso de
                     investigación de mercado, que incluye la recopilación, el análisis y la

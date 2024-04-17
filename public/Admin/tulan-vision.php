@@ -14,6 +14,15 @@
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 </head>
+<script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
 
 <body>
     <?php include 'layouts/body.php'; ?>
@@ -120,11 +129,17 @@
                                         En general podemos observar que, en Tulancingo Hidalgo predominan colonias de
                                         precios promedio bajos o accesibles, que forman parte del segmento E (Verde) y
                                         del segmento D (Amarillo). Dentro de las colonias con precio promedio más
-                                        accesible del Segmento E: Colonia <strong>Guadalupe, Huapalcalco y el Fraccionamiento de
-                                        la Rinconada la Morena</strong> resaltan con precios de <strong>$566,000.00 MXN</strong> hasta <strong>$995,000.00
-                                        MXN</strong> el máximo. Las colonias más caras en Tulancingo son: <strong>Fraccionamiento
-                                        Jardines del Sur, Felipe Angeles y Villas de Tulancingo</strong> con precios promedio que
-                                        van desde <strong>$4,500,000.00 MXN</strong> hasta el máximo de <strong>$16,148,148.58 MXN</strong>.</p>
+                                        accesible del Segmento E: Colonia <strong>Guadalupe, Huapalcalco y el
+                                            Fraccionamiento de
+                                            la Rinconada la Morena</strong> resaltan con precios de <strong>$566,000.00
+                                            MXN</strong> hasta <strong>$995,000.00
+                                            MXN</strong> el máximo. Las colonias más caras en Tulancingo son:
+                                        <strong>Fraccionamiento
+                                            Jardines del Sur, Felipe Angeles y Villas de Tulancingo</strong> con precios
+                                        promedio que
+                                        van desde <strong>$4,500,000.00 MXN</strong> hasta el máximo de
+                                        <strong>$16,148,148.58 MXN</strong>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -193,6 +208,81 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Colonias en Tulancingo -->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title"
+                                        style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                        Colonias en Tulancingo<span class="text-muted fw-normal ms-2"></span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                    value="Colonias más baratas">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                    value="Colonias más caras">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido3')"
+                                    value="Colonias predominantes">
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+
+                            <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                        src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_tulancingo.html"
+                                        id="contenido1"></iframe>
+                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                        src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_tulancingo.html"
+                                        id="contenido2" style="display: none;"></iframe>
+                                    <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                        src="/datalpine/resources/jupyter/graficas//g_bar_colpred_t5_tulancingo.html"
+                                        id="contenido3" style="display: none;"></iframe>
+                                </div>
+                            </div>
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Esta representación gráfica porcentual ofrece una visión clara de las colonias
+                                        predominantes en el mercado inmobiliario de Tulancingo, facilitando la toma de
+                                        decisiones informadas. Cada barra detalla el nombre de la colonia junto con su
+                                        respectivo porcentaje con respecto al total de propiedades en la región. Este
+                                        conjunto de datos nos proporciona una perspectiva visual y muestra la
+                                        participación de cada colonia como una fracción del panorama total</p>
+                                </div>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Observamos que, el Centro de la ciudad es la colonia más predominante de
+                                        Tulancingo, representando el 20.63% del total de propiedades siendo una zona
+                                        densamente poblada en términos inmobiliarios. Además, colonias como La Morena 3a
+                                        Secc y Villa Sol mantienen porcentajes significativos, indicando una presencia
+                                        destacada de viviendas en estas áreas. Aunque Medias Tierras, Jaltepec y Vicente
+                                        Guerrero muestran porcentajes más bajos, estos números aún reflejan una
+                                        contribución notable al panorama inmobiliario local.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!--Clientes potenciales foráneos -->
                     <div class="row align-items-center"
                         style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">

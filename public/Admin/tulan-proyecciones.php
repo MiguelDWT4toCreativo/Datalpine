@@ -59,7 +59,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    6. Proyecciones Oportunidades de Inversión y Análisis de Colonias
+                    Proyecciones Oportunidades de Inversión y Análisis de Colonias
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">Esta sección muestra un análisis exhaustivo
                     de las proyecciones y tendencias del mercado inmobiliario en los próximos años, proporcionando una
@@ -79,7 +79,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_preciomediaanual_direct_pachuca.html"
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_preciomediaanual_prom_direct_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -89,8 +90,8 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La gráfica presenta una proyección del precio medio de las propiedades en Pachuca
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    La gráfica presenta una proyección del precio medio de las propiedades en Tulancingo
                                     para los próximos años. Estos datos anticipan la dirección esperada en la evolución
                                     del valor promedio de las viviendas.</p>
                             </div>
@@ -101,12 +102,11 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">En el año
-                                    <strong>2023</strong>, el precio medio de las propiedades en Pachuca se situó en
-                                    <strong>$2,039,843.00</strong>, y se anticipa que este valor mantendrá una
-                                    trayectoria
-                                    de crecimiento constante, alcanzando los <strong>$2,644,873.55</strong> en el año
-                                    <strong>2026</strong>.
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">En el año
+                                    <strong>2023</strong>, el precio medio de las propiedades en Tulancingo se situó en
+                                    <strong>$1,377,000.00</strong>, y
+                                    se anticipa que este valor mantendrá una trayectoria de crecimiento constante,
+                                    alcanzando los <strong>$1,655,940</strong> en el año <strong>2026</strong>.
                                 </p>
                             </div>
                         </div>
@@ -115,39 +115,20 @@
                 <!-- Plusvalía estimada (5 años) -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-
-                    <!-- Link de la gráfica PENDIENTE-->
-<!--
-                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <h5 class="card-title"
-                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Plusvalía estimada (5 años)<span class="text-muted fw-normal ms-2"></span>
-                                </h5>
-                            </div>
-                        </div>
-                        <div>
-                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
-                                value="Estimación">
-                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
-                                value="Porcentual">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <h5 class="card-title"
+                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                Plusvalía estimada (5 años)<span class="text-muted fw-normal ms-2"></span>
+                            </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-
-                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
-                            <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_direct_pachuca.html"
-                                    id="contenido1"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_porcentual_direct_pachuca.html"
-                                    id="contenido2" style="display: none;"></iframe>
-                            </div>
-                        </div>
-                -->
-
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_plusvalia_estimada_direct_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -155,7 +136,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Los datos presentados ofrecen una vista anticipada del valor promedio de las
                                     propiedades en los próximos cinco años. Reflejando la posible dirección de
                                     crecimiento o reducción en el precio de las viviendas.</p>
@@ -167,12 +148,14 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Los datos revelan una proyección ascendente en la plusvalía del precio promedio de
-                                    las viviendas en Pachuca para los próximos años. En el año <strong>2023</strong>, se
-                                    muestra un valor de <strong>$3,534,894.07</strong>, evidenciando un crecimiento
-                                    significativo que se espera continúe de manera constante hasta alcanzar
-                                    <strong>$14,633,277.84</strong> en el año <strong>2026</strong>.
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Los datos
+                                    revelan una proyección ascendente en la plusvalía del precio promedio de las
+                                    viviendas en Tulancingo para los próximos años. En el año <strong>2023</strong>, se
+                                    muestra un valor
+                                    de <strong>$1,863,990</strong>, evidenciando un crecimiento significativo que se
+                                    espera continúe de
+                                    manera constante hasta alcanzar <strong>$2,242,582</strong> en el año
+                                    <strong>2026</strong>.
                                 </p>
                             </div>
                         </div>
@@ -191,12 +174,73 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_conteo_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_direct_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 -->
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                    Estos datos representan las proyecciones de créditos generales en cantidad para los
+                                    años <strong>2019 a 2026</strong>, desglosados en dos categorías: <strong>'Vivienda
+                                        Nueva'</strong> y <strong>'Vivienda
+                                        Usada'</strong>. A lo largo de este periodo, se proporciona información sobre el
+                                    número total
+                                    de créditos otorgados, así como la cantidad específica de créditos destinados a
+                                    viviendas nuevas y usadas
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    <li>Entre los años<strong>2019</strong> y <strong>2021</strong>, se observó una
+                                        variación significativa en el número
+                                        total de créditos, alcanzando niveles
+                                        destacados durante esos años. Sin embargo, en <strong>2023</strong>, se registra
+                                        una marcada
+                                        disminución en el total de créditos.
+                                    </li>
+                                    <li>En cuanto a las proyecciones para las categorías <strong>"Vivienda
+                                            Nueva"</strong> y <strong>"Vivienda
+                                            Usada"</strong>, ambas muestran patrones similares de descenso en
+                                        <strong>2022</strong>, con un ligero
+                                        repunte anticipado en los años que siguen a este periodo.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Forecast créditos generales (valor ) -->
+                <div class="row align-items-center"
+                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <h5 class="card-title"
+                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                Forecast créditos generales (valor )<span class="text-muted fw-normal ms-2"></span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <!-- Link de la gráfica PENDIENTE-->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_direct_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -205,7 +249,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Estos datos representan las proyecciones de créditos generales en cantidad para los
                                     años <strong> 2019 a 2026 </strong>, desglosados en dos categorías:
                                     <strong>'Vivienda Nueva'</strong> y <strong>'Vivienda
@@ -225,117 +269,44 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Entre los años <strong>2019 y 2021</strong>, se observó una variación
-                                        significativa en el número total de créditos, alcanzando niveles destacados
-                                        durante esos años. Sin embargo, en <strong>2022</strong>, se registra una
-                                        marcada disminución en el total de créditos.</li>
-                                    <li> En cuanto a las proyecciones para las categorías <strong>"Vivienda
-                                            Nueva"</strong> y <strong>"Vivienda Usada"</strong>, ambas muestran patrones
-                                        similares de descenso en <strong>2022</strong>, con un ligero repunte anticipado
-                                        en los años que siguen a este periodo. Se espera que la categoría de
-                                        <strong>"Vivienda Nueva"</strong> experimente una recuperación progresiva,
-                                        alcanzando <strong>669 créditos</strong> en el año <strong>2026</strong>,
-                                        mientras que la categoría de <strong>"Vivienda Usada"</strong> se proyecta a
-                                        recuperarse hasta alcanzar <strong>57 créditos</strong> en el mismo año, después
-                                        de la disminución observada en <strong>2022</strong>.
+                                    <li><strong>Monto total:</strong> El monto total de créditos en Tulancingo presenta
+                                        una
+                                        proyección
+                                        ascendente, estimándose un aumento de <strong>$259,936,080.61</strong> en
+                                        <strong>2019</strong> a
+                                        <strong>$4,432,531,506.29</strong> en <strong>2026</strong>. Esta tendencia
+                                        refleja
+                                        un crecimiento constante a lo
+                                        largo del periodo analizado.
+                                        Para vivienda nueva se observa un aumento gradual de
+                                        <strong>$110,576,187.62</strong> en <strong>2019</strong> a
+                                        <strong>$93,455,838.96</strong> en <strong>2026</strong> evidenciando una
+                                        estabilidad y crecimiento constante en
+                                        los años posteriores.
+
+                                        Por otro lado, los créditos destinados a la "Vivienda Usada" aunque se registran
+                                        fluctuaciones, destaca un incremento progresivo de
+                                        <strong>$144,769,506.80</strong>
+                                        en <strong>2019</strong> a
+                                        <strong>$156,176,801.18</strong> en <strong>2026</strong>.
                                     </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Forecast créditos generales (valor ) -->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                                    <li><strong>Monto promedio:</strong> Para todas las categorías, se evidencia un
+                                        crecimiento
+                                        constante de <strong>$640,236.65</strong> en <strong>2019</strong> a
+                                        <strong>$836,558.70</strong> en 2026.
+                                        En relación a "Vivienda Nueva" en Tulancingo, se observa una trayectoria
+                                        ascendente en los montos promedio por crédito a lo largo de los años
+                                        proyectados. Desde <strong>$831,399.91</strong> en <strong>2019</strong>, se
+                                        anticipa un crecimiento constante
+                                        hasta alcanzar <strong>$983,745.67</strong> en <strong>2026</strong>.
 
-                    <!-- Link de la gráfica PENDIENTE-->
-<!--
-                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <h5 class="card-title"
-                                    style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Forecast créditos generales (valor )<span class="text-muted fw-normal ms-2"></span>
-                                </h5>
-                            </div>
-                        </div>
-                        <div>
-                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido8')"
-                                value="Segmentos">
-                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido9')"
-                                value="General">
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-
-                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
-                            <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_pachuca.html"
-                                    id="contenido8"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_promedio_pachuca.html"
-                                    id="contenido9" style="display: none;"></iframe>
-                            </div>
-                        </div>
-                -->
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Se muestran las proyecciones de créditos generales en términos de valor monetario
-                                    <strong>(total y promedio)</strong> para los años <strong>2019 a 2026</strong>,
-                                    subdividiendose en las categorías
-                                    <strong>"Vivienda Nueva"</strong> y <strong>"Vivienda Usada"</strong> ,
-                                    proporcionando un análisis detallado de cómo
-                                    se espera que evolucione el valor monetario de los créditos en estas dos
-                                    clasificaciones a lo largo de los años proyectados.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Monto total</strong>: El monto total de créditos en Pachuca presenta una
-                                        proyección ascendente, estimándose un aumento de
-                                        <strong>$1,476,067,496.32</strong> en <strong>2019</strong> a
-                                        <strong>$3,740,297,148.39</strong> en <strong>2026</strong>. Esta tendencia
-                                        refleja un crecimiento constante a lo largo del periodo analizado.
-                                    </li>
-                                    <p>Para <strong>vivienda nueva</strong> se observa un aumento gradual de
-                                        <strong>$1,030,751,267.28</strong> en <strong>2019</strong> a
-                                        <strong>$2,066,886,543.92</strong> en <strong>2026</strong> evidenciando una
-                                        estabilidad y crecimiento constante en los años posteriores.
-                                    </p>
-                                    <p>Por otro lado, los créditos destinados a la <strong>"Vivienda Usada"</strong>
-                                        aunque se registran fluctuaciones, destaca un incremento progresivo de
-                                        <strong>$5,098,355.41</strong> en <strong>2019</strong> a
-                                        <strong>$9,964,910.88</strong> en <strong>2026</strong>.
-                                    </p>
-                                    <li><strong>Monto promedio</strong>: Para todas las categorías, se evidencia un
-                                        crecimiento constante de <strong>$1,214,870.37</strong> en <strong>2019</strong>
-                                        a <strong>$2,940,485.18</strong> en <strong>2026</strong>.</li>
-                                    <p>En relación a <strong>"Vivienda Nueva"</strong> en Pachuca, se observa una
-                                        trayectoria ascendente en los montos promedio por crédito a lo largo de los años
-                                        proyectados. Desde <strong>$1,662,502.04</strong> en <strong>2019</strong>, se
-                                        anticipa un crecimiento constante hasta alcanzar <strong>$3,399,484.45</strong>
-                                        en <strong>2026</strong>.</p>
-                                    <p>En cuanto a la categoría de <strong>"Vivienda Usada"</strong> en Pachuca, se
-                                        observa una variación en los montos promedio por crédito a lo largo de los años
-                                        proyectados. Partiendo de <strong>$67,978.07</strong> en <strong>2019</strong>,
-                                        se experimenta un aumento a <strong>$191,632.90</strong> en
+                                        En cuanto a la categoría de "Vivienda Usada" en Tulancingo, se observa una
+                                        variación en los montos promedio por crédito a lo largo de los años proyectados.
+                                        Partiendo de <strong>$761,944.77</strong> en <strong>2019</strong>, se
+                                        experimenta
+                                        un aumento a <strong>$970,042.24</strong> en
                                         <strong>2026</strong>.
-                                    </p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -354,12 +325,10 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_casasdepart_proyecanualofert_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecast_casasdept_direct_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -382,18 +351,8 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>La línea azul representa el porcentaje de cambio en la oferta de casas. Comienza
-                                        en un <strong>75%</strong> en <strong>2023</strong>, aumenta a un
-                                        <strong>135%</strong> en <strong>202</strong>4, y llega a un pico del
-                                        <strong>161%</strong> tanto para los años 2025 como para el año siguiente. Esto
-                                        indica un aumento significativo en la oferta de casas durante este período.
-                                    </li>
-                                    <li>La línea roja representa el porcentaje de cambio en la oferta de departamentos.
-                                        De acuerdo a la tendencia comienza con una disminución del <strong>22%</strong>
-                                        en <strong>2024</strong>, para el año siguiente, disminuye ligeramente a
-                                        <strong>15%</strong> y se mantiene constante durante el próximo año. Esto
-                                        sugiere que la oferta de departamentos se mantiene a la baja durante este
-                                        período.
+                                    <li>La línea azul representa el porcentaje de cambio en la oferta de casas. Se puede
+                                        observar como va en crecimiento a lo largo del tiempo.
                                     </li>
                                 </ul>
                             </div>
@@ -413,11 +372,9 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -440,14 +397,11 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>El análisis de la información revela que la categoría con el mayor número de
-                                        unidades es la de <strong>"101-365 días"</strong>, con un total de
-                                        <strong>1319</strong> unidades. Este intervalo de tiempo indica que una cantidad
-                                        significativa de unidades inmobiliarias permanecen en el mercado durante un
-                                        periodo relativamente prolongado antes de concretar la venta.
-                                    </li>
-                                    <li>Por otro lado, la categoría con el menor número de unidades es la de
-                                        <strong>"0-10 días"</strong>, que registra <strong>159</strong> unidades.
+                                    <li>La mayor concentración de unidades se encuentra en las categorías de
+                                        <strong>31-100 días</strong>
+                                        y <strong>101-365 días</strong>, indicando que muchas propiedades permanecen en
+                                        el mercado
+                                        durante períodos de tiempo más prolongados antes de su venta.
                                     </li>
                                 </ul>
                             </div>
@@ -466,13 +420,10 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_hidalgo_pachuca.html"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -494,9 +445,9 @@
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     La estimación poblacional revela un crecimiento progresivo en la región a lo largo
-                                    de los años <strong>2020 a 2026</strong>. Iniciando con <strong>6,583,278
-                                        habitantes</strong> en <strong>2020</strong>, la población
-                                    experimenta un incremento constante, alcanzando los <strong>11,556,676</strong>
+                                    de los años <strong>2020 a 2026</strong>. Iniciando con <strong>106,163</strong>
+                                    habitantes en <strong>2020</strong>, la población
+                                    experimenta un incremento constante, alcanzando los <strong>161,033</strong>
                                     habitantes en <strong>2026</strong>.
                                 </p>
                             </div>
@@ -515,13 +466,11 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_direct_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
-                
+
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -542,13 +491,11 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En este contexto, las casas que llevan más de un año en stock
-                                    <strong>(16.6%)</strong> representan un
-                                    riesgo menor en términos de porcentaje, pero aún así indican una proporción
-                                    significativa. Por otro lado, las casas que llevan menos de un año en stock
-                                    representan la mayoría en términos porcentuales <strong>(84.44%)</strong> e indican
-                                    una rotación más
-                                    activa del inventario.
+                                    Cerca del <strong>39.0%</strong> de las propiedades han estado en el mercado por
+                                    <strong>más de un año</strong>,
+                                    indicando un nivel de riesgo potencialmente mayor en términos de su comercialización
+                                    y venta. Este grupo de propiedades podría enfrentar desafíos relacionados con la
+                                    demanda o características específicas.
                                 </p>
                             </div>
                         </div>
@@ -567,10 +514,9 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_stockdias_direct_tulancingo.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -578,7 +524,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     La proyección en días permite anticipar la duración promedio que las propiedades
                                     podrían requerir para su venta, lo que resulta esencial para ajustar estrategias de
                                     comercialización, establecer precios competitivos y adaptarse a las dinámicas
@@ -593,16 +539,14 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>En el historial de stock, se evidencia una duración de <strong>165 días</strong>
-                                        en <strong>julio de 2023</strong>, seguida de una ligera reducción a <strong>155
-                                            días</strong> en <strong>agosto</strong> y <strong>145 días</strong> en
-                                        <strong>septiembre</strong>. La proyección para <strong>octubre, noviembre y
-                                            diciembre</strong> sugiere una continuación de esta tendencia, con
-                                        estimaciones de <strong>150, 148 y 149 días</strong> respectivamente.
+                                    <li>En el historial de stock, se evidencia una duración de <strong>23 días en Diciembre de
+                                        2023</strong>, seguida de una ligera reducción a <strong>22 días en Enero de 2024</strong> y <strong>42 días en
+                                        Febrero 2024</strong>. La proyección para <strong>Marzo</strong> sugiere una continuación de esta
+                                        tendencia, con estimaciones de <strong>50 días</strong> respectivamente.
                                     </li>
-                                    <li>La tendencia descendente en los días en stock refleja un posible aumento en la
-                                        demanda o una mejora en las estrategias de comercialización, factores que
-                                        contribuyen a una mayor dinámica en la rotación del inventario.</li>
+                                    <li>La proyección muestra una disminución gradual en la duración promedio de venta,
+                                        lo que puede ser interpretado como una posible mejora en la agilidad del mercado
+                                        inmobiliario.</li>
                                 </ul>
                             </div>
                         </div>
@@ -621,9 +565,12 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
+                        <!--
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
+                -->
+
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -679,9 +626,11 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
+                        <!--
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
+                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -784,19 +733,19 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio promedio por número de baños PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Precio promedio por número de baños <span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
+                        <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -833,20 +782,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -869,27 +804,7 @@
                                     para familias o segmentos de mercado de mayor nivel.</p>
                             </div>
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    Los datos para Pachuca revelan una tendencia ascendente consistente en los precios
-                                    de las propiedades con el aumento en el número de baños. Las propiedades con dos
-                                    baños tienen un precio <strong>51.40%</strong> más alto en promedio que aquellas con
-                                    solo uno. Esta tendencia ascendente continúa con propiedades de tres baños, que son
-                                    <strong>31.52%</strong> más caras que las de dos baños. La tendencia es aún más
-                                    pronunciada para las propiedades con cuatro baños, mostrando un incremento del
-                                    <strong>39.80%</strong> sobre las de tres baños. Este aumento constante en el precio
-                                    con baños adicionales indica una fuerte preferencia del mercado por propiedades con
-                                    más comodidades, reflejando la demanda de confort y lujo.
-                                </p>
-
-                            </div>
-                        </div>
+                -->
                     </div>
                 </div>
                 <!-- Precio Promedio de la Propiedad por Número de Baños (de 1 a 4) -->
@@ -899,18 +814,17 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4) PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)<span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -948,20 +862,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1018,7 +918,14 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                    <!-- Link de la gráfica -->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+
                         <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1044,29 +951,6 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>'Colonias' de Alto Potencial en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En la segunda visualización, analizamos los precios promedio de las propiedades en
-                                    diferentes colonias, ahora filtradas para excluir aquellas con datos escasos. Este
-                                    enfoque refinado destaca las colonias de alto potencial, con precios promedio
-                                    expresados en millones de pesos para una interpretación directa de los valores de
-                                    las propiedades.</p>
-                            </div>
-                        </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1084,36 +968,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
                 -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- 'Colonias' de Alto Potencial en Pachuca -->
@@ -1123,12 +978,18 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                'Colonias' de Alto Potencial en Pachuca `PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                'Colonias' de Alto Potencial en Pachuca<span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Explicación de la gráfica -->
+                    <!-- Link de la gráfica -->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                    <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1154,13 +1015,7 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
+                        
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1192,36 +1047,6 @@
                                     demografías más acaudaladas. Para inversores o desarrolladores, estos son los
                                     distritos donde las estrategias de mercado de gama alta podrían ser más efectivas.
                                 </p>
-                            </div>
-                        </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
                             </div>
                         </div>
                     </div>
@@ -1233,12 +1058,20 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Colonias Para inversión (las que más han crecido en precio m² trimestre) PENDIENTE<span class="text-muted fw-normal ms-2"></span>
+                                Colonias Para inversión (las que más han crecido en precio m² trimestre)<span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Explicación de la gráfica -->
+                    
+                        <!-- Link de la gráfica -->
+                        <iframe
+                            src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>   
+                    <!-- Explicación de la gráfica -->
+                    <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1264,29 +1097,6 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>'Colonias' de Alto Potencial en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En la segunda visualización, analizamos los precios promedio de las propiedades en
-                                    diferentes colonias, ahora filtradas para excluir aquellas con datos escasos. Este
-                                    enfoque refinado destaca las colonias de alto potencial, con precios promedio
-                                    expresados en millones de pesos para una interpretación directa de los valores de
-                                    las propiedades.</p>
-                            </div>
-                        </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1304,36 +1114,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
                 -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las Mejores 'Colonias' para Inversión en Pachuca</li>
-                                </ul>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El tercer gráfico se enfoca en la crema del mercado inmobiliario de Pachuca: las
-                                    principales colonias de inversión basadas en precios promedio, considerando solo
-                                    aquellas áreas con un número robusto de anuncios. Aquí, el término 'inversión' se
-                                    alinea con precios promedio más altos, lo que podría correlacionarse tanto con
-                                    ofertas residenciales de lujo como con mercados de alquiler potencialmente
-                                    lucrativos. Notablemente, colonias como "club de golf" y "misión san agustín" se
-                                    destacan, con precios promedio rondando el rango de 8-9 millones de pesos. Estas
-                                    cifras indican no solo un alto punto de entrada de precio, sino también un potencial
-                                    para un retorno significativo de la inversión, especialmente si estas áreas están
-                                    experimentando una trayectoria ascendente en la valoración de propiedades. Esto
-                                    indica que los inversores que apuntan a los escalones superiores del mercado podrían
-                                    encontrar un terreno fértil aquí, aunque las altas apuestas vienen con la necesidad
-                                    de un entendimiento profundo del mercado y una evaluación de riesgos.p>
-                            </div>
-                        </div>
                     </div>
                 </div>
 

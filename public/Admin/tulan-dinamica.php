@@ -81,7 +81,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    4. Dinámicas de Venta y Financiamiento
+                    Dinámicas de Venta y Financiamiento
                 </div>
                 <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
@@ -93,7 +93,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                2.
+                                1.
                                 Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
@@ -101,12 +101,12 @@
                     <!-- 1.1 Tiempo estimado de venta -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>2.1 Tiempo estimado de venta</li>";
+                        echo "<li style='font-size: 20px;'>1.1 Tiempo estimado de venta</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
@@ -131,7 +131,7 @@
                         </div>
                 -->
 
-                         <!-- Explicación de la gráfica -->
+                        <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -139,18 +139,11 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Distribución
-                                    de las viviendas en función de la cantidad de meses que han estado en
-                                    existencia
-                                    para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
-                                    venta
-                                    estimado
-                                    se puede identificar que segmentos tienen una demanda más alta y tienden
-                                    a
-                                    venderse
-                                    un poco más rápido y cuales requieren un poco más de tiempo para
-                                    encontrar
-                                    compradores.</p>
+                                    Distribución de las viviendas en función de la cantidad de meses que han estado en
+                                    existencia para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
+                                    venta estimado se puede identificar que segmentos tienen una demanda más alta y
+                                    tienden a venderse un poco más rápido y cuales requieren un poco más de tiempo para
+                                    encontrar compradores.</p>
                             </div>
                         </div>
                         <div
@@ -159,16 +152,27 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p
+                                <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    La mayoría de las viviendas en <strong>todos los segmentos</strong> tienden
-                                    a tener una
-                                    antigüedad <strong>mayor a los 13 meses</strong> antes de ser
-                                    <strong>vendidas</strong>. Esto indica que
-                                    las
-                                    viviendas para dicho mercado requieren de más tiempo para encontrar
-                                    comprador.
-                                </p>
+                                    <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
+                                        que posee una
+                                        alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
+                                        entre los <strong>7
+                                            meses</strong>. Esto indica que las viviendas en estos segmentos requieren
+                                        más tiempo
+                                        para encontrar comprador en comparación a otros segmentos.
+                                    </li>
+                                    <li><strong>Segmento A y B:</strong> Tiene una cantidad significativa de propiedades
+                                        que duran en
+                                        disponibilidad alrededor de <strong>7 y 11 meses</strong>.</li>
+                                    <li><strong>Segmento C y D:</strong> Poseen una distribución sesgada hacia la
+                                        izquierda con una
+                                        concentración de disponibilidad que ronda los <strong>7 meses de
+                                            antigüedad</strong>.</li>
+                                    <li><strong>Segmento E y B:</strong> Tiene una cantidad significativa de propiedades
+                                        que duran en
+                                        disponibilidad alrededor de <strong>7 meses</strong>.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -180,142 +184,139 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                3.
+                                2.
                                 Créditos<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- 2.1. Distribución de créditos por género -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>3.1. Distribución de créditos por género</li>";
+                        echo "<li style='font-size: 20px;'>2.1. Distribución de créditos por género</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div> 
                 -->
 
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                Distribución de créditos por género. Distingue la diferencia en la porporción de
-                                prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser
-                                útil para comprender las tendencias de financiamiento y su participación en
-                                terminos de acesso a créditos por grupo de género.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
-                                    préstamos se otorga a hombres.</li>
-                                <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
-                                    préstamos se otorga a mujeres.</li>
-                            </ul>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Distribución de créditos por género. Distingue la diferencia en la porporción de
+                                    prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
+                                    para comprender las tendencias de financiamiento y su participación en terminos de
+                                    acesso a créditos por grupo de género.</p>
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
+                                        préstamos se otorga a hombres.</li>
+                                    <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
+                                        préstamos se otorga a mujeres.</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
-                                    mercado
-                                    inmobiliario. Los hombres tienen el <strong>54.4%</strong> de los créditos.
-                                </li>
-                                <li>Las mujeres tienen el <strong>45.6%</strong> de los créditos. Esto indica
-                                    que un
-                                    <strong>menor
-                                        porcentaje
-                                        de préstamos se otorga a mujeres</strong>.
-                                </li>
-                            </ul>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <ul
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
+                                        mercado inmobiliario.
+                                        Los hombres tienen el <strong>56.6%</strong> de los créditos.
+                                    </li>
+                                    <li>Las mujeres tienen el <strong>43.4%</strong> de los créditos. Esto indica que un
+                                        <strong>menor porcentaje
+                                            de préstamos se otorga a mujeres</strong>.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <!-- 2.2. Destino del crédito-->
-                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>3.2. Destino del crédito</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                    </div> 
+                        <!-- 2.2. Destino del crédito-->
+                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                            <?php
+                            echo "<li style='font-size: 20px;'>2.2. Destino del crédito</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <!-- Link de la gráfica PENDIENTE-->
+                            <!--
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_pachuca.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                        </div> 
                 -->
 
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                Número de
-                                créditos por tipo de vivienda. Descubre como se distribuyen los créditos
-                                de
-                                acuerdo
-                                al
-                                tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada
-                                sección
-                                del
-                                gráfico
-                                representa la proporción del número de créditos que se destina a un
-                                propósito
-                                específico
-                                en relación con el total de créditos otorgados para viviendas. Explora
-                                hacia
-                                donde
-                                se
-                                dirige el dinero prestado y comprende las preferencias y necesidades de
-                                las
-                                personas
-                                que
-                                invierten en este sector inmobiliario.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>Si una sección es grande, significa que una parte significativa de
-                                    los
-                                    créditos
-                                    se utiliza para dicho destino.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>La tabla proporciona una clasificación del mercado salarial por persona,
-                                    dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
-                                    representa un rango de salario específico. </li>
-                                <li>La mayoría de las personas se encuentran en la <strong>categoría “F”
-                                        (30.03%)</strong>, que representa salarios entre <strong>$5000 y $7,999
-                                        pesos</strong>, seguida por la <strong>categoría “F1”(25.56%)</strong>,
-                                    que incluye salarios entre <strong>$8,000 y $11,999 pesos</strong>, y en
-                                    tercer lugar la <strong>categoría “G” (23.32%)</strong> que representa
-                                    salarios que ronda los <strong>$10 y $4,999 pesos</strong> indicando que una
-                                    gran proporción de individuos tiene ingresos dentro de esos rangos.
-                                    <strong>A partir</strong> de la <strong>clasificación “E” y”E1”</strong>,
-                                    los <strong>porcentajes disminuyen</strong> significativamente. Las demás
-                                    categorías tienen una menor proporción de personas.
-                                </li>
-                            </ul>
+                            <!-- Explicación de la gráfica -->
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Descripción:</strong>
+                                </p>
+                                <div style="text-align: left;">
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Número de
+                                        créditos por tipo de vivienda. Descubre como se distribuyen los créditos
+                                        de
+                                        acuerdo
+                                        al
+                                        tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada
+                                        sección
+                                        del
+                                        gráfico
+                                        representa la proporción del número de créditos que se destina a un
+                                        propósito
+                                        específico
+                                        en relación con el total de créditos otorgados para viviendas. Explora
+                                        hacia
+                                        donde
+                                        se
+                                        dirige el dinero prestado y comprende las preferencias y necesidades de
+                                        las
+                                        personas
+                                        que
+                                        invierten en este sector inmobiliario.</p>
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>Si una sección es grande, significa que una parte significativa de
+                                            los
+                                            créditos
+                                            se utiliza para dicho destino.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
+                                <div style="text-align: left;">
+                                    <ul
+                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                        <li>La mayoría de los créditos se destinan a viviendas nuevas
+                                            <strong>(143)</strong> y viviendas
+                                            usadas <strong>(290)</strong>. Esto se puede observar en la barra más alta
+                                            en el gráfico para
+                                            viviendas nuevas.
+                                        </li>
+                                        <li>Los créditos para mejoramientos son significativamente menores
+                                            <strong>(69)</strong>.
+                                        </li>
+                                        <li>Otros programas reciben la menor cantidad de créditos <strong>(35)</strong>.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -332,7 +333,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
@@ -356,46 +357,33 @@
                         </div>
                     </div> 
                 -->
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
-                                clasificación se basa en rangos de valores que representan diferentes
-                                niveles en
-                                el
-                                mercado salarial promedio por persona. Lo que nos permite entender y
-                                comunicar
-                                de manera
-                                efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                    Grafica mercado salario por persona. Dicha tabla se clasifica en rangos de valores
+                                    que simbolizan diversos estratos en el mercado salarial promedio por persona. Esta
+                                    disposición nos facilita la comprensión efectiva de la posición que ocupa un
+                                    elemento específico dentro del mercado laboral.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>La tabla proporciona una clasificación del mercado salarial por persona,
-                                    dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
-                                    representa un rango de salario específico. </li>
-                                <li>La mayoría de las personas se encuentran en la <strong>categoría “F”
-                                        (30.03%)</strong>, que representa salarios entre <strong>$5000 y $7,999
-                                        pesos</strong>, seguida por la <strong>categoría “F1”(25.56%)</strong>,
-                                    que incluye salarios entre <strong>$8,000 y $11,999 pesos</strong>, y en
-                                    tercer lugar la <strong>categoría “G” (23.32%)</strong> que representa
-                                    salarios que ronda los <strong>$10 y $4,999 pesos</strong> indicando que una
-                                    gran proporción de individuos tiene ingresos dentro de esos rangos.
-                                    <strong>A partir</strong> de la <strong>clasificación “E” y”E1”</strong>,
-                                    los <strong>porcentajes disminuyen</strong> significativamente. Las demás
-                                    categorías tienen una menor proporción de personas.
-                                </li>
-                            </ul>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                    clasificación se basa en rangos de valores que representan diferentes niveles en el
+                                    mercado salarial promedio por persona. Lo que nos permite entender y comunicar de
+                                    manera
+                                    efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -412,7 +400,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
@@ -437,50 +425,32 @@
                     </div> 
                 -->
 
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
-                                clasificación se basa en rangos de valores que representan diferentes
-                                niveles en
-                                el
-                                mercado salarial promedio por pareja. Lo que nos permite entender y
-                                comunicar de
-                                manera
-                                efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Descripción:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores que
+                                    simbolizan diversos estratos en el mercado salarial promedio por pareja. Esta
+                                    disposición nos facilita la comprensión efectiva de la posición que ocupa un
+                                    elemento específico dentro del mercado laboral.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                <li>La tabla proporciona una clasificación del mercado salarial por pareja,
-                                    dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
-                                    representa un rango de salario específico y el porcentaje de parejas que
-                                    caen dentro de ese rango.</li>
-                                <li>La mayoría de las parejas se encuentran en la <strong>categoría “F1”
-                                        (24.00%)</strong>, que representa salarios entre <strong>$8000 y $11,999
-                                        pesos</strong>, seguida por la <strong>categoría “E” (18.46%)</strong>,
-                                    que incluye salarios entre <strong>$12000 y $15,999 pesos</strong>, y en
-                                    tercer lugar la <strong>categoría “F”(14.46%)</strong> que incluye a parejas
-                                    que ganan entre <strong>$5000 y $7,999 pesos</strong>. Dichos segmentos
-                                    representan la proporción de parejas con mayor participación del total
-                                    dentro de los rangos salariales. Las demás categorías tienen una menor
-                                    proporción.</li>
-                                <li>Esta gráfica nos permite comprender de manera efectiva cómo se distribuyen
-                                    los salarios en el mercado laboral y dónde se encuentra un elemento
-                                    específico dentro de este mercado. Es una herramienta útil para analizar la
-                                    estructura salarial de la población.
-                                </li>
-                            </ul>
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                    clasificación se basa en rangos de valores que representan diferentes niveles en el
+                                    mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de
+                                    manera
+                                    efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -497,7 +467,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
@@ -512,22 +482,12 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Esta
-                                    gráfica
-                                    es una representación visual del volumen total de salarios por pareja
-                                    anuales,
-                                    segmentados por categorías. En otras palabras, nos muestra cómo se
-                                    divide el
-                                    dinero
-                                    ganado neto entre diferentes tipos de trabajos y ocupaciones. De un
-                                    vistazo,
-                                    podemos
-                                    comprender cómo se distribuye este volumen salarial en diferentes
-                                    niveles de
-                                    ingresos, lo que proporciona una visión completa de la estructura
-                                    salarial
-                                    en
-                                    nuestro mercado laboral.</p>
+                                    Representación visual del volumen total de salarios por pareja anuales, segmentados
+                                    por categorías. En esencia, ilustra la distribución del ingreso neto ganado entre
+                                    diversas profesiones y ocupaciones. A través de un análisis visual, somos capaces de
+                                    discernir cómo se distribuye el volumen salarial en distintos estratos de ingresos.
+                                    Esto nos brinda una perspectiva integral de la estructura salarial en nuestro
+                                    mercado laboral.</p>
                             </div>
                         </div>
                         <div
@@ -536,25 +496,15 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las barras están coloreadas para representar visualmente cada rango de
-                                        ingreso; hay una barra verde, una amarilla y café que son prominentes
-                                        porque representan los volúmenes salariales netos más altos. Los valores
-                                        exactos del volumen salarial están indicados en cada barra para
-                                        proporcionar detalles precisos.</li>
-                                    <li>Se observa que la categoría color verde de ingresos de
-                                        <strong>$8000-$11999(F1)</strong> tiene el volumen salarial más alto,
-                                        seguido por la categoría de <strong>$5000-$8999 (F)</strong>. Las
-                                        categorías con ingresos superiores a 25K(D1) en adelante tienen un
-                                        volumen salarial significativamente menor.
-                                    </li>
-                                    <li>Este gráfico nos permite comprender de manera efectiva cómo se
-                                        distribuyen los salarios en el mercado laboral y dónde se encuentra un
-                                        elemento específico dentro de este mercado. Es una herramienta útil para
-                                        analizar la estructura salarial de la población.
-                                    </li>
-                                </ul>
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta gráfica
+                                    es una representación visual del volumen total de salarios por pareja
+                                    anuales, segmentados por categorías. En otras palabras, nos muestra cómo se divide
+                                    el
+                                    dinero ganado neto entre diferentes tipos de trabajos y ocupaciones. De un vistazo,
+                                    podemos comprender cómo se distribuye este volumen salarial en diferentes niveles de
+                                    ingresos, lo que proporciona una visión completa de la estructura salarial en
+                                    nuestro
+                                    mercado laboral.</p>
                             </div>
                         </div>
                     </div>
@@ -577,12 +527,11 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-<!--
+                        <!--
                         <iframe src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 -->
-                
                         <!-- Explicación de la gráfica -->
 
                         <div
@@ -592,18 +541,11 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Explora
-                                    nuestra plataforma para conocer las profesiones que lideran los
-                                    ingresos
-                                    y
-                                    aquellas
-                                    que presentan retos económicos. Obtén información detallada sobre
-                                    los
-                                    salarios,
-                                    tendencias y perspectivas profesionales, brindándote una visión
-                                    clara de
-                                    las
-                                    carreras más y menos lucrativas en el mercado laboral actual..</p>
+                                    Explora nuestra plataforma para conocer las profesiones que lideran los ingresos y
+                                    aquellas que presentan retos económicos. Obtén información detallada sobre los
+                                    salarios, tendencias y perspectivas profesionales, brindándote una visión clara de
+                                    las carreras más y menos lucrativas en el mercado laboral actual.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -611,11 +553,12 @@
                 <!-- end row -->
             </div> <!-- container-fluid -->
         </div>
-        <!-- End Page-content -->
-
-        <?php include 'layouts/footer.php'; ?>
     </div>
-    <!-- end main content-->
+    <!-- End Page-content -->
+
+    <?php include 'layouts/footer.php'; ?>
+</div>
+<!-- end main content-->
 
 </div>
 <!-- END layout-wrapper -->
