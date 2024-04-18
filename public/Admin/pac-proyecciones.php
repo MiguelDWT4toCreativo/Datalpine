@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_preciomediaanual_direct_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -125,7 +125,7 @@
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
 
-                    <!-- Link de la gráfica PENDIENTE-->
+                    <!-- Link de la gráfica -->
                     <div class="card-header bg-white d-flex justify-content-between align-items-center">
                         <div class="col-md-6">
                             <div class="mb-3">
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_conteo_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
@@ -251,7 +251,7 @@
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
 
-                    <!-- Link de la gráfica PENDIENTE-->
+                    <!-- Link de la gráfica -->
                     <div class="card-header bg-white d-flex justify-content-between align-items-center">
                         <div class="col-md-6">
                             <div class="mb-3">
@@ -354,7 +354,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_scatt_casasdepart_proyecanualofert_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
@@ -410,7 +410,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -462,7 +462,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_hidalgo_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
@@ -508,7 +508,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -557,7 +557,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -611,7 +611,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -669,7 +669,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
@@ -1026,7 +1026,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"

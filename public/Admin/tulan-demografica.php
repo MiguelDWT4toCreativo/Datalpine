@@ -481,7 +481,7 @@
                     </div>
                     <!-- 4.1 Distribución de créditos por segmento -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.1 Distribución de créditos por segmento</li>";
@@ -532,7 +532,7 @@
                     </div>
                     <!-- 4.2 Distribución % de créditos por categoría (trimestre)  -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.2 Distribución % de créditos por categoría (trimestre)</li>";
@@ -578,7 +578,7 @@
                     </div>
                     <!-- 4.3 Distribución de créditos por monto -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.3 Distribución de créditos por monto</li>";
@@ -766,7 +766,7 @@
                     </div>
                     <!-- 4.7 Distribución % de créditos por organismo -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.7 Distribución % de créditos por organismo</li>";
@@ -831,7 +831,7 @@
                     </div>
                     <!-- 4.8 Distribución % de créditos por vivienda valor -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";

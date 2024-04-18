@@ -100,7 +100,7 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE -->
+                        <!-- Link de la gráfica -->
                         <p style="text-align: center;">
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_estado_2022_2023.html"></iframe>
@@ -148,7 +148,7 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
+                            <!-- Link de la gráfica -->
                             <iframe
                                 src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_pachuca.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
@@ -199,7 +199,7 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
+                            <!-- Link de la gráfica -->
                                     <iframe
                                         src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
                                         width="800" height="400" frameborder="0" id="contenido01"
@@ -453,7 +453,7 @@
                     </div>
                     <!-- 3.1 Distribución de propiedades por segmento -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <?php
                             echo "<li style='font-size: 20px;'>3.1 Distribución de propiedades por segmento</li>";
@@ -678,7 +678,7 @@
                     echo "</ol>";
                     echo "</ol>";
                     ?>
-                    <!-- Link de la gráfica PENDIENTE-->
+                    <!-- Link de la gráfica -->
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <div class="card">
@@ -780,7 +780,7 @@
                     echo "</ol>";
                     echo "</ol>";
                     ?>
-                    <!-- Link de la gráfica PENDIENTE-->
+                    <!-- Link de la gráfica -->
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <div class="card">
@@ -857,7 +857,7 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica -->
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
@@ -940,7 +940,7 @@
                         <!-- 4.4. Promedio de valor de Créditos para casas nueva y para vivienda usada -->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
 
-                            <!-- Link de la gráfica PENDIENTE-->
+                            <!-- Link de la gráfica -->
 
                             <div class="card-header bg-white d-flex justify-content-between align-items-center">
                                 <?php
@@ -1069,7 +1069,7 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
+                            <!-- Link de la gráfica -->
                             <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_pachuca.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
                                 style="display: block; margin: 0 auto;"></iframe>
@@ -1129,7 +1129,7 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                            <!-- Link de la gráfica PENDIENTE-->
+                            <!-- Link de la gráfica -->
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="card">
@@ -1212,7 +1212,7 @@
                                 echo "</ol>";
                                 echo "</ol>";
                                 ?>
-                                <!-- Link de la gráfica PENDIENTE-->
+                                <!-- Link de la gráfica -->
                                 <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="card">
