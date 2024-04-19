@@ -336,17 +336,17 @@
                                     <span data-key="t-contacts">Puebla</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="apps-blog-detail.php" data-key="t-user-grid">Visión General del
+                                    <li><a href="pueb-vision.php" data-key="t-user-grid">Visión General del
                                             Mercado</a></li>
-                                    <li><a href="charts-echart.php" data-key="t-user-grid">Análisis de Segmentos y
+                                    <li><a href="pueb-analisis.php" data-key="t-user-grid">Análisis de Segmentos y
                                             Precios</a></li>
-                                    <li><a href="extended-sweet-alert.php" data-key="t-user-grid">Características y
+                                    <li><a href="pueb-caracteristicas.php" data-key="t-user-grid">Características y
                                             Distribución de Propiedades</a></li>
-                                    <li><a href="maps-google.php" data-key="t-user-grid">Dinámicas de Venta y
+                                    <li><a href="pueb-dinamicas.php" data-key="t-user-grid">Dinámicas de Venta y
                                             Financiamiento</a></li>
-                                    <li><a href="maps-leaflet.php" data-key="t-user-list">Demografía y Tendencias
+                                    <li><a href="pueb-demografia.php" data-key="t-user-list">Demografía y Tendencias
                                             de Mercado</a></li>
-                                    <li><a href="maps-vector.php" data-key="t-profile">Proyecciones
+                                    <li><a href="pueb-proyecciones.php" data-key="t-profile">Proyecciones
                                             Oportunidades de Inversión y Análisis de Colonias</a></li>
                                 </ul>
                             </li>

@@ -90,12 +90,10 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                         <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                         <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_tulancingo.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
                 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -140,15 +138,14 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                             <!-- Link de la gráfica PENDIENTE-->
-<!--
+                             <!-- Link de la gráfica -->
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title">Segmentos</h5>
                                             <iframe
-                                                src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html"
+                                                src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_tulancingo.html"
                                                 width="100%" height="300" frameborder="0"
                                                 style="border: none;"></iframe>
                                         </div>
@@ -159,15 +156,13 @@
                                         <div class="card-body">
                                             <h5 class="card-title">General</h5>
                                             <iframe
-                                                src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_construido_pachuca.html"
+                                                src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_tulancingo.html"
                                                 width="100%" height="300" frameborder="0"
                                                 style="border: none;"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                -->
-
                             <!-- Explicación de la gráfica -->
                             <div
                                 style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -244,12 +239,10 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-<!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_pachuca.html"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
