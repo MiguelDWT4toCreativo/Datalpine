@@ -82,14 +82,13 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
 
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Segmentos</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_recamaras_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/grafica_recamaras_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
@@ -99,13 +98,12 @@
                                     <div class="card-body">
                                         <h5 class="card-title">General</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_recamaras_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_recamaras_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div> 
-                -->
                         <!-- Explicación de la gráfica -->
 
                         <div
@@ -163,13 +161,12 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
 
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Segmentos</h5>
-                                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_baños_pachuca.html"
+                                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_baños_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
@@ -178,13 +175,12 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">General</h5>
-                                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_baños_pachuca.html"
+                                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_baños_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div> 
-                -->
                         <!-- Explicación de la gráfica -->
 
                         <div
@@ -256,14 +252,13 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
 
                         <!-- Link de la gráfica -->
-                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Segmentos</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_estacionamiento_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/grafica_estacionamiento_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
@@ -273,14 +268,12 @@
                                     <div class="card-body">
                                         <h5 class="card-title">General</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_estacionamientos_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_estacionamiento_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                -->
-
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">

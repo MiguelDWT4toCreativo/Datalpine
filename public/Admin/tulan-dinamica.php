@@ -106,14 +106,13 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Segmentos</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_tulgo.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
@@ -123,13 +122,12 @@
                                     <div class="card-body">
                                         <h5 class="card-title">General</h5>
                                         <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_tulgo.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -195,13 +193,11 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_pachuca.html"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div> 
-                -->
 
                         <!-- Explicación de la gráfica -->
                         <div
