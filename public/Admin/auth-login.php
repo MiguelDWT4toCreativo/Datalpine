@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                         <label class="form-label" for="username">Usuario:</label>
                                         <input type="text" class="form-control" id="nombre"
-                                            placeholder="Nombre del usuario" name="nombre" value="">
+                                            placeholder="Nombre del usuario" name="nombre" value="miguel">
 
                                         <span class="text-danger"><?php echo $username_err; ?></span>
                                     </div>
@@ -141,7 +141,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                         <div class="input-group auth-pass-inputgroup">
                                             <input type="password" class="form-control" placeholder="Contraseña"
-                                                name="contraseña" value="" aria-label="Password"
+                                                name="contraseña" value="123456" aria-label="Password"
                                                 aria-describedby="password-addon">
                                             <span class="text-danger"><?php echo $password_err; ?></span>
                                             <button class="btn btn-light ms-0" type="button" id="password-addon"><i
