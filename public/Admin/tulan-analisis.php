@@ -66,9 +66,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Análisis de Segmentos y Precios
+                    <h1>Análisis de Segmentos y Precios</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Ofrece una visión profunda del mercado
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Ofrece una visión profunda del mercado
                     inmobiliario, desglosando segmentos, tamaños de construcción y precios por metro cuadrado. Con
                     gráficas detalladas y análisis perspicaces, proporciona información esencial para entender las
                     tendencias del mercado y tomar decisiones estratégicas.</p>
@@ -90,11 +90,11 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_tulancingo.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                
+
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -138,7 +138,7 @@
                             echo "</ol>";
                             echo "</ol>";
                             ?>
-                             <!-- Link de la gráfica -->
+                            <!-- Link de la gráfica -->
                             <div class="row">
                                 <div class="col-md-6 mb-4">
                                     <div class="card">
@@ -268,8 +268,10 @@
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
                                     "La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
-                                    inmobiliario. Desde <strong>$11,692</strong> en el rango de <strong>0-100</strong> metros cuadrados hasta $8,294 para
-                                    propiedades que superan los <strong>300</strong> metros cuadrados, la visualización destaca la
+                                    inmobiliario. Desde <strong>$11,692</strong> en el rango de <strong>0-100</strong>
+                                    metros cuadrados hasta $8,294 para
+                                    propiedades que superan los <strong>300</strong> metros cuadrados, la visualización
+                                    destaca la
                                     evolución de los precios a medida que aumenta la dimensión de las propiedades.</p>
                             </div>
                         </div>

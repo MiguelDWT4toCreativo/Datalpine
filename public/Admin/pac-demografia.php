@@ -77,9 +77,9 @@
                     }
                 </style>
                 <div class="titulo">
-                Demografía y Tendencias de Mercado
+                    <h1>Demografía y Tendencias de Mercado</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">En este informe, exploramos el proceso de
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">En este informe, exploramos el proceso de
                     investigación de mercado, que incluye la recopilación, el análisis y la
                     interpretación de datos, evaluar la competencia y encontrar oportunidades de crecimiento.</p>
 
@@ -200,10 +200,9 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica -->
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
-                                        width="800" height="400" frameborder="0" id="contenido01"
-                                        style="display: block; margin: 0 auto;"></iframe>
+                            <iframe src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
                             <div
                                 style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -268,7 +267,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/graficas/Precio_oferta_2022_2023.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/Precio_oferta_2022_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -326,7 +325,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/graficas/mediana_precio_oferta.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/mediana_precio_oferta.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->

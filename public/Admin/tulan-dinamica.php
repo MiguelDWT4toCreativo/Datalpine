@@ -81,9 +81,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Dinámicas de Venta y Financiamiento
+                    </h1>Dinámicas de Venta y Financiamiento</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
                 <!--1. Tiempo estimado de venta -->
@@ -136,7 +136,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Distribución de las viviendas en función de la cantidad de meses que han estado en
                                     existencia para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
                                     venta estimado se puede identificar que segmentos tienen una demanda más alta y
@@ -151,7 +151,7 @@
                             </p>
                             <div style="text-align: left;">
                                 <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
+                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                     <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
                                         que posee una
                                         alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
@@ -197,122 +197,118 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    </div> 
+                    </div>
 
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Distribución de créditos por género. Distingue la diferencia en la porporción de
-                                    prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
-                                    para comprender las tendencias de financiamiento y su participación en terminos de
-                                    acesso a créditos por grupo de género.</p>
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
-                                        préstamos se otorga a hombres.</li>
-                                    <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
-                                        préstamos se otorga a mujeres.</li>
-                                </ul>
-                            </div>
+                    <!-- Explicación de la gráfica -->
+                    <div
+                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                            <strong>Descripción:</strong>
+                        </p>
+                        <div style="text-align: left;">
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                Distribución de créditos por género. Distingue la diferencia en la porporción de
+                                prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
+                                para comprender las tendencias de financiamiento y su participación en terminos de
+                                acesso a créditos por grupo de género.</p>
+                            <ul
+                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
+                                    préstamos se otorga a hombres.</li>
+                                <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
+                                    préstamos se otorga a mujeres.</li>
+                            </ul>
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                    <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
-                                        mercado inmobiliario.
-                                        Los hombres tienen el <strong>56.6%</strong> de los créditos.
-                                    </li>
-                                    <li>Las mujeres tienen el <strong>43.4%</strong> de los créditos. Esto indica que un
-                                        <strong>menor porcentaje
-                                            de préstamos se otorga a mujeres</strong>.
-                                    </li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div
+                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                            <strong>Interpretación:</strong>
+                        </p>
+                        <div style="text-align: left;">
+                            <ul
+                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
+                                    mercado inmobiliario.
+                                    Los hombres tienen el <strong>56.6%</strong> de los créditos.
+                                </li>
+                                <li>Las mujeres tienen el <strong>43.4%</strong> de los créditos. Esto indica que un
+                                    <strong>menor porcentaje
+                                        de préstamos se otorga a mujeres</strong>.
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 2.2. Destino del crédito-->
-                        <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                            <?php
-                            echo "<li style='font-size: 20px;'>2.2. Destino del crédito</li>";
-                            echo "</ol>";
-                            echo "</ol>";
-                            ?>
-                            <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_pachuca.html"
-                                width="800" height="400" frameborder="0" id="contenido01"
-                                style="display: block; margin: 0 auto;"></iframe>
-                        </div> 
-                -->
+                    </div>
+                    <!-- 2.2. Destino del crédito-->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>2.2. Destino del crédito</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>
+                    </div>
 
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
-                                </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                        Número de
-                                        créditos por tipo de vivienda. Descubre como se distribuyen los créditos
-                                        de
-                                        acuerdo
-                                        al
-                                        tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada
-                                        sección
-                                        del
-                                        gráfico
-                                        representa la proporción del número de créditos que se destina a un
-                                        propósito
-                                        específico
-                                        en relación con el total de créditos otorgados para viviendas. Explora
-                                        hacia
-                                        donde
-                                        se
-                                        dirige el dinero prestado y comprende las preferencias y necesidades de
-                                        las
-                                        personas
-                                        que
-                                        invierten en este sector inmobiliario.</p>
-                                    <ul
-                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>Si una sección es grande, significa que una parte significativa de
-                                            los
-                                            créditos
-                                            se utiliza para dicho destino.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Interpretación:</strong>
-                                <div style="text-align: left;">
-                                    <ul
-                                        style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                                        <li>La mayoría de los créditos se destinan a viviendas nuevas
-                                            <strong>(143)</strong> y viviendas
-                                            usadas <strong>(290)</strong>. Esto se puede observar en la barra más alta
-                                            en el gráfico para
-                                            viviendas nuevas.
-                                        </li>
-                                        <li>Los créditos para mejoramientos son significativamente menores
-                                            <strong>(69)</strong>.
-                                        </li>
-                                        <li>Otros programas reciben la menor cantidad de créditos <strong>(35)</strong>.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <!-- Explicación de la gráfica -->
+                    <div
+                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                            <strong>Descripción:</strong>
+                        </p>
+                        <div style="text-align: left;">
+                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                                Número de
+                                créditos por tipo de vivienda. Descubre como se distribuyen los créditos
+                                de
+                                acuerdo
+                                al
+                                tipo de vivienda: nueva, con mejoras, usada y otros programas. Cada
+                                sección
+                                del
+                                gráfico
+                                representa la proporción del número de créditos que se destina a un
+                                propósito
+                                específico
+                                en relación con el total de créditos otorgados para viviendas. Explora
+                                hacia
+                                donde
+                                se
+                                dirige el dinero prestado y comprende las preferencias y necesidades de
+                                las
+                                personas
+                                que
+                                invierten en este sector inmobiliario.</p>
+                            <ul
+                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                <li>Si una sección es grande, significa que una parte significativa de
+                                    los
+                                    créditos
+                                    se utiliza para dicho destino.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                            <strong>Interpretación:</strong>
+                        <div style="text-align: left;">
+                            <ul
+                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                <li>La mayoría de los créditos se destinan a viviendas nuevas
+                                    <strong>(143)</strong> y viviendas
+                                    usadas <strong>(290)</strong>. Esto se puede observar en la barra más alta
+                                    en el gráfico para
+                                    viviendas nuevas.
+                                </li>
+                                <li>Los créditos para mejoramientos son significativamente menores
+                                    <strong>(69)</strong>.
+                                </li>
+                                <li>Otros programas reciben la menor cantidad de créditos <strong>(35)</strong>.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -361,7 +357,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
                                     Grafica mercado salario por persona. Dicha tabla se clasifica en rangos de valores
                                     que simbolizan diversos estratos en el mercado salarial promedio por persona. Esta
                                     disposición nos facilita la comprensión efectiva de la posición que ocupa un
@@ -374,7 +370,7 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
                                     clasificación se basa en rangos de valores que representan diferentes niveles en el
                                     mercado salarial promedio por persona. Lo que nos permite entender y comunicar de
                                     manera
@@ -428,7 +424,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores que
                                     simbolizan diversos estratos en el mercado salarial promedio por pareja. Esta
                                     disposición nos facilita la comprensión efectiva de la posición que ocupa un
@@ -441,7 +437,7 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
                                     clasificación se basa en rangos de valores que representan diferentes niveles en el
                                     mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de
                                     manera
@@ -477,7 +473,7 @@
                                 <strong>Descripción:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Representación visual del volumen total de salarios por pareja anuales, segmentados
                                     por categorías. En esencia, ilustra la distribución del ingreso neto ganado entre
                                     diversas profesiones y ocupaciones. A través de un análisis visual, somos capaces de
@@ -492,7 +488,7 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">Esta gráfica
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta gráfica
                                     es una representación visual del volumen total de salarios por pareja
                                     anuales, segmentados por categorías. En otras palabras, nos muestra cómo se divide
                                     el
@@ -536,7 +532,7 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
                                     Explora nuestra plataforma para conocer las profesiones que lideran los ingresos y
                                     aquellas que presentan retos económicos. Obtén información detallada sobre los
                                     salarios, tendencias y perspectivas profesionales, brindándote una visión clara de

@@ -63,9 +63,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Características y Distribución de Propiedades
+                    <h1>Características y Distribución de Propiedades</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <!-- Explicación de la gráfica -->
 
                         <div
@@ -180,7 +180,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <!-- Explicación de la gráfica -->
 
                         <div
@@ -304,12 +304,16 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Los <strong>segmentos S, A, B, C, D</strong> muestran una preferencia marcada por <strong>2
-                                        estacionamientos</strong> tienen <strong>3 lugares de estacionamiento</strong>. Esto se puede observar en
+                                    <li>Los <strong>segmentos S, A, B, C, D</strong> muestran una preferencia marcada
+                                        por <strong>2
+                                            estacionamientos</strong> tienen <strong>3 lugares de
+                                            estacionamiento</strong>. Esto se puede observar en
                                         las barras altas en estos segmentos para las propiedades con estos números de
                                         estacionamientos.</li>
-                                    <li>El <strong>segmento D</strong> tiene una notable cantidad de propiedades con <strong>2 estacionamientos</strong>.</li>
-                                    <li>El <strong>segmento E</strong> destaca con propiedades con <strong>2 estacionamientos</strong> seguido de 3. Esto
+                                    <li>El <strong>segmento D</strong> tiene una notable cantidad de propiedades con
+                                        <strong>2 estacionamientos</strong>.</li>
+                                    <li>El <strong>segmento E</strong> destaca con propiedades con <strong>2
+                                            estacionamientos</strong> seguido de 3. Esto
                                         se puede observar en las barras altas para dicho segmento.</li>
                                 </ul>
                             </div>

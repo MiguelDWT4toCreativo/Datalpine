@@ -62,23 +62,23 @@
                             /* Fuente del texto */
                         }
                     </style>
-                    <div class="titulo">
-                        Amenidades
-                    </div>
-                    <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
-                        <p style="font-size: 16px; line-height: 1.5; color: #666;">Estamos trabajando diligentemente
-                            para brindarte una experiencia única y enriquecedora. Mantente al tanto, ¡pronto estará
-                            lista para ti!
-                        </p>
-                    </div>
-                </div> <!-- container-fluid -->
-            </div>
-        </div> <!-- container-fluid -->
-    </div>
-    <!-- End Page-content -->
+                    <d class="titulo">
+                        <h1>Amenidades</h1>
+                </div>
+                <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
+                    <p style="font-size: 18px; line-height: 1.5; color: #444;">Estamos trabajando diligentemente
+                        para brindarte una experiencia única y enriquecedora. Mantente al tanto, ¡pronto estará
+                        lista para ti!
+                    </p>
+                </div>
+            </div> <!-- container-fluid -->
+        </div>
+    </div> <!-- container-fluid -->
+</div>
+<!-- End Page-content -->
 
 
-    <?php include 'layouts/footer.php'; ?>
+<?php include 'layouts/footer.php'; ?>
 </div>
 <!-- end main content-->
 

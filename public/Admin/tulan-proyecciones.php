@@ -59,9 +59,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Proyecciones Oportunidades de Inversión y Análisis de Colonias
+                    <h1>Proyecciones Oportunidades de Inversión y Análisis de Colonias</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Esta sección muestra un análisis exhaustivo
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Esta sección muestra un análisis exhaustivo
                     de las proyecciones y tendencias del mercado inmobiliario en los próximos años, proporcionando una
                     visión detallada de elementos cruciales como el precio promedio de la vivienda, la dinámica de los
                     créditos otorgados, el tiempo en el mercado y el crecimiento poblacional.</p>
@@ -514,8 +514,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_stockdias_direct_tulancingo.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_stockdias_direct_tulancingo.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div
@@ -539,9 +539,12 @@
                             <div style="text-align: left;">
                                 <ul
                                     style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>En el historial de stock, se evidencia una duración de <strong>23 días en Diciembre de
-                                        2023</strong>, seguida de una ligera reducción a <strong>22 días en Enero de 2024</strong> y <strong>42 días en
-                                        Febrero 2024</strong>. La proyección para <strong>Marzo</strong> sugiere una continuación de esta
+                                    <li>En el historial de stock, se evidencia una duración de <strong>23 días en
+                                            Diciembre de
+                                            2023</strong>, seguida de una ligera reducción a <strong>22 días en Enero de
+                                            2024</strong> y <strong>42 días en
+                                            Febrero 2024</strong>. La proyección para <strong>Marzo</strong> sugiere una
+                                        continuación de esta
                                         tendencia, con estimaciones de <strong>50 días</strong> respectivamente.
                                     </li>
                                     <li>La proyección muestra una disminución gradual en la duración promedio de venta,
@@ -733,15 +736,13 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio promedio por número de baños <span
-                                    class="text-muted fw-normal ms-2"></span>
+                                Precio promedio por número de baños <span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -821,8 +822,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -918,9 +918,8 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_tulancingo.html"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -978,18 +977,16 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                'Colonias' de Alto Potencial en Pachuca<span
-                                    class="text-muted fw-normal ms-2"></span>
+                                'Colonias' de Alto Potencial en Pachuca<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_tulancingo.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_tulancingo.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    <!-- Explicación de la gráfica -->
+                        <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1015,7 +1012,7 @@
                                     consideren ingresar al mercado.</p>
                             </div>
                         </div>
-                        
+
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1064,14 +1061,13 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    
+
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>   
-                    <!-- Explicación de la gráfica -->
-                    <!--
+                            style="display: block; margin: 0 auto;"></iframe>
+                        <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">

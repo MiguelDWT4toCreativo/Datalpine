@@ -24,9 +24,7 @@
             <div class="dropdown d-none d-sm-inline-block">
                 <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    <?php if ($lang == 'en') { ?>
-                        <img class="me-2" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                    <?php } ?>
+                    
                     <?php if ($lang == 'es') { ?>
                         <img class="me-2" src="assets/images/flags/spain.jpg" alt="Header Language" height="16">
                     <?php } ?>
@@ -41,12 +39,6 @@
                     <?php } ?>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
-
-                    <!-- item-->
-                    <a href="?lang=en" class="dropdown-item notify-item language">
-                        <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span
-                            class="align-middle"> English </span>
-                    </a>
 
                     <!-- item-->
                     <a href="?lang=es" class="dropdown-item notify-item language">

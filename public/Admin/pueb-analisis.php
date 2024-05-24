@@ -59,9 +59,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Análisis de Segmentos y Precios
+                    <h1>Análisis de Segmentos y Precios</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
                 <!--1. Segmentos -->
@@ -270,8 +270,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
+                                        <iframe src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
                                             width="100%" height="300" frameborder="0" style="border: none;"></iframe>
                                     </div>
                                 </div>

@@ -71,9 +71,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Demografía y Tendencias de Mercado
+                    <h1>Demografía y Tendencias de Mercado</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">En este informe, exploramos el proceso de
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">En este informe, exploramos el proceso de
                     investigación de mercado, que incluye la recopilación, el análisis y la
                     interpretación de datos, evaluar la competencia y encontrar oportunidades de crecimiento.</p>
 
@@ -95,12 +95,10 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <p style="text-align: center;">
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_estado_2022_2023.html"></iframe>
+                                src="/datalpine/resources/jupyter/graficas/Distribucion_población_edad_genero_tulancingo.html"></iframe>
                         </p>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -130,13 +128,10 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica PENDIENTE-->
-                            <!--
                             <iframe
-                                src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_pachuca.html"
+                                src="/datalpine/resources/jupyter/graficas/Distribucion_población_edad_genero_tulancingo.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
                                 style="display: block; margin: 0 auto;"></iframe>
-                -->
-
                             <!-- Explicación de la gráfica -->
                             <div
                                 style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -165,11 +160,9 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica PENDIENTE-->
-                            <!--
-                            <iframe src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
+                            <iframe src="/datalpine/resources/jupyter/graficas/distribucion_edades_tulancingo.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
                                 style="display: block; margin: 0 auto;"></iframe>
-                -->
 
                             <!-- Explicación de la gráfica -->
                             <div
@@ -306,12 +299,10 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
                         <p style="text-align: center;">
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html"></iframe>
+                                src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad_tulancingo.html"></iframe>
                         </p>
-                -->
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -438,11 +429,10 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica PENDIENTE-->
-                            <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
+                            <iframe
+                                src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_preciosegmento_tulancingo.html"
+                                width="800" height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
                             <div
                                 style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">

@@ -62,10 +62,10 @@
                         }
                     </style>
                     <div class="titulo">
-                        Segmentaciones de mercado
+                        <h1>Segmentaciones de mercado</h1>
                     </div>
                     <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
-                        <p style="font-size: 16px; line-height: 1.5; color: #666;">Para comprender mejor el dinámico y
+                        <p style="font-size: 18px; line-height: 1.5; color: #444;">Para comprender mejor el dinámico y
                             amplio
                             mercado inmobiliario, se desarrolla una clasificación por segmentos (S, A, B, C, D, E)
                             basada en

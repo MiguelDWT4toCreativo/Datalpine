@@ -61,44 +61,43 @@
                         }
                     </style>
                     <div class="titulo">
-                        Explorador de valuación y precios
+                        <h1>Explorador de valuación y precios
                     </div>
                     <div style="border-top: 1px solid #86ADFF; padding-top: 10px;">
-                        <p style="font-size: 16px; line-height: 1.5; color: #666;">Estamos trabajando diligentemente
+                        <p style="font-size: 18px; line-height: 1.5; color: #444;">Estamos trabajando diligentemente
                             para brindarte una experiencia única y enriquecedora. Mantente al tanto, ¡pronto estará
                             lista para ti!
                         </p>
                     </div>
-
-
-                </div> <!-- container-fluid -->
-            </div>
-            <!-- End Page-content -->
-
-            <?php include 'layouts/footer.php'; ?>
+                </div>
+            </div> <!-- container-fluid -->
         </div>
-        <!-- end main content-->
+        <!-- End Page-content -->
 
+        <?php include 'layouts/footer.php'; ?>
     </div>
-    <!-- END layout-wrapper -->
+    <!-- end main content-->
+
+</div>
+<!-- END layout-wrapper -->
 
 
-    <!-- Right Sidebar -->
-    <?php include 'layouts/right-sidebar.php'; ?>
-    <!-- /Right-bar -->
+<!-- Right Sidebar -->
+<?php include 'layouts/right-sidebar.php'; ?>
+<!-- /Right-bar -->
 
-    <!-- JAVASCRIPT -->
+<!-- JAVASCRIPT -->
 
-    <?php include 'layouts/vendor-scripts.php'; ?>
+<?php include 'layouts/vendor-scripts.php'; ?>
 
-    <script src="assets/libs/fullcalendar/index.global.min.js"></script>
+<script src="assets/libs/fullcalendar/index.global.min.js"></script>
 
-    <!-- Calendar init -->
-    <script src="assets/js/pages/calendar.init.js"></script>
+<!-- Calendar init -->
+<script src="assets/js/pages/calendar.init.js"></script>
 
-    <!-- App js -->
-    <script src="assets/js/app.js"></script>
+<!-- App js -->
+<script src="assets/js/app.js"></script>
 
-    </body>
+</body>
 
-    </html>
+</html>

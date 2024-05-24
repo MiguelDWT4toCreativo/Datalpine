@@ -7,7 +7,8 @@
     <?php include 'layouts/head.php'; ?>
 
     <!-- jquery.vectormap css -->
-    <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"
+        type="text/css" />
 
     <?php include 'layouts/head-style.php'; ?>
 
@@ -46,8 +47,8 @@
                 </div>
                 <!-- end page title -->
 
-                 <!-- 6. Proyecciones Oportunidades de Inversión y Análisis de Colonias -->
-                 <style>
+                <!-- 6. Proyecciones Oportunidades de Inversión y Análisis de Colonias -->
+                <style>
                     /* Estilos CSS para el título */
                     .titulo {
                         text-align: center;
@@ -63,9 +64,9 @@
                     }
                 </style>
                 <div class="titulo">
-                    Proyecciones Oportunidades de Inversión y Análisis de Colonias
+                    <h1>Proyecciones Oportunidades de Inversión y Análisis de Colonias</h1>
                 </div>
-                <p style="font-size: 16px; line-height: 1.5; color: #666;">Esta sección muestra un análisis exhaustivo
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">>Esta sección muestra un análisis exhaustivo
                     de las proyecciones y tendencias del mercado inmobiliario en los próximos años, proporcionando una
                     visión detallada de elementos cruciales como el precio promedio de la vivienda, la dinámica de los
                     créditos otorgados, el tiempo en el mercado y el crecimiento poblacional.</p>
@@ -776,8 +777,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -852,14 +852,14 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)<span class="text-muted fw-normal ms-2"></span>
+                                Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)<span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -956,12 +956,11 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    <!-- Explicación de la gráfica -->
-                     <!--  
+                        <!-- Explicación de la gráfica -->
+                        <!--  
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1020,14 +1019,13 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    
+
                         <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    <!-- Explicación de la gráfica -->
-                    <!--
+                        <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1080,19 +1078,19 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Colonias Para inversión (las que más han crecido en precio m² trimestre)<span class="text-muted fw-normal ms-2"></span>
+                                Colonias Para inversión (las que más han crecido en precio m² trimestre)<span
+                                    class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    <!-- Link de la gráfica -->
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_pachuca.html" width="800"
+                            height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                            
-                    <!-- Explicación de la gráfica -->
-                    <!--
+
+                        <!-- Explicación de la gráfica -->
+                        <!--
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">

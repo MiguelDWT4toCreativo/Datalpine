@@ -66,9 +66,9 @@
                         }
                     </style>
                     <div class="titulo">
-                        Visión General del Mercado
+                        <h1>Visión General del Mercado</h1>
                     </div>
-                    <p style="font-size: 16px; line-height: 1.5; color: #666;">Este apartado ofrece datos históricos y
+                    <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                         actuales sobre el mercado inmobiliario en Tulancingo, proporcionando una visión
                         completa de las transformaciones, tendencias y precios a lo largo del tiempo.</p>
                     <!--Mapa de calor -->
@@ -155,56 +155,66 @@
                                     de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
                             </div>
                         </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
 
-                        <!-- Link de la gráfica -->
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div style="flex: 1; margin-right: 20px;">
-                                <iframe src="/datalpine/resources/jupyter/mapas/map_calor-tulancingo.html" width="800"
-                                    height="400" frameborder="0" id="contenido01"
-                                    style="display: block; margin: 0 auto;"></iframe>
-                            </div>
-                            <!-- Explicación de la gráfica -->
-                            <div
-                                style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                    <strong>Descripción:</strong>
-                                </p>
-                                <div style="text-align: left;">
-                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">El mapa
-                                        de calor presentado ofrece una visualización de la densidad de propiedades
-                                        disponibles en la ciudad. La representación utiliza una escala de colores que va
-                                        desde el rojo intenso, indicando una alta concentración de propiedades en una
-                                        zona específica, hasta el azul más claro, denotando una menor oferta de
-                                        propiedades en esa área, donde cada propiedad está geolocalizada mediante sus
-                                        coordenadas de latitud y longitud.</p>
+
+                            <!-- Link de la gráfica -->
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <div style="flex: 1; margin-right: 20px;">
+                                    <iframe src="/datalpine/resources/jupyter/mapas/map_calor-tulancingo.html"
+                                        width="800" height="400" frameborder="0" id="contenido01"
+                                        style="display: block; margin: 0 auto;"></iframe>
+                                </div>
+                                <!-- Explicación de la gráfica -->
+                                <div
+                                    style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
+                                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                        <strong>Descripción:</strong>
+                                    </p>
+                                    <div style="text-align: left;">
+                                        <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">El
+                                            mapa
+                                            de calor presentado ofrece una visualización de la densidad de propiedades
+                                            disponibles en la ciudad. La representación utiliza una escala de colores
+                                            que va
+                                            desde el rojo intenso, indicando una alta concentración de propiedades en
+                                            una
+                                            zona específica, hasta el azul más claro, denotando una menor oferta de
+                                            propiedades en esa área, donde cada propiedad está geolocalizada mediante
+                                            sus
+                                            coordenadas de latitud y longitud.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El análisis de la distribución de la oferta de propiedades revela que algunas
-                                    colonias destacan por su alta densidad de disponibilidad, como lo es la zona
-                                    <strong>Centro,
-                                        La Morena 3a Secc, Villa Sol y Jaltepec.</strong> Por otro lado, existen
-                                    colonias donde la
-                                    oferta es notablemente más limitada, como <strong>Zapotlán de Allende, De los
-                                        Electricistas,
-                                        San José Pedregal.</strong> Este panorama ofrece una visión clara de las áreas
-                                    con mayor y
-                                    menor disponibilidad de propiedades.
+                            <div
+                                style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                                <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                    <strong>Interpretación:</strong>
                                 </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Por otro lado, existen colonias donde la oferta es notablemente más limitada, como
-                                    Zapotlán de Allende, De los Electricistas, San José Pedregal.
-                                </p>
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Este panorama ofrece una visión clara de las áreas con mayor y menor disponibilidad
-                                    de propiedades.</p>
+                                <div style="text-align: left;">
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        El análisis de la distribución de la oferta de propiedades revela que algunas
+                                        colonias destacan por su alta densidad de disponibilidad, como lo es la zona
+                                        <strong>Centro,
+                                            La Morena 3a Secc, Villa Sol y Jaltepec.</strong> Por otro lado, existen
+                                        colonias donde la
+                                        oferta es notablemente más limitada, como <strong>Zapotlán de Allende, De los
+                                            Electricistas,
+                                            San José Pedregal.</strong> Este panorama ofrece una visión clara de las
+                                        áreas
+                                        con mayor y
+                                        menor disponibilidad de propiedades.
+                                    </p>
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Por otro lado, existen colonias donde la oferta es notablemente más limitada,
+                                        como
+                                        Zapotlán de Allende, De los Electricistas, San José Pedregal.
+                                    </p>
+                                    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                        Este panorama ofrece una visión clara de las áreas con mayor y menor
+                                        disponibilidad
+                                        de propiedades.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
