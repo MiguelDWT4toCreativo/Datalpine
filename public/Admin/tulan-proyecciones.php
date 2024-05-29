@@ -7,6 +7,77 @@
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
+    <style>
+        .subtitle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            background-color: #e9f5ff;
+            border-left: 8px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        .interpretation {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fef4e9;
+            border-left: 8px solid #FFA500;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        .mostrar {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .mostrar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mostrar:hover {
+            background-color: #0056b3;
+        }
+
+        .map-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <?php include 'layouts/body.php'; ?>
@@ -1141,6 +1212,26 @@
 <script src="assets/js/pages/rating.init.js"></script>
 
 <script src="assets/js/app.js"></script>
+<script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+<script>
+    function toggleDescription(id) {
+        var description = document.getElementById(id);
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
+    }
+</script>
 
 </body>
 

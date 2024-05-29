@@ -12,25 +12,80 @@
         type="text/css" />
 
     <?php include 'layouts/head-style.php'; ?>
+
+    <style>
+        .subtitle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            background-color: #e9f5ff;
+            border-left: 8px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        .interpretation {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fef4e9;
+            border-left: 8px solid #FFA500;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        .mostrar {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .mostrar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mostrar:hover {
+            background-color: #0056b3;
+        }
+
+        .map-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-    }
 
-    th,
-    td {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
 <?php include 'layouts/body.php'; ?>
 
 <!-- Begin page -->
@@ -81,109 +136,92 @@
                     }
                 </style>
                 <div class="titulo">
-                    </h1>Dinámicas de Venta y Financiamiento</h1>
+                    <h1>Dinámicas de Venta y Financiamiento</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
+
                 <!--1. Tiempo estimado de venta -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                1.
-                                Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="subtitle-container">
+                                <h5 class="card-title subtitle">
+                                    1.
+                                    Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                value="Segmentos">
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                value="General">
                         </div>
                     </div>
-                    <!-- 1.1 Tiempo estimado de venta -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>1.1 Tiempo estimado de venta</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_tulgo.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
+
+                        <!-- Link de la gráfica -->
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_tulgo.html"
+                                    id="contenido1"></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_tulgo.html"
+                                    id="contenido2" style="display: none;"></iframe>
                             </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">General</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_tulgo.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
                         </div>
 
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Distribución de las viviendas en función de la cantidad de meses que han estado en
-                                    existencia para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
-                                    venta estimado se puede identificar que segmentos tienen una demanda más alta y
-                                    tienden a venderse un poco más rápido y cuales requieren un poco más de tiempo para
-                                    encontrar compradores.</p>
-                            </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Distribución de las viviendas en función de la cantidad de meses que han estado en
+                                existencia para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
+                                venta estimado se puede identificar que segmentos tienen una demanda más alta y
+                                tienden a venderse un poco más rápido y cuales requieren un poco más de tiempo para
+                                encontrar compradores.</p>
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
-                                        que posee una
-                                        alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
-                                        entre los <strong>7
-                                            meses</strong>. Esto indica que las viviendas en estos segmentos requieren
-                                        más tiempo
-                                        para encontrar comprador en comparación a otros segmentos.
-                                    </li>
-                                    <li><strong>Segmento A y B:</strong> Tiene una cantidad significativa de propiedades
-                                        que duran en
-                                        disponibilidad alrededor de <strong>7 y 11 meses</strong>.</li>
-                                    <li><strong>Segmento C y D:</strong> Poseen una distribución sesgada hacia la
-                                        izquierda con una
-                                        concentración de disponibilidad que ronda los <strong>7 meses de
-                                            antigüedad</strong>.</li>
-                                    <li><strong>Segmento E y B:</strong> Tiene una cantidad significativa de propiedades
-                                        que duran en
-                                        disponibilidad alrededor de <strong>7 meses</strong>.</li>
-                                </ul>
-                            </div>
-                        </div>
+                    </div>
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                            <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
+                                que posee una
+                                alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
+                                entre los <strong>7
+                                    meses</strong>. Esto indica que las viviendas en estos segmentos requieren
+                                más tiempo
+                                para encontrar comprador en comparación a otros segmentos.
+                            </li>
+                            <li><strong>Segmento A y B:</strong> Tiene una cantidad significativa de propiedades
+                                que duran en
+                                disponibilidad alrededor de <strong>7 y 11 meses</strong>.</li>
+                            <li><strong>Segmento C y D:</strong> Poseen una distribución sesgada hacia la
+                                izquierda con una
+                                concentración de disponibilidad que ronda los <strong>7 meses de
+                                    antigüedad</strong>.</li>
+                            <li><strong>Segmento E y B:</strong> Tiene una cantidad significativa de propiedades
+                                que duran en
+                                disponibilidad alrededor de <strong>7 meses</strong>.</li>
+                        </ul>
                     </div>
                 </div>
                 <!--2. Créditos -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                2.
-                                Créditos<span class="text-muted fw-normal ms-2"></span></h5>
+                        <div class="subtitle-container">
+                            <h5 class="card-title subtitle">
+                                2. Créditos<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- 2.1. Distribución de créditos por género -->
@@ -200,45 +238,41 @@
                     </div>
 
                     <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                Distribución de créditos por género. Distingue la diferencia en la porporción de
-                                prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
-                                para comprender las tendencias de financiamiento y su participación en terminos de
-                                acesso a créditos por grupo de género.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
-                                    préstamos se otorga a hombres.</li>
-                                <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
-                                    préstamos se otorga a mujeres.</li>
-                            </ul>
-                        </div>
+                    <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
                     </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
-                                    mercado inmobiliario.
-                                    Los hombres tienen el <strong>56.6%</strong> de los créditos.
-                                </li>
-                                <li>Las mujeres tienen el <strong>43.4%</strong> de los créditos. Esto indica que un
-                                    <strong>menor porcentaje
-                                        de préstamos se otorga a mujeres</strong>.
-                                </li>
-                            </ul>
-                        </div>
+
+                    <!-- Descripción -->
+                    <div class="description" id="description1" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">
+                            Distribución de créditos por género. Distingue la diferencia en la porporción de
+                            prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
+                            para comprender las tendencias de financiamiento y su participación en terminos de
+                            acesso a créditos por grupo de género.</p>
+                        <ul class="text">
+                            <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
+                                préstamos se otorga a hombres.</li>
+                            <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
+                                préstamos se otorga a mujeres.</li>
+                        </ul>
                     </div>
+
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                            <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
+                                mercado inmobiliario.
+                                Los hombres tienen el <strong>56.6%</strong> de los créditos.
+                            </li>
+                            <li>Las mujeres tienen el <strong>43.4%</strong> de los créditos. Esto indica que un
+                                <strong>menor porcentaje
+                                    de préstamos se otorga a mujeres</strong>.
+                            </li>
+                        </ul>
+                    </div>
+
                     <!-- 2.2. Destino del crédito-->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
@@ -250,16 +284,17 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    </div>
 
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="description" id="description2" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
                                 Número de
                                 créditos por tipo de vivienda. Descubre como se distribuyen los créditos
                                 de
@@ -289,14 +324,10 @@
                                     se utiliza para dicho destino.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <ul class="text">
                                 <li>La mayoría de los créditos se destinan a viviendas nuevas
                                     <strong>(143)</strong> y viviendas
                                     usadas <strong>(290)</strong>. Esto se puede observar en la barra más alta
@@ -314,11 +345,10 @@
                 </div>
                 <!-- Mercado salario por persona -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                        <div class="subtitle-container">
+                            <h5 class="card-title subtitle">
                                 Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
@@ -351,32 +381,33 @@
                 -->
 
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
-                                    Grafica mercado salario por persona. Dicha tabla se clasifica en rangos de valores
-                                    que simbolizan diversos estratos en el mercado salarial promedio por persona. Esta
-                                    disposición nos facilita la comprensión efectiva de la posición que ocupa un
-                                    elemento específico dentro del mercado laboral.</p>
-                            </div>
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
-                                    clasificación se basa en rangos de valores que representan diferentes niveles en el
-                                    mercado salarial promedio por persona. Lo que nos permite entender y comunicar de
-                                    manera
-                                    efectiva dónde se encuentra un determinado elemento en el mercado.</p>
-                            </div>
+
+                        <!-- Descripción -->
+                        <div class="description" id="description3" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Esta
+                                Grafica mercado salario por persona. Dicha tabla se clasifica en rangos de
+                                valores
+                                que simbolizan diversos estratos en el mercado salarial promedio por persona.
+                                Esta
+                                disposición nos facilita la comprensión efectiva de la posición que ocupa un
+                                elemento específico dentro del mercado laboral.</p>
                         </div>
+                    </div>
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <p class="text">Esta
+                            clasificación se basa en rangos de valores que representan diferentes niveles en
+                            el
+                            mercado salarial promedio por persona. Lo que nos permite entender y comunicar
+                            de
+                            manera
+                            efectiva dónde se encuentra un determinado elemento en el mercado.</p>
                     </div>
                 </div>
                 <!-- Mercado salario por pareja -->
@@ -425,7 +456,8 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores que
+                                    Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores
+                                    que
                                     simbolizan diversos estratos en el mercado salarial promedio por pareja. Esta
                                     disposición nos facilita la comprensión efectiva de la posición que ocupa un
                                     elemento específico dentro del mercado laboral.</p>
@@ -438,7 +470,8 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
-                                    clasificación se basa en rangos de valores que representan diferentes niveles en el
+                                    clasificación se basa en rangos de valores que representan diferentes niveles en
+                                    el
                                     mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de
                                     manera
                                     efectiva dónde se encuentra un determinado elemento en el mercado.</p>
@@ -474,10 +507,14 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Representación visual del volumen total de salarios por pareja anuales, segmentados
-                                    por categorías. En esencia, ilustra la distribución del ingreso neto ganado entre
-                                    diversas profesiones y ocupaciones. A través de un análisis visual, somos capaces de
-                                    discernir cómo se distribuye el volumen salarial en distintos estratos de ingresos.
+                                    Representación visual del volumen total de salarios por pareja anuales,
+                                    segmentados
+                                    por categorías. En esencia, ilustra la distribución del ingreso neto ganado
+                                    entre
+                                    diversas profesiones y ocupaciones. A través de un análisis visual, somos
+                                    capaces de
+                                    discernir cómo se distribuye el volumen salarial en distintos estratos de
+                                    ingresos.
                                     Esto nos brinda una perspectiva integral de la estructura salarial en nuestro
                                     mercado laboral.</p>
                             </div>
@@ -488,12 +525,16 @@
                                 <strong>Interpretación:</strong>
                             </p>
                             <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta gráfica
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
+                                    gráfica
                                     es una representación visual del volumen total de salarios por pareja
-                                    anuales, segmentados por categorías. En otras palabras, nos muestra cómo se divide
+                                    anuales, segmentados por categorías. En otras palabras, nos muestra cómo se
+                                    divide
                                     el
-                                    dinero ganado neto entre diferentes tipos de trabajos y ocupaciones. De un vistazo,
-                                    podemos comprender cómo se distribuye este volumen salarial en diferentes niveles de
+                                    dinero ganado neto entre diferentes tipos de trabajos y ocupaciones. De un
+                                    vistazo,
+                                    podemos comprender cómo se distribuye este volumen salarial en diferentes
+                                    niveles de
                                     ingresos, lo que proporciona una visión completa de la estructura salarial en
                                     nuestro
                                     mercado laboral.</p>
@@ -533,9 +574,11 @@
                             </p>
                             <div style="text-align: left;">
                                 <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Explora nuestra plataforma para conocer las profesiones que lideran los ingresos y
+                                    Explora nuestra plataforma para conocer las profesiones que lideran los ingresos
+                                    y
                                     aquellas que presentan retos económicos. Obtén información detallada sobre los
-                                    salarios, tendencias y perspectivas profesionales, brindándote una visión clara de
+                                    salarios, tendencias y perspectivas profesionales, brindándote una visión clara
+                                    de
                                     las carreras más y menos lucrativas en el mercado laboral actual.
                                 </p>
                             </div>
@@ -575,6 +618,26 @@
 
 <!-- App js -->
 <script src="assets/js/app.js"></script>
+<script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+<script>
+    function toggleDescription(id) {
+        var description = document.getElementById(id);
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
+    }
+</script>
 
 </body>
 
