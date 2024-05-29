@@ -20,6 +20,7 @@
         </div>
 
         <div class="d-flex">
+<<<<<<< HEAD
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item noti-icon position-relative"
                     id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
@@ -143,22 +144,58 @@
             </div>
 
 
+=======
+
+            <div class="dropdown d-none d-sm-inline-block">
+                <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    
+                    <?php if ($lang == 'es') { ?>
+                        <img class="me-2" src="assets/images/flags/spain.jpg" alt="Header Language" height="16">
+                    <?php } ?>
+                    <?php if ($lang == 'de') { ?>
+                        <img class="me-2" src="assets/images/flags/germany.jpg" alt="Header Language" height="16">
+                    <?php } ?>
+                    <?php if ($lang == 'it') { ?>
+                        <img class="me-2" src="assets/images/flags/italy.jpg" alt="Header Language" height="16">
+                    <?php } ?>
+                    <?php if ($lang == 'ru') { ?>
+                        <img class="me-2" src="assets/images/flags/russia.jpg" alt="Header Language" height="16">
+                    <?php } ?>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end">
+
+                    <!-- item-->
+                    <a href="?lang=es" class="dropdown-item notify-item language">
+                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span
+                            class="align-middle"> Spanish </span>
+                    </a>
+                </div>
+            </div>
+
+>>>>>>> e5b2057794729a22d7cd861b77ed2536ba7f89b3
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item bg-light-subtle border-start border-end"
                     id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg"
                         alt="Header Avatar">
-                    <span class="d-none d-xl-inline-block ms-1 fw-medium">
-                        <?php echo $language["Shawn_L"]; ?>.
-                    </span>
+                    <!-- 
+                        <span class="d-none d-xl-inline-block ms-1 fw-medium">
+                            <?php echo $language["Shawn_L"]; ?>.
+                        </span>
+                    -->                                         
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
+<<<<<<< HEAD
                     <!-- item-->
                     <a class="dropdown-item" href="apps-contacts-profile.php"><i
                             class="mdi mdi mdi-face-man font-size-16 align-middle me-1"></i>
                         Perfil
                     </a>
+=======
+                    <!-- item-->                    
+>>>>>>> e5b2057794729a22d7cd861b77ed2536ba7f89b3
                     <a class="dropdown-item" href="auth-lock-screen.php"><i
                             class="mdi mdi-lock font-size-16 align-middle me-1"></i>
                         Bloquear pantalla

@@ -1,17 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-<<<<<<< HEAD
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', null);
 define('DB_NAME', 'datalpine');
-=======
-define('DB_SERVER', 'localhost:3306');
-define('DB_USERNAME', 'tocreati_Adgabo');
-define('DB_PASSWORD', 'Qj+uxmwXC-H_');
-define('DB_NAME', 'tocreati_Prueba_dash');
->>>>>>> bae3af3e4355d783ac67c55b61ece499843a1178
 
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -24,4 +17,3 @@ if($link === false){
 $gmailid = ''; // YOUR gmail email
 $gmailpassword = ''; // YOUR gmail password
 $gmailusername = ''; // YOUR gmail User name
-

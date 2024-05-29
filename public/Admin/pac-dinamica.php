@@ -8,6 +8,7 @@
 
     <!-- glightbox css -->
     <link rel="stylesheet" href="assets/libs/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
 
     <?php include 'layouts/head-style.php'; ?>
     <style>
@@ -441,6 +442,7 @@
                     <div class="mostrar-container">
                         <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
                     </div>
+<<<<<<< HEAD
 
                     <!-- Descripción -->
                     <div class="description" id="description3" style="display: none;">
@@ -453,6 +455,53 @@
                             comunicar de
                             manera
                             efectiva dónde se encuentra un determinado elemento en el mercado.</p>
+=======
+                </div>
+                <!-- Profesiones -->
+                <div class="row align-items-center"
+                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <h5 class="card-title"
+                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                                Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
+                        </div>
+                    </div>
+                    <!-- Salario Individual -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <?php
+                        echo "<li style='font-size: 20px;'>Salario Individual</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica -->
+                        <div class="tables-plotly">
+                            <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                        </div>
+                        
+                        <!-- Explicación de la gráfica -->
+                        <div
+                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
+                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
+                                <strong>Interpretación:</strong>
+                            </p>
+                            <div style="text-align: left;">
+                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                                    Explora
+                                    nuestra plataforma para conocer las profesiones que lideran los
+                                    ingresos
+                                    y
+                                    aquellas
+                                    que presentan retos económicos. Obtén información detallada sobre
+                                    los
+                                    salarios,
+                                    tendencias y perspectivas profesionales, brindándote una visión
+                                    clara de
+                                    las
+                                    carreras más y menos lucrativas en el mercado laboral actual..</p>
+                            </div>
+                        </div>
+>>>>>>> e5b2057794729a22d7cd861b77ed2536ba7f89b3
                     </div>
                 </div>
                 <!-- Interpretación -->
@@ -615,6 +664,7 @@
 <script src="assets/js/pages/lightbox.init.js"></script>
 
 <script src="assets/js/app.js"></script>
+<<<<<<< HEAD
 <script>
     function mostrar(id) {
         var iframes = document.getElementsByTagName('iframe');
@@ -635,6 +685,36 @@
         }
     }
 </script>
+=======
+
+
+<script>
+        function injectCSSIntoIframe(iframe) {
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+            var link = iframeDocument.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/datalpine/public/Admin/assets/css/iframe-styles.css'; // Ruta al archivo CSS
+            iframeDocument.head.appendChild(link);
+        }
+
+        function injectCSSIntoAllIframes() {
+            var iframes = document.querySelectorAll('iframe.table-iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    injectCSSIntoIframe(iframe);
+                };
+                // Si el iframe ya está cargado, inyecta el CSS inmediatamente
+                if (iframe.contentDocument.readyState === 'complete') {
+                    injectCSSIntoIframe(iframe);
+                }
+            });
+        }
+
+        // Inyectar CSS a todos los iframes al cargar la página
+        window.onload = injectCSSIntoAllIframes;
+    </script>
+>>>>>>> e5b2057794729a22d7cd861b77ed2536ba7f89b3
 </body>
 
 </html>
