@@ -171,42 +171,41 @@
                     </div>
                 </header>
 
-                <section id="services" style="padding: 50px 0; background-color: #f8f9fa;">
+                <section id="services" style="padding: 35px 0; background-color: #f8f9fa;">
                     <div class="container">
-                        <div class="row">
+                        <div class="row d-flex align-items-stretch">
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card h-100">
                                     <div class="card-body">
                                         <i class="fas fa-chart-line" style="color: #007bff;"></i>
                                         <h3 class="card-title">Análisis Detallado</h3>
-                                        <p class="card-text">Ofrecemos un análisis detallado y personalizado del mercado
-                                            inmobiliario en México.</p>
+                                        <p class="card-text">Ofrecemos un análisis detallado y personalizado del mercado inmobiliario en México.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card h-100">
                                     <div class="card-body">
                                         <i class="fas fa-map-marked-alt" style="color: #28a745;"></i>
                                         <h3 class="card-title">Segmentación de Mercado</h3>
-                                        <p class="card-text">Proporcionamos información precisa para tomar decisiones
-                                            estratégicas con confianza.</p>
+                                        <p class="card-text">Proporcionamos información precisa para tomar decisiones estratégicas con confianza.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card h-100">
                                     <div class="card-body">
                                         <i class="fas fa-home" style="color: #ffc107;"></i>
                                         <h3 class="card-title">Tendencias de Precios</h3>
-                                        <p class="card-text">Desde tendencias de precios hasta segmentación de mercado,
-                                            te proporcionamos la información que necesitas.</p>
+                                        <p class="card-text">Desde tendencias de precios hasta segmentación de mercado, te proporcionamos la información que necesitas.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+                
 
                 <div class="row card-group-row">
                     <!-- Tabla 1: Ciudades para invertir -->
