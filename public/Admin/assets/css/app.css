@@ -701,6 +701,7 @@ body[data-sidebar-size=sm] .vertical-menu #sidebar-menu > ul > li:hover > ul a {
   z-index: 6;
   color: var(--bs-sidebar-menu-sub-item-color);
 }
+
 body[data-sidebar-size=sm] .vertical-menu #sidebar-menu > ul > li:hover > ul a:hover {
   color: var(--bs-sidebar-menu-item-hover-color);
 }
@@ -4974,4 +4975,48 @@ body[data-layout=horizontal] .chat-conversation {
 
 [data-bs-theme=dark] .pricing-tab-box .nav-link {
   border-color: var(--bs-border-color);
+}
+
+
+
+/**POP UP TÉRMINOS Y CONDICIONES/
+/* Estilo del pop-up */
+ .popup {
+  display: none; /* Por defecto oculto */
+  position: fixed; 
+  z-index: 9999; /* Por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%; /* Toma el ancho completo de la ventana */
+  height: 100%; /* Toma la altura completa de la ventana */
+  background-color: rgba(0,0,0,0.4); /* Fondo semitransparente */
+  overflow: auto; /* Habilita el desplazamiento si el contenido es más largo que la ventana */
+  padding-top: 60px; /* Espacio para que no se solape con el encabezado */
+}
+
+/* Estilo del contenido del pop-up */
+.popup-content {
+  background-color: #fefefe; /* Fondo blanco */
+  margin: 5% auto; /* Centrado vertical y horizontalmente */
+  padding: 20px;
+  width: 80%; /* Ancho del contenido */
+}
+
+
+ /* Estilo para el botón de cierre */
+ .close-btn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+.close-btn::after {
+  content: "X"; /* Contenido del pseudo-elemento */
+  position: absolute;
+  top: -10px; /* Ajuste vertical */
+  right: -10px; /* Ajuste horizontal */
+  font-size: 20px;
 }

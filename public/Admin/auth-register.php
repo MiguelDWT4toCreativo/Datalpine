@@ -128,6 +128,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <img src="assets/images/logo-sm.svg" alt="" height="28"> <span class="logo-txt">DatAlpine</span>
                                 </a>
                             </div>
+                            
+                                <!--<script>
+                                    // Función para mostrar el pop-up
+                                    function showPopup() {
+                                        document.getElementById("popup").style.display = "block";
+                                        document.querySelector(".auth-content").style.display = "none"; // Oculta el div principal
+                                    }
+
+                                    // Función para ocultar el pop-up
+                                    function closePopup() {
+                                        document.getElementById("popup").style.display = "none";
+                                        document.querySelector(".auth-content").style.display = "block"; // Muestra el div principal
+                                    }
+
+                                    // Ocultar el pop-up al cargar la página
+                                    window.onload = function() {
+                                        closePopup();
+                                    };
+                                </script>-->
+
                             <div class="auth-content my-auto">
                                 <div class="text-center">
                                     <h5 class="mb-0">Registro de usuario</h5>
@@ -156,16 +176,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <label class="form-label" for="userpassword">Confirmar contraseña:</label>
                                         <input type="password" class="form-control" id="confirm_password" placeholder="Confirmar contraseña" name="confirm_password" value="<?php echo $confirm_password; ?>">
                                         <span class="text-danger"><?php echo $confirm_password_err; ?></span>
-                                    </div>
-                                    
+                                    </div>                                                                        
+                                    <!--
                                     <div class="mb-4">
-                                        <p class="mb-0">Acepto los <a href="#" class="text-primary">Términos y condiciones</a></p>
+                                        <p class="mb-0">Acepto los <a href="#" class="text-primary" onclick="showPopup()">Términos y condiciones</a></p>
+                                    </div>
+                                    -->
+                                    <div class="mb-4">
+                                        <p class="mb-0">Acepto los <a href="popup.php" class="text-primary">Términos y condiciones</a></p>
                                     </div>
                                     <div class="mb-3">
                                         <button class="btn btn-primary w-100 waves-effect waves-light" type="submit">Registrarse</button>
                                     </div>
                                 </form>
-
+                                
+                                
                                 <div class="mt-4 pt-2 text-center">
                                     <div class="signin-other-title">
                                         <h5 class="font-size-14 mb-3 text-muted fw-medium"></h5>
