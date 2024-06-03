@@ -6,6 +6,78 @@
     <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
+    <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
+    <style>
+        .subtitle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            background-color: #e9f5ff;
+            border-left: 8px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        .interpretation {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fef4e9;
+            border-left: 8px solid #FFA500;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        .mostrar {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .mostrar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mostrar:hover {
+            background-color: #0056b3;
+        }
+
+        .map-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
 
 </head>
 
@@ -41,7 +113,6 @@
                     </div>
                 </div>
                 <!-- end page title -->
-
                 <!-- Análisis de Segmentos y Precios -->
                 <style>
                     /* Estilos CSS para el título */
@@ -71,8 +142,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                1.
-                                Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
+                                1. Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!--1.1 Distribución de segmentos -->
@@ -83,23 +153,21 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_puebla.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_puebla.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Distribución de segmentos. Conoce la participación en el mercado
+
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                        </div>
+                        <div class="description" id="description2" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Distribución de segmentos. Conoce la participación en el mercado
                                     inmobiliario por segmentos (S, A, B, C, D, E). Cada sección representa el
                                     porcentaje o proporción en ese segmento específico en relación con el total.
-                                </p>
-                            </div>
+                            </p>
                         </div>
                         <!--
                         <div
@@ -146,49 +214,62 @@
                                     información nos permite entender las tendencias de demanda y adaptar
                                     estrategias de comercialización y desarrollo de propiedades en consecuencia.
                                 </p>
-                            </div>
-                -->
+                            </div>-->
                     </div>
-                </div>
 
-                <!--2. Distribución por M2 construcción por rango -->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                2. Distribución por M2 construcción por rango<span
-                                    class="text-muted fw-normal ms-2"></span>
-                            </h5>
-                        </div>
-                    </div>
+                    <!--1.2 Distribución por M2 construcción por rango-->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">General</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_construido_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>1.2 Distribución por M2 construcción por rango</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                    value="Segmentos">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                    value="General">
                             </div>
                         </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
+                                    id="contenido1"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_puebla.html"
+                                    id="contenido2" style="display: none;"></iframe>
+                            </div>
+                        </div> 
                         <!-- Explicación de la gráfica -->
-                        <div
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                        </div>
+                         <div class="description" id="description1" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                    Distribución por M2 de construcción por rango para las
+                                    propiedades
+                                    en
+                                    diferentes segmentos (S, A, B, C, D, E).
+                                    En función de la cantidad de metros cuadrados de construcción,
+                                    observa cómo
+                                    se agrupan las viviendas según su tamaño disponible permitiendo
+                                    una
+                                    visión
+                                    rápida y clara de cómo se distribuyen y cuales son más
+                                    predominantes
+                                    en un
+                                    cierto mercado inmobiliario.
+                            </p>
+                            <ul class="text">
+                                <li>Si una barra es alta, significa que hay muchas propiedades que tienen un tamaño de construcción dentro de ese rango específico.</li>
+                                <li>Si una barra es baja, existen menos propiedades en ese rango en particular.</li>
+                            </ul>
+                        </div>
+                         <!-- 
+                            <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
                                 <strong>Descripción:</strong>
@@ -221,16 +302,12 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Segmento S:</strong> Posee una concentración de propiedades con un
+                         -->
+                         <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                        <li><strong>Segmento S:</strong> Posee una concentración de propiedades con un
                                         tamaño de construcción de <strong>0-100m2</strong> y mayor a los <strong>300
                                             m2</strong>.</li>
                                     <li><strong>Segmento A:</strong> Tiene una cantidad significativa de propiedades de
@@ -246,46 +323,14 @@
                                     </li>
                                     <li><strong>Segmento E:</strong> Debido a su poco valor en el mercado este segmento
                                         tiene una oferta limitada de terrenos.</li>
-                                </ul>
-                            </div>
-                        </div>
+                        </ul>
+                    </div>                      
                     </div>
-                </div>
-
-                <!--3. Distribución M2 de terreno por rango -->
+                </div> <!--Final Segmentos-->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                3. Distribución M2 de terreno por rango<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">General</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    +
+                   
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -313,16 +358,11 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Segmento S:</strong> Predominan los terrenos con <strong>150-200
+                        <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <ul class="text">
+                                <li><strong>Segmento S:</strong> Predominan los terrenos con <strong>150-200
                                             M2.</strong> Esto significa que en este segmento hay una gran cantidad de
                                         terrenos construidos de tamaño medio-amplio.</li>
                                     <li><strong>Segmento A:</strong> Tiene una concentración de terrenos en el rango de
@@ -337,8 +377,7 @@
                                         rangos. Esto podría indicar que este segmento tiene una oferta mayor de
                                         terrenos.
                                     </li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -349,40 +388,37 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                4. Precio promedio por M2 totales<span class="text-muted fw-normal ms-2"></span>
+                                2. Precio promedio por M2 totales<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_puebla.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
+
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                        </div>
+                        <div class="description" id="description3" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
                                     Este análisis visual presenta la variación en costos por metro cuadrado
                                     en distintos segmentos inmobiliarios. Se observa un aumento progresivo
                                     de los valores a medida que se avanza de un rango a otro, proporcionando
                                     una representación concisa de las tendencias de precios en diferentes
                                     dimensiones de propiedades.
-                                </p>
-                            </div>
+                            </p>                            
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
+                       
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                            La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
                                     ofreciendo una perspectiva clara de la variación de costos en el mercado
                                     inmobiliario.
                                     Desde <strong>$25,298</strong> en el rango de <strong>0-100 metros</strong>
@@ -392,7 +428,6 @@
                                     evolución
                                     de los precios a
                                     medida que aumenta la dimensión de las propiedades.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -423,6 +458,53 @@
 <script src="assets/js/pages/echarts.init.js"></script>
 
 <script src="assets/js/app.js"></script>
+<script>
+        function injectCSSIntoIframe(iframe) {
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+            var link = iframeDocument.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/datalpine/public/Admin/assets/css/iframe-styles.css'; // Ruta al archivo CSS
+            iframeDocument.head.appendChild(link);
+        }
+
+        function injectCSSIntoAllIframes() {
+            var iframes = document.querySelectorAll('iframe.table-iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    injectCSSIntoIframe(iframe);
+                };
+                // Si el iframe ya está cargado, inyecta el CSS inmediatamente
+                if (iframe.contentDocument.readyState === 'complete') {
+                    injectCSSIntoIframe(iframe);
+                }
+            });
+        }
+
+        // Inyectar CSS a todos los iframes al cargar la página
+        window.onload = injectCSSIntoAllIframes;
+    </script>
+    <script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+<script>
+    function toggleDescription(id) {
+        var description = document.getElementById(id);
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
+    }
+</script>
+
 
 </body>
 

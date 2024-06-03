@@ -33,10 +33,11 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->                    
-                    <a class="dropdown-item" href="auth-lock-screen.php"><i
+                    <!--Bloqueo
+                <a class="dropdown-item" href="auth-lock-screen.php"><i
                             class="mdi mdi-lock font-size-16 align-middle me-1"></i>
                         Bloquear pantalla
-                    </a>
+                    </a>-->
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="logout.php"><i
                             class="mdi mdi-logout font-size-16 align-middle me-1"></i>

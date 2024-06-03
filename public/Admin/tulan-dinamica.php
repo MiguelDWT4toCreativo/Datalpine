@@ -10,6 +10,8 @@
     <!-- Responsive datatable examples -->
     <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
+            <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
+
 
     <?php include 'layouts/head-style.php'; ?>
 
@@ -166,10 +168,10 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_tulgo.html"
                                     id="contenido1"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_tulgo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
@@ -233,7 +235,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_tulancingo.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
 
@@ -349,42 +351,20 @@
                     <div class="col-md-6">
                         <div class="subtitle-container">
                             <h5 class="card-title subtitle">
-                                Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
+                                3. Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_pachuca.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Rango en $</h5>
-                                        <iframe src="/datalpine/resources/jupyter/graficas/mercadosalarial.png"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                -->
-
+                    
+                    <!--
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
+                    -->                        
+                
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
                         </div>
-
                         <!-- Descripción -->
                         <div class="description" id="description3" style="display: none;">
                             <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
@@ -417,7 +397,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span>
+                                4. Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
@@ -446,36 +426,31 @@
                             </div>
                         </div>
                     </div> 
-                -->
-
+                -->                        
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
+                        </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description4" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Tabla mercado salario por pareja. Esta tabla se clasifica en rangos de valores
                                     que
                                     simbolizan diversos estratos en el mercado salarial promedio por pareja. Esta
                                     disposición nos facilita la comprensión efectiva de la posición que ocupa un
                                     elemento específico dentro del mercado laboral.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
+                        </div>                        
+                       
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">Esta
                                     clasificación se basa en rangos de valores que representan diferentes niveles en
                                     el
                                     mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de
                                     manera
                                     efectiva dónde se encuentra un determinado elemento en el mercado.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -486,7 +461,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Volumen del mercado salarial de parejas<span class="text-muted fw-normal ms-2"></span>
+                                5. Volumen del mercado salarial de parejas<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
@@ -498,16 +473,15 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 -->
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Representación visual del volumen total de salarios por pareja anuales,
+                <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
+                        </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description6" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Representación visual del volumen total de salarios por pareja anuales,
                                     segmentados
                                     por categorías. En esencia, ilustra la distribución del ingreso neto ganado
                                     entre
@@ -517,15 +491,11 @@
                                     ingresos.
                                     Esto nos brinda una perspectiva integral de la estructura salarial en nuestro
                                     mercado laboral.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Esta
+                        </div>   
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">Esta
                                     gráfica
                                     es una representación visual del volumen total de salarios por pareja
                                     anuales, segmentados por categorías. En otras palabras, nos muestra cómo se
@@ -538,8 +508,7 @@
                                     ingresos, lo que proporciona una visión completa de la estructura salarial en
                                     nuestro
                                     mercado laboral.</p>
-                            </div>
-                        </div>
+                        </div>                                                                                            
                     </div>
                 </div>
                 <!-- Profesiones -->
@@ -549,7 +518,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
+                                6. Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- Salario Individual -->
@@ -560,29 +529,23 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
+                        <!--                    
+                        <div class="tables-plotly">
+                            <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                        </div>
                 -->
                         <!-- Explicación de la gráfica -->
-
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Explora nuestra plataforma para conocer las profesiones que lideran los ingresos
+                            <!-- Interpretación -->
+                            <div class="interpretation">
+                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                                <p class="text">
+                                Explora nuestra plataforma para conocer las profesiones que lideran los ingresos
                                     y
                                     aquellas que presentan retos económicos. Obtén información detallada sobre los
                                     salarios, tendencias y perspectivas profesionales, brindándote una visión clara
                                     de
-                                    las carreras más y menos lucrativas en el mercado laboral actual.
-                                </p>
-                            </div>
-                        </div>
+                                    las carreras más y menos lucrativas en el mercado laboral actual.</p>
+                            </div>                       
                     </div>
                 </div>
                 <!-- end row -->
@@ -619,6 +582,32 @@
 <!-- App js -->
 <script src="assets/js/app.js"></script>
 <script>
+        function injectCSSIntoIframe(iframe) {
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+            var link = iframeDocument.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/datalpine/public/Admin/assets/css/iframe-styles.css'; // Ruta al archivo CSS
+            iframeDocument.head.appendChild(link);
+        }
+
+        function injectCSSIntoAllIframes() {
+            var iframes = document.querySelectorAll('iframe.table-iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    injectCSSIntoIframe(iframe);
+                };
+                // Si el iframe ya está cargado, inyecta el CSS inmediatamente
+                if (iframe.contentDocument.readyState === 'complete') {
+                    injectCSSIntoIframe(iframe);
+                }
+            });
+        }
+
+        // Inyectar CSS a todos los iframes al cargar la página
+        window.onload = injectCSSIntoAllIframes;
+    </script>
+    <script>
     function mostrar(id) {
         var iframes = document.getElementsByTagName('iframe');
         for (var i = 0; i < iframes.length; i++) {

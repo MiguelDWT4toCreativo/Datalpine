@@ -156,11 +156,10 @@
                     </div>
 
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_recamaras_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
@@ -168,12 +167,10 @@
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
-
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
                         </div>
-
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
                             <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
@@ -184,7 +181,6 @@
                                     1 a 6.</li>
                             </ul>
                         </div>
-
                         <!-- Interpretación -->
                         <div class="interpretation">
                             <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
@@ -224,7 +220,7 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_baños_pachuca.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
@@ -311,7 +307,7 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_estacionamiento_pachuca.html"
                                     id="contenido5"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"

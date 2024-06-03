@@ -162,7 +162,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <p style="text-align: center;">
-                            <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                            <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_estado_2022_2023.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
@@ -427,7 +427,7 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
-                            <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                            <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
@@ -554,11 +554,11 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_Precio_oferta_2022_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
+                
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
@@ -613,12 +613,11 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_preciosegmento_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
+                
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>
@@ -787,10 +786,10 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2022_pachuca.html"
                                     id="contenido32"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2023_pachuca.html"
                                     id="contenido33" style="display: none;"></iframe>
                             </div>
@@ -858,10 +857,10 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2022_pachuca.html"
                                     id="contenido34"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2023_pachuca.html"
                                     id="contenido35" style="display: none;"></iframe>
                             </div>
@@ -929,19 +928,19 @@
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_pachuca.html"
                                     id="contenido18"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_pachuca.html"
                                     id="contenido19" style="display: none;"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_pachuca.html"
                                     id="contenido20" style="display: none;"></iframe>
-                                <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_pachuca.html"
                                     id="contenido12" style="display: none;"></iframe>
-                                <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_pachuca.html"
                                     id="contenido13" style="display: none;"></iframe>
                             </div>
@@ -1169,10 +1168,10 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2022_pachuca.html"
                                     id="contenido38"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2023_pachuca.html"
                                     id="contenido39" style="display: none;"></iframe>
                             </div>

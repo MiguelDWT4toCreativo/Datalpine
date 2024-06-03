@@ -6,6 +6,79 @@
     <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
+    <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
+
+    <style>
+        .subtitle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            background-color: #e9f5ff;
+            border-left: 8px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        .interpretation {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fef4e9;
+            border-left: 8px solid #FFA500;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        .mostrar {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .mostrar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mostrar:hover {
+            background-color: #0056b3;
+        }
+
+        .map-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
 
 </head>
 
@@ -64,72 +137,60 @@
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre las ventas y financiamineto de Puebla, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
+              
                 <!--1. Tiempo estimado de venta -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                1.
-                                Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="subtitle-container">
+                                <h5 class="card-title subtitle">
+                                    1. Tiempo estimado de venta<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                value="Segmentos">
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                value="General">
                         </div>
                     </div>
-                    <!-- 1.1 Tiempo estimado de venta -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>1.1 Tiempo estimado de venta</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">General</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_puebla.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
+
+                        <!-- Link de la gráfica -->
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_puebla.html"
+                                    id="contenido1"></iframe>
+                                <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_puebla.html"
+                                    id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Distribución de las viviendas en función de la cantidad de meses que han estado en
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="description" id="description" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Distribución de las viviendas en función de la cantidad de meses que han estado en
                                     existencia para venta por segmentos (S, A, B, C, D, E). De acuerdo al tiempo de
                                     venta estimado se puede identificar que segmentos tienen una demanda más alta y
                                     tienden a venderse un poco más rápido y cuales requieren un poco más de tiempo para
-                                    encontrar compradores.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
+                                    encontrar compradores.
                             </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
+                        </div>
+                    </div>
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                                <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
                                         que posee una
                                         alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
                                         entre los <strong>11 y 12
@@ -146,20 +207,16 @@
                                     <li><strong>Segmento E:</strong> Debido a su poco valor en el mercado este segmento
                                         tiene una oferta
                                         limitada de terrenos.</li>
-                                </ul>
-                            </div>
-                        </div>
+                        </ul>
                     </div>
                 </div>
                 <!--2. Créditos -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                2.
-                                Créditos<span class="text-muted fw-normal ms-2"></span></h5>
+                        <div class="subtitle-container">
+                            <h5 class="card-title subtitle">
+                                2. Créditos<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- 2.1. Distribución de créditos por género -->
@@ -169,41 +226,39 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_puebla.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <!-- Link de la gráfica -->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_puebla.html"
+                            width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
+
                     <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                Distribución de créditos por género. Distingue la diferencia en la porporción de
+                    <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="description" id="description2" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">
+                        Distribución de créditos por género. Distingue la diferencia en la porporción de
                                 prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser útil
                                 para comprender las tendencias de financiamiento y su participación en terminos de
-                                acesso a créditos por grupo de género.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
+                                acesso a créditos por grupo de género.
+                        </p>
+                        <ul class="text">
+                            <li>Si la sección de hombres es más grande, significa que un mayor porcentaje de
                                     préstamos se otorga a hombres.</li>
                                 <li>Si la sección de mujeres es más grande, indica que un mayor porcentaje de
-                                    préstamos se otorga a mujeres.</li>
-                            </ul>
-                        </div>
+                                    préstamos se otorga a mujeres.</li>                            
+                        </ul>
                     </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
+
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                            <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
                                     mercado
                                     inmobiliario. Los hombres tienen el <strong>55.3%</strong> de los créditos.
                                 </li>
@@ -213,56 +268,45 @@
                                         porcentaje
                                         de préstamos se otorga a mujeres</strong>.
                                 </li>
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
-                </div>
-                <!-- 3. Destino del crédito-->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                3. Destino del crédito<span class="text-muted fw-normal ms-2"></span></h5>
-                        </div>
-                    </div>
+                    <!-- 2.2. Destino del crédito-->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE -->
+                        <?php
+                        echo "<li style='font-size: 20px;'>2.2. Destino del crédito</li>";
+                        echo "</ol>";
+                        echo "</ol>";
+                        ?>
+                        <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    </div>
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                Número de créditos por tipo de vivienda. Descubre como se distribuyen los
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                        </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description3" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Número de créditos por tipo de vivienda. Descubre como se distribuyen los
                                 créditos de acuerdo al tipo de vivienda: nueva, con mejoras, usada y otros
                                 programas. Cada sección del gráfico representa la proporción del número de
                                 créditos que se destina a un propósito específico en relación con el total de
                                 créditos otorgados para viviendas. Explora hacia donde se dirige el dinero
                                 prestado y comprende las preferencias y necesidades de las personas que
-                                invierten en este sector inmobiliario.</p>
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                invierten en este sector inmobiliario.
+                            </p>
+                            <ul style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
                                 <li>Si una sección es grande, significa que una parte significativa de los
                                     créditos se utiliza para dicho destino.</li>
                             </ul>
                         </div>
-                    </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>La mayoría de los créditos se destinan a <strong>viviendas nuevas</strong>
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <ul class="text">
+                            <li>La mayoría de los créditos se destinan a <strong>viviendas nuevas</strong>
                                     (2075) y <strong>viviendas
                                         usadas</strong> (1985). Esto se puede observar en la barra más alta en
                                     el gráfico
@@ -282,39 +326,35 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
+                                3. Mercado salario por persona<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_puebla.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
-                    <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Grafica
-                                mercado salario por persona. Dicha tabla se clasifica en rangos de valores que
+                     <!-- Explicación de la gráfica -->
+                     <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
+                    </div>
+                        <!-- Descripción -->
+                    <div class="description" id="description5" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">
+                        Grafica
+                            mercado salario por persona. Dicha tabla se clasifica en rangos de valores que
                                 simbolizan diversos estratos en el mercado salarial promedio por persona. Esta
                                 disposición nos facilita la comprensión efectiva de la posición que ocupa un
                                 elemento específico dentro del mercado laboral.</p>
-                        </div>
                     </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>La tabla proporciona una clasificación del mercado salarial por persona,
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                            <li>La tabla proporciona una clasificación del mercado salarial por persona,
                                     dividida en diferentes categorías desde “G” hasta “S”. Cada categoría representa
                                     un rango de salario específico.</li>
                                 <li>La mayoría de las personas se encuentran en la <strong>categoría “G”
@@ -332,8 +372,7 @@
                                     salarios en el mercado laboral y dónde se encuentra un elemento específico
                                     dentro de este mercado. Es una herramienta útil para analizar la estructura
                                     salarial de la población.</li>
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
                 </div>
                 <!-- Mercado salario por pareja -->
@@ -343,39 +382,35 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span>
+                                4. Mercado salario por pareja<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_parejas_puebla.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                    </div>
+                    </div>                    
                     <!-- Explicación de la gráfica -->
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Descripción:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">Tabla
+                    <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('descriptio6')">Descripción</button>
+                    </div>
+                        <!-- Descripción -->
+                    <div class="description" id="descriptio6" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">
+                        Tabla
                                 mercado salario por pareja. Esta tabla se clasifica en rangos de valores que
                                 simbolizan diversos estratos en el mercado salarial promedio por pareja. Esta
                                 disposición nos facilita la comprensión efectiva de la posición que ocupa un
                                 elemento específico dentro del mercado laboral.</p>
-                        </div>
                     </div>
-                    <div
-                        style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                        <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                            <strong>Interpretación:</strong>
-                        </p>
-                        <div style="text-align: left;">
-                            <ul
-                                style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                <li>La tabla proporciona una clasificación del mercado salarial por pareja,
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <ul class="text">
+                        <li>La tabla proporciona una clasificación del mercado salarial por pareja,
                                     dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
                                     representa un rango de salario específico y el porcentaje de parejas que
                                     caen dentro de ese rango.</li>
@@ -400,8 +435,7 @@
                                     salarios en el mercado laboral y dónde se encuentra un elemento específico
                                     dentro de este mercado. Es una herramienta útil para analizar la estructura
                                     salarial de la población.</li>
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
                 </div>
                 <!-- Volumen del mercado salarial de parejas -->
@@ -411,7 +445,7 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Volumen del mercado salarial de parejas<span class="text-muted fw-normal ms-2"></span>
+                                5. Volumen del mercado salarial de parejas<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
@@ -420,31 +454,27 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
+                    
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Representación visual del volumen total de salarios por pareja anuales, segmentados
+                    <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
+                    </div>
+                        <!-- Descripción -->
+                    <div class="description" id="description7" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">
+                        Representación visual del volumen total de salarios por pareja anuales, segmentados
                                     por categorías. En esencia, ilustra la distribución del ingreso neto ganado entre
                                     diversas profesiones y ocupaciones. A través de un análisis visual, somos capaces de
                                     discernir cómo se distribuye el volumen salarial en distintos estratos de ingresos.
                                     Esto nos brinda una perspectiva integral de la estructura salarial en nuestro
                                     mercado laboral.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Las barras están coloreadas para representar visualmente cada rango de
+                    </div>
+                    <!-- Interpretación -->
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <ul class="text">
+                                <li>Las barras están coloreadas para representar visualmente cada rango de
                                         ingreso; hay una barra verde, una amarilla y café que son prominentes
                                         porque representan los volúmenes salariales netos más altos. Los valores
                                         exactos del volumen salarial están indicados en cada barra para
@@ -462,8 +492,7 @@
                                         elemento específico dentro de este mercado. Es una herramienta útil para
                                         analizar la estructura salarial de la población.
                                     </li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -485,23 +514,21 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_puebla.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
+                        <div class="tables-plotly">
+                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_puebla.html" width="800"
+                                height="400" frameborder="0" id="contenido01"
+                                style="display: block; margin: 0 auto;"></iframe>
+                        </div>
                         <!-- Explicación de la gráfica -->
-
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
                                     Explora nuestra plataforma para conocer las profesiones que lideran los ingresos y
                                     aquellas que presentan retos económicos. Obtén información detallada sobre los
                                     salarios, tendencias y perspectivas profesionales, brindándote una visión clara de
-                                    las carreras más y menos lucrativas en el mercado laboral actual.</p>
-                            </div>
+                                    las carreras más y menos lucrativas en el mercado laboral actual.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -538,7 +565,52 @@
 <script src="assets/js/pages/gmaps.init.js"></script>
 
 <script src="assets/js/app.js"></script>
+<script>
+        function injectCSSIntoIframe(iframe) {
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+            var link = iframeDocument.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/datalpine/public/Admin/assets/css/iframe-styles.css'; // Ruta al archivo CSS
+            iframeDocument.head.appendChild(link);
+        }
 
+        function injectCSSIntoAllIframes() {
+            var iframes = document.querySelectorAll('iframe.table-iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    injectCSSIntoIframe(iframe);
+                };
+                // Si el iframe ya está cargado, inyecta el CSS inmediatamente
+                if (iframe.contentDocument.readyState === 'complete') {
+                    injectCSSIntoIframe(iframe);
+                }
+            });
+        }
+
+        // Inyectar CSS a todos los iframes al cargar la página
+        window.onload = injectCSSIntoAllIframes;
+    </script>
+    <script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+<script>
+    function toggleDescription(id) {
+        var description = document.getElementById(id);
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
+    }
+</script>
 </body>
 
 </html>

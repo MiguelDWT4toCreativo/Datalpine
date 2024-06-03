@@ -201,10 +201,10 @@
 
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_direct_pachuca.html"
                                     id="contenido1"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_porcentual_direct_pachuca.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
@@ -248,8 +248,8 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_conteo_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcredit_conteo_pachuca.html"
+                            width="1000" height="500" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -314,10 +314,10 @@
 
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_pachuca.html"
                                     id="contenido8"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_promedio_pachuca.html"
                                     id="contenido9" style="display: none;"></iframe>
                             </div>
@@ -488,7 +488,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_hidalgo_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -628,7 +628,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="1000"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
                     <div class="mostrar-container">
@@ -738,6 +738,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica PENDIENTE-->
+                    (AÚN NO DISPONIBLE)
                     <!--
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"

@@ -231,7 +231,7 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_barras_m2_construido_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
@@ -332,7 +332,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->

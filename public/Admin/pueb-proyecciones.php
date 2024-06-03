@@ -12,6 +12,77 @@
 
     <?php include 'layouts/head-style.php'; ?>
 
+    <style>
+        .subtitle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            background-color: #e9f5ff;
+            border-left: 8px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        .interpretation {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fef4e9;
+            border-left: 8px solid #FFA500;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        .mostrar {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .mostrar-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mostrar:hover {
+            background-color: #0056b3;
+        }
+
+        .map-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <?php include 'layouts/body.php'; ?>
@@ -88,17 +159,17 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La gráfica presenta una proyección del precio medio de las propiedades en Pachuca
-                                    para los próximos años. Estos datos anticipan la dirección esperada en la evolución
-                                    del valor promedio de las viviendas.</p>
-                            </div>
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div class="description" id="description1" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                La gráfica presenta una proyección del precio medio de las propiedades en Pachuca
+                                para los próximos años. Estos datos anticipan la dirección esperada en la evolución
+                                del valor promedio de las viviendas.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -151,17 +222,16 @@
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Los datos presentados ofrecen una vista anticipada del valor promedio de las
-                                    propiedades en los próximos cinco años. Reflejando la posible dirección de
-                                    crecimiento o reducción en el precio de las viviendas.</p>
-                            </div>
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                        </div>
+                        <div class="description" id="description2" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Los datos presentados ofrecen una vista anticipada del valor promedio de las
+                                propiedades en los próximos cinco años. Reflejando la posible dirección de
+                                crecimiento o reducción en el precio de las viviendas.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -198,23 +268,21 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Estos datos representan las proyecciones de créditos generales en cantidad para los
-                                    años <strong> 2019 a 2026 </strong>, desglosados en dos categorías:
-                                    <strong>'Vivienda Nueva'</strong> y <strong>'Vivienda
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                        </div>
+                        <div class="description" id="description3" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Estos datos representan las proyecciones de créditos generales en cantidad para los
+                                años <strong> 2019 a 2026 </strong>, desglosados en dos categorías:
+                                <strong>'Vivienda Nueva'</strong> y <strong>'Vivienda
                                         Usada'</strong>. A lo largo de este periodo, se proporciona información sobre el
                                     <strong>número total
                                         de créditos</strong> otorgados, así como la cantidad específica de créditos
                                     destinados a
                                     viviendas nuevas y usadas
-                                </p>
-                            </div>
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -276,24 +344,21 @@
                                     id="contenido9" style="display: none;"></iframe>
                             </div>
                         </div>
-
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Se muestran las proyecciones de créditos generales en términos de valor monetario
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
+                        </div>
+                        <div class="description" id="description4" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Se muestran las proyecciones de créditos generales en términos de valor monetario
                                     <strong>(total y promedio)</strong> para los años <strong>2019 a 2026</strong>,
                                     subdividiendose en las categorías
                                     <strong>"Vivienda Nueva"</strong> y <strong>"Vivienda Usada"</strong> ,
                                     proporcionando un análisis detallado de cómo
                                     se espera que evolucione el valor monetario de los créditos en estas dos
                                     clasificaciones a lo largo de los años proyectados.
-                                </p>
-                            </div>
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -356,17 +421,16 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
+                        </div>
+                        <div class="description" id="description5" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
                                     Proporciona estimaciones porcenctuales anuales sobre la tendencia en la cantidad de
                                     casas y departamentos que se anticipa serán ofertados en cada año, abarcando desde
-                                    el presente hasta los próximos años.</p>
-                            </div>
+                                    el presente hasta los próximos años.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -409,20 +473,19 @@
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-
+                            style="display: block; margin: 0 auto;">
+                        </iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La distribución se presenta en cinco categorías según el número de días que las
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
+                        </div>
+                        <div class="description" id="description6" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                La distribución se presenta en cinco categorías según el número de días que las
                                     propiedades han estado disponibles, lo que proporciona información sobre la
-                                    disponibilidad y el estado actual de las propiedades en el mercado inmobiliario.</p>
-                            </div>
+                                    disponibilidad y el estado actual de las propiedades en el mercado inmobiliario.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -462,18 +525,18 @@
                         <iframe
                             src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_hidalgo_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
+                            style="display: block; margin: 0 auto;">
+                        </iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La proyección poblacional es una estimación de cuántas personas se espera que vivan
-                                    en una región o área geográfica específica a lo largo de varios años.</p>
-                            </div>
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
+                        </div>
+                        <div class="description" id="description7" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                La proyección poblacional es una estimación de cuántas personas se espera que vivan
+                                    en una región o área geográfica específica a lo largo de varios años.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -508,19 +571,17 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El riesgo de stock en el mercado inmobiliario se relaciona con la cantidad de casas
+                            <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>
+                        </div>
+                        <div class="description" id="description8" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                El riesgo de stock en el mercado inmobiliario se relaciona con la cantidad de casas
                                     disponibles durante distintos lapsos de tiempo. Esta métrica es esencial para
-                                    evaluar la dinámica de oferta y demanda en el sector.</p>
-                            </div>
+                                    evaluar la dinámica de oferta y demanda en el sector.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -557,20 +618,18 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La proyección en días permite anticipar la duración promedio que las propiedades
+                            <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description9')">Descripción</button>
+                        </div>
+                        <div class="description" id="description9" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                La proyección en días permite anticipar la duración promedio que las propiedades
                                     podrían requerir para su venta, lo que resulta esencial para ajustar estrategias de
                                     comercialización, establecer precios competitivos y adaptarse a las dinámicas
-                                    cambiantes del mercado.</p>
-                            </div>
+                                    cambiantes del mercado.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -612,20 +671,20 @@
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Los meses de oferta es una métrica que refleja cuantos meses pasarían antes de que
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description10')">Descripción</button>
+                        </div>
+                        <div class="description" id="description10" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                Los meses de oferta es una métrica que refleja cuantos meses pasarían antes de que
                                     todas las propiedades disponibles se agotaran si las mismas se compraran con los
                                     créditos demandados (es decir, si se usaran todos los créditos disponibles de dicho
                                     mes) . Se calcula dividiendo el total de propiedades del mes listadas en el mercado
                                     inmobiliario entre el promedio mensual del volumen de créditos demandados durante
-                                    dicho año.</p>
-                            </div>
+                                    dicho año.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -669,20 +728,18 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description11')">Descripción</button>
+                        </div>
+                        <div class="description" id="description11" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
                                     El gráfico de Análisis de Cambio de Precios a lo largo del tiempo ilustra los
                                     cambios porcentuales en los precios promedio de las propiedades en el mercado
                                     inmobiliario de Pachuca para los meses disponibles. Aquí están las perspectivas
-                                    clave.</p>
-                            </div>
+                                    clave.
+                            </p>                           
                         </div>
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
@@ -726,6 +783,19 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 -->
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description12')">Descripción</button>
+                        </div>
+                        <div class="description" id="description12" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                                
+                            </p>                           
+                        </div>
+
+
+
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -1173,6 +1243,16 @@
 
 <script src="assets/js/app.js"></script>
 
+<script>
+    function toggleDescription(id) {
+        var description = document.getElementById(id);
+        if (description.style.display === 'none' || description.style.display === '') {
+            description.style.display = 'block';
+        } else {
+            description.style.display = 'none';
+        }
+    }
+</script>
 </body>
 
 </html>

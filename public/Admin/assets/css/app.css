@@ -4978,7 +4978,6 @@ body[data-layout=horizontal] .chat-conversation {
 }
 
 
-
 /**POP UP TÉRMINOS Y CONDICIONES/
 /* Estilo del pop-up */
  .popup {
@@ -5001,8 +5000,6 @@ body[data-layout=horizontal] .chat-conversation {
   padding: 20px;
   width: 80%; /* Ancho del contenido */
 }
-
-
  /* Estilo para el botón de cierre */
  .close-btn {
   position: relative;

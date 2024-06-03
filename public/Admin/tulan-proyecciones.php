@@ -197,7 +197,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_plusvalia_estimada_direct_tulancingo.html"
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_plusvaliaestimada_direct_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -234,23 +234,34 @@
                 </div>
                 <!-- Forecast créditos generales (cantidad) -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
+                    <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="subtitle-container">
+                                <h5 class="card-title subtitle">
                                 Forecast créditos generales (cantidad)<span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+                                </h5>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                value="Total">
+                            <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                value="Promedio">
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_direct_tulancingo.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                -->
+                        <!-- Link de la gráfica -->
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_direct_tulancingo.html"
+                                    id="contenido1"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_prom_direct_tulancingo.html"
+                                    id="contenido2" style="display: none;"></iframe>
+                            </div>
+                        </div>                                               
                         <!-- Explicación de la gráfica -->
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
@@ -295,6 +306,8 @@
                         </div>
                     </div>
                 </div>
+            
+
                 <!-- Forecast créditos generales (valor ) -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
@@ -309,7 +322,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_direct_tulancingo.html"
+                            src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_cantidad_direct_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -639,11 +652,11 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mesesoferta_pachuca.html" width="800"
+                        
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_MonthSupply_tulancingo.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
+                
 
                         <!-- Explicación de la gráfica -->
                         <div
@@ -814,7 +827,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_tulancingo.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <!--
@@ -894,7 +907,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_tulancingo.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div

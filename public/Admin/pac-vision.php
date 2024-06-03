@@ -134,6 +134,60 @@
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
+                 <!--Mapa de calor Propiedades -->
+                 <div class="row align-items-center"
+                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <div class="subtitle-container">
+                            <h5 class="card-title subtitle">
+                                Mapa
+                                de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
+                        </div>
+                    </div>
+                    <!-- Link de la gráfica -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div style="flex: 1; margin-right: 20px;">
+                                <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" width="800"
+                                    height="400" frameborder="0" id="contenido01"
+                                    style="display: block; margin: 0 auto;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mostrar-container">
+                        <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                    </div>
+                    <!-- Explicación de la gráfica -->
+                    <div class="description" id="description2" style="display: none;">
+                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <p class="text">El mapa de calor presentado ofrece una visualización de la densidad de
+                            propiedades
+                            disponibles en la ciudad. La representación utiliza una escala de colores que va desde
+                            el rojo intenso, indicando una alta concentración de propiedades en una zona
+                            específica, hasta el azul más claro, denotando una menor oferta de propiedades en esa
+                            área, donde cada propiedad está geolocalizada mediante sus coordenadas de latitud
+                            y longitud. </p>
+                        <p class="text">Esta representación permite identificar fácilmente áreas con alta demanda y
+                            concentración de propiedades, así como áreas con menor competencia y potencial para el
+                            desarrollo inmobiliario.</p>
+                    </div>
+                    <div class="interpretation">
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <p class="text">El análisis de la distribución de la oferta de propiedades revela que algunas
+                            colonias destacan por su alta densidad de disponibilidad, como <strong>La Providencia,
+                                Miguel
+                                Hidalgo, Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa. </strong></p>
+                        <p class="text">
+                            Por otro lado, existen colonias donde la oferta es notablemente más limitada,
+                            como <strong>La Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
+                                Privada
+                                Rinconadas del Sur.</strong>
+                        </p>
+                        <p class="text">
+                            Este panorama ofrece una visión clara de las áreas con mayor y menor
+                            disponibilidad de propiedades. </p>
+                    </div>
+                </div>
                 <!--Mapa de calor -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
@@ -211,60 +265,7 @@
                             diferentes colonias de Pachuca.</p>
                     </div>
                 </div>
-                <!--Mapa de calor Propiedades -->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="subtitle-container">
-                            <h5 class="card-title subtitle">
-                                Mapa
-                                de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
-                        </div>
-                    </div>
-                    <!-- Link de la gráfica -->
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div style="flex: 1; margin-right: 20px;">
-                                <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" width="800"
-                                    height="400" frameborder="0" id="contenido01"
-                                    style="display: block; margin: 0 auto;"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
-                    </div>
-                    <!-- Explicación de la gráfica -->
-                    <div class="description" id="description2" style="display: none;">
-                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
-                        <p class="text">El mapa de calor presentado ofrece una visualización de la densidad de
-                            propiedades
-                            disponibles en la ciudad. La representación utiliza una escala de colores que va desde
-                            el rojo intenso, indicando una alta concentración de propiedades en una zona
-                            específica, hasta el azul más claro, denotando una menor oferta de propiedades en esa
-                            área, donde cada propiedad está geolocalizada mediante sus coordenadas de latitud
-                            y longitud. </p>
-                        <p class="text">Esta representación permite identificar fácilmente áreas con alta demanda y
-                            concentración de propiedades, así como áreas con menor competencia y potencial para el
-                            desarrollo inmobiliario.</p>
-                    </div>
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
-                        <p class="text">El análisis de la distribución de la oferta de propiedades revela que algunas
-                            colonias destacan por su alta densidad de disponibilidad, como <strong>La Providencia,
-                                Miguel
-                                Hidalgo, Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa. </strong></p>
-                        <p class="text">
-                            Por otro lado, existen colonias donde la oferta es notablemente más limitada,
-                            como <strong>La Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
-                                Privada
-                                Rinconadas del Sur.</strong>
-                        </p>
-                        <p class="text">
-                            Este panorama ofrece una visión clara de las áreas con mayor y menor
-                            disponibilidad de propiedades. </p>
-                    </div>
-                </div>
+               
                 <!--Clientes potenciales foráneos -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
@@ -337,277 +338,300 @@
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <!-- PRECIO MERCADO -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">
-                                            PRECIO MERCADO</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Información relevante sobre los precios de mercado, relacionada con las propiedades existentes en el mercado.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Minimo</strong></td>
-                                                    <td class="text-right">$240,600</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Maximo</strong></td>
-                                                    <td class="text-right">$28,500,000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Promedio</strong></td>
-                                                    <td class="text-right">$2,968,023</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Mediana</strong></td>
-                                                    <td class="text-right">$2,540,000</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                <!-- TABLAS -->
+            <div class="container-fluid page__container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title flex m-0">PRECIO MERCADO </h4>
                             </div>
-                        </div>
-                        <!-- M2 TERRENO -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">M2
-                                            TERRENO</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Muestra la variabilidad en los tamaños de M2 de terrenos en la muestra, desde los más pequeños hasta los más grandes, proporcionando una visión general de la distribución.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
-                                    </div>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
                                 </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Minimo</strong></td>
-                                                    <td class="text-right">45</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Maximo</strong></td>
-                                                    <td class="text-right">1,609</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Promedio</strong></td>
-                                                    <td class="text-right">149</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Mediana</strong></td>
-                                                    <td class="text-right">128</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title="Información relevante sobre los precios de mercado, relacionada con las propiedades existentes en el mercado.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
                             </div>
-                        </div>
-                        <!-- M2 CONSTRUCCIÓN -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">M2
-                                            CONSTRUCCIÓN</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Aquí te presentamos la variedad en el tamaño de M2 de construcciones en nuestra muestra. Desde las más pequeñas hasta las más grandes.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Minimo</strong>
+                                    <div>
+                                        <span>$ 240,600.00</span>
                                     </div>
                                 </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Minimo</strong></td>
-                                                    <td class="text-right">47</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Maximo</strong></td>
-                                                    <td class="text-right">1,100</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Promedio</strong></td>
-                                                    <td class="text-right">194</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Mediana</strong></td>
-                                                    <td class="text-right">179</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Maximo</strong>
+                                    <div>
+                                        <span>$ 28,500,000.00</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Promedio</strong>
+                                    <div>
+                                        <span>$ 2,968,023.00</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Mediana</strong>
+                                    <div>
+                                        <span> $ 2,540,000.00</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <!-- PRECIO M2 CONSTRUCCIÓN -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">
-                                            PRECIO M2 CONSTRUCCIÓN</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Estos valores reflejan la variabilidad en los precios de construcción por metro cuadrado, desde muy bajos hasta muy altos.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title flex m-0">M2 TERRENO </h4>
+                            </div>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
+                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title="Muestra la variabilidad en los tamaños de M2 de terrenos en la muestra, desde los más pequeños hasta los más grandes, proporcionando una visión general de la distribución.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Minimo</strong>
+                                    <div>
+                                        <span>45</span>
                                     </div>
                                 </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Minimo</strong></td>
-                                                    <td class="text-right">$1,544</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Maximo</strong></td>
-                                                    <td class="text-right">$200,600</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Promedio</strong></td>
-                                                    <td class="text-right">$15,227</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Mediana</strong></td>
-                                                    <td class="text-right">$14,088</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Maximo</strong>
+                                    <div>
+                                        <span>1,609</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Promedio</strong>
+                                    <div>
+                                        <span>149</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Mediana</strong>
+                                    <div>
+                                        <span>128</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- CASA PROMEDIO -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">
-                                            CASA PROMEDIO</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Comparación de datos de propiedades, resaltando las estadísticas promedio.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Recámaras</strong></td>
-                                                    <td class="text-right">3.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Baños</strong></td>
-                                                    <td class="text-right">3.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Estacionamientos</strong></td>
-                                                    <td class="text-right">2.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Terreno</strong></td>
-                                                    <td class="text-right">149</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>M2 Construido</strong></td>
-                                                    <td class="text-right">194</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Precio</strong></td>
-                                                    <td class="text-right">$2,968,023</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Precio M2 Construido</strong></td>
-                                                    <td class="text-right">$15,227</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title m-0">M2 CONSTRUCCIÓN </h4>
                             </div>
-                        </div>
-                        <!-- CASA MEDIA -->
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                                <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
-                                    <div class="flex">
-                                        <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">
-                                            CASA MEDIA</div>
-                                        <a class="info-link" data-toggle="tooltip" data-placement="bottom"
-                                            title="Comparación de datos de propiedades, resaltando las estadísticas medias.">
-                                            Información <i class="material-icons icon-14pt text-success">❗</i>
-                                        </a>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
+                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title="Aquí te presentamos la variedad en el tamaño de M2 de construcciones en nuestra muestra. Desde las más pequeñas hasta las más grandes.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Minimo</strong>
+                                    <div>
+                                        <span>47</span>
                                     </div>
                                 </div>
-                                <div class="card-body d-flex flex-column justify-content-center"
-                                    style="margin-bottom: 20px;">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <tbody>
-                                                <tr>
-                                                    <td><strong>Recámaras</strong></td>
-                                                    <td class="text-right">3.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Baños</strong></td>
-                                                    <td class="text-right">3.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Estacionamientos</strong></td>
-                                                    <td class="text-right">2.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Terreno</strong></td>
-                                                    <td class="text-right">128</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>M2 Construido</strong></td>
-                                                    <td class="text-right">179</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Precio</strong></td>
-                                                    <td class="text-right">$2,540,000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><strong>Precio M2 Construido</strong></td>
-                                                    <td class="text-right">$14,088</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Maximo</strong>
+                                    <div>
+                                        <span>1,100</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Promedio</strong>
+                                    <div>
+                                        <span>194</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Mediana</strong>
+                                    <div>
+                                        <span>179</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title flex m-0">PRECIO M2 CONSTRUCIÓN</h4>
+                            </div>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
+                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title="Estos valores reflejan la variabilidad en los precios de construcción por metro cuadrado, desde muy bajos hasta muy altos.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Minimo</strong>
+                                    <div>
+                                        <span>$ 1,544.00</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Maximo</strong>
+                                    <div>
+                                        <span> $ 200,600 </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Promedio</strong>
+                                    <div>
+                                        <span> $ 15,227 </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-3">
+                                    <strong>Mediana</strong>
+                                    <div>
+                                        <span> $ 14,088 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title flex m-0">CASA PROMEDIO </h4>
+                            </div>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
+                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title=" Comparación de datos de propiedades, resaltando las estadísticas promedio.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Recámaras</strong>
+                                    <div>
+                                        <span>3.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Baños</strong>
+                                    <div>
+                                        <span>3.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Estacionamientos</strong>
+                                    <div>
+                                        <span>2.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Terreno</strong>
+                                    <div>
+                                        <span>149</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>M2 Construido</strong>
+                                    <div>
+                                        <span>194</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Precio</strong>
+                                    <div>
+                                        <span> $ 2,968,023.00 </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Precio M2 Construido</strong>
+                                    <div>
+                                        <span> $ 15,227.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white d-flex align-items-center">
+                                <h4 class="card-header__title m-0">CASA MEDIA </h4>
+                            </div>
+                            <div class="card-header d-flex align-items-center justify-content-end"
+                                style="background-color: #FAFBFE;">
+                                <div class="text d-flex justify-content-end" style="color: #4C91E2;">Información
+                                </div>
+                                <a class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="bottom"
+                                    title="Comparación de datos de propiedades, resaltando las estadísticas medias.">
+                                    <i class="material-icons icon-14pt text-success">info</i>
+                                </a>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Recámaras</strong>
+                                    <div>
+                                        <span>3.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Baños</strong>
+                                    <div>
+                                        <span>3.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Estacionamientos</strong>
+                                    <div>
+                                        <span>2.0</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Terreno</strong>
+                                    <div>
+                                        <span>128</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>M2 Construido</strong>
+                                    <div>
+                                        <span>179</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Precio</strong>
+                                    <div>
+                                        <span> $ 2,540,000.00 </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between pb-1">
+                                    <strong>Precio M2 Construido</strong>
+                                    <div>
+                                        <span> $ 14,088.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
             </div> <!-- container-fluid -->
         </div>
         <!-- End Page-content -->
