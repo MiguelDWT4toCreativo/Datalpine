@@ -64,7 +64,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -169,10 +169,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_seg_tulgo.html"
                                     id="contenido1"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_total_tulgo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -234,7 +234,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosXgenero_tulancingo.html"
                             width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -283,7 +283,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosXdestino_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -467,12 +467,12 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
+                        
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                            src="/datalpine/resources/jupyter/graficas/.html"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                -->
+                
                 <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
@@ -530,10 +530,10 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <!--                    
-                        <div class="tables-plotly">
-                            <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
-                        </div>
-                -->
+                            <div class="tables-plotly">
+                                <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                            </div>
+                        -->
                         <!-- Explicación de la gráfica -->
                             <!-- Interpretación -->
                             <div class="interpretation">

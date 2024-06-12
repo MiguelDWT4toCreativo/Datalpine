@@ -61,7 +61,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -154,10 +154,10 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica -->
+                        <!-- Link de la gráfica 
                         <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_preciomediaanual_direct_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
+                            style="display: block; margin: 0 auto;"></iframe>-->
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>

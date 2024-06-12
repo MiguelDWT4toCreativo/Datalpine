@@ -56,7 +56,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -153,7 +153,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distriXsegmentos_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -331,7 +331,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedio-M2_pachuca.html"
                             width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 

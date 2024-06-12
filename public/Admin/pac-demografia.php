@@ -65,7 +65,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -495,18 +495,18 @@
                             <div>
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
                                     value="2022">
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido22')"
                                     value="2023">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/....html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_pachuca.html"
-                                    id="contenido2" style="display: none;"></iframe>
+                                    src="/datalpine/resources/jupyter/graficas/....html"
+                                    id="contenido22" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -614,7 +614,7 @@
                         echo "</ol>";
                         ?>
                         
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_preciosegmento_pachuca.html" width="800"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precioXsegmento_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 
@@ -698,10 +698,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2022_pachuca.html"
                                     id="contenido30"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditossegmento_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2023_pachuca.html"
                                     id="contenido31" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -787,10 +787,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2022_pachuca.html"
                                     id="contenido32"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditossegmento_trimestre2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2023_pachuca.html"
                                     id="contenido33" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -858,10 +858,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2022_pachuca.html"
                                     id="contenido34"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosmonto_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2023_pachuca.html"
                                     id="contenido35" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1019,8 +1019,6 @@
                             </li>
                         </ul>
                     </div>
-
-
                     <!-- 4.5 Estacionalidad -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
@@ -1029,7 +1027,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_creditos_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -1096,10 +1094,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2022_pachuca.html"
                                     id="contenido36"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporumas_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2023_pachuca.html"
                                     id="contenido37" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1169,10 +1167,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2022_pachuca.html"
                                     id="contenido38"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditospororganismo_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2023_pachuca.html"
                                     id="contenido39" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1246,6 +1244,44 @@
                             medida en
                             comparación con los principales otorgantes.
                         </p>
+                    </div>
+                    <!-- 4.8 Distribución % de créditos por vivienda valor -->
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
+                        <!-- Link de la gráfica -->
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <?php
+                            echo "<li style='font-size: 20px;'>4.8 Distribución % de créditos por vivienda valor</li>";
+                            echo "</ol>";
+                            echo "</ol>";
+                            ?>
+                            <div>
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido161')"
+                                    value="2022">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido171')"
+                                    value="2023">
+                            </div>
+                        </div>
+                        <div class="card-header bg-white d-flex justify-content-center align-items-center">
+                            <div class="d-flex align-items-center">
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2022_pachuca.html"
+                                    id="contenido161"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2023_pachuca.html"
+                                    id="contenido171" style="display: none;"></iframe>
+                            </div>
+                        </div>
+                        <!-- Explicación de la gráfica -->
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description181')">Descripción</button>
+                        </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description181" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">
+                            Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que representan las proporciones de los créditos otorgados al valor de la vivienda clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.
+                            </p>                            
+                        </div>
                     </div>
                 </div>
             </div>

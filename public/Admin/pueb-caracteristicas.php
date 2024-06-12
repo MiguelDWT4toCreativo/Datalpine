@@ -60,7 +60,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;

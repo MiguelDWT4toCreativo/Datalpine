@@ -50,7 +50,6 @@
             font-size: 1.2em;
             line-height: 1.8;
             color: #555;
-            text-align: justify;
         }
 
         .icon {
@@ -63,7 +62,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -282,11 +281,11 @@
                         </div>
                     </div>
 
-                    <!-- Colonias en Tulancingo -->
+                    <!-- Colonias en Tulancingo 
                     <div class="row align-items-center"
-                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">-->
 
-                        <!-- Link de la gráfica PENDIENTE-->
+                        <!-- Link de la gráfica PENDIENTE
                         <div class="card-header bg-white d-flex justify-content-between align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
@@ -319,13 +318,13 @@
                                         src="/datalpine/resources/jupyter/graficas//g_bar_colpred_t5_tulancingo.html"
                                         id="contenido3" style="display: none;"></iframe>
                                 </div>
-                            </div>
-                            <!-- Explicación de la gráfica -->
+                            </div>-->
+                            <!-- Explicación de la gráfica 
                             <div class="mostrar-container">
                                 <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
-                            </div>
+                            </div>-->
 
-                            <!-- Descripción -->
+                            <!-- Descripción 
                             <div class="description" id="description2" style="display: none;">
                                 <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                                 <p class="text">
@@ -336,8 +335,8 @@
                                     conjunto de datos nos proporciona una perspectiva visual y muestra la
                                     participación de cada colonia como una fracción del panorama total</p>
                             </div>
-                        </div>
-                        <!-- Interpretación -->
+                        </div>-->
+                        <!-- Interpretación 
                         <div class="interpretation">
                             <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
                             <p class="text">
@@ -350,7 +349,8 @@
                                 contribución notable al panorama inmobiliario local.
                             </p>
                         </div>
-                    </div>
+                    </div>-->
+                    
 
                     <!--Clientes potenciales foráneos -->
                     <div class="row align-items-center"

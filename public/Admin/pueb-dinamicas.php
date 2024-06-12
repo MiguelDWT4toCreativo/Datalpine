@@ -57,7 +57,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -162,10 +162,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_seg_puebla.html"
                                     id="contenido1"></iframe>
                                 <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXXventa_total_puebla.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -227,7 +227,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosXgenero_puebla.html"
                             width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -278,7 +278,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosXdestino_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -332,7 +332,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_Xpersona_puebla.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -388,7 +388,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_parejas_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadoXsalarial_parejas_puebla.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>                    
@@ -451,8 +451,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_puebla.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadoXXsalarial_parejas_puebla.html"
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     
                         <!-- Explicación de la gráfica -->
@@ -503,21 +503,34 @@
                         <div class="mb-3">
                             <h5 class="card-title"
                                 style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
+                                6. Profesiones<span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- Salario Individual -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>Salario Individual</li>";
+                        echo "<li style='font-size: 20px;'>6.1 Salario Individual</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
                         <div class="tables-plotly">
                             <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_puebla.html" width="800"
-                                height="400" frameborder="0" id="contenido01"
-                                style="display: block; margin: 0 auto;"></iframe>
+                                height="400" frameborder="0" id="contenido01" onload="resizeIframe(this)"
+                                style="display: block;margin: 0px auto;min-height: 410px;"></iframe>
+                                <script>
+                                    function resizeIframe(iframe) {
+                                        iframe.contentWindow.document.body.style.margin = '0'; // Elimina el margen del cuerpo del documento en el iframe
+                                        iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px'; // Ajusta la altura del iframe según el contenido
+                                    }
+                                    // Escucha el evento 'resize' del contenido del iframe
+                                    window.addEventListener('message', function(event) {
+                                        if (event.data && event.data.type === 'resizeIframe') {
+                                            var iframe = document.getElementById('contenido01');
+                                            iframe.style.height = event.data.height + 'px';
+                                        }
+                                    }, false);
+                                </script>
                         </div>
                         <!-- Explicación de la gráfica -->
                         <!-- Interpretación -->

@@ -1,7 +1,7 @@
 /* Asegúrate de que el iframe tenga un margen superior e inferior más grande */
 iframe.table-iframe {
     width: 100%;
-    height: auto; /* Permite que el iframe ajuste su altura */
+    height: auto;  /* Permite que el iframe ajuste su altura */
     border: 0;
 }
 
@@ -13,7 +13,6 @@ table.dataframe {
     width: 100%; /* Ajusta según sea necesario */
     height: auto; /* Permite que la altura de la tabla se ajuste automáticamente */
 }
-
 caption {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -27,7 +26,7 @@ thead, tbody, tfoot, tr, td, th {
     border-width: 0;
     font-family: 'Arial', sans-serif;
     color: #333;
-    text-align: center; 
+    text-align: center;
 }
 
 td, th {

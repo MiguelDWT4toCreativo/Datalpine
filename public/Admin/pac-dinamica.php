@@ -60,7 +60,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -163,10 +163,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_seg_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_segmentos_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_total_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_est_total_pachuca.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosgenero_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosxxgenero_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -274,10 +274,9 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosdestino_pachuca.html"
-                            width="800" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-
+                          <!--/resources/jupyter/graficas/.html-->
+                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditodestino_pachuca.html"                          
+                          width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
                         </div>
@@ -347,19 +346,21 @@
                                 </h5>
                             </div>
                         </div>
+                        <!--
                         <div>
                             <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido3')"
                                 value="Segmentos">
                             <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido4')"
                                 value="Rango en $">
                         </div>
+                        -->
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_xpersona_pachuca.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido4"
@@ -418,19 +419,21 @@
                             </h5>
                         </div>
                     </div>
+                <!--
                     <div>
                         <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido5')"
                             value="Segmentos">
                         <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido6')"
                             value="Rango en $">
                     </div>
+                -->
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
                     <div class="card-header bg-white d-flex justify-content-center align-items-center">
                         <div class="d-flex align-items-center">
                             <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_parejas_pachuca.html"
+                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_xparejas_pachuca.html"
                                 id="contenido5"></iframe>
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido6"
@@ -486,7 +489,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_parejas_pachuca.html"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_XXparejas_pachuca.html"
                         width="1000" height="400" frameborder="0" id="contenido01"
                         style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
@@ -551,14 +554,30 @@
                 <!-- Salario Individual -->
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <?php
-                    echo "<li style='font-size: 20px;'>Salario Individual</li>";
+                    echo "<li style='font-size: 20px;'>6.1 Salario Individual</li>";
                     echo "</ol>";
                     echo "</ol>";
                     ?>
                     <!-- Link de la gráfica -->
                         <div class="tables-plotly">
-                            <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html"  frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" width="800"
+                                height="400" frameborder="0" id="contenido01" onload="resizeIframe(this)"
+                                style="display: block;margin: 0px auto;min-height: 410px;"></iframe>
+                                <script>
+                                    function resizeIframe(iframe) {
+                                        iframe.contentWindow.document.body.style.margin = '0'; // Elimina el margen del cuerpo del documento en el iframe
+                                        iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px'; // Ajusta la altura del iframe según el contenido
+                                    }
+                                    // Escucha el evento 'resize' del contenido del iframe
+                                    window.addEventListener('message', function(event) {
+                                        if (event.data && event.data.type === 'resizeIframe') {
+                                            var iframe = document.getElementById('contenido01');
+                                            iframe.style.height = event.data.height + 'px';
+                                        }
+                                    }, false);
+                                </script>
                         </div>
+
                     <!-- Explicación de la gráfica -->
                     <!-- Interpretación -->
                     <div class="interpretation">

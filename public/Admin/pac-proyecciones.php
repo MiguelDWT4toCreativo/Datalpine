@@ -56,7 +56,7 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #495057;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -441,7 +441,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXmercado_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -488,7 +488,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_pachuca.html" width="800"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionXpoblacional_pachuca.html" width="1100"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -532,7 +532,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgO_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
 
                     <!-- Explicación de la gráfica -->
@@ -577,7 +577,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockdias_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_stockXdias_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
 
                     <!-- Explicación de la gráfica -->
@@ -681,14 +681,14 @@
                 <div class="col-md-6">
                     <div class="subtitle-container">
                         <h5 class="card-title subtitle">
-                            Cambio de Precios en el Mercado Inmobiliario de Pachuca<span
+                            Cambio de Precios en el Mercado Inmobiliario<span
                                 class="text-muted fw-normal ms-2"></span>
                         </h5>
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_precioscambiomes_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_preciosXcambiomes_pachuca.html" width="1000"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
 
                     <!-- Explicación de la gráfica -->
@@ -792,37 +792,23 @@
                     </div>
                 </div>
             </div>
-            <!-- Precio promedio por número de baños -->
+            <!-- Precio promedio por número de baños -->            
             <div class="row align-items-center"
                 style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
                 <div class="col-md-6">
                     <div class="subtitle-container">
                         <h5 class="card-title subtitle">
-                            Precio promedio por número de baños <span class="text-muted fw-normal ms-2"></span>
-                        </h5>
-                    </div>
-                </div>
-                <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_v_pachuca.html"
-                        width="800" height="400" frameborder="0" id="contenido01"
-                        style="display: block; margin: 0 auto;"></iframe>
-                </div>
-            </div>
-            <!-- Precio Promedio de la Propiedad por Número de Baños (de 1 a 4) -->
-            <div class="row align-items-center"
-                style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
-                <div class="col-md-6">
-                    <div class="subtitle-container">
-                        <h5 class="card-title subtitle">
-                            Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)<span
+                            Precio Promedio por número de baños<span
                                 class="text-muted fw-normal ms-2"></span>
                         </h5>
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromediobaños_14_pachuca.html"
+                       <!-- <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioNumBaños_14_pachuca.html"
+                        width="800" height="400" frameborder="0" id="contenido01"
+                        style="display: block; margin: 0 auto;"></iframe>-->
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioNumBaños_v_pachuca.html"
                         width="800" height="400" frameborder="0" id="contenido01"
                         style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
@@ -882,6 +868,34 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Interpretación -->
+                <div class="interpretation">
+                    <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <p class="text">
+                            Los datos para Pachuca revelan una tendencia ascendente consistente en los
+                            precios
+                            de las propiedades con el aumento en el número de baños. Las propiedades con
+                            dos
+                            baños tienen un precio <strong>51.40%</strong> más alto en promedio que
+                            aquellas
+                            con
+                            solo uno. Esta tendencia ascendente continúa con propiedades de tres baños,
+                            que
+                            son
+                            <strong>31.52%</strong> más caras que las de dos baños. La tendencia es aún
+                            más
+                            pronunciada para las propiedades con cuatro baños, mostrando un incremento
+                            del
+                            <strong>39.80%</strong> sobre las de tres baños. Este aumento constante en
+                            el
+                            precio
+                            con baños adicionales indica una fuerte preferencia del mercado por
+                            propiedades
+                            con
+                            más comodidades, reflejando la demanda de confort y lujo.
+                    </p>
+                </div>
+                <!--
                 <div
                     style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                     <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -918,38 +932,8 @@
                             para familias o segmentos de mercado de mayor nivel.</p>
                     </div>
                 </div>
-                <div
-                    style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                    <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                        <strong>Precio Promedio de la Propiedad por Número de Baños (de 1 a 4)</strong>
-                    </p>
-                    <div style="text-align: left;">
-                        <p
-                            style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; list-style-type: disc; padding-left: 20px;">
-                            Los datos para Pachuca revelan una tendencia ascendente consistente en los
-                            precios
-                            de las propiedades con el aumento en el número de baños. Las propiedades con
-                            dos
-                            baños tienen un precio <strong>51.40%</strong> más alto en promedio que
-                            aquellas
-                            con
-                            solo uno. Esta tendencia ascendente continúa con propiedades de tres baños,
-                            que
-                            son
-                            <strong>31.52%</strong> más caras que las de dos baños. La tendencia es aún
-                            más
-                            pronunciada para las propiedades con cuatro baños, mostrando un incremento
-                            del
-                            <strong>39.80%</strong> sobre las de tres baños. Este aumento constante en
-                            el
-                            precio
-                            con baños adicionales indica una fuerte preferencia del mercado por
-                            propiedades
-                            con
-                            más comodidades, reflejando la demanda de confort y lujo.
-                        </p>
-                    </div>
-                </div>
+                -->
+                
             </div>
             <!-- Tendencias de Mercado en Colonias -->
             <div class="row align-items-center"
@@ -963,7 +947,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colbaratas_t5_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_ColBaratas_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
                     <!--  
@@ -1019,14 +1003,14 @@
                 <div class="col-md-6">
                     <div class="subtitle-container">
                         <h5 class="card-title subtitle">
-                            'Colonias' de Alto Potencial en Pachuca<span class="text-muted fw-normal ms-2"></span>
+                            Colonias de Alto Potencial<span class="text-muted fw-normal ms-2"></span>
                         </h5>
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
 
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colpred_t5_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_ColPred_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
                     <!--
@@ -1081,14 +1065,14 @@
                 <div class="col-md-6">
                     <div class="subtitle-container">
                         <h5 class="card-title subtitle">
-                            Colonias Para inversión (las que más han crecido en precio m²
-                            trimestre)<span class="text-muted fw-normal ms-2"></span>
+                            Colonias Para inversión<span class="text-muted fw-normal ms-2"></span>
+                            <!--(las que más han crecido en precio m² trimestre)-->
                         </h5>
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_colcaras_t5_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_ColCaras_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
 
                     <!-- Explicación de la gráfica -->
