@@ -100,15 +100,13 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                            <h4 class="mb-sm-0 font-size-18">Puebla</h4>
-
+                            <!--<h4 class="mb-sm-0 font-size-18">Puebla</h4>-->
                             <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Estados</a></li>
+                                <ol class="breadcrumb mb-sm-0 font-size-18">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Puebla</a></li>
                                     <li class="breadcrumb-item active">Puebla</li>
                                 </ol>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -155,7 +153,8 @@
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_puebla.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
+                            style="display: block; margin: 0 auto;">
+                        </iframe>
                         <!-- Explicación de la gráfica -->
 
                         <div class="mostrar-container">
@@ -228,7 +227,7 @@
                             <div>
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
                                     value="Segmentos">
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')  & ocultar('contenido1')" 
                                     value="General">
                             </div>
                         </div>
@@ -237,9 +236,10 @@
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
                                     id="contenido1"></iframe>
-                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_puebla.html"
-                                    id="contenido2" style="display: none;"></iframe>
+                                    id="contenido2" class= "oculto">
+                                </iframe>
                             </div>
                         </div> 
                         <!-- Explicación de la gráfica -->
@@ -491,9 +491,17 @@
             iframes[i].style.display = 'none';
         }
         document.getElementById(id).style.display = 'block';
+        function ocultar(id)
+        {
+            var objeto=document.getElementById(id)
+            objeto.style.display="none";
+        }
     }
 </script>
 
+<style>
+    .oculto {display: none;}
+</style>
 <script>
     function toggleDescription(id) {
         var description = document.getElementById(id);

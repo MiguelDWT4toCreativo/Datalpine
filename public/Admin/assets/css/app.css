@@ -3227,7 +3227,7 @@ input[switch=default]:checked + label {
 }
 
 input[switch=primary]:checked + label {
-  background-color: #5156be;
+  background-color: #9500ff;
 }
 
 input[switch=success]:checked + label {
@@ -3624,12 +3624,24 @@ div.dataTables_wrapper div.dataTables_info {
   border: 1px solid #74788d;
 }
 .table-rep-plugin .btn-group .btn-default.btn-primary {
+  background-color: #9500ff; /* Color de fondo */
+  border-color: #9500ff; /* Color del borde */
+  color: #fff; /* Color del texto */
+  -webkit-box-shadow: 0 0 0 2px rgba(149, 0, 255, 0.5); 
+  box-shadow: 0 0 0 2px rgba(149, 0, 255, 0.5); 
+}
+
+/**
+.table-rep-plugin .btn-group .btn-default.btn-primary {
   background-color: #5156be;
   border-color: #5156be;
   color: #fff;
   -webkit-box-shadow: 0 0 0 2px rgba(81, 86, 190, 0.5);
           box-shadow: 0 0 0 2px rgba(81, 86, 190, 0.5);
 }
+**/
+
+
 .table-rep-plugin .btn-group.pull-right {
   float: left;
 }
@@ -5017,3 +5029,9 @@ body[data-layout=horizontal] .chat-conversation {
   right: -10px; /* Ajuste horizontal */
   font-size: 20px;
 }
+
+.custom-container {
+  filter: blur(10px); /* Aplicar desenfoque */
+  box-shadow: 0 2.8px 2.2px rgba(110, 121, 133, .02), 0 6.7px 5.3px rgba(110, 121, 133, .028), 0 12.5px 10px rgba(110, 121, 133, .035), 0 22.3px 17.9px rgba(110, 121, 133, .042), 0 41.8px 33.4px rgba(110, 121, 133, .05), 0 100px 80px rgba(110, 121, 133, .07); /* Aplicar sombra */
+}
+

@@ -17,7 +17,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/datalpine/public/Admin/assets/images/fondo.jpg') no-repeat center center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/datalpine/public/Admin/assets/images/index_image.png') no-repeat center center;
             background-size: cover;
             color: white;
             height: 100vh;
@@ -37,6 +37,7 @@
             color: #ffffff;
             /* Blanco */
             animation: fadeInDown 1s ease-in-out;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añadir sombra al texto */
         }
 
         .hero-section p {
@@ -44,17 +45,22 @@
             margin-bottom: 20px;
             color: #E0E0E0;
             animation: fadeInUp 1.5s ease-in-out;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Añadir sombra al texto */
+            line-height: 1.5; /* Mejorar el espaciado entre líneas */
         }
 
         .hero-section .btn-primary {
-            background-color: #3380FF;
-            border-color: #3380FF;
+            background-color: #9500ff;
+            border-color: #9500ff;
             color: white;
             font-size: 1.5rem;
             padding: 15px 30px;
             border-radius: 50px;
             text-transform: uppercase;
             animation: pulse 2s infinite;
+        }
+        .hero-section .listo{
+            font-size: 2rem;
         }
 
         @keyframes fadeInDown {
@@ -145,39 +151,39 @@
         <div class="page-content">
             <div class="container-fluid">
 
-                <!-- start page title -->
-                <div class="row">
+                <!-- start page title 
+                 <div class="row">
                     <div class="col-12">
-                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">                            
                             <h4 class="mb-sm-0 font-size-18">Inicio</h4>
-
                             <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
+                                <ol class="breadcrumb mb-sm-0 font-size-18">
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">DatAlpine</a></li>
                                     <li class="breadcrumb-item active">Inicio</li>
                                 </ol>
-                            </div>
+                            </div>  
 
                         </div>
                     </div>
-                </div>
+                </div>                
+                -->
+                
                 <!-- end page title -->
-
                 <header class="hero-section">
                     <div>
-                        <h1>¡Bienvenido a DatAlpine!</h1>
-                        <p>Tu socio en la toma de decisiones inteligentes en el mercado inmobiliario mexicano.</p>
+                        <h1>¡Bienvenido!</h1>
+                        <!--<p class="listo">Tu aliado en la toma de decisiones inteligentes en el mercado inmobiliario mexicano.</p>-->
+                        <p>¿Preparado para cambiar tu enfoque en el mercado inmobiliario mexicano?</p>
                         <a href="#services" class="btn btn-primary btn-lg">Descubre Más</a>
                     </div>
-                </header>
-
+                </header>                
                 <section id="services" style="padding: 35px 0; background-color: #f8f9fa;">
                     <div class="container">
                         <div class="row d-flex align-items-stretch">
                             <div class="col-lg-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <i class="fas fa-chart-line" style="color: #007bff;"></i>
+                                        <i class="fas fa-chart-line" style="color: #2962ff;"></i>
                                         <h3 class="card-title">Análisis Detallado</h3>
                                         <p class="card-text">Ofrecemos un análisis detallado y personalizado del mercado inmobiliario en México.</p>
                                     </div>
@@ -186,7 +192,7 @@
                             <div class="col-lg-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <i class="fas fa-map-marked-alt" style="color: #28a745;"></i>
+                                        <i class="fas fa-map-marked-alt" style="color: #9500ff;"></i>
                                         <h3 class="card-title">Segmentación de Mercado</h3>
                                         <p class="card-text">Proporcionamos información precisa para tomar decisiones estratégicas con confianza.</p>
                                     </div>
@@ -195,7 +201,7 @@
                             <div class="col-lg-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <i class="fas fa-home" style="color: #ffc107;"></i>
+                                        <i class="fas fa-home" style="color: #4225CF;"></i>
                                         <h3 class="card-title">Tendencias de Precios</h3>
                                         <p class="card-text">Desde tendencias de precios hasta segmentación de mercado, te proporcionamos la información que necesitas.</p>
                                     </div>
@@ -204,20 +210,18 @@
                         </div>
                     </div>
                 </section>
-
-                
-
+            
                 <div class="row card-group-row">
                     <!-- Tabla 1: Ciudades para invertir -->
                     <div class="col-lg-4 col-md-6 card-group-row__col">
                         <div class="card card-group-row__card">
                             <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
                                 <div class="flex">
-                                    <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">Top
+                                    <div class="card-header__title mb-2" style="color: #ff0059; font-size: 24px;">Top
                                     </div>
                                     <div class="card-header__title mb-1" style="font-size: 20px;"> <strong> Ciudades
                                             para invertir</strong></div>
-                                    <div class="text" style="color: #6773DF; font-size: 16px;"> En el último año</div>
+                                    <div class="text" style="color: #2962ff; font-size: 16px;"> En el último año</div>
                                 </div>
                             </div>
                             <div class="card-body d-flex flex-column justify-content-center"
@@ -269,11 +273,11 @@
                         <div class="card card-group-row__card">
                             <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
                                 <div class="flex">
-                                    <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">Top
+                                    <div class="card-header__title mb-2" style="color: #ff0059; font-size: 24px;">Top
                                     </div>
                                     <div class="card-header__title mb-1" style="font-size: 20px;"> <strong> Crecimiento
                                             en población</strong></div>
-                                    <div class="text" style="color: #6773DF; font-size: 16px;"> En el último año</div>
+                                    <div class="text" style="color: #2962ff; font-size: 16px;"> En el último año</div>
                                 </div>
                             </div>
                             <div class="card-body d-flex flex-column justify-content-center"
@@ -325,11 +329,11 @@
                         <div class="card card-group-row__card">
                             <div class="card-body d-flex flex-row align-items-start flex-0 border-bottom">
                                 <div class="flex">
-                                    <div class="card-header__title mb-2" style="color: #FF5722; font-size: 24px;">Top
+                                    <div class="card-header__title mb-2" style="color: #ff0059; font-size: 24px;">Top
                                     </div>
                                     <div class="card-header__title mb-1" style="font-size: 20px;"> <strong> Crecimiento
                                             en vivienda </strong></div>
-                                    <div class="text" style="color: #6773DF; font-size: 16px;"> En el último año</div>
+                                    <div class="text" style="color: #2962ff; font-size: 16px;"> En el último año</div>
                                 </div>
                             </div>
                             <div class="card-body d-flex flex-column justify-content-center"
@@ -439,7 +443,7 @@
             datasets: [{
                 label: 'Ventas por Ubicación',
                 data: [75, 55, 85, 85],
-                backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545']
+                backgroundColor: ['#2962ff', '#9500ff', '#ff0059', '#ff8c00']
             }]
         },
         options: {
