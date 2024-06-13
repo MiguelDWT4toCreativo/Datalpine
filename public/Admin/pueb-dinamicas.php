@@ -187,7 +187,7 @@
                     <!-- Interpretación -->
                     <div class="interpretation">
                         <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
-                        <ul class="text">
+                            <ul class="text">
                                 <li><strong>Segmento S:</strong> Su distribución es sesgada hacia la derecha puesto
                                         que posee una
                                         alta concentración de propiedades con una <strong>antigüedad</strong> de oferta
@@ -205,9 +205,9 @@
                                     <li><strong>Segmento E:</strong> Debido a su poco valor en el mercado este segmento
                                         tiene una oferta
                                         limitada de terrenos.</li>
-                        </ul>
-                    </div>
-                </div>
+                            </ul>
+                        </div>
+                    </div>                
                 <!--2. Créditos -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">

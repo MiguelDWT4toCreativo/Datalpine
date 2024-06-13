@@ -160,8 +160,8 @@
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/grafica_recamaras_tulancingo.html"
                                     id="contenido1"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_recamaras_tulancingo.html"
+                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_recamaras_tulancingo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>

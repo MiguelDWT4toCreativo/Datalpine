@@ -161,7 +161,7 @@
                         <!-- Link de la gráfica -->
                         <p style="text-align: center;">
                             <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_estado_2022_2023.html"></iframe>
+                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_poblacion_edad_gen_pachuca.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -252,7 +252,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_cred_edad_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -500,10 +500,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/....html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_pachuca_2022.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/....html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_pachuca_2023.html"
                                     id="contenido22" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -551,12 +551,10 @@
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_Precio_oferta_2022_2023.html" width="800"
+                        <!-- Link de la gráfica -->                        
+                            <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_promedio_precio_segmento_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                
+                            style="display: block; margin: 0 auto;"></iframe>                
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>

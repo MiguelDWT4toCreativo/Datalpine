@@ -234,10 +234,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_m2_Total_puebla.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_m2_construidos_puebla.html"
                                     id="contenido1"></iframe>
                                 <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_m2_Terreno_puebla.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_m2_construidos_puebla.html"
                                     id="contenido2" class= "oculto">
                                 </iframe>
                             </div>
@@ -394,7 +394,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedioM2_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_precio_promedio_m2_puebla.html"
                             width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 

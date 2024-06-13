@@ -389,10 +389,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pastel_distpropsegment_tulancingo_2022.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_tulancingo_2022.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pastel_distpropsegment_tulancingo_2023.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_tulancingo_2023.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -422,11 +422,11 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_promedio_precio_segmento_tulancingo.html" width="800"
                             height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
-                        -->
+                        
                             <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>

@@ -164,7 +164,7 @@
                                     src="/datalpine/resources/jupyter/graficas/grafica_recamaras_puebla.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_recamaras_puebla.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_recamaras_puebla.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
