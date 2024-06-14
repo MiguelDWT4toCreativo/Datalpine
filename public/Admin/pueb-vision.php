@@ -107,7 +107,6 @@
                     <div class="col-12">
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <!--<h4 class="mb-sm-0 font-size-18">Puebla</h4>-->
-
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">Puebla</a></li>
@@ -152,7 +151,7 @@
                             <div class="mb-3">
                                 <h5 class="card-title"
                                     style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Mapa de calor<span class="text-muted fw-normal ms-2"></span>
+                                    Distribución de Propiedades<span class="text-muted fw-normal ms-2"></span>
                                 </h5>
                             </div>
                         </div>
@@ -255,8 +254,7 @@
                     <div class="mb-3">
                         <h5 class="card-title"
                             style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                            Mapa
-                            de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
+                            Distribución de Colonias<span class="text-muted fw-normal ms-2"></span></h5>
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 10px;">

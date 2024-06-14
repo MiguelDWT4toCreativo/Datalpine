@@ -150,14 +150,14 @@
                     <!--1.1. Distribución de la población por edad y género -->
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>1.1. Distribución de la población por edad y género</li>";
+                        echo "<li style='font-size: 20px;'>1.1.  Distribución de la población de Hidalgo por género y rango de edad</li>";                        
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica-->
                         <p style="text-align: center;">
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/Distribucion_población_edad_genero_tulancingo.html"></iframe>
+                                src="/datalpine/resources/jupyter/GraficasMiguel/.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -181,13 +181,13 @@
                     <!--1.2 Distribución de la población por edad y género Pachuca -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>1.2 Distribución de la población por edad y género Pachuca</li>";
+                        echo "<li style='font-size: 20px;'>1.2  Distribución de la población de Tulancingo por género y rango de edad</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/Distribucion_población_edad_genero_tulancingo.html"
+                            src="/datalpine/resources/jupyter/GraficasMiguel/.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;">
                         </iframe>
@@ -216,7 +216,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/distribucion_edades_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_cred_edad_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;">
                         </iframe>
@@ -334,8 +334,8 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
-                            <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/g_bar_Precio_oferta_2022_2023_tulancingo.html"></iframe>
+                            <!--<iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
+                                src="/datalpine/resources/jupyter/graficas/g_bar_Precio_oferta_2022_2023_tulancingo.html"></iframe>-->
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">

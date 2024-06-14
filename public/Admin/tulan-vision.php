@@ -145,71 +145,6 @@
                         completa de las transformaciones, tendencias y precios a lo largo del tiempo.
                     </p>
                     <!--Mapa de calor -->
-                    <div class="row align-items-center"
-                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                        <div class="col-md-6">
-                            <div class="subtitle-container">
-                                <h5 class="card-title subtitle">
-                                    Mapa de calor Colonias Tulancingo<span class="text-muted fw-normal ms-2"></span>
-                                </h5>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <!-- Link de la gráfica -->
-                            <div style="display: flex; justify-content: center; align-items: center;">
-                                <div style="flex: 1; margin-right: 20px;">
-                                    <iframe
-                                        src="/datalpine/resources/jupyter/mapas/tulancingo_property_map_filtered.html"
-                                        width="800" height="400" frameborder="0" id="contenido01"
-                                        style="display: block; margin: 0 auto;"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
-                        </div>
-
-                        <!-- Descripción -->
-                        <div class="description" id="description" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
-                            <p class="text">Este mapa
-                                interactivo despliega una representación visual de las colonias locales junto
-                                con información clave sobre el mercado inmobiliario como el el precio promedio
-                                tanto de propiedades como de m2 de terreno y m2 construido, de igual forma,
-                                engloba información sobre el promedio de recamaras, baños, cajones de
-                                estacionamiento y precios promedio de m2 de terreno y de construcción.
-                                Cada colonia se clasifica en un segmento específico, desde E (menor precio)
-                                hasta S (mayor precio), según el rango de precios de las propiedades y están
-                                representados de la siguiente manera:</p>
-                            <ul class="text">
-                                <li>SEGMENTO E: Menor a <strong>1M</strong> (Verde)</li>
-                                <li>SEGMENTO D: <strong>1M - 1.75M</strong> (Amarillo)</li>
-                                <li>SEGMENTO C: <strong>1.75M-2.5M</strong> (Azul)</li>
-                                <li>SEGMENTO B: <strong>2.5M-3.25</strong> (Morado)</li>
-                                <li>SEGMENTO A: <strong>3.25M-4M</strong> (Naranja)</li>
-                                <li>SEGMENTO S: <strong>4KK+</strong> (Rojo)</li>
-                            </ul>
-                        </div>
-                        <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
-                            <p class="text">
-                                En general podemos observar que, en Tulancingo Hidalgo predominan colonias de
-                                precios promedio bajos o accesibles, que forman parte del segmento E (Verde) y
-                                del segmento D (Amarillo). Dentro de las colonias con precio promedio más
-                                accesible del Segmento E: Colonia <strong>Guadalupe, Huapalcalco y el
-                                    Fraccionamiento de
-                                    la Rinconada la Morena</strong> resaltan con precios de <strong>$566,000.00
-                                    MXN</strong> hasta <strong>$995,000.00
-                                    MXN</strong> el máximo. Las colonias más caras en Tulancingo son:
-                                <strong>Fraccionamiento
-                                    Jardines del Sur, Felipe Angeles y Villas de Tulancingo</strong> con precios
-                                promedio que
-                                van desde <strong>$4,500,000.00 MXN</strong> hasta el máximo de
-                                <strong>$16,148,148.58 MXN</strong>.
-                            </p>
-                        </div>
-                    </div>
                     <!--Mapa de calor Propiedades -->
                     <div class="row align-items-center"
                         style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
@@ -217,8 +152,7 @@
                             <div class="mb-3">
                                 <h5 class="card-title"
                                     style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                    Mapa
-                                    de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
+                                    Distribución de Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
                             </div>
                         </div>
                         <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -280,6 +214,72 @@
                                 de propiedades.</p>
                         </div>
                     </div>
+                    <!--Colonias-->
+                    <div class="row align-items-center"
+                        style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                        <div class="col-md-6">
+                            <div class="subtitle-container">
+                                <h5 class="card-title subtitle">
+                                    Distribución de Colonias<span class="text-muted fw-normal ms-2"></span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                            <!-- Link de la gráfica -->
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <div style="flex: 1; margin-right: 20px;">
+                                    <iframe
+                                        src="/datalpine/resources/jupyter/mapas/tulancingo_property_map_filtered.html"
+                                        width="800" height="400" frameborder="0" id="contenido01"
+                                        style="display: block; margin: 0 auto;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                        </div>
+                        <!-- Descripción -->
+                        <div class="description" id="description" style="display: none;">
+                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <p class="text">Este mapa
+                                interactivo despliega una representación visual de las colonias locales junto
+                                con información clave sobre el mercado inmobiliario como el el precio promedio
+                                tanto de propiedades como de m2 de terreno y m2 construido, de igual forma,
+                                engloba información sobre el promedio de recamaras, baños, cajones de
+                                estacionamiento y precios promedio de m2 de terreno y de construcción.
+                                Cada colonia se clasifica en un segmento específico, desde E (menor precio)
+                                hasta S (mayor precio), según el rango de precios de las propiedades y están
+                                representados de la siguiente manera:</p>
+                            <ul class="text">
+                                <li>SEGMENTO E: Menor a <strong>1M</strong> (Verde)</li>
+                                <li>SEGMENTO D: <strong>1M - 1.75M</strong> (Amarillo)</li>
+                                <li>SEGMENTO C: <strong>1.75M-2.5M</strong> (Azul)</li>
+                                <li>SEGMENTO B: <strong>2.5M-3.25</strong> (Morado)</li>
+                                <li>SEGMENTO A: <strong>3.25M-4M</strong> (Naranja)</li>
+                                <li>SEGMENTO S: <strong>4KK+</strong> (Rojo)</li>
+                            </ul>
+                        </div>
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                                En general podemos observar que, en Tulancingo Hidalgo predominan colonias de
+                                precios promedio bajos o accesibles, que forman parte del segmento E (Verde) y
+                                del segmento D (Amarillo). Dentro de las colonias con precio promedio más
+                                accesible del Segmento E: Colonia <strong>Guadalupe, Huapalcalco y el
+                                    Fraccionamiento de
+                                    la Rinconada la Morena</strong> resaltan con precios de <strong>$566,000.00
+                                    MXN</strong> hasta <strong>$995,000.00
+                                    MXN</strong> el máximo. Las colonias más caras en Tulancingo son:
+                                <strong>Fraccionamiento
+                                    Jardines del Sur, Felipe Angeles y Villas de Tulancingo</strong> con precios
+                                promedio que
+                                van desde <strong>$4,500,000.00 MXN</strong> hasta el máximo de
+                                <strong>$16,148,148.58 MXN</strong>.
+                            </p>
+                        </div>
+                    </div>
+                    
 
                     <!-- Colonias en Tulancingo 
                     <div class="row align-items-center"

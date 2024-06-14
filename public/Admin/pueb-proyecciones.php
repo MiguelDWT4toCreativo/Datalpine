@@ -470,7 +470,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempomercado_pachuca.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXmercado_alfas_puebla.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;">
                         </iframe>
@@ -522,7 +522,7 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionpoblacional_hidalgo_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_proyeccionXpoblacional_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;">
                         </iframe>

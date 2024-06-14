@@ -154,14 +154,14 @@
                     <!--1.1. Distribución de la población por edad y género -->
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>1.1. Distribución de la población por edad y género</li>";
+                        echo "<li style='font-size: 20px;'>1.1. Distribución de la población de Hidalgo por género y rango de edad</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
                         <p style="text-align: center;">
                             <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_poblacion_edad_gen_pachuca.html"></iframe>
+                                src="/datalpine/resources/jupyter/GraficasMiguel/.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -200,13 +200,13 @@
                     <!--1.2 Distribución de la población por edad y género Pachuca -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>1.2 Distribución de la población por edad y género Pachuca</li>";
+                        echo "<li style='font-size: 20px;'>1.2 Distribución de la población de Pachuca por género y rango de edad</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_pachuca.html"
+                            src="/datalpine/resources/jupyter/GraficasMiguel/.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -425,8 +425,8 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
-                            <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html"></iframe>
+                            <!--<iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html"></iframe>-->
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -1089,10 +1089,10 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2022_pachuca.html"
                                     id="contenido36"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2023_pachuca.html"
                                     id="contenido37" style="display: none;"></iframe>
                             </div>

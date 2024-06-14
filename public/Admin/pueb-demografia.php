@@ -149,54 +149,17 @@
                                 1. Demográfico<span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
-                    </div>
-                    <!--1.1. Distribución de la población por edad y género -->
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <?php
-                        echo "<li style='font-size: 20px;'>1.1. Distribución de la población por edad y género</li>";
-                        echo "</ol>";
-                        echo "</ol>";
-                        ?>
-                        <!-- Link de la gráfica -->
-                        <p style="text-align: center;">
-                            <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_estado_2022_2023.html">
-                            </iframe>
-                        </p>
-                        <!-- Explicación de la gráfica -->
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
-                        </div>                            
-                        <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
-                            <p class="text">
-                                Distribución demográfica por rango de edad y género. La gráfica proporciona una
-                                representación visual de la población de Hidalgo para 2023, segmentada por rangos de
-                                edad y género para observar cómo se distribuye la población en el estado.
-                            </p>                            
-                        </div>
-                        <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
-                            <p class="text">
-                                En la pirámide poblacional de Hidalgo se tiene registro de <strong>3,082,841</strong>
-                                habitantes de los cuales <strong>2,907,688</strong> pertenecen a la población ocupada, <strong>28.3%</strong>
-                                se encuentra en un empleo formal y <strong>71.1%</strong> en informal. Y de la población de
-                                menores de 29 años representan <strong>30.5%</strong>, personas de <strong>30 a 60
-                                años</strong> con <strong>36.9%</strong>, y mayores de 64 años con <strong>8.6%</strong>.
-                            </p>                            
-                        </div>
-                    </div>
-                    <!--1.2 Distribución de la población por edad y género Pachuca -->
+                    </div>                    
+                    <!--1.2 Distribución de la población por edad y género Estado -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>1.2 Distribución de la población por edad y género Pachuca</li>";
+                        echo "<li style='font-size: 20px;'>1.1 Distribución de la población de Puebla por género y rango de edad</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/distribucion_poblacion_edad_genero_pachuca.html"
+                            src="/datalpine/resources/jupyter/GraficasMiguel/.html"
                             width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
                         <!-- Explicación de la gráfica -->
@@ -208,7 +171,7 @@
                             <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de la estructura demográfica de la población de la Zona
-                                Metropolitana de Pachuca por grupos de edad y género, se tiene un
+                                Metropolitana de Puebla por grupos de edad y género, se tiene un
                                 registro de <strong>314,331 habitantes</strong> de los cuales los menores de <strong>29</strong> años
                                 representan <strong>28.0%</strong>, personas de <strong>30 a 60 años</strong>
                                 con <strong>32.8%</strong>, y mayores de 64 años con <strong>4.3%</strong>.
@@ -219,7 +182,7 @@
                                 <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
                                 <p class="text">
                                     Distribución de la estructura demográfica de la población de la <strong>Zona
-                                        Metropolitana de Pachuca</strong> por grupos de edad y género, se tiene un
+                                        Metropolitana de Puebla</strong> por grupos de edad y género, se tiene un
                                         registro de <strong>314,331 habitantes</strong> de los cuales los menores de 29 años
                                         representan <strong>28.0%</strong>, personas de <strong>30 a 60 años</strong>
                                         con <strong>32.8%</strong>, y mayores de 64 años con <strong>4.3%</strong>.
@@ -229,12 +192,12 @@
                         <!--1.3 Distribución de créditos por grupos de edad-->
                         <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                             <?php
-                            echo "<li style='font-size: 20px;'>1.3 Distribución de créditos por grupos de edad</li>";
+                            echo "<li style='font-size: 20px;'>1.2 Distribución de créditos por grupos de edad</li>";
                             echo "</ol>";
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/graficas/distribucion_creditos_grupos_edad.html"
+                            <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_cred_edad_puebla.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
                                 style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
@@ -269,8 +232,6 @@
                             </div>                            
                         </div>
                     </div>
-                
-
                 <!--2. Precio de oferta-->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
@@ -388,9 +349,9 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
-                            <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                            <!--<iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html">
-                            </iframe>
+                            </iframe>-->
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">

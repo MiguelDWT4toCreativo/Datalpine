@@ -138,8 +138,8 @@
                     <div class="col-md-6">
                         <div class="subtitle-container">
                             <h5 class="card-title subtitle">
-                                Mapa
-                                de calor Propiedades<span class="text-muted fw-normal ms-2"></span></h5>
+                            Distribución de Propiedades
+                            <span class="text-muted fw-normal ms-2"></span></h5>
                         </div>
                     </div>
                     <!-- Link de la gráfica -->
@@ -192,7 +192,7 @@
                     <div class="col-md-6">
                         <div class="subtitle-container">
                             <h5 class="card-title subtitle">
-                                Mapa de Calor<span class="text-muted fw-normal ms-2"></span>
+                            Distribución de Colonias <span class="text-muted fw-normal ms-2"></span>
                             </h5>
                         </div>
                     </div>
