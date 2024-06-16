@@ -159,7 +159,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/GraficasMiguel/.html"
+                            src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_poblacion_edad_gen_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
                         <!-- Explicación de la gráfica -->
@@ -251,7 +251,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/Precio_oferta_2022_2023.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_promedio_precio_oferta_puebla_2023.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -349,9 +349,9 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
-                            <!--<iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/Porcentaje_vivienda_ofertadas_antigüedad.html">
-                            </iframe>-->
+                            <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_porcentaje_vivienda_ofertadas_antigüedad_puebla.html">
+                            </iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">

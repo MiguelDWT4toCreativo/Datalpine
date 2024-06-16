@@ -135,12 +135,12 @@
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
                 <!--1. Segmentos -->
                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
+                    style="border: 1px solid #ccc; border-radius: 5px; padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
                         <div class="subtitle-container">
                             <h5 class="card-title subtitle">
-                                1.
-                                Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
+                                1. Segmentos<span class="text-muted fw-normal ms-2"></span>
+                            </h5>
                         </div>
                     </div>
                     <!--1.1 Distribución de segmentos -->
@@ -151,14 +151,12 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distriXsegmentos_pachuca.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distriXsegmentos_pachuca.html" 
+                            width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
                         </div>
-
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
                             <div class="subtitle"><span class="icon">📝</span>Descripción:</div>

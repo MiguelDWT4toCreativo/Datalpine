@@ -147,8 +147,8 @@
                     <div class="col-md-6">
                         <div class="subtitle-container">
                             <h5 class="card-title subtitle">
-                                1.
-                                Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
+                                1. Segmentos<span class="text-muted fw-normal ms-2"></span>
+                            </h5>
                         </div>
                     </div>
                     <!--1.1 Distribución de segmentos -->
@@ -159,7 +159,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_segmentos_tulancingo.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 

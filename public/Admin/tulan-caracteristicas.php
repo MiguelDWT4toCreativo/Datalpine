@@ -158,9 +158,9 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_recamaras_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_recamaras_tulancingo.html"
                                     id="contenido1"></iframe>
-                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_recamaras_tulancingo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
@@ -241,10 +241,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_baños_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_baños_tulancingo.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_baños_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_baños_tulancingo.html"
                                     id="contenido4" style="display: none;"></iframe>
                             </div>
                         </div>

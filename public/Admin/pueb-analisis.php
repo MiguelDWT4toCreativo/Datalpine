@@ -32,12 +32,13 @@
         }
 
         .interpretation {
-            margin-bottom: 30px;
-            padding: 25px;
-            background-color: #fef4e9;
-            border-left: 8px solid #FFA500;
-            border-radius: 10px;
-            margin-top: 30px;
+            /*margin-bottom: 10px;*/
+            padding: 10px;
+            background-color: #FOFOFO; /*FOFOFO*/ 
+            /*border-left: 8px solid #FFA500;
+            border-radius: 10px;*/
+            margin-top: 10px;
+            box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.5);
         }
 
         .text {
@@ -137,10 +138,10 @@
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
                     <div class="col-md-6">
-                        <div class="mb-3">
-                            <h5 class="card-title"
-                                style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold;">
-                                1. Segmentos<span class="text-muted fw-normal ms-2"></span></h5>
+                        <div class="subtitle-container">
+                            <h5 class="card-title subtitle">
+                                1. Segmentos<span class="text-muted fw-normal ms-2"></span>
+                            </h5>
                         </div>
                     </div>
                     <!--1.1 Distribución de segmentos -->
@@ -151,7 +152,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_puebla.html" width="1000"
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_segmentos_puebla.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;">
                         </iframe>
@@ -305,7 +306,8 @@
                          -->
                          <!-- Interpretación -->
                     <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <!--<div class="subtitle"><span class="icon">📊</span>Interpretación:</div>-->
+                        <div class="text">Interpretación:</div>
                         <ul class="text">
                         <li><strong>Segmento S:</strong> Posee una concentración de propiedades con un
                                         tamaño de construcción de <strong>0-100m2</strong> y mayor a los <strong>300
@@ -327,39 +329,12 @@
                     </div>                      
                     </div>
                 </div> <!--Final Segmentos-->
-                <div class="row align-items-center"
+                <!--<div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    +
-                   
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444;">
-                                    Distribución M2 de terreno por rango para las propiedades en diferentes segmentos
-                                    (S, A, B, C, D, E). En base a los metros cuadrados de terreno, visualiza la
-                                    agrupación según su tamaño disponible permitiendo una visión rápida y clara de cómo
-                                    se distribuyen los terrenos en términos de tamaño y cuales son más predominantes en
-                                    un cierto mercado inmobiliario.
-                                    cierto mercado inmobiliario.
-                                </p>
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>Si una barra es alta, significa que hay muchas propiedades
-                                        que
-                                        tienen un
-                                        tamaño de construcción dentro de ese rango específico.</li>
-                                    <li>Si una barra es baja, existen menos propiedades en ese rango
-                                        en
-                                        particular.</li>
-                                </ul>
-                            </div>
-                        </div>
+                    +                   -->
+                        <!-- Explicación de la gráfica -->                        
                         <!-- Interpretación -->
-                    <div class="interpretation">
+                    <!--<div class="interpretation">
                         <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
                             <ul class="text">
                                 <li><strong>Segmento S:</strong> Predominan los terrenos con <strong>150-200
@@ -380,7 +355,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!-- 4. Precio promedio por M2 totales -->
                 <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
