@@ -21,7 +21,7 @@
         }
 
         .subtitle {
-            font-size: 1.8em;
+            font-size: 1.5em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -29,26 +29,28 @@
 
         .description {
             display: none;
-            margin-top: 20px;
-            padding: 25px;
-            background-color: #e9f5ff;
-            border-left: 8px solid #007BFF;
-            border-radius: 10px;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: #FOFOFO;
+            /*border-left: 8px solid #007BFF;
+            border-radius: 10px;*/
         }
 
         .interpretation {
-            margin-bottom: 30px;
-            padding: 25px;
-            background-color: #fef4e9;
-            border-left: 8px solid #FFA500;
-            border-radius: 10px;
-            margin-top: 30px;
+            /*margin-bottom: 10px;*/
+            padding: 10px;
+            background-color: #FOFOFO; /*FOFOFO*/ 
+            /*border-left: 8px solid #FFA500;
+            border-radius: 10px;*/
+            margin-top: 3px;
+            /*box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.5);*/
         }
 
         .text {
-            font-size: 1.2em;
+            font-size: 1em;
             line-height: 1.8;
             color: #555;
+            text-align: justify;
         }
 
         .icon {
@@ -170,21 +172,17 @@
                                 del valor promedio de las viviendas.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                                En el año <strong>2023</strong>, el precio medio de las propiedades en Pachuca se situó en
+                                <strong>$2,039,843.00</strong>, y se anticipa que este valor mantendrá una
+                                trayectoria
+                                de crecimiento constante, alcanzando los <strong>$2,644,873.55</strong> en el año
+                                <strong>2026</strong>.
                             </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">En el año
-                                    <strong>2023</strong>, el precio medio de las propiedades en Pachuca se situó en
-                                    <strong>$2,039,843.00</strong>, y se anticipa que este valor mantendrá una
-                                    trayectoria
-                                    de crecimiento constante, alcanzando los <strong>$2,644,873.55</strong> en el año
-                                    <strong>2026</strong>.
-                                </p>
-                            </div>
-                        </div>
+                        </div>                       
                     </div>
                 </div>
                 <!-- Plusvalía estimada (5 años) -->
@@ -232,21 +230,17 @@
                                 crecimiento o reducción en el precio de las viviendas.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Los datos revelan una proyección ascendente en la plusvalía del precio promedio de
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                            Los datos revelan una proyección ascendente en la plusvalía del precio promedio de
                                     las viviendas en Pachuca para los próximos años. En el año <strong>2023</strong>, se
                                     muestra un valor de <strong>$3,534,894.07</strong>, evidenciando un crecimiento
                                     significativo que se espera continúe de manera constante hasta alcanzar
                                     <strong>$14,633,277.84</strong> en el año <strong>2026</strong>.
-                                </p>
-                            </div>
-                        </div>
+                            </p>
+                        </div>                        
                     </div>
                 </div>
                 <!-- Forecast créditos generales (cantidad) -->
@@ -283,6 +277,7 @@
                                     viviendas nuevas y usadas
                             </p>                           
                         </div>
+                        s
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -537,21 +532,17 @@
                                     en una región o área geográfica específica a lo largo de varios años.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    La estimación poblacional revela un crecimiento progresivo en la región a lo largo
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                                La estimación poblacional revela un crecimiento progresivo en la región a lo largo
                                     de los años <strong>2020 a 2026</strong>. Iniciando con <strong>6,583,278
                                         habitantes</strong> en <strong>2020</strong>, la población
                                     experimenta un incremento constante, alcanzando los <strong>11,556,676</strong>
                                     habitantes en <strong>2026</strong>.
-                                </p>
-                            </div>
-                        </div>
+                            </p>
+                        </div>                             
                     </div>
                 </div>
                 <!-- Riesgo -->

@@ -335,7 +335,7 @@
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
                             <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_porcentaje_vivienda_ofertadas_antigüedad_tulancingo.html"></iframe>
+                                src="/datalpine/resources/jupyter/GraficasMiguel/.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">

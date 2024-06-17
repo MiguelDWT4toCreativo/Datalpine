@@ -11,6 +11,7 @@
     <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
             <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
+            <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
 
 
     <?php include 'layouts/head-style.php'; ?>
@@ -353,12 +354,10 @@
                             </h5>
                         </div>
                     </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                    
-                    <!--
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_persona_pachuca.html" width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                    -->                        
-                
+                    <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">   
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_Xpersona_tulgo.html"
+                            width="1000" height="400" frameborder="0" id="contenido01"
+                            style=" display: block; margin: 0 auto;"></iframe>                                     
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
@@ -401,30 +400,9 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!--
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Segmentos</h5>
-                                        <iframe
-                                            src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_parejas_pachuca.html"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Rango en $</h5>
-                                        <iframe src="/datalpine/resources/jupyter/graficas/mercadosalarial.png"
-                                            width="100%" height="300" frameborder="0" style="border: none;"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                -->                        
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadoXsalarial_parejas_TULGO.html"
+                            width="1000" height="400" frameborder="0" id="contenido01"
+                            style=" display: block; margin: 0 auto;"></iframe> 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
@@ -464,13 +442,10 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
-                        <!-- Link de la gráfica PENDIENTE-->
-                        
-                        <iframe
-                            src="/datalpine/resources/jupyter/graficas/.html"
+                        <!-- Link de la gráfica PENDIENTE-->   
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_Xparejas_TULGO.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;"></iframe>
-                
+                            style=" display: block; margin: 0 auto;"></iframe>                                                            
                 <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
@@ -522,28 +497,40 @@
                     <!-- Salario Individual -->
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <?php
-                        echo "<li style='font-size: 20px;'>Salario Individual</li>";
+                        echo "<li style='font-size: 20px;'>6.1 Salario Individual</li>";
                         echo "</ol>";
                         echo "</ol>";
                         ?>
-                        <!-- Link de la gráfica PENDIENTE-->
-                        <!--                    
-                            <div class="tables-plotly">
-                                <iframe class="table-iframe" src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
-                            </div>
-                        -->
+                        <!-- Link de la gráfica -->
+                        <div class="tables-plotly">
+                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_tulgo.html" width="800"
+                            max-height="600" frameborder="0" id="contenido01" onload="resizeIframe(this)"
+                                style="display: block;margin: 0px auto;min-height: 410px;"></iframe>
+                                <script>
+                                    function resizeIframe(iframe) {
+                                        iframe.contentWindow.document.body.style.margin = '0'; // Elimina el margen del cuerpo del documento en el iframe
+                                        iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px'; // Ajusta la altura del iframe según el contenido
+                                    }
+                                    // Escucha el evento 'resize' del contenido del iframe
+                                    window.addEventListener('message', function(event) {
+                                        if (event.data && event.data.type === 'resizeIframe') {
+                                            var iframe = document.getElementById('contenido01');
+                                            iframe.style.height = event.data.height + 'px';
+                                        }
+                                    }, false);
+                                </script>
+                        </div>
                         <!-- Explicación de la gráfica -->
-                            <!-- Interpretación -->
-                            <div class="interpretation">
-                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
-                                <p class="text">
-                                Explora nuestra plataforma para conocer las profesiones que lideran los ingresos
-                                    y
+                        <!-- Interpretación -->
+                        <div class="interpretation">
+                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <p class="text">
+                                    Explora nuestra plataforma para conocer las profesiones que lideran los ingresos y
                                     aquellas que presentan retos económicos. Obtén información detallada sobre los
-                                    salarios, tendencias y perspectivas profesionales, brindándote una visión clara
-                                    de
-                                    las carreras más y menos lucrativas en el mercado laboral actual.</p>
-                            </div>                       
+                                    salarios, tendencias y perspectivas profesionales, brindándote una visión clara de
+                                    las carreras más y menos lucrativas en el mercado laboral actual.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- end row -->
@@ -625,7 +612,41 @@
         }
     }
 </script>
+<script>
+        function injectCSSIntoIframe(iframe) {
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+            var link = iframeDocument.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/datalpine/public/Admin/assets/css/iframe-styles.css'; // Ruta al archivo CSS
+            iframeDocument.head.appendChild(link);
+        }
 
+        function injectCSSIntoAllIframes() {
+            var iframes = document.querySelectorAll('iframe.table-iframe');
+            iframes.forEach(function(iframe) {
+                iframe.onload = function() {
+                    injectCSSIntoIframe(iframe);
+                };
+                // Si el iframe ya está cargado, inyecta el CSS inmediatamente
+                if (iframe.contentDocument.readyState === 'complete') {
+                    injectCSSIntoIframe(iframe);
+                }
+            });
+        }
+
+        // Inyectar CSS a todos los iframes al cargar la página
+        window.onload = injectCSSIntoAllIframes;
+    </script>
+    <script>
+    function mostrar(id) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            iframes[i].style.display = 'none';
+        }
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
 </body>
 
 </html>

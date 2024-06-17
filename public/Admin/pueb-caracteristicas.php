@@ -20,7 +20,7 @@
         }
 
         .subtitle {
-            font-size: 1.8em;
+            font-size: 1.5em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,26 +28,28 @@
 
         .description {
             display: none;
-            margin-top: 20px;
-            padding: 25px;
-            background-color: #e9f5ff;
-            border-left: 8px solid #007BFF;
-            border-radius: 10px;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: #FOFOFO;
+            /*border-left: 8px solid #007BFF;
+            border-radius: 10px;*/
         }
 
         .interpretation {
-            margin-bottom: 30px;
-            padding: 25px;
-            background-color: #fef4e9;
-            border-left: 8px solid #FFA500;
-            border-radius: 10px;
-            margin-top: 30px;
+            /*margin-bottom: 10px;*/
+            padding: 10px;
+            background-color: #FOFOFO; /*FOFOFO*/ 
+            /*border-left: 8px solid #FFA500;
+            border-radius: 10px;*/
+            margin-top: 3px;
+            /*box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.5);*/
         }
 
         .text {
-            font-size: 1.2em;
+            font-size: 1em;
             line-height: 1.8;
             color: #555;
+            text-align: justify;
         }
 
         .icon {
