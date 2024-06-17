@@ -106,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="w-100">
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
-                                <a href="index.php" class="d-block auth-logo">
+                                <a href="pages-pricing.php" class="d-block auth-logo">
                                     <img src="assets/images/LogoD1.jpg" alt="" height="28"> <span
                                         class="logo-txt">DatAlpine</span>
                                 </a>
@@ -191,7 +191,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>
 
                                 <div class="mt-5 text-center">
-                                    <p class="text-muted mb-0">¿No tienes una cuenta? <a href="auth-register.php"
+                                    <p class="text-muted mb-0">¿No tienes una cuenta? <a href="pages-pricing.php"
                                             class="text-primary fw-semibold"> Solicítala aquí </a> </p>
                                 </div>
                             </div>

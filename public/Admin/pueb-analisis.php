@@ -307,8 +307,8 @@
                          -->
                          <!-- Interpretación -->
                     <div class="interpretation">
-                        <!--<div class="subtitle"><span class="icon">📊</span>Interpretación:</div>-->
-                        <div class="subtitle"><strong>Interpretació</strong>n:</div>
+                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <!--<div class="subtitle"><strong>Interpretació</strong>n:</div>-->
                         <ul class="text">
                         <li><strong>Segmento S:</strong> Posee una concentración de propiedades con un
                                         tamaño de construcción de <strong>0-100m2</strong> y mayor a los <strong>300
