@@ -144,7 +144,8 @@
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
-                    transformaciones, tendencias y precios a lo largo del tiempo.</p>
+                    transformaciones, tendencias y precios a lo largo del tiempo.
+                </p>
                  <!--Mapa de calor Propiedades -->
                  <div class="row align-items-center"
                     style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">

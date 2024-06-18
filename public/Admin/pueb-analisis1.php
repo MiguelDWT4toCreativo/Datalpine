@@ -168,18 +168,13 @@
                         <!-- Link de la gráfica -->
                         <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_segmentos_puebla.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
-                            style="display: block; margin: 0 auto;">
+                            style="width: 100%; min-height: 430px; border: 0;" 
                         </iframe>
-                        <!-- Explicación de la gráfica -->                       
-                        
+                        <!-- Explicación de la gráfica -->
+
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2','description222',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2',this)">Descripción</button>
                         </div> 
-                        <!-- Descripción -->
-                        <div class="description" id="description222" style="display: none;">
-                                <p class="text">
-                                </p>
-                            </div>
                         <div class="description" id="description2" style="display: none;">
                             <p class="text">
                             Distribución de segmentos. Conoce la participación en el mercado

@@ -519,8 +519,8 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <div class="tables-plotly">
-                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_puebla.html" width="800"
-                                height="400" frameborder="0" id="contenido01" onload="resizeIframe(this)"
+                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profesion_puebla_act.html" width="800"
+                                height="600" frameborder="0" id="contenido01" onload="resizeIframe(this)"
                                 style="display: block;margin: 0px auto;min-height: 410px;"></iframe>
                                 <script>
                                     function resizeIframe(iframe) {
@@ -536,9 +536,15 @@
                                     }, false);
                                 </script>
                         </div>
-                        <!-- Explicación de la gráfica -->
+                        <!-- Explicación de la gráfica -->                        
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('interpretación77',this)">Interpretación</button>
+                            <!--<button class="mostrar" onclick="toggleDescription('description37', 'interpretación77',this)">Descripción</button>-->
+                            <button class="mostrar" onclick="toggleDescription('interpretación77', 'description37',this)">Interpretación</button>
+                        </div>
+                        <div class="description" id="description37" style="display: none;">
+                            <p class="text">
+                                   
+                            </p>                            
                         </div>
                         <!-- Interpretación -->
                         <div class="interpretation"id="interpretación77" style="display: none;">

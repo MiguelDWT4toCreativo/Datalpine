@@ -419,20 +419,25 @@
                             echo "</ol>";
                             ?>
                             <div>
-                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
-                                    value="2022">
+                                <!--<input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido1')"
+                                    value="2022">-->
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido2')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido24')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                <!--<iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/.html"
-                                    id="contenido1"></iframe>
+                                    id="contenido1"></iframe>-->
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/.html"
-                                    id="contenido2" style="display: none;"></iframe>
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_puebla_2023.html"
+                                    id="contenido2" ></iframe>
+                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_puebla_2024.html"
+                                    id="contenido24" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -472,10 +477,10 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
-                        <!-- 
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" width="800"
+                        
+                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_promedio_precio_oferta_puebla_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
-                        </iframe>-->
+                        </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description8', 'interpretación8',this)">Descripción</button>
