@@ -156,7 +156,7 @@ body[data-bs-theme=dark] .layout-mode-light {
 .header-profile-user {
   height: 36px;
   width: 36px;
-  background-color: var(--bs-gray-600);
+  /*background-color: var(--bs-gray-600);*/
   padding: 3px;
 }
 
@@ -252,7 +252,8 @@ body[data-topbar=dark] .header-item.bg-light-subtle {
   background-color: rgba(255, 255, 255, 0.04) !important;
 }
 body[data-topbar=dark] .header-profile-user {
-  background-color: rgba(255, 255, 255, 0.25);
+  /*background-color: rgba(255, 255, 255, 0.25);*/
+  background-color: #b4b4b4;
 }
 body[data-topbar=dark] .noti-icon i {
   color: #e9ecef;
@@ -3928,13 +3929,13 @@ div.dataTables_wrapper div.dataTables_info {
 
 
 .auth-bg {
-  background-image: url("../images/login_datalpine.jpg");
+  background-image: url("../images/auth-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .auth-bg .bg-overlay {
-  opacity: 0.9;
+  opacity: 0.3;
 }
 @media (min-width: 768px) {
   .auth-bg {

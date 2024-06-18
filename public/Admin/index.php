@@ -385,12 +385,10 @@
                     <section id="analytics" style="padding: 50px 0;">
                         <div class="container">
                             <h2 class="text-center">Inteligencia de Mercado Personalizada</h2>
-                            <p class="text-center">DatAlpine ofrece un análisis detallado y personalizado de
-                                tendencias,
-                                precios y segmentación del mercado inmobiliario en México, proporcionando a
-                                los usuarios
+                            <p class="text-center">DatAlpine ofrece un análisis detallado y personalizado de tendencias,
+                                precios y segmentación del mercado inmobiliario en México, proporcionando a los usuarios
                                 información precisa para tomar decisiones estratégicas.</p>
-                            <div class="row">
+                            <div class="row" style="align:center">
                                 <div class="col-lg-12">
                                     <canvas id="market-chart"></canvas>
                                 </div>

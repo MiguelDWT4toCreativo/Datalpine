@@ -11,6 +11,7 @@
 
     <?php include 'layouts/head-style.php'; ?>
 
+    
     <style>
         .subtitle-container {
             display: flex;
@@ -21,6 +22,12 @@
 
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -37,7 +44,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -46,7 +55,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -59,12 +68,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -74,9 +83,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -166,11 +178,11 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de la estructura demográfica de la población de la Zona
                                 Metropolitana de Puebla por grupos de edad y género, se tiene un
@@ -180,8 +192,7 @@
                                 </p>
                             </div>
                             <!-- Interpretación -->
-                            <div class="interpretation">
-                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <div class="interpretation" id="interpretación2" style="display: none;">
                                 <p class="text">
                                     Distribución de la estructura demográfica de la población de la <strong>Zona
                                         Metropolitana de Puebla</strong> por grupos de edad y género, se tiene un
@@ -204,11 +215,11 @@
                                 style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
                             <div class="mostrar-container">
-                                <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
-                            </div>
+                            <button class="mostrar" onclick="toggleDescription('description3', 'interpretación3',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación3', 'description3',this)">Interpretación</button>
+                        </div>
                                 <!-- Descripción -->
                             <div class="description" id="description3" style="display: none;">
-                                <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                                 <p class="text">
                                     Distribución de créditos por grupos de edad. Identifica cómo se
                                     distribuyen los préstamos en función de un grupo demográfico que revela
@@ -222,8 +233,7 @@
                                 </ul>
                             </div>
                             <!-- Interpretación -->
-                            <div class="interpretation">
-                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                            <div class="interpretation" id="interpretación3" style="display: none;">
                                 <p class="text">
                                     La gráfica de pastel revela que en Pachuca de Soto el <strong>76.6%</strong> de los
                                     titulares de créditos tienen entre <strong>30 y 59 años</strong>, destacando la actividad
@@ -258,11 +268,11 @@
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description4', 'interpretación4',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación4', 'description4',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description4" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Precios de oferta para viviendas desde octubre de 2022 hasta septiembre de
                                 2023. Explora la tendencia de los precios de las casas en este periodo de
@@ -279,8 +289,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación4" style="display: none;">
                             <p class="text">
                                 En los últimos doce meses, el mercado inmobiliario en Pachuca ha
                                     experimentado fluctuaciones en los precios de las propiedades. A pesar de
@@ -305,11 +314,11 @@
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description5', 'interpretación5',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación5', 'description5',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description5" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Representación de la mediana de precios en el mercado durante el período de
                                 2022-2023. Observa una vista general en la tendencia de precios medianos en
@@ -324,8 +333,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation"id="interpretación5" style="display: none;">
                             <p class="text">
                                 La gráfica muestra cómo han variado los precios medios de las viviendas de
                                 <strong>octubre de 2022</strong> a <strong>septiembre de 2023</strong>.
@@ -357,11 +365,11 @@
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description6', 'interpretación6',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación6', 'description6',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description6" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Proporción de las viviendas ofertadas por años de antigüedad de 2022-2023.
                                 Visualiza el panorama y la dinámica de la concentración en función de las
@@ -376,8 +384,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación6" style="display: none;">
                             <p class="text">
                                 La gráfica muestra la proporción de viviendas ofertadas según su antigüedad durante los años <strong>2022 y 2023</strong>.
                             </p>
@@ -430,11 +437,11 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description7', 'interpretación7',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación7', 'description7',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description7" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Concentración y distribución de propiedades por segmento de mercado, durante 2022- 2023.
                             </p>
@@ -446,8 +453,7 @@
                             </p>                            
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación7" style="display: none;">
                             <p class="text">
                                     Podemos observar concentraciones en 2022 y 2023 del <strong>28% y 29.1%</strong> respectivamente en casas del segmento S con un valor
                                     promedio del  <strong>$6.681,071</strong>, seguidas de viviendas del segmento C con 
@@ -472,11 +478,11 @@
                         </iframe>-->
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description8', 'interpretación8',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación8', 'description8',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description8" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Clasificación de mercados por segmento e índice de precio asociados a cada uno de ellos.
                             </p>
@@ -485,8 +491,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación8" style="display: none;">
                             <p class="text">
                                 La gráfica presenta los precios promedio por segmento en el mercado de Pachuca.
                             </p>
@@ -521,11 +526,11 @@
                         </iframe>                        
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description9')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description9', 'interpretación9',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación9', 'description9',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description9" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Variación y cambio precios que se han presentado en cada trimestre entre el 2022 y 2023, correspondientes a las diferentes clasificaciones y/o segmentos de mercado.
                             </p>
@@ -537,8 +542,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación9" style="display: none;">
                             <p class="text">
                                 La gráfica representa la variación y cambio de precios que se han presentado
                                 en cada trimestre entre 2022 y 2023, correspondientes a los diferentes segmentos de mercado.
@@ -599,11 +603,11 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description10')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description10', 'interpretación10',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación10', 'description10',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description10" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos para viviendas adquiridos para cada segmento del mercado.
                                 Contempla que tipo de propiedades son más populares entre los compradores que utilizan financiamiento.
@@ -615,8 +619,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->  
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación10" style="display: none;">
                             <p class="text">
                                 En el año <strong>2023</strong>, la distribución de créditos presenta algunas
                                 variaciones con respecto a <strong>2022</strong>. 
@@ -808,11 +811,11 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description13')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description13', 'interpretación13',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación13', 'description13',this)">Interpretación</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description13" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Tendencia del valor promedio de los créditos para viviendas nuevas y de uso a lo largo de 2022 en el mercado inmobiliario.
                             </p>
@@ -825,8 +828,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->  
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación13" style="display: none;">
                             <p class="text">
                                 En la gráfica podemos ver el comportamiento del promedio de valor de crédito
                                 para viviendas nuevas y usadas a lo largo de los últimos años.
@@ -919,11 +921,11 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description010')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description010', 'interpretación010',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación010', 'description010',this)">Interpretación</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description010" style="display: none;">
-                                <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                                 <p class="text">
                                     Visualiza la distribución de créditos según el porcentaje de Unidades de Medida y Actualización (UMAS)
                                 </p>
@@ -931,8 +933,7 @@
                                 </ul>
                         </div>
                         <!-- Interpretación -->  
-                        <div class="interpretation">
-                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación010" style="display: none;">
                                 <p class="text">
                                     La distribución de créditos por porcentaje de (UMAS) muestra cambios
                                     significativos entre los años <strong>2022 y 2023</strong>.       
@@ -980,11 +981,11 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description01')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description01', 'interpretación00',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación00', 'description01',this)">Interpretación</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description01" style="display: none;">
-                                <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                                 <p class="text">
                                     La distribución porcentual de créditos por organismo muestra la participación de diferentes
                                     entidades financieras en el otorgamiento de préstamos hipotecarios durante los años <strong>2022 y 2023</strong>.
@@ -997,8 +998,7 @@
                                 </ul>
                         </div>
                         <!-- Interpretación -->  
-                        <div class="interpretation">
-                                <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación00" style="display: none;">
                                 <p class="text">
                                     En el año <strong>2022</strong>, el INFONAVIT representó el mayor porcentaje de créditos, con un <strong>35.0%</strong>,
                                     seguido por la CNBV con un <strong>42.9%</strong> y el FOVISSSTE con un <strong>21.6%</strong>. 
@@ -1041,13 +1041,12 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description181')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description181',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description181" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
-                            Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que representan las proporciones de los créditos otorgados al valor de la vivienda clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.
+                                Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que representan las proporciones de los créditos otorgados al valor de la vivienda clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.
                             </p>                            
                         </div>
                     </div>
@@ -1094,15 +1093,29 @@
     }
 </script>
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 </body>
 
 </html>

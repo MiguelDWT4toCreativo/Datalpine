@@ -7,6 +7,7 @@
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
+    
     <style>
         .subtitle-container {
             display: flex;
@@ -17,6 +18,12 @@
 
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -33,7 +40,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -42,7 +51,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -55,12 +64,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -70,9 +79,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -156,12 +168,12 @@
                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distriXsegmentos_pachuca.html" 
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
-                        </div>
+                            <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
+                        </div> 
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de segmentos. Conoce la participación en el mercado
                                 inmobiliario por segmentos (S, A, B, C, D, E). Cada sección representa el
@@ -169,8 +181,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación" style="display: none;">
                         <p class="text">
                             La gráfica revela una distribución variada de propiedades en diferentes
                             rangos de precios en el mercado inmobiliario. El análisis del comportamiento
@@ -238,12 +249,12 @@
                             </div>
                         </div>
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
-                        </div>
+                            <button class="mostrar" onclick="toggleDescription('description1', 'interpretació1n',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretació1n', 'description1',this)">Interpretación</button>
+                        </div> 
                         <!-- Explicación de la gráfica -->
                         <!-- Descripción -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución por M2 de construcción por rango para las
                                 propiedades
@@ -271,8 +282,7 @@
                         </div>
                     </div>
 
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretació1n" style="display: none;">
                         <ul class="text">
                             <li><strong>Segmento S:</strong> Posee una alta concentración de
                                 propiedades con
@@ -335,12 +345,12 @@
 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
-                        </div>
+                            <button class="mostrar" onclick="toggleDescription('description2', 'interpretació1n2',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretació1n2', 'description2',this)">Interpretación</button>
+                        </div> 
 
                         <!-- Descripción -->
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Este análisis visual presenta la variación en costos por metro cuadrado
                                 en distintos segmentos inmobiliarios. Se observa un aumento progresivo
@@ -350,8 +360,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretació1n2" style="display: none;">
                         <p class="text">
                             La gráfica presenta los precios promedio por metro cuadrado en
                             diferentes rangos, ofreciendo una perspectiva clara de la variación de
@@ -406,15 +415,29 @@
 </script>
 
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 
 </body>
 

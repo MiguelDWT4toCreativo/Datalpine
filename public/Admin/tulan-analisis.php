@@ -14,6 +14,7 @@
 
     <?php include 'layouts/head-style.php'; ?>
 
+    
     <style>
         .subtitle-container {
             display: flex;
@@ -24,6 +25,12 @@
 
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -40,7 +47,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -49,7 +58,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -62,12 +71,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -77,9 +86,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -167,12 +179,12 @@
 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
                         </div>
 
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de segmentos. Conoce la participación en el mercado inmobiliario por
                                 segmentos (S, A, B, C, D, E). Cada sección representa el porcentaje o proporción en
@@ -181,8 +193,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación" style="display: none;">
                         <p class="text">
                             En la gráfica de distribución de segmentos de las propiedades, podemos observar que
                             el segmento que tiene mayor presencia es el <strong>D, sobre todo en el segmento D2
@@ -229,12 +240,11 @@
 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description1', 'interpretación1',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación1', 'description1',this)">Interpretación</button>
                         </div>
-
                         <!-- Descripción -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución por M2 de construcción por rango para las propiedades en diferentes
                                 segmentos (S, A, B, C, D, E). En función de la cantidad de metros cuadrados de
@@ -251,8 +261,7 @@
                         </div>
 
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación1" style="display: none;">
                             <p class="text">
                                 <strong>General:</strong> El mercado inmobiliario de Tulancingo muestra
                                 una diversidad en el tamaño de las propiedades disponibles, con propiedades
@@ -303,11 +312,11 @@
 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Este análisis visual presenta la variación en costos por metro cuadrado en distintos
                                 segmentos inmobiliarios. Se observa un aumento progresivo de los valores a medida
@@ -317,8 +326,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation"id="interpretación2" style="display: none;">
                         <p class="text">
                             "La gráfica presenta los precios promedio por metro cuadrado en diferentes rangos,
                             ofreciendo una perspectiva clara de la variación de costos en el mercado
@@ -366,13 +374,27 @@
         }
     </script>
 
-    <script>
-        function toggleDescription(id) {
-            var description = document.getElementById(id);
-            if (description.style.display === 'none' || description.style.display === '') {
-                description.style.display = 'block';
+<script>
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
             } else {
-                description.style.display = 'none';
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
             }
         }
     </script>

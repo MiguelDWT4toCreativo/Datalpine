@@ -11,6 +11,7 @@
 
     <?php include 'layouts/head-style.php'; ?>
 
+  
     <style>
         .subtitle-container {
             display: flex;
@@ -20,7 +21,13 @@
         }
 
         .subtitle {
-            font-size: 1.8em;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,26 +35,30 @@
 
         .description {
             display: none;
-            margin-top: 20px;
-            padding: 25px;
-            background-color: #e9f5ff;
-            border-left: 8px solid #007BFF;
-            border-radius: 10px;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: #FOFOFO;
+            /*border-left: 8px solid #007BFF;
+            border-radius: 10px;*/
         }
 
         .interpretation {
-            margin-bottom: 30px;
-            padding: 25px;
-            background-color: #fef4e9;
-            border-left: 8px solid #FFA500;
-            border-radius: 10px;
-            margin-top: 30px;
+            /*margin-bottom: 10px;*/
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: #FOFOFO; /*FOFOFO*/ 
+            /*border-left: 8px solid #FFA500;
+            border-radius: 10px;*/
+            margin-top: 3px;
+            /*box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.5);*/
         }
 
         .text {
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
+            text-align: justify;
         }
 
         .icon {
@@ -57,12 +68,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -72,9 +83,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -161,11 +175,10 @@
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description1',this)">Descripción</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                     En la pirámide poblacional de Tulancingo se tiene registro de
                                     <strong>3,082,841</strong> habitantes
@@ -193,11 +206,10 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2',this)">Descripción</button>
                         </div>
                              <!-- Descripción -->
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de la estructura demográfica de la población de Tulancingo por
                                 grupos de edad y género, se tiene un registro de <strong>168,282</strong>
@@ -222,11 +234,10 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description3',this)">Descripción</button>
                         </div>
                             <!-- Descripción -->
                         <div class="description" id="description3" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos por grupos de edad. Identifica como se distribuyen los
                                 préstamos en función de un grupo demográfico que devela que grupos etarios están
@@ -273,11 +284,10 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description4',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description4" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Precios de oferta para viviendas desde Mayo de 2022 hasta Noviembre de 2023. Explora
                                 la tendencia de los precios de las casas en este periodo de tiempo para la toma de
@@ -306,11 +316,10 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description5',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description5" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                     Representación de la mediana de precios en el mercado durante el período de
                                     2022-2023. Observa una vista general en la tendencia de precios medianos en el
@@ -339,11 +348,10 @@
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description66')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description66',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description66" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                     Proporción de las viviendas ofertadas por años de antigüedad de 2022-2023. Visualiza
                                     el panorama y la dinámica de la concentración en función de las propiedades
@@ -398,11 +406,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
-                        </div>
+                            <button class="mostrar" onclick="toggleDescription('description7',this)">Descripción</button>
+}                        </div>
                         <!-- Descripción -->
                         <div class="description" id="description7" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Concentración y distribución de propiedades por segmento de mercado, durante 2022-2023.
                             </p>
@@ -428,12 +435,11 @@
                         </iframe>
                         
                             <!-- Explicación de la gráfica -->
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>
+                            <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description8',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description8" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Clasificación de mercados por segmento e índice de precio asociados a cada uno de ellos.
                             </p>
@@ -457,11 +463,10 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description9')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description9',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description9" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Variación y cambio precios que se han presentado en cada trimestre entre el
                                 2022 y 2023, correspondientes a las diferentes clasificaciones y/o segmentos de mercado.
@@ -514,11 +519,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description10')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description10',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description10" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos para viviendas adquiridos para cada segmento del
                                     mercado.
@@ -562,11 +566,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description11')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description11',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description11" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos otorgados para las propiedades en diferentes segmentos (S,
                                     A, B, C, D, E) por trimestre. En función del porcentaje, observa cómo se
@@ -606,11 +609,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description12')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description12',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description12" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                  Distribución de créditos otorgados para cada rango de monto entre el
                                     <strong>2022 y el 2023</strong>.
@@ -666,11 +668,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description13')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description13',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description13" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Tendencia del valor promedio de los créditos para viviendas nuevas y de uso a lo largo de 2022 en el mercado inmobiliario.
                             </p>
@@ -696,12 +697,11 @@
                             width="1000" height="320" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description14')">Descripción</button>
-                        </div>
+                        <<div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description14',this)">Descripción</button>
++                        </div>
                         <!-- Descripción -->
                         <div class="description" id="description14" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Número de créditos para vivienda adquiridos por trimestre en los años 2022 y 2023.
                                 Proporciona una representación visual de cómo ha variado la adquisición de créditos
@@ -739,11 +739,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description15')">Descripción</button>
-                        </div>
+                            <button class="mostrar" onclick="toggleDescription('description15',this)">Descripción</button>
+                        </div>                     
                         <!-- Descripción -->
                         <div class="description" id="description15" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Visualiza la distribución de créditos según el porcentaje de Unidades de Medida y Actualización (UMAS)
                             </p>
@@ -779,11 +778,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description17')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description17',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description17" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 La distribución porcentual de créditos por organismo muestra la participación de diferentes
                                     entidades financieras en el otorgamiento de préstamos hipotecarios durante los años <strong>2022 y 2023</strong>.
@@ -823,11 +821,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description18')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description18',this)">Descripción</button>
                         </div>
                         <!-- Descripción -->
                         <div class="description" id="description18" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que
                                 representan las proporciones de los créditos otorgados al valor de la vivienda
@@ -882,15 +879,29 @@
 </script>
 
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 
 </body>
 

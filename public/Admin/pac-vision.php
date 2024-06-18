@@ -20,6 +20,12 @@
             align-items: center;
             justify-content: center;
         }
+        .subtitles {
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
         .description {
             display: none;
@@ -32,7 +38,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -41,7 +49,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -54,12 +62,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -69,9 +77,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -148,18 +159,19 @@
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                         <div style="display: flex; justify-content: center; align-items: center;">
                             <div style="flex: 1; margin-right: 20px;">
-                                <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" width="800"
-                                    height="400" frameborder="0" id="contenido01"
-                                    style="display: block; margin: 0 auto;"></iframe>
+                                <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" 
+                                    width= 800px; height= 400px; frameborder="0" id="contenido01"
+                                    style="width: 100%; min-height: 430px; border: 0;"></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                        <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
+                        <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
                     </div>
                     <!-- Explicación de la gráfica -->
                     <div class="description" id="description2" style="display: none;">
-                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <div class="subtitles"><span class="icon"></span></div>
                         <p class="text">El mapa de calor presentado ofrece una visualización de la densidad de
                             propiedades
                             disponibles en la ciudad. La representación utiliza una escala de colores que va desde
@@ -171,8 +183,8 @@
                             concentración de propiedades, así como áreas con menor competencia y potencial para el
                             desarrollo inmobiliario.</p>
                     </div>
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación2" style="display: none;">
+                        <div class="subtitles"><span class="icon"></span></div>
                         <p class="text">El análisis de la distribución de la oferta de propiedades revela que algunas
                             colonias destacan por su alta densidad de disponibilidad, como <strong>La Providencia,
                                 Miguel
@@ -203,17 +215,17 @@
                             <div style="flex: 1; margin-right: 20px;">
                                 <iframe src="/datalpine/resources/jupyter/mapas/map_2_pachuca.html" width="800"
                                     height="400" frameborder="0" id="contenido01"
-                                    style="display: block; margin: 0 auto;"></iframe>
+                                    style="width: 100%; min-height: 430px; border: 0;"></iframe>
                             </div>
                         </div>
-                    </div>
+                    </div>                   
                     <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
                     </div>
-
                     <!-- Descripción -->
                     <div class="description" id="description" style="display: none;">
-                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <div class="subtitles"><span class="icon"></span>Descripción:</div>
                         <p class="text">Este mapa interactivo despliega una representación visual de las colonias
                             locales junto con información clave sobre el mercado inmobiliario como el el precio
                             promedio tanto de propiedades como de m2 de terreno y m2 construido, de
@@ -232,12 +244,11 @@
                         </ul>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación" style="display: none;">
+                        <div class="subtitles"><span class="icon"></span>Interpretación:</div>
                         <p class="text">Analizando el mapa, se destaca que en Pachuca, varias colonias se encuentran
                             principalmente en el segmento de precios más alto, identificado como S.
-                            Entre
-                            ellas se incluyen:</p>
+                            Entre ellas se incluyen:</p>
                         <ul class="text">
                             <li>Valle de San Javier</li>
                             <li>Club de Golf</li>
@@ -293,11 +304,12 @@
                         </div>
 
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description3', 'interpretación3',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación3', 'description3',this)">Interpretación</button>
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="description" id="description3" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                            <div class="subtitles"><span class="icon"></span>Descripción:</div>
                             <p class="text">El mapa
                                 proporciona una representación de la distribución de compradores foráneos
                                 interesados en adquirir propiedades en la zona metropolitana de Pachuca. Estos
@@ -312,10 +324,10 @@
                                 identificación
                                 de tendencias y preferencias de compra. </p>
                         </div>
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación3" style="display: none;">
+                            <div class="subtitles">Interpretación:</div>
                             <p class="text">
-                                El mapa proporciona datos sobre la distribución de compradores foráneos interesados
+                            El mapa proporciona datos sobre la distribución de compradores foráneos interesados
                                 en
                                 adquirir propiedades en la ciudad de Pachuca. Estos compradores están clasificados
                                 por
@@ -660,16 +672,31 @@
 
 <script src="assets/js/app.js"></script>
 
+
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 
 </body>
 

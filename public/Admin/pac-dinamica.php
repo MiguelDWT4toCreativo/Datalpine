@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/datalpine/public/Admin/assets/css/iframe-styles.css"> <!-- Estilos tables-iframe -->
 
     <?php include 'layouts/head-style.php'; ?>
+   
     <style>
         .subtitle-container {
             display: flex;
@@ -18,8 +19,15 @@
             justify-content: space-between;
             margin-bottom: 20px;
         }
+
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -36,7 +44,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -45,7 +55,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -58,12 +68,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -73,9 +83,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -171,12 +184,12 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
                         </div>
 
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución
                                 de las viviendas en función de la cantidad de meses que han estado en
@@ -193,8 +206,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación" style="display: none;">
                         <ul class="text">
                             La mayoría de las viviendas en <strong>todos los segmentos</strong> tienden
                             a tener una
@@ -229,12 +241,12 @@
 
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description1', 'interpretación1',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación1', 'description1',this)">Interpretación</button>
                         </div>
 
                         <!-- Descripción -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Distribución de créditos por género. Distingue la diferencia en la porporción de
                                 prestamos entre hombres y mujeres en el mercado inmobiliario, esto puede ser
@@ -249,8 +261,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación1" style="display: none;">
                         <ul class="text">
                             <li>Un <strong>mayor porcentaje de préstamos se otorga a hombres</strong> en el
                                 mercado
@@ -275,14 +286,14 @@
                         <!-- Link de la gráfica -->
                           <!--/resources/jupyter/graficas/.html-->
                          <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditodestino_pachuca.html"                          
-                          width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
+                          width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>                        
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
                         </div>
 
                         <!-- Descripción -->
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Número de
                                 créditos por tipo de vivienda. Descubre como se distribuyen los créditos
@@ -314,8 +325,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación2" style="display: none;">
                         <ul class="text">
                             <li>La tabla proporciona una clasificación del mercado salarial por persona,
                                 dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
@@ -367,14 +377,12 @@
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
-
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
-                        </div>
-
+                            <button class="mostrar" onclick="toggleDescription('description3', 'interpretación3',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación3', 'description3',this)">Interpretación</button>
+                        </div>                        
                         <!-- Descripción -->
                         <div class="description" id="description3" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 clasificación se basa en rangos de valores que representan diferentes
                                 niveles en
@@ -386,8 +394,7 @@
                         </div>
                     </div>
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación3" style="display: none;">
                         <ul class="text">
                             <li>La tabla proporciona una clasificación del mercado salarial por persona,
                                 dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
@@ -441,18 +448,17 @@
                     </div>
                     <!-- Explicación de la gráfica -->
                     <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
-                    </div>
+                            <button class="mostrar" onclick="toggleDescription('description4', 'interpretación4',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación4', 'description4',this)">Interpretación</button>
+                        </div> 
                     <!-- Descripción -->
                     <div class="description" id="description4" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                             Esta clasificación se basa en rangos de valores que representan diferentes niveles en el mercado salarial promedio por pareja. Lo que nos permite entender y comunicar de manera efectiva dónde se encuentra un determinado elemento en el mercado.</p>
                         </div>                
                 </div>
                 <!-- Interpretación -->
-                <div class="interpretation">
-                    <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                <div class="interpretation" id="interpretación4" style="display: none;">
                     <ul class="text">
                         <li>La tabla proporciona una clasificación del mercado salarial por pareja,
                             dividida en diferentes categorías desde “G” hasta “S”. Cada categoría
@@ -493,12 +499,11 @@
                         style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
                     <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
-                    </div>
-
+                            <button class="mostrar" onclick="toggleDescription('description5', 'interpretación5',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación5', 'description5',this)">Interpretación</button>
+                        </div> 
                     <!-- Descripción -->
                     <div class="description" id="description5" style="display: none;">
-                        <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                         <p class="text">
                             Esta
                             gráfica
@@ -519,8 +524,7 @@
                     </div>
                 </div>
                 <!-- Interpretación -->
-                <div class="interpretation">
-                    <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                <div class="interpretation"  id="interpretación5" style="display: none;">
                     <ul class="text">
                         <li>Las barras están coloreadas para representar visualmente cada rango de
                             ingreso; hay una barra verde, una amarilla y café que son prominentes
@@ -576,11 +580,12 @@
                                     }, false);
                                 </script>
                         </div>
-
+                        <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('interpretación6',this)">Descripción</button>
+                        </div> 
                     <!-- Explicación de la gráfica -->
                     <!-- Interpretación -->
-                    <div class="interpretation">
-                        <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                    <div class="interpretation" id="interpretación6" style="display: none;">
                         <ul class="text">
                             Explora
                             nuestra plataforma para conocer las profesiones que lideran los ingresos y aquellas
@@ -659,14 +664,28 @@
 </script>
 
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 </body>
 </html>

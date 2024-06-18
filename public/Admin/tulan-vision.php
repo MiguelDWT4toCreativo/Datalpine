@@ -13,6 +13,7 @@
     <title>Tulancingo | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
+    
     <style>
         .subtitle-container {
             display: flex;
@@ -23,6 +24,12 @@
 
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -39,7 +46,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -48,7 +57,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -61,12 +70,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -76,9 +85,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -171,14 +183,14 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description1', 'interpretación1',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación1', 'description1',this)">Interpretación</button>
                         </div>
 
                         <!-- Descripción -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
-                            <p class="text">El
-                                mapa
+                            <p class="text">
+                                El mapa
                                 de calor presentado ofrece una visualización de la densidad de propiedades
                                 disponibles en la ciudad. La representación utiliza una escala de colores
                                 que va
@@ -190,8 +202,7 @@
                                 coordenadas de latitud y longitud.</p>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación1" style="display: none;">
                             <p class="text">
                                 El análisis de la distribución de la oferta de propiedades revela que algunas
                                 colonias destacan por su alta densidad de disponibilidad, como lo es la zona
@@ -238,11 +249,11 @@
                             </div>
                         </div>
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description11', 'interpretación11',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación11', 'description11',this)">Interpretación</button>
                         </div>
                         <!-- Descripción -->
-                        <div class="description" id="description" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
+                        <div class="description" id="description11" style="display: none;">
                             <p class="text">Este mapa
                                 interactivo despliega una representación visual de las colonias locales junto
                                 con información clave sobre el mercado inmobiliario como el el precio promedio
@@ -262,8 +273,7 @@
                             </ul>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation"  id="interpretación11" style="display: none;">
                             <p class="text">
                                 En general podemos observar que, en Tulancingo Hidalgo predominan colonias de
                                 precios promedio bajos o accesibles, que forman parte del segmento E (Verde) y
@@ -383,12 +393,12 @@
 
                             <!-- Explicación de la gráfica -->
                             <div class="mostrar-container">
-                                <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
-                            </div>
+                            <button class="mostrar" onclick="toggleDescription('description3', 'interpretación3',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación3', 'description3',this)">Interpretación</button>
+                        </div>
 
                             <!-- Descripción -->
                             <div class="description" id="description3" style="display: none;">
-                                <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                                 <p class="text">
                                     Distribución de segmentos. Conoce la participación en el mercado inmobiliario
                                     por segmentos (S, A, B, C, D, E). Cada sección representa el porcentaje o
@@ -396,8 +406,7 @@
                             </div>
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation"id="interpretación3" style="display: none;">
                             <p class="text">
                                 El mapa muestra la distribución porcentual de compradores foráneos interesados
                                 en adquirir propiedades en el estado de Hidalgo, clasificados por su región de
@@ -747,16 +756,30 @@
                 }
             </script>
 
-            <script>
-                function toggleDescription(id) {
-                    var description = document.getElementById(id);
-                    if (description.style.display === 'none' || description.style.display === '') {
-                        description.style.display = 'block';
-                    } else {
-                        description.style.display = 'none';
-                    }
-                }
-            </script>
+<script>
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
+        }
+    </script>
 </body>
 
 </html>

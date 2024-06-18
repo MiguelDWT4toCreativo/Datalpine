@@ -22,7 +22,7 @@
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item bg-light-subtle border-start border-end"
                     id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg"
+                    <img class="rounded-circle header-profile-user" src="assets/images/favicon.ico"
                         alt="Header Avatar">
                     <!-- 
                         <span class="d-none d-xl-inline-block ms-1 fw-medium">

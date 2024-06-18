@@ -12,6 +12,7 @@
 
     <?php include 'layouts/head-style.php'; ?>
 
+    
     <style>
         .subtitle-container {
             display: flex;
@@ -22,6 +23,12 @@
 
         .subtitle {
             font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .subtitles {
+            font-size: 1.3em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -38,7 +45,9 @@
 
         .interpretation {
             /*margin-bottom: 10px;*/
-            padding: 10px;
+            /*padding: 10px;*/
+            padding-right: 20px;
+            padding-left: 20px;
             background-color: #FOFOFO; /*FOFOFO*/ 
             /*border-left: 8px solid #FFA500;
             border-radius: 10px;*/
@@ -47,7 +56,7 @@
         }
 
         .text {
-            font-size: 1em;
+            font-size: 1.1em;
             line-height: 1.8;
             color: #555;
             text-align: justify;
@@ -60,12 +69,12 @@
         }
 
         .mostrar {
-            padding: 10px 20px;
+            padding: 5px 20px;
             font-size: 1em;
             color: #fff;
-            background-color: #495057;
+            background-color: #BEBEBE;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -75,9 +84,12 @@
         }
 
         .mostrar:hover {
-            background-color: #0056b3;
+            background-color: #4225CF;
         }
 
+        .actives {
+            background-color: #9500ff;
+        }
         .map-container {
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -161,11 +173,11 @@
                             style="display: block; margin: 0 auto;"></iframe>-->
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description1')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description1', 'interpretación1',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación1', 'description1',this)">Interpretación</button>
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="description" id="description1" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 La gráfica presenta una proyección del precio medio de las propiedades en Pachuca
                                 para los próximos años. Estos datos anticipan la dirección esperada en la evolución
@@ -173,8 +185,7 @@
                             </p>                           
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación1" style="display: none;">
                             <p class="text">
                                 En el año <strong>2023</strong>, el precio medio de las propiedades en Pachuca se situó en
                                 <strong>$2,039,843.00</strong>, y se anticipa que este valor mantendrá una
@@ -220,10 +231,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description2')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description2" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Los datos presentados ofrecen una vista anticipada del valor promedio de las
                                 propiedades en los próximos cinco años. Reflejando la posible dirección de
@@ -231,8 +242,7 @@
                             </p>                           
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation" id="interpretación2" style="display: none;">
                             <p class="text">
                             Los datos revelan una proyección ascendente en la plusvalía del precio promedio de
                                     las viviendas en Pachuca para los próximos años. En el año <strong>2023</strong>, se
@@ -262,10 +272,10 @@
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description3')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description3', 'interpretación3',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación3', 'description3',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description3" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Estos datos representan las proyecciones de créditos generales en cantidad para los
                                 años <strong> 2019 a 2026 </strong>, desglosados en dos categorías:
@@ -277,15 +287,8 @@
                                     viviendas nuevas y usadas
                             </p>                           
                         </div>
-                        s
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                        <div class="Interpretación" id="interpretación3" style="display: none;">
+                            <ul class="text">
                                     <li>Entre los años <strong>2019 y 2021</strong>, se observó una variación
                                         significativa en el número total de créditos, alcanzando niveles destacados
                                         durante esos años. Sin embargo, en <strong>2022</strong>, se registra una
@@ -300,9 +303,8 @@
                                         recuperarse hasta alcanzar <strong>57 créditos</strong> en el mismo año, después
                                         de la disminución observada en <strong>2022</strong>.
                                     </li>
-                                </ul>
-                            </div>
-                        </div>
+                                </ul>                         
+                        </div>                        
                     </div>
                 </div>
                 <!-- Forecast créditos generales (valor ) -->
@@ -340,10 +342,10 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description4')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description4', 'interpretación4',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación4', 'description4',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description4" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Se muestran las proyecciones de créditos generales en términos de valor monetario
                                     <strong>(total y promedio)</strong> para los años <strong>2019 a 2026</strong>,
@@ -354,14 +356,8 @@
                                     clasificaciones a lo largo de los años proyectados.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                        <div class="description" id="interpretación4" style="display: none;">
+                            <ul class="text">
                                     <li><strong>Monto total</strong>: El monto total de créditos en Pachuca presenta una
                                         proyección ascendente, estimándose un aumento de
                                         <strong>$1,476,067,496.32</strong> en <strong>2019</strong> a
@@ -392,8 +388,7 @@
                                         se experimenta un aumento a <strong>$191,632.90</strong> en
                                         <strong>2026</strong>.
                                     </p>
-                                </ul>
-                            </div>
+                                </ul>                      
                         </div>
                     </div>
                 </div>
@@ -416,24 +411,18 @@
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description5')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description5', 'interpretación5',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación5', 'description5',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description5" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                     Proporciona estimaciones porcenctuales anuales sobre la tendencia en la cantidad de
                                     casas y departamentos que se anticipa serán ofertados en cada año, abarcando desde
                                     el presente hasta los próximos años.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                        <div class="description" id="interpretación5" style="display: none;">
+                            <ul class="text">
                                     <li>La línea azul representa el porcentaje de cambio en la oferta de casas. Comienza
                                         en un <strong>75%</strong> en <strong>2023</strong>, aumenta a un
                                         <strong>135%</strong> en <strong>202</strong>4, y llega a un pico del
@@ -448,8 +437,8 @@
                                         período.
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
+                            </p>                           
+                        </div>                        
                     </div>
                 </div>
                 <!-- Tiempo en el mercado -->
@@ -471,25 +460,19 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description6')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description6', 'interpretación6',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación6', 'description6',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description6" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 La distribución se presenta en cinco categorías según el número de días que las
                                     propiedades han estado disponibles, lo que proporciona información sobre la
                                     disponibilidad y el estado actual de las propiedades en el mercado inmobiliario.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>El análisis de la información revela que la categoría con el mayor número de
+                        <div class="description" id="interpretación6" style="display: none;">
+                            <ul class="text">
+                            <li>El análisis de la información revela que la categoría con el mayor número de
                                         unidades es la de <strong>"101-365 días"</strong>, con un total de
                                         <strong>1319</strong> unidades. Este intervalo de tiempo indica que una cantidad
                                         significativa de unidades inmobiliarias permanecen en el mercado durante un
@@ -498,8 +481,7 @@
                                     <li>Por otro lado, la categoría con el menor número de unidades es la de
                                         <strong>"0-10 días"</strong>, que registra <strong>159</strong> unidades.
                                     </li>
-                                </ul>
-                            </div>
+                            </ul>                           
                         </div>
                     </div>
                 </div>
@@ -523,18 +505,17 @@
                         </iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description7')">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description7', 'interpretación7',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación7', 'description7',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description7" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 La proyección poblacional es una estimación de cuántas personas se espera que vivan
                                     en una región o área geográfica específica a lo largo de varios años.
                             </p>                           
                         </div>
                         <!-- Interpretación -->
-                        <div class="interpretation">
-                            <div class="subtitle"><span class="icon">📊</span>Interpretación:</div>
+                        <div class="interpretation"id="interpretación7" style="display: none;">
                             <p class="text">
                                 La estimación poblacional revela un crecimiento progresivo en la región a lo largo
                                     de los años <strong>2020 a 2026</strong>. Iniciando con <strong>6,583,278
@@ -562,33 +543,27 @@
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description8')">Descripción</button>
+                            <div class="mostrar-container">
+                            <button class="mostrar" onclick="toggleDescription('description8', 'interpretación8',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('interpretación8', 'description8',this)">Interpretación</button>
                         </div>
                         <div class="description" id="description8" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 El riesgo de stock en el mercado inmobiliario se relaciona con la cantidad de casas
                                     disponibles durante distintos lapsos de tiempo. Esta métrica es esencial para
                                     evaluar la dinámica de oferta y demanda en el sector.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    En este contexto, las casas que llevan más de un año en stock
+                        <div class="description" id="interpretación8" style="display: none;">
+                            <p class="text">
+                            En este contexto, las casas que llevan más de un año en stock
                                     <strong>(16.6%)</strong> representan un
                                     riesgo menor en términos de porcentaje, pero aún así indican una proporción
                                     significativa. Por otro lado, las casas que llevan menos de un año en stock
                                     representan la mayoría en términos porcentuales <strong>(84.44%)</strong> e indican
                                     una rotación más
                                     activa del inventario.
-                                </p>
-                            </div>
+                            </p>                           
                         </div>
                     </div>
                 </div>
@@ -609,11 +584,11 @@
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
-                        <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description9')">Descripción</button>
-                        </div>
+                            <div class="mostrar-container">
+                                <button class="mostrar" onclick="toggleDescription('description9', 'interpretación9',this)">Descripción</button>
+                                <button class="mostrar" onclick="toggleDescription('interpretación9', 'description9',this)">Interpretación</button>
+                            </div>
                         <div class="description" id="description9" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 La proyección en días permite anticipar la duración promedio que las propiedades
                                     podrían requerir para su venta, lo que resulta esencial para ajustar estrategias de
@@ -621,15 +596,9 @@
                                     cambiantes del mercado.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li>En el historial de stock, se evidencia una duración de <strong>165 días</strong>
+                        <div class="description" id="interpretación9" style="display: none;">
+                            <ul class="text">
+                                <li>En el historial de stock, se evidencia una duración de <strong>165 días</strong>
                                         en <strong>julio de 2023</strong>, seguida de una ligera reducción a <strong>155
                                             días</strong> en <strong>agosto</strong> y <strong>145 días</strong> en
                                         <strong>septiembre</strong>. La proyección para <strong>octubre, noviembre y
@@ -639,8 +608,7 @@
                                     <li>La tendencia descendente en los días en stock refleja un posible aumento en la
                                         demanda o una mejora en las estrategias de comercialización, factores que
                                         contribuyen a una mayor dinámica en la rotación del inventario.</li>
-                                </ul>
-                            </div>
+                            </ul>                           
                         </div>
                     </div>
                 </div>
@@ -663,10 +631,10 @@
                         <!-- Explicación de la gráfica -->
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description10')">Descripción</button>
-                        </div>
+                                <button class="mostrar" onclick="toggleDescription('description10', 'interpretación10',this)">Descripción</button>
+                                <button class="mostrar" onclick="toggleDescription('interpretación10', 'description10',this)">Interpretación</button>
+                            </div>
                         <div class="description" id="description10" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                 Los meses de oferta es una métrica que refleja cuantos meses pasarían antes de que
                                     todas las propiedades disponibles se agotaran si las mismas se compraran con los
@@ -676,14 +644,9 @@
                                     dicho año.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Este gráfico te permite visualizar cómo es la relación entre la oferta de
+                        <div class="description" id="interpretación10" style="display: none;">
+                            <p class="text">
+                            Este gráfico te permite visualizar cómo es la relación entre la oferta de
                                     propiedades y la demanda de créditos a lo largo del tiempo. Un promedio de meses
                                     alto indica que se tiene un mercado más competitivo, puesto que hay más propiedades
                                     "peleando" contra los créditos otorgados para dicho mercado inmobiliario. En
@@ -696,8 +659,7 @@
                                     <strong>16.72 meses</strong>. Esto
                                     podría indicar una reducción en el número de propiedades listadas o un aumento en la
                                     demanda de créditos y, por lo tanto, un mercado menos competitivo.
-                                </p>
-                            </div>
+                                </p>                          
                         </div>
                     </div>
                 </div>
@@ -720,10 +682,10 @@
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description11')">Descripción</button>
-                        </div>
+                                <button class="mostrar" onclick="toggleDescription('description11', 'interpretación11',this)">Descripción</button>
+                                <button class="mostrar" onclick="toggleDescription('interpretación11', 'description11',this)">Interpretación</button>
+                            </div>
                         <div class="description" id="description11" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
                                     El gráfico de Análisis de Cambio de Precios a lo largo del tiempo ilustra los
                                     cambios porcentuales en los precios promedio de las propiedades en el mercado
@@ -731,14 +693,12 @@
                                     clave.
                             </p>                           
                         </div>
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Interpretación:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                        <div class="description" id="interpretación11" style="display: none;">
+                            <ul class="text">
+                                    El gráfico de Análisis de Cambio de Precios a lo largo del tiempo ilustra los
+                                    cambios porcentuales en los precios promedio de las propiedades en el mercado
+                                    inmobiliario de Pachuca para los meses disponibles. Aquí están las perspectivas
+                                    clave.
                                     <li>Hay fluctuaciones significativas en los precios de mes a mes. Por ejemplo, hubo
                                         una disminución de aproximadamente el <strong>13.34%</strong> en
                                         <strong>noviembre de 2022</strong> en comparación con <strong>octubre de
@@ -748,8 +708,7 @@
                                     <li>El dato más reciente, <strong>diciembre de 2023</strong>, muestra una
                                         disminución del <strong>15.44%</strong> en comparación con <strong>septiembre de
                                             2023</strong>.</li>
-                                </ul>
-                            </div>
+                            </ul>                           
                         </div>
                     </div>
                 </div>
@@ -775,31 +734,16 @@
                 -->
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description12')">Descripción</button>
-                        </div>
+                                <button class="mostrar" onclick="toggleDescription('description12',this)">Descripción</button>
+                            </div>
                         <div class="description" id="description12" style="display: none;">
-                            <div class="subtitle"><span class="icon">📝</span>Descripción:</div>
                             <p class="text">
-                                
-                            </p>                           
-                        </div>
-
-
-
-                        <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    El mercado inmobiliario de Pachuca ha experimentado una considerable variabilidad
+                            El mercado inmobiliario de Pachuca ha experimentado una considerable variabilidad
                                     durante el período examinado, como lo demuestran los datos de transacciones y los
                                     movimientos de precios promedio. Nuestro análisis actualizado ofrece las siguientes
-                                    perspectivas:</p>
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
+                                    perspectivas:
+                            </p>     
+                            <ul class="text">
                                     <li>El precio promedio de la propiedad experimentó una notable disminución en
                                         noviembre de <strong>2022</strong>, cayendo a <strong>2.69 millones de
                                             MXN</strong>, lo que significa una disminución del <strong>13.34%</strong>
@@ -819,8 +763,7 @@
                                         pico en <strong>febrero de 2023</strong>, lo que se alinea con el aumento en los
                                         precios promedio, sugiriendo una actividad de mercado incrementada durante ese
                                         período.</li>
-                                </ul>
-                            </div>
+                                </ul>                      
                         </div>
                     </div>
                 </div>
@@ -923,22 +866,21 @@
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
-                        <div
-                            style="text-align: center; margin-top: 10px; background-color: #e6f3ff; border-radius: 5px; padding: 10px;">
-                            <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
-                                <strong>Descripción:</strong>
-                            </p>
-                            <div style="text-align: left;">
-                                <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666;">
-                                    Este análisis de distribución de precios ofrece una visión clara de la composición
+                        <div class="mostrar-container">
+                                <button class="mostrar" onclick="toggleDescription('description3',this)">Descripción</button>
+                            </div>
+
+                        <div class="description" id="description3" style="display: none;">
+                            <p class="text">
+                                Este análisis de distribución de precios ofrece una visión clara de la composición
                                     del mercado en Pachuca, destacando la prevalencia de propiedades asequibles y de
                                     gama media. También apunta a la existencia de un mercado de gama alta más exclusivo,
                                     aunque estas propiedades son menos comunes. Esta información es crucial para
                                     comprender la dinámica del mercado y las oportunidades de inversión potenciales,
-                                    especialmente para enfocarse en segmentos de precios específicos.</p>
-                                <ul
-                                    style="font-size: 16px; font-family: 'Arial', sans-serif; color: #444; list-style-type: disc; padding-left: 20px;">
-                                    <li><strong>Rangos de Precios Más Comunes:</strong> La mayoría de las propiedades se
+                                    especialmente para enfocarse en segmentos de precios específicos.
+                            </p>   
+                            <ul class="text">     
+                                <li><strong>Rangos de Precios Más Comunes:</strong> La mayoría de las propiedades se
                                         encuentran en el rango de <strong>1M a 3M de pesos</strong>. Específicamente,
                                         alrededor del <strong>31.82%</strong> de las propiedades tienen precios entre
                                         <strong>1M y 2M</strong> de pesos, y aproximadamente el <strong>30.19%</strong>
@@ -955,10 +897,15 @@
                                     </li>
                                     <li><strong>Propiedades de Lujo:</strong> Las propiedades con precios superiores a
                                         9M de pesos representan una pequeña fracción del mercado, señalando un segmento
-                                        limitado pero distintivo de propiedades de lujo.</li>
-                                </ul>
-                            </div>
+                                        limitado pero distintivo de propiedades de lujo.</li>  
+                            </ul>                     
                         </div>
+
+
+
+
+
+                      
                         <div
                             style="text-align: center; margin-top: 10px; background-color: #f2f2f2; border-radius: 5px; padding: 10px;">
                             <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333;">
@@ -1234,15 +1181,29 @@
 <script src="assets/js/app.js"></script>
 
 <script>
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block';
-        } else {
-            description.style.display = 'none';
+        function toggleDescription(showId, hideId, button) {
+            var showElement = document.getElementById(showId);
+            var hideElement = document.getElementById(hideId);
+            var buttons = document.querySelectorAll('.mostrar');
+            
+            // Hide the other section
+            hideElement.style.display = 'none';
+
+            // Remove 'active' class from all buttons
+            buttons.forEach(function(btn) {
+                btn.classList.remove('actives');
+            });
+            
+            // Toggle display of the selected section
+            if (showElement.style.display === 'none' || showElement.style.display === '') {
+                showElement.style.display = 'block';
+                button.classList.add('actives'); // Add 'active' class to the clicked button
+            } else {
+                showElement.style.display = 'none';
+                button.classList.remove('actives'); // Remove 'active' class if section is hidden
+            }
         }
-    }
-</script>
+    </script>
 </body>
 
 </html>
