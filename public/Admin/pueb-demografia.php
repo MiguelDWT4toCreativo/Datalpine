@@ -526,7 +526,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->                         
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precioXsegmento_puebla.html" width="1000"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precio_X_segmento_PUEB.html" width="1000"
                             height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>                        
                         <!-- Explicación de la gráfica -->
@@ -594,16 +594,21 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOSw')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOSw24')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_X_segmento_2022_puebla.html"
                                     id="contenidoOsw"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2023_peubla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_X_segmento_2023_peubla.html"
                                     id="contenidoOOSw" style="display: none;"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_X_segmento_2024_peubla.html"
+                                    id="contenidoOOSw24" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -666,16 +671,21 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOfS')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOfS2424')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2022_puebla.html"
                                     id="contenidoOfs"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2023_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2023_puebla.html"
                                     id="contenidoOOfS" style="display: none;"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2024_puebla.html"
+                                    id="contenidoOOfS2424" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -725,16 +735,22 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOS')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOS24')"
+                                    value="2024">    
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2022_puebla.html"
                                     id="contenidoOs"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2023_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2023_puebla.html"
                                     id="contenidoOOS" style="display: none;"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2024_puebla.html"
+                                    id="contenidoOOS24" style="display: none;"></iframe>
+                                    
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -798,20 +814,21 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2019_pueb.html"
                                     id="contenido18"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2020_pueb.html"
                                     id="contenido19" style="display: none;"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2021_pueb.html"
                                     id="contenido20" style="display: none;"></iframe>
                                 <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2022_pueb.html"
                                     id="contenido12" style="display: none;"></iframe>
                                 <iframe width="544" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promXcredit_newold_2023_pueb.html"
                                     id="contenido13" style="display: none;"></iframe>
+                                    <!--g_scatt_promXcredit_newold_2024_pueb-->
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -861,7 +878,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_creditos_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_Xcreditos_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -912,16 +929,21 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOgS')"
                                     value="2023">
+                                    <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidoOOgS24S')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2022_puebla.html"
                                     id="contenidoOgs"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2023_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2023_puebla.html"
                                     id="contenidoOOgS" style="display: none;"></iframe>
+                                    <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2024_puebla.html"
+                                    id="contenidoOOgS24S" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -972,16 +994,21 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidddO')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenidddO24')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2022_puebla.html"
                                     id="conteniddO"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2023_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2023_puebla.html"
                                     id="contenidddO" style="display: none;"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2024_puebla.html"
+                                    id="contenidddO24" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -1032,16 +1059,21 @@
                                     value="2022">
                                 <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido171')"
                                     value="2023">
+                                <input type="button" class="btn btn-outline-dark" onclick="mostrar('contenido17124')"
+                                    value="2024">
                             </div>
                         </div>
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2022_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2022_puebla.html"
                                     id="contenido161"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosporvivienda_2023_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2023_puebla.html"
                                     id="contenido171" style="display: none;"></iframe>
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2024_puebla.html"
+                                    id="contenido17124" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->

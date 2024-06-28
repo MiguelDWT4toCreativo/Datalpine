@@ -175,10 +175,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_recamaras_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_dist_recamaras_pueb.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_recamaras_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_dist_x_recamaras_pueb.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -241,10 +241,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_baños_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_baños_pueb.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_baños_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_x_baños_peub.html"
                                     id="contenido4" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -321,10 +321,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_estacionamiento_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_Num_Estacionamientos_pueb.html"
                                     id="contenido5"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_estacionamiento_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pie_Num_Estacionamientos_Pueb.html"
                                     id="contenido6" style="display: none;"></iframe>
                             </div>
                         </div>

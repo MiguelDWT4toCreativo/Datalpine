@@ -175,10 +175,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_segmentos_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_venta_segmentos_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoventa_est_total_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_venta_est_total_pachuca.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosxxgenero_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosx_xgenero_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -285,7 +285,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                           <!--/resources/jupyter/graficas/.html-->
-                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditodestino_pachuca.html"                          
+                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_credito_destino_pachuca.html"                          
                           width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>                        
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
@@ -369,7 +369,7 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_xpersona_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_mercado_salarial_xpersona_pachuca.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido4"
@@ -439,7 +439,7 @@
                     <div class="card-header bg-white d-flex justify-content-center align-items-center">
                         <div class="d-flex align-items-center">
                             <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_xparejas_pachuca.html"
+                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_x_parejas_pachuca.html"
                                 id="contenido5"></iframe>
                             <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
                                 src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido6"
@@ -494,7 +494,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_XXparejas_pachuca.html"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_XX_parejas_pachuca.html"
                         width="1000" height="400" frameborder="0" id="contenido01"
                         style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->

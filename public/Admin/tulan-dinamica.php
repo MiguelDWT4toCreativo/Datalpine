@@ -182,10 +182,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_seg_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_venta_seg_tulgo.html"
                                     id="contenido1"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_total_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_venta_total_tulgo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -246,7 +246,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosXgenero_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditos_X_x_genero_tulancingo.html"
                             width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -294,7 +294,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosXdestino_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_destino_tulancingo.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -352,7 +352,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">   
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_Xpersona_tulgo.html"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercado_salarial_Xpersona_tulgo.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style=" display: block; margin: 0 auto;"></iframe>                                     
                         <!-- Explicación de la gráfica -->
@@ -396,7 +396,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadoXsalarial_parejas_TULGO.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercado_X_salarial_parejas_TULGO.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style=" display: block; margin: 0 auto;"></iframe> 
                         <!-- Explicación de la gráfica -->
@@ -438,7 +438,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->   
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_Xparejas_TULGO.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_X_parejas_TULGO.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style=" display: block; margin: 0 auto;"></iframe>                                                            
                 <!-- Explicación de la gráfica -->

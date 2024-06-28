@@ -458,7 +458,7 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precioXsegmento_tulancingo.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precio_X_segmento_tulancingo.html"
                             width="1000" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
                         <!-- Explicación de la gráfica -->
@@ -510,10 +510,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2022_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_X_segmento_2022_tulgo.html"
                                     id="contenido111"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2023_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_X_segmento_2023_tulgo.html"
                                     id="contenido22" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -557,10 +557,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2022_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2022_tulgo.html"
                                     id="contenido3"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2023_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2023_tulgo.html"
                                     id="contenido4" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -600,10 +600,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2022_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2022_tulgo.html"
                                     id="contenido005"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2023_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2023_tulgo.html"
                                     id="contenido600" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -650,19 +650,19 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2019_tulgo.html"
                                     id="contenido7"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2020_tulgo.html"
                                     id="contenido8" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2021_tulgo.html"
                                     id="contenido9" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2022_tulgo.html"
                                     id="contenido10" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promXcredit_newold_2023_tulgo.html"
                                     id="contenido11" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -693,7 +693,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_creditos_tulgo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_Xcreditos_tulgo.html"
                             width="1000" height="320" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
@@ -730,10 +730,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2022_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2022_tulgo.html"
                                     id="contenido12"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2023_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2023_tulgo.html"
                                     id="contenido13" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -769,10 +769,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2022_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2022_tulgo.html"
                                     id="contenido14"></iframe>
                                 <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2023_tulgo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2023_tulgo.html"
                                     id="contenido15" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -812,10 +812,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2022_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2022_tulancingo.html"
                                     id="contenido16"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2023_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2023_tulancingo.html"
                                     id="contenido17" style="display: none;"></iframe>
                             </div>
                         </div>

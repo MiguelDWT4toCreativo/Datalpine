@@ -172,10 +172,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_distrecamaras_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_dist_recamaras_pachuca.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_distrecamaras_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_dist_x_recamaras_pachuca.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -232,10 +232,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_distbaños_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_baños_pachuca.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_distbaños_pachuca.html" id="contenido4"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_x_baños_pachuca.html" id="contenido4"
                                     style="display: none;"></iframe>
                             </div>
                         </div>
@@ -318,10 +318,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_NumEstacionamientos_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_Num_Estacionamientos_pachuca.html"
                                     id="contenido5"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pie_NumEstacionamientos_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pie_Num_Estacionamientos_pachuca.html"
                                     id="contenido6" style="display: none;"></iframe>
                             </div>
                         </div>

@@ -615,7 +615,7 @@
                         echo "</ol>";
                         ?>
                         
-                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precioXsegmento_pachuca.html" width="800"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_tendencia_precio_X_segmento_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                 
@@ -698,10 +698,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_segmento_2022_pachuca.html"
                                     id="contenido30"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditosXsegmento_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_discreditos_segmento_2023_pachuca.html"
                                     id="contenido31" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -785,10 +785,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2022_pachuca.html"
                                     id="contenido32"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXsegmento_trimestre2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_segmento_trimestre2023_pachuca.html"
                                     id="contenido33" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -855,10 +855,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2022_pachuca.html"
                                     id="contenido34"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditosXmonto_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_discreditos_X_monto_2023_pachuca.html"
                                     id="contenido35" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -928,19 +928,19 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2019_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2019_pachuca.html"
                                     id="contenido18"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2020_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2020_pachuca.html"
                                     id="contenido19" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2021_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2021_pachuca.html"
                                     id="contenido20" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcredit_newold_2022_pachuca.html"
                                     id="contenido12" style="display: none;"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promcreditnewold_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_promXcredit_newold_2023_pachuca.html"
                                     id="contenido13" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1025,7 +1025,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_creditos_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_estacionalidad_Xcreditos_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -1090,10 +1090,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2022_pachuca.html"
                                     id="contenido36"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXumas_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_umas_2023_pachuca.html"
                                     id="contenido37" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1161,10 +1161,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2022_pachuca.html"
                                     id="contenido38"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXorganismo_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_organismo_2023_pachuca.html"
                                     id="contenido39" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -1256,10 +1256,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2022_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2022_pachuca.html"
                                     id="contenido161"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditosXvivienda_2023_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_vivienda_2023_pachuca.html"
                                     id="contenido171" style="display: none;"></iframe>
                             </div>
                         </div>

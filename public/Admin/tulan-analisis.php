@@ -173,7 +173,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_segmentos_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distriXsegmentos_tulgo.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -306,7 +306,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_precio_promedio_m2_tulancingo.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedio-M2_tulgo.html"
                             width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 

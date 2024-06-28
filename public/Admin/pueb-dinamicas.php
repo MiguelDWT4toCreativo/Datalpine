@@ -174,11 +174,12 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXventa_seg_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_venta_seg_puebla.html"
                                     id="contenido1"></iframe>
                                 <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXXventa_total_puebla.html"
-                                    id="contenido2" style="display: none;"></iframe>
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_Xventa_total_puebla.html"
+                                    id="contenido2" style="display: none;"></iframe>                                    
+                                    <!--g_bar_tiempoXXventa_total_puebla-->
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -237,7 +238,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosXgenero_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditos_X_genero_puebla.html"
                             width="600" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -286,7 +287,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditosXdestino_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_creditos_X_destino_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -339,7 +340,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_Xpersona_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercado_salarial_Xpersona_puebla.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>
@@ -394,7 +395,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica PENDIENTE-->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercadoXsalarial_parejas_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_mercado_X_salarial_parejas_puebla.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     </div>                    
@@ -456,7 +457,7 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadoXXsalarial_parejas_puebla.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadoX_Xsalarial_parejas_puebla.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                     

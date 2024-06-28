@@ -172,10 +172,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_recamaras_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_dist_recamaras_tulgo.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_recamaras_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_dist_x_recamaras_tulgo.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -253,10 +253,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_baños_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_baños_utlgo.html"
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_baños_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_x_baños_tulgo.html"
                                     id="contenido4" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -340,10 +340,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_estacionamiento_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_Num_Estacionamientos_tulgo.html"
                                     id="contenido5"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_estacionamiento_tulancingo.html"
+                                    src="/datalpine/resources/jupyter/graficas/grafica_pie_Num_Estacionamientos_tulgo.html"
                                     id="contenido6" style="display: none;"></iframe>
                             </div>
                         </div>
