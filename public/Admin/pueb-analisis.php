@@ -253,10 +253,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_dist_m2_construidos_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_m2_construidos_puebla.html"
                                     id="contenido1"></iframe>
                                 <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_m2_construidos_puebla.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_m2_construidos_puebla.html"
                                     id="contenido2" class= "oculto">
                                 </iframe>
                             </div>

@@ -306,7 +306,7 @@
                         <div class="col-md-6">
                             <div class="subtitle-container">
                                 <h5 class="card-title subtitle">
-                                    Forecast créditos generales (valor )<span class="text-muted fw-normal ms-2"></span>
+                                    Forecast créditos generales (valor)<span class="text-muted fw-normal ms-2"></span>
                                 </h5>
                             </div>
                         </div>
@@ -322,7 +322,7 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_pachuca.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_total_pachuca (1).html"
                                     id="contenido8"></iframe>
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
                                     src="/datalpine/resources/jupyter/graficas/g_scatt_forecastcreditgral_promedio_pachuca.html"

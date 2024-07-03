@@ -173,7 +173,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_poblacion_edad_gen_puebla.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_piramid_poblacion_edad_gen_puebla.html"
                             width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
                         <!-- Explicación de la gráfica -->
@@ -210,7 +210,7 @@
                             echo "</ol>";
                             ?>
                             <!-- Link de la gráfica -->
-                            <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_cred_edad_puebla.html"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_pie_dist_cred_edad_puebla.html"
                                 width="800" height="400" frameborder="0" id="contenido01"
                                 style="display: block; margin: 0 auto;"></iframe>
                             <!-- Explicación de la gráfica -->
@@ -263,7 +263,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_promedio_precio_oferta_puebla_2023.html" width="1000"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_promedio_precio_oferta_puebla_2023.html" width="1000"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -309,7 +309,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/mediana_precio_oferta.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mediana_precio_oferta_puebla_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -360,7 +360,7 @@
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
                             <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_porcentaje_vivienda_ofertadas_antigüedad_puebla.html">
+                                src="/datalpine/resources/jupyter/graficas/g_bar_porcentaje_vivienda_ofertadas_antigüedad_puebla.html">
                             </iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
@@ -433,10 +433,10 @@
                                     src="/datalpine/resources/jupyter/graficas/.html"
                                     id="contenido1"></iframe>-->
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_puebla_2023.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_propiedades_segmento_puebla_2023.html"
                                     id="contenido2" ></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_puebla_2024.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_propiedades_segmento_puebla_2024.html"
                                     id="contenido24" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -478,7 +478,7 @@
                         ?>
                         <!-- Link de la gráfica PENDIENTE-->
                         
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_promedio_precio_oferta_puebla_2023.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mediana_precio_oferta_puebla_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;">
                         </iframe>
                         <!-- Explicación de la gráfica -->
@@ -1078,14 +1078,34 @@
                         </div>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description181',this)">Descripción</button>
+                            <button class="mostrar" onclick="toggleDescription('description0123', 'interpretación0011',this)">Descripción</button>
+                            <!--<button class="mostrar" onclick="toggleDescription('interpretación0011', 'description0123',this)">Interpretación</button>-->
                         </div>
                         <!-- Descripción -->
-                        <div class="description" id="description181" style="display: none;">
-                            <p class="text">
-                                Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que representan las proporciones de los créditos otorgados al valor de la vivienda clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.
-                            </p>                            
+                        <div class="description" id="description0123" style="display: none;">    
+                            <p class="text">      
+                                Distribución de créditos por vivienda valor 2022-2023. Visualiza los porcentajes que representan las proporciones de los créditos otorgados al valor de la vivienda clasificado en: Economía, Popular, Tradicional, Media, Residencial y Residencial plus.                                                      
+                            </p>                             
                         </div>
+                        <!-- Interpretación  -->
+                        <div class="interpretation" id="interpretación0011" style="display: none;">                                                               
+                        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
                     </div>
                 </div>
             </div>

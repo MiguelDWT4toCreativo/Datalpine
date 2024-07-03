@@ -175,7 +175,7 @@
                         <!-- Link de la gráfica -->
                         <p style="text-align: center;">
                             <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/GraficasMiguel/.html"></iframe>
+                                src="/datalpine/resources/jupyter/graficas/g_bar_piramid_poblacion_edad_gen_hidalgo.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->                        
                         <div class="mostrar-container">
@@ -219,7 +219,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_poblacion_edad_gen_pachuca.html"
+                            src="/datalpine/resources/jupyter/graficas/g_bar_piramid_poblacion_edad_gen_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -263,7 +263,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_cred_edad_pachuca.html"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_dist_cred_edad_pachuca.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->                        
@@ -324,7 +324,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_promedio_precio_oferta_pachuca_2023.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_promedio_precio_oferta_pachuca_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -379,7 +379,7 @@
                         ?>
 
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_scatt_mediana_precio_oferta_pachuca_2023.html" width="800"
+                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mediana_precio_oferta_pachuca_2023.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -434,7 +434,7 @@
                         <!-- Link de la gráfica PENDIENTE-->
                         <p style="text-align: center;">
                             <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_piramid_porcentaje_vivienda_ofertadas_antigüedad_pachuca.html"></iframe>
+                                src="/datalpine/resources/jupyter/graficas/g_bar_porcentaje_vivienda_ofertadas_antigüedad_pachuca.html"></iframe>
                         </p>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -507,10 +507,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_pachuca_2022.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_propiedades_segmento_pachuca_2022.html"
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/GraficasMiguel/g_pie_dist_propiedades_segmento_pachuca_2023.html"
+                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_propiedades_segmento_pachuca_2023.html"
                                     id="contenido22" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -558,7 +558,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->                        
-                            <iframe src="/datalpine/resources/jupyter/GraficasMiguel/g_bar_promedio_precio_segmento_pachuca.html" width="800"
+                            <iframe src="/datalpine/resources/jupyter/graficas/g_bar_promedio_precio_segmento_pachuca.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>                
                         <!-- Explicación de la gráfica -->

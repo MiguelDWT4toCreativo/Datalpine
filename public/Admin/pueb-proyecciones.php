@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -369,9 +369,13 @@ En cuanto a la categoría de "Vivienda Usada" en Puebla, se observa una variaci�
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
+                        
                         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1_O39XKc1VRRPdKyfpbswGydj3jUBSTJKITqNC08MVRrdkrd_eHkXhangR30RoEFZgC9zxvjGDa55/pubchart?oid=1007832220&format=interactive" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"style="width: 100%; min-height: 430px; border: 0; display:none;"></iframe>
+                        <!--<iframe src="/datalpine/resources/jupyter/graficas/g_bar_tiempoXmercado_alfas_puebla.html"
+                            width="800" height="400" frameborder="0" id="contenido01"
+                            style="display: block; margin: 0 auto;"></iframe>-->
 
                         <!-- Explicación de la gráfica -->                        
                         <div class="mostrar-container">
