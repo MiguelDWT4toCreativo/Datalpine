@@ -531,7 +531,7 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgO_pachuca.html" width="800"
+                    <iframe src="/datalpine/resources/jupyter/graficas/g_pie_riesgo_pachuca.html" width="800"
                         height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>
 
                     <!-- Explicación de la gráfica -->
