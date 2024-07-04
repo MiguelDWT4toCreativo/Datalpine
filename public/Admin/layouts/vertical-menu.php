@@ -64,22 +64,7 @@
                         <span data-key="t-dashboard">Inicio</span>
                     </a>
                 </li>
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
-                        <span data-key="t-apps">Menú</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="menu-explorador.php"><span data-key="t-calendar">Explorador de valuación y
-                                    precios</span></a></li>
-                        <li><a href="menu-segmentaciones.php"><span data-key="t-chat">Segmentaciones de
-                                    mercado</span></a></li>
-                        <li><a href="menu-amenidades.php"><span data-key="t-email">Amenidades</span></a></li>
-                        <li><a href="menu-consultoria.php"><span data-key="t-invoices">Consultoria</span></a></li>
-                        <li><a href="menu-tendencias.php"><span data-key="t-contacts">Tendencias</span></a></li>
-                        <li><a href="menu-contacto.php"><span data-key="t-blog">Contacto</span></a></li>
-                    </ul>
-                </li>
+
                 <li>
                     <a href="javascript:void(0);" class="has-arrow">
                         <i data-feather="map"></i>
@@ -149,6 +134,23 @@
                                         Inversión y Análisis de Colonias</a></li>
                             </ul>
                         </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="grid"></i>
+                        <span data-key="t-apps">Menú</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="menu-explorador.php"><span data-key="t-calendar">Explorador de valuación y
+                                    precios</span></a></li>
+                        <li><a href="menu-segmentaciones.php"><span data-key="t-chat">Segmentaciones de
+                                    mercado</span></a></li>
+                        <li><a href="menu-amenidades.php"><span data-key="t-email">Amenidades</span></a></li>
+                        <li><a href="menu-consultoria.php"><span data-key="t-invoices">Consultoria</span></a></li>
+                        <li><a href="menu-tendencias.php"><span data-key="t-contacts">Tendencias</span></a></li>
+                        <li><a href="menu-contacto.php"><span data-key="t-blog">Contacto</span></a></li>
                     </ul>
                 </li>
             </ul>
