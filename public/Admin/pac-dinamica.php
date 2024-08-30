@@ -174,11 +174,11 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_X_venta_segmentos_pachuca.html"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"                            
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa.html"                                    
                                     id="contenido1"></iframe>
                                 <iframe width="700" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_tiempo_venta_est_total_pachuca.html"
+                                src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa_total.html"    
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -235,7 +235,8 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_creditosx_xgenero_pachuca.html"
+                        <iframe 
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_creditos_genero.html"    
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
@@ -285,8 +286,9 @@
                         ?>
                         <!-- Link de la gráfica -->
                           <!--/resources/jupyter/graficas/.html-->
-                         <iframe src="/datalpine/resources/jupyter/graficas/g_bar_credito_destino_pachuca.html"                          
-                          width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>                        
+                         <iframe 
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html"                                           
+                            width="800" height="400" frameborder="0" id="contenido01" style="display: block; margin: 0 auto;"></iframe>                        
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
                             <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
@@ -369,11 +371,8 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_mercado_salarial_xpersona_pachuca.html"
-                                    id="contenido3"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido4"
-                                    style="display: none;"></iframe>
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_persona.html"
+                                    id="contenido3"></iframe>                                
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -439,11 +438,8 @@
                     <div class="card-header bg-white d-flex justify-content-center align-items-center">
                         <div class="d-flex align-items-center">
                             <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/g_bar_mercadosalarial_x_parejas_pachuca.html"
-                                id="contenido5"></iframe>
-                            <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/mercadosalarial.png" id="contenido6"
-                                style="display: none;"></iframe>
+                                src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_parejas.html"
+                                id="contenido5"></iframe>                            
                         </div>
                     </div>
                     <!-- Explicación de la gráfica -->
@@ -494,11 +490,11 @@
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                     <!-- Link de la gráfica -->
-                    <iframe src="/datalpine/resources/jupyter/graficas/g_bar_volmercadosalarial_XX_parejas_pachuca.html"
+                    <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_parejas_vol.html"
                         width="1000" height="400" frameborder="0" id="contenido01"
                         style="display: block; margin: 0 auto;"></iframe>
                     <!-- Explicación de la gráfica -->
-                    <div class="mostrar-container">
+                    <div class="mostrar-container"> 
                             <button class="mostrar" onclick="toggleDescription('description5', 'interpretación5',this)">Descripción</button>
                             <button class="mostrar" onclick="toggleDescription('interpretación5', 'description5',this)">Interpretación</button>
                         </div> 
@@ -563,8 +559,8 @@
                     ?>
                     <!-- Link de la gráfica -->
                         <div class="tables-plotly">
-                            <iframe class="table-iframe"  src="/datalpine/resources/jupyter/tablas/tabla_profsalarioindv_pachuca.html" width="800"
-                                height="400" frameborder="0" id="contenido01" onload="resizeIframe(this)"
+                            <iframe class="table-iframe"  src="/datalpine/resources/Ciudades/Pachuca/assets/Tablas/tabla_profesiones.html" 
+                                width="800" height="400" frameborder="0" id="contenido01" onload="resizeIframe(this)"
                                 style="display: block;margin: 0px auto;min-height: 410px;"></iframe>
                                 <script>
                                     function resizeIframe(iframe) {

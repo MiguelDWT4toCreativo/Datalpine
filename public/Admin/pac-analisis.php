@@ -165,7 +165,7 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_distsegmentos_pachuca.html" 
+                        <iframe src=" /datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_segmentos.html"
                             width="1000" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                             <div class="mostrar-container">
@@ -240,11 +240,11 @@
                         <!-- Link de la gráfica -->
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
-                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_m2_construidos_pachuca.html"
+                                <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"                                
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html"
                                     id="contenido1"></iframe>
-                                <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_m2_construidos_pachuca.html"
+                                <iframe width="800" height="400" seamless frameborder="0" scrolling="no"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html"
                                     id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
@@ -339,8 +339,8 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 20px; margin-top: 20px;">
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_bar_PrecioPromedio-x-M2_pachuca.html"
-                            width="800" height="520" frameborder="0" id="contenido01"
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_PrecioPromedio_m2.html"    
+                        width="800" height="520" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
                         <!-- Explicación de la gráfica -->

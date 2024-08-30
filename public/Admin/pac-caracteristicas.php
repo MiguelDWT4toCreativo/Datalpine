@@ -172,11 +172,11 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_dist_recamaras_pachuca.html"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html"                                    
                                     id="contenido1"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pastel_dist_x_recamaras_pachuca.html"
-                                    id="contenido2" style="display: none;"></iframe>
+                                src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html"                                    
+                                id="contenido2" style="display: none;"></iframe>
                             </div>
                         </div>
                         <!-- Explicación de la gráfica -->
@@ -232,10 +232,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_bar_dist_baños_pachuca.html"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_baños.html"                                    
                                     id="contenido3"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/g_pie_dist_x_baños_pachuca.html" id="contenido4"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_baños.html"   id="contenido4"                              
                                     style="display: none;"></iframe>
                             </div>
                         </div>
@@ -318,10 +318,10 @@
                         <div class="card-header bg-white d-flex justify-content-center align-items-center">
                             <div class="d-flex align-items-center">
                                 <iframe width="1000" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_Num_Estacionamientos_pachuca.html"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_estacionamientos.html"
                                     id="contenido5"></iframe>
                                 <iframe width="600" height="400" seamless frameborder="0" scrolling="no"
-                                    src="/datalpine/resources/jupyter/graficas/grafica_pie_Num_Estacionamientos_pachuca.html"
+                                    src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_estacionamientos.html"
                                     id="contenido6" style="display: none;"></iframe>
                             </div>
                         </div>
