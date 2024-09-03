@@ -175,13 +175,12 @@
                         <!-- Link de la gráfica -->
                         <p style="text-align: center;">
                             <iframe width="1000" height="500" seamless frameborder="0" scrolling="no"
-                                src="/datalpine/resources/jupyter/graficas/g_bar_piramid_poblacion_edad_gen_hidalgo.html"></iframe>
-                        </p>
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/g_bar_piramid_poblacion_edad_gen_hidalgo.html"></iframe>
                         <!-- Explicación de la gráfica -->                        
                         <div class="mostrar-container">
                             <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
                             <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
-                        </div> 
+                        </div>                                                 
 
                         <!-- Descripción -->
                         <div class="description" id="description" style="display: none;">
@@ -219,7 +218,7 @@
                         ?>
                         <!-- Link de la gráfica -->
                         <iframe
-                            src="/datalpine/resources/jupyter/graficas/g_bar_piramid_poblacion_edad_gen_pachuca.html"
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html"                            
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
@@ -263,7 +262,8 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_pie_dist_cred_edad_pachuca.html"
+                        <iframe                             
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_creditos_edad.html"
                             width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->                        
@@ -324,8 +324,9 @@
                         echo "</ol>";
                         ?>
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_promedio_precio_oferta_pachuca_2023.html" width="800"
-                            height="400" frameborder="0" id="contenido01"
+                        <iframe 
+                            src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta.html"    
+                            width="800" height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
                         <!-- Explicación de la gráfica -->
                         <div class="mostrar-container">
@@ -379,7 +380,7 @@
                         ?>
 
                         <!-- Link de la gráfica -->
-                        <iframe src="/datalpine/resources/jupyter/graficas/g_scatt_mediana_precio_oferta_pachuca_2023.html" width="800"
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta_mediana.html" width="800"
                             height="400" frameborder="0" id="contenido01"
                             style="display: block; margin: 0 auto;"></iframe>
 
