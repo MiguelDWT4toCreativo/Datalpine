@@ -147,136 +147,145 @@
                     transformaciones, tendencias y precios a lo largo del tiempo.
                 </p>
                  <!--Mapa de calor Propiedades -->
-                 <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="subtitle-container">
-                            <h5 class="card-title subtitle">
-                            Distribución de Propiedades
-                            <span class="text-muted fw-normal ms-2"></span></h5>
+                 <!-- Contenedor principal para los mapas -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- Columna izquierda: Mapa de calor Propiedades -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie me-2"></i>
+                            <span class="developer-label">Desarrollador</span>
                         </div>
-                    </div>
-                    <!-- Link de la gráfica -->
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div style="flex: 1; margin-right: 20px;">
-                                <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" 
-                                    width= 800px; height= 400px; frameborder="0" id="contenido01"
-                                    style="width: 100%; min-height: 430px; border: 0;"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mostrar-container">
-                        <button class="mostrar" onclick="toggleDescription('description2', 'interpretación2',this)">Descripción</button>
-                        <button class="mostrar" onclick="toggleDescription('interpretación2', 'description2',this)">Interpretación</button>
-                    </div>
-                    <!-- Explicación de la gráfica -->
-                    <div class="description" id="description2" style="display: none;">
-                        <div class="subtitles"><span class="icon"></span></div>
-                        <p class="text">El mapa de calor presentado ofrece una visualización de la densidad de
-                            propiedades
-                            disponibles en la ciudad. La representación utiliza una escala de colores que va desde
-                            el rojo intenso, indicando una alta concentración de propiedades en una zona
-                            específica, hasta el azul más claro, denotando una menor oferta de propiedades en esa
-                            área, donde cada propiedad está geolocalizada mediante sus coordenadas de latitud
-                            y longitud. </p>
-                        <p class="text">Esta representación permite identificar fácilmente áreas con alta demanda y
-                            concentración de propiedades, así como áreas con menor competencia y potencial para el
-                            desarrollo inmobiliario.</p>
-                    </div>
-                    <div class="interpretation" id="interpretación2" style="display: none;">
-                        <div class="subtitles"><span class="icon"></span></div>
-                        <p class="text">El análisis de la distribución de la oferta de propiedades revela que algunas
-                            colonias destacan por su alta densidad de disponibilidad, como <strong>La Providencia,
-                                Miguel
-                                Hidalgo, Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa. </strong></p>
-                        <p class="text">
-                            Por otro lado, existen colonias donde la oferta es notablemente más limitada,
-                            como <strong>La Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y
-                                Privada
-                                Rinconadas del Sur.</strong>
-                        </p>
-                        <p class="text">
-                            Este panorama ofrece una visión clara de las áreas con mayor y menor
-                            disponibilidad de propiedades. </p>
-                    </div>
-                </div>
-                <!--Mapa de calor -->
-                <div class="row align-items-center"
-                    style="border: 1px solid #ccc; border-radius: 5px;  padding: 12px; margin-bottom: 20px;">
-                    <div class="col-md-6">
-                        <div class="subtitle-container">
-                            <h5 class="card-title subtitle">
-                            Distribución de Colonias <span class="text-muted fw-normal ms-2"></span>
-                            </h5>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal1">Descripción</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal1">Interpretación</button>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <div style="display: flex; justify-content: center; align-items: center;">
-                            <div style="flex: 1; margin-right: 20px;">
-                                <iframe src="/datalpine/resources/jupyter/mapas/map_2_pachuca.html" width="800"
-                                    height="400" frameborder="0" id="contenido01"
-                                    style="width: 100%; min-height: 430px; border: 0;"></iframe>
-                            </div>
-                        </div>
-                    </div>                   
-                    <div class="mostrar-container">
-                            <button class="mostrar" onclick="toggleDescription('description', 'interpretación',this)">Descripción</button>
-                            <button class="mostrar" onclick="toggleDescription('interpretación', 'description',this)">Interpretación</button>
-                    </div>
-                    <!-- Descripción -->
-                    <div class="description" id="description" style="display: none;">
-                        <div class="subtitles"><span class="icon"></span>Descripción:</div>
-                        <p class="text">Este mapa interactivo despliega una representación visual de las colonias
-                            locales junto con información clave sobre el mercado inmobiliario como el el precio
-                            promedio tanto de propiedades como de m2 de terreno y m2 construido, de
-                            igual forma, engloba información sobre el promedio de recamaras, baños,
-                            cajones de estacionamiento y precios promedio de m2 de terreno y de
-                            construcción. Cada colonia se clasifica en un segmento específico, desde E
-                            (menor precio) hasta S (mayor precio), según el rango de precios de las
-                            propiedades y están representados de la siguiente manera:</p>
-                        <ul class="text">
-                            <li>SEGMENTO E: Menor a <strong>1M</strong> (Verde)</li>
-                            <li>SEGMENTO D: <strong>1M - 1.75M</strong> (Amarillo)</li>
-                            <li>SEGMENTO C: <strong>1.75M-2.5M</strong> (Azul)</li>
-                            <li>SEGMENTO B: <strong>2.5M-3.25</strong> (Morado)</li>
-                            <li>SEGMENTO A: <strong>3.25M-4M</strong> (Naranja)</li>
-                            <li>SEGMENTO S: <strong>4KK+</strong> (Rojo)</li>
-                        </ul>
-                    </div>
-                    <!-- Interpretación -->
-                    <div class="interpretation" id="interpretación" style="display: none;">
-                        <div class="subtitles"><span class="icon"></span>Interpretación:</div>
-                        <p class="text">Analizando el mapa, se destaca que en Pachuca, varias colonias se encuentran
-                            principalmente en el segmento de precios más alto, identificado como S.
-                            Entre ellas se incluyen:</p>
-                        <ul class="text">
-                            <li>Valle de San Javier</li>
-                            <li>Club de Golf</li>
-                            <li>La Moraleja</li>
-                            <li>Periodista</li>
-                        </ul>
-                        <p class="text">
-                            Por otro lado, se observa que entre las colonias con precios más accesibles
-                            se
-                            encuentra:</p>
-                        <ul class="text">
-                            <li>La Palma</li>
-                        </ul>
-                        <p class="text">
-                            Además, se identifican colonias cuyos precios se sitúan en un rango
-                            promedio, como:</p>
-                        <ul class="text">
-                            <li>Santa Julia</li>
-                            <li>Piracantos</li>
-                            <li>Pitahayas</li>
-                        </ul>
-                        <p class="text">
-                            Este mapa nos proporciona una visión clara de la diversidad de precios en
-                            las
-                            diferentes colonias de Pachuca.</p>
+                        <iframe src="/datalpine/resources/jupyter/mapas/hidalgo_heat_map.html" 
+                            width="100%" height="400" frameborder="0" 
+                            style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Columna derecha: Mapa de Distribución de Colonias -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie me-2"></i>
+                            <span class="developer-label">Desarrollador</span>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal2">Descripción</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal2">Interpretación</button>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <iframe src="/datalpine/resources/jupyter/mapas/map_2_pachuca.html" 
+                            width="100%" height="400" frameborder="0" 
+                            style="min-height: 430px; border: 0;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modales para Descripción e Interpretación del primer mapa -->
+<div class="modal fade" id="descriptionModal1" tabindex="-1" aria-labelledby="descriptionModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal1Label">Descripción - Distribución de Propiedades</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            El mapa de calor presentado ofrece una visualización de la densidad de propiedades disponibles en la ciudad. La representación utiliza una escala de colores que va desde el rojo intenso, indicando una alta concentración de propiedades en una zona específica, hasta el azul más claro, denotando una menor oferta de propiedades en esa área, donde cada propiedad está geolocalizada mediante sus coordenadas de latitud y longitud.
+
+Esta representación permite identificar fácilmente áreas con alta demanda y concentración de propiedades, así como áreas con menor competencia y potencial para el desarrollo inmobiliario.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal1" tabindex="-1" aria-labelledby="interpretationModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal1Label">Interpretación - Distribución de Propiedades</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            El análisis de la distribución de la oferta de propiedades revela que algunas colonias destacan por su alta densidad de disponibilidad, como La Providencia, Miguel Hidalgo, Lomas Residencial, Real Toledo Fase 4 y Lomas de Nueva Airosa.
+
+Por otro lado, existen colonias donde la oferta es notablemente más limitada, como La Misión, Ex-Hacienda de Pitahayas, Carlos Rovirosa, Hacienda la Herradura y Privada Rinconadas del Sur.
+
+Este panorama ofrece una visión clara de las áreas con mayor y menor disponibilidad de propiedades.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modales para Descripción e Interpretación del segundo mapa -->
+<div class="modal fade" id="descriptionModal2" tabindex="-1" aria-labelledby="descriptionModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal2Label">Descripción - Distribución de Colonias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Este mapa interactivo despliega una representación visual de las colonias locales junto con información clave sobre el mercado inmobiliario como el el precio promedio tanto de propiedades como de m2 de terreno y m2 construido, de igual forma, engloba información sobre el promedio de recamaras, baños, cajones de estacionamiento y precios promedio de m2 de terreno y de construcción. Cada colonia se clasifica en un segmento específico, desde E (menor precio) hasta S (mayor precio), según el rango de precios de las propiedades y están representados de la siguiente manera:
+
+SEGMENTO E: Menor a 1M (Verde)
+SEGMENTO D: 1M - 1.75M (Amarillo)
+SEGMENTO C: 1.75M-2.5M (Azul)
+SEGMENTO B: 2.5M-3.25 (Morado)
+SEGMENTO A: 3.25M-4M (Naranja)
+SEGMENTO S: 4KK+ (Rojo)
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal2" tabindex="-1" aria-labelledby="interpretationModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal2Label">Interpretación - Distribución de Colonias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            Interpretación:
+Analizando el mapa, se destaca que en Pachuca, varias colonias se encuentran principalmente en el segmento de precios más alto, identificado como S. Entre ellas se incluyen:
+
+Valle de San Javier
+Club de Golf
+La Moraleja
+Periodista
+Por otro lado, se observa que entre las colonias con precios más accesibles se encuentra:
+
+La Palma
+Además, se identifican colonias cuyos precios se sitúan en un rango promedio, como:
+
+Santa Julia
+Piracantos
+Pitahayas
+Este mapa nos proporciona una visión clara de la diversidad de precios en las diferentes colonias de Pachuca.
+            </div>
+        </div>
+    </div>
+</div>
+
                
                 <!--Clientes potenciales foráneos -->
                 <div class="row align-items-center"
