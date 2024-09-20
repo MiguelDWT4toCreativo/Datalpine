@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Querétaro | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
+                                    <li class="breadcrumb-item active">Santiago de Querétaro</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -194,27 +194,126 @@
 <!-- Sección UMAS y Destino del Crédito -->
 <div class="container-fluid">
     <div class="row">
-        <!-- Mitad izquierda: Créditos por porcentaje de UMAS -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Créditos por porcentaje de UMAS</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal3">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal3">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/ruta/a/grafica3.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
+<!-- Mitad izquierda: Créditos por porcentaje de UMAS -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Créditos por porcentaje de UMAS</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="yearSelectUMAS" onchange="showYearlyDataUMAS(this.value)">
+                        <option value="">Seleccione un año</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalUMAS">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonUMAS" data-bs-toggle="modal">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalUMAS" tabindex="-1" aria-labelledby="descriptionModalLabelUMAS" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelUMAS">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra los créditos distribuidos por porcentaje de UMAS según el año seleccionado.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalUMAS2022" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelUMAS2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Interpretación específica de la gráfica de 2022 para UMAS.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="interpretationModalUMAS2023" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelUMAS2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Interpretación específica de la gráfica de 2023 para UMAS.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="interpretationModalUMAS2024" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelUMAS2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Interpretación específica de la gráfica de 2024 para UMAS.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showYearlyDataUMAS(year) {
+        // Ocultar todas las gráficas
+        const years = ['2022', '2023', '2024'];
+        years.forEach(y => {
+            document.getElementById(`yearlyDataUMAS${y}`).style.display = 'none';
+        });
+
+        // Mostrar la gráfica correspondiente al año seleccionado
+        if (year) {
+            document.getElementById(`yearlyDataUMAS${year}`).style.display = 'block';
+        }
+
+        // Actualizar el botón de interpretación para abrir el modal correcto
+        const interpretationButton = document.getElementById('interpretationButtonUMAS');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
+    }
+</script>
+
 
         <!-- Mitad derecha: Destino del crédito -->
         <div class="col-md-6">
@@ -232,7 +331,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/ruta/a/grafica4.html" width="100%" height="400" frameborder="0"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
