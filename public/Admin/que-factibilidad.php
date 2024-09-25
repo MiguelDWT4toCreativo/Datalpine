@@ -317,7 +317,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_%_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s1" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_porciento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s1" style="display: none;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_%_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s1" style="display: none;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_%_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s1" style="display: none;"></iframe>
             </div>

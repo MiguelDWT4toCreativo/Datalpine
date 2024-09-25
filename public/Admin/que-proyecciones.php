@@ -183,7 +183,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_alto_potencial.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_predominantes.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -216,27 +216,94 @@
             </div>
         </div>
 
-        <!-- Mitad derecha: Precio Promedio de Baños -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Precio Promedio de Baños</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Gráfica: Precio Promedio de Baños -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio de Baños</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
+                        <option value="banos">Baños</option>
+                        <option value="cuatrobanos">Cuatro Baños</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanos">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalBanos" tabindex="-1" aria-labelledby="descriptionModalLabelBanos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelBanos">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra el precio promedio de baños y de cuatro baños según la opción seleccionada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalBanos" tabindex="-1" aria-labelledby="interpretationModalLabelBanos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelBanos">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Interpretación de la gráfica de precio promedio de baños.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showBathroomData(option) {
+        // Ocultar todas las gráficas
+        document.getElementById('bathroomDataBanos').style.display = 'none';
+        document.getElementById('bathroomDataCuatroBanos').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente a la opción seleccionada
+        if (option === 'banos') {
+            document.getElementById('bathroomDataBanos').style.display = 'block';
+            document.getElementById('interpretationButtonBanos').setAttribute('data-bs-target', '#interpretationModalBanos');
+        } else if (option === 'cuatrobanos') {
+            document.getElementById('bathroomDataCuatroBanos').style.display = 'block';
+            document.getElementById('interpretationButtonBanos').setAttribute('data-bs-target', '#interpretationModalBanos');
+        }
+    }
+
+    // Mostrar la gráfica "Baños" por defecto al cargar la página
+    window.onload = function() {
+        showBathroomData('banos');
+    };
+</script>
+
     </div>
 </div>
 
@@ -308,7 +375,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_meses_oferta.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_MonthSupply.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -357,7 +424,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -485,11 +552,11 @@
     </div>
 </div>
 
-<!-- Proyección Forecast Media Anual -->
+Colonias más baratas<!-- Proyección Forecast Media Anual -->
 <div class="container-fluid">
     <div class="row">
-        <!-- Columna completa: Proyección Forecast Media Anual -->
-        <div class="col-md-12">
+        <!-- Columna izquierda: Proyección Forecast Media Anual -->
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title subtitle mb-3 text-center">Proyección Forecast Media Anual</h5>
@@ -509,6 +576,93 @@
                 </div>
             </div>
         </div>
+        <!-- Columna derecha: Colonias más baratas -->
+<!-- Gráfica: Colonias Más Caras y Más Baratas -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Colonias más baratas</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="coloniasSelect" onchange="showColoniasData(this.value)">
+                        <option value="masbaratas">Más Baratas</option>
+                        <option value="mascaras">Más Caras</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColonias">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalColonias" tabindex="-1" aria-labelledby="descriptionModalLabelColonias" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelColonias">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra las colonias más caras y más baratas según la opción seleccionada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalColonias" tabindex="-1" aria-labelledby="interpretationModalLabelColonias" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelColonias">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Interpretación de la gráfica de colonias más caras y más baratas.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showColoniasData(option) {
+        // Ocultar todas las gráficas
+        document.getElementById('coloniasDataMasBaratas').style.display = 'none';
+        document.getElementById('coloniasDataMasCaras').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente a la opción seleccionada
+        if (option === 'masbaratas') {
+            document.getElementById('coloniasDataMasBaratas').style.display = 'block';
+        } else if (option === 'mascaras') {
+            document.getElementById('coloniasDataMasCaras').style.display = 'block';
+        }
+    }
+
+    // Mostrar la gráfica "Más Baratas" por defecto al cargar la página
+    window.onload = function() {
+        showColoniasData('masbaratas');
+    };
+</script>
+
     </div>
 </div>
 
