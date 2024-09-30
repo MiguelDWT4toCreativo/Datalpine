@@ -188,7 +188,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra los créditos distribuidos por porcentaje de UMAS según el año seleccionado.</p>
+                <p>Se visualiza la distribución de créditos de acuerdo al nivel de porcentaje en UMAS (Unidades de Medida y Actualización) del año 2022.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -206,7 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2022 para UMAS.</p>
+                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de > **12**, con un **26%** de representación, el siguiente intervalo con mayor concentración se encuentra entre **6.01** - **9.00** UMAS con **18.1%**, finalmente las proporciones más bajas se encuentran en el intervalo de UMAS de < **2.6** UMAS y **2.61** - **4.00** UMAS, **13.5%** y **12.0%**. Estos porcentajes bajos para los intervalos de UMAS puede deberse a la poca capacidad de pago que poseen los compradores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -222,7 +222,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2023 para UMAS.</p>
+                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>25.9%</strong> de representación. El siguiente intervalo más representado está entre <strong>6.01</strong> y <strong>9.00</strong> UMAS (<strong>19.5%</strong>), seguido por el intervalo de <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>16.3%</strong>) lo que indica una tendencia hacia montos intermedios. Los intervalos con menor participación se encuentran en los rangos de  entre <strong>9.01</strong>  a <strong>12</strong> UMAS (<strong>14.9%</strong>,), <strong>2.61</strong> A <strong>4.00</strong> UMAS (<strong>12.6%</strong>) y ≤ <strong>2.6</strong> UMAS (<strong>9.9%</strong>). Esta baja proporción en los rangos más bajos puede estar relacionada con la menor capacidad de pago de los solicitantes o la limitada disponibilidad de inmuebles en esos rangos de precio. Además, la alta concentración en los tramos superiores puede reflejar el crecimiento económico y el incremento en el poder adquisitivo en Querétaro, que atrae a solicitantes con mayores ingresos</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -238,7 +238,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2024 para UMAS.</p>
+                <p>En <strong>2024</strong>, la mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS (<strong>22.2%</strong>). El segundo intervalo más representado es el de <strong>6.01</strong> a <strong>9.00</strong> UMAS (<strong>18.9%</strong>),  y el tercero es <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>17.2%</strong>) lo que refleja una tendencia importante hacia créditos intermedios. Los intervalos de menor participación son los de <strong>9.01</strong> A <strong>12</strong> UMAS (<strong>14.8%</strong>), <strong>2.61</strong> a <strong>4.00</strong> UMAS (<strong>14.3%</strong>), y ≤ <strong>2.6</strong> UMAS (<strong>10.2%</strong>). Estos porcentajes más bajos en los intervalos menores indican una menor capacidad de pago por parte de ciertos sectores de la población. La mayor demanda en los rangos superiores puede estar vinculada a la fortaleza económica de <strong>Querétaro</strong> y el incremento en el poder adquisitivo de los compradores que buscan propiedades de mayor valor o que pertenecen a un sector socioeconómico más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -268,27 +268,64 @@
 </script>
 
 
-        <!-- Mitad derecha: Destino del crédito -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
+<!-- Mitad derecha: Destino del crédito -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Descripción:</strong> Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Interpretación:</strong> La mayoría de los créditos se destina a la compra de inmuebles nuevos. Esto puede estar relacionado con el auge del sector de la construcción en <strong>Querétaro</strong> y la expansión de desarrollos residenciales nuevos. La compra de propiedades usadas también representa una parte significativa, posiblemente debido a la relativa falta de disponibilidad de nuevas viviendas en ciertas zonas actualmente o a la preferencia de algunos compradores por zonas más céntricas. El porcentaje destinado al mejoramiento de propiedades sugiere que, aunque menor, existe una tendencia a invertir en la renovación de viviendas existentes, lo que podría estar vinculado al aumento del valor de las propiedades o a programas de financiamiento específico para mejoras. Finalmente, los créditos destinados a otros programas indican una diversidad de opciones de financiamiento disponibles para los compradores que buscan alternativas fuera de las modalidades tradicionales.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     </div>
 </div>
 

@@ -111,27 +111,7 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Gráfica 3: Tiempo en el mercado -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tiempo en el mercado</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal3">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal3">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempo_mercado.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <!-- Gráfica 4: Distribución % de créditos por vivienda valor -->
 <!-- Distribución % de créditos por vivienda valor -->
@@ -175,7 +155,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución porcentual de créditos otorgados por vivienda valor según el año seleccionado.</p>
+                <p>La gráfica presenta una distribución porcentual de créditos otorgados para la adquisición de viviendas, clasificados por diferentes tipos de vivienda: Económica, Popular, Tradicional, Media, Residencial y Residencial Plus.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -193,7 +173,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2022 para vivienda valor.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37.7%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21.1%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un <strong>4%</strong>, <strong>4%</strong> y <strong>7%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -209,7 +190,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2023 para vivienda valor.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21%</strong> y tradicionales <strong>22%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>2%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -225,7 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2024 para vivienda valor.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>20%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>0%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -319,7 +300,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2022 para créditos por organismo.</p>
+                <p>                <p>Al observar la gráfica podemos deducir que:</p>
+                <ul>
+                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 38% y 55% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
+                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 6%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
+                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</li>
+                </ul></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -335,7 +321,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2023 para créditos por organismo.</p>
+                <p><strong>Interpretación:</strong></p>
+                <p>Al observar la gráfica podemos deducir que:</p>
+                <ul>
+                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 45% y 50% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el período analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
+                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 5%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
+                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el período analizado.</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -351,7 +343,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de 2024 para créditos por organismo.</p>
+                <p><strong>Interpretación:</strong></p>
+                <p>Al observar la gráfica podemos deducir que:</p>
+                <ul>
+                    <li><strong>INFONAVIT y CNBV:</strong> Existe dominancia de INFONAVIT y CNBV, es evidente que el INFONAVIT y la CNBV son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un 51% y 42% respectivamente, estas dos entidades son las principales proveedoras de financiamiento a la población.</li>
+                    <li><strong>FOVISSTE:</strong> Menor participación de FOVISSTE, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del 5%.</li>
+                    <li><strong>BANJERCITO y CONAVI:</strong> Mínima participación de BANJERCITO y CONAVI, muestran una participación prácticamente nula con el 0% o casi nula a excepción de CONAVI con el 1%  en el otorgamiento de créditos.</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -424,7 +422,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de estacionamientos según la opción seleccionada: General o Segmentos.</p>
+                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con 5 estacionamientos, lo que que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio de alto, de 4 millones a 12 millones. Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con 1 o 2 estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Santiago de Querétaro pueden acceder a ellas. Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -442,7 +440,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de estacionamientos General.</p>
+                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -458,7 +456,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de estacionamientos Segmentos.</p>
+                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</strong></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -529,7 +527,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de baños según la opción seleccionada: General o Segmentos.</p>
+                <p>Se muestra la distribución de los segmentos de acuerdo a la cantidad de baños con la que cuenta cada uno. Cada barra representa la cantidad de casas que tienen un número específico de baños para un segmento determinado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -547,7 +545,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica general de distribución de baños.</p>
+                <p><strong>Interpretación:</strong> Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -563,7 +561,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de distribución de baños por segmentos.</p>
+                <p>Es notorio que la mayor parte de las propiedades de Santiago de Querétaro poseen <strong>1</strong> baño, este representa el <strong>48.4%</strong> de todo el mercado inmobiliario. En menor proporción pero igual de representativos están las propiedades que poseen <strong>2</strong> (<strong>22.3%</strong>), <strong>3</strong> (<strong>13.6%</strong>), <strong>4</strong> (<strong>10.1%</strong>), esto implica que la propiedades con menor número de baños predominan lo que corresponde a las propiedades que tienen un precio asequible. Por otro lado, existe un grupo limitado y exclusivo para las propiedades de <strong>5</strong> (<strong>4.41%</strong>), <strong>6</strong> (<strong>0.83%</strong>), <strong>7</strong> (<strong>0.21%</strong>) y <strong>8</strong> (<strong>0.25%</strong>), dada esta cantidad se puede intuir que son propiedades con un valor alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -634,7 +632,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de recámaras según la opción seleccionada: General o Segmentos.</p>
+                <p>En el gráfico se muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -652,7 +650,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de recámaras general.</p>
+                <p><strong>Interpretación:</strong> El segmento S es el que presenta la mayor cantidad de casas con 3 o 4 recámaras, al ser considerado un segmento con un rango de precios de entre 4 millones a 12 millones, las propiedades corresponden a zonas residenciales con gran tamaño. Para el segmento L sucede algo muy similar, y es que, aunque poca representación es notorio que las propiedades de lujo tienen de 3 a 4 recámaras. </p>
+                <p>Para segmentos de un valor menor (E, D, C, B, A) es posible notar que predominan propiedades con 2 recámaras, lo que sugiere que la mayoría de las familias que adquieren este tipo de propiedades son familias pequeñas. Además que el precio de estos segmentos las hace asequibles.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -668,7 +667,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de recámaras por segmentos.</p>
+                <p>Con un <strong>64.6%</strong> y <strong>20.4%</strong> de la participación, la distribución de <strong>3</strong> y <strong>2</strong> recámaras, respectivamente, es la más frecuente. Lo que sugiere que es común encontrar propiedades con este número de recámaras correspondiente al tamaño de las familias de la ciudad de Santiago de Querétaro. En menor proporción se encuentran las propiedades con <strong>4</strong> (<strong>12%</strong>), <strong>1</strong> (<strong>1.99%</strong>), <strong>5</strong> (<strong>.93%</strong>) y <strong>6</strong> (<strong>0.18%</strong>) recámaras, esto sugiere que hay una oferta menor en propiedades con un número tan alto y tan mínimo de recámaras. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -758,7 +757,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica general de metros cuadrados construidos.</p>
+                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -774,7 +773,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación específica de la gráfica de metros cuadrados construidos por segmentos.</p>
+                <p>Los segmentos más pequeños (0-100 m² y 100-150 m²) presentan los valores más altos, de $28,173.12 y $31,324.74 respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: 150-200 m² con $21,217.37, y 200-250 m² con $20,856.11. El precio se eleva nuevamente en propiedades de 250 a 300 m² y más de 300 m² , con  promedios de $21,249.50 y $27,577.05 respectivamente.
+
+La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -822,7 +823,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
