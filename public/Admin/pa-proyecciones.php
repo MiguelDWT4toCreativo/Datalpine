@@ -163,7 +163,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
@@ -239,8 +239,9 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+            C:\xampp\htdocs\datalpine\resources\Ciudades\Pachuca\assets\graficas\g_bar_precio_promedio_baños.h
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -350,7 +351,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_MonthSupply.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_MonthSupply.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -439,7 +440,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -697,8 +698,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -780,7 +781,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempo_mercado.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempo_mercado.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>

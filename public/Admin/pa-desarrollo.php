@@ -104,11 +104,45 @@
     <!-- ============================================================== -->
     <!-- Start right Content here -->
     <!-- ============================================================== -->
+     
     <div class="main-content">
 
         <div class="page-content">
 <!-- Sección Desarrollo de Producto -->
 <div class="container-fluid">
+    <!-- start page title -->
+    <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                            <div class="page-title-right">
+                                <ol class="breadcrumb mb-sm-0 font-size-18">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
+                                    <li class="breadcrumb-item active">Pachuca</li>
+                                </ol>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                <!-- Características y Distribución de Propiedades -->
+                <style>
+                    .titulo {
+                        text-align: center;
+                        color: #333;
+                        font-size: 24px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                    }
+                </style>
+                <div class="titulo">
+                    <h1>Desarrollo de Producto</h1>
+                </div>
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
+                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    transformaciones, tendencias y precios a lo largo del tiempo.</p>
+
+
     <div class="row">
 
 
@@ -138,9 +172,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_vivienda_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -265,9 +299,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_organismo_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -385,7 +419,8 @@
 
 
 <!-- Gráfica: Estacionamientos -->
-<div class="col-md-6">
+ <div class="row">
+ <div class="col-md-6">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
@@ -406,12 +441,42 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets\graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets\graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
 </div>
+
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="segmentSelectBanos" onchange="showSegmentDataBanos(this.value)">
+                        <option value="general">General</option>
+                        <option value="segmentos">Segmentos</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+ </div>
+
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalEstacionamientos" tabindex="-1" aria-labelledby="descriptionModalLabelEstacionamientos" aria-hidden="true">
@@ -490,33 +555,7 @@
 
 
 <!-- Gráfica: Distribución de baños [V2] -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="segmentSelectBanos" onchange="showSegmentDataBanos(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalBanos" tabindex="-1" aria-labelledby="descriptionModalLabelBanos" aria-hidden="true">
@@ -593,8 +632,8 @@
     };
 </script>
 
-
-<!-- Gráfica: Recámaras -->
+<div class="row">
+    <!-- Gráfica: Recámaras -->
 <div class="col-md-6">
     <div class="card">
         <div class="card-body">
@@ -616,12 +655,44 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Gráfica: Distribución m2 construidos -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="segmentSelectM2Construidos" onchange="showSegmentDataM2Construidos(this.value)">
+                        <option value="general">General</option>
+                        <option value="segmentos">Segmentos</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalM2Construidos">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#interpretationModalM2ConstruidosGeneral">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalRecamaras" tabindex="-1" aria-labelledby="descriptionModalLabelRecamaras" aria-hidden="true">
@@ -701,34 +772,7 @@
 
 
         <!-- Gráfica 9: g_bar_dist_m2_construidos -->
-<!-- Gráfica: Distribución m2 construidos -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="segmentSelectM2Construidos" onchange="showSegmentDataM2Construidos(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalM2Construidos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#interpretationModalM2ConstruidosGeneral">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalM2Construidos" tabindex="-1" aria-labelledby="descriptionModalLabelM2Construidos" aria-hidden="true">

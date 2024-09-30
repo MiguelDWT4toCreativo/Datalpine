@@ -167,9 +167,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="segmentoData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="segmentoData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -246,7 +246,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_creditos_genero.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_creditos_genero.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -385,9 +385,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2023" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2024" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2023" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2024" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -464,7 +464,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -486,7 +486,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -496,7 +496,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
+                    <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Pachuca por género y rango de edad</h5>
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-user-tie me-2"></i>
@@ -508,7 +508,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -539,9 +539,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s2" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s2" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s2" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s2" style="display: none;"></iframe>
             </div>
         </div>
     </div>
@@ -653,7 +653,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>

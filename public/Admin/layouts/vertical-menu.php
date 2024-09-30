@@ -111,19 +111,12 @@
                                     <span data-key="t-profile">Pachuca</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="pac-vision.php" data-key="t-user-grid">Visión General del Mercado</a></li>
-                                    <li><a href="pac-analisis.php" data-key="t-user-grid">Análisis de Segmentos y Precios</a></li>
-                                    <li><a href="pac-caracteristicas.php" data-key="t-user-grid">Características y Distribución de Propiedades</a></li>
-                                    <li><a href="pac-dinamica.php" data-key="t-user-grid">Dinámicas de Venta y Financiamiento</a></li>
-                                    <li><a href="pac-demografia.php" data-key="t-user-list">Demografía y Tendencias de Mercado</a></li>
-                                    <li><a href="pac-proyecciones.php" data-key="t-profile">Proyecciones Oportunidades de Inversión y Análisis de Colonias</a></li>
-                                </ul>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="pac-caracteristicas.php" data-key="t-user-grid">Desarrollo de Producto</a></li>
-                                    <li><a href="pac-analisis.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
-                                    <li><a href="pac-dinamica.php" data-key="t-user-grid">identificación de Cliente</a></li>
-                                    <li><a href="pac-proyecciones.php" data-key="t-profile">Proyecciones Oportunidades de Inversión y Análisis de Colonias</a></li>                                    
-                                </ul>
+                            <li><a href="pa-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
+                            <li><a href="pa-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
+                            <li><a href="pa-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
+                            <li><a href="pa-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
+                            <li><a href="pa-general.php" data-key="t-user-list">General</a></li>
+                        </ul>
                                 <li>
                                 <a href="javascript:void(0);" class="has-arrow">
                                     <span data-key="t-contacts">Tulancingo</span>

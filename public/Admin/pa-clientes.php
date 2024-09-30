@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Querétaro | DatAlpine</title>
+    <title>Pachuca | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
-                                    <li class="breadcrumb-item active">Santiago de Querétaro</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
+                                    <li class="breadcrumb-item active">Pachuca</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -171,9 +171,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: block;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
             </div>
         </div>
     </div>
@@ -206,7 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de > **12**, con un **26%** de representación, el siguiente intervalo con mayor concentración se encuentra entre **6.01** - **9.00** UMAS con **18.1%**, finalmente las proporciones más bajas se encuentran en el intervalo de UMAS de < **2.6** UMAS y **2.61** - **4.00** UMAS, **13.5%** y **12.0%**. Estos porcentajes bajos para los intervalos de UMAS puede deberse a la poca capacidad de pago que poseen los compradores.</p>
+                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de más de <strong>12</strong>, con un <strong>26%</strong> de representación...</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -214,6 +214,7 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="interpretationModalUMAS2023" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -222,7 +223,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>25.9%</strong> de representación. El siguiente intervalo más representado está entre <strong>6.01</strong> y <strong>9.00</strong> UMAS (<strong>19.5%</strong>), seguido por el intervalo de <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>16.3%</strong>) lo que indica una tendencia hacia montos intermedios. Los intervalos con menor participación se encuentran en los rangos de  entre <strong>9.01</strong>  a <strong>12</strong> UMAS (<strong>14.9%</strong>,), <strong>2.61</strong> A <strong>4.00</strong> UMAS (<strong>12.6%</strong>) y ≤ <strong>2.6</strong> UMAS (<strong>9.9%</strong>). Esta baja proporción en los rangos más bajos puede estar relacionada con la menor capacidad de pago de los solicitantes o la limitada disponibilidad de inmuebles en esos rangos de precio. Además, la alta concentración en los tramos superiores puede reflejar el crecimiento económico y el incremento en el poder adquisitivo en Querétaro, que atrae a solicitantes con mayores ingresos</p>
+                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>25.9%</strong> de representación...</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -230,6 +231,7 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="interpretationModalUMAS2024" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -238,7 +240,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong>, la mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS (<strong>22.2%</strong>). El segundo intervalo más representado es el de <strong>6.01</strong> a <strong>9.00</strong> UMAS (<strong>18.9%</strong>),  y el tercero es <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>17.2%</strong>) lo que refleja una tendencia importante hacia créditos intermedios. Los intervalos de menor participación son los de <strong>9.01</strong> A <strong>12</strong> UMAS (<strong>14.8%</strong>), <strong>2.61</strong> a <strong>4.00</strong> UMAS (<strong>14.3%</strong>), y ≤ <strong>2.6</strong> UMAS (<strong>10.2%</strong>). Estos porcentajes más bajos en los intervalos menores indican una menor capacidad de pago por parte de ciertos sectores de la población. La mayor demanda en los rangos superiores puede estar vinculada a la fortaleza económica de <strong>Querétaro</strong> y el incremento en el poder adquisitivo de los compradores que buscan propiedades de mayor valor o que pertenecen a un sector socioeconómico más alto.</p>
+                <p>En <strong>2024</strong>, la mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS (<strong>22.2%</strong>)...</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -265,7 +267,13 @@
         const interpretationButton = document.getElementById('interpretationButtonUMAS');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
     }
+
+    // Mostrar la gráfica "2022" por defecto al cargar la página
+    window.onload = function() {
+        showYearlyDataUMAS('2022');
+    };
 </script>
+
 
 
 <!-- Mitad derecha: Destino del crédito -->
@@ -284,7 +292,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
