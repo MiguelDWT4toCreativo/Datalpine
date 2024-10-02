@@ -213,8 +213,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas usadas: Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.</p>
-                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
+                        <p>Viviendas usadas: Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.
+
+Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
