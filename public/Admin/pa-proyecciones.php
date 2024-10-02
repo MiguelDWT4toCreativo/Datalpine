@@ -141,80 +141,6 @@
                     actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
-<!-- Sección Proyección y Forecast -->
-<!-- Sección Colonias y Potencial de Inversión -->
-<div class="container-fluid">
-    <div class="row">
-
-        <!-- Mitad derecha: Colonias de Alto Potencial -->
-<!-- Mitad derecha: Destino del crédito -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se observa que la colonia de Cumbres del lago es el que lidera la oferta dentro de la zona de Santiago de Querétaro, ya que tiene un mayor número de propiedades en venta con un 10.2% de la oferta total de la zona, posiblemente debido a una mayor oferta de nuevos desarrollos o por una mayor disposición de los propietarios de los inmuebles a vender sus viviendas. 
-
-Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) aglutinan una parte significativa de la oferta total, lo que sugiere que la oferta de propiedades en venta no está distribuida de manera uniforme en toda la ciudad, lo que podría estar relacionado con factores como el nivel socioeconómico de la zona, la disponibilidad de servicios, el tipo de vivienda predominante y el atractivo para los compradores.
-
-- Podría haber nuevos desarrollos inmobiliarios, lo que aumentaría la oferta de viviendas disponibles para la venta.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-    </div>
-</div>
-
-<!-- Sección Tendencias de Mercado -->
-<div class="container-fluid">
-    <div class="row">
 
 
 <!-- Gráfica: Precio Promedio de Baños -->
@@ -274,7 +200,12 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica general de baños muestra una tendencia ascendente en el precio de las viviendas conforme aumenta el número de baños. Se observa que las viviendas con más baños suelen ser más costosas, lo que refleja que el número de baños es un factor determinante en la valoración de una propiedad.</p>
+                <ul>
+                    <li><strong>1, 2 o 3 baños:</strong> 2.2, 2.0 y 1.9 millones de pesos, respectivamente.</li>
+                    <li><strong>4, 5, 6 o más baños:</strong> 2.4 y 3.0 millones de pesos, respectivamente.</li>
+                </ul>
+                <p>Existe una clara relación positiva entre el número de baños y el precio promedio de las propiedades. A medida que aumenta el número de baños, también lo hace el precio promedio.</p>
+                <p>Esto podría indicar que el precio relativamente bajo de las propiedades es correspondiente al número menor de baños que posee cada propiedad. Por otra parte, esto justifica su precio ya que son consideradas más exclusivas y de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -292,7 +223,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede observar que en cuanto a las viviendas la ciudad de Querétaro que cuentan con 1, 2, 3 o 4 baños los precios promedios son similares, alrededor de los 5 millones de pesos, a diferencia de las viviendas que cuentan con 3 baños que tiene un cambio en su precio promedio de vivienda aproximando de $1,500,000; eso podría ser por diversos factores así como el público al que le interesan este segmento, el tamaño del terreno, las viviendas o la antigüedad de esas viviendas</p>
+                <p>Se puede observar que en la ciudad de Pachuca de Soto las viviendas que cuentan con 1, 2, 3 o 4 baños los precios promedios son similares, alrededor de los 2 millones de pesos, a diferencia de las viviendas que cuentan con 4 baños que tiene un cambio en su precio promedio de vivienda aproximando de $2,500,000; eso podría ser por diversos factores inmobiliarios como el público al que le interesan este segmento, el tamaño del terreno, las viviendas o la antigüedad de esas viviendas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -386,7 +317,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            La gráfica muestra una relativa estabilidad en los primeros meses de 2023, con algunos picos y caídas menores, lo que sugiere que el mercado inmobiliario estaba funcionando de manera regular. Sin embargo, a partir de noviembre de 2023, se observa un aumento significativo en los meses de oferta, alcanzando su punto más alto en abril de 2024. Este incremento puede estar vinculado a una disminución temporal en la demanda de créditos o a un aumento en la cantidad de propiedades disponibles en el mercado. Factores como la sobreoferta de inmuebles o cambios en las políticas crediticias pueden haber influido en este aumento Posteriormente, la métrica se estabiliza en torno a los 2 meses, lo que indica que el mercado inmobiliario se ajusta primero con una caída y luego una subida bruscas, para equilibrar la oferta y la demanda hacia mediados de 2024.
+            La gráfica muestra una relativa estabilidad en los primeros <strong>meses</strong> de <strong>2023</strong>, con algunos picos y caídas menores, lo que sugiere que el mercado inmobiliario estaba funcionando de manera regular. Sin embargo, a partir de <strong>noviembre</strong> de <strong>2023</strong>, se observa un aumento significativo en los <strong>meses</strong> de oferta, alcanzando su punto más alto en <strong>abril</strong> de <strong>2024</strong>. Este incremento puede estar vinculado a una disminución temporal en la demanda de créditos o a un aumento en la cantidad de propiedades disponibles en el mercado. Factores como la sobreoferta de inmuebles o cambios en las políticas crediticias pueden haber influido en este aumento. Posteriormente, la métrica se estabiliza en torno a los <strong>2 meses</strong>, lo que indica que el mercado inmobiliario se ajusta primero con una caída y luego una subida bruscas, para equilibrar la oferta y la demanda hacia mediados de <strong>2024</strong>.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -475,10 +406,9 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            El 100% de las viviendas que se han ofertado en Santiago de Querétaro se han vendido en menos de un año, esto indica que el mercado inmobiliario de la ciudad es bastante dinámico y que la demanda por viviendas es alta.
-
-Esto podría ser por diversas razones tales como una alta rotación del mercado inmobiliario de Santiago de Querétaro, el cual también podría estar relacionado a factores como el crecimiento económico, el desarrollo urbano, precios accesibles, entre otros.
-                
+            La porción más grande del gráfico corresponde a los productos que han estado en stock <strong>menos de un año</strong>, con un <strong>80.4%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.
+            <br>
+            La porción restante, correspondiente a productos en stock <strong>más de un año</strong>, representa el <strong>19.6%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -694,7 +624,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColonias">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasBaratas">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -714,7 +644,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La grafica muestra las cinco colonias las cuales tienen en promedio los precios más altos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
+                <p>La gráfica muestra las cinco colonias que tienen en promedio los precios más bajos y más altos respecto a todas las colonias en las que se ofertan inmuebles en Pachuca.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -723,18 +653,34 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalColonias" tabindex="-1" aria-labelledby="interpretationModalLabelColonias" aria-hidden="true">
+<!-- Modal for Interpretation: Colonias Más Baratas -->
+<div class="modal fade" id="interpretationModalColoniasBaratas" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasBaratas" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelColonias">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelColoniasBaratas">Interpretación - Colonias Más Baratas</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es Francisco Villa superando en promedio los 200 millones de pesos; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el Cerro de Lira, Cerro la Capilla, Peña Colorada y Cerro la carbonera.
+                <p>Las colonias más baratas en Pachuca de Soto como <strong>Villa Elena</strong> y <strong>Lomas de Nueva Airosa</strong> presentan precios más bajos debido a su lejanía del centro urbano, su difícil acceso a servicios y su proximidad a zonas industriales. Estos factores disminuyen el valor de las propiedades. Zonas como <strong>El Atorón</strong>, <strong>La Surtidora</strong> y <strong>Unión Popular</strong> también ofrecen precios bajos, en torno a medio millón de pesos, debido a su lejanía y accesibilidad limitada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,000,000 lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de Santiago de Querétaro lo cual hace que se eleven sus precios. Por su parte, Vista Lago, Progreso y Fraccionamiento Balcones de Juriquilla son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los 20 millones de pesos en promedio.</p>
+<!-- Modal for Interpretation: Colonias Más Caras -->
+<div class="modal fade" id="interpretationModalColoniasCaras" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasCaras" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelColoniasCaras">Interpretación - Colonias Más Caras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se puede ver que la colonia que más alto oferta sus inmuebles en la ciudad de <strong>Pachuca de Soto</strong> es <strong>Francisco Arboledas Santa Elena</strong> superando en promedio los <strong>24 millones de pesos</strong>; esto es posible que sea a que esta zona se encuentra una exclusiva y limitada población que puede acceder a estas propiedades. En cuanto a la colonia que sigue es <strong>Fraccionamiento Ex hacienda de Coscotitlán</strong> con un precio promedio de <strong>$11,500,000</strong> lo más probable es que debido a la ubicación y el origen de hace que se eleven sus precios. Por su parte, <strong>Campo de Golf</strong>, <strong>Dolores</strong> e <strong>Industrial La Paz</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>11</strong>, <strong>10</strong> y <strong>8 millones de pesos</strong> en promedio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -753,8 +699,10 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
         // Mostrar la gráfica correspondiente a la opción seleccionada
         if (option === 'masbaratas') {
             document.getElementById('coloniasDataMasBaratas').style.display = 'block';
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasBaratas');
         } else if (option === 'mascaras') {
             document.getElementById('coloniasDataMasCaras').style.display = 'block';
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasCaras');
         }
     }
 
@@ -763,6 +711,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
         showColoniasData('masbaratas');
     };
 </script>
+
 
         <!-- Gráfica 3: Tiempo en el mercado -->
         <!-- Gráfica: Tiempo en el mercado -->
@@ -797,7 +746,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
             </div>
             <div class="modal-body">
                 <p>
-                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico en el mercado inmobiliario de la ciudad de Santiago de Querétaro.
+                La barra más alta corresponde al rango de 121-240 días, lo que indica que una gran cantidad de propiedades se venden medianamente rápido, entre 4 a 8 meses. Como siguiente, hay propiedades que se venden de entre  31-120 meses, de ahí están las propiedades que se venden en más de 1 año Esto sugiere que existe una demanda activa en el mercado y donde las propiedades se quedan un periodo medio-corto.
                 </p>
             </div>
             <div class="modal-footer">

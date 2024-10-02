@@ -199,12 +199,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Se muestra la tendencia del precio promedio de los créditos utilizados para financiar tanto las viviendas nuevas como las viviendas que ya están en uso durante los trimestres de un año en concreto para la ciudad de Santiago de Querétaro.</p>
-                        <ul>
-                            <li>Una tendencia a la alza se refiere a que el precio promedio de los créditos ha aumentado trimestre con trimestre.</li>
-                            <li>De lo contrario, si hay una tendencia a la baja significa que el precio promedio de los créditos ha disminuido.</li>
-                            <li>Si se observan picos tanto ascendentes como descendentes indican variaciones abruptas que ha sufrido el precio promedio de los créditos.</li>
-                        </ul>
+                        <p>Se presenta el promedio del monto de los créditos otorgados para viviendas nuevas y usadas en Pachuca de Soto durante el año 2019, desglosado por trimestres. La gráfica de líneas permite comparar cómo varían los montos de los créditos según el tipo de vivienda, destacando las diferencias entre los créditos otorgados para inmuebles nuevos y usados a lo largo del año. Esta visualización es útil para observar las tendencias y fluctuaciones en los valores de los créditos en el mercado inmobiliario.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -218,9 +214,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2019.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera más fluctuante a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 1, 982, 783.36</strong>. Para los trimestres consecutivos la variación fue notoria de <strong>$ 2, 430, 908.83</strong> y <strong>$ 2, 286, 904.20</strong>, en el segundo y tercer trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2, 654, 310.03</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento consistente. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1, 171, 976.05</strong>. Para los trimestres consecutivos es notorio un aumento constante. Del primer al segundo trimestre la variación del precio promedio es de la más perceptible. Para el segundo y tercer trimestres el precio promedio fue de <strong>$ 1, 290, 598.87</strong> y <strong>$ 1, 325, 118.74</strong>, durante estos trimestres el impacto de los factores económicos externos no es tan drástico. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1, 366, 860.78</strong>.</p>
+                        <p>En 2019, los créditos para viviendas nuevas mantuvieron un valor promedio más alto en comparación con las viviendas usadas durante todo el año, alcanzando su pico en el tercer trimestre antes de disminuir levemente en el cuarto trimestre. Esto podría explicarse por el interés sostenido en desarrollos nuevos en Pachuca, impulsado por el crecimiento de la infraestructura y la expansión de la ciudad.</p>
+                        <p>Por otro lado, los créditos para viviendas usadas mostraron fluctuaciones más notables, con una caída significativa en el segundo trimestre y una leve recuperación posterior, para volver a caer en el cuarto trimestre a un valor muy similar al del segundo. Esto podría estar relacionado con la oferta limitada de viviendas usadas en el mercado o con la competencia que representan las nuevas construcciones, que tienden a atraer a más compradores. La menor demanda de viviendas usadas también puede estar vinculada a la preferencia de los compradores por propiedades nuevas debido a mejores condiciones de financiamiento y a la percepción de mayor valor a largo plazo</p>
                     </div>
                 </div>
             </div>
@@ -234,9 +229,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2020.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera más fluctuante a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2, 123, 456.78</strong>. Para los trimestres consecutivos la variación fue notoria de <strong>$ 2, 567, 890.12</strong> y <strong>$ 2, 678, 901.23</strong>, en el segundo y tercer trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2, 789, 012.34</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento consistente. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1, 234, 567.89</strong>. Para los trimestres consecutivos es notorio un aumento constante. Del primer al segundo trimestre la variación del precio promedio es de la más perceptible. Para el segundo y tercer trimestres el precio promedio fue de <strong>$ 1, 345, 678.90</strong> y <strong>$ 1, 456, 789.01</strong>, durante estos trimestres el impacto de los factores económicos externos no es tan drástico. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1, 567, 890.12</strong>.</p>
+                    En <strong>2020</strong>, los créditos para viviendas nuevas en <strong>Pachuca</strong> experimentaron una disminución durante el segundo y tercer trimestre, con una recuperación notable en el cuarto trimestre, alcanzando su punto más alto de casi <strong>2 millones de pesos</strong>. Esta caída a mediados de año podría estar relacionada con los efectos económicos derivados de la pandemia de <strong>COVID-19</strong>, que impactaron en la capacidad de los compradores para adquirir viviendas nuevas. Sin embargo, la fuerte recuperación hacia el final del año puede reflejar la activación estímulos económicos que incentivaron la adquisición de inmuebles nuevos.
+
+Por otro lado, los créditos para viviendas usadas mostraron un incremento constante a lo largo de los dos últimos trimestres del año, tras estar relativamente estable en la primera parte del año, pasando de un promedio de <strong>884 mil pesos</strong> en el primer trimestre a más de <strong>1.2 millones</strong> en el cuarto trimestre. Este comportamiento indica un aumento en la demanda de propiedades usadas, posiblemente debido a la accesibilidad de estas viviendas frente a las nuevas, en un contexto donde muchos compradores podrían estar buscando opciones más asequibles debido a la incertidumbre económica provocada por la pandemia
                     </div>
                 </div>
             </div>
@@ -250,9 +245,12 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2021.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se puede observar una tendencia al alza estable a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,610,267.11</strong>. Para los trimestres consecutivos se tuvieron relativamente pequeñas variaciones, de <strong>$ 2,643,371.96</strong>, <strong>$ 2,799,323.31</strong> y <strong>$ 3,071,654.48</strong> en el segundo, tercer y cuarto trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,840,960.80</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento más fluctuante. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1,448,279.15</strong>. Para los trimestres consecutivos se alternaron importantes bajadas con importantes subidas. El segundo trimestre tuvo un precio de <strong>$ 1,735,793.10</strong>, el siguiente <strong>$ 1,508,373.29</strong> y el último <strong>$ 1,794,978.5</strong> durante estos trimestres los impactos de los factores económicos externos fueron muy drásticos. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1,679,714.96</strong>.</p>
+                        <p>
+                        En 2021, los créditos para viviendas nuevas experimentaron una leve caída en el segundo trimestre, seguido de un aumento sostenido hasta alcanzar su punto más alto en el cuarto trimestre con 1.85 millones de pesos. Este incremento podría estar vinculado a una mayor demanda de propiedades nuevas a medida que la economía se recuperaba tras la pandemia. Las ofertas atractivas y los estímulos fiscales también pudieron haber influido en esta recuperación.
+
+Por otro lado, los créditos para viviendas usadas muestran una tendencia diferente, con una muy leve caída en el segundo trimestre y un repunte en el tercero, pero terminando el año ligeramente por debajo del promedio del tercer trimestre. Esto sugiere que, si bien hubo interés en las propiedades usadas, las nuevas construcciones fueron más atractivas para los compradores debido a mejores condiciones de financiamiento o preferencias de los compradores por propiedades más modernas. La menor inversión en viviendas usadas puede reflejar también las limitaciones en la oferta de este tipo de propiedades en el mercado.
+                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -265,9 +263,10 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2022.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera relativamente estable los primeros tres trimestres con precios de <strong>$2,881,154.24</strong>, <strong>$3,046,361.01</strong> y <strong>$3,122,960.65</strong>.  Sin embargo, en el último trimestre el precio experimenta un crecimiento acelerado cerrando este con un precio de <strong>$3,690,648.91</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 3,185,281.20</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento fluctuante. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1,681,729.55</strong>. Para el segundo trimestre el precio aumentó a <strong>$1,910,429.65</strong>. Para el cierre del tercer trimestre el precio disminuyó ligeramente a <strong>$ 1,852,206.83</strong>. En el último trimestre el precio volvió a aumentar el precio hasta <strong>$2,088,024.64</strong>. promedio de un crédito fue de <strong>$1, 366, 860.78</strong>. Al final del año, el precio medio de un crédito fue de <strong>$ 1,883,097.67</strong>.</p>
+                        <p>En 2022, los créditos para viviendas nuevas mostraron una tendencia al alza durante los primeros tres trimestres alcanzando su punto máximo en el tercero, con un promedio de más de 2.1 millones de pesos, antes de disminuir moderadamente en el cuarto trimestre. Este incremento sostenido durante los primeros tres trimestres refleja un interés creciente por viviendas nuevas, probablemente impulsado por el desarrollo de nuevos proyectos residenciales en Pachuca y el acceso a mejores condiciones de financiamiento.
+
+Por otro lado, los créditos para viviendas usadas tuvieron una caída notable en el segundo trimestre, alcanzando su punto más bajo del año, con un promedio de 1.46 millones. Sin embargo, hubo una recuperación a partir del tercer trimestre, lo que sugiere una demanda renovada por propiedades más asequibles en el mercado secundario, posiblemente debido a la estabilización económica tras las incertidumbres de los primeros meses del año. La tendencia al alza de ambos tipos de créditos hacia el final del año refleja una mayor confianza en el mercado inmobiliario de Pachuca de Soto, tanto en el sector de nuevas construcciones como en el mercado de propiedades usadas.</p>
+                       
                     </div>
                 </div>
             </div>
@@ -280,9 +279,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2023.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos comienza el año con una tendencia a la baja, pasando de <strong>$3,077,496.74</strong> en el primer trimestre a <strong>$3,010,307.26</strong> en el segundo. A partir de ahí comienza una considerable tendencia al alza, ya que, para el tercer trimestre, el precio aumenta a <strong>$3,234,390.47</strong> y para el cuarto vuelve a aumentar, ahora hasta <strong>$3,533,271.69</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 3,213,866.54</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio de los créditos comienza el año con una tendencia a la baja, pasando de <strong>$2,278,309.81</strong> en el primer trimestre a <strong>$2,205,514.30</strong> en el segundo. A partir de ahí comienza una leve tendencia al alza, ya que, para el tercer trimestre, el precio aumenta a <strong>$2,314,549.12</strong> y para el cuarto vuelve a aumentar, ahora hasta <strong>$2,381,237.88</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,294,902.78</strong>.</p>
+                        <p>En 2023, los créditos para viviendas nuevas experimentaron un fuerte incremento en el tercer trimestre, alcanzando un promedio superior a los 2.5 millones de pesos, antes de disminuir de manera considerable en el cuarto trimestre, regresando a niveles del segundo trimestre. Esta subida en el tercer trimestre podría estar relacionada con el lanzamiento de nuevos proyectos residenciales o un aumento en la demanda de propiedades nuevas debido a las mejores condiciones crediticias durante ese periodo. La caída en el cuarto trimestre refleja una posible saturación del mercado o una menor demanda en los últimos meses del año, lo que puede deberse a factores estacionales.
+
+Por otro lado, los créditos para viviendas usadas mostraron cambios menos abruptos, aunque con una considerable caída en el segundo trimestre, seguida de una recuperación en el tercero, volviendo a un valor muy similar al del primer trimestre. Sin embargo, el monto promedio de los créditos para viviendas usadas disminuyó nuevamente en el cuarto trimestre, lo que puede estar vinculado a la menor disponibilidad de propiedades usadas o a la preferencia de los compradores por inmuebles nuevos. Esta tendencia refleja el comportamiento diferenciado entre ambos mercados.</p>
                     </div>
                 </div>
             </div>
@@ -295,9 +294,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2024.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio muestra una tendencia al alza en los dos trimestres analizados hasta el momento. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,763,881.63</strong>. El segundo trimestre promedió un precio de <strong>$ 2,839,760.09</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,801,820.86</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra una tendencia al alza en los dos trimestres analizados hasta el momento. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,155,148.65</strong>. El segundo trimestre promedió un precio de <strong>$ 2,305,487.31</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,230,317.98</strong>.</p>
+                        <p>En 2024, los créditos para viviendas nuevas experimentaron un crecimiento constante durante los tres primeros trimestres del año, alcanzando un promedio de más de 2.65 millones de pesos en el tercer trimestre. Esto indica un fuerte interés en la adquisición de propiedades nuevas en Pachuca de Soto, probablemente impulsado por el desarrollo de nuevos proyectos residenciales y el aumento del valor de las propiedades en la región. Este aumento sostenido refleja la consolidación del mercado de vivienda nueva.
+
+Por otro lado, los créditos para viviendas usadas mostraron un comportamiento más moderado, con un modesto incremento en el segundo trimestre seguido de una leve disminución en el tercero. El promedio de los créditos para viviendas usadas se mantuvo por debajo de 1.6 millones de pesos, lo que sugiere que, aunque sigue habiendo demanda de propiedades usadas, esta es menor en comparación con las nuevas construcciones. Esta tendencia puede estar relacionada con la preferencia de los compradores por viviendas nuevas, debido a mejores condiciones de financiamiento o la percepción de mayor valor a largo plazo.</p>
                     </div>
                 </div>
             </div>
@@ -305,28 +304,30 @@
 
         <!-- Repite el modal de interpretación para los otros años -->
 
-        <script>
-            function showYearlyData(year) {
-                // Ocultar todas las gráficas
-                const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
-                years.forEach(y => {
-                    document.getElementById(`yearlyData${y}`).style.display = 'none';
-                });
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showYearlyData(year) {
+        // Ocultar todas las gráficas
+        const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
+        years.forEach(y => {
+            document.getElementById(`yearlyData${y}`).style.display = 'none';
+        });
 
-                // Mostrar la gráfica correspondiente al año seleccionado
-                if (year) {
-                    document.getElementById(`yearlyData${year}`).style.display = 'block';
-                }
+        // Mostrar la gráfica correspondiente al año seleccionado
+        if (year) {
+            document.getElementById(`yearlyData${year}`).style.display = 'block';
+        }
 
-                // Actualizar el botón de interpretación según el año
-                const interpretationButton = document.getElementById('interpretationButton');
-                interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-            }
-            // Mostrar la gráfica de 2022 por defecto al cargar la página
-            window.onload = function() {
-                showYearlyData('2019');
-            };
-        </script>
+        // Actualizar el botón de interpretación según el año
+        const interpretationButton = document.getElementById('interpretationButton');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+    }
+
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    window.onload = function() {
+        showYearlyData('2019');
+    };
+</script>
 
 
 
@@ -361,7 +362,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Representación del comportamiento de la concesión de de créditos durante los trimestres de 2022, 2023 y 2024 en la ciudad de Santiago de Querétaro.</p>
+                        <p>El gráfico muestra la cantidad de créditos otorgados en Pachuca durante los diferentes trimestres, desde el primer trimestre de 2022 hasta el tercer trimestre de 2024. La gráfica ilustra cómo ha variado el número de créditos concedidos en cada periodo, proporcionando una visión clara de la estacionalidad del mercado crediticio en la región. Este tipo de gráfico es útil para identificar patrones recurrentes y fluctuaciones en la actividad de financiamiento.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -378,8 +379,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Durante los trimestres de 2022 y 2023, se otorgó un número similar de créditos, donde <strong>2,250</strong> fue el número máximo de créditos otorgados en Querétaro.</p>
-                        <p>En 2024, los dos primeros trimestres, el panorama crediticio es diferente a los años anteriores, ya que durante estos trimestres el número otorgado fue mayor, aproximadamente <strong>2,700</strong> créditos.</p>
+                        La gráfica revela que el número de créditos otorgados ha experimentado variaciones significativas a lo largo de los años. En general, el cuarto trimestre de cada año muestra un pico en la cantidad de créditos otorgados, alcanzando los 400 créditos en dos años consecutivos. Este patrón puede estar relacionado con la mayor actividad económica durante los últimos meses del año, cuando los compradores tienden a finalizar transacciones inmobiliarias. En contraste, los trimestres intermedios, como el segundo y tercer trimestre muestran valores relativamente estables, con variaciones de 50 unidades, excepto por dos valores atípicos. El segundo trimestre del 2023, que es muy alto y para ese trimestre (400 créditos) y el aún más atípico tercer trimestre de 2024 siendo particularmente bajo (150 créditos). Este último  podría indicar una desaceleración en la demanda o una menor actividad en el mercado inmobiliario de Pachuca</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -392,83 +392,141 @@
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
-                            </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
+        <div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="yearSelectSegmento" onchange="showYearlyDataSegmento(this.value)">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2022">Interpretación</button>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
-                            </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
-                </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2022" style="display: block;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2023" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2024" style="display: none;"></iframe>
             </div>
         </div>
+    </div>
+    
+</div>
+
+        </div>
+
         <!-- Modal for Description -->
-        <div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel5">Descripción</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año 2023, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (1 millón a 1.75 millones) hasta el segmento S (4 millones a 12 millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra la distribución de propiedades por segmento en el mercado inmobiliario. Los segmentos reflejan diferentes rangos de precio y características de las propiedades.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
-        <!-- Modal for Interpretation -->
-        <div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel5">Interpretación</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>La mayor concentración de propiedades se encuentra en el segmento S (4 a 12 millones) con un 33.4%. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de Querétaro, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el segmento B (2.5 a 3.25 millones) con un 26.3%, seguido por el segmento A (3.25 a 4 millones), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los segmentos D (1 millón a 1.75 millones) y C (1.75 millones a 2.5 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica revela una distribución bastante equilibrada. Los segmentos S y D, que representan propiedades de más de 4 millones de pesos y de 1.75 a 2.5 millones de pesos respectivamente, tienen casi la misma proporción, con alrededor del 21% cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de lujo como el de otras de precios más accesibles.
+
+El segmento B, que incluye propiedades que valen entre 2.5 y 3.25 millones de pesos, tiene la mayor proporción con un 22.3%, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento A (3.25 a 4 millones de pesos) muestra una participación menor del 12.1%, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.
+
+Por otro lado, el segmento E, con propiedades de menos de 500 mil pesos, tiene la menor proporción con solo 4.35%. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En 2023, el segmento S, correspondiente a propiedades de más de <strong>4 millones de pesos</strong>, representa la mayor proporción de la distribución con un <strong>23.5%</strong>. Esto indica una fuerte presencia de propiedades de lujo en el mercado de Pachuca, reflejando posiblemente el aumento en la demanda de inversiones inmobiliarias de alto valor.</p>
+                <p>El segundo segmento más representado es el B, que abarca propiedades con precios entre <strong>2.5</strong> y <strong>3.25 millones de pesos</strong>, con un <strong>23%</strong>. Esto sugiere que hay una notable demanda por propiedades de rango medio-alto. Los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y C (<strong>1.75 a 2.5 millones</strong>) también tienen una participación significativa con un <strong>18.2%</strong> y <strong>17.9%</strong>, respectivamente, lo que indica que el mercado de propiedades de precios medios sigue siendo fuerte.</p>
+                <p>En el extremo opuesto, el segmento E, con propiedades de menos de <strong>500 mil pesos</strong>, representa solo el <strong>2.81%</strong> de la distribución, lo que refleja una oferta muy limitada de propiedades económicas en Pachuca. El segmento A vuelve a situarse tras los últimos mencionados con un <strong>14.7%</strong>, lo que indica una porción relativamente pequeña aunque aún así significativa que está interesada en propiedades de alto valor que no llegan  a ser de lujo.</p>
+                <p>Este comportamiento refleja una polarización del mercado inmobiliario en Pachuca, donde tanto las propiedades de alto valor como las de rango medio tienen una participación significativa, mientras que las propiedades de bajo costo son menos comunes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, lo que indica una gran presencia de propiedades de alto valor en Pachuca. Por otro lado, el segmento E, con solo el <strong>2.12%</strong>, muestra una oferta mínima de propiedades de bajo costo, lo que podría reflejar la exclusión de compradores de ingresos más bajos. Otros segmentos, como el A y el B, también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showYearlyDataSegmento(year) {
+        // Ocultar todas las gráficas
+        const years = ['2022', '2023', '2024'];
+        years.forEach(y => {
+            document.getElementById(`yearlyDataSegmento${y}`).style.display = 'none';
+        });
+
+        // Mostrar la gráfica correspondiente al año seleccionado
+        if (year) {
+            document.getElementById(`yearlyDataSegmento${year}`).style.display = 'block';
+        }
+
+        // Actualizar el botón de interpretación para abrir el modal correcto
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    window.onload = function() {
+        showYearlyDataSegmento('2022');
+    };
+</script>
+
 
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
 <div class="col-md-12">
@@ -481,8 +539,10 @@
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                    <!-- Botón para abrir modal de descripción -->
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento1">Descripción</button>
+                    <!-- Botón para abrir modal de interpretación -->
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento1">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -493,15 +553,15 @@
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="descriptionModalSegmento1" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabelSegmento1">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el promedio de precios por segmento en el mercado inmobiliario. Cada barra representa el valor promedio de las propiedades dentro de cada segmento, desde el segmento S, hasta el segmento E. Este gráfico es útil para visualizar cómo varían los precios promedio de las propiedades en cada categoría.</p>
+                <p>La gráfica muestra el promedio de precios por segmento de inmuebles en Pachuca de Soto. Cada segmento representa un rango de precios específico, desde el segmento E (menos de 500 mil a 1 millón de pesos) hasta el segmento S (4 millones a 12 millones de pesos). Este gráfico permite identificar cómo varían los precios promedio entre los diferentes segmentos de propiedades en el mercado inmobiliario de la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -511,11 +571,11 @@
 </div>
 
 <!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="interpretationModalSegmento1" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelSegmento1">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -582,7 +642,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año <strong>2024</strong>. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde <strong>marzo</strong> hasta <strong>agosto</strong> de <strong>2024</strong>. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.</p>
+                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -600,7 +660,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                <p>Durante <strong>2024</strong>, los precios de oferta de los inmuebles en Pachuca de Soto mostraron una tendencia decreciente desde <strong>marzo</strong>, hasta alcanzar su punto más bajo en <strong>mayo</strong> de <strong>2024</strong>, con una mediana inferior a <strong>2.3 millones</strong> de pesos. Esto podría estar relacionado con una baja temporal en la demanda de propiedades o con factores estacionales que afectaron el mercado.</p>
+                <p>A partir de <strong>junio</strong>, los precios comenzaron a recuperarse de forma constante, alcanzando su punto más alto en <strong>agosto</strong> de <strong>2024</strong>, con una mediana cercana a los <strong>2.5 millones</strong> de pesos regresando al valor que se tenía en <strong>febrero</strong>. Este repunte sugiere un fortalecimiento en la demanda o el ingreso de nuevos desarrollos al mercado. La tendencia al alza en los meses de verano podría estar impulsada por una mayor actividad económica o el inicio de nuevos proyectos inmobiliarios.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -612,61 +673,65 @@
 
 
 
-        <!-- Precio de oferta -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Precio de oferta</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal10">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal10">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
+
+<!-- Precio de oferta -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Precio de oferta</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal10">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal10">Interpretación</button>
                 </div>
             </div>
-        </div>
-        <!-- Modal for Description -->
-        <div class="modal fade" id="descriptionModal10" tabindex="-1" aria-labelledby="descriptionModalLabel10" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel10">Descripción</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>El gráfico muestra una drástica caída en los precios de oferta en el mes de <strong>abril</strong>, seguida de un repunte constante a partir de <strong>mayo</strong>, alcanzando su punto más alto en <strong>agosto</strong>. La caída inicial en <strong>abril</strong> puede estar relacionada con una reducción temporal en la demanda o con factores estacionales que afectaron el mercado en ese periodo. La recuperación posterior y el incremento sostenido en los meses siguientes sugieren un fortalecimiento del mercado inmobiliario, posiblemente impulsado por una creciente demanda, propiciada por la expansión económica de la región y la llegada de nuevos desarrollos en Querétaro, lo que genera una presión al alza en los precios de las propiedades. </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
-        <!-- Modal for Interpretation -->
-        <div class="modal fade" id="interpretationModal10" tabindex="-1" aria-labelledby="interpretationModalLabel10" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel10">Interpretación</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal10" tabindex="-1" aria-labelledby="descriptionModalLabel10" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel10">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se muestra el histórico de precios de oferta de inmuebles en Pachuca de Soto durante el año 2024. El gráfico de líneas refleja cómo ha variado el precio promedio de los inmuebles listados en el mercado mes a mes, desde febrero hasta agosto de 2024. Esta visualización permite identificar las fluctuaciones en los precios a lo largo del tiempo, ofreciendo una perspectiva sobre el comportamiento del mercado inmobiliario en la ciudad.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal10" tabindex="-1" aria-labelledby="interpretationModalLabel10" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel10">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica presenta una marcada caída en los precios de oferta de inmuebles  durante marzo del <strong>2024</strong>, seguida de una rápida recuperación en los meses posteriores, principalmente en mayo, alcanzando su punto máximo en julio. Esta caída temporal podría estar relacionada con factores estacionales o con una baja en la demanda en ese periodo específico. La recuperación observada en los meses posteriores refleja un ajuste del mercado, probablemente impulsado por un aumento en la demanda de propiedades y el crecimiento de proyectos de vivienda en la región. Además, el comportamiento de los precios podría estar vinculado a la reactivación del sector inmobiliario en Pachuca tras las dificultades provocadas por la pandemia, ya que el mercado inmobiliario ha mostrado signos de recuperación desde 2023. Este tipo de fluctuaciones también puede ser consecuencia de los desarrollos urbanos y proyectos de infraestructura que han elevado el valor de las propiedades en la zona</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Distribución de créditos por monto -->
 <div class="col-md-12">
@@ -709,7 +774,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra la cantidad de créditos otorgados en el año <strong>2022</strong> en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
+                <p>La gráfica muestra la distribución de créditos otorgados en <strong>Pachuca de Soto</strong> por año, con un desglose de los créditos en diferentes rangos de valor. Los rangos varían desde menos de <strong>1 millón</strong> de pesos hasta créditos menos de <strong>20 millones</strong> de pesos, permitiendo observar la concentración de créditos en cada segmento de monto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -727,7 +792,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo.</p>
+                <p>En <strong>2022</strong>, la mayor concentración de créditos en <strong>Pachuca de Soto</strong> se encuentra en el rango de menos de <strong>1 millón</strong> de pesos, con <strong>758</strong> créditos otorgados. Esto refleja que una gran parte de los compradores busca propiedades más accesibles, lo que podría estar relacionado con la estructura económica de la población.
+
+Los créditos en el rango de menos de <strong>2 millones</strong> de pesos también son significativos, con <strong>333</strong> créditos, lo que indica una demanda considerable por viviendas en este segmento medio. Por otro lado, la cantidad de créditos disminuye drásticamente en los rangos superiores, con <strong>137</strong> créditos en el rango de menos de <strong>3 millones</strong>, solo <strong>56</strong> créditos en el rango de menos de <strong>4 millones</strong> y <strong>104</strong> créditos en el rango de menos de <strong>20 millones</strong> de pesos. Esta distribución sugiere que, aunque hay un mercado para propiedades de mayor valor, la mayoría de los compradores se concentra en los segmentos de viviendas más económicas. Además que los créditos otorgados para el mercado de propiedades de mayor valor, se concentran  en una parte considerable en los inmuebles más costosos (créditos de menos de <strong>20 millones</strong>) lo que podría indicar que hay un sector pequeño, pero relevante, interesado en propiedades de lujo.
+
+Este comportamiento podría estar vinculado al acceso limitado a créditos de mayor valor y a la preferencia por propiedades más accesibles para la mayoría de la población. También puede reflejar una distribución desigual en la capacidad de compra de la población en <strong>Pachuca</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -744,7 +813,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos sigue estando en el rango de menos de <strong>1 millón de pesos</strong>, lo que sugiere que una gran parte de la población de <strong>Querétaro</strong> continúa solicitando créditos de montos bajos. Por otro lado, la notable participación de créditos de menos de <strong>20 millones de pesos</strong> indica una demanda creciente en proyectos de alto valor, impulsada por inversionistas o compradores con mayor capacidad adquisitiva.</p>
+                <p>En <strong>2023</strong>, la mayor cantidad de créditos otorgados en <strong>Pachuca de Soto</strong> se concentra en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>790</strong> créditos, lo que indica una demanda considerable por propiedades más asequibles en la ciudad. Este patrón es similar al observado el año anterior y refleja las características económicas de la población, donde la mayor parte de los compradores busca opciones dentro de los segmentos más accesibles.
+
+El segundo rango con más créditos es el de menos de <strong>2 millones</strong> de pesos, con <strong>341</strong> créditos, lo que sugiere que los compradores con un presupuesto medio también tienen una participación significativa en el mercado. Sin embargo, en los rangos de mayor valor, como los de menos de <strong>3 millones</strong> de pesos, menos de <strong>4 millones</strong> de pesos y menos de <strong>20 millones</strong>, la cantidad de créditos cae drásticamente, con solo <strong>118</strong>, <strong>53</strong> y <strong>97</strong> créditos respectivamente. Esto refleja una menor demanda de propiedades de alto valor, posiblemente debido a la falta de acceso a financiamiento de mayor valor o a las preferencias por propiedades más económicas. Vemos también que el otorgamiento de créditos por cantidades más altas, es muy significativo el segmento de menos de <strong>20 millones</strong>, con <strong>97</strong> créditos, relativamente cercano al del menos de <strong>3 millones</strong> con <strong>118</strong> créditos, lo que indica que existe un sector relativamente pequeño pero importante que está interesado en los inmuebles de lujo
+
+Esta distribución destaca las limitaciones en el poder adquisitivo de la mayoría de los compradores en <strong>Pachuca</strong>, así como la oferta predominante de propiedades dentro de los segmentos de menor costo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -761,7 +834,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> En <strong>2024</strong>, la mayor cantidad de créditos sigue concentrándose en el rango de menos de <strong>1 millón de pesos</strong>. Este comportamiento está relacionado con la estructura económica de <strong>Querétaro</strong>. La participación constante de los créditos de mayor monto, especialmente en el rango de menos de <strong>20 millones de pesos</strong>, sugiere que existe un mercado robusto para proyectos inmobiliarios de lujo o de alto valor.</p>
+                <p>En <strong>2024</strong>, la mayor concentración de créditos otorgados sigue estando en el rango de menos de <strong>1 millón</strong> de pesos, con <strong>424</strong> créditos, lo que reafirma la tendencia predominante hacia la compra de propiedades más accesibles, reflejando la demanda por viviendas económicas y las limitaciones financieras de los compradores en Pachuca
+
+El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de pesos, cuenta con <strong>191</strong> créditos, lo que indica una menor demanda en comparación con el segmento más económico, pero aún representa una parte significativa del mercado. Los segmentos más altos, con menos de <strong>3 millones</strong>,  menos de <strong>4 millones</strong> y menos de <strong>20 millones</strong> de pesos, muestran una cantidad mucho menor de créditos otorgados, con <strong>42</strong> y <strong>59</strong> créditos respectivamente. Esta menor concentración en los segmentos de mayor valor sugiere que el acceso a propiedades de alto costo sigue siendo limitado y que la mayoría de los compradores opta por propiedades más asequibles. Aunque como en años pasados no hay una diferencia tan relativamente grande entre el segmento de menos de <strong>3 millones</strong> y el de menos de <strong>20 millones</strong>, por lo que podemos decir que ese sector interesado en propiedades de lujo sigue estando presente. Es bastante notable como respecto a años  pasados, prácticamente todas los segmentos han experimentado drásticas reducciones en los créditos otorgados, lo que podría indicar una desaceleración económica en este año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -839,7 +914,7 @@
         <!-- Distribución de Propiedades -->
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2023</h5>
@@ -854,27 +929,7 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2024</h5>
-                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-user-tie me-2"></i>
-                                    <span class="developer-label">Desarrollador</span>
-                                </div>
-                                <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal16">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal16">Interpretación</button>
-                                </div>
-                            </div>
-                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>

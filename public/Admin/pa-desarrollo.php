@@ -207,8 +207,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37.7%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21.1%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un <strong>4%</strong>, <strong>4%</strong> y <strong>7%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
-                </p>
+            <p>Al observar la gráfica podemos deducir que <strong>INFONAVIT</strong> y <strong>CNBV</strong> dominan el mercado de créditos con un <strong>34%</strong> y <strong>42%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes. <strong>FOVISSTE</strong> tiene una participación menor pero significativa con un <strong>21%</strong>, el <strong>FOVISSTE</strong> también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el <strong>FOVISSTE</strong> tiene una presencia importante en el mercado, pero en menor escala. <strong>BANJERCITO</strong> tiene una participación mínima o nula, esta última institución muestra un porcentaje de <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -224,7 +224,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21%</strong> y tradicionales <strong>22%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>2%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un 45% y 34% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes. FOVISSTE tiene una participación menor pero significativa con un 18%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala. BANJERCITO, INSUS y CONAVI tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 1%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -240,7 +240,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>20%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>0%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+                <p>Al observar la gráfica podemos deducir que existe dominancia de <strong>INFONAVIT</strong> y <strong>CNBV</strong>, es evidente que el <strong>INFONAVIT</strong> y la <strong>CNBV</strong> son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un <strong>47%</strong> y <strong>33%</strong> respectivamente, estas dos entidades son las principales son las principales proveedoras de financiamiento a la población. Menor participación de <strong>FOVISSTE</strong>, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del <strong>17%</strong>. Mínima participación de <strong>BANJERCITO</strong> muestra una participación prácticamente nula con el <strong>0%</strong> en el otorgamiento de créditos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -584,7 +584,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
+                <p><strong>Interpretación:</strong> Es notorio que la mayor parte de las propiedades de <strong>Pachuca de Soto</strong> poseen principalmente entre <strong>1</strong> (<strong>27.9%</strong>), <strong>2</strong> (<strong>26.8%</strong>), <strong>3</strong> (<strong>23.3%</strong>)  baños, esto representa más de la mitad de todo el mercado inmobiliario e implica que estas propiedades con menor cantidad de baños sean las que tienen un precio asequible. . Por otro lado, en menor representación están las propiedades que poseen <strong>4</strong>(<strong>13.5%</strong>), <strong>5</strong> (<strong>6.26%</strong>), <strong>6</strong> (<strong>1.61%</strong>), <strong>7</strong> (<strong>0.39%</strong>), <strong>8</strong> (<strong>1.24%</strong>) baños,  dada estas cantidades se puede intuir que son propiedades con un valor más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -600,7 +600,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que la mayor parte de las propiedades de Santiago de Querétaro poseen <strong>1</strong> baño, este representa el <strong>48.4%</strong> de todo el mercado inmobiliario. En menor proporción pero igual de representativos están las propiedades que poseen <strong>2</strong> (<strong>22.3%</strong>), <strong>3</strong> (<strong>13.6%</strong>), <strong>4</strong> (<strong>10.1%</strong>), esto implica que la propiedades con menor número de baños predominan lo que corresponde a las propiedades que tienen un precio asequible. Por otro lado, existe un grupo limitado y exclusivo para las propiedades de <strong>5</strong> (<strong>4.41%</strong>), <strong>6</strong> (<strong>0.83%</strong>), <strong>7</strong> (<strong>0.21%</strong>) y <strong>8</strong> (<strong>0.25%</strong>), dada esta cantidad se puede intuir que son propiedades con un valor alto.</p>
+                <p>Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -655,8 +655,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -684,8 +684,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -721,8 +721,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> El segmento S es el que presenta la mayor cantidad de casas con 3 o 4 recámaras, al ser considerado un segmento con un rango de precios de entre 4 millones a 12 millones, las propiedades corresponden a zonas residenciales con gran tamaño. Para el segmento L sucede algo muy similar, y es que, aunque poca representación es notorio que las propiedades de lujo tienen de 3 a 4 recámaras. </p>
-                <p>Para segmentos de un valor menor (E, D, C, B, A) es posible notar que predominan propiedades con 2 recámaras, lo que sugiere que la mayoría de las familias que adquieren este tipo de propiedades son familias pequeñas. Además que el precio de estos segmentos las hace asequibles.</p>
+                <p>Con un <strong>49.1%</strong> y <strong>37.6%</strong> de la participación, la distribución de <strong>3</strong> y <strong>4</strong> recámaras, respectivamente, es la más frecuente. Lo que sugiere que es común encontrar propiedades con este número de recámaras correspondiente al tamaño de las familias de la ciudad de <strong>Pachuca de Soto</strong>. En menor proporción se encuentran las propiedades con <strong>5</strong> (<strong>6.6%</strong>), <strong>2</strong> (<strong>4.62%</strong>), <strong>6</strong> (<strong>1.65%</strong>) y <strong>1</strong> (<strong>0.454%</strong>) recámaras, esto sugiere que hay una oferta menor en propiedades con un número tan alto y tan mínimo de recámaras. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -738,7 +737,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Con un <strong>64.6%</strong> y <strong>20.4%</strong> de la participación, la distribución de <strong>3</strong> y <strong>2</strong> recámaras, respectivamente, es la más frecuente. Lo que sugiere que es común encontrar propiedades con este número de recámaras correspondiente al tamaño de las familias de la ciudad de Santiago de Querétaro. En menor proporción se encuentran las propiedades con <strong>4</strong> (<strong>12%</strong>), <strong>1</strong> (<strong>1.99%</strong>), <strong>5</strong> (<strong>.93%</strong>) y <strong>6</strong> (<strong>0.18%</strong>) recámaras, esto sugiere que hay una oferta menor en propiedades con un número tan alto y tan mínimo de recámaras. </p>
+                <p>Los segmentos C, D y B presentan la mayor cantidad de casas con 3 recámaras, lo que sugiere que en este segmento predominan las casas de mayor tamaño y podría ser por la distribución del número de recámaras puede reflejar el tamaño promedio de las familias que habitan en cada segmento, lo cual en este segmento podría predominar las familias grandes que requieran de una casa con 3 recamaras. Los segmentos A, E y S segmentos presentan una distribución más equilibrada entre el número de recámaras, aunque se observa una tendencia hacia casas con 2 o 3 recámaras en algunos casos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -801,7 +800,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
+                <p>La distribución de los rangos de superficie es notablemente equilibrada, sin un rango dominante. La presencia de todos los rangos, desde los más pequeños (0-100 m²) hasta los más grandes (300+ m²), refleja una oferta inmobiliaria diversificada. Esto implica que el mercado puede abastecer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y asequibles hasta aquellos que requieren espacios más amplios.</p>
+                <p>Es destacable que los rangos de 100-150 m² (23.2%) y 200-250 m² (19.1%) concentran una parte significativa del total, lo que sugiere una cantidad considerable de propiedades de tamaño medio. Además, los rangos de 150-200 m² también presentan una distribución considerable, con un 19%, lo que es notable. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que pueden adaptarse a las necesidades de familias medianas o pequeñas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -817,9 +817,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos más pequeños (0-100 m² y 100-150 m²) presentan los valores más altos, de $28,173.12 y $31,324.74 respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: 150-200 m² con $21,217.37, y 200-250 m² con $20,856.11. El precio se eleva nuevamente en propiedades de 250 a 300 m² y más de 300 m² , con  promedios de $21,249.50 y $27,577.05 respectivamente.
+                <p>Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de 300 metros cuadrados, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de 4 millones hasta 12 millones de pesos, es decir son consideradas de gama alta.
 
-La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.</p>
+En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto.  En el segmento D se puede notar que hay una concentración propiedades de un tamaño de entre 0 a 150 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos. En lo que corresponde a los segmentos C, B, A la concentración de propiedades se encuentra de 100 a 150, 150 a 200 y de 200 a 250 metros cuadrados, respectivamente.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -851,27 +851,64 @@ La diferencia en los precios puede estar influenciada por la demanda de propieda
     };
 </script>
 
-        <!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m2</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Gráfica 12: Precio Promedio por m2 -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m²</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra el precio promedio por metro cuadrado (m²) de las propiedades en Querétaro. Esta métrica es útil para evaluar cómo varía el precio del terreno o de la construcción en diferentes zonas o segmentos del mercado inmobiliario, lo cual ayuda a compradores y desarrolladores a tomar decisiones informadas sobre inversión. Los valores presentados reflejan el costo relativo por metro cuadrado en cada periodo evaluado.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal12" tabindex="-1" aria-labelledby="interpretationModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel12">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Este rango presenta el precio promedio por metro cuadrado más alto, lo que indica que las propiedades con un tamaño mayores a 300 metros cuadrados son, en promedio, las más caras por metro cuadrado, esto podría ser debido a que las propiedades más grandes suelen ubicarse en zonas más exclusivas o con mayor demanda, lo que podría justificar precios más altos por metro cuadrado. Los demás rangos presentan precios promedio ligeramente inferiores, aunque la diferencia entre ellos no es muy significativa esto podría ser por construir una propiedad más grande puede resultar en costos unitarios más bajos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     </div>
 </div>
