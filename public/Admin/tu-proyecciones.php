@@ -135,7 +135,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    <h1>General</h1>
+                    <h1>Proyecciones y oportunidades</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
@@ -178,7 +178,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
+                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Tulancingo según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -196,11 +196,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se observa que la colonia de Cumbres del lago es el que lidera la oferta dentro de la zona de Santiago de Querétaro, ya que tiene un mayor número de propiedades en venta con un 10.2% de la oferta total de la zona, posiblemente debido a una mayor oferta de nuevos desarrollos o por una mayor disposición de los propietarios de los inmuebles a vender sus viviendas. 
-
-Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) aglutinan una parte significativa de la oferta total, lo que sugiere que la oferta de propiedades en venta no está distribuida de manera uniforme en toda la ciudad, lo que podría estar relacionado con factores como el nivel socioeconómico de la zona, la disponibilidad de servicios, el tipo de vivienda predominante y el atractivo para los compradores.
-
-- Podría haber nuevos desarrollos inmobiliarios, lo que aumentaría la oferta de viviendas disponibles para la venta.</p>
+                <p>La alta proporción de créditos destinados a vivienda usada (<strong>51.1%</strong>) en Tulancingo podría estar vinculada a factores económicos locales, como una mayor accesibilidad a propiedades más asequibles en el mercado secundario. La menor participación de vivienda nueva (<strong>26.7%</strong>) sugiere una oferta limitada o precios elevados que restringen el acceso a este tipo de propiedades.</p>
+                <p>Además, la considerable asignación para mejoramientos (<strong>18.3%</strong>) refleja una tendencia de inversión en la mejora de viviendas existentes, lo que podría estar relacionado con un envejecimiento del parque habitacional o la necesidad de actualizar propiedades. Por último, el pequeño porcentaje destinado a otros programas (<strong>4.0%</strong>) podría sugerir que estos programas no son muy conocidos o utilizados en la región.</p>
+                <p>Este comportamiento puede estar influenciado por las condiciones socioeconómicas de Tulancingo, como una menor capacidad de adquisición para nuevas viviendas o un mayor enfoque en propiedades ya existentes como inversión.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -273,7 +271,9 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica general de baños muestra una tendencia ascendente en el precio de las viviendas conforme aumenta el número de baños. Se observa que las viviendas con más baños suelen ser más costosas, lo que refleja que el número de baños es un factor determinante en la valoración de una propiedad.</p>
+                <p>Primeramente, se observa una tendencia ascendente en la relación de precio-número de baños, lo cual es coherente ya que, a mayor número de baños, mayor debería de ser el precio promedio de las viviendas. Entonces, es claro que la cantidad de baños es un factor que influye directamente en el valor de una vivienda.</p>
+                <p>Aunque se observa un cambio considerable en el valor de las viviendas al pasar de <strong>5</strong> a <strong>6</strong> baños, esto posiblemente se deba a que a partir de <strong>6</strong> baños o más se podrían considerar propiedades de lujo. Sin embargo, también se debe tener claro que podrían estar influyendo otros factores externos o directamente relacionados con las propiedades, tales como el tamaño de la vivienda o terreno, propiedades en zonas privadas con áreas de uso común, entre otras.</p>
+                <p>La gráfica muestra una correlación positiva entre el número de baños y el precio promedio de las propiedades. Esto indica que la cantidad de baños es un factor importante a considerar al evaluar el valor de una vivienda.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -291,7 +291,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede observar que en cuanto a las viviendas la ciudad de Querétaro que cuentan con 1, 2, 3 o 4 baños los precios promedios son similares, alrededor de los 5 millones de pesos, a diferencia de las viviendas que cuentan con 3 baños que tiene un cambio en su precio promedio de vivienda aproximando de $1,500,000; eso podría ser por diversos factores así como el público al que le interesan este segmento, el tamaño del terreno, las viviendas o la antigüedad de esas viviendas</p>
+                <p>Se puede observar que en cuanto a las viviendas que cuentan con 1, 2, 3 baños, los precios promedios son similares, alrededor de los <strong>$2,000,000</strong> (dos millones de pesos). A diferencia de las viviendas que cuentan con 4 baños, que tienen un cambio significativo en su precio promedio, aproximándose a los <strong>$4,000,000</strong> (cuatro millones de pesos). Este aumento podría deberse a diversos factores, como el público al que le interesa este segmento, el tamaño del terreno, las características de las viviendas o la antigüedad de las mismas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -454,9 +454,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Santiago de Querétaro. 
-                </p>
+                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año es importante analizarlo, ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Tulancingo de Bravo. Este indicador proporciona información valiosa sobre la dinámica del mercado inmobiliario local y puede ayudar a identificar posibles desequilibrios entre la oferta y la demanda de viviendas en la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -474,10 +472,8 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            El 100% de las viviendas que se han ofertado en Santiago de Querétaro se han vendido en menos de un año, esto indica que el mercado inmobiliario de la ciudad es bastante dinámico y que la demanda por viviendas es alta.
-
-Esto podría ser por diversas razones tales como una alta rotación del mercado inmobiliario de Santiago de Querétaro, el cual también podría estar relacionado a factores como el crecimiento económico, el desarrollo urbano, precios accesibles, entre otros.
-                
+                <p>El <strong>87%</strong> de las viviendas que se han ofertado en Tulancingo de Bravo se han vendido en menos de un año, esto indica que el mercado inmobiliario de la ciudad es bastante dinámico y que la demanda por viviendas es alta.</p>
+                <p>Esto podría ser por diversas razones tales como una alta rotación del mercado inmobiliario de la ciudad, el cual también podría estar relacionado a factores como el crecimiento económico, el desarrollo urbano, precios accesibles, entre otros.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -796,7 +792,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
             </div>
             <div class="modal-body">
                 <p>
-                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico en el mercado inmobiliario de la ciudad de Santiago de Querétaro.
+                El gráfico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico. Esta visualización permite comprender la distribución de las propiedades según su permanencia en el mercado inmobiliario, ofreciendo una perspectiva clara sobre la velocidad de venta de los inmuebles en diferentes períodos de tiempo.
                 </p>
             </div>
             <div class="modal-footer">
@@ -815,12 +811,11 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                La barra más alta corresponde al rango de 0-30 días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.
-
-Aunque menor que el rango anterior, el rango de 31 a 120 días también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes. Los rangos superiores a 120 días presentan una disminución en el número de propiedades, lo que sugiere que a partir de este punto, la probabilidad de que una propiedad se venda disminuye.
-                    
-            </p>
+                <p><strong>Mayor concentración en los primeros días:</strong> La barra más alta corresponde al rango de <strong>0-30</strong> días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.</p>
+                <p><strong>Rango 0-30 días:</strong> Este rango concentra la mayor cantidad de propiedades, lo que sugiere que muchas propiedades se venden en el primer mes.</p>
+                <p><strong>Rango 31-120 días:</strong> Aunque menor que el rango anterior, este rango también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes.</p>
+                <p><strong>Rangos superiores:</strong> Los rangos superiores a <strong>120</strong> días presentan una disminución en el número de propiedades, lo que sugiere que, a partir de este punto, la probabilidad de que una propiedad se venda disminuye.</p>
+            </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

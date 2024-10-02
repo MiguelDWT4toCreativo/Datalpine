@@ -155,7 +155,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica presenta una distribución porcentual de créditos otorgados para la adquisición de viviendas, clasificados por diferentes tipos de vivienda: Económica, Popular, Tradicional, Media, Residencial y Residencial Plus.</p>
+                <p>La gráfica muestra la distribución porcentual de los créditos otorgados por tipo de vivienda. Las variables representadas son el porcentaje de créditos (eje y) y los tipos de vivienda (eje x), que se desglosan en seis categorías: Económica, Popular, Tradicional, Media, Residencial y Residencial Plus. Cada barra refleja el porcentaje de participación de cada categoría en el total de créditos otorgados, permitiendo visualizar qué tipos de vivienda concentraron la mayor cantidad de créditos. La utilidad de la gráfica es comparar la proporción de cada tipo de vivienda y entender la preferencia del mercado por diferentes segmentos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -173,7 +173,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37.7%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21.1%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un <strong>4%</strong>, <strong>4%</strong> y <strong>7%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+                <p>La gráfica muestra que la mayor parte de los créditos se concentró en las viviendas de tipo Tradicional (<strong>37.63%</strong>) y Media (<strong>35.19%</strong>), lo que indica una preferencia del mercado por viviendas con características intermedias en tamaño y valor. Esto puede deberse a que el segmento Tradicional se adapta mejor a las necesidades de la clase media, que representa una parte significativa de la población de Tulancingo. En cambio, la vivienda Económica y Residencial Plus tienes participaciones marginales (<strong>4.88%</strong> y <strong>0.35%</strong> respectivamente), lo que refleja una baja demanda para propiedades en los extremos del espectro de valor respecto a los tipos popular y residencial, podemos observar que tienen participaciones relativamente pequeñas y similares. Lo cual se puede deber a  que cada uno atiende un mercado más pequeño: el Popular por capacidad adquisitiva y el Residencial por preferencia hacia viviendas de mayor valor. La alta preferencia por viviendas Tradicionales y Medias podría estar influenciada por factores como el nivel de ingresos y las políticas locales de financiamiento de vivienda, que tienden a favorecer propiedades de estos segmentos debido a su mayor accesibilidad para la población.
                 </p>
             </div>
             <div class="modal-footer">
@@ -190,7 +190,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21%</strong> y tradicionales <strong>22%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>2%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+                <p>En 2023, el segmento Tradicional (<strong>35.19%</strong>) y el Media (<strong>35.19%</strong>) dominan el mercado, sugiriendo una preferencia por viviendas de valor intermedio. La categoría Popular crece a <strong>17.07%</strong>, lo que indica una mayor demanda en este tipo de vivienda debido posiblemente a políticas de financiamiento accesibles y aumento en la construcción de vivienda asequible. La categoría Económica y Residencial muestran el mismo porcentaje (<strong>5.23%</strong>). Estos dos segmentos serían entonces nichos de mercado pequeños, lo cual es indicativo de menor disponibilidad o preferencia por estos segmentos en comparación con otros tipos de vivienda. Por último, esta la categoría residencial Plus, con la menor participación, este sería un nicho aún más pequeño, debido a que está dirigido a personas de altos ingresos y que buscan el mayor lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -206,8 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>20%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>0%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
-            </div>
+                <p>En 2024, las categorías de vivienda Media (<strong>35.33%</strong>) y Tradicional (<strong>34.67%</strong>) concentraron nuevamente la mayor parte de los créditos, indicando una preferencia por viviendas de costo intermedio, posiblemente debido a la combinación de características accesibles y mayores prestaciones. La vivienda Popular continúa creciendo, ahora representa el <strong>20%</strong> del total, siendo esto indicativo de una creciente demanda significativa por propiedades de menor costo. La categoría Económica muestra un valor mínimo (<strong>0.67%</strong>), lo que podría deberse a crecientes limitaciones de financiamiento este rango. El segmento Residencial (<strong>7.33%</strong>) y Residencial Plus (<strong>2%</strong>) tienen baja participación, lo que podría explicarse por la menor proporción de consumidores que optan por propiedades de alto valor, un fenómeno que se ve influenciado por el contexto económico, como la inflación y las tasas de interés, que tienden a afectar más a los segmentos de lujo y reducir la demanda en estos sectores.</p>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -282,7 +281,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución porcentual de créditos otorgados por organismo según el año seleccionado.</p>
+                <p>La gráfica muestra el porcentaje de créditos hipotecarios otorgados por diferentes organismos en Tulancingo. Las variables que se representan son los organismos financieros en el eje horizontal y el porcentaje de créditos otorgados en el eje vertical. Está organizada de manera que cada barra corresponde a un organismo: INFONAVIT, CNBV, FOVISSSTE y BANJERCITO. La altura de las barras refleja el porcentaje relativo de participación de cada entidad en el total de créditos otorgados. Esta estructura permite visualizar fácilmente cuáles organismos tienen mayor o menor participación en la oferta de crédito.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -300,12 +299,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 38% y 55% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
-                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 6%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
-                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</li>
-                </ul></p>
+                <p>El organismo con mayor porcentaje de créditos otorgados es INFONAVIT, con un <strong>44.44%</strong>, destacando como la principal fuente de financiamiento. Los siguientes en importancia son CNBV y FOVISSSTE, cada uno con un <strong>27.61%</strong> de participación, lo que indica que tienen una contribución equilibrada. Finalmente, BANJERCITO representa solo el <strong>0.34%</strong>, reflejando su nicho específico en el mercado de crédito. La diferencia en participación podría explicarse por el tipo de población atendida por cada organismo: INFONAVIT cubre a la mayor parte de los trabajadores asalariados, mientras que FOVISSSTE está dirigido a empleados del sector público y BANJERCITO a miembros de las fuerzas armadas, estos últimos siendo una minoría.   
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -321,13 +316,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong></p>
-                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 45% y 50% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el período analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
-                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 5%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
-                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el período analizado.</li>
-                </ul>
+                <p>Durante 2023. Los tres organismos principales son Infonavit, CNBV y Fovissste, con Infonavit ocupando el mayor porcentaje (<strong>54.72%</strong>), seguido de CNBV (<strong>23.78%</strong>) y Fovissste (<strong>21.50%</strong>). El hecho de que Infonavit tenga un porcentaje significativamente mayor se debe a su orientación hacia trabajadores de menores ingresos, lo que lo hace más accesible y una opción predominante en la región. Mientras tanto, CNBV y Fovissste atienden a un perfil de trabajadores con mayores ingresos o características específicas, como empleados del sector público (Fovissste). La concentración en Infonavit sugiere una prevalencia de créditos destinados a vivienda popular o media en la zona.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -343,13 +333,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong></p>
-                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Existe dominancia de INFONAVIT y CNBV, es evidente que el INFONAVIT y la CNBV son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un 51% y 42% respectivamente, estas dos entidades son las principales proveedoras de financiamiento a la población.</li>
-                    <li><strong>FOVISSTE:</strong> Menor participación de FOVISSTE, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del 5%.</li>
-                    <li><strong>BANJERCITO y CONAVI:</strong> Mínima participación de BANJERCITO y CONAVI, muestran una participación prácticamente nula con el 0% o casi nula a excepción de CONAVI con el 1%  en el otorgamiento de créditos.</li>
-                </ul>
+                <p>En 2024 se observa que el INFONAVIT concentra <strong>63.87%</strong> del total de créditos, una proporción significativamente mayor en comparación con los demás organismos. Esto puede deberse a la accesibilidad de sus programas de financiamiento, destinados principalmente a trabajadores con ingresos bajos y medios, lo que lo hace la opción preferida en esta región. Por otro lado, FOVISSSTE cubre un <strong>19.37%</strong>, siendo relevante para empleados del sector público, mientras que la CNBV representa el <strong>16.75%</strong>, orientándose hacia un perfil más diversificado. La tendencia refleja cómo las características de empleo y la dinámica laboral de la región influencian las decisiones de financiamiento.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -422,7 +407,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con 5 estacionamientos, lo que que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio de alto, de 4 millones a 12 millones. Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con 1 o 2 estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Santiago de Querétaro pueden acceder a ellas. Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
+                <p>Esta gráfica  muestra la distribución del número de estacionamientos de los inmuebles en Tulancingo, clasificados por segmentos de precio. Las barras representan el número de casas distribuidas en siete segmentos: E, D, C, B, A, S y L, que reflejan el rango de precios de las propiedades de las más económicas a las más cara. El color de las barras indica el número de estacionamientos, variando de 1 a 6 y con una diferencia notable entre los distintos segmentos. Este gráfico es útil para entender cómo la oferta de estacionamientos varía según el rango de precios y qué segmentos están mejor equipados en términos de infraestructura para vehículos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -440,8 +425,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</p>
-            </div>
+                <p>El gráfico muestra que el <strong>48.9%</strong> de los inmuebles en Tulancingo cuentan con un solo estacionamiento, seguido de un <strong>46.9%</strong> que tiene dos estacionamientos, lo que sugiere que la mayoría de las propiedades en la ciudad están orientadas hacia familias o individuos que poseen uno o dos vehículos. Las opciones con tres o más estacionamientos son significativamente menos comunes, con porcentajes que no superan el <strong>3%</strong>. Este patrón puede explicarse por el contexto económico y socio-cultural de la región, donde la mayoría de las familias tienen un nivel adquisitivo que les permite poseer uno o dos vehículos, pero las propiedades más grandes o lujosas, con más espacios de estacionamiento, son más escasas y, generalmente, están dirigidas a una pequeña porción de la población con mayor capacidad económica.</p>
+                <p>Además, la falta de propiedades con más de <strong>3</strong> estacionamientos podría indicar una tendencia hacia viviendas más compactas, lo cual es común en zonas urbanas o semiurbanas donde el espacio puede ser limitado. Contextualmente, esto coincide con el hecho de que Tulancingo es una ciudad en crecimiento, pero aún no ha alcanzado el nivel de urbanización de ciudades más grandes donde las propiedades más amplias son más comunes y los segmentos más altos de la población tienen mayor acceso a viviendas con múltiples estacionamientos.</p>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -456,7 +441,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</strong></p>
+                <p>La distribución de estacionamientos parece estar influenciada por el tamaño de las propiedades y el precio, ya que los segmentos de mayor valor suelen ofrecer más espacio para vehículos, una tendencia común en zonas con un nivel socioeconómico más alto.</p>
+                <p>Factores económicos como el crecimiento de la clase media y la expansión urbana en Tulancingo probablemente están afectando esta distribución, ya que el aumento en la demanda de viviendas de precio medio también incrementa la necesidad de propiedades con más estacionamientos. Por otro lado, los segmentos más bajos reflejan una mayor densidad de viviendas con menos espacio, lo que se ve en la prevalencia de 1 estacionamiento en esos rangos.</p>
+                <p>Con estos datos, es posible identificar tendencias sobre cómo se distribuye el espacio destinado a estacionamientos según el valor de la propiedad, lo cual puede tener implicaciones en términos de planeación urbana, necesidades de movilidad  e inversión inmobiliaria en Tulancingo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -545,7 +532,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
+                <p>En esta gráfica, los inmuebles con un baño representan el <strong>38.9%</strong> del total, lo que sugiere que una gran parte de las propiedades en Tulancingo están construidas para cubrir necesidades básicas, ya sea por una tendencia a viviendas más accesibles o destinadas a familias más pequeñas. Los inmuebles con dos baños constituyen el <strong>37.8%</strong>, lo que también es considerable y refleja una preferencia por viviendas que ofrecen un mayor grado de comodidad, sin llegar a ser lujosas. Los inmuebles con tres baños tienen una presencia del <strong>17.8%</strong>, lo cual ya podría indicar viviendas más grandes y con mayor nivel adquisitivo. A partir de los <strong>cuatro</strong> baños, el porcentaje comienza a descender drásticamente, reflejando que las propiedades con más de <strong>cuatro</strong> baños son mucho menos comunes en el mercado de Tulancingo.</p>
+                <p>Este comportamiento refleja cómo el contexto económico y sociocultural en Tulancingo influye en la construcción de viviendas más accesibles para el grueso de la población, con predominancia de <strong>uno</strong> a <strong>dos</strong> baños en la mayoría de los casos, adaptándose a la demanda de las clases media y baja que busca una distribución eficiente en un menor espacio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -561,7 +549,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que la mayor parte de las propiedades de Santiago de Querétaro poseen <strong>1</strong> baño, este representa el <strong>48.4%</strong> de todo el mercado inmobiliario. En menor proporción pero igual de representativos están las propiedades que poseen <strong>2</strong> (<strong>22.3%</strong>), <strong>3</strong> (<strong>13.6%</strong>), <strong>4</strong> (<strong>10.1%</strong>), esto implica que la propiedades con menor número de baños predominan lo que corresponde a las propiedades que tienen un precio asequible. Por otro lado, existe un grupo limitado y exclusivo para las propiedades de <strong>5</strong> (<strong>4.41%</strong>), <strong>6</strong> (<strong>0.83%</strong>), <strong>7</strong> (<strong>0.21%</strong>) y <strong>8</strong> (<strong>0.25%</strong>), dada esta cantidad se puede intuir que son propiedades con un valor alto.</p>
+                <p>En los segmentos E y D, la mayoría de las propiedades tienen  principalmente entre 1 y 3 baños, lo que es coherente con el tipo de viviendas más económicas o de interés social, donde se suelen encontrar servicios más básicos. A medida que se sube en el segmento de precios, especialmente en el A y S, es mayor la proporción de propiedades de estos segmentos propiedades con 4 o más baños, lo que refleja la mayor amplitud y lujo de estas viviendas. El bajo número de casas con más de 5 baños indica que estas características están restringidas a propiedades de muy alto costo o de lujo, como se puede observar en el segmento L o S.</p>
+                <p>Este comportamiento puede explicarse por el contexto socioeconómico de Tulancingo, donde una gran parte de la población puede estar orientada hacia la compra de viviendas más accesibles, pero también existe un mercado, aunque reducido, para propiedades de alta gama. La diferencia en el número de baños es un indicador de la amplitud y el tipo de vivienda disponible en cada rango de precios.</p>    
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -650,9 +639,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> El segmento S es el que presenta la mayor cantidad de casas con 3 o 4 recámaras, al ser considerado un segmento con un rango de precios de entre 4 millones a 12 millones, las propiedades corresponden a zonas residenciales con gran tamaño. Para el segmento L sucede algo muy similar, y es que, aunque poca representación es notorio que las propiedades de lujo tienen de 3 a 4 recámaras. </p>
-                <p>Para segmentos de un valor menor (E, D, C, B, A) es posible notar que predominan propiedades con 2 recámaras, lo que sugiere que la mayoría de las familias que adquieren este tipo de propiedades son familias pequeñas. Además que el precio de estos segmentos las hace asequibles.</p>
-            </div>
+            <p>La mayor concentración de propiedades se encuentra en las viviendas de <strong>tres</strong> recámaras. Esto podría estar relacionado con el tamaño promedio de las familias en la región, donde es común que las familias nucleares busquen espacios que acomoden a padres e hijos cómodamente. Las casas de <strong>dos</strong> recámaras también tienen una presencia significativa, indicando una oferta considerable para familias pequeñas o quizás también para parejas jóvenes.</p>
+            <p>Las propiedades con <strong>cuatro</strong> recámaras o más son menos numerosas, lo que puede deberse a una menor demanda de viviendas más grandes, posiblemente por el costo asociado a ellas o porque la mayoría de las familias no requieren espacios tan amplios. Las viviendas de <strong>una</strong> recámara representan la menor proporción, lo que podría indicar una oferta limitada para personas solteras, o bien, una menor preferencia por este tipo de inmuebles en el mercado local.</p>
+            <p>El contexto económico y sociocultural de Tulancingo de Bravo influye en esta distribución. La ciudad cuenta con una población mayoritariamente de clase media, donde las familias, nucleares predominantemente, buscan viviendas que equilibren espacio y costo. Las políticas de desarrollo urbano y los programas de vivienda también pueden incentivar la construcción de este tipo de propiedades para satisfacer las necesidades habitacionales de la mayoría de la población.</p>
+           </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -667,7 +657,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Con un <strong>64.6%</strong> y <strong>20.4%</strong> de la participación, la distribución de <strong>3</strong> y <strong>2</strong> recámaras, respectivamente, es la más frecuente. Lo que sugiere que es común encontrar propiedades con este número de recámaras correspondiente al tamaño de las familias de la ciudad de Santiago de Querétaro. En menor proporción se encuentran las propiedades con <strong>4</strong> (<strong>12%</strong>), <strong>1</strong> (<strong>1.99%</strong>), <strong>5</strong> (<strong>.93%</strong>) y <strong>6</strong> (<strong>0.18%</strong>) recámaras, esto sugiere que hay una oferta menor en propiedades con un número tan alto y tan mínimo de recámaras. </p>
+            <p>Se observa que los inmuebles del segmento <strong>E</strong> son predominantemente de tres recámaras, lo que sugiere una tendencia clara en el mercado de vivienda más económica, donde las familias promedio buscan un equilibrio entre espacio y precio. A medida que avanzamos a segmentos de precios más altos, como los segmentos <strong>D</strong>, <strong>C</strong> y <strong>B</strong>, las casas de dos y tres recámaras siguen siendo predominantes, pero también comienzan a aparecer opciones con cuatro recámaras, lo que podría reflejar una mayor demanda de espacio entre los compradores de estos segmentos.</p>
+            <p>Es interesante notar que en los segmentos de mayor valor, como <strong>A</strong> y <strong>S</strong>, la distribución es más variada, con una mayor proporción del total del los segmentos de casas que tienen más de cuatro recámaras. Esto podría estar relacionado con el hecho de que los compradores en estos segmentos tienden a buscar propiedades más grandes y con mayor número de habitaciones, probablemente motivados por ingresos más altos o el deseo de mayor confort y espacio.</p>
+            <p>Finalmente, el hecho de que haya muy pocas propiedades con más de cinco recámaras en todos los segmentos sugiere que la mayoría de las viviendas en Tulancingo están diseñadas para satisfacer las necesidades de familias medianas, lo que está en línea con el promedio demográfico de la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -757,7 +749,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
+                <p>El gráfico revela que la mayoría de las viviendas en Tulancingo están en el rango de 0-100 M2 (<strong>26.6%</strong>), seguido por aquellas de 100-150 M2 (<strong>25.4%</strong>). Esto sugiere que el mercado inmobiliario en esta ciudad tiende a ofrecer viviendas más pequeñas, lo que puede reflejar  el acceso a financiamiento limitado para propiedades más grandes.</p>
+                <p>Las casas en el rango de 150-200 M2 representan el <strong>14.9%</strong> del total, mientras que las casas en el rango de 200-250 M2 comprenden el <strong>14.8%</strong>. Las viviendas de entre 250 y 300 M2 constituyen el <strong>5.98%</strong>. Estos valores indican que, aunque hay una oferta considerable de viviendas del rango de 250 a 300 tiene una participación marginal, a comparación del rango superior, lo que indica que en el mercado de las propiedades de mayor tamaño, las relativamente pequeñas en este sector son las menos preferidas.</p>
+                <p>Las casas más grandes, como las de más de 300 M2, representan un porcentaje menor (<strong>12.3%</strong>), lo que podría estar vinculado a un menor número de compradores con capacidad económica para adquirir propiedades más amplias. El contexto socioeconómico y el nivel de ingreso medio de los habitantes de Tulancingo podrían explicar esta tendencia, con una mayor demanda de viviendas más accesibles en términos de tamaño.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -773,9 +767,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos más pequeños (0-100 m² y 100-150 m²) presentan los valores más altos, de $28,173.12 y $31,324.74 respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: 150-200 m² con $21,217.37, y 200-250 m² con $20,856.11. El precio se eleva nuevamente en propiedades de 250 a 300 m² y más de 300 m² , con  promedios de $21,249.50 y $27,577.05 respectivamente.
-
-La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.</p>
+                <p>En Tulancingo, los segmentos <strong>E</strong> y <strong>D</strong> concentran la mayor cantidad de viviendas con menos de <strong>150</strong> m², lo que indica que estos segmentos están orientados a compradores con menores ingresos, probablemente familias que buscan viviendas más accesibles. Este fenómeno puede ser un reflejo de la realidad económica local, donde la demanda de casas más pequeñas prevalece en las clases baja y media-baja.</p>
+                <p>En contraste, los segmentos más altos como <strong>A</strong> y <strong>S</strong> tienen una mayor representación de casas con más de <strong>250</strong> m², lo cual sugiere que hay un nicho de mercado para viviendas más grandes y exclusivas, orientado a compradores con mayor poder adquisitivo. Aunque estas propiedades son menos comunes, su presencia muestra un interés en opciones residenciales más amplias y costosas, posiblemente para familias con mayor estabilidad económica o inversores interesados en propiedades de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

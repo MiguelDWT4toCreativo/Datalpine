@@ -434,7 +434,7 @@ Por otro lado, los créditos para viviendas usadas mostraron un comportamiento m
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de propiedades por segmento en el mercado inmobiliario. Los segmentos reflejan diferentes rangos de precio y características de las propiedades.</p>
+                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto en 2022, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil pesos</strong> (E) hasta más de <strong>4 millones de pesos</strong> (S), y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

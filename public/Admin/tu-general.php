@@ -135,7 +135,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    <h1>Proyecciones y oportunidades</h1>
+                    <h1>General</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las

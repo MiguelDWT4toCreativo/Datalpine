@@ -573,7 +573,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -607,7 +607,7 @@
             </div>
             <div class="modal-body">
                 <p>En este gráfico, se observa que el tiempo total de venta de propiedades varía según la ubicación y el tipo de inmueble. Un tiempo de venta elevado puede indicar una demanda baja o una oferta excesiva en ciertas áreas, mientras que un tiempo de venta corto podría sugerir alta demanda o falta de inventario en ese segmento específico del mercado inmobiliario.</p>
-                <p>Mayor concentración en los primeros meses: La gran mayoría de las ventas se concentran en los 7,13-18 meses de antigüedad, lo que indica que las propiedades tienden a venderse más rápidamente en esos meses.</p>
+                <p>Mayor concentración en los primeros meses: Se observa una clara tendencia a que la mayoría de las ventas se concentren en los primeros meses de antigüedad (7, 13-18 meses), lo que sugiere que las propiedades más nuevas tienden a venderse más rápidamente.</p>
                 <p>Disminución progresiva: A medida que aumenta la antigüedad, el número de ventas disminuye de manera constante, lo que sugiere que las propiedades más antiguas suelen tardar más en encontrar un comprador.</p>
                 <p>Rango de 7, 13-18 meses: Este rango concentra la mayor parte de las ventas, lo que podría indicar que existe una alta demanda de propiedades durante dichos meses.</p>
                 <p>Disminución gradual: A medida que nos alejamos del rango de 7 y de 13-18 meses, se observa una disminución progresiva en el número de ventas. Esto sugiere que a medida que una propiedad permanece más tiempo en el mercado, disminuye su atractivo para los compradores potenciales.</p>
@@ -620,49 +620,158 @@
 </div>
 
 
-        <!-- Columna completa: g_bar_tiempo_venta -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Columna completa: g_bar_tiempo_venta -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
 
-                <!-- g_piramid_poblacion -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Pachuca por género y rango de edad</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
-                </div>
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Para el año 2024 el gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Mayor concentración en los primeros meses: La gran mayoría de las ventas se concentran en los 7, 13-18 meses de antigüedad, lo que indica que las propiedades tienden a venderse más rápidamente en esos meses.</p>
+                <p>Disminución progresiva: A medida que aumenta la antigüedad, el número de ventas disminuye de manera constante, lo que sugiere que las propiedades más antiguas suelen tardar más en encontrar un comprador.</p>
+                <p>Rango de 7, 13-18 meses: Este rango concentra la mayor parte de las ventas, lo que podría indicar que existe una alta demanda de propiedades durante dichos meses.</p>
+                <p>Disminución gradual: A medida que nos alejamos del rango de 7 y de 13-18 meses, se observa una disminución progresiva en el número de ventas. Esto sugiere que a medida que una propiedad permanece más tiempo en el mercado, disminuye su atractivo para los compradores potenciales.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- g_piramid_poblacion -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población por género y rango de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select me-2" id="locationSelect" onchange="showLocationData(this.value)">
+                        <option value="pachuca">Hidalgo</option>
+                        <option value="ciudad">Pachuca</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_piramid_poblacion_edad_gen_hidalgo.html" width="100%" height="400" frameborder="0" id="pachucaData" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="ciudadData" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se muestra la distribución de la población por rango de edad y género en la ciudad de Pachuca de Soto en los últimos años.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En la ciudad de Pachuca de Soto gran parte de la población se encuentra en un rango de edad de entre  20 a 49 años, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showLocationData(location) {
+        // Ocultar todas las gráficas
+        document.getElementById('pachucaData').style.display = 'none';
+        document.getElementById('ciudadData').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente a la ubicación seleccionada
+        if (location === 'pachuca') {
+            document.getElementById('pachucaData').style.display = 'block';
+        } else if (location === 'ciudad') {
+            document.getElementById('ciudadData').style.display = 'block';
+        }
+
+        // Actualizar el botón de interpretación según la ubicación seleccionada
+        const interpretationButton = document.getElementById('interpretationButton');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModal9`);
+    }
+
+    // Mostrar la gráfica de Pachuca por defecto al cargar la página
+    window.onload = function() {
+        showLocationData('pachuca');
+    };
+</script>
+
 
 
         <!-- g_bar_distribucion_segmentos -->
