@@ -199,12 +199,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Se muestra la tendencia del precio promedio de los créditos utilizados para financiar tanto las viviendas nuevas como las viviendas que ya están en uso durante los trimestres de un año en concreto para la ciudad de Santiago de Querétaro.</p>
-                        <ul>
-                            <li>Una tendencia a la alza se refiere a que el precio promedio de los créditos ha aumentado trimestre con trimestre.</li>
-                            <li>De lo contrario, si hay una tendencia a la baja significa que el precio promedio de los créditos ha disminuido.</li>
-                            <li>Si se observan picos tanto ascendentes como descendentes indican variaciones abruptas que ha sufrido el precio promedio de los créditos.</li>
-                        </ul>
+                        <p>El gráfico muestra la evolución del valor promedio de los créditos hipotecarios para la compra de viviendas nuevas y usadas en Tulancingo de Bravo, Hgo. El eje vertical representa el monto promedio del crédito en pesos mexicanos, mientras que el eje horizontal muestra los cuatrimestres del año. Se presentan dos líneas: una de color morado para las viviendas nuevas y otra de color rosa para las viviendas usadas</p>
                     </div>
                 </div>
             </div>
@@ -218,9 +213,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2019.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera más fluctuante a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 1, 982, 783.36</strong>. Para los trimestres consecutivos la variación fue notoria de <strong>$ 2, 430, 908.83</strong> y <strong>$ 2, 286, 904.20</strong>, en el segundo y tercer trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2, 654, 310.03</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento consistente. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1, 171, 976.05</strong>. Para los trimestres consecutivos es notorio un aumento constante. Del primer al segundo trimestre la variación del precio promedio es de la más perceptible. Para el segundo y tercer trimestres el precio promedio fue de <strong>$ 1, 290, 598.87</strong> y <strong>$ 1, 325, 118.74</strong>, durante estos trimestres el impacto de los factores económicos externos no es tan drástico. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1, 366, 860.78</strong>.</p>
+                        <p>Viviendas usadas: Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.</p>
+                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -234,9 +228,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2020.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera más fluctuante a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2, 123, 456.78</strong>. Para los trimestres consecutivos la variación fue notoria de <strong>$ 2, 567, 890.12</strong> y <strong>$ 2, 678, 901.23</strong>, en el segundo y tercer trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2, 789, 012.34</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento consistente. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1, 234, 567.89</strong>. Para los trimestres consecutivos es notorio un aumento constante. Del primer al segundo trimestre la variación del precio promedio es de la más perceptible. Para el segundo y tercer trimestres el precio promedio fue de <strong>$ 1, 345, 678.90</strong> y <strong>$ 1, 456, 789.01</strong>, durante estos trimestres el impacto de los factores económicos externos no es tan drástico. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1, 567, 890.12</strong>.</p>
+                        <p>Viviendas usadas: Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable con mínimas fluctuaciones y permaneciendo en un determinado rango, lo que nos indica una tendencia estable.</p>
+                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con un aumento considerable en el tercer trimestre y permaneciendo la tendencia en el cuarto trimestre del año. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -250,9 +243,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2021.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se puede observar una tendencia al alza estable a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,610,267.11</strong>. Para los trimestres consecutivos se tuvieron relativamente pequeñas variaciones, de <strong>$ 2,643,371.96</strong>, <strong>$ 2,799,323.31</strong> y <strong>$ 3,071,654.48</strong> en el segundo, tercer y cuarto trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,840,960.80</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento más fluctuante. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1,448,279.15</strong>. Para los trimestres consecutivos se alternaron importantes bajadas con importantes subidas. El segundo trimestre tuvo un precio de <strong>$ 1,735,793.10</strong>, el siguiente <strong>$ 1,508,373.29</strong> y el último <strong>$ 1,794,978.5</strong> durante estos trimestres los impactos de los factores económicos externos fueron muy drásticos. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1,679,714.96</strong>.</p>
+                        <p>Viviendas usadas: Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, siendo así hasta el cuarto trimestre del año con un ligero aumento en su valor de los créditos.</p>
+                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia bajista durante los 3 primeros trimestres del año lo que  indica una disminución del valor de los crédito, siendo esto así hasta el cuarto trimestre con un aumento considerable y una recuperación del valor de los créditos.</p>
                     </div>
                 </div>
             </div>
@@ -265,9 +257,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2022.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera relativamente estable los primeros tres trimestres con precios de <strong>$2,881,154.24</strong>, <strong>$3,046,361.01</strong> y <strong>$3,122,960.65</strong>.  Sin embargo, en el último trimestre el precio experimenta un crecimiento acelerado cerrando este con un precio de <strong>$3,690,648.91</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 3,185,281.20</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento fluctuante. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1,681,729.55</strong>. Para el segundo trimestre el precio aumentó a <strong>$1,910,429.65</strong>. Para el cierre del tercer trimestre el precio disminuyó ligeramente a <strong>$ 1,852,206.83</strong>. En el último trimestre el precio volvió a aumentar el precio hasta <strong>$2,088,024.64</strong>. promedio de un crédito fue de <strong>$1, 366, 860.78</strong>. Al final del año, el precio medio de un crédito fue de <strong>$ 1,883,097.67</strong>.</p>
+                        <p>Viviendas Nuevas: Al inicio del año, el valor promedio de los créditos para viviendas nuevas se mantuvo relativamente estable. Sin embargo, experimentó un ligero aumento en el segundo trimestre, alcanzando su punto máximo en ese periodo. Luego, se observa una disminución en el tercer trimestre, pero se recupera parcialmente en el cuarto trimestre. Esto podría indicar una mayor demanda de viviendas nuevas en el segundo trimestre, posiblemente impulsada por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores.</p>
+                        <p>Viviendas Usadas: La tendencia de los créditos para viviendas usadas muestra una mayor volatilidad. Al inicio del año, se observa un aumento significativo en el valor promedio de los créditos, pero luego experimenta una caída en el tercer trimestre. En el cuarto trimestre, se recupera parcialmente. Esta variabilidad podría estar influenciada por diversos factores como la disponibilidad de viviendas usadas en el mercado, las condiciones económicas generales y las preferencias de los compradores.</p>
                     </div>
                 </div>
             </div>
@@ -280,9 +271,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2023.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos comienza el año con una tendencia a la baja, pasando de <strong>$3,077,496.74</strong> en el primer trimestre a <strong>$3,010,307.26</strong> en el segundo. A partir de ahí comienza una considerable tendencia al alza, ya que, para el tercer trimestre, el precio aumenta a <strong>$3,234,390.47</strong> y para el cuarto vuelve a aumentar, ahora hasta <strong>$3,533,271.69</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 3,213,866.54</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio de los créditos comienza el año con una tendencia a la baja, pasando de <strong>$2,278,309.81</strong> en el primer trimestre a <strong>$2,205,514.30</strong> en el segundo. A partir de ahí comienza una leve tendencia al alza, ya que, para el tercer trimestre, el precio aumenta a <strong>$2,314,549.12</strong> y para el cuarto vuelve a aumentar, ahora hasta <strong>$2,381,237.88</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,294,902.78</strong>.</p>
+                        <p>Viviendas Nuevas: El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas nuevas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
+                        <p>Viviendas Usadas: El valor promedio de los créditos para viviendas usadas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas usadas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -295,9 +285,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2024.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio muestra una tendencia al alza en los dos trimestres analizados hasta el momento. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,763,881.63</strong>. El segundo trimestre promedió un precio de <strong>$ 2,839,760.09</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,801,820.86</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra una tendencia al alza en los dos trimestres analizados hasta el momento. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2,155,148.65</strong>. El segundo trimestre promedió un precio de <strong>$ 2,305,487.31</strong>. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,230,317.98</strong>.</p>
+                        <p>Viviendas Nuevas: El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante los primeros dos trimestres, alcanzando su punto máximo en el segundo trimestre. Sin embargo, en el tercer trimestre se observa una disminución significativa. Esto podría indicar un aumento inicial en la demanda de viviendas nuevas, posiblemente impulsado por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores. La disminución en el tercer trimestre podría estar relacionada con factores como el aumento de las tasas de interés, la incertidumbre económica o una disminución en la oferta de viviendas nuevas.</p>
+                        <p>Viviendas Usadas: El valor promedio de los créditos para viviendas usadas muestra una tendencia a la baja durante los tres trimestres analizados. Esto podría indicar una disminución en la demanda de viviendas usadas, posiblemente debido a factores como la competencia con las viviendas nuevas, un aumento en los costos de mantenimiento de las viviendas usadas o una menor disponibilidad de viviendas usadas en el mercado.</p>
                     </div>
                 </div>
             </div>
@@ -361,7 +350,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Representación del comportamiento de la concesión de de créditos durante los trimestres de 2022, 2023 y 2024 en la ciudad de Santiago de Querétaro.</p>
+                        <p>Este gráfico de barras representa la cantidad de créditos otorgados en diferentes trimestres, desde el primer trimestre de <strong>2022</strong> hasta el cuarto trimestre de <strong>2024</strong>. En el eje vertical se encuentra la cantidad de créditos, mientras que en el eje horizontal se muestran los trimestres. Cada barra representa un trimestre y su altura indica la cantidad de créditos otorgados en ese periodo.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -378,8 +367,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Durante los trimestres de 2022 y 2023, se otorgó un número similar de créditos, donde <strong>2,250</strong> fue el número máximo de créditos otorgados en Querétaro.</p>
-                        <p>En 2024, los dos primeros trimestres, el panorama crediticio es diferente a los años anteriores, ya que durante estos trimestres el número otorgado fue mayor, aproximadamente <strong>2,700</strong> créditos.</p>
+                        <p>La cantidad de créditos otorgados varía considerablemente de un trimestre a otro. No se observa una tendencia clara de crecimiento o decrecimiento sostenido a lo largo del tiempo.</p>
+                        <p>Se aprecian picos en algunos trimestres, por ejemplo, el tercer trimestre de <strong>2022</strong> y el segundo trimestre de <strong>2024</strong>, lo que indica periodos de mayor actividad crediticia. Por otro lado, hay valles en otros trimestres como el segundo trimestre de <strong>2022</strong>, donde la cantidad de créditos otorgados es menor.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -501,7 +490,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el promedio de precios por segmento en el mercado inmobiliario. Cada barra representa el valor promedio de las propiedades dentro de cada segmento, desde el segmento S, hasta el segmento E. Este gráfico es útil para visualizar cómo varían los precios promedio de las propiedades en cada categoría.</p>
+                <p>Este gráfico de barras representa el precio promedio, dividido por diferentes segmentos identificados con las letras de la <strong>A</strong> a la <strong>L</strong>. El eje vertical muestra el precio promedio en millones, mientras que el eje horizontal muestra los diferentes segmentos. La altura de cada barra indica el precio promedio correspondiente a cada segmento.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -519,7 +508,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La interpretación de esta gráfica proporciona información clave sobre cómo varían los precios promedio en distintos segmentos de mercado, ayudando a entender las tendencias y diferencias entre ellos.</p>
+                <p><strong>Segmento L:</strong> Es el segmento con el precio promedio más alto, con <strong>16</strong> millones. Esto sugiere que los productos o servicios de este segmento tienen características o atributos que justifican un precio premium.</p>
+                <p><strong>Segmento S:</strong> Con un precio promedio de <strong>5.7</strong> millones, este segmento se ubica en un punto intermedio entre los segmentos de mayor y menor precio.</p>
+                <p><strong>Segmento A:</strong> Le sigue en precio el segmento A, con un valor promedio de <strong>3.6</strong> millones. Al igual que el segmento L, este segmento parece ofrecer productos o servicios de alta gama o con características diferenciadoras.</p>
+                <p><strong>Segmentos B y C:</strong> Estos segmentos presentan precios promedio similares, alrededor de <strong>2.9</strong> y <strong>2.1</strong> millones.</p>
+                <p><strong>Segmentos D y E:</strong> Estos son los segmentos con los precios promedio más bajos, con valores inferiores a <strong>2</strong> millones de pesos. Esto podría indicar que los productos o servicios de estos segmentos son más básicos o tienen una demanda menor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -582,7 +575,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año <strong>2024</strong>. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde <strong>marzo</strong> hasta <strong>agosto</strong> de <strong>2024</strong>. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.</p>
+                <p>Este gráfico de línea muestra la evolución de la mediana del precio de oferta durante los meses de febrero a agosto de <strong>2024</strong>. El eje vertical representa el precio en millones de pesos, mientras que el eje horizontal muestra los meses del año. La línea azul conecta los puntos que representan la mediana del precio de oferta en cada mes.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -600,7 +593,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                <p>El precio de oferta presenta una alta volatilidad a lo largo del periodo analizado, experimentando tanto aumentos como disminuciones significativas de un mes a otro.</p>
+                <p>Se observan dos picos en los precios, uno en <strong>marzo</strong> y otro en <strong>junio</strong>, indicando momentos en los que el precio de oferta alcanzó sus valores más altos. Por otro lado, se aprecia un mínimo en <strong>mayo</strong>, donde el precio experimentó una caída considerable.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -642,7 +636,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>El gráfico muestra una drástica caída en los precios de oferta en el mes de <strong>abril</strong>, seguida de un repunte constante a partir de <strong>mayo</strong>, alcanzando su punto más alto en <strong>agosto</strong>. La caída inicial en <strong>abril</strong> puede estar relacionada con una reducción temporal en la demanda o con factores estacionales que afectaron el mercado en ese periodo. La recuperación posterior y el incremento sostenido en los meses siguientes sugieren un fortalecimiento del mercado inmobiliario, posiblemente impulsado por una creciente demanda, propiciada por la expansión económica de la región y la llegada de nuevos desarrollos en Querétaro, lo que genera una presión al alza en los precios de las propiedades. </p>
+                        <p>Este gráfico de línea muestra la evolución del precio de oferta durante los meses de <strong>febrero</strong> a <strong>agosto</strong> de <strong>2024</strong> en Tulancingo de Bravo, Hgo. El eje vertical representa el precio en pesos mexicanos, mientras que el eje horizontal muestra los meses del año.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -659,7 +653,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                        <p>El precio de oferta presenta una alta volatilidad a lo largo del periodo analizado, experimentando tanto aumentos como disminuciones significativas de un mes a otro. La tendencia de esta gráfica es algo volátil de un mes a otro pero ha permanecido en un cierto rango de precios.</p>
+                        <p>Un aumento repentino en la demanda podría impulsar los precios al alza, mientras que una disminución en la demanda podría generar una baja en los precios.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -709,7 +704,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra la cantidad de créditos otorgados en el año <strong>2022</strong> en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
+                <p>Este gráfico de barras representa la cantidad de créditos otorgados según diferentes rangos de monto. En el eje vertical se encuentra la cantidad de créditos, mientras que en el eje horizontal se muestran los rangos de monto. Cada barra representa un rango de monto específico y su altura indica la cantidad de créditos otorgados dentro de ese rango.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -727,7 +722,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo.</p>
+                <p>La gran mayoría de los créditos se concentran en el rango de menos de 1 millón (<strong>217</strong> créditos otorgados). Esto indica que la mayoría de los préstamos otorgados son de bajo valor.</p>
+                <p>A medida que aumenta el rango del monto del crédito, disminuye significativamente la cantidad de créditos otorgados. Esta tendencia es clara al observar que la cantidad de créditos decrece drásticamente a medida que pasamos de menos de <strong>1 millón</strong> a menos de <strong>2 millones</strong>, y así sucesivamente.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -744,7 +740,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos sigue estando en el rango de menos de <strong>1 millón de pesos</strong>, lo que sugiere que una gran parte de la población de <strong>Querétaro</strong> continúa solicitando créditos de montos bajos. Por otro lado, la notable participación de créditos de menos de <strong>20 millones de pesos</strong> indica una demanda creciente en proyectos de alto valor, impulsada por inversionistas o compradores con mayor capacidad adquisitiva.</p>
+                <p>La gran mayoría de los créditos se concentran en el rango de menos de 1 millón (<strong>203</strong> créditos otorgados). Esto indica que la mayoría de los préstamos otorgados son de bajo valor.</p>
+                <p>A medida que aumenta el rango del monto del crédito, disminuye significativamente la cantidad de créditos otorgados. Esta tendencia es clara al observar que la cantidad de créditos decrece drásticamente a medida que pasamos de menos de <strong>1 millón</strong> a menos de <strong>2 millones</strong>, y así sucesivamente.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -761,7 +758,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> En <strong>2024</strong>, la mayor cantidad de créditos sigue concentrándose en el rango de menos de <strong>1 millón de pesos</strong>. Este comportamiento está relacionado con la estructura económica de <strong>Querétaro</strong>. La participación constante de los créditos de mayor monto, especialmente en el rango de menos de <strong>20 millones de pesos</strong>, sugiere que existe un mercado robusto para proyectos inmobiliarios de lujo o de alto valor.</p>
+                <p>Concentración en montos bajos: La gran mayoría de los créditos se concentran en el rango de menos de 1 millón (<strong>145</strong> créditos otorgados). Esto indica que la mayoría de los préstamos otorgados son de bajo valor.</p>
+                <p>Importante mencionar que hubo una disminución parcial en comparación al año 2023.</p>
+                <p>Disminución progresiva: A medida que aumenta el rango del monto del crédito, disminuye significativamente la cantidad de créditos otorgados. Esta tendencia es clara al observar que la cantidad de créditos decrece drásticamente a medida que pasamos de menos de <strong>1 millón</strong> a menos de <strong>2 millones</strong>, y así sucesivamente.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -839,7 +838,7 @@
         <!-- Distribución de Propiedades -->
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2023</h5>
@@ -855,26 +854,6 @@
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2024</h5>
-                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-user-tie me-2"></i>
-                                    <span class="developer-label">Desarrollador</span>
-                                </div>
-                                <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal16">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal16">Interpretación</button>
-                                </div>
-                            </div>
-                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
