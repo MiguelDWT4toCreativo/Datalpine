@@ -206,7 +206,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de más de <strong>12</strong>, con un <strong>26%</strong> de representación...</p>
+                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.
+
+En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.
+
+Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -223,7 +227,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>25.9%</strong> de representación...</p>
+                <p>En <strong>2023</strong>, el mayor porcentaje de créditos se concentró en el rango de ingresos superiores a <strong>12</strong> UMAS (<strong>23.6%</strong>), lo que resalta la mayor participación de personas con altos ingresos en el mercado crediticio. Los segmentos de ingresos medios, como el rango de <strong>6.01-9.00</strong> UMAS (<strong>17.9%</strong>) y el de <strong>4.01-6.00</strong> UMAS (<strong>15.3%</strong>), también muestran una actividad considerable, lo que indica un mercado activo en estos niveles de ingreso.
+
+El segmento de <strong>9.01-12.00</strong> UMAS también es significativo con un <strong>14.6%</strong>, lo que muestra que hay una buena proporción de créditos para personas con ingresos medios-altos. Esta proporción es igual para el rango de las <strong>2.61</strong> a las <strong>4</strong> UMAS. En comparación, los créditos otorgados a personas con ingresos más bajos, ≤ <strong>2.60</strong> UMAS (<strong>13.9%</strong>), son menores, lo que sugiere barreras en el acceso al crédito para este grupo.
+
+Este patrón refleja que la mayoría de los créditos otorgados están dirigidos a personas con ingresos medios y altos, mientras que el acceso es más limitado para quienes perciben ingresos menores. Esto podría deberse a mayores restricciones crediticias para los grupos de menores ingresos o a una mayor capacidad adquisitiva de los sectores altos en <strong>Pachuca</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -240,7 +248,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong>, la mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS (<strong>22.2%</strong>)...</p>
+                <p>El mayor porcentaje de créditos otorgados se encuentra en el rango de > <strong>12</strong> UMAS (<strong>21%</strong>), lo que indica una prevalencia de créditos dirigidos a personas con ingresos más altos. Esto sugiere que los hogares con mayor capacidad adquisitiva son los que están solicitando y obteniendo una mayor cantidad de financiamiento en <strong>Pachuca de Soto</strong>.
+
+Por otro lado, los créditos en los rangos de <strong>4.01-6.00</strong> UMAS (<strong>19%</strong>) y <strong>6.01-9.00</strong> UMAS (<strong>17.6%</strong>) también representan una parte importante del mercado, lo que podría estar relacionado con el tamaño del sector de ingresos medios en la ciudad. La participación más baja se observa en el rango de ≤ <strong>2.60</strong> UMAS (<strong>12.5%</strong>), lo que indica que las personas con menores ingresos tienen un acceso más limitado a los créditos, posiblemente debido a mayores requisitos de solvencia o menor capacidad para cumplir con los pagos.
+
+Es notable como el rango de <strong>9.01</strong> a <strong>12</strong> UMAS tiene un porcentaje menor que los dos rangos inferiores a este. Ingresos medios-altos tienen un bajo interés en obtener créditos inmobiliarios.
+
+Este patrón sugiere en general, una concentración de financiamiento en los sectores de ingresos altos y medios, con una menor participación de los segmentos de ingresos bajos en el mercado inmobiliario de <strong>Pachuca</strong> en <strong>2024</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -307,7 +321,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
+                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Pachuca de Soto según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -325,7 +339,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayoría de los créditos se destina a la compra de inmuebles nuevos. Esto puede estar relacionado con el auge del sector de la construcción en <strong>Querétaro</strong> y la expansión de desarrollos residenciales nuevos. La compra de propiedades usadas también representa una parte significativa, posiblemente debido a la relativa falta de disponibilidad de nuevas viviendas en ciertas zonas actualmente o a la preferencia de algunos compradores por zonas más céntricas. El porcentaje destinado al mejoramiento de propiedades sugiere que, aunque menor, existe una tendencia a invertir en la renovación de viviendas existentes, lo que podría estar vinculado al aumento del valor de las propiedades o a programas de financiamiento específico para mejoras. Finalmente, los créditos destinados a otros programas indican una diversidad de opciones de financiamiento disponibles para los compradores que buscan alternativas fuera de las modalidades tradicionales.</p>
+                <p><strong>Interpretación:</strong> La mayor parte de los créditos se destina a la compra de inmuebles nuevos (<strong>46.2%</strong>), lo que puede explicarse por la alta oferta de desarrollos inmobiliarios en <strong>Pachuca</strong>, que buscan atraer a compradores con propiedades nuevas y modernas. El porcentaje significativo de créditos para inmuebles usados (<strong>35.9%</strong>) sugiere que también hay un mercado consolidado de propiedades existentes, probablemente debido a la ubicación o al menor costo en comparación con los desarrollos nuevos. La inversión en mejoras representa un porcentaje menor (<strong>10.6%</strong>), lo que podría indicar que la mayoría de los propietarios optan por vender o adquirir nuevas propiedades en lugar de mejorar las actuales. y un porcentaje aún menor de los créditos se destinan a otros programas (<strong>7.2%</strong>)</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -432,6 +446,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+            Esta gráfica de barras muestra la distribución de créditos otorgados en Pachuca de Soto durante el año, clasificados según el nivel de ingresos en UMAS (Unidades de Medida y Actualización). El eje X refleja los diferentes rangos de ingresos, y el eje Y muestra el porcentaje de créditos otorgados en cada rango. Esta visualización ayuda a comprender cómo los diferentes niveles de ingreso afectan el acceso al crédito en la ciudad.
                 <!-- Agregar descripción aquí -->
             </div>
         </div>
@@ -446,7 +461,14 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <!-- Agregar interpretación aquí -->
+                <p>
+                La concentración de créditos en el segmento de > <strong>12 UMAS</strong>, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.
+
+En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.
+
+Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.
+                </p>
+               
             </div>
         </div>
     </div>
