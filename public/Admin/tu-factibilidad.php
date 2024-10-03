@@ -382,7 +382,7 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
@@ -397,131 +397,13 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                                 <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
                             </div>
                         </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal for Description -->
-        <div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel5">Descripción</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año 2023, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (1 millón a 1.75 millones) hasta el segmento S (4 millones a 12 millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal for Interpretation -->
-        <div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel5">Interpretación</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>La mayor concentración de propiedades se encuentra en el segmento S (4 a 12 millones) con un 33.4%. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de Querétaro, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el segmento B (2.5 a 3.25 millones) con un 26.3%, seguido por el segmento A (3.25 a 4 millones), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los segmentos D (1 millón a 1.75 millones) y C (1.75 millones a 2.5 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!-- Segmentación de mercado: Promedio de precio por segmento -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Promedio de precio por segmento</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Este gráfico de barras representa el precio promedio, dividido por diferentes segmentos identificados con las letras de la <strong>A</strong> a la <strong>L</strong>. El eje vertical muestra el precio promedio en millones, mientras que el eje horizontal muestra los diferentes segmentos. La altura de cada barra indica el precio promedio correspondiente a cada segmento.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p><strong>Segmento L:</strong> Es el segmento con el precio promedio más alto, con <strong>16</strong> millones. Esto sugiere que los productos o servicios de este segmento tienen características o atributos que justifican un precio premium.</p>
-                <p><strong>Segmento S:</strong> Con un precio promedio de <strong>5.7</strong> millones, este segmento se ubica en un punto intermedio entre los segmentos de mayor y menor precio.</p>
-                <p><strong>Segmento A:</strong> Le sigue en precio el segmento A, con un valor promedio de <strong>3.6</strong> millones. Al igual que el segmento L, este segmento parece ofrecer productos o servicios de alta gama o con características diferenciadoras.</p>
-                <p><strong>Segmentos B y C:</strong> Estos segmentos presentan precios promedio similares, alrededor de <strong>2.9</strong> y <strong>2.1</strong> millones.</p>
-                <p><strong>Segmentos D y E:</strong> Estos son los segmentos con los precios promedio más bajos, con valores inferiores a <strong>2</strong> millones de pesos. Esto podría indicar que los productos o servicios de estos segmentos son más básicos o tienen una demanda menor.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad -->
         <div class="col-md-12">
