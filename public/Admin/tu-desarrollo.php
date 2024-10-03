@@ -710,7 +710,7 @@
                     </select>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalM2Construidos">Descripción</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#descriptionModalM2ConstruidosGeneral">Descripción</button>
                     <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#interpretationModalM2ConstruidosGeneral">Interpretación</button>
                 </div>
             </div>
@@ -722,16 +722,34 @@
     </div>
 </div>
 
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalM2Construidos" tabindex="-1" aria-labelledby="descriptionModalLabelM2Construidos" aria-hidden="true">
+<!-- Modal for Description General -->
+<div class="modal fade" id="descriptionModalM2ConstruidosGeneral" tabindex="-1" aria-labelledby="descriptionModalLabelM2ConstruidosGeneral" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelM2Construidos">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabelM2ConstruidosGeneral">Descripción General</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de metros cuadrados construidos según la opción seleccionada: General o Segmentos.</p>
+                <p>Esta gráfica muestra la distribución de metros cuadrados construidos en general, según la cantidad de propiedades que pertenecen a cada categoría de tamaño.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description Segmentos -->
+<div class="modal fade" id="descriptionModalM2ConstruidosSegmentos" tabindex="-1" aria-labelledby="descriptionModalLabelM2ConstruidosSegmentos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelM2ConstruidosSegmentos">Descripción Segmentos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra la distribución de metros cuadrados construidos agrupados por segmentos de precio, lo que ayuda a entender cómo varía el tamaño de las viviendas según el segmento económico al que pertenecen.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -749,9 +767,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico revela que la mayoría de las viviendas en Tulancingo están en el rango de 0-100 M2 (<strong>26.6%</strong>), seguido por aquellas de 100-150 M2 (<strong>25.4%</strong>). Esto sugiere que el mercado inmobiliario en esta ciudad tiende a ofrecer viviendas más pequeñas, lo que puede reflejar  el acceso a financiamiento limitado para propiedades más grandes.</p>
-                <p>Las casas en el rango de 150-200 M2 representan el <strong>14.9%</strong> del total, mientras que las casas en el rango de 200-250 M2 comprenden el <strong>14.8%</strong>. Las viviendas de entre 250 y 300 M2 constituyen el <strong>5.98%</strong>. Estos valores indican que, aunque hay una oferta considerable de viviendas del rango de 250 a 300 tiene una participación marginal, a comparación del rango superior, lo que indica que en el mercado de las propiedades de mayor tamaño, las relativamente pequeñas en este sector son las menos preferidas.</p>
-                <p>Las casas más grandes, como las de más de 300 M2, representan un porcentaje menor (<strong>12.3%</strong>), lo que podría estar vinculado a un menor número de compradores con capacidad económica para adquirir propiedades más amplias. El contexto socioeconómico y el nivel de ingreso medio de los habitantes de Tulancingo podrían explicar esta tendencia, con una mayor demanda de viviendas más accesibles en términos de tamaño.</p>
+                <p>El gráfico revela que la mayoría de las viviendas en Tulancingo están en el rango de 0-100 m² (<strong>26.6%</strong>), seguido por aquellas de 100-150 m² (<strong>25.4%</strong>), lo que indica una tendencia a ofrecer viviendas más pequeñas y accesibles.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -759,6 +775,7 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="interpretationModalM2ConstruidosSegmentos" tabindex="-1" aria-labelledby="interpretationModalLabelM2ConstruidosSegmentos" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -767,8 +784,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En Tulancingo, los segmentos <strong>E</strong> y <strong>D</strong> concentran la mayor cantidad de viviendas con menos de <strong>150</strong> m², lo que indica que estos segmentos están orientados a compradores con menores ingresos, probablemente familias que buscan viviendas más accesibles. Este fenómeno puede ser un reflejo de la realidad económica local, donde la demanda de casas más pequeñas prevalece en las clases baja y media-baja.</p>
-                <p>En contraste, los segmentos más altos como <strong>A</strong> y <strong>S</strong> tienen una mayor representación de casas con más de <strong>250</strong> m², lo cual sugiere que hay un nicho de mercado para viviendas más grandes y exclusivas, orientado a compradores con mayor poder adquisitivo. Aunque estas propiedades son menos comunes, su presencia muestra un interés en opciones residenciales más amplias y costosas, posiblemente para familias con mayor estabilidad económica o inversores interesados en propiedades de lujo.</p>
+                <p>En los segmentos E y D, se concentra la mayor cantidad de viviendas con menos de 150 m², lo que refleja una demanda de viviendas más pequeñas en estos segmentos. En cambio, los segmentos A y S tienen una mayor proporción de viviendas de más de 250 m², orientadas a compradores de mayor poder adquisitivo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -785,12 +801,12 @@
         document.getElementById('segmentDataM2ConstruidosSegmentos').style.display = 'none';
 
         // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (segment) {
-            document.getElementById(`segmentDataM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
-        }
+        document.getElementById(`segmentDataM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
 
-        // Actualizar el botón de interpretación para abrir el modal correcto
+        // Actualizar los botones de descripción e interpretación
+        const descriptionButton = document.getElementById('descriptionButtonM2Construidos');
         const interpretationButton = document.getElementById('interpretationButtonM2Construidos');
+        descriptionButton.setAttribute('data-bs-target', `#descriptionModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
 
@@ -799,6 +815,7 @@
         showSegmentDataM2Construidos('general');
     };
 </script>
+
 
         <!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
         <div class="col-md-12">
