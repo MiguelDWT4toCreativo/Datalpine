@@ -454,7 +454,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año es importante analizarlo, ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Tulancingo de Bravo. Este indicador proporciona información valiosa sobre la dinámica del mercado inmobiliario local y puede ayudar a identificar posibles desequilibrios entre la oferta y la demanda de viviendas en la ciudad.</p>
+                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Tulancingo de Bravo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -792,7 +792,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
             </div>
             <div class="modal-body">
                 <p>
-                El gráfico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico. Esta visualización permite comprender la distribución de las propiedades según su permanencia en el mercado inmobiliario, ofreciendo una perspectiva clara sobre la velocidad de venta de los inmuebles en diferentes períodos de tiempo.
+                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico.
                 </p>
             </div>
             <div class="modal-footer">

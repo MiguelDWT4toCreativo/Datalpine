@@ -188,7 +188,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se visualiza la distribución de créditos de acuerdo al nivel de porcentaje en UMAS (Unidades de Medida y Actualización) del año 2022.</p>
+                <p>Se visualiza la distribución de créditos de acuerdo al nivel de porcentaje en UMAS (Unidades de Medida y Actualización).</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -206,7 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de > **12**, con un **26%** de representación, el siguiente intervalo con mayor concentración se encuentra entre **6.01** - **9.00** UMAS con **18.1%**, finalmente las proporciones más bajas se encuentran en el intervalo de UMAS de < **2.6** UMAS y **2.61** - **4.00** UMAS, **13.5%** y **12.0%**. Estos porcentajes bajos para los intervalos de UMAS puede deberse a la poca capacidad de pago que poseen los compradores.</p>
+                <p>De acuerdo al porcentaje de créditos dentro de cada rango de UMAS la mayor concentración se encuentra en el intervalo de > <strong>12</strong>, con un <strong>26%</strong> de representación, el siguiente intervalo con mayor concentración se encuentra entre <strong>6.01</strong> - <strong>9.00</strong> UMAS con <strong>18.1%</strong>, finalmente las proporciones más bajas se encuentran en el intervalo de UMAS de < <strong>2.6</strong> UMAS y <strong>2.61</strong> - <strong>4.00</strong> UMAS, <strong>13.5%</strong> y <strong>12.0%</strong>. Estos porcentajes bajos para los intervalos de UMAS puede deberse a la poca capacidad de pago que poseen los compradores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -222,7 +222,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>25.9%</strong> de representación. El siguiente intervalo más representado está entre <strong>6.01</strong> y <strong>9.00</strong> UMAS (<strong>19.5%</strong>), seguido por el intervalo de <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>16.3%</strong>) lo que indica una tendencia hacia montos intermedios. Los intervalos con menor participación se encuentran en los rangos de  entre <strong>9.01</strong>  a <strong>12</strong> UMAS (<strong>14.9%</strong>,), <strong>2.61</strong> A <strong>4.00</strong> UMAS (<strong>12.6%</strong>) y ≤ <strong>2.6</strong> UMAS (<strong>9.9%</strong>). Esta baja proporción en los rangos más bajos puede estar relacionada con la menor capacidad de pago de los solicitantes o la limitada disponibilidad de inmuebles en esos rangos de precio. Además, la alta concentración en los tramos superiores puede reflejar el crecimiento económico y el incremento en el poder adquisitivo en Querétaro, que atrae a solicitantes con mayores ingresos</p>
+                <p>La mayor concentración de créditos se encuentra en el intervalo de más de <strong>12</strong> UMAS, con un <strong>26.2%</strong> de representación. El siguiente intervalo más representado está entre <strong>6.01</strong> y <strong>9.00</strong> UMAS (<strong>19.7%</strong>), seguido por el intervalo de <strong>4.01</strong> a <strong>6</strong> UMAS (<strong>16.4%</strong>) lo que indica una tendencia hacia montos intermedios. Los intervalos con menor participación se encuentran en los rangos de  entre <strong>9.01</strong>  a <strong>12</strong> UMAS (<strong>15%</strong>), <strong>2.61</strong> A <strong>4.00</strong> UMAS (<strong>12.8%</strong>) y ≤ <strong>2.6</strong> UMAS (<strong>10%</strong>). Esta baja proporción en los rangos más bajos puede estar relacionada con la menor capacidad de pago de los solicitantes o la limitada disponibilidad de inmuebles en esos rangos de precio. Además, la alta concentración en los tramos superiores puede reflejar el crecimiento económico y el incremento en el poder adquisitivo en Querétaro, que atrae a solicitantes con mayores ingresos</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

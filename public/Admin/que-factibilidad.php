@@ -582,7 +582,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año <strong>2024</strong>. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde <strong>marzo</strong> hasta <strong>agosto</strong> de <strong>2024</strong>. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.</p>
+                <p>Se muestra el histórico de la mediana del precio de oferta de los inmuebles en <strong>Querétaro</strong> durante el año <strong>2024</strong>. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde <strong>marzo</strong> hasta <strong>agosto</strong> de <strong>2024</strong>. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -600,7 +600,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                <p>La gráfica refleja primero un valor constante de <strong>4.5</strong> millones desde marzo hasta mayo. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante mayo, en la mediana del precio de oferta de los inmuebles constante desde abril de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -709,7 +709,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra la cantidad de créditos otorgados en el año <strong>2022</strong> en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
+                <p><strong>Descripción:</strong> Se muestra la cantidad de créditos otorgados en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -891,7 +891,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año <strong>2023</strong>, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) hasta el segmento S (<strong>4</strong> millones a <strong>12</strong> millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -909,7 +909,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                        <p>La mayor concentración de propiedades se encuentra en el segmento <strong>S</strong> (<strong>4</strong> a <strong>12</strong> millones) con un <strong>33.4%</strong>. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de Querétaro, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el segmento <strong>B</strong> (<strong>2.5</strong> a <strong>3.25</strong> millones) con un <strong>26.3%</strong>, seguido por el segmento <strong>A</strong> (<strong>3.25</strong> a <strong>4</strong> millones), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los segmentos <strong>D</strong> (<strong>1</strong> millón a <strong>1.75</strong> millones) y <strong>C</strong> (<strong>1.75</strong> millones a <strong>2.5</strong> millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -927,7 +927,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2024.</p>
+                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año <strong>2024</strong>, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) hasta el segmento S (<strong>4</strong> millones a <strong>12</strong> millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -945,7 +945,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2024.</p>
+                        <p>En <strong>2024</strong>, el segmento <strong>S</strong> (<strong>4</strong> a <strong>12</strong> millones) dominó el mercado inmobiliario de Querétaro, representando el <strong>50%</strong> de las propiedades. Esto indica una fuerte orientación hacia el mercado de lujo o propiedades de alto valor, lo que podría estar asociado con el crecimiento económico de la región y la atracción de inversionistas con mayor capacidad adquisitiva.  Los segmentos <strong>A</strong> (<strong>3.25</strong> a <strong>4</strong> millones) y <strong>B</strong> (<strong>2.5</strong> a <strong>3.25</strong> millones) también muestran una representación considerable, con <strong>12.4%</strong> y <strong>12.9%</strong> respectivamente, lo que sugiere una presencia importante de propiedades de rango medio-alto. La menor representación en los segmentos <strong>C</strong>(<strong>1.75</strong> millones a  <strong>2.5</strong> millones), <strong>D</strong> (<strong>1</strong> millón a <strong>1.75</strong> millones) y <strong>E</strong> (menos de <strong>500</strong> mil a <strong>1</strong> millón) puede reflejar una menor oferta de propiedades económicas o una preferencia de los compradores por inmuebles de mayor valor en esta zona. Este patrón de segmentación puede estar influido por la continua expansión de desarrollos residenciales exclusivos y la llegada de inversionistas que buscan aprovechar las oportunidades en el mercado inmobiliario de Querétaro.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

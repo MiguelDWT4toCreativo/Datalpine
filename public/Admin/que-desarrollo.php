@@ -173,7 +173,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37.7%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21.1%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un <strong>4%</strong>, <strong>4%</strong> y <strong>7%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38.86%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21.4%</strong> y tradicionales <strong>23.96%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un <strong>4.68%</strong>, <strong>4.18%</strong> y <strong>6.92%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
                 </p>
             </div>
             <div class="modal-footer">
@@ -190,7 +190,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>21%</strong> y tradicionales <strong>22%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>2%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>40.79%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>22.27%</strong> y tradicionales <strong>23.66%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>2.62%</strong>, <strong>3.89%</strong> y <strong>6.77%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -206,7 +206,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>37%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>20%</strong> y tradicionales <strong>23%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>0%</strong>, <strong>4%</strong> y <strong>6%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>40.8%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales <strong>25.83%</strong> y tradicionales <strong>21.91%</strong>, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y residencial plus, con un <strong>0.47%</strong>, <strong>4.51%</strong> y <strong>6.48%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -422,7 +422,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con 5 estacionamientos, lo que que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio de alto, de 4 millones a 12 millones. Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con 1 o 2 estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Santiago de Querétaro pueden acceder a ellas. Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
+                <p>En gráfico de pastel se visualiza la distribución de estacionamientos  de manera general en el mercado inmobiliario de Santiago de Querétaro. Cada porción del círculo representa un porcentaje de un numero específico de estacionamiento.</p>
+                <p>El grafico de barras muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -440,7 +441,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</p>
+                <p>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con <strong>2</strong> estacionamientos, con el <strong>57.3%</strong> de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un <strong>24.9%</strong>, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio <strong>3</strong> lugares de estacionamiento representan <strong>11.3%</strong>. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de <strong>3</strong> estacionamientos, estas pueden ser las que tienen más espacio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -456,7 +457,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</strong></p>
+                <p>Es notorio que el segmento <strong>S</strong> es el que mayor concentración de propiedades con <strong>5</strong> estacionamientos, lo que que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio de alto, de <strong>4</strong> millones a <strong>12</strong> millones. Por su parte, los segmentos <strong>A</strong> y <strong>B</strong> son los que poseen una cantidad importante en casas con <strong>1</strong> o <strong>2</strong> estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Santiago de Querétaro pueden acceder a ellas. Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -527,7 +528,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de los segmentos de acuerdo a la cantidad de baños con la que cuenta cada uno. Cada barra representa la cantidad de casas que tienen un número específico de baños para un segmento determinado.</p>
+                <p>El gráfico de pastel muestra los porcentajes de las diferentes cantidades de baños. Cada porción del círculo representa un porcentaje de una cantidad específica de baños en la ciudad de Santiago de Querétaro.</p>
+                <p>Se muestra la distribución de los segmentos de acuerdo a la cantidad de baños con la que cuenta cada uno. Cada barra representa la cantidad de casas que tienen un número específico de baños para un segmento determinado. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -545,7 +547,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
+                <p>Es notorio que la mayor parte de las propiedades de Santiago de Querétaro poseen <strong>1</strong> baño, este representa el <strong>48.4%</strong> de todo el mercado inmobiliario. En menor proporción pero igual de representativos están las propiedades que poseen <strong>2</strong> (<strong>22.3%</strong>), <strong>3</strong> (<strong>13.6%</strong>), <strong>4</strong> (<strong>10.1%</strong>), esto implica que la propiedades con menor número de baños predominan lo que corresponde a las propiedades que tienen un precio asequible. Por otro lado, existe un grupo limitado y exclusivo para las propiedades de <strong>5</strong> (<strong>4.41%</strong>), <strong>6</strong> (<strong>0.83%</strong>), <strong>7</strong> (<strong>0.21%</strong>) y <strong>8</strong> (<strong>0.25%</strong>), dada esta cantidad se puede intuir que son propiedades con un valor alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -561,7 +563,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que la mayor parte de las propiedades de Santiago de Querétaro poseen <strong>1</strong> baño, este representa el <strong>48.4%</strong> de todo el mercado inmobiliario. En menor proporción pero igual de representativos están las propiedades que poseen <strong>2</strong> (<strong>22.3%</strong>), <strong>3</strong> (<strong>13.6%</strong>), <strong>4</strong> (<strong>10.1%</strong>), esto implica que la propiedades con menor número de baños predominan lo que corresponde a las propiedades que tienen un precio asequible. Por otro lado, existe un grupo limitado y exclusivo para las propiedades de <strong>5</strong> (<strong>4.41%</strong>), <strong>6</strong> (<strong>0.83%</strong>), <strong>7</strong> (<strong>0.21%</strong>) y <strong>8</strong> (<strong>0.25%</strong>), dada esta cantidad se puede intuir que son propiedades con un valor alto.</p>
+                <p>Para las primeras cantidades de baños (<strong>1</strong>, <strong>2</strong>, y <strong>3</strong>) es notorio que las abarcan los segmentos <strong>E</strong>, <strong>D</strong> y <strong>C</strong>, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir <strong>4</strong>, <strong>5</strong>, <strong>6</strong> los segmentos mayor participación tienen son el <strong>B</strong>, <strong>A</strong> y <strong>S</strong>, los precios de estas propiedades son considerados de medio-alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -632,7 +634,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En el gráfico se muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado.</p>
+                <p>El gráfico de pastel muestra los porcentajes del número de recámaras en un conjunto de propiedades, divididas en diferentes segmentos. Cada porción del círculo representa un porcentaje de propiedades con un número específico de recámaras, y los colores se utilizan para diferenciar cada categoría.</p>
+                <p>En el gráfico de barras se muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -739,7 +742,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de metros cuadrados construidos según la opción seleccionada: General o Segmentos.</p>
+                <p>El gráfico de pastel muestra la distribución porcentual de diferentes rangos de metros cuadrados de construcción. Cada porción del círculo representa un porcentaje de un rango específico de metros cuadrados, y los colores se utilizan para diferenciar cada categoría</p>
+                <p>El grafico de barras muestra la distribución de la cantidad de casas en diferentes rangos de metros cuadrados de construcción, agrupadas por segmentos. Cada barra representa la cantidad de casas dentro de un rango específico. Los diferentes colores representan los diferentes rangos de metros cuadrados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -757,7 +761,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
+                <p>Observamos una distribución bastante equilibrada entre los diferentes rangos de superficie. No hay un rango que domine significativamente sobre los demás. La presencia de todos los rangos, desde los más pequeños (<strong>0-100 m²</strong>) hasta los más grandes (<strong>300+ m²</strong>), indica una oferta inmobiliaria bastante diversificada. Esto sugiere que el mercado puede satisfacer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y económicas hasta quienes requieren espacios más amplios.</p>
+                <p>Sin embargo, los rangos de <strong>100-150 m²</strong> (<strong>20.4%</strong>) y <strong>150-200 m²</strong> (<strong>18.1%</strong>) concentran una porción considerable del total, lo que sugiere que hay una cantidad significativa de propiedades con tamaños medios. Además, los rangos de <strong>300+ m²</strong> concentran una distribución considerable con el <strong>24.5%</strong>, lo que es bastante significativo. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que puedan adaptarse a las necesidades de familias medianas o pequeñas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -773,9 +778,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos más pequeños (0-100 m² y 100-150 m²) presentan los valores más altos, de $28,173.12 y $31,324.74 respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: 150-200 m² con $21,217.37, y 200-250 m² con $20,856.11. El precio se eleva nuevamente en propiedades de 250 a 300 m² y más de 300 m² , con  promedios de $21,249.50 y $27,577.05 respectivamente.
-
-La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.</p>
+                <p>Es notorio que el segmento <strong>S</strong> es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300</strong> metros cuadrados, esto se debe a que las propiedades que están dentro de este segmento tienen un rango de precio elevado, de <strong>4</strong> millones hasta <strong>12</strong> millones de pesos, es decir son consideradas de gama alta.</p>
+                <p>En su contraparte, el segmento <strong>E</strong> es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0</strong> a <strong>100</strong> metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto. En el segmento <strong>D</strong> se puede notar que hay una concentración propiedades de un tamaño de entre <strong>0</strong> a <strong>100</strong> metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de <strong>1M</strong> a <strong>1.75M</strong> pesos. En lo que corresponde a los segmentos <strong>C</strong>, <strong>B</strong> la concentración de propiedades se encuentra en propiedades de <strong>100</strong> a <strong>150</strong> metros cuadrados. El segmento <strong>A</strong> concentra propiedades de <strong>200</strong> a <strong>250</strong> metros cuadrados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
