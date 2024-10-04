@@ -213,9 +213,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas usadas: Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.
-
-Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas usadas:</strong> Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.
+                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -229,8 +228,8 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas usadas: Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable con mínimas fluctuaciones y permaneciendo en un determinado rango, lo que nos indica una tendencia estable.</p>
-                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con un aumento considerable en el tercer trimestre y permaneciendo la tendencia en el cuarto trimestre del año. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas usadas:</strong> Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable con mínimas fluctuaciones y permaneciendo en un determinado rango, lo que nos indica una tendencia estable.</p>
+                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con un aumento considerable en el tercer trimestre y permaneciendo la tendencia en el cuarto trimestre del año. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -244,8 +243,8 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas usadas: Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, siendo así hasta el cuarto trimestre del año con un ligero aumento en su valor de los créditos.</p>
-                        <p>Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia bajista durante los 3 primeros trimestres del año lo que  indica una disminución del valor de los crédito, siendo esto así hasta el cuarto trimestre con un aumento considerable y una recuperación del valor de los créditos.</p>
+                        <p><strong>Viviendas usadas:</strong> Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, siendo así hasta el cuarto trimestre del año con un ligero aumento en su valor de los créditos.</p>
+                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia bajista durante los 3 primeros trimestres del año lo que  indica una disminución del valor de los crédito, siendo esto así hasta el cuarto trimestre con un aumento considerable y una recuperación del valor de los créditos.</p>
                     </div>
                 </div>
             </div>
@@ -258,8 +257,8 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas Nuevas: Al inicio del año, el valor promedio de los créditos para viviendas nuevas se mantuvo relativamente estable. Sin embargo, experimentó un ligero aumento en el segundo trimestre, alcanzando su punto máximo en ese periodo. Luego, se observa una disminución en el tercer trimestre, pero se recupera parcialmente en el cuarto trimestre. Esto podría indicar una mayor demanda de viviendas nuevas en el segundo trimestre, posiblemente impulsada por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores.</p>
-                        <p>Viviendas Usadas: La tendencia de los créditos para viviendas usadas muestra una mayor volatilidad. Al inicio del año, se observa un aumento significativo en el valor promedio de los créditos, pero luego experimenta una caída en el tercer trimestre. En el cuarto trimestre, se recupera parcialmente. Esta variabilidad podría estar influenciada por diversos factores como la disponibilidad de viviendas usadas en el mercado, las condiciones económicas generales y las preferencias de los compradores.</p>
+                        <p><strong>Viviendas Nuevas:</strong> Al inicio del año, el valor promedio de los créditos para viviendas nuevas se mantuvo relativamente estable. Sin embargo, experimentó un ligero aumento en el segundo trimestre, alcanzando su punto máximo en ese periodo. Luego, se observa una disminución en el tercer trimestre, pero se recupera parcialmente en el cuarto trimestre. Esto podría indicar una mayor demanda de viviendas nuevas en el segundo trimestre, posiblemente impulsada por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores.</p>
+                        <p><strong>Viviendas Usadas:</strong> La tendencia de los créditos para viviendas usadas muestra una mayor volatilidad. Al inicio del año, se observa un aumento significativo en el valor promedio de los créditos, pero luego experimenta una caída en el tercer trimestre. En el cuarto trimestre, se recupera parcialmente. Esta variabilidad podría estar influenciada por diversos factores como la disponibilidad de viviendas usadas en el mercado, las condiciones económicas generales y las preferencias de los compradores.</p>
                     </div>
                 </div>
             </div>
@@ -272,8 +271,8 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas Nuevas: El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas nuevas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
-                        <p>Viviendas Usadas: El valor promedio de los créditos para viviendas usadas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas usadas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas nuevas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas usadas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -286,8 +285,8 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Viviendas Nuevas: El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante los primeros dos trimestres, alcanzando su punto máximo en el segundo trimestre. Sin embargo, en el tercer trimestre se observa una disminución significativa. Esto podría indicar un aumento inicial en la demanda de viviendas nuevas, posiblemente impulsado por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores. La disminución en el tercer trimestre podría estar relacionada con factores como el aumento de las tasas de interés, la incertidumbre económica o una disminución en la oferta de viviendas nuevas.</p>
-                        <p>Viviendas Usadas: El valor promedio de los créditos para viviendas usadas muestra una tendencia a la baja durante los tres trimestres analizados. Esto podría indicar una disminución en la demanda de viviendas usadas, posiblemente debido a factores como la competencia con las viviendas nuevas, un aumento en los costos de mantenimiento de las viviendas usadas o una menor disponibilidad de viviendas usadas en el mercado.</p>
+                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante los primeros dos trimestres, alcanzando su punto máximo en el segundo trimestre. Sin embargo, en el tercer trimestre se observa una disminución significativa. Esto podría indicar un aumento inicial en la demanda de viviendas nuevas, posiblemente impulsado por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores. La disminución en el tercer trimestre podría estar relacionada con factores como el aumento de las tasas de interés, la incertidumbre económica o una disminución en la oferta de viviendas nuevas.</p>
+                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia a la baja durante los tres trimestres analizados. Esto podría indicar una disminución en la demanda de viviendas usadas, posiblemente debido a factores como la competencia con las viviendas nuevas, un aumento en los costos de mantenimiento de las viviendas usadas o una menor disponibilidad de viviendas usadas en el mercado.</p>
                     </div>
                 </div>
             </div>
@@ -380,30 +379,133 @@ Viviendas nuevas: A diferencia de las viviendas usadas, el valor promedio de los
 
 
 
-        <!-- Segmentación de mercado: Promedio de precio por segmento -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
-                            </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                            </div>
+        <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user-tie me-2"></i>
+                        <span class="developer-label">Desarrollador</span>
                     </div>
+                    <div class="mb-3">
+                        <select class="form-select" id="yearSelectSegmento" onchange="showYearDataSegmento(this.value)">
+                            <option value="2022">2022</option>
+                            <option value="2023" selected>2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonSegmento" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2023">Interpretación</button>
+                    </div>
+                </div>
+                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: none; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description (Same for all years) -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Este gráfico de pastel está dividido en diferentes secciones, cada una representa un segmento de propiedades y está asociada a un color específico. El tamaño de cada sección es proporcional al porcentaje de propiedades que pertenecen a ese segmento. Los porcentajes correspondientes a cada segmento se muestran dentro de cada sección.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation (One for each year) -->
+<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Segmento <strong>D</strong>: El segmento <strong>D</strong> concentra la mayor proporción de propiedades, representando el <strong>37%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
+                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>D</strong>. Los segmentos <strong>C</strong> (<strong>20.7%</strong>) y <strong>E</strong> (<strong>17.6%</strong>) tienen una participación considerable, seguidos por los segmentos <strong>B</strong> (<strong>8.95%</strong>) y <strong>S</strong> (<strong>8.33%</strong>). El segmento <strong>A</strong> (<strong>7.41%</strong>) es el menos representativo.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El segmento <strong>D</strong> concentra la mayor proporción de propiedades, representando el <strong>41.6%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
+                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>D</strong>. Los segmentos <strong>C</strong> (<strong>17.7%</strong>) y <strong>E</strong> (<strong>16.7%</strong>) tienen una participación considerable, seguidos por los segmentos <strong>S</strong> (<strong>11.2%</strong>) y <strong>B</strong> (<strong>7.34%</strong>). El segmento <strong>A</strong> (<strong>5.42%</strong>) es el menos representativo.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El segmento <strong>E</strong> concentra la mayor proporción de propiedades, representando el <strong>60.5%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
+                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>E</strong>. Los segmentos <strong>D</strong> y <strong>B</strong> tienen una participación considerable, seguidos por los segmentos <strong>C</strong>, <strong>S</strong> y <strong>A</strong>. El segmento <strong>L</strong> es el menos representativo.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script for controlling the display of graphs and modals -->
+<script>
+    function showYearDataSegmento(year) {
+        // Hide all year graphs
+        document.getElementById('yearDataSegmento2022').style.display = 'none';
+        document.getElementById('yearDataSegmento2023').style.display = 'none';
+        document.getElementById('yearDataSegmento2024').style.display = 'none';
+
+        // Show the selected year's graph
+        document.getElementById(`yearDataSegmento${year}`).style.display = 'block';
+
+        // Update the interpretation button to point to the correct modal
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+
+    // Show the 2023 graph by default when the page loads
+    window.onload = function() {
+        showYearDataSegmento('2023');
+    };
+</script>
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad -->
         <div class="col-md-12">
