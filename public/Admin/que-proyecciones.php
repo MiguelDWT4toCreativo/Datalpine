@@ -273,7 +273,9 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica general de baños muestra una tendencia ascendente en el precio de las viviendas conforme aumenta el número de baños. Se observa que las viviendas con más baños suelen ser más costosas, lo que refleja que el número de baños es un factor determinante en la valoración de una propiedad.</p>
+                <p>Primeramente, se observa una tendencia ascendente en la relación de precio-número de baños, lo cual es coherente ya que, a mayor número de baños, mayor debería de ser el precio promedio de las viviendas, entonces es claro que la cantidad de baños es un factor que influye directamente en el valor de una vivienda.</p>
+                <p>Aunque se observa un cambio considerable en el valor de las viviendas al pasar de <strong>5</strong> a <strong>5.5</strong> baños, esto posiblemente se deba a que a partir de <strong>5.5</strong> baños o más se podrían considerar propiedades de lujo, aunque también se debe tener claro que podrían estar influyendo otros factores externos o directamente de las propiedades; tales como el tamaño de la vivienda o terreno, propiedades en zonas privadas con zonas de uso común dentro, entre otras.</p>
+                <p>La gráfica muestra una correlación positiva entre el número de baños y el precio promedio de las propiedades. Esto indica que la cantidad de baños es un factor importante a considerar al evaluar el valor de una vivienda.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -474,10 +476,8 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            El 100% de las viviendas que se han ofertado en Santiago de Querétaro se han vendido en menos de un año, esto indica que el mercado inmobiliario de la ciudad es bastante dinámico y que la demanda por viviendas es alta.
-
-Esto podría ser por diversas razones tales como una alta rotación del mercado inmobiliario de Santiago de Querétaro, el cual también podría estar relacionado a factores como el crecimiento económico, el desarrollo urbano, precios accesibles, entre otros.
-                
+                <p>La porción más grande del gráfico corresponde a los productos que han estado en stock menos de un año, con un <strong>66.6%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.</p>            
+                <p>La porción restante, correspondiente a productos en stock más de un año, representa el <strong>33.4%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -713,7 +713,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La grafica muestra las cinco colonias las cuales tienen en promedio los precios más altos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
+                <p>La graficas muestran las cinco colonias las cuales tienen en promedio los precios más altos y mas bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
