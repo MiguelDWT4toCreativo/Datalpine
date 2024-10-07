@@ -646,7 +646,7 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
     </div>
 </div> -->
 
-Colonias más baratas<!-- Proyección Forecast Media Anual -->
+<!-- Proyección Forecast Media Anual -->
 <div class="container-fluid">
     <div class="row">
         <!-- Columna izquierda: Proyección Forecast Media Anual
@@ -671,7 +671,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
             </div>
         </div>
         <!-- Columna derecha: Colonias más baratas -->
-<!-- Gráfica: Colonias Más Caras y Más Baratas -->
+<!-- Gráfica: Colonias -->
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -688,8 +688,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                     </select>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColonias">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonColonias" data-bs-toggle="modal" data-bs-target="#descriptionModalColoniasMasBaratas">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -700,16 +700,16 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalColonias" tabindex="-1" aria-labelledby="descriptionModalLabelColonias" aria-hidden="true">
+<!-- Modals for Description: Más Baratas -->
+<div class="modal fade" id="descriptionModalColoniasMasBaratas" tabindex="-1" aria-labelledby="descriptionModalLabelColoniasMasBaratas" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelColonias">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabelColoniasMasBaratas">Descripción (Más Baratas)</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La grafica muestra las cinco colonias las cuales tienen en promedio los precios más altos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
+                <p>La grafica nos muestra las cinco colonias las cuales tienen en promedio los precios más bajos respecto a todas las colonias en las que se ofertan inmuebles en Tulancingo de Bravo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -718,18 +718,17 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalColonias" tabindex="-1" aria-labelledby="interpretationModalLabelColonias" aria-hidden="true">
+<!-- Modals for Interpretation: Más Baratas -->
+<div class="modal fade" id="interpretationModalColoniasMasBaratas" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasBaratas" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelColonias">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasBaratas">Interpretación (Más Baratas)</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es Francisco Villa superando en promedio los 200 millones de pesos; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el Cerro de Lira, Cerro la Capilla, Peña Colorada y Cerro la carbonera.
-
-En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,000,000 lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de Santiago de Querétaro lo cual hace que se eleven sus precios. Por su parte, Vista Lago, Progreso y Fraccionamiento Balcones de Juriquilla son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los 20 millones de pesos en promedio.</p>
+                <p>Las colonias que más barato ofertan sus inmuebles son <strong>Paseos de Chavarría</strong> y <strong>Villa Elena</strong>; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de <strong>Tulancingo de Bravo</strong>, lo que significa que, hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. </p>
+                <p>Además, se puede observar que, la colonia <strong>Hacienda Margarita</strong>, <strong>Jardines del Paraíso</strong> y <strong>Fracc Jardines del Paraíso</strong> ofrecen precios bajos alrededor del <strong>medio millón de pesos</strong> las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -738,7 +737,44 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
     </div>
 </div>
 
-<!-- Script para controlar la visualización de gráficas -->
+<!-- Modals for Description: Más Caras -->
+<div class="modal fade" id="descriptionModalColoniasMasCaras" tabindex="-1" aria-labelledby="descriptionModalLabelColoniasMasCaras" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelColoniasMasCaras">Descripción (Más Caras)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La grafica muestra las cinco colonias las cuales tienen en promedio los precios más altos respecto a todas las colonias en las que se ofertan inmuebles en Pachuca de Soto.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation: Más Caras -->
+<div class="modal fade" id="interpretationModalColoniasMasCaras" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasCaras" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasCaras">Interpretación (Más Caras)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es <strong>Centro</strong>, superando en promedio los <strong>$7,000,000</strong>; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. </p>
+                <p>En cuanto a la colonia que sigue es <strong>Felipe Ángeles</strong> con un promedio de <strong>$7,000,000</strong>, lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de <strong>Tulancingo de Bravo</strong> lo cual hace que se eleven sus precios. Por su parte, <strong>Tulancingo</strong>, <strong>Lindavista</strong> y <strong>Residencial la Quinta</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>$5,000,000</strong> en promedio.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showColoniasData(option) {
         // Ocultar todas las gráficas
@@ -748,8 +784,12 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
         // Mostrar la gráfica correspondiente a la opción seleccionada
         if (option === 'masbaratas') {
             document.getElementById('coloniasDataMasBaratas').style.display = 'block';
+            document.getElementById('descriptionButtonColonias').setAttribute('data-bs-target', '#descriptionModalColoniasMasBaratas');
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasMasBaratas');
         } else if (option === 'mascaras') {
             document.getElementById('coloniasDataMasCaras').style.display = 'block';
+            document.getElementById('descriptionButtonColonias').setAttribute('data-bs-target', '#descriptionModalColoniasMasCaras');
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasMasCaras');
         }
     }
 
@@ -758,6 +798,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
         showColoniasData('masbaratas');
     };
 </script>
+
 
         <!-- Gráfica 3: Tiempo en el mercado -->
         <!-- Gráfica: Tiempo en el mercado -->
