@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Querétaro | DatAlpine</title>
+    <title>Tulancingo | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
-                                    <li class="breadcrumb-item active">Santiago de Querétaro
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
+                                    <li class="breadcrumb-item active">Tulancingo de Bravo
 
                                     </li>
                                 </ol>
@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: none;"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_creditos_nuevausada_2020.html" width="100%" height="400" frameborder="0" id="yearlyData2020" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_creditos_nuevausada_2021.html" width="100%" height="400" frameborder="0" id="yearlyData2021" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_creditos_nuevausada_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022" style="display: none;"></iframe>
@@ -199,7 +199,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>El gráfico muestra la evolución del valor promedio de los créditos hipotecarios para la compra de viviendas nuevas y usadas en Tulancingo de Bravo, Hgo. El eje vertical representa el monto promedio del crédito en pesos mexicanos, mientras que el eje horizontal muestra los cuatrimestres del año. Se presentan dos líneas: una de color morado para las viviendas nuevas y otra de color rosa para las viviendas usadas</p>
+                        <p>El gráfico muestra la evolución del valor promedio de los créditos hipotecarios para la compra de viviendas nuevas y usadas en Tulancingo de Bravo, Hgo. El <strong>eje vertical</strong> representa el monto promedio del crédito en pesos mexicanos, mientras que el <strong>eje horizontal</strong> muestra los cuatrimestres del año. Se presentan dos líneas: una de color morado para las viviendas nuevas y otra de color rosa para las viviendas usadas</p>
                     </div>
                 </div>
             </div>
@@ -228,8 +228,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>Viviendas usadas:</strong> Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable con mínimas fluctuaciones y permaneciendo en un determinado rango, lo que nos indica una tendencia estable.</p>
-                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con un aumento considerable en el tercer trimestre y permaneciendo la tendencia en el cuarto trimestre del año. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas usadas</strong>: Al inicio del año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, pero experimentó un aumento significativo en el tercer trimestre, al igual que tuvo una disminución en el cuarto trimestre. Este incremento podría deberse a diversos factores, como un mayor interés de los compradores por propiedades usadas, un aumento en los precios de las viviendas nuevas o cambios en las políticas crediticias.</p>
+                        <p><strong>Viviendas nuevas</strong>: A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia estable durante los dos primeros trimestres del año, con una ligera disminución en el tercer trimestre y una recuperación en el último trimestre. Esto podría indicar una demanda estable por viviendas nuevas o una mayor negociación en los precios de este tipo de propiedades.</p>
                     </div>
                 </div>
             </div>
@@ -243,8 +243,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>Viviendas usadas:</strong> Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, siendo así hasta el cuarto trimestre del año con un ligero aumento en su valor de los créditos.</p>
-                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia bajista durante los 3 primeros trimestres del año lo que  indica una disminución del valor de los crédito, siendo esto así hasta el cuarto trimestre con un aumento considerable y una recuperación del valor de los créditos.</p>
+                        <p><strong>Viviendas usadas:</strong> Durante todo el año, el valor promedio de los créditos para viviendas usadas se mantuvo relativamente estable, siendo así hasta el <strong>cuarto trimestre</strong> del año con un ligero aumento en su valor de los créditos.</p>
+                        <p><strong>Viviendas nuevas:</strong> A diferencia de las viviendas usadas, el valor promedio de los créditos para viviendas nuevas mostró una tendencia bajista durante los <strong>3 primeros trimestres</strong> del año lo que  indica una disminución del valor de los crédito, siendo esto así hasta el <strong>cuarto trimestre</strong> con un aumento considerable y una recuperación del valor de los créditos.</p>
                     </div>
                 </div>
             </div>
@@ -257,7 +257,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>Viviendas Nuevas:</strong> Al inicio del año, el valor promedio de los créditos para viviendas nuevas se mantuvo relativamente estable. Sin embargo, experimentó un ligero aumento en el segundo trimestre, alcanzando su punto máximo en ese periodo. Luego, se observa una disminución en el tercer trimestre, pero se recupera parcialmente en el cuarto trimestre. Esto podría indicar una mayor demanda de viviendas nuevas en el segundo trimestre, posiblemente impulsada por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores.</p>
+                        <p><strong>Viviendas Nuevas:</strong> Al inicio del año, el valor promedio de los créditos para viviendas nuevas se mantuvo relativamente estable. Sin embargo, experimentó un ligero aumento en el segundo trimestre, alcanzando su punto máximo en ese período. Luego, se observa una disminución en el tercer trimestre, pero se recupera parcialmente en el cuarto trimestre. Esto podría indicar una mayor demanda de viviendas nuevas en el segundo trimestre, posiblemente impulsada por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores.</p>
                         <p><strong>Viviendas Usadas:</strong> La tendencia de los créditos para viviendas usadas muestra una mayor volatilidad. Al inicio del año, se observa un aumento significativo en el valor promedio de los créditos, pero luego experimenta una caída en el tercer trimestre. En el cuarto trimestre, se recupera parcialmente. Esta variabilidad podría estar influenciada por diversos factores como la disponibilidad de viviendas usadas en el mercado, las condiciones económicas generales y las preferencias de los compradores.</p>
                     </div>
                 </div>
@@ -271,8 +271,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas nuevas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
-                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el primer trimestre, experimenta una ligera disminución en el segundo trimestre y luego se recupera y supera su valor inicial en el tercer y cuarto trimestre. Esto sugiere un aumento en la demanda de viviendas usadas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante el año. Inicia con un valor relativamente alto en el <strong>primer trimestre</strong>, experimenta una ligera disminución en el <strong>segundo trimestre</strong> y luego se recupera y supera su valor inicial en el <strong>tercer</strong> y <strong>cuarto trimestre</strong>. Esto sugiere un aumento en la demanda de viviendas nuevas y posiblemente un incremento en los precios de este tipo de propiedades.</p>
+                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia más volátil. Inicia con el valor más alto en el <strong>primer trimestre</strong>, luego experimenta una fuerte caída en el <strong>segundo trimestre</strong>, y posteriormente se recupera gradualmente en el <strong>tercer</strong> y <strong>cuarto trimestre</strong>, aunque sin alcanzar su valor inicial. Esta variabilidad podría estar influenciada por diversos factores como la disponibilidad de viviendas usadas en el mercado, las condiciones económicas generales y las preferencias de los compradores.</p>
                     </div>
                 </div>
             </div>
@@ -285,8 +285,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante los primeros dos trimestres, alcanzando su punto máximo en el segundo trimestre. Sin embargo, en el tercer trimestre se observa una disminución significativa. Esto podría indicar un aumento inicial en la demanda de viviendas nuevas, posiblemente impulsado por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores. La disminución en el tercer trimestre podría estar relacionada con factores como el aumento de las tasas de interés, la incertidumbre económica o una disminución en la oferta de viviendas nuevas.</p>
-                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia a la baja durante los tres trimestres analizados. Esto podría indicar una disminución en la demanda de viviendas usadas, posiblemente debido a factores como la competencia con las viviendas nuevas, un aumento en los costos de mantenimiento de las viviendas usadas o una menor disponibilidad de viviendas usadas en el mercado.</p>
+                        <p><strong>Viviendas Nuevas:</strong> El valor promedio de los créditos para viviendas nuevas muestra una tendencia al alza durante los <strong>primeros dos trimestres</strong>, alcanzando su punto máximo en el <strong>segundo trimestre</strong>. Sin embargo, en el <strong>tercer trimestre</strong> se observa una disminución significativa. Esto podría indicar un aumento inicial en la demanda de viviendas nuevas, posiblemente impulsado por factores como el inicio del año, promociones especiales o una mayor confianza de los consumidores. La disminución en el tercer trimestre podría estar relacionada con factores como el aumento de las tasas de interés, la incertidumbre económica o una disminución en la oferta de viviendas nuevas.</p>
+                        <p><strong>Viviendas Usadas:</strong> El valor promedio de los créditos para viviendas usadas muestra una tendencia a la baja durante los <strong>tres trimestres</strong> analizados. Esto podría indicar una disminución en la demanda de viviendas usadas, posiblemente debido a factores como la competencia con las viviendas nuevas, un aumento en los costos de mantenimiento de las viviendas usadas o una menor disponibilidad de viviendas usadas en el mercado.</p>
                     </div>
                 </div>
             </div>
@@ -295,27 +295,28 @@
         <!-- Repite el modal de interpretación para los otros años -->
 
         <script>
-            function showYearlyData(year) {
-                // Ocultar todas las gráficas
-                const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
-                years.forEach(y => {
-                    document.getElementById(`yearlyData${y}`).style.display = 'none';
-                });
+    function showYearlyData(year) {
+        // Ocultar todas las gráficas
+        const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
+        years.forEach(y => {
+            document.getElementById(`yearlyData${y}`).style.display = 'none';
+        });
 
-                // Mostrar la gráfica correspondiente al año seleccionado
-                if (year) {
-                    document.getElementById(`yearlyData${year}`).style.display = 'block';
-                }
+        // Mostrar la gráfica correspondiente al año seleccionado
+        if (year) {
+            document.getElementById(`yearlyData${year}`).style.display = 'block';
+        }
 
-                // Actualizar el botón de interpretación según el año
-                const interpretationButton = document.getElementById('interpretationButton');
-                interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-            }
-            // Mostrar la gráfica de 2022 por defecto al cargar la página
-            window.onload = function() {
-                showYearlyData('2019');
-            };
-        </script>
+        // Actualizar el botón de interpretación según el año
+        const interpretationButton = document.getElementById('interpretationButton');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+    }
+
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    window.onload = function() {
+        showYearlyData('2019');
+    };
+</script>
 
 
 
@@ -350,7 +351,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Este gráfico de barras representa la cantidad de créditos otorgados en diferentes trimestres, desde el primer trimestre de <strong>2022</strong> hasta el cuarto trimestre de <strong>2024</strong>. En el eje vertical se encuentra la cantidad de créditos, mientras que en el eje horizontal se muestran los trimestres. Cada barra representa un trimestre y su altura indica la cantidad de créditos otorgados en ese periodo.</p>
+                        <p>Este gráfico de barras representa la <strong>cantidad</strong> de créditos otorgados en diferentes <strong>trimestres</strong>, desde el <strong>1er trimestre</strong> de <strong>2022</strong> hasta el <strong>4to trimestre</strong> de <strong>2024</strong>. En el eje vertical se encuentra la <strong>cantidad</strong> de créditos, mientras que en el eje horizontal se muestran los <strong>trimestres</strong>. Cada barra representa un <strong>trimestre</strong> y su <strong>altura</strong> indica la <strong>cantidad</strong> de créditos otorgados en ese <strong>periodo</strong>.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -421,7 +422,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de pastel está dividido en diferentes secciones, cada una representa un segmento de propiedades y está asociada a un color específico. El tamaño de cada sección es proporcional al porcentaje de propiedades que pertenecen a ese segmento. Los porcentajes correspondientes a cada segmento se muestran dentro de cada sección.</p>
+                <p>Se muestra la segmentación del mercado inmobiliario en <strong>Tulancingo de Bravo</strong> durante el año, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) hasta el segmento <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -439,8 +440,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Segmento <strong>D</strong>: El segmento <strong>D</strong> concentra la mayor proporción de propiedades, representando el <strong>37%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
-                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>D</strong>. Los segmentos <strong>C</strong> (<strong>20.7%</strong>) y <strong>E</strong> (<strong>17.6%</strong>) tienen una participación considerable, seguidos por los segmentos <strong>B</strong> (<strong>8.95%</strong>) y <strong>S</strong> (<strong>8.33%</strong>). El segmento <strong>A</strong> (<strong>7.41%</strong>) es el menos representativo.</p>
+                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (1 a 1.75 millones) con un <strong>37%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (1.75 a 2.5 millones) con un <strong>20.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a 1 millón), lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (2.5 millones a 3.25 millones) y <strong>A</strong> (3.25 millones a 4 millones), <strong>S</strong> (4 millones a 12 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -457,8 +457,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento <strong>D</strong> concentra la mayor proporción de propiedades, representando el <strong>41.6%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
-                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>D</strong>. Los segmentos <strong>C</strong> (<strong>17.7%</strong>) y <strong>E</strong> (<strong>16.7%</strong>) tienen una participación considerable, seguidos por los segmentos <strong>S</strong> (<strong>11.2%</strong>) y <strong>B</strong> (<strong>7.34%</strong>). El segmento <strong>A</strong> (<strong>5.42%</strong>) es el menos representativo.</p>
+                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (<strong>1</strong> a <strong>1.75 millones</strong>) con un <strong>41.6%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (<strong>1.75</strong> a <strong>2.5 millones</strong>) con un <strong>17.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con <strong>16.7%</strong> de participación, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>), <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -475,8 +474,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento <strong>E</strong> concentra la mayor proporción de propiedades, representando el <strong>60.5%</strong> del total. Esto sugiere que este segmento es el más numeroso o el que agrupa a las propiedades con características más comunes.</p>
-                <p>Los demás segmentos presentan una participación menor en comparación con el segmento <strong>E</strong>. Los segmentos <strong>D</strong> y <strong>B</strong> tienen una participación considerable, seguidos por los segmentos <strong>C</strong>, <strong>S</strong> y <strong>A</strong>. El segmento <strong>L</strong> es el menos representativo.</p>
+                <p>Para el <strong>ano 2024</strong> se nota un importante cambio, ya que, la mayor concentración de propiedades se encuentra en el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con un <strong>60.5%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) con un <strong>15.7%</strong>, seguido por los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>C</strong> (<strong>1.75 millones</strong> a <strong>2.5 millones</strong>) con <strong>7.12%</strong> y <strong>7%</strong>, respectivamente, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>) y <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -529,6 +527,68 @@
             </div>
         </div>
 
+<!-- Promedio de precio por segmento -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Promedio de precio por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal7">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal7">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal7" tabindex="-1" aria-labelledby="descriptionModalLabel7" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel7">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra el promedio de precios por segmento en el mercado inmobiliario. Cada barra representa el valor promedio de las propiedades dentro de cada segmento, desde el segmento S, hasta el segmento E. Este gráfico es útil para visualizar cómo varían los precios promedio de las propiedades en cada categoría.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal7" tabindex="-1" aria-labelledby="interpretationModalLabel7" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel7">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El segmento L es el segmento con el precio promedio más alto, con <strong>16 millones</strong>. Esto sugiere que los productos o servicios de este segmento tienen características o atributos que justifican un precio premium.</p>
+                <p>El segmento S, con un precio promedio de <strong>5.7 millones</strong>, se ubica en un punto intermedio entre los segmentos de mayor y menor precio.</p>
+                <p>El segmento A le sigue en precio, con un valor promedio de <strong>3.6 millones</strong>. Al igual que el segmento L, este segmento parece ofrecer productos o servicios de alta gama o con características diferenciadoras.</p>
+                <p>Los segmentos B y C presentan precios promedio similares, alrededor de <strong>2.9</strong> y <strong>2.1 millones</strong>.</p>
+                <p>Los segmentos D y E son los segmentos con los precios promedio más bajos, con valores inferiores a <strong>2 millones</strong> de pesos. Esto podría indicar que los productos o servicios de estos segmentos son más básicos o tienen una demanda menor.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Mediana del precio de oferta -->
 <div class="col-md-12">
     <div class="card">
@@ -560,7 +620,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de línea muestra la evolución de la mediana del precio de oferta durante los meses de febrero a agosto de <strong>2024</strong>. El eje vertical representa el precio en millones de pesos, mientras que el eje horizontal muestra los meses del año. La línea azul conecta los puntos que representan la mediana del precio de oferta en cada mes.</p>
+                <p>Este gráfico de línea muestra la evolución de la mediana del precio de oferta durante los <strong>meses</strong> de <strong>febrero</strong> a <strong>agosto</strong> de <strong>2024</strong>. El eje vertical representa el precio en <strong>millones de pesos</strong>, mientras que el eje horizontal muestra los <strong>meses</strong> del año. La línea azul conecta los puntos que representan la mediana del precio de oferta en cada <strong>mes</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -579,7 +639,7 @@
             </div>
             <div class="modal-body">
                 <p>El precio de oferta presenta una alta volatilidad a lo largo del periodo analizado, experimentando tanto aumentos como disminuciones significativas de un mes a otro.</p>
-                <p>Se observan dos picos en los precios, uno en <strong>marzo</strong> y otro en <strong>junio</strong>, indicando momentos en los que el precio de oferta alcanzó sus valores más altos. Por otro lado, se aprecia un mínimo en <strong>mayo</strong>, donde el precio experimentó una caída considerable.</p>
+                <p>Se observan dos picos en los precios, uno en marzo y otro en junio, indicando momentos en los que el precio de oferta alcanzó sus valores más altos. Por otro lado, se aprecia un mínimo en mayo, donde el precio experimentó una caída considerable.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -689,7 +749,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de barras representa la cantidad de créditos otorgados según diferentes rangos de monto. En el eje vertical se encuentra la cantidad de créditos, mientras que en el eje horizontal se muestran los rangos de monto. Cada barra representa un rango de monto específico y su altura indica la cantidad de créditos otorgados dentro de ese rango.</p>
+                <p>Se muestra la cantidad de créditos otorgados en el año en <strong>Tulancingo de Bravo</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones</strong> de pesos, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados. La gráfica puede ayudar a detectar si existe una mayor demanda de créditos pequeños o grandes, así como patrones de financiación en el mercado inmobiliario de <strong>Tulancingo</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -707,7 +767,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gran mayoría de los créditos se concentran en el rango de menos de 1 millón (<strong>217</strong> créditos otorgados). Esto indica que la mayoría de los préstamos otorgados son de bajo valor.</p>
+                <p>La gran mayoría de los créditos se concentran en el rango de menos de <strong>1 millón</strong> (<strong>217</strong> créditos otorgados). Esto indica que la mayoría de los préstamos otorgados son de bajo valor.</p>
                 <p>A medida que aumenta el rango del monto del crédito, disminuye significativamente la cantidad de créditos otorgados. Esta tendencia es clara al observar que la cantidad de créditos decrece drásticamente a medida que pasamos de menos de <strong>1 millón</strong> a menos de <strong>2 millones</strong>, y así sucesivamente.</p>
             </div>
             <div class="modal-footer">
