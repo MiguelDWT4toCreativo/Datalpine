@@ -504,13 +504,13 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModalCategoria">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#creditSegmentationModal2022">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_creditos_segmento_percent_2023" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_creditos_segmento_percent_2024" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -525,11 +525,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de pastel muestra los créditos otorgados según el género del solicitante. Se divide en dos secciones principales:</p>
-                <ul>
-                    <li><strong>Hombres:</strong> Representado por el color morado, abarca el <strong>53.7%</strong> del total de créditos otorgados.</li>
-                    <li><strong>Mujeres:</strong> Representado por el color rojo, corresponde al <strong>46.3%</strong> del total de créditos otorgados.</li>
-                </ul>
+                <p>El gráfico de barras muestra el <strong>porcentaje</strong> de créditos otorgados por diferentes categorías (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>, <strong>S</strong>, <strong>Elite</strong>) a lo largo de <strong>cuatro trimestres</strong>. Cada barra representa una categoría, y las diferentes secciones de cada barra corresponden a los <strong>porcentajes</strong> de créditos otorgados en cada trimestre.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -538,16 +534,55 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalCategoria" tabindex="-1" aria-labelledby="interpretationModalLabelCategoria" aria-hidden="true">
+<!-- Modal for Interpretation 2022 -->
+<div class="modal fade" id="creditSegmentationModal2022" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelCategoria">Interpretación</h5>
+                <h5 class="modal-title" id="creditSegmentationModalLabel2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación de la gráfica de distribución % de créditos por categoría por año.</p>
+                <p><strong>Dominancia de la categoría E:</strong> A lo largo de los cuatro trimestres, la categoría E concentra la mayor proporción de créditos otorgados. Esto sugiere que esta categoría representa un segmento de mercado o tipo de crédito particularmente relevante para la entidad financiera.</p>
+                <p><strong>Categoría E:</strong> Como se mencionó anteriormente, esta categoría es la más relevante en términos de volumen de créditos otorgados. Su participación relativamente estable a lo largo del tiempo sugiere una demanda constante por este tipo de crédito.</p>
+                <p><strong>Categoría D:</strong> La categoría D también presenta una participación significativa y relativamente estable. Esto podría indicar que representa un segmento de mercado complementario al de la categoría E.</p>
+                <p><strong>Categorías A, B, L, C y S:</strong> Estas categorías presentan una participación menor y más variable en comparación con las categorías E y D. Las fluctuaciones en sus porcentajes podrían estar relacionadas con factores específicos de cada categoría, como cambios en las políticas de crédito, condiciones económicas o preferencias de los clientes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2023 -->
+<div class="modal fade" id="creditSegmentationModal2023" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="creditSegmentationModalLabel2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En este año, se observó un aumento en la participación de las categorías <strong>C</strong> y <strong>B</strong>, lo que sugiere un crecimiento en la demanda por propiedades de rango medio. La categoría <strong>E</strong> sigue siendo importante, pero con una leve disminución en comparación con <strong>2022</strong>. Este cambio puede reflejar una mayor capacidad adquisitiva de los compradores o una recuperación económica más marcada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2024 -->
+<div class="modal fade" id="creditSegmentationModal2024" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="creditSegmentationModalLabel2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Para <strong>2024</strong>, la tendencia muestra un aumento notable en los créditos otorgados en la categoría <strong>A</strong>, lo que sugiere una mayor demanda por propiedades de lujo. Esto puede estar relacionado con un crecimiento económico más sostenido y una mayor inversión en inmuebles de alto valor. Las categorías <strong>E</strong> y <strong>D</strong> han disminuido su participación, lo que podría indicar un cambio en las preferencias del mercado hacia propiedades más exclusivas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -566,6 +601,10 @@
 
         // Mostrar la gráfica correspondiente al año seleccionado
         document.getElementById(`categoriaData${year}`).style.display = 'block';
+
+        // Actualizar el botón de interpretación según el año seleccionado
+        const interpretationButton = document.getElementById('interpretationButtonCategoria');
+        interpretationButton.setAttribute('data-bs-target', `#creditSegmentationModal${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
@@ -575,115 +614,40 @@
 </script>
 
 
-        <!-- Columna completa: g_bar_tiempoventa_total -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal8">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal8">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Columna completa: g_bar_tiempo_venta -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-                <!-- g_piramid_poblacion -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
-        <!-- g_bar_distribucion_segmentos -->
-<div class="col-md-12">
+<!-- Columna completa: g_bar_tiempoventa_total -->
+<div class="col-md-6">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución créditos por segmentos</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (General)</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
-                <div class="mb-3">
-                    <select class="form-select" id="yearSelect" onchange="showYearlyDataSet2(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal8">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal8">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s2" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
+<div class="modal fade" id="descriptionModal8" tabindex="-1" aria-labelledby="descriptionModalLabel8" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabel8">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de segmentos para cada año.</p>
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -692,48 +656,18 @@
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal8" tabindex="-1" aria-labelledby="interpretationModalLabel8" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="interpretationModalLabel8">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2022.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2023.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2024.</p>
+                <p>Las propiedades que han estado menos tiempo en el mercado (de 7 a 10 meses) representan la mayor cantidad, con <strong>75</strong>, <strong>76</strong>, <strong>88</strong> y <strong>67</strong> viviendas, respectivamente. Esto puede deberse a la alta demanda inmobiliaria en <strong>Tulancingo</strong>, que ha crecido gracias a la expansión industrial.</p>
+                <p>Las propiedades con antigüedad media (11 a 15 meses) muestran una caída progresiva, con <strong>35</strong>, <strong>39</strong>, <strong>26</strong> y <strong>17</strong> viviendas, lo que podría indicar que las viviendas que no se venden en el primer año tienden a perder atractivo debido a la oferta continua de opciones más nuevas y mejor ubicadas.</p>
+                <p>Por último, las viviendas que han permanecido más tiempo en el mercado (de 16 meses a más de 24 meses) muestran los valores más bajos, con solo <strong>7</strong>, <strong>13</strong> y <strong>29</strong> propiedades, respectivamente. Esta baja absorción puede ser reflejo de una saturación del mercado o de precios por encima de la capacidad adquisitiva de los compradores locales, una ciudad donde el crecimiento acelerado ha generado un mercado inmobiliario con segmentos de difícil acceso para ciertas poblaciones.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -742,25 +676,128 @@
     </div>
 </div>
 
-<!-- Script -->
-<script>
-    function showYearlyDataSet2(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyData${y}s2`).style.display = 'none';
-        });
 
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyData${year}s2`).style.display = 'block';
-        }
+<!-- Columna completa: g_bar_tiempo_venta -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (Segmentos)</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
-        // Actualizar el botón de interpretación según el año
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-    }
-</script>
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El gráfico de barras muestra el tiempo estimado de venta de propiedades en diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada grupo de barras representa un segmento y las barras individuales dentro de cada grupo corresponden a diferentes <strong>meses</strong> de antigüedad de las propiedades. La altura de cada barra indica el <strong>número</strong> de casas vendidas en ese segmento y con ese tiempo de antigüedad.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Los segmentos de menor valor, como el segmento <strong>"E"</strong> (económico) y el <strong>"D"</strong> (popular), concentran la mayor cantidad de propiedades con tiempos de venta entre <strong>7</strong> y <strong>10</strong> <strong>meses</strong>, principalmente <strong>9</strong> <strong>meses</strong> para el segmento <strong>D</strong>, lo que sugiere una alta demanda por viviendas más accesibles, en parte impulsada por la disponibilidad de créditos y la composición sociodemográfica local, que incluye una población mayormente de ingresos medios y bajos. Por otro lado, segmentos de precio intermedio, como <strong>"C"</strong> y <strong>"B"</strong>, presentan tiempos de venta más variables, con picos en antigüedad de <strong>10</strong> a <strong>12</strong> <strong>meses</strong>, reflejando una menor estabilidad en la demanda de propiedades de este rango de precio.</p>
+                <p>Para los segmentos de mayor valor, como <strong>"S"</strong> y <strong>"L"</strong>, el tiempo de venta tiende a prolongarse debido a la baja proporción de compradores con suficiente capacidad económica para adquirir propiedades de alta gama en <strong>Tulancingo</strong>. Además, factores como la falta de infraestructura de lujo en la ciudad y la concentración de personas con altos ingresos en municipios vecinos como <strong>Pachuca</strong> podrían estar limitando la absorción de propiedades residenciales premium en estos segmentos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- g_piramid_poblacion -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPiramid">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPiramid">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalPiramid" tabindex="-1" aria-labelledby="descriptionModalLabelPiramid" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelPiramid">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica proporciona una representación visual de la población de Tulancingo de Bravo, segmentada por rangos de edad y género para observar cómo se distribuye la población en el estado.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalPiramid" tabindex="-1" aria-labelledby="interpretationModalLabelPiramid" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelPiramid">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En la pirámide poblacional de <strong>Tulancingo de Bravo</strong> se puede observar que la población que más predomina en distribución es el rango de <strong>15 a 19 años</strong>, pero también de <strong>20 a 49 años</strong> se tiene un gran volumen lo cual representa que gran parte de los habitantes tienen la edad en la cual están en posibilidades de adquirir una vivienda.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 <div class="container-fluid">
     <div class="row">
@@ -787,6 +824,43 @@
         </div>
     </div>
 </div>
+
+<!-- Modal Descripción -->
+<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="descriptionModalLabel">Descripción</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Interpretación -->
+<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="interpretationModalLabel">Interpretación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Variabilidad en los segmentos: Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios. El segmento <strong>A</strong> Experimenta un aumento en el precio (<strong>27.35%</strong>), aunque es el menor de todos los segmentos. El segmento <strong>B</strong> Presenta un aumento (<strong>35.05%</strong>) más pronunciada en comparación con el segmento <strong>A</strong>. El segmento <strong>C</strong> Muestra un aumento en el precio (<strong>58.89%</strong>) de todos los segmentos, lo que indica un alza significativa en sus precios. El segmento <strong>D</strong> Este segmento experimenta un aumento considerable en su precio (<strong>92.09%</strong>), destacándose como el único con una tendencia al alza. El segmento <strong>E</strong>: Muestra una disminución en el precio (<strong>-1.08%</strong>), aunque no tan pronunciada como en los segmentos <strong>B</strong> y <strong>C</strong>. El segmento <strong>S</strong> no presenta cambio en sus precios.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
     </div>
