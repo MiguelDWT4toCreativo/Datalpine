@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Querétaro | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
+                                    <li class="breadcrumb-item active">Querétaro</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -193,16 +193,56 @@
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+<!-- Modal for Interpretation 2022 -->
+<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación de la gráfica de distribución de créditos por segmento.</p>
+                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>47.8%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los <strong>precios inmobiliarios</strong>, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.1%</strong>) y <strong>C</strong> (<strong>10.3%</strong>) refleja una posible mejora en el <strong>poder adquisitivo</strong> o un incremento en las <strong>inversiones</strong> en propiedades de rango medio. El segmento <strong>S</strong> (<strong>10.3%</strong>) mantiene un <strong>mercado estable</strong> para propiedades de <strong>lujo</strong>, sugiriendo una demanda sostenida en el <strong>nicho de alto valor</strong>.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2023 -->
+<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>44.4%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.9%</strong>) y <strong>C</strong> (<strong>11%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>11%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.
+            </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2024 -->
+<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                El <strong>segmento E</strong> sigue siendo el más demandado con el <strong>43.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del <strong>segmento D</strong> (<strong>21.1%</strong>) y <strong>segmento C</strong> (<strong>11.6%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El <strong>segmento S</strong> (<strong>10.4%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -221,6 +261,10 @@
 
         // Mostrar la gráfica correspondiente al año seleccionado
         document.getElementById(`segmentoData${year}`).style.display = 'block';
+
+        // Actualizar el botón de interpretación según el año seleccionado
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
@@ -386,8 +430,8 @@
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2023" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2024" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -402,7 +446,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles, desde el segmento A (3.25 a 4 millones) hasta el segmento S (4 a 12 millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
+             <p>
+                Se muestra la distribución porcentual de créditos por categorías de precios durante los <strong>cuatro trimestres del año 2022</strong>. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles, desde el <strong>segmento A</strong> (<strong>3.25 a 4 millones</strong>) hasta el <strong>segmento S</strong> (<strong>4 a 12 millones</strong>). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -420,7 +467,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Interpretación de la gráfica de distribución % de créditos por categoría por año.</p>
+             <p>
+                El <strong>segmento E</strong> (<strong>menos de 500 mil a 1 millón</strong>) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en <strong>Querétaro</strong>. El crecimiento del sector inmobiliario en Querétaro, que representa el <strong>9.6%</strong> del <strong>PIB estatal</strong>, refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. La estabilidad en los <strong>segmentos de mayor valor (S)</strong> sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -492,27 +541,65 @@
             </div>
         </div>
 
-                <!-- g_piramid_poblacion -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
+<!-- Gráfica: Demográfico: Distribución de la población de Querétaro por género y rango de edad -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se muestra la distribución de la población por rango de edad y género en la ciudad de Querétaro en los últimos años.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                En la ciudad de <strong>Santiago de Querétaro</strong>, buena parte de la población se encuentra en un rango de edad de entre <strong>20 a 49 años</strong>, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa.
+            </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
         <!-- g_bar_distribucion_segmentos -->

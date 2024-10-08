@@ -389,8 +389,6 @@
         </div>
 
 
-<<<<<<< HEAD
-=======
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
         <div class="row">
@@ -410,7 +408,7 @@
                             </div>
                         </div>
                         <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
+                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -531,7 +529,6 @@
 </div>
 
 
->>>>>>> 172874f452c87d40dd134d9312b6938049a1a19a
         <!-- Porcentaje de vivienda ofertadas por antigüedad -->
         <div class="col-md-12">
             <div class="card">
@@ -730,7 +727,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo.</p>
+                <p>La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo. Este comportamiento puede estar vinculado a la llegada de inversionistas que buscan desarrollar proyectos de alto valor en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

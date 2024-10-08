@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Queretaro | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -512,8 +512,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_baños.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -779,7 +779,7 @@
             </div>
             <div class="modal-body">
                 <p>Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300</strong> metros cuadrados, esto se debe a que las propiedades que están dentro de este segmento tienen un rango de precio elevado, de <strong>4</strong> millones hasta <strong>12</strong> millones de pesos, es decir son consideradas de gama alta.</p>
-                <p>En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0</strong> a <strong>100</strong> metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre <strong>0</strong> a <strong>100</strong> metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de <strong>1M</strong> a <strong>1.75M</strong> pesos.</p>
+                <p>En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0</strong> a <strong>100</strong> metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Querétaro de Soto. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre <strong>0</strong> a <strong>100</strong> metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de <strong>1M</strong> a <strong>1.75M</strong> pesos.</p>
                 <p>En lo que corresponde a los segmentos C y B, la concentración de propiedades se encuentra en propiedades de <strong>100</strong> a <strong>150</strong> metros cuadrados. El segmento A concentra propiedades de <strong>200</strong> a <strong>250</strong> metros cuadrados.</p>
             </div>
             <div class="modal-footer">
@@ -812,27 +812,65 @@
     };
 </script>
 
-        <!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m2</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m2</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal12" tabindex="-1" aria-labelledby="interpretationModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel12">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Los segmentos más pequeños (<strong>0-100 m²</strong> y <strong>100-150 m²</strong>) presentan los valores más altos, de <strong>$28,173.12</strong> y <strong>$31,324.74</strong> respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: <strong>150-200 m²</strong> con <strong>$21,217.37</strong>, y <strong>200-250 m²</strong> con <strong>$20,856.11</strong>. El precio se eleva nuevamente en propiedades de <strong>250 a 300 m²</strong> y más de <strong>300 m²</strong>, con promedios de <strong>$21,249.50</strong> y <strong>$27,577.05</strong> respectivamente.</p>
+                <p>La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     </div>
 </div>

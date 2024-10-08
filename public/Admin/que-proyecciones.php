@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Querétaro | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
+                                    <li class="breadcrumb-item active">Querétaro</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -146,70 +146,7 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Mitad derecha: Colonias de Alto Potencial -->
-<!-- Mitad derecha: Destino del crédito -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La mayoría de los créditos se destina a la compra de inmuebles nuevos. Esto puede estar relacionado con el auge del sector de la construcción en Querétaro y la expansión de desarrollos residenciales nuevos.</p>
-                <p>La compra de propiedades usadas también representa una parte significativa, posiblemente debido a la relativa falta de disponibilidad de nuevas viviendas en ciertas zonas actualmente o a la preferencia de algunos compradores por zonas más céntricas.</p>
-                <p>El porcentaje destinado al mejoramiento de propiedades sugiere que, aunque menor, existe una tendencia a invertir en la renovación de viviendas existentes, lo que podría estar vinculado al aumento del valor de las propiedades o a programas de financiamiento específico para mejoras.</p>
-                <p>Finalmente, los créditos destinados a otros programas indican una diversidad de opciones de financiamiento disponibles para los compradores que buscan alternativas fuera de las modalidades tradicionales.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-    </div>
-</div>
 
 <!-- Sección Tendencias de Mercado -->
 <div class="container-fluid">
@@ -238,8 +175,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -503,7 +440,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -730,9 +667,9 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es Francisco Villa superando en promedio los 200 millones de pesos; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el Cerro de Lira, Cerro la Capilla, Peña Colorada y Cerro la carbonera.
+                <p>Las colonias que más barato ofertan sus inmuebles son <strong>Andadores Satélite</strong> y <strong>Satélite Sección 3N S</strong>; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de <strong>Santiago de Querétaro</strong>, lo que significa que,  hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. 
 
-En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,000,000 lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de Santiago de Querétaro lo cual hace que se eleven sus precios. Por su parte, Vista Lago, Progreso y Fraccionamiento Balcones de Juriquilla son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los 20 millones de pesos en promedio.</p>
+Además, se puede observar que, la colonia <strong>Rinconada del Capricho</strong>, <strong>San Pedro Martin</strong> y <strong>Unidad Roma</strong> ofrecen precios bajos alrededor del medio millón de pesos las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
