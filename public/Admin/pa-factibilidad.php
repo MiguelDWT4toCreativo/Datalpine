@@ -434,7 +434,7 @@ Por otro lado, los créditos para viviendas usadas mostraron un comportamiento m
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto en 2022, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil pesos</strong> (E) hasta más de <strong>4 millones de pesos</strong> (S), y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
+                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil pesos</strong> (E) hasta más de <strong>4 millones de pesos</strong> (S), y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -452,11 +452,13 @@ Por otro lado, los créditos para viviendas usadas mostraron un comportamiento m
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica revela una distribución bastante equilibrada. Los segmentos S y D, que representan propiedades de más de 4 millones de pesos y de 1.75 a 2.5 millones de pesos respectivamente, tienen casi la misma proporción, con alrededor del 21% cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de lujo como el de otras de precios más accesibles.
+                <p>La gráfica revela una distribución bastante equilibrada:</p>
 
-El segmento B, que incluye propiedades que valen entre 2.5 y 3.25 millones de pesos, tiene la mayor proporción con un 22.3%, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento A (3.25 a 4 millones de pesos) muestra una participación menor del 12.1%, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.
+                <p>Los segmentos S y D, que representan propiedades de más de <strong>4 millones</strong> de pesos y de <strong>1.75</strong> a <strong>2.5 millones</strong> de pesos respectivamente, tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de lujo como el de otras de precios más accesibles.</p>
 
-Por otro lado, el segmento E, con propiedades de menos de 500 mil pesos, tiene la menor proporción con solo 4.35%. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo</p>
+                <p>El segmento B, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento A (<strong>3.25</strong> a <strong>4 millones</strong> de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
+
+                <p>Por otro lado, el segmento E, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
