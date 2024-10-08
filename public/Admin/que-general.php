@@ -135,7 +135,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    <h1>Proyecciones y oportunidades</h1>
+                    <h1>General</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
@@ -148,7 +148,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución por segmento</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por segmento</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -184,7 +184,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de créditos por segmento para los años 2022, 2023 y 2024.</p>
+                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio. Si se observa una mayor proporción en segmentos de menor valor, sugiere que los compradores se inclinan por propiedades más accesibles. Por el contrario, una concentración en segmentos altos indicaría una demanda por inmuebles de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

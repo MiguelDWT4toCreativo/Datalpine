@@ -234,9 +234,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año 2020.</p>
-                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos se comporta de una manera más fluctuante a lo largo del año. Iniciando, el primer trimestre el precio promedio de un crédito es de <strong>$ 2, 123, 456.78</strong>. Para los trimestres consecutivos la variación fue notoria de <strong>$ 2, 567, 890.12</strong> y <strong>$ 2, 678, 901.23</strong>, en el segundo y tercer trimestre, respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2, 789, 012.34</strong>.</p>
-                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra un comportamiento consistente. Iniciando el año, el primer trimestre se refleja un precio promedio de <strong>$ 1, 234, 567.89</strong>. Para los trimestres consecutivos es notorio un aumento constante. Del primer al segundo trimestre la variación del precio promedio es de la más perceptible. Para el segundo y tercer trimestres el precio promedio fue de <strong>$ 1, 345, 678.90</strong> y <strong>$ 1, 456, 789.01</strong>, durante estos trimestres el impacto de los factores económicos externos no es tan drástico. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1, 567, 890.12</strong>.</p>
+                        <p>En la gráfica se observa el comportamiento del precio promedio de los créditos utilizados en viviendas nuevas y viviendas usadas, durante los trimestres del año <strong>2020</strong>.</p>
+                        <p>Para los créditos utilizados en viviendas nuevas el precio promedio de los créditos muestra una tendencia al alza a lo largo del año. Iniciando, manteniendo relativamente estable ese crecimiento. El primer trimestre el precio promedio de un crédito es de <strong>$ 2,119,331.59</strong>. Para los trimestres consecutivos la variación fue de <strong>$ 2,125,437.56</strong>, <strong>$ 2,457,551.27</strong> y <strong>$ 2,575,981.24</strong>, en el segundo, tercer trimestre, y cuarto trimestre respectivamente. Para el final del año el precio promedio de un crédito fue de <strong>$ 2,119,331.59</strong>.</p>
+                        <p>Para los créditos utilizados en viviendas usadas el precio promedio muestra una tendencia a la baja en el primer trimestre, pero luego se recupera y va al alza el resto de los trimestres. el primer trimestre se refleja un precio promedio de <strong>$ 1,302,454.37</strong>. En el segundo trimestre el precio baja a <strong>$1,69,400.94</strong>. Para los trimestres siguientes darse un notorio un aumento constante. Para el tercer y cuarto trimestre el precio promedio fue de <strong>$ 1,368,675.86</strong> y <strong>$ 1,755,453.92</strong>. Para el cierre del año, el precio promedio de un crédito fue de <strong>$1,528,954.15</strong>.</p>
                     </div>
                 </div>
             </div>
@@ -389,6 +389,149 @@
         </div>
 
 
+<<<<<<< HEAD
+=======
+
+        <!-- Segmentación de mercado: Promedio de precio por segmento -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
+                        </h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-user-tie me-2"></i>
+                                <span class="developer-label">Desarrollador</span>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
+                        </h5>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-user-tie me-2"></i>
+                                <span class="developer-label">Desarrollador</span>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Description -->
+        <div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel5" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel5">Descripción</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (1 millón a 1.75 millones) hasta el segmento S (4 millones a 12 millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Interpretation -->
+        <div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel5" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel5">Interpretación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>La mayor concentración de propiedades se encuentra en el segmento S (4 a 12 millones) con un 33.4%. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de Querétaro, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el segmento B (2.5 a 3.25 millones) con un 26.3%, seguido por el segmento A (3.25 a 4 millones), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los segmentos D (1 millón a 1.75 millones) y C (1.75 millones a 2.5 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Segmentación de mercado: Promedio de precio por segmento -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Promedio de precio por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra el promedio de precios por segmento en el mercado inmobiliario. Cada barra representa el valor promedio de las propiedades dentro de cada segmento, desde el segmento S, hasta el segmento E. Este gráfico es útil para visualizar cómo varían los precios promedio de las propiedades en cada categoría.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La interpretación de esta gráfica proporciona información clave sobre cómo varían los precios promedio en distintos segmentos de mercado, ayudando a entender las tendencias y diferencias entre ellos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+>>>>>>> 172874f452c87d40dd134d9312b6938049a1a19a
         <!-- Porcentaje de vivienda ofertadas por antigüedad -->
         <div class="col-md-12">
             <div class="card">
@@ -442,7 +585,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra el histórico de la mediana del precio de oferta de los inmuebles en <strong>Querétaro</strong> durante el año <strong>2024</strong>. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde <strong>marzo</strong> hasta <strong>agosto</strong> de <strong>2024</strong>. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.</p>
+                <p>Se muestra el histórico de precios de oferta de inmuebles en Querétaro durante el año <strong>2024</strong>, desde <strong>marzo</strong> hasta <strong>agosto</strong>. El gráfico de líneas refleja cómo ha variado el precio promedio de los inmuebles listados en el mercado mes a mes. Esta visualización es útil para identificar las tendencias de precios a lo largo del tiempo, destacando las fluctuaciones y posibles cambios estacionales en el mercado inmobiliario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -460,7 +603,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica refleja primero un valor constante de <strong>4.5</strong> millones desde marzo hasta mayo. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante mayo, en la mediana del precio de oferta de los inmuebles constante desde abril de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                <p>El gráfico muestra una drástica caída en los precios de oferta en el mes de <strong>abril</strong>, seguida de un repunte constante a partir de <strong>mayo</strong>, alcanzando su punto más alto en <strong>agosto</strong>. La caída inicial en <strong>abril</strong> puede estar relacionada con una reducción temporal en la demanda o con factores estacionales que afectaron el mercado en ese periodo. La recuperación posterior y el incremento sostenido en los meses siguientes sugieren un fortalecimiento del mercado inmobiliario, posiblemente impulsado por una creciente demanda, propiciada por la expansión económica de la región y la llegada de nuevos desarrollos en Querétaro, lo que genera una presión al alza en los precios de las propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -569,7 +712,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra la cantidad de créditos otorgados en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
+                <p>Se muestra la cantidad de créditos otorgados en <strong>Querétaro</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones de pesos</strong>, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -587,7 +730,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo.</p>
+                <p>La mayor concentración de créditos se encuentra en el rango de menos de <strong>1 millón de pesos</strong>, lo cual puede explicarse por la mayor parte de la demanda de créditos que proviene de compradores jóvenes, ya que la edad promedio de <strong>Querétaro</strong> es de <strong>29 años</strong>, o de familias que buscan vivienda asequible. La participación significativa en el rango de menos de <strong>20 millones</strong> también sugiere un sector del mercado enfocado en créditos de alto valor, probablemente relacionado con grandes proyectos inmobiliarios o inversiones en propiedades de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
