@@ -224,7 +224,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un 45% y 34% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes. FOVISSTE tiene una participación menor pero significativa con un 18%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala. BANJERCITO, INSUS y CONAVI tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 1%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>39.97%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales (<strong>16.23%</strong>) y tradicionales (<strong>28.55%</strong>), la categoría de "vivienda media" domina el mercado.</p>
+
+                <p>Las viviendas económicas, popular y residencial plus, con un <strong>4%</strong>, <strong>7.26%</strong> y <strong>4%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -240,7 +242,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Al observar la gráfica podemos deducir que existe dominancia de <strong>INFONAVIT</strong> y <strong>CNBV</strong>, es evidente que el <strong>INFONAVIT</strong> y la <strong>CNBV</strong> son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un <strong>47%</strong> y <strong>33%</strong> respectivamente, estas dos entidades son las principales son las principales proveedoras de financiamiento a la población. Menor participación de <strong>FOVISSTE</strong>, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del <strong>17%</strong>. Mínima participación de <strong>BANJERCITO</strong> muestra una participación prácticamente nula con el <strong>0%</strong> en el otorgamiento de créditos.</p>
+                <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>43.24%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario.</p>
+
+                <p>Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales (<strong>22.64%</strong>) y tradicionales (<strong>21.86%</strong>), la categoría de "vivienda media" domina el mercado.</p>
+
+                <p>Las viviendas económicas, popular y residencial plus, con un <strong>0.31%</strong>, <strong>8.49%</strong> y <strong>3.46%</strong> de los créditos respectivamente, representan segmentos más pequeños.</p>
+
+                <p>Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -316,7 +324,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución porcentual de créditos otorgados por organismo según el año seleccionado.</p>
+                <p>El diagrama de barras muestra la distribución porcentual de créditos otorgados por diferentes instituciones financieras como lo son INFONAVIT, CNBV, FOVISSTE y BANJERCITO durante un año especifico.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -334,12 +342,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 38% y 55% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
-                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 6%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
-                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</li>
-                </ul></p>
+                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>34.97%</strong> y <strong>42.91%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</p>
+
+                <p>FOVISSTE tiene una participación menor pero significativa con un <strong>21.6%</strong>, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</p>
+
+                <p>BANJERCITO tiene una participación mínima o nula, esta última institución muestra un porcentaje de <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -355,13 +362,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong></p>
-                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Dominan el mercado de créditos con un 45% y 50% respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el período analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</li>
-                    <li><strong>FOVISSTE:</strong> Tiene una participación menor pero significativa con un 5%, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</li>
-                    <li><strong>BANJERCITO, INSUS y CONAVI:</strong> Tienen una participación mínima o nula, estas tres últimas instituciones muestran un porcentaje de 0.00%, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el período analizado.</li>
-                </ul>
+                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>45.43%</strong> y <strong>34.42%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</p>
+
+                <p>FOVISSTE tiene una participación menor pero significativa con un <strong>18.26%</strong>, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</p>
+
+                <p>BANJERCITO, INSUS y CONAVI tienen una participación mínima, estas tres últimas instituciones muestran un porcentaje alrededor del <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -377,13 +382,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong></p>
-                <p>Al observar la gráfica podemos deducir que:</p>
-                <ul>
-                    <li><strong>INFONAVIT y CNBV:</strong> Existe dominancia de INFONAVIT y CNBV, es evidente que el INFONAVIT y la CNBV son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un 51% y 42% respectivamente, estas dos entidades son las principales proveedoras de financiamiento a la población.</li>
-                    <li><strong>FOVISSTE:</strong> Menor participación de FOVISSTE, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del 5%.</li>
-                    <li><strong>BANJERCITO y CONAVI:</strong> Mínima participación de BANJERCITO y CONAVI, muestran una participación prácticamente nula con el 0% o casi nula a excepción de CONAVI con el 1%  en el otorgamiento de créditos.</li>
-                </ul>
+                <p>Al observar la gráfica podemos deducir que existe dominancia de INFONAVIT y CNBV. Es evidente que el INFONAVIT y la CNBV son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un <strong>48.77%</strong> y <strong>33.59%</strong> respectivamente. Estas dos entidades son las principales proveedoras de financiamiento a la población.</p>
+
+                <p>FOVISSTE, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del <strong>17.38%</strong>.</p>
+
+                <p>BANJERCITO muestra una participación prácticamente nula con el <strong>0%</strong> en el otorgamiento de créditos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -487,7 +490,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con 5 estacionamientos, lo que que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio de alto, de 4 millones a 12 millones. Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con 1 o 2 estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Santiago de Querétaro pueden acceder a ellas. Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
+                <p>El gráfico de pastel visualiza la distribución general de estacionamientos en el mercado inmobiliario. Cada porción del círculo representa un porcentaje correspondiente a un número específico de estacionamientos, proporcionando una visión clara de la prevalencia de diferentes configuraciones de estacionamiento en las propiedades.</p>
+                <p>El gráfico de barras muestra la distribución detallada del número de casas con diferentes cantidades de estacionamientos, agrupadas por segmentos o categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos dentro de un segmento determinado. Los diferentes colores se utilizan para distinguir entre los distintos números de estacionamientos, facilitando la comparación visual entre segmentos y configuraciones de estacionamiento.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -505,7 +509,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</p>
+                <p>En el mercado inmobiliario de Pachuca de Soto un porcentaje importante de viviendas cuenta con <strong>2</strong> estacionamientos, con el <strong>52.4%</strong> de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad.</p>
+
+                <p>Las viviendas que poseen <strong>1</strong> estacionamiento representan un <strong>32.4%</strong>, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento.</p>
+
+                <p>Por otra parte, las propiedades que tienen espacio para <strong>3</strong> lugares de estacionamiento representan <strong>8.29%</strong>.</p>
+
+                <p>Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades con más de <strong>3</strong> estacionamientos, estas pueden ser las que tienen más espacio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -521,7 +531,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>En el mercado inmobiliario de Santiago de Querétaro un porcentaje importante de viviendas cuenta con con 2 estacionamientos, con el 54.6% de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen un estacionamiento representan un 23.7%, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento. Por otra parte, las propiedades que tienen espacio 3 lugares de estacionamiento representan 10.8%. Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades más de 3 estacionamientos, estas pueden ser las que tienen más espacio.</strong></p>
+                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con <strong>5</strong> estacionamientos, lo que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio alto, de <strong>4</strong> millones a <strong>12</strong> millones.</p>
+
+                <p>Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con <strong>1</strong> o <strong>2</strong> estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Pachuca de Soto pueden acceder a ellas.</p>
+
+                <p>Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -703,7 +717,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En el gráfico se muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado.</p>
+                <p>El gráfico de pastel muestra los porcentajes del número de recámaras en un conjunto de propiedades, divididas en diferentes segmentos. Cada porción del círculo representa un porcentaje de propiedades con un número específico de recámaras, y los colores se utilizan para diferenciar cada categoría.</p>
+                
+                <p>El gráfico de barras muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado. Los diferentes colores representan el número de recámaras.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -782,7 +798,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de metros cuadrados construidos según la opción seleccionada: General o Segmentos.</p>
+                <p>El gráfico de pastel muestra la distribución porcentual de diferentes rangos de metros cuadrados de construcción. Cada porción del círculo representa un porcentaje de un rango específico de metros cuadrados, y los colores se utilizan para diferenciar cada categoría.</p>
+                
+                <p>El grafico de barras muestra la distribución de la cantidad de casas en diferentes rangos de metros cuadrados de construcción, agrupadas por segmentos. Cada barra representa la cantidad de casas dentro de un rango específico. Los diferentes colores representan los diferentes rangos de metros cuadrados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -800,8 +818,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La distribución de los rangos de superficie es notablemente equilibrada, sin un rango dominante. La presencia de todos los rangos, desde los más pequeños (0-100 m²) hasta los más grandes (300+ m²), refleja una oferta inmobiliaria diversificada. Esto implica que el mercado puede abastecer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y asequibles hasta aquellos que requieren espacios más amplios.</p>
-                <p>Es destacable que los rangos de 100-150 m² (23.2%) y 200-250 m² (19.1%) concentran una parte significativa del total, lo que sugiere una cantidad considerable de propiedades de tamaño medio. Además, los rangos de 150-200 m² también presentan una distribución considerable, con un 19%, lo que es notable. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que pueden adaptarse a las necesidades de familias medianas o pequeñas.</p>
+                <p>Observamos una distribución bastante equilibrada entre los diferentes rangos de superficie. No hay un rango que domine significativamente sobre los demás. La presencia de todos los rangos, desde los más pequeños (<strong>0-100 m²</strong>) hasta los más grandes (<strong>300+ m²</strong>), indica una oferta inmobiliaria bastante diversificada. Esto sugiere que el mercado puede satisfacer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y económicas hasta quienes requieren espacios más amplios.</p>
+
+                <p>Sin embargo, los rangos de <strong>100-150 m²</strong> (<strong>23.2%</strong>) y <strong>200-250 m²</strong> (<strong>19.1%</strong>) concentran una porción considerable del total, lo que sugiere que hay una cantidad significativa de propiedades con tamaños medios. Además, los rangos de <strong>150-200 m²</strong> concentran una distribución considerable con el <strong>19%</strong>, lo que es bastante significativo. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que puedan adaptarse a las necesidades de familias medianas o pequeñas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -817,9 +836,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de 300 metros cuadrados, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de 4 millones hasta 12 millones de pesos, es decir son consideradas de gama alta.
+                <p>Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300</strong> metros cuadrados, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de <strong>4</strong> millones hasta <strong>12</strong> millones de pesos, es decir son consideradas de gama alta.</p>
 
-En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto.  En el segmento D se puede notar que hay una concentración propiedades de un tamaño de entre 0 a 150 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos. En lo que corresponde a los segmentos C, B, A la concentración de propiedades se encuentra de 100 a 150, 150 a 200 y de 200 a 250 metros cuadrados, respectivamente.</p>
+                <p>En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0</strong> a <strong>100</strong> metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto.</p>
+
+                <p>En el segmento D se puede notar que hay una concentración propiedades de un tamaño de entre <strong>0</strong> a <strong>150</strong> metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de <strong>1M</strong> a <strong>1.75M</strong> pesos.</p>
+
+                <p>En lo que corresponde a los segmentos C, B, A la concentración de propiedades se encuentra de <strong>100</strong> a <strong>150</strong>, <strong>150</strong> a <strong>200</strong> y de <strong>200</strong> a <strong>250</strong> metros cuadrados, respectivamente.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
