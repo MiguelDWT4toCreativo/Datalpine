@@ -611,8 +611,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
             </div>
         </div>
         <!-- Columna derecha: Colonias más baratas -->
-<!-- Gráfica: Colonias Más Caras y Más Baratas -->
-<div class="col-md-12">
+        <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Colonias</h5>
@@ -629,7 +628,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColonias">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interpretación Baratas</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasCaras">Interpretación Caras</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -649,7 +649,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La graficas muestran las cinco colonias las cuales tienen en promedio los precios más altos y mas bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
+                <p>Las gráficas muestran las cinco colonias con los precios más altos y más bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -658,18 +658,45 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalColonias" tabindex="-1" aria-labelledby="interpretationModalLabelColonias" aria-hidden="true">
+<!-- Modal for Interpretation Más Baratas -->
+<div class="modal fade" id="interpretationModalColoniasMasBaratas" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasBaratas" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelColonias">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasBaratas">Interpretación Más Baratas</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Las colonias que más barato ofertan sus inmuebles son <strong>Andadores Satélite</strong> y <strong>Satélite Sección 3N S</strong>; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de <strong>Santiago de Querétaro</strong>, lo que significa que,  hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. 
+            <p>
+                Las colonias que más barato ofertan sus inmuebles son <strong>Andadores Satélite</strong> y <strong>Satélite Sección 3N S</strong>; esto es posible debido a dos importantes razones: ambas zonas se encuentran en las salidas de <strong>Santiago de Querétaro</strong>, lo que significa que hay un difícil acceso a los diferentes servicios, tanto de transporte, entretenimiento, educación, entre otros. Otro factor importante es que ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios.
+            </p>
+            <p>
+                Además, se puede observar que la colonia <strong>Rinconada del Capricho</strong>, <strong>San Pedro Martin</strong> y <strong>Unidad Roma</strong> ofrecen precios bajos, alrededor del <strong>medio millón de pesos</strong> las tres zonas. Esto también podría relacionarse con su lejanía a la zona metropolitana y el difícil acceso a servicios públicos.
+            </p>
 
-Además, se puede observar que, la colonia <strong>Rinconada del Capricho</strong>, <strong>San Pedro Martin</strong> y <strong>Unidad Roma</strong> ofrecen precios bajos alrededor del medio millón de pesos las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation Más Caras -->
+<div class="modal fade" id="interpretationModalColoniasMasCaras" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasCaras" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasCaras">Interpretación Más Caras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Se puede ver que la colonia que más alto oferta sus inmuebles es <strong>Francisco Villa</strong>, superando en promedio los <strong>200 millones de pesos</strong>; esto es posible debido a que esta zona se encuentra cerca de diferentes destinos y con rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el <strong>Cerro de Lira</strong>, <strong>Cerro la Capilla</strong>, <strong>Peña Colorada</strong> y <strong>Cerro la Carbonera</strong>.
+            </p>
+            <p>
+                En cuanto a la colonia que sigue, es <strong>Centro de Querétaro</strong> con un promedio de <strong>$75,000,000</strong>. Lo más probable es que debido a que los inmuebles que se ofertan en esta zona están justo en plena zona turística de <strong>Santiago de Querétaro</strong>, lo cual hace que se eleven sus precios. Por su parte, <strong>Vista Lago</strong>, <strong>Progreso</strong> y <strong>Fraccionamiento Balcones de Juriquilla</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>20 millones de pesos</strong> en promedio.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -698,6 +725,7 @@ Además, se puede observar que, la colonia <strong>Rinconada del Capricho</stron
         showColoniasData('masbaratas');
     };
 </script>
+
 
         <!-- Gráfica 3: Tiempo en el mercado -->
         <!-- Gráfica: Tiempo en el mercado -->

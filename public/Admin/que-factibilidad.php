@@ -392,83 +392,177 @@
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
         <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
-                            </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
+        <div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades por segmento </h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmentoPropiedades">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmentoPropiedades">Interpretación</button>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento
-                        </h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie me-2"></i>
-                                <span class="developer-label">Desarrollador</span>
-                            </div>
-                            <div>
-                                <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                                <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                            <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
-                </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
-        <!-- Modal for Description -->
-        <div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel5">Descripción</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Se muestra la segmentación del mercado inmobiliario en Querétaro para el año, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento D (1 millón a 1.75 millones) hasta el segmento S (4 millones a 12 millones). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegmentoPropiedades" tabindex="-1" aria-labelledby="descriptionModalLabelSegmentoPropiedades" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmentoPropiedades">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             <p>
+                Se muestra la segmentación del mercado inmobiliario en <strong>Querétaro</strong> para el <strong>año 2023</strong>, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el <strong>segmento D</strong> (<strong>1 millón a 1.75 millones</strong>) hasta el <strong>segmento S</strong> (<strong>4 millones a 12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
-        <!-- Modal for Interpretation -->
-        <div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel5" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel5">Interpretación</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>La mayor concentración de propiedades se encuentra en el segmento S (4 a 12 millones) con un 33.4%. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de Querétaro, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el segmento B (2.5 a 3.25 millones) con un 26.3%, seguido por el segmento A (3.25 a 4 millones), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los segmentos D (1 millón a 1.75 millones) y C (1.75 millones a 2.5 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalSegmentoPropiedades" tabindex="-1" aria-labelledby="interpretationModalLabelSegmentoPropiedades" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmentoPropiedades">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El gráfico revela que el segmento <strong>E</strong> domina el mercado con la mayor cantidad de propiedades ofertadas, lo que refleja una fuerte demanda por viviendas más accesibles. Los segmentos <strong>C</strong> y <strong>D</strong> también tienen una participación significativa, sugiriendo un interés constante en propiedades de rango medio. Sin embargo, el segmento <strong>S</strong> muestra una menor oferta, lo que indica una concentración limitada de propiedades de lujo en el mercado actual.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="yearSelectSegmento" onchange="showSegmentoData(this.value)">
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmentoUnique">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Se muestra la segmentación del mercado inmobiliario en <strong>Querétaro</strong>, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el <strong>segmento D</strong> (<strong>1 millón a 1.75 millones</strong>) hasta el <strong>segmento S</strong> (<strong>4 millones a 12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2023 -->
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                La mayor concentración de propiedades se encuentra en el <strong>segmento S</strong> (<strong>4 a 12 millones</strong>) con un <strong>33.4%</strong>. Esto indica una fuerte presencia de propiedades de alto valor en el mercado inmobiliario de <strong>Querétaro</strong>, reflejando el crecimiento económico de la región y la demanda por inmuebles de lujo o de mayor valor. En segundo lugar, está el <strong>segmento B</strong> (<strong>2.5 a 3.25 millones</strong>) con un <strong>26.3%</strong>, seguido por el <strong>segmento A</strong> (<strong>3.25 a 4 millones</strong>), lo que sugiere un interés sostenido en propiedades de rango medio-alto. Por otro lado, los <strong>segmentos D</strong> (<strong>1 millón a 1.75 millones</strong>) y <strong>segmento C</strong> (<strong>1.75 millones a 2.5 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2024 -->
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En 2024, el <strong>segmento B</strong> ocupa la mayor parte del mercado con un <strong>30.1%</strong>, indicando una creciente demanda por propiedades en el rango de <strong>2.5 a 3.25 millones</strong>. El <strong>segmento S</strong> (<strong>28.2%</strong>) sigue siendo fuerte, pero muestra una ligera disminución en comparación con 2023, lo que puede estar relacionado con una desaceleración en el mercado de lujo. El <strong>segmento C</strong> también crece al <strong>20.5%</strong>, lo que indica un aumento en la demanda de propiedades de rango medio. Los segmentos <strong>D</strong> y <strong>A</strong> tienen una menor representación.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas e interpretaciones -->
+<script>
+    function showSegmentoData(year) {
+        // Ocultar todas las gráficas
+        document.getElementById('segmentoData2023').style.display = 'none';
+        document.getElementById('segmentoData2024').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente al año seleccionado
+        document.getElementById(`segmentoData${year}`).style.display = 'block';
+
+        // Actualizar el botón de interpretación para mostrar el modal correspondiente al año seleccionado
+        const interpretationButton = document.getElementById('interpretationButtonSegmentoUnique');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+
+    // Mostrar la gráfica de 2023 por defecto al cargar la página
+    window.onload = function() {
+        showSegmentoData('2023');
+    };
+</script>
+
+
+
 
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
 <div class="col-md-12">
