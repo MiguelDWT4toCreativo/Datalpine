@@ -393,11 +393,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>El gráfico de pastel muestra los créditos otorgados según el género del solicitante. Se divide en dos secciones principales:</p>
-                <ul>
-                    <li><strong>Hombres:</strong> Representado por el color morado, abarca el <strong>53.7%</strong> del total de créditos otorgados.</li>
-                    <li><strong>Mujeres:</strong> Representado por el color rojo, corresponde al <strong>46.3%</strong> del total de créditos otorgados.</li>
-                </ul>
+                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres.</p>
+                
+                <p>Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario.</p>
+                
+                <p>Si la proporción de hombres es mayor, se sugiere que más créditos se otorgan a este grupo, y si la proporción de mujeres es mayor, se observa lo contrario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -415,14 +415,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo con el gráfico, <strong>las mujeres</strong> representan una menor proporción de los solicitantes de créditos en comparación con los <strong>hombres</strong>. Esto significa que los <strong>hombres</strong> tienden a solicitar y obtener créditos con mayor frecuencia.</p>
-                <p><strong>Posibles Interpretaciones:</strong></p>
-                <ul>
-                    <li><strong>Brecha de género en el acceso al crédito:</strong> Esta diferencia podría indicar la existencia de una brecha de género en el acceso al crédito, donde las <strong>mujeres</strong> enfrentan mayores obstáculos para obtener financiamiento.</li>
-                    <li><strong>Factores socioeconómicos:</strong> Los factores socioeconómicos, como los <strong>ingresos</strong>, el <strong>empleo</strong> y la <strong>educación</strong>, pueden influir en la capacidad de las <strong>mujeres</strong> para acceder al crédito. Históricamente, las <strong>mujeres</strong> han tenido menores <strong>ingresos</strong> y menos oportunidades laborales, lo que podría limitar su acceso a productos financieros.</li>
-                    <li><strong>Barreras culturales y sociales:</strong> Las normas sociales y culturales pueden desempeñar un papel importante. En algunas sociedades, las <strong>mujeres</strong> pueden enfrentar mayores obstáculos para tomar decisiones financieras independientes o pueden ser menos propensas a solicitar créditos debido a expectativas sociales.</li>
-                    <li><strong>Diseño de productos y servicios financieros:</strong> Los productos y servicios financieros pueden no estar diseñados teniendo en cuenta las necesidades específicas de las <strong>mujeres</strong>, lo que puede dificultar su acceso al crédito.</li>
-                </ul>
+                <p>La gráfica muestra que un mayor porcentaje de créditos es otorgado a hombres (<strong>53.7%</strong>) en comparación con mujeres (<strong>46.3%</strong>). Esta diferencia podría estar relacionada con factores como la existencia de una brecha de género en el acceso al crédito, donde las mujeres enfrentan mayores obstáculos para obtener financiamiento.</p>
+
+                <p>Además, el nivel de ingresos, el empleo y la educación pueden influir en la capacidad de las mujeres para acceder al crédito. Sin embargo, la participación significativa de mujeres también refleja un creciente acceso al crédito para esta parte de la población y una mayor participación en la adquisición de bienes inmuebles en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -471,7 +466,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra el <strong>porcentaje</strong> de créditos otorgados por diferentes categorías (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>, <strong>S</strong>) a lo largo de <strong>cuatro trimestres</strong>. Cada barra representa una categoría, y las diferentes secciones de cada barra corresponden a los <strong>porcentajes</strong> de créditos otorgados en cada trimestre.</p>
+                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles, desde el segmento E (3.25 a 4 millones) hasta el segmento S (4 a 12 millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -489,7 +484,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación 2022:</strong> En 2022, la categoría <strong>E</strong> domina la distribución de créditos, lo que refleja una fuerte demanda en los segmentos más accesibles del mercado. La categoría <strong>D</strong> también tiene una participación importante, lo que sugiere que una proporción considerable de los créditos está siendo destinada a viviendas de gama media.</p>
+                <p>Para el año <strong>2022</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+
+                <p>Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación del segmento S sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+
+                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -507,7 +506,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación 2023:</strong> En 2023, la categoría <strong>E</strong> sigue siendo predominante, pero se observa un ligero incremento en la participación de la categoría <strong>L</strong>. Este aumento puede deberse a políticas de crédito más flexibles o a un aumento en la demanda de viviendas en segmentos más bajos.</p>
+                <p>Para el año <strong>2023</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+
+                <p>La estabilidad en los segmentos de mayor valor (S) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+
+                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -525,7 +528,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación 2024:</strong> En 2024, la categoría <strong>S</strong> muestra un incremento significativo en su participación, lo que podría reflejar un crecimiento en la demanda de créditos para propiedades de gama alta, posiblemente debido a una mayor actividad económica en la región. Sin embargo, la categoría <strong>E</strong> sigue siendo dominante, lo que sugiere que el mercado de viviendas accesibles sigue siendo un pilar clave.</p>
+                <p>El segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres con más del <strong>21%</strong> de los créditos otorgados, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
+
+                <p>El segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Pachuca de Soto, este atrayendo a compradores con mayor poder adquisitivo.</p>
+
+                <p>Mientras que el resto de los segmentos presentan porcentajes de participación menores al <strong>4%</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -588,7 +595,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2024</strong>, el gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en <strong>meses</strong>) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+                <p>El gráfico de barras que visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras A, B, C, D, E, L y S) y barras individuales dentro de cada grupo corresponden a diferentes rango de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -606,11 +613,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En este gráfico, se observa que el tiempo total de venta de propiedades varía según la ubicación y el tipo de inmueble. Un tiempo de venta elevado puede indicar una demanda baja o una oferta excesiva en ciertas áreas, mientras que un tiempo de venta corto podría sugerir alta demanda o falta de inventario en ese segmento específico del mercado inmobiliario.</p>
-                <p>Mayor concentración en los primeros meses: Se observa una clara tendencia a que la mayoría de las ventas se concentren en los primeros meses de antigüedad (7, 13-18 meses), lo que sugiere que las propiedades más nuevas tienden a venderse más rápidamente.</p>
-                <p>Disminución progresiva: A medida que aumenta la antigüedad, el número de ventas disminuye de manera constante, lo que sugiere que las propiedades más antiguas suelen tardar más en encontrar un comprador.</p>
-                <p>Rango de 7, 13-18 meses: Este rango concentra la mayor parte de las ventas, lo que podría indicar que existe una alta demanda de propiedades durante dichos meses.</p>
-                <p>Disminución gradual: A medida que nos alejamos del rango de 7 y de 13-18 meses, se observa una disminución progresiva en el número de ventas. Esto sugiere que a medida que una propiedad permanece más tiempo en el mercado, disminuye su atractivo para los compradores potenciales.</p>
+                <p>Es posible notar que el mercado inmobiliario de Pachuca de Soto es consistente en el tiempo que que tardas las propiedades en venderse.</p>
+
+                <p>Sin embargo, el segmento <strong>E</strong> tiene una participación importante de <strong>7</strong> a <strong>9</strong> meses. Un caso muy parecido al segmento <strong>D</strong>, con la diferencia de la cantidad de propiedades se venden.</p>
+
+                <p>Los segmentos <strong>C</strong>, <strong>B</strong> y <strong>A</strong> poseen tiempos de venta más homogéneos.</p>
+
+                <p>Mientras que, el segmento <strong>S</strong> comienza a tener participación en periodos más extendidos más de <strong>10</strong> meses, esto puede deberse a que es un segmento con precios altos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -651,7 +660,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año 2024 el gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -669,10 +678,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Mayor concentración en los primeros meses: La gran mayoría de las ventas se concentran en los 7, 13-18 meses de antigüedad, lo que indica que las propiedades tienden a venderse más rápidamente en esos meses.</p>
-                <p>Disminución progresiva: A medida que aumenta la antigüedad, el número de ventas disminuye de manera constante, lo que sugiere que las propiedades más antiguas suelen tardar más en encontrar un comprador.</p>
-                <p>Rango de 7, 13-18 meses: Este rango concentra la mayor parte de las ventas, lo que podría indicar que existe una alta demanda de propiedades durante dichos meses.</p>
-                <p>Disminución gradual: A medida que nos alejamos del rango de 7 y de 13-18 meses, se observa una disminución progresiva en el número de ventas. Esto sugiere que a medida que una propiedad permanece más tiempo en el mercado, disminuye su atractivo para los compradores potenciales.</p>
+                <p>Es posible notar que en el mercado inmobiliario de Pachuca de Soto gran parte de las propiedades se venden en los primeros meses, desde el día en el que se ofertaron hasta el momento en el que se concretó la compra, esto muestra lo dinámico que es el mercado en la zona.</p>
+                
+                <p>Pasando los 12 meses, la cantidad de propiedades ofertadas es menor.</p>
+                
+                <p>Por otro lado, aunque con poca participación, hay propiedades que pueden tardar más de 24 meses en ser vendidas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -815,7 +825,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de segmentos para cada año.</p>
+                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles en el año. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio. Si se observa una mayor proporción en segmentos de menor valor, sugiere que los compradores se inclinan por propiedades más accesibles. Por el contrario, una concentración en segmentos altos indicaría una demanda por inmuebles de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -833,7 +843,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2022.</p>
+                <p>El predominio de los créditos en el segmento E (<strong>54.6%</strong>) refleja una alta demanda por propiedades de menor precio, donde hay una oferta considerable de inmuebles más accesibles. Esto puede estar relacionado con el nivel adquisitivo de la mayoría de la población en Pachuca de Soto y la estructura del mercado inmobiliario.</p>
+
+                <p>Esta distribución puede explicarse también por la composición económica de la ciudad, que cuenta con una fuerte participación de sectores como la industria manufacturera, comercio, servicios y construcción; lo que genera una clase trabajadora enfocada en propiedades de bajo a mediano costo.</p>
+
+                <p>El segmento S, a pesar de ser más costoso, representa un <strong>6.41%</strong> de los créditos, lo cual indica un nicho de mercado de alta gama, probablemente impulsado por una pequeña élite económica.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -849,7 +863,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2023.</p>
+                <p>El segmento E continúa siendo el mayor receptor de créditos en 2023, con un <strong>56.5%</strong>, lo que sugiere que sigue existiendo una fuerte demanda por propiedades más económicas.</p>
+
+                <p>Esto puede estar relacionado con los niveles de ingresos predominantes en la región y una oferta inmobiliaria enfocada en propiedades accesibles para la clase trabajadora de Pachuca de Soto.</p>
+
+                <p>Sin embargo, la estabilidad del segmento S, que recibe el <strong>7.23%</strong> de los créditos, indica la persistencia de un mercado de alta gama, probablemente dirigido a inversionistas o un grupo que percibe mayores ingresos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -865,7 +883,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica proporciona una visión detallada de la distribución de segmentos para el año 2024.</p>
+                <p>El segmento E sigue siendo el más demandado con el <strong>53.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor.</p>
+
+                <p>El crecimiento del segmento D (<strong>20.5%</strong>) y C (<strong>8.96%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio.</p>
+
+                <p>El segmento S (<strong>7.2%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -894,31 +916,7 @@
     }
 </script>
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Tendencia de Mercado & Dinámica de Precios -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tendencia de precios por segmento</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
     </div>
