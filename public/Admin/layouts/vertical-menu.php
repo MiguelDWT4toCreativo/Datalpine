@@ -138,12 +138,11 @@
                             <span data-key="t-contacts">Puebla</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="pueb-vision.php" data-key="t-user-grid">Visión General del Mercado</a></li>
-                            <li><a href="pueb-analisis.php" data-key="t-user-grid">Análisis de Segmentos y Precios</a></li>
-                            <li><a href="pueb-caracteristicas.php" data-key="t-user-grid">Características y Distribución de Propiedades</a></li>
-                            <li><a href="pueb-dinamicas.php" data-key="t-user-grid">Dinámicas de Venta y Financiamiento</a></li>
-                            <li><a href="pueb-demografia.php" data-key="t-user-list">Demografía y Tendencias de Mercado</a></li>
-                            <li><a href="pueb-proyecciones.php" data-key="t-profile">Proyecciones Oportunidades de Inversión y Análisis de Colonias</a></li>
+                            <li><a href="pue-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
+                            <li><a href="pue-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
+                            <li><a href="pue-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
+                            <li><a href="pue-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
+                            <li><a href="pue-general.php" data-key="t-user-list">General</a></li>
                         </ul>
                     </li>
                     <li>

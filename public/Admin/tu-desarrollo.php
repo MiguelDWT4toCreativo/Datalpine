@@ -378,13 +378,13 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="segmentSelectEstacionamientos" onchange="showSegmentDataEstacionamientos(this.value)">
-                        <option value="general">Segmentos</option>
-                        <option value="segmentos">General</option>
+                        <option value="general">General</option>
+                        <option value="segmentos">Segmentos</option>
                     </select>
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#descriptionModalEstacionamientos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientos">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientosGeneral">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -403,8 +403,8 @@
                 <h5 class="modal-title" id="descriptionModalLabelEstacionamientos">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" id="descriptionContentEstacionamientos">
-                <!-- Aquí se cambiará la descripción dependiendo de la gráfica seleccionada -->
+            <div class="modal-body">
+                <p>Esta gráfica <strong>muestra la distribución del número de estacionamientos</strong> de los inmuebles en <strong>Tulancingo</strong>, clasificados por segmentos de precio. Las barras representan el número de casas distribuidas en <strong>siete segmentos</strong>: E, D, C, B, A, S y L, que reflejan el rango de precios de las propiedades de las más <strong>económicas</strong> a las más <strong>caras</strong>. El color de las barras indica el número de estacionamientos, variando de <strong>1</strong> a <strong>6</strong> y con una diferencia notable entre los distintos segmentos. Este gráfico es útil para entender cómo la oferta de estacionamientos varía según el rango de precios y qué segmentos están mejor equipados en términos de infraestructura para vehículos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -413,16 +413,18 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalEstacionamientos" tabindex="-1" aria-labelledby="interpretationModalLabelEstacionamientos" aria-hidden="true">
+<!-- Modal for Interpretation: General -->
+<div class="modal fade" id="interpretationModalEstacionamientosGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelEstacionamientosGeneral" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelEstacionamientos">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelEstacionamientosGeneral">Interpretación General</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" id="interpretationContentEstacionamientos">
-                <!-- Aquí se cambiará la interpretación dependiendo de la gráfica seleccionada -->
+            <div class="modal-body">
+                <p>El gráfico muestra que el <strong>48.9%</strong> de los inmuebles en <strong>Tulancingo</strong> cuentan con un solo estacionamiento, seguido de un <strong>46.9%</strong> que tiene dos estacionamientos, lo que sugiere que la mayoría de las propiedades en la ciudad están orientadas hacia familias o individuos que poseen uno o dos vehículos. Las opciones con tres o más estacionamientos son significativamente menos comunes, con porcentajes que no superan el <strong>3%</strong>.</p>
+                <p>Este patrón puede explicarse por el contexto económico y socio-cultural de la región, donde la mayoría de las familias tienen un nivel adquisitivo que les permite poseer uno o dos vehículos, pero las propiedades más grandes o lujosas, con más espacios de estacionamiento, son más escasas y, generalmente, están dirigidas a una pequeña porción de la población con mayor capacidad económica.</p>
+                <p>Además, la falta de propiedades con más de tres estacionamientos podría indicar una tendencia hacia viviendas más compactas, lo cual es común en zonas urbanas o semiurbanas donde el espacio puede ser limitado. Contextualmente, esto coincide con el hecho de que <strong>Tulancingo</strong> es una ciudad en crecimiento, pero aún no ha alcanzado el nivel de urbanización de ciudades más grandes donde las propiedades más amplias son más comunes y los segmentos más altos de la población tienen mayor acceso a viviendas con múltiples estacionamientos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -431,7 +433,27 @@
     </div>
 </div>
 
-<!-- Script para controlar la visualización de gráficas y los contenidos de descripción/interpretación -->
+<!-- Modal for Interpretation: Segmentos -->
+<div class="modal fade" id="interpretationModalEstacionamientosSegmentos" tabindex="-1" aria-labelledby="interpretationModalLabelEstacionamientosSegmentos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelEstacionamientosSegmentos">Interpretación Segmentos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La distribución de estacionamientos parece estar influenciada por el tamaño de las propiedades y el precio, ya que los segmentos de mayor valor suelen ofrecer más espacio para vehículos, una tendencia común en zonas con un nivel socioeconómico más alto.</p>
+                <p>Factores económicos como el crecimiento de la clase media y la expansión urbana en <strong>Tulancingo</strong> probablemente están afectando esta distribución, ya que el aumento en la demanda de viviendas de precio medio también incrementa la necesidad de propiedades con más estacionamientos. Por otro lado, los segmentos más bajos reflejan una mayor densidad de viviendas con menos espacio, lo que se ve en la prevalencia de <strong>1</strong> estacionamiento en esos rangos.</p>
+                <p>Con estos datos, es posible identificar tendencias sobre cómo se distribuye el espacio destinado a estacionamientos según el valor de la propiedad, lo cual puede tener implicaciones en términos de planeación urbana, necesidades de movilidad  e inversión inmobiliaria en <strong>Tulancingo</strong>.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showSegmentDataEstacionamientos(segment) {
         // Ocultar todas las gráficas
@@ -441,21 +463,9 @@
         // Mostrar la gráfica correspondiente a la opción seleccionada
         document.getElementById(`segmentDataEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
 
-        // Cambiar contenido de descripción según la opción seleccionada
-        const descriptionContent = document.getElementById('descriptionContentEstacionamientos');
-        const interpretationContent = document.getElementById('interpretationContentEstacionamientos');
-
-        if (segment === 'segmentos') {
-            descriptionContent.innerHTML = `<p>La gráfica presenta la distribución de estacionamientos en los inmuebles de Tulancingo de Bravo, mostrando el porcentaje de propiedades según el número de espacios de estacionamiento disponibles. Las variables que se observan son el número de estacionamientos (de 1 a 6) y el porcentaje de inmuebles que cuentan con cada cantidad de estacionamientos. El gráfico está organizado en forma de pastel, donde los distintos colores representan la cantidad de estacionamientos, haciendo más clara la visualización de la distribución. Su utilidad radica en ofrecer un análisis rápido sobre la disponibilidad de estacionamientos en la oferta inmobiliaria de Tulancingo, lo que es relevante para desarrolladores, compradores o inversionistas que desean entender la infraestructura de las propiedades en la ciudad.</p>`;
-            interpretationContent.innerHTML = `<p>El gráfico muestra que el <strong>48.9%</strong> de los inmuebles en Tulancingo cuentan con un solo estacionamiento, seguido de un <strong>46.9%</strong> que tiene dos estacionamientos, lo que sugiere que la mayoría de las propiedades en la ciudad están orientadas hacia familias o individuos que poseen uno o dos vehículos. Las opciones con tres o más estacionamientos son significativamente menos comunes, con porcentajes que no superan el <strong>3%</strong>.</p>
-                                            <p>Este patrón puede explicarse por el contexto económico y socio-cultural de la región, donde la mayoría de las familias tienen un nivel adquisitivo que les permite poseer uno o dos vehículos, pero las propiedades más grandes o lujosas, con más espacios de estacionamiento, son más escasas y, generalmente, están dirigidas a una pequeña porción de la población con mayor capacidad económica.</p>
-                                            <p>Además, la falta de propiedades con más de tres estacionamientos podría indicar una tendencia hacia viviendas más compactas, lo cual es común en zonas urbanas o semiurbanas donde el espacio puede ser limitado. Contextualmente, esto coincide con el hecho de que Tulancingo es una ciudad en crecimiento, pero aún no ha alcanzado el nivel de urbanización de ciudades más grandes donde las propiedades más amplias son más comunes y los segmentos más altos de la población tienen mayor acceso a viviendas con múltiples estacionamientos.</p>`;
-        } else if (segment === 'general') {
-            descriptionContent.innerHTML = `<p>Esta gráfica  muestra la distribución del número de estacionamientos de los inmuebles en Tulancingo, clasificados por segmentos de precio. Las barras representan el número de casas distribuidas en siete segmentos: E, D, C, B, A, S y L, que reflejan el rango de precios de las propiedades de las más económicas a las más cara. El color de las barras indica el número de estacionamientos, variando de 1 a 6 y con una diferencia notable entre los distintos segmentos. Este gráfico es útil para entender cómo la oferta de estacionamientos varía según el rango de precios y qué segmentos están mejor equipados en términos de infraestructura para vehículos.</p>`;
-            interpretationContent.innerHTML = `<p>La distribución de estacionamientos parece estar influenciada por el tamaño de las propiedades y el precio, ya que los segmentos de mayor valor suelen ofrecer más espacio para vehículos, una tendencia común en zonas con un nivel socioeconómico más alto.</p>
-                                            <p>Factores económicos como el crecimiento de la clase media y la expansión urbana en Tulancingo probablemente están afectando esta distribución, ya que el aumento en la demanda de viviendas de precio medio también incrementa la necesidad de propiedades con más estacionamientos. Por otro lado, los segmentos más bajos reflejan una mayor densidad de viviendas con menos espacio, lo que se ve en la prevalencia de 1 estacionamiento en esos rangos.</p>
-                                            <p>Con estos datos, es posible identificar tendencias sobre cómo se distribuye el espacio destinado a estacionamientos según el valor de la propiedad, lo cual puede tener implicaciones en términos de planeación urbana, necesidades de movilidad  e inversión inmobiliaria en Tulancingo.</p>`;
-        }
+        // Cambiar el target del botón de interpretación según la opción seleccionada
+        const interpretationButton = document.getElementById('interpretationButtonEstacionamientos');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
 
     // Mostrar la gráfica "General" por defecto al cargar la página
@@ -463,6 +473,7 @@
         showSegmentDataEstacionamientos('general');
     };
 </script>
+
 
 
 <!-- Gráfica: Distribución de baños [V2] -->
@@ -617,8 +628,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -745,8 +756,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>

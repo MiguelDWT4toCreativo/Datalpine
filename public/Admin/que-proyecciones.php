@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Querétaro | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
+                                    <li class="breadcrumb-item active">Querétaro</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -135,7 +135,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    <h1>General</h1>
+                    <h1>Proyecciones y Oportunidades</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
@@ -146,71 +146,7 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Mitad derecha: Colonias de Alto Potencial -->
-<!-- Mitad derecha: Destino del crédito -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p><strong>Descripción:</strong> Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se observa que la colonia de Cumbres del lago es el que lidera la oferta dentro de la zona de Santiago de Querétaro, ya que tiene un mayor número de propiedades en venta con un 10.2% de la oferta total de la zona, posiblemente debido a una mayor oferta de nuevos desarrollos o por una mayor disposición de los propietarios de los inmuebles a vender sus viviendas. 
-
-Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) aglutinan una parte significativa de la oferta total, lo que sugiere que la oferta de propiedades en venta no está distribuida de manera uniforme en toda la ciudad, lo que podría estar relacionado con factores como el nivel socioeconómico de la zona, la disponibilidad de servicios, el tipo de vivienda predominante y el atractivo para los compradores.
-
-- Podría haber nuevos desarrollos inmobiliarios, lo que aumentaría la oferta de viviendas disponibles para la venta.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-    </div>
-</div>
 
 <!-- Sección Tendencias de Mercado -->
 <div class="container-fluid">
@@ -239,8 +175,8 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_baños_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -476,8 +412,8 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La porción más grande del gráfico corresponde a los productos que han estado en stock menos de un año, con un <strong>66.6%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.</p>            
-                <p>La porción restante, correspondiente a productos en stock más de un año, representa el <strong>33.4%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.</p>
+                <p>La porción más grande del gráfico corresponde a los productos que han estado en stock menos de un año, con un <strong>67.2%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.</p>            
+                <p>La porción restante, correspondiente a productos en stock más de un año, representa el <strong>32.8%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -504,7 +440,7 @@ Además, las primeras tres colonias (Cumbres del Lago, El Refugio y Zibatá) agl
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -675,8 +611,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
             </div>
         </div>
         <!-- Columna derecha: Colonias más baratas -->
-<!-- Gráfica: Colonias Más Caras y Más Baratas -->
-<div class="col-md-12">
+        <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Colonias</h5>
@@ -693,7 +628,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColonias">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interpretación Baratas</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasCaras">Interpretación Caras</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -713,7 +649,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La graficas muestran las cinco colonias las cuales tienen en promedio los precios más altos y mas bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro</p>
+                <p>Las gráficas muestran las cinco colonias con los precios más altos y más bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -722,18 +658,45 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalColonias" tabindex="-1" aria-labelledby="interpretationModalLabelColonias" aria-hidden="true">
+<!-- Modal for Interpretation Más Baratas -->
+<div class="modal fade" id="interpretationModalColoniasMasBaratas" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasBaratas" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelColonias">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasBaratas">Interpretación Más Baratas</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es Francisco Villa superando en promedio los 200 millones de pesos; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el Cerro de Lira, Cerro la Capilla, Peña Colorada y Cerro la carbonera.
+            <p>
+                Las colonias que más barato ofertan sus inmuebles son <strong>Andadores Satélite</strong> y <strong>Satélite Sección 3N S</strong>; esto es posible debido a dos importantes razones: ambas zonas se encuentran en las salidas de <strong>Santiago de Querétaro</strong>, lo que significa que hay un difícil acceso a los diferentes servicios, tanto de transporte, entretenimiento, educación, entre otros. Otro factor importante es que ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios.
+            </p>
+            <p>
+                Además, se puede observar que la colonia <strong>Rinconada del Capricho</strong>, <strong>San Pedro Martin</strong> y <strong>Unidad Roma</strong> ofrecen precios bajos, alrededor del <strong>medio millón de pesos</strong> las tres zonas. Esto también podría relacionarse con su lejanía a la zona metropolitana y el difícil acceso a servicios públicos.
+            </p>
 
-En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,000,000 lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de Santiago de Querétaro lo cual hace que se eleven sus precios. Por su parte, Vista Lago, Progreso y Fraccionamiento Balcones de Juriquilla son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los 20 millones de pesos en promedio.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation Más Caras -->
+<div class="modal fade" id="interpretationModalColoniasMasCaras" tabindex="-1" aria-labelledby="interpretationModalLabelColoniasMasCaras" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelColoniasMasCaras">Interpretación Más Caras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Se puede ver que la colonia que más alto oferta sus inmuebles es <strong>Francisco Villa</strong>, superando en promedio los <strong>200 millones de pesos</strong>; esto es posible debido a que esta zona se encuentra cerca de diferentes destinos y con rápido acceso a servicios públicos. Las actividades turísticas representan un elemento importante dentro de los alrededores de la zona, como el <strong>Cerro de Lira</strong>, <strong>Cerro la Capilla</strong>, <strong>Peña Colorada</strong> y <strong>Cerro la Carbonera</strong>.
+            </p>
+            <p>
+                En cuanto a la colonia que sigue, es <strong>Centro de Querétaro</strong> con un promedio de <strong>$75,000,000</strong>. Lo más probable es que debido a que los inmuebles que se ofertan en esta zona están justo en plena zona turística de <strong>Santiago de Querétaro</strong>, lo cual hace que se eleven sus precios. Por su parte, <strong>Vista Lago</strong>, <strong>Progreso</strong> y <strong>Fraccionamiento Balcones de Juriquilla</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>20 millones de pesos</strong> en promedio.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -762,6 +725,7 @@ En cuanto a la colonia que sigue es Centro de Querétaro con un promedio de $75,
         showColoniasData('masbaratas');
     };
 </script>
+
 
         <!-- Gráfica 3: Tiempo en el mercado -->
         <!-- Gráfica: Tiempo en el mercado -->

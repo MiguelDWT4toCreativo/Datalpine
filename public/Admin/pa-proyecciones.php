@@ -199,12 +199,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <ul>
-                    <li><strong>1, 2 o 3 baños:</strong> 2.2, 2.0 y 1.9 millones de pesos, respectivamente.</li>
-                    <li><strong>4, 5, 6 o más baños:</strong> 2.4 y 3.0 millones de pesos, respectivamente.</li>
-                </ul>
                 <p>Existe una clara relación positiva entre el número de baños y el precio promedio de las propiedades. A medida que aumenta el número de baños, también lo hace el precio promedio.</p>
-                <p>Esto podría indicar que el precio relativamente bajo de las propiedades es correspondiente al número menor de baños que posee cada propiedad. Por otra parte, esto justifica su precio ya que son consideradas más exclusivas y de lujo.</p>
+
+                <p>Para las propiedades con <strong>1</strong>, <strong>2</strong> o <strong>3</strong> baños presentan precios promedio de <strong>2.2</strong>, <strong>2.0</strong> y <strong>1.9</strong> millones de pesos, respectivamente. Esto podría indicar que el precio relativamente bajo de las propiedades es correspondiente al número menor de baños que posee cada propiedad.</p>
+
+                <p>Por otra parte las propiedades que poseen <strong>4</strong>, <strong>5</strong>, <strong>6</strong> o más baños tienen un precio promedio alto, <strong>2.4</strong> y <strong>3.0</strong> millones de pesos, respectivamente. Esto justifica su precio ya que son consideradas más exclusivas y de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -222,7 +221,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede observar que en la ciudad de Pachuca de Soto las viviendas que cuentan con 1, 2, 3 o 4 baños los precios promedios son similares, alrededor de los 2 millones de pesos, a diferencia de las viviendas que cuentan con 4 baños que tiene un cambio en su precio promedio de vivienda aproximando de $2,500,000; eso podría ser por diversos factores inmobiliarios como el público al que le interesan este segmento, el tamaño del terreno, las viviendas o la antigüedad de esas viviendas.</p>
+                <p>Se puede observar que en la ciudad de Pachuca de Soto las viviendas que cuentan con <strong>1</strong>, <strong>2</strong>, <strong>3</strong> o <strong>4</strong> baños tienen precios promedios similares, alrededor de los <strong>2 millones de pesos</strong>.</p>
+
+                <p>Sin embargo, las viviendas que cuentan con <strong>4</strong> baños muestran un cambio significativo en su precio promedio, aproximándose a los <strong>$2,500,000</strong>.</p>
+
+                <p>Esta diferencia podría atribuirse a diversos factores inmobiliarios como:</p>
+                <ul>
+                    <li>El público al que le interesa este segmento</li>
+                    <li>El tamaño del terreno</li>
+                    <li>Las características específicas de las viviendas</li>
+                    <li>La antigüedad de esas viviendas</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -385,7 +394,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de pastel muestra la información en dos categorías principales: productos que han estado en stock más de un año y productos que han estado en stock menos de un año. </p>
+                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Pachuca de Soto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -403,9 +412,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            La porción más grande del gráfico corresponde a los productos que han estado en stock <strong>menos de un año</strong>, con un <strong>80.4%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.
-            <br>
-            La porción restante, correspondiente a productos en stock <strong>más de un año</strong>, representa el <strong>19.6%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.
+                <p>La porción más grande del gráfico corresponde a los productos que han estado en stock menos de un año, con un <strong>82.4%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.</p>
+
+                <p>La porción restante, correspondiente a productos en stock más de un año, representa el <strong>17.6%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -659,7 +668,13 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Las colonias más baratas en Pachuca de Soto como <strong>Villa Elena</strong> y <strong>Lomas de Nueva Airosa</strong> presentan precios más bajos debido a su lejanía del centro urbano, su difícil acceso a servicios y su proximidad a zonas industriales. Estos factores disminuyen el valor de las propiedades. Zonas como <strong>El Atorón</strong>, <strong>La Surtidora</strong> y <strong>Unión Popular</strong> también ofrecen precios bajos, en torno a medio millón de pesos, debido a su lejanía y accesibilidad limitada.</p>
+                <p>Las colonias que más barato ofertan sus inmuebles son Villa Elena y Lomas de Nueva Airosa. Esto es posible que se deba a dos importantes razones:</p>
+
+                <p>1. Ambas zonas se encuentran en las salidas de Pachuca de Soto, lo que significa que hay un difícil acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otros.</p>
+
+                <p>2. Ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios.</p>
+
+                <p>Además, se puede observar que la colonia El Atorón, La Surtidora y Unión Popular ofrecen precios bajos alrededor del medio millón de pesos. Estas tres zonas también podrían tener precios bajos debido a su lejanía de la zona metropolitana y el difícil acceso a servicios públicos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -677,7 +692,11 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles en la ciudad de <strong>Pachuca de Soto</strong> es <strong>Francisco Arboledas Santa Elena</strong> superando en promedio los <strong>24 millones de pesos</strong>; esto es posible que sea a que esta zona se encuentra una exclusiva y limitada población que puede acceder a estas propiedades. En cuanto a la colonia que sigue es <strong>Fraccionamiento Ex hacienda de Coscotitlán</strong> con un precio promedio de <strong>$11,500,000</strong> lo más probable es que debido a la ubicación y el origen de hace que se eleven sus precios. Por su parte, <strong>Campo de Golf</strong>, <strong>Dolores</strong> e <strong>Industrial La Paz</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>11</strong>, <strong>10</strong> y <strong>8 millones de pesos</strong> en promedio.</p>
+                <p>Se puede ver que la colonia que más alto oferta sus inmuebles en la ciudad de Pachuca de Soto es Francisco Arboledas Santa Elena superando en promedio los <strong>24 millones de pesos</strong>; esto es posible que sea a que esta zona se encuentra una exclusiva y limitada población que puede acceder a estas propiedades.</p>
+
+                <p>En cuanto a la colonia que sigue es Fraccionamiento Ex hacienda de Coscotitlán con un precio promedio de <strong>$11,500,000</strong>; lo más probable es que debido a la ubicación y el origen de hace que se eleven sus precios.</p>
+
+                <p>Por su parte, Campo de Golf, Dolores e Industrial La Paz son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>11</strong>, <strong>10</strong> y <strong>8 millones de pesos</strong> en promedio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -743,7 +762,7 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
             </div>
             <div class="modal-body">
                 <p>
-                La barra más alta corresponde al rango de 121-240 días, lo que indica que una gran cantidad de propiedades se venden medianamente rápido, entre 4 a 8 meses. Como siguiente, hay propiedades que se venden de entre  31-120 meses, de ahí están las propiedades que se venden en más de 1 año Esto sugiere que existe una demanda activa en el mercado y donde las propiedades se quedan un periodo medio-corto.
+                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico en el mercado inmobiliario de Pachuca de Soto.
                 </p>
             </div>
             <div class="modal-footer">
@@ -763,10 +782,15 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
             </div>
             <div class="modal-body">
                 <p>
-                La barra más alta corresponde al rango de 0-30 días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.
-
-Aunque menor que el rango anterior, el rango de 31 a 120 días también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes. Los rangos superiores a 120 días presentan una disminución en el número de propiedades, lo que sugiere que a partir de este punto, la probabilidad de que una propiedad se venda disminuye. </p>
-</div>
+                La barra más alta corresponde al rango de <strong>121-240</strong> días, lo que indica que una gran cantidad de propiedades se venden medianamente rápido, entre <strong>4</strong> a <strong>8</strong> meses.
+                </p>
+                <p>
+                Como siguiente, hay propiedades que se venden de entre <strong>31-120</strong> días, de ahí están las propiedades que se venden en más de <strong>1</strong> año.
+                </p>
+                <p>
+                Esto sugiere que existe una demanda activa en el mercado y donde las propiedades se quedan un periodo medio-corto.
+                </p>
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>

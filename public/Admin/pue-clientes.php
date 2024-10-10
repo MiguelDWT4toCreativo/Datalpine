@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Puebla</a></li>
+                                    <li class="breadcrumb-item active">Puebla</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -171,9 +171,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: block;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
             </div>
         </div>
     </div>
@@ -188,8 +188,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se visualiza la distribución de créditos de acuerdo al nivel de porcentaje en UMAS (Unidades de Medida y Actualización) del año. El eje X refleja los diferentes rangos de ingresos, y el eje Y muestra el porcentaje de créditos otorgados en cada rango. Esta visualización ayuda a comprender cómo los diferentes niveles de ingreso afectan el acceso al crédito en la ciudad.</p>
-            </div>
+                <p>Esta gráfica muestra la distribución de créditos otorgados en Tulancingo, según el nivel de ingreso de los solicitantes medido en UMAs (Unidades de Medida y Actualización). El eje horizontal indica diferentes rangos de ingreso en UMAs, que van desde ≤ <strong>2.60</strong> hasta más de <strong>12.00</strong> UMAs, mientras que el eje vertical refleja el porcentaje de créditos otorgados en cada rango de ingreso. El gráfico es útil para entender cómo se distribuyen los créditos entre diferentes grupos de ingresos y qué porcentaje representa cada uno.</p>
+           </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -206,11 +206,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.</p>
-
-                <p>En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.</p>
-
-                <p>Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.</p>
+                <p>El segmento de <strong>2.61</strong> a <strong>4.00</strong> UMAs concentra la mayor cantidad de créditos, lo que podría explicarse porque muchos solicitantes de créditos se encuentran en este nivel de ingresos, posiblemente porque tienen la estabilidad económica suficiente para acceder a créditos sin caer en niveles de ingresos más bajos.</p>
+                <p>El <strong>15.5%</strong> de los créditos otorgados en el segmento de ingresos menores o iguales a <strong>2.60</strong> UMAs sugiere que una parte considerable de la población de Tulancingo aún depende de créditos accesibles para viviendas más económicas.</p>
+                <p>El rango de <strong>6.01</strong> a <strong>9.00</strong> UMAs, con el <strong>20.2%</strong>, destaca también como un sector importante, posiblemente debido a que las personas en este rango de ingresos tienen un mayor poder adquisitivo para financiar viviendas de mayor valor, aunque no tanto como los segmentos superiores.</p>
+                <p>El rango de ingresos de <strong>4.01</strong> a <strong>6.00</strong> UMAs representa el <strong>12.8%</strong>, lo que indica que existe un grupo significativo de personas con ingresos medianos que buscan financiamiento, aunque en menor proporción que los rangos inferiores y superiores.</p>
+                <p>La menor participación en el segmento de <strong>9.01</strong> a <strong>12</strong> UMAs (<strong>7.7%</strong>) podría reflejar que las personas con ingresos dentro de este rango pueden no requerir tanto financiamiento o prefieren otros métodos.</p>
+                <p>Por último, el <strong>20.2%</strong> en el segmento superior a <strong>12</strong> UMAs sugiere que una parte considerable de la población de altos ingresos también está accediendo a créditos para inmuebles de mayor valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -218,7 +219,6 @@
         </div>
     </div>
 </div>
-
 <div class="modal fade" id="interpretationModalUMAS2023" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -227,11 +227,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2023</strong>, el mayor porcentaje de créditos se concentró en el rango de ingresos superiores a <strong>12</strong> UMAS (<strong>23.6%</strong>), lo que resalta la mayor participación de personas con altos ingresos en el mercado crediticio. Los segmentos de ingresos medios, como el rango de <strong>6.01-9.00</strong> UMAS (<strong>17.9%</strong>) y el de <strong>4.01-6.00</strong> UMAS (<strong>15.3%</strong>), también muestran una actividad considerable, lo que indica un mercado activo en estos niveles de ingreso.</p>
-
-                <p>El segmento de <strong>9.01-12.00</strong> UMAS también es significativo con un <strong>14.6%</strong>, lo que muestra que hay una buena proporción de créditos para personas con ingresos medios-altos. Esta proporción es igual para el rango de las <strong>2.61</strong> a las <strong>4</strong> UMAS. En comparación, los créditos otorgados a personas con ingresos más bajos, ≤ <strong>2.60</strong> UMAS (<strong>13.9%</strong>), son menores, lo que sugiere barreras en el acceso al crédito para este grupo.</p>
-
-                <p>Este patrón refleja que la mayoría de los créditos otorgados están dirigidos a personas con ingresos medios y altos, mientras que el acceso es más limitado para quienes perciben ingresos menores. Esto podría deberse a mayores restricciones crediticias para los grupos de menores ingresos o a una mayor capacidad adquisitiva de los sectores altos en <strong>Pachuca</strong>.</p>
+                <p>El segmento más alto en créditos otorgados corresponde a los ingresos entre <strong>2.61</strong> y <strong>4.00</strong> UMAS con un <strong>23.9%</strong>. Lo cual es indicativo de una clase con ingresos relativamente bajos que puede acceder a financiamientos moderados. Le sigue el grupo de ingresos entre <strong>6.01</strong> y <strong>9.00</strong> UMAS, que representa el <strong>19.3%</strong>. Esto puede estar relacionado con un aumento en el número de personas con capacidad de acceder a créditos de mayor monto, impulsado por la estabilidad económica de esta población.</p>
+                <p>El rango de <strong>4.01</strong> a <strong>6.00</strong> UMAS registra un <strong>14.1%</strong>, mostrando una tendencia moderada de personas de ingresos medios-bajos que acceden a estos niveles de crédito. Mientras que el <strong>15.4%</strong> de los créditos está dirigido a personas con ingresos superiores a <strong>12</strong> UMAS, lo cual indica una presencia de inversionistas o compradores con mayor poder adquisitivo, aunque es menor en comparación con otros grupos.</p>
+                <p>Por otro lado, el segmento de ingresos menores o iguales a <strong>2.60</strong> UMAS representa el <strong>16.3%</strong> del total de los créditos, lo que sugiere que una parte significativa de la población aún depende de créditos pequeños. Finalmente, el rango de <strong>9.01</strong> a <strong>12.00</strong> UMAS representa un <strong>11.1%</strong>, indicando que este grupo puede no estar tan interesado en adquirir créditos u obtienen otro tipo de financiamiento.</p>
+                <p>Estos porcentajes reflejan un equilibrio entre la clase media-baja y media-alta de Tulancingo, lo que podría deberse a las políticas de financiamiento regionales, así como a las condiciones socioeconómicas predominantes en la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -239,7 +238,6 @@
         </div>
     </div>
 </div>
-
 <div class="modal fade" id="interpretationModalUMAS2024" tabindex="-1" aria-labelledby="interpretationModalLabelUMAS2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -248,13 +246,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El mayor porcentaje de créditos otorgados se encuentra en el rango de > <strong>12</strong> UMAS (<strong>21%</strong>), lo que indica una prevalencia de créditos dirigidos a personas con ingresos más altos. Esto sugiere que los hogares con mayor capacidad adquisitiva son los que están solicitando y obteniendo una mayor cantidad de financiamiento en <strong>Pachuca de Soto</strong>.</p>
-
-                <p>Por otro lado, los créditos en los rangos de <strong>4.01-6.00</strong> UMAS (<strong>19%</strong>) y <strong>6.01-9.00</strong> UMAS (<strong>17.6%</strong>) también representan una parte importante del mercado, lo que podría estar relacionado con el tamaño del sector de ingresos medios en la ciudad. La participación más baja se observa en el rango de ≤ <strong>2.60</strong> UMAS (<strong>12.5%</strong>), lo que indica que las personas con menores ingresos tienen un acceso más limitado a los créditos, posiblemente debido a mayores requisitos de solvencia o menor capacidad para cumplir con los pagos.</p>
-
-                <p>Es notable como el rango de <strong>9.01</strong> a <strong>12</strong> UMAS tiene un porcentaje menor que los dos rangos inferiores a este. Ingresos medios-altos tienen un bajo interés en obtener créditos inmobiliarios.</p>
-
-                <p>Este patrón sugiere en general, una concentración de financiamiento en los sectores de ingresos altos y medios, con una menor participación de los segmentos de ingresos bajos en el mercado inmobiliario de <strong>Pachuca</strong> en <strong>2024</strong>.</p>
+                <p>La alta participación en los rangos de ingresos de <strong>2.61</strong> a <strong>4.00</strong> UMAS y <strong>4.01</strong> a <strong>6.00</strong> UMAS y la relativamente pequeña, pero considerable participación del rango de menos de <strong>2.6</strong> UMAS con el <strong>14.4%</strong> podría estar relacionada con políticas de vivienda accesible y apoyos gubernamentales en la región, facilitando la compra de propiedades a la clase media-baja.</p>
+                <p>El segmento de <strong>6.01</strong> a <strong>9</strong> UMAS, con un <strong>16.6%</strong>, refleja una participación importante pero un poco menor, posiblemente debido a las limitaciones de crédito en este rango. La baja participación en los segmentos de <strong>9.01</strong> a <strong>12</strong> UMAS (<strong>8.6%</strong>) y en el de mayores ingresos (> <strong>12</strong> UMAS con un <strong>13.9%</strong>) puede sugerir que el mercado está más enfocado en facilitar el acceso a quienes tienen ingresos más moderados, mientras que los niveles más altos tienden a usar otros mecanismos de financiamiento.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -281,13 +274,7 @@
         const interpretationButton = document.getElementById('interpretationButtonUMAS');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
     }
-
-    // Mostrar la gráfica "2022" por defecto al cargar la página
-    window.onload = function() {
-        showYearlyDataUMAS('2022');
-    };
 </script>
-
 
 
 <!-- Mitad derecha: Destino del crédito -->
@@ -306,7 +293,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
@@ -321,7 +308,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Pachuca de Soto según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
+                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Tulancingo según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -339,7 +326,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor parte de los créditos se destina a la compra de inmuebles nuevos (<strong>46.2%</strong>), lo que puede explicarse por la alta oferta de desarrollos inmobiliarios en <strong>Pachuca</strong>, que buscan atraer a compradores con propiedades nuevas y modernas. El porcentaje significativo de créditos para inmuebles usados (<strong>35.9%</strong>) sugiere que también hay un mercado consolidado de propiedades existentes, probablemente debido a la ubicación o al menor costo en comparación con los desarrollos nuevos. La inversión en mejoras representa un porcentaje menor (<strong>10.6%</strong>), lo que podría indicar que la mayoría de los propietarios optan por vender o adquirir nuevas propiedades en lugar de mejorar las actuales. y un porcentaje aún menor de los créditos se destinan a otros programas (<strong>7.2%</strong>)</p>
+                <p>La alta proporción de créditos destinados a vivienda usada (<strong>51.1%</strong>) en Tulancingo podría estar vinculada a factores económicos locales, como una mayor accesibilidad a propiedades más asequibles en el mercado secundario. La menor participación de vivienda nueva (<strong>26.7%</strong>) sugiere una oferta limitada o precios elevados que restringen el acceso a este tipo de propiedades. Además, la considerable asignación para mejoramientos (<strong>18.3%</strong>) refleja una tendencia de inversión en la mejora de viviendas existentes, lo que podría estar relacionado con un envejecimiento del parque habitacional o la necesidad de actualizar propiedades. Por último, el pequeño porcentaje destinado a otros programas (<strong>4.0%</strong>) podría sugerir que estos programas no son muy conocidos o utilizados en la región.</p>
+                <p>Este comportamiento puede estar influenciado por las condiciones socioeconómicas de Tulancingo, como una menor capacidad de adquisición para nuevas viviendas o un mayor enfoque en propiedades ya existentes como inversión.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -446,7 +434,6 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Esta gráfica de barras muestra la distribución de créditos otorgados en Pachuca de Soto durante el año, clasificados según el nivel de ingresos en UMAS (Unidades de Medida y Actualización). El eje X refleja los diferentes rangos de ingresos, y el eje Y muestra el porcentaje de créditos otorgados en cada rango. Esta visualización ayuda a comprender cómo los diferentes niveles de ingreso afectan el acceso al crédito en la ciudad.
                 <!-- Agregar descripción aquí -->
             </div>
         </div>
@@ -461,14 +448,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                La concentración de créditos en el segmento de > <strong>12 UMAS</strong>, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.
-
-En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.
-
-Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.
-                </p>
-               
+                <!-- Agregar interpretación aquí -->
             </div>
         </div>
     </div>

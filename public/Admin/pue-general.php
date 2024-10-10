@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Puebla</a></li>
+                                    <li class="breadcrumb-item active">Puebla</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -135,7 +135,7 @@
                     }
                 </style>
                 <div class="titulo">
-                    <h1>Proyecciones y oportunidades</h1>
+                    <h1>General</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
                     actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
@@ -148,19 +148,28 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución por segmento</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por segmento</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
+                <div class="mb-3">
+                    <select class="form-select" id="segmentoSelect" onchange="showSegmentoData(this.value)">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="segmentoData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -175,7 +184,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de créditos por segmento para el año 2022.</p>
+                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -184,23 +193,16 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+<!-- Modal for Interpretation 2022 -->
+<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.</p>
-                <p>- <strong>Segmento E:</strong> El subsegmento <strong>E2</strong> es el más destacado, mientras que <strong>E1 y E3</strong> tienen una menor representación, indicando una demanda más limitada en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</p>
-                <p>- <strong>Segmento D:</strong> Aunque <strong>D1</strong> y <strong>D2</strong> muestran una presencia notable, <strong>D3</strong> tienen una representación más baja, sugiriendo una demanda relativamente menor en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</p>
-                <p>- <strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente.</p>
-                <p>Mientras que los segmentos S muestra una fuerte presencia en los extremos de la escala de precios, los segmentos A, B, C, D y E muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.</p>
+                <p>El predominio de los créditos en el segmento <strong>E</strong> (<strong>68.7%</strong>) refleja una alta demanda por propiedades de menor precio, donde hay una oferta considerable de inmuebles más accesibles; lo cual puede estar relacionado con el nivel adquisitivo de la mayoría de la población en <strong>Tulancingo de Bravo</strong> y la estructura del mercado inmobiliario. Esto puede explicarse también por la composición económica de la ciudad, que cuenta con una fuerte participación de sectores como la industria manufacturera, comercio, servicios y construcción; lo que genera una clase trabajadora enfocada en propiedades de bajo a mediano costo. El segmento <strong>S</strong>, a pesar de ser más costoso, representa un <strong>0.63%</strong> de los créditos, lo cual indica un nicho de mercado de alta gama, probablemente impulsado por una pequeña élite económica.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -208,6 +210,64 @@
         </div>
     </div>
 </div>
+
+<!-- Modal for Interpretation 2023 -->
+<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El segmento <strong>E</strong> continúa siendo el mayor receptor de créditos en <strong>2023</strong>, con un <strong>65.1%</strong>, lo que sugiere que sigue existiendo una fuerte demanda por propiedades más económicas. Esto puede estar relacionado con los niveles de ingresos predominantes en la región y una oferta inmobiliaria enfocada en propiedades accesibles para la clase trabajadora de <strong>Pachuca de Soto</strong>. Sin embargo, la estabilidad del segmento <strong>S</strong>, que recibe el <strong>0.96%</strong> de los créditos, indica la persistencia de un mercado de alta gama, probablemente dirigido a inversionistas o un grupo que percibe mayores ingresos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation 2024 -->
+<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>73.6%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>16.2%</strong>) y <strong>C</strong> (<strong>4.57%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>1.02%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showSegmentoData(year) {
+        // Ocultar todas las gráficas
+        document.getElementById('segmentoData2022').style.display = 'none';
+        document.getElementById('segmentoData2023').style.display = 'none';
+        document.getElementById('segmentoData2024').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente al año seleccionado
+        document.getElementById(`segmentoData${year}`).style.display = 'block';
+
+        // Cambiar el modal de interpretación según el año seleccionado
+        document.getElementById('interpretationButtonSegmento').setAttribute('data-bs-target', `#interpretationModal${year}`);
+    }
+
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    window.onload = function() {
+        showSegmentoData('2022');
+    };
+</script>
+
 
 <!-- Columna completa: Segmentación de mercado: Tendencias de precios por segmento -->
 <div class="col-md-12">
@@ -225,7 +285,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -240,7 +300,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (representados por las letras A, B, C, D, E y S). Cada barra representa un segmento y su altura indica el porcentaje de cambio en el precio de ese segmento. Las barras que se extienden hacia arriba indican un aumento en el precio, mientras que las que se extienden hacia abajo indican una disminución.</p>
+                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -258,12 +318,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Variabilidad entre segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos, lo que indica que factores específicos afectan a cada uno de manera diferente.</p>
-                <p><strong>Dominancia de tendencias a la baja:</strong> La mayoría de los segmentos muestran una disminución en sus precios, lo que sugiere una tendencia general a la baja en los precios del mercado en general.</p>
-                <p><strong>Segmentos A, B, y D:</strong> Experimentan pequeñas disminuciones en sus precios (-0.55%, -0.66%, -0.7%), lo que sugiere una ligera tendencia a la baja en estos segmentos.</p>
-                <p><strong>Segmento C:</strong> Muestra un ligero aumento en su precio(0.41%), lo que sugiere una mayor demanda.</p>
-                <p><strong>Segmento E:</strong> Presenta la mayor disminución en el precio (-11.25%)de todos los segmentos, indicando una caída significativa en sus precios. Esto podría deberse a diversos factores como cambios en las condiciones económicas que afectan específicamente a este segmento.</p>
-                <p><strong>Segmentos L y S:</strong> Por el contrario, estos segmentos muestran un aumento en sus precios (1.72%, 1.62%), lo que sugiere una mayor demanda o una escasez de productos o servicios en estos segmentos.</p>
+                <p><strong>Variabilidad en los segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios.</p>
+                <p><strong>Segmento A:</strong> Experimenta un aumento en el precio (27.35%), aunque es el menor de todos los segmentos.</p>
+                <p><strong>Segmento B:</strong> Presenta un aumento (35.05%) más pronunciada en comparación con el segmento A.</p>
+                <p><strong>Segmento C:</strong> Muestra un aumento en el precio (58.89%) de todos los segmentos, lo que indica un alza significativa en sus precios.</p>
+                <p><strong>Segmento D:</strong> Este segmento experimenta un aumento considerable en su precio (92.09%), destacándose como el único con una tendencia al alza.</p>
+                <p><strong>Segmento E:</strong> Muestra una disminución en el precio (-1.08%), aunque no tan pronunciada como en los segmentos B y C.</p>
+                <p><strong>Segmento S:</strong> No presenta cambio en sus precios.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -289,7 +350,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_profesiones.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_profesiones.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
@@ -362,8 +423,8 @@
         </div> -->
 
 
-<!-- Columna completa: g_pie_creditos_genero -->
-<div class="col-md-6">
+        <!-- Columna completa: g_pie_creditos_genero -->
+        <div class="col-md-6">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por género</h5>
@@ -378,7 +439,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_creditos_genero.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_creditos_genero.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -393,11 +454,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres.</p>
-                
-                <p>Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario.</p>
-                
-                <p>Si la proporción de hombres es mayor, se sugiere que más créditos se otorgan a este grupo, y si la proporción de mujeres es mayor, se observa lo contrario.</p>
+                <p>El gráfico de pastel muestra los créditos otorgados según el género del solicitante. Se divide en dos secciones principales:</p>
+                <ul>
+                    <li><strong>Hombres:</strong> Representado por el color morado, abarca el <strong>53.7%</strong> del total de créditos otorgados.</li>
+                    <li><strong>Mujeres:</strong> Representado por el color rojo, corresponde al <strong>46.3%</strong> del total de créditos otorgados.</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -415,9 +476,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra que un mayor porcentaje de créditos es otorgado a hombres (<strong>53.7%</strong>) en comparación con mujeres (<strong>46.3%</strong>). Esta diferencia podría estar relacionada con factores como la existencia de una brecha de género en el acceso al crédito, donde las mujeres enfrentan mayores obstáculos para obtener financiamiento.</p>
-
-                <p>Además, el nivel de ingresos, el empleo y la educación pueden influir en la capacidad de las mujeres para acceder al crédito. Sin embargo, la participación significativa de mujeres también refleja un creciente acceso al crédito para esta parte de la población y una mayor participación en la adquisición de bienes inmuebles en la región.</p>
+                <p>De acuerdo con el gráfico, las <strong>mujeres</strong> representan una menor proporción de los solicitantes de créditos en comparación con los <strong>hombres</strong>. Esto significa que los <strong>hombres</strong> tienden a solicitar y obtener créditos con mayor frecuencia. Esto podría ser gracias a que los factores socioeconómicos, como los <strong>ingresos</strong>, el <strong>empleo</strong> y la <strong>educación</strong>, pueden influir en la capacidad de las <strong>mujeres</strong> para acceder al crédito. Históricamente, las <strong>mujeres</strong> han tenido menores <strong>ingresos</strong> y menos oportunidades laborales, lo que podría limitar su acceso a productos financieros.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -445,13 +504,13 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#creditSegmentationModal2022">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -466,7 +525,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles, desde el segmento E (3.25 a 4 millones) hasta el segmento S (4 a 12 millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
+                <p>El gráfico de barras muestra el <strong>porcentaje</strong> de créditos otorgados por diferentes categorías (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>, <strong>S</strong>, <strong>Elite</strong>) a lo largo de <strong>cuatro trimestres</strong>. Cada barra representa una categoría, y las diferentes secciones de cada barra corresponden a los <strong>porcentajes</strong> de créditos otorgados en cada trimestre.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -476,19 +535,18 @@
 </div>
 
 <!-- Modal for Interpretation 2022 -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
+<div class="modal fade" id="creditSegmentationModal2022" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="creditSegmentationModalLabel2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2022</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
-
-                <p>Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación del segmento S sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
-
-                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
+                <p><strong>Dominancia de la categoría E:</strong> A lo largo de los cuatro trimestres, la categoría E concentra la mayor proporción de créditos otorgados. Esto sugiere que esta categoría representa un segmento de mercado o tipo de crédito particularmente relevante para la entidad financiera.</p>
+                <p><strong>Categoría E:</strong> Como se mencionó anteriormente, esta categoría es la más relevante en términos de volumen de créditos otorgados. Su participación relativamente estable a lo largo del tiempo sugiere una demanda constante por este tipo de crédito.</p>
+                <p><strong>Categoría D:</strong> La categoría D también presenta una participación significativa y relativamente estable. Esto podría indicar que representa un segmento de mercado complementario al de la categoría E.</p>
+                <p><strong>Categorías A, B, L, C y S:</strong> Estas categorías presentan una participación menor y más variable en comparación con las categorías E y D. Las fluctuaciones en sus porcentajes podrían estar relacionadas con factores específicos de cada categoría, como cambios en las políticas de crédito, condiciones económicas o preferencias de los clientes.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -498,19 +556,15 @@
 </div>
 
 <!-- Modal for Interpretation 2023 -->
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+<div class="modal fade" id="creditSegmentationModal2023" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
+                <h5 class="modal-title" id="creditSegmentationModalLabel2023">Interpretación 2023</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2023</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
-
-                <p>La estabilidad en los segmentos de mayor valor (S) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
-
-                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
+                <p>En este año, se observó un aumento en la participación de las categorías <strong>C</strong> y <strong>B</strong>, lo que sugiere un crecimiento en la demanda por propiedades de rango medio. La categoría <strong>E</strong> sigue siendo importante, pero con una leve disminución en comparación con <strong>2022</strong>. Este cambio puede reflejar una mayor capacidad adquisitiva de los compradores o una recuperación económica más marcada.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -520,19 +574,15 @@
 </div>
 
 <!-- Modal for Interpretation 2024 -->
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+<div class="modal fade" id="creditSegmentationModal2024" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title" id="creditSegmentationModalLabel2024">Interpretación 2024</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres con más del <strong>21%</strong> de los créditos otorgados, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
-
-                <p>El segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Pachuca de Soto, este atrayendo a compradores con mayor poder adquisitivo.</p>
-
-                <p>Mientras que el resto de los segmentos presentan porcentajes de participación menores al <strong>4%</strong>.</p>
+                <p>Para <strong>2024</strong>, la tendencia muestra un aumento notable en los créditos otorgados en la categoría <strong>A</strong>, lo que sugiere una mayor demanda por propiedades de lujo. Esto puede estar relacionado con un crecimiento económico más sostenido y una mayor inversión en inmuebles de alto valor. Las categorías <strong>E</strong> y <strong>D</strong> han disminuido su participación, lo que podría indicar un cambio en las preferencias del mercado hacia propiedades más exclusivas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -552,9 +602,9 @@
         // Mostrar la gráfica correspondiente al año seleccionado
         document.getElementById(`categoriaData${year}`).style.display = 'block';
 
-        // Actualizar el botón de interpretación para abrir el modal correcto
+        // Actualizar el botón de interpretación según el año seleccionado
         const interpretationButton = document.getElementById('interpretationButtonCategoria');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+        interpretationButton.setAttribute('data-bs-target', `#creditSegmentationModal${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
@@ -564,11 +614,13 @@
 </script>
 
 
+
+
 <!-- Columna completa: g_bar_tiempoventa_total -->
 <div class="col-md-6">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (General)</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -580,7 +632,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -595,7 +647,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras que visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras A, B, C, D, E, L y S) y barras individuales dentro de cada grupo corresponden a diferentes rango de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -613,13 +665,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es posible notar que el mercado inmobiliario de Pachuca de Soto es consistente en el tiempo que que tardas las propiedades en venderse.</p>
-
-                <p>Sin embargo, el segmento <strong>E</strong> tiene una participación importante de <strong>7</strong> a <strong>9</strong> meses. Un caso muy parecido al segmento <strong>D</strong>, con la diferencia de la cantidad de propiedades se venden.</p>
-
-                <p>Los segmentos <strong>C</strong>, <strong>B</strong> y <strong>A</strong> poseen tiempos de venta más homogéneos.</p>
-
-                <p>Mientras que, el segmento <strong>S</strong> comienza a tener participación en periodos más extendidos más de <strong>10</strong> meses, esto puede deberse a que es un segmento con precios altos.</p>
+                <p>Las propiedades que han estado menos tiempo en el mercado (de 7 a 10 meses) representan la mayor cantidad, con <strong>75</strong>, <strong>76</strong>, <strong>88</strong> y <strong>67</strong> viviendas, respectivamente. Esto puede deberse a la alta demanda inmobiliaria en <strong>Tulancingo</strong>, que ha crecido gracias a la expansión industrial.</p>
+                <p>Las propiedades con antigüedad media (11 a 15 meses) muestran una caída progresiva, con <strong>35</strong>, <strong>39</strong>, <strong>26</strong> y <strong>17</strong> viviendas, lo que podría indicar que las viviendas que no se venden en el primer año tienden a perder atractivo debido a la oferta continua de opciones más nuevas y mejor ubicadas.</p>
+                <p>Por último, las viviendas que han permanecido más tiempo en el mercado (de 16 meses a más de 24 meses) muestran los valores más bajos, con solo <strong>7</strong>, <strong>13</strong> y <strong>29</strong> propiedades, respectivamente. Esta baja absorción puede ser reflejo de una saturación del mercado o de precios por encima de la capacidad adquisitiva de los compradores locales, una ciudad donde el crecimiento acelerado ha generado un mercado inmobiliario con segmentos de difícil acceso para ciertas poblaciones.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -633,7 +681,7 @@
 <div class="col-md-6">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (Segmentos)</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -645,7 +693,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempoventa_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -660,7 +708,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+                <p>El gráfico de barras muestra el tiempo estimado de venta de propiedades en diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada grupo de barras representa un segmento y las barras individuales dentro de cada grupo corresponden a diferentes <strong>meses</strong> de antigüedad de las propiedades. La altura de cada barra indica el <strong>número</strong> de casas vendidas en ese segmento y con ese tiempo de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -678,11 +726,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es posible notar que en el mercado inmobiliario de Pachuca de Soto gran parte de las propiedades se venden en los primeros meses, desde el día en el que se ofertaron hasta el momento en el que se concretó la compra, esto muestra lo dinámico que es el mercado en la zona.</p>
-                
-                <p>Pasando los 12 meses, la cantidad de propiedades ofertadas es menor.</p>
-                
-                <p>Por otro lado, aunque con poca participación, hay propiedades que pueden tardar más de 24 meses en ser vendidas.</p>
+                <p>Los segmentos de menor valor, como el segmento <strong>"E"</strong> (económico) y el <strong>"D"</strong> (popular), concentran la mayor cantidad de propiedades con tiempos de venta entre <strong>7</strong> y <strong>10</strong> <strong>meses</strong>, principalmente <strong>9</strong> <strong>meses</strong> para el segmento <strong>D</strong>, lo que sugiere una alta demanda por viviendas más accesibles, en parte impulsada por la disponibilidad de créditos y la composición sociodemográfica local, que incluye una población mayormente de ingresos medios y bajos. Por otro lado, segmentos de precio intermedio, como <strong>"C"</strong> y <strong>"B"</strong>, presentan tiempos de venta más variables, con picos en antigüedad de <strong>10</strong> a <strong>12</strong> <strong>meses</strong>, reflejando una menor estabilidad en la demanda de propiedades de este rango de precio.</p>
+                <p>Para los segmentos de mayor valor, como <strong>"S"</strong> y <strong>"L"</strong>, el tiempo de venta tiende a prolongarse debido a la baja proporción de compradores con suficiente capacidad económica para adquirir propiedades de alta gama en <strong>Tulancingo</strong>. Además, factores como la falta de infraestructura de lujo en la ciudad y la concentración de personas con altos ingresos en municipios vecinos como <strong>Pachuca</strong> podrían estar limitando la absorción de propiedades residenciales premium en estos segmentos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -696,41 +741,34 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población por género y rango de edad</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
-                <div class="mb-3">
-                    <select class="form-select me-2" id="locationSelect" onchange="showLocationData(this.value)">
-                        <option value="pachuca">Hidalgo</option>
-                        <option value="ciudad">Pachuca</option>
-                    </select>
-                </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPiramid">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPiramid">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_piramid_poblacion_edad_gen_hidalgo.html" width="100%" height="400" frameborder="0" id="pachucaData" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="ciudadData" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+<div class="modal fade" id="descriptionModalPiramid" tabindex="-1" aria-labelledby="descriptionModalLabelPiramid" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabelPiramid">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de la población por rango de edad y género en la ciudad de Pachuca de Soto en los últimos años.</p>
+                <p>La gráfica proporciona una representación visual de la población de Tulancingo de Bravo, segmentada por rangos de edad y género para observar cómo se distribuye la población en el estado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -740,15 +778,15 @@
 </div>
 
 <!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+<div class="modal fade" id="interpretationModalPiramid" tabindex="-1" aria-labelledby="interpretationModalLabelPiramid" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelPiramid">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En la ciudad de Pachuca de Soto gran parte de la población se encuentra en un rango de edad de entre  20 a 49 años, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa.</p>
+                <p>En la pirámide poblacional de <strong>Tulancingo de Bravo</strong> se puede observar que la población que más predomina en distribución es el rango de <strong>15 a 19 años</strong>, pero también de <strong>20 a 49 años</strong> se tiene un gran volumen lo cual representa que gran parte de los habitantes tienen la edad en la cual están en posibilidades de adquirir una vivienda.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -757,165 +795,71 @@
     </div>
 </div>
 
-<!-- Script para controlar la visualización de gráficas -->
-<script>
-    function showLocationData(location) {
-        // Ocultar todas las gráficas
-        document.getElementById('pachucaData').style.display = 'none';
-        document.getElementById('ciudadData').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la ubicación seleccionada
-        if (location === 'pachuca') {
-            document.getElementById('pachucaData').style.display = 'block';
-        } else if (location === 'ciudad') {
-            document.getElementById('ciudadData').style.display = 'block';
-        }
-
-        // Actualizar el botón de interpretación según la ubicación seleccionada
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal9`);
-    }
-
-    // Mostrar la gráfica de Pachuca por defecto al cargar la página
-    window.onload = function() {
-        showLocationData('pachuca');
-    };
-</script>
 
 
 
-        <!-- g_bar_distribucion_segmentos -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución créditos por segmentos</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="yearSelect" onchange="showYearlyDataSet2(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal">Interpretación</button>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Mitad izquierda: Tendencia de Mercado & Dinámica de Precios -->
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title subtitle mb-3 text-center">Tendencia de precios por segmento</h5>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie me-2"></i>
+                            <span class="developer-label">Desarrollador</span>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                    </div>
                 </div>
             </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s2" style="display: none;"></iframe>
-            </div>
         </div>
     </div>
 </div>
 
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles en el año. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio. Si se observa una mayor proporción en segmentos de menor valor, sugiere que los compradores se inclinan por propiedades más accesibles. Por el contrario, una concentración en segmentos altos indicaría una demanda por inmuebles de lujo.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
+<!-- Modal Descripción -->
+<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="descriptionModalLabel">Descripción</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
     </div>
+  </div>
 </div>
 
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El predominio de los créditos en el segmento E (<strong>54.6%</strong>) refleja una alta demanda por propiedades de menor precio, donde hay una oferta considerable de inmuebles más accesibles. Esto puede estar relacionado con el nivel adquisitivo de la mayoría de la población en Pachuca de Soto y la estructura del mercado inmobiliario.</p>
-
-                <p>Esta distribución puede explicarse también por la composición económica de la ciudad, que cuenta con una fuerte participación de sectores como la industria manufacturera, comercio, servicios y construcción; lo que genera una clase trabajadora enfocada en propiedades de bajo a mediano costo.</p>
-
-                <p>El segmento S, a pesar de ser más costoso, representa un <strong>6.41%</strong> de los créditos, lo cual indica un nicho de mercado de alta gama, probablemente impulsado por una pequeña élite económica.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
+<!-- Modal Interpretación -->
+<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="interpretationModalLabel">Interpretación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Variabilidad en los segmentos: Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios. El segmento <strong>A</strong> Experimenta un aumento en el precio (<strong>27.35%</strong>), aunque es el menor de todos los segmentos. El segmento <strong>B</strong> Presenta un aumento (<strong>35.05%</strong>) más pronunciada en comparación con el segmento <strong>A</strong>. El segmento <strong>C</strong> Muestra un aumento en el precio (<strong>58.89%</strong>) de todos los segmentos, lo que indica un alza significativa en sus precios. El segmento <strong>D</strong> Este segmento experimenta un aumento considerable en su precio (<strong>92.09%</strong>), destacándose como el único con una tendencia al alza. El segmento <strong>E</strong>: Muestra una disminución en el precio (<strong>-1.08%</strong>), aunque no tan pronunciada como en los segmentos <strong>B</strong> y <strong>C</strong>. El segmento <strong>S</strong> no presenta cambio en sus precios.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
     </div>
+  </div>
 </div>
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El segmento E continúa siendo el mayor receptor de créditos en 2023, con un <strong>56.5%</strong>, lo que sugiere que sigue existiendo una fuerte demanda por propiedades más económicas.</p>
-
-                <p>Esto puede estar relacionado con los niveles de ingresos predominantes en la región y una oferta inmobiliaria enfocada en propiedades accesibles para la clase trabajadora de Pachuca de Soto.</p>
-
-                <p>Sin embargo, la estabilidad del segmento S, que recibe el <strong>7.23%</strong> de los créditos, indica la persistencia de un mercado de alta gama, probablemente dirigido a inversionistas o un grupo que percibe mayores ingresos.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El segmento E sigue siendo el más demandado con el <strong>53.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor.</p>
-
-                <p>El crecimiento del segmento D (<strong>20.5%</strong>) y C (<strong>8.96%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio.</p>
-
-                <p>El segmento S (<strong>7.2%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script -->
-<script>
-    function showYearlyDataSet2(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyData${y}s2`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyData${year}s2`).style.display = 'block';
-        }
-
-        // Actualizar el botón de interpretación según el año
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-    }
-</script>
-
 
 
 
