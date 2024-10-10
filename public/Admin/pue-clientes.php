@@ -206,12 +206,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento de <strong>2.61</strong> a <strong>4.00</strong> UMAs concentra la mayor cantidad de créditos, lo que podría explicarse porque muchos solicitantes de créditos se encuentran en este nivel de ingresos, posiblemente porque tienen la estabilidad económica suficiente para acceder a créditos sin caer en niveles de ingresos más bajos.</p>
-                <p>El <strong>15.5%</strong> de los créditos otorgados en el segmento de ingresos menores o iguales a <strong>2.60</strong> UMAs sugiere que una parte considerable de la población de Tulancingo aún depende de créditos accesibles para viviendas más económicas.</p>
-                <p>El rango de <strong>6.01</strong> a <strong>9.00</strong> UMAs, con el <strong>20.2%</strong>, destaca también como un sector importante, posiblemente debido a que las personas en este rango de ingresos tienen un mayor poder adquisitivo para financiar viviendas de mayor valor, aunque no tanto como los segmentos superiores.</p>
-                <p>El rango de ingresos de <strong>4.01</strong> a <strong>6.00</strong> UMAs representa el <strong>12.8%</strong>, lo que indica que existe un grupo significativo de personas con ingresos medianos que buscan financiamiento, aunque en menor proporción que los rangos inferiores y superiores.</p>
-                <p>La menor participación en el segmento de <strong>9.01</strong> a <strong>12</strong> UMAs (<strong>7.7%</strong>) podría reflejar que las personas con ingresos dentro de este rango pueden no requerir tanto financiamiento o prefieren otros métodos.</p>
-                <p>Por último, el <strong>20.2%</strong> en el segmento superior a <strong>12</strong> UMAs sugiere que una parte considerable de la población de altos ingresos también está accediendo a créditos para inmuebles de mayor valor.</p>
+            <p>
+                El gráfico muestra que los créditos otorgados en la ciudad de <strong>Puebla</strong> en <strong>2022</strong> están concentrados principalmente en dos rangos: el de menor <strong>UMAS</strong> (≤2.60) y el de mayor <strong>UMAS</strong> (>12.00), con <strong>22%</strong> y <strong>20%</strong> respectivamente. Esto indica una clara polarización en la distribución del crédito, sugiriendo que existe un grupo importante de personas con acceso a créditos más económicos, mientras que un porcentaje casi similar de créditos se destina a personas con mayor capacidad adquisitiva.
+            </p>
+            <p>
+                El rango intermedio (de <strong>2.61 a 12 UMAS</strong>) muestra una distribución fragmentada entre el <strong>11%</strong> y el <strong>17%</strong>, lo cual sugiere que existe una clase media con una capacidad de crédito limitada que se dispersa entre distintos niveles. Factores socioeconómicos como la disparidad de ingresos, la capacidad de endeudamiento y la disponibilidad de vivienda accesible pueden explicar estos resultados. La concentración en los créditos de menor valor podría reflejar también las políticas de apoyo a vivienda de interés social en la región, mientras que los créditos superiores a <strong>12 UMAS</strong> corresponden a propiedades de mayor valor, apuntando a un segmento de población con mejores condiciones económicas.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -227,10 +228,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento más alto en créditos otorgados corresponde a los ingresos entre <strong>2.61</strong> y <strong>4.00</strong> UMAS con un <strong>23.9%</strong>. Lo cual es indicativo de una clase con ingresos relativamente bajos que puede acceder a financiamientos moderados. Le sigue el grupo de ingresos entre <strong>6.01</strong> y <strong>9.00</strong> UMAS, que representa el <strong>19.3%</strong>. Esto puede estar relacionado con un aumento en el número de personas con capacidad de acceder a créditos de mayor monto, impulsado por la estabilidad económica de esta población.</p>
-                <p>El rango de <strong>4.01</strong> a <strong>6.00</strong> UMAS registra un <strong>14.1%</strong>, mostrando una tendencia moderada de personas de ingresos medios-bajos que acceden a estos niveles de crédito. Mientras que el <strong>15.4%</strong> de los créditos está dirigido a personas con ingresos superiores a <strong>12</strong> UMAS, lo cual indica una presencia de inversionistas o compradores con mayor poder adquisitivo, aunque es menor en comparación con otros grupos.</p>
-                <p>Por otro lado, el segmento de ingresos menores o iguales a <strong>2.60</strong> UMAS representa el <strong>16.3%</strong> del total de los créditos, lo que sugiere que una parte significativa de la población aún depende de créditos pequeños. Finalmente, el rango de <strong>9.01</strong> a <strong>12.00</strong> UMAS representa un <strong>11.1%</strong>, indicando que este grupo puede no estar tan interesado en adquirir créditos u obtienen otro tipo de financiamiento.</p>
-                <p>Estos porcentajes reflejan un equilibrio entre la clase media-baja y media-alta de Tulancingo, lo que podría deberse a las políticas de financiamiento regionales, así como a las condiciones socioeconómicas predominantes en la ciudad.</p>
+            <p>
+                En el año <strong>2023</strong>, vemos nuevamente polarización en la distribución de los créditos, con la mayor parte de los créditos concentrados en dos sectores, aunque uno de ellos cambia respecto al año anterior. Los más altos porcentajes los tienen los segmentos de entre <strong>2.61 a 4 UMAS</strong> (<strong>18%</strong>) y el superior a <strong>12 UMAs</strong> (<strong>21%</strong>). El segmento de <strong>menor o igual a 2.60 UMAs</strong> (<strong>17%</strong>) muestra una caída considerable, pasando del <strong>22%</strong> el año anterior al <strong>17%</strong>.
+            </p>
+            <p>
+                Esto nos podría indicar que ahora menos personas podrían estar teniendo acceso a los créditos más económicos, debido a que el sector siguiente apenas aumentó un <strong>1%</strong>, por lo que no podríamos hablar de un proceso de movilidad. El resto de los segmentos se mantiene prácticamente estable, lo que nos permite concluir que el mercado es estable para segmentos de precios medios-altos.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -246,8 +250,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La alta participación en los rangos de ingresos de <strong>2.61</strong> a <strong>4.00</strong> UMAS y <strong>4.01</strong> a <strong>6.00</strong> UMAS y la relativamente pequeña, pero considerable participación del rango de menos de <strong>2.6</strong> UMAS con el <strong>14.4%</strong> podría estar relacionada con políticas de vivienda accesible y apoyos gubernamentales en la región, facilitando la compra de propiedades a la clase media-baja.</p>
-                <p>El segmento de <strong>6.01</strong> a <strong>9</strong> UMAS, con un <strong>16.6%</strong>, refleja una participación importante pero un poco menor, posiblemente debido a las limitaciones de crédito en este rango. La baja participación en los segmentos de <strong>9.01</strong> a <strong>12</strong> UMAS (<strong>8.6%</strong>) y en el de mayores ingresos (> <strong>12</strong> UMAS con un <strong>13.9%</strong>) puede sugerir que el mercado está más enfocado en facilitar el acceso a quienes tienen ingresos más moderados, mientras que los niveles más altos tienden a usar otros mecanismos de financiamiento.</p>
+            <p>
+                En el <strong>2024</strong>, la polarización entre los segmentos de más de <strong>12 UMAS</strong> y de entre <strong>2.61 a 4 UMAS</strong> se consolida con una ligera reducción en el primero, así como un pequeño incremento en el segundo, alcanzando el mismo porcentaje de <strong>20%</strong> en este año. El segmento de <strong>6.01 a 9 UMAS</strong> disminuye un punto porcentual y el de <strong>9.01 a 12 UMAS</strong> aumenta un punto porcentual, ambos respecto al año pasado.
+            </p>
+            <p>
+                Mientras que el segmento de <strong>4.01 a 6 UMAS</strong> se mantiene en <strong>16%</strong>, lo que también refuerza la idea de un mercado estable para precios medios-altos. Por último, vemos que la participación del segmento de menos de <strong>2.6 UMAS</strong> sigue bajando, lo que puede sugerir aún mayores dificultades para acceder a créditos más económicos o un proceso de movilidad social, ya que el siguiente segmento crece el <strong>2%</strong> que se reduce el primero del <strong>2023</strong> al <strong>2024</strong>.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -326,8 +335,19 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La alta proporción de créditos destinados a vivienda usada (<strong>51.1%</strong>) en Tulancingo podría estar vinculada a factores económicos locales, como una mayor accesibilidad a propiedades más asequibles en el mercado secundario. La menor participación de vivienda nueva (<strong>26.7%</strong>) sugiere una oferta limitada o precios elevados que restringen el acceso a este tipo de propiedades. Además, la considerable asignación para mejoramientos (<strong>18.3%</strong>) refleja una tendencia de inversión en la mejora de viviendas existentes, lo que podría estar relacionado con un envejecimiento del parque habitacional o la necesidad de actualizar propiedades. Por último, el pequeño porcentaje destinado a otros programas (<strong>4.0%</strong>) podría sugerir que estos programas no son muy conocidos o utilizados en la región.</p>
-                <p>Este comportamiento puede estar influenciado por las condiciones socioeconómicas de Tulancingo, como una menor capacidad de adquisición para nuevas viviendas o un mayor enfoque en propiedades ya existentes como inversión.</p>
+            <p>
+                El gráfico muestra una preferencia marcada hacia la adquisición de inmuebles nuevos en la ciudad de <strong>Puebla</strong>, con el <strong>41%</strong> del total de créditos otorgados. Este fenómeno podría estar vinculado con el crecimiento urbano que ha experimentado la ciudad en los últimos años, favorecido por el desarrollo de nuevos complejos habitacionales y la expansión de las periferias. La demanda de viviendas nuevas también se puede explicar por el atractivo de las amenidades modernas, la mayor seguridad y el diseño eficiente de estos desarrollos, así como por el acceso a facilidades de crédito promovidas por organismos como <strong>Infonavit</strong> o <strong>Fovissste</strong>, que ofrecen incentivos para la compra de viviendas nuevas.
+            </p>
+            <p>
+                En segundo lugar, se encuentra el destino de créditos para mejoramientos de inmuebles con un <strong>30%</strong>. Esta tendencia podría estar motivada por el incremento de costos en nuevas construcciones y la saturación de ciertas zonas del mercado inmobiliario. Las personas prefieren mejorar la calidad de sus viviendas existentes en lugar de asumir los gastos adicionales asociados con la compra de un nuevo inmueble. También refleja un fenómeno de rehabilitación de áreas que anteriormente no se consideraban atractivas, pero que han ganado valor gracias a proyectos de urbanización y mejora de infraestructura.
+            </p>
+            <p>
+                Los créditos para la compra de inmuebles usados representan el <strong>24%</strong> del total, una cifra considerablemente menor. Este segmento podría estar condicionado por la escasez de inmuebles usados con características atractivas y a costos competitivos. No obstante, sigue siendo una opción viable para quienes buscan ubicaciones céntricas o barrios tradicionales, donde las construcciones más recientes son limitadas.
+            </p>
+            <p>
+                Finalmente, los créditos para otros programas constituyen apenas el <strong>5%</strong> del total, lo que refleja que esta modalidad aún no ha encontrado un espacio sólido dentro del mercado poblano. Este grupo podría incluir créditos para autoconstrucción o proyectos especiales, los cuales requieren requisitos específicos y podrían estar menos disponibles en la oferta crediticia actual.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
