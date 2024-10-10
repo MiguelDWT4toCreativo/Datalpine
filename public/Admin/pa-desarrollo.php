@@ -737,7 +737,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Con un <strong>49.1%</strong> y <strong>37.6%</strong> de la participación, la distribución de <strong>3</strong> y <strong>4</strong> recámaras, respectivamente, es la más frecuente. Lo que sugiere que es común encontrar propiedades con este número de recámaras correspondiente al tamaño de las familias de la ciudad de <strong>Pachuca de Soto</strong>. En menor proporción se encuentran las propiedades con <strong>5</strong> (<strong>6.6%</strong>), <strong>2</strong> (<strong>4.62%</strong>), <strong>6</strong> (<strong>1.65%</strong>) y <strong>1</strong> (<strong>0.454%</strong>) recámaras, esto sugiere que hay una oferta menor en propiedades con un número tan alto y tan mínimo de recámaras. </p>
+                <p>Con un <strong>41.7%</strong> de participación, las viviendas con 2 recámaras representan la categoría más frecuente, lo que sugiere que es común encontrar propiedades con este número de habitaciones en este conjunto de datos. Esto podría indicar que se trata de propiedades diseñadas para familias medianas.</p>
+
+                <p>Las categorías restantes presentan porcentajes mucho menores, lo que sugiere que son opciones menos frecuentes. Es posible que estas categorías representen propiedades más pequeñas (1 o 2 recámaras) o más grandes (4, 5 o 6 recámaras), que podrían ser adecuadas para personas solteras, parejas o familias numerosas.</p>
+
+                <p>Esta distribución puede ser debido a que las propiedades con más recámaras suelen ser más caras. Sin embargo, esto puede variar dependiendo de otros factores como la ubicación, la antigüedad y las características de la propiedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
