@@ -184,7 +184,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio.</p>
+                <p>El grafico circular muestra la distribución de los créditos por segmento inmobiliario en Puebla en valores porcentuales. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -202,7 +202,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El predominio de los créditos en el segmento <strong>E</strong> (<strong>68.7%</strong>) refleja una alta demanda por propiedades de menor precio, donde hay una oferta considerable de inmuebles más accesibles; lo cual puede estar relacionado con el nivel adquisitivo de la mayoría de la población en <strong>Tulancingo de Bravo</strong> y la estructura del mercado inmobiliario. Esto puede explicarse también por la composición económica de la ciudad, que cuenta con una fuerte participación de sectores como la industria manufacturera, comercio, servicios y construcción; lo que genera una clase trabajadora enfocada en propiedades de bajo a mediano costo. El segmento <strong>S</strong>, a pesar de ser más costoso, representa un <strong>0.63%</strong> de los créditos, lo cual indica un nicho de mercado de alta gama, probablemente impulsado por una pequeña élite económica.</p>
+                <p>En Puebla en el año 2022, el <strong>64.8%</strong> de los créditos otorgados para la compra de bienes inmuebles se destinaron a propiedades dentro del segmento S, lo que refleja que una gran parte de la población recurre a diversas instituciones financieras para adquirir su vivienda. El segundo segmento con mayor participación en créditos es el D, con un <strong>17.6%</strong>. Los segmentos con menor emisión de créditos son el A, con el <strong>1.84%</strong>, y el segmento L, con el <strong>0.425%</strong>, debido a que las propiedades de este segmento podrían ser consideradas de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -220,7 +220,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento <strong>E</strong> continúa siendo el mayor receptor de créditos en <strong>2023</strong>, con un <strong>65.1%</strong>, lo que sugiere que sigue existiendo una fuerte demanda por propiedades más económicas. Esto puede estar relacionado con los niveles de ingresos predominantes en la región y una oferta inmobiliaria enfocada en propiedades accesibles para la clase trabajadora de <strong>Pachuca de Soto</strong>. Sin embargo, la estabilidad del segmento <strong>S</strong>, que recibe el <strong>0.96%</strong> de los créditos, indica la persistencia de un mercado de alta gama, probablemente dirigido a inversionistas o un grupo que percibe mayores ingresos.</p>
+                <p>En Puebla, durante el año 2023, el <strong>59.8%</strong> de los créditos otorgados para la compra de bienes inmuebles se destinaron a propiedades dentro del segmento S, lo que indica que, aunque son créditos de menor valor, existe una alta demanda. Los segmentos D y C ocuparon el segundo y tercer lugar, con una participación del <strong>19.3%</strong> y <strong>8.58%</strong> respectivamente.</p>
+
+                <p>Por otro lado, los segmentos con menor emisión de créditos fueron el A, con un <strong>2.3%</strong>, y el segmento L, con un <strong>0.563%</strong>, debido a que estos créditos están dirigidos a la adquisición de propiedades de lujo, lo que implica un valor más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -238,7 +240,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>73.6%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>16.2%</strong>) y <strong>C</strong> (<strong>4.57%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>1.02%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
+                <p>En 2024, Puebla destinó el <strong>59.2%</strong> de los créditos otorgados a la compra de propiedades en el segmento inmobiliario S, lo que refleja que una gran parte de la población busca inmuebles de bajo valor y opta por financiamiento moderado.</p>
+
+                <p>El segundo segmento con mayor participación fue el D, con un <strong>18.9%</strong>, siguiendo la misma tendencia de créditos de menor valor.</p>
+
+                <p>Por otro lado, el segmento inmobiliario Elite recibió menos del <strong>0.5%</strong> de los créditos, debido al alto valor de las propiedades en esta categoría, lo que implicaría financiamientos significativamente elevados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -300,7 +306,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.</p>
+                <p>El grafico de barras muestra la tendencia de los precios por segmento inmobiliario en Puebla en valores porcentuales.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -318,13 +324,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Variabilidad en los segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios.</p>
-                <p><strong>Segmento A:</strong> Experimenta un aumento en el precio (27.35%), aunque es el menor de todos los segmentos.</p>
-                <p><strong>Segmento B:</strong> Presenta un aumento (35.05%) más pronunciada en comparación con el segmento A.</p>
-                <p><strong>Segmento C:</strong> Muestra un aumento en el precio (58.89%) de todos los segmentos, lo que indica un alza significativa en sus precios.</p>
-                <p><strong>Segmento D:</strong> Este segmento experimenta un aumento considerable en su precio (92.09%), destacándose como el único con una tendencia al alza.</p>
-                <p><strong>Segmento E:</strong> Muestra una disminución en el precio (-1.08%), aunque no tan pronunciada como en los segmentos B y C.</p>
-                <p><strong>Segmento S:</strong> No presenta cambio en sus precios.</p>
+                <p>La tendencia de los precios en el mercado inmobiliario de Puebla ha mostrado un comportamiento variable, con dos caídas destacadas:</p>
+
+                <p>1. La primera se dio en el segmento E, donde el precio promedio disminuyó un <strong>6,32%</strong>.</p>
+
+                <p>2. La segunda en el segmento L, con una baja del <strong>1,4%</strong>.</p>
+
+                <p>Estas caídas sugieren un posible exceso de oferta en estos segmentos.</p>
+
+                <p>Por otro lado, los segmentos D, C, B y S presentaron variaciones mínimas, con incrementos o disminuciones menores al <strong>0.3%</strong>.</p>
+
+                <p>El único segmento que mostró estabilidad total fue el S, sin ningún cambio en la tendencia de su precio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -454,11 +464,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de pastel muestra los créditos otorgados según el género del solicitante. Se divide en dos secciones principales:</p>
-                <ul>
-                    <li><strong>Hombres:</strong> Representado por el color morado, abarca el <strong>53.7%</strong> del total de créditos otorgados.</li>
-                    <li><strong>Mujeres:</strong> Representado por el color rojo, corresponde al <strong>46.3%</strong> del total de créditos otorgados.</li>
-                </ul>
+                <p>Esta gráfica distingue la diferencia en la proporción de préstamos entre hombres y mujeres en el mercado inmobiliario de Puebla. Esta información es útil para comprender las tendencias de financiamiento y la participación de cada género en términos de acceso a créditos. Al visualizar esta distribución, se pueden identificar posibles disparidades o patrones en la obtención de préstamos inmobiliarios entre hombres y mujeres, lo que puede ser valioso para analizar la equidad en el acceso al financiamiento en el sector inmobiliario de la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -476,7 +482,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo con el gráfico, las <strong>mujeres</strong> representan una menor proporción de los solicitantes de créditos en comparación con los <strong>hombres</strong>. Esto significa que los <strong>hombres</strong> tienden a solicitar y obtener créditos con mayor frecuencia. Esto podría ser gracias a que los factores socioeconómicos, como los <strong>ingresos</strong>, el <strong>empleo</strong> y la <strong>educación</strong>, pueden influir en la capacidad de las <strong>mujeres</strong> para acceder al crédito. Históricamente, las <strong>mujeres</strong> han tenido menores <strong>ingresos</strong> y menos oportunidades laborales, lo que podría limitar su acceso a productos financieros.</p>
+                <p>La gráfica muestra una mayor proporción del <strong>57%</strong> para hombres y un <strong>43%</strong> para mujeres. Esta diferencia indica que los hombres siguen predominando en la obtención de créditos para vivienda en Puebla, lo que podría estar relacionado con varios factores socioeconómicos, como mayores ingresos promedio o acceso a oportunidades laborales que les permiten calificar para financiamiento más fácilmente.</p>
+
+                <p>Por otro lado, el hecho de que las mujeres representen el <strong>43%</strong> muestra una significativa participación en el mercado crediticio, reflejo de su creciente inclusión financiera y una mayor estabilidad económica para el segmento femenino.</p>
+
+                <p>Además, este dato podría reflejar el impacto de programas que promueven la igualdad de género en el acceso a recursos financieros y en la propiedad de bienes inmuebles.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -525,7 +535,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra el <strong>porcentaje</strong> de créditos otorgados por diferentes categorías (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>, <strong>S</strong>, <strong>Elite</strong>) a lo largo de <strong>cuatro trimestres</strong>. Cada barra representa una categoría, y las diferentes secciones de cada barra corresponden a los <strong>porcentajes</strong> de créditos otorgados en cada trimestre.</p>
+                <p>El grafico de barras muestra la distribución porcentual de los créditos por segmento inmobiliario  trimestralmente en Puebla. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -543,10 +553,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Dominancia de la categoría E:</strong> A lo largo de los cuatro trimestres, la categoría E concentra la mayor proporción de créditos otorgados. Esto sugiere que esta categoría representa un segmento de mercado o tipo de crédito particularmente relevante para la entidad financiera.</p>
-                <p><strong>Categoría E:</strong> Como se mencionó anteriormente, esta categoría es la más relevante en términos de volumen de créditos otorgados. Su participación relativamente estable a lo largo del tiempo sugiere una demanda constante por este tipo de crédito.</p>
-                <p><strong>Categoría D:</strong> La categoría D también presenta una participación significativa y relativamente estable. Esto podría indicar que representa un segmento de mercado complementario al de la categoría E.</p>
-                <p><strong>Categorías A, B, L, C y S:</strong> Estas categorías presentan una participación menor y más variable en comparación con las categorías E y D. Las fluctuaciones en sus porcentajes podrían estar relacionadas con factores específicos de cada categoría, como cambios en las políticas de crédito, condiciones económicas o preferencias de los clientes.</p>
+                <p>En <strong>2022</strong> se otorgaron <strong>12,163</strong> créditos en Puebla. Según el análisis trimestral, el segmento que recibió el mayor número de créditos fue el <strong>E</strong>, mientras que en el segmento Elite no se otorgaron créditos.</p>
+
+                <p>Durante el primer trimestre, el <strong>17.7%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>4.6%</strong>. Esta tendencia se mantuvo en el segundo trimestre, aunque con una disminución en la participación global: el segmento <strong>E</strong> bajó al <strong>16.9%</strong> y el <strong>D</strong> al <strong>4.4%</strong>.</p>
+
+                <p>En el tercer trimestre, el segmento <strong>E</strong> representó el <strong>16.1%</strong> de los créditos y el <strong>D</strong> el <strong>4.3%</strong>. Finalmente, en el cuarto trimestre, el segmento <strong>E</strong> continuó con una participación decreciente del <strong>14%</strong>, mientras que el <strong>D</strong> se mantuvo el <strong>4.3%</strong>.</p>
+
+                <p>Esto refleja una tendencia decreciente en el otorgamiento de créditos a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -564,7 +577,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En este año, se observó un aumento en la participación de las categorías <strong>C</strong> y <strong>B</strong>, lo que sugiere un crecimiento en la demanda por propiedades de rango medio. La categoría <strong>E</strong> sigue siendo importante, pero con una leve disminución en comparación con <strong>2022</strong>. Este cambio puede reflejar una mayor capacidad adquisitiva de los compradores o una recuperación económica más marcada.</p>
+                <p>En <strong>2023</strong> se otorgaron <strong>10,837</strong> créditos en Puebla. Según el análisis trimestral, el segmento que recibió el mayor número de créditos fue el <strong>E</strong>, mientras que en el segmento Elite no se otorgaron créditos.</p>
+
+                <p>Durante el primer trimestre, el <strong>13.9%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>4.1%</strong>. Esta tendencia se mantuvo en el segundo trimestre, aunque tuvo un incremento en la participación global: el segmento <strong>E</strong> creció al <strong>15.3%</strong> y el <strong>D</strong> al <strong>4.8%</strong>.</p>
+
+                <p>En el tercer trimestre, el segmento <strong>E</strong> tuvo una caída y representó el <strong>13.8%</strong> de los créditos, y el <strong>D</strong> el <strong>4.99%</strong>. Finalmente, en el cuarto trimestre, el segmento <strong>E</strong> tuvo un incremento con el <strong>16.8%</strong>, mientras que el <strong>D</strong> también incrementó con el <strong>5.2%</strong>.</p>
+
+                <p>Esto refleja una tendencia variable en el otorgamiento de créditos a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -582,7 +601,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para <strong>2024</strong>, la tendencia muestra un aumento notable en los créditos otorgados en la categoría <strong>A</strong>, lo que sugiere una mayor demanda por propiedades de lujo. Esto puede estar relacionado con un crecimiento económico más sostenido y una mayor inversión en inmuebles de alto valor. Las categorías <strong>E</strong> y <strong>D</strong> han disminuido su participación, lo que podría indicar un cambio en las preferencias del mercado hacia propiedades más exclusivas.</p>
+                <p>En <strong>2024</strong> se han otorgado <strong>5,583</strong> créditos en Puebla durante los dos primeros trimestres. Según el análisis trimestral, el segmento que ha recibido el mayor número de créditos es el <strong>E</strong>, mientras que en el segmento Elite se han otorgado la menor cantidad de créditos.</p>
+
+                <p>Durante el primer trimestre, el <strong>27.8%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>6.7%</strong>. Esta tendencia se mantuvo en el segundo trimestre, con un crecimiento en la participación total: el segmento <strong>E</strong> creció al <strong>32%</strong> y el <strong>D</strong> al <strong>10.2%</strong>.</p>
+
+                <p>Esto refleja una tendencia creciente en el otorgamiento de créditos a lo largo de los primeros trimestres del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -647,7 +670,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses, de 7 a 24 ) y su altura indica el número de casas vendidas dentro de ese rango.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -665,9 +688,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Las propiedades que han estado menos tiempo en el mercado (de 7 a 10 meses) representan la mayor cantidad, con <strong>75</strong>, <strong>76</strong>, <strong>88</strong> y <strong>67</strong> viviendas, respectivamente. Esto puede deberse a la alta demanda inmobiliaria en <strong>Tulancingo</strong>, que ha crecido gracias a la expansión industrial.</p>
-                <p>Las propiedades con antigüedad media (11 a 15 meses) muestran una caída progresiva, con <strong>35</strong>, <strong>39</strong>, <strong>26</strong> y <strong>17</strong> viviendas, lo que podría indicar que las viviendas que no se venden en el primer año tienden a perder atractivo debido a la oferta continua de opciones más nuevas y mejor ubicadas.</p>
-                <p>Por último, las viviendas que han permanecido más tiempo en el mercado (de 16 meses a más de 24 meses) muestran los valores más bajos, con solo <strong>7</strong>, <strong>13</strong> y <strong>29</strong> propiedades, respectivamente. Esta baja absorción puede ser reflejo de una saturación del mercado o de precios por encima de la capacidad adquisitiva de los compradores locales, una ciudad donde el crecimiento acelerado ha generado un mercado inmobiliario con segmentos de difícil acceso para ciertas poblaciones.</p>
+                <p>El tiempo de venta en el mercado inmobiliario de Puebla varía considerablemente. Un total de <strong>1,147</strong> propiedades tienen una antigüedad de 10 meses en el mercado, lo que convierte este rango en el más representativo.</p>
+
+                <p>Además, <strong>842</strong> propiedades se venden en el séptimo mes, lo que refleja un dinamismo notable para una cantidad significativa de inmuebles. Siguiendo esta tendencia, la mayoría de las propiedades tardan un año o menos en venderse, con un total de <strong>4,054</strong> inmuebles vendidos en 12 meses o menos.</p>
+
+                <p>Sin embargo, también es relevante mencionar que <strong>1,155</strong> propiedades superan los 16 meses en el mercado, lo que indica la existencia de un segmento que enfrenta tiempos de venta más prolongados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -708,7 +733,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra el tiempo estimado de venta de propiedades en diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada grupo de barras representa un segmento y las barras individuales dentro de cada grupo corresponden a diferentes <strong>meses</strong> de antigüedad de las propiedades. La altura de cada barra indica el <strong>número</strong> de casas vendidas en ese segmento y con ese tiempo de antigüedad.</p>
+                <p>El grafico de barras nos muestra el tiempo estimado de venta y numero de propiedades por segmento inmobiliario en Puebla. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -726,8 +751,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos de menor valor, como el segmento <strong>"E"</strong> (económico) y el <strong>"D"</strong> (popular), concentran la mayor cantidad de propiedades con tiempos de venta entre <strong>7</strong> y <strong>10</strong> <strong>meses</strong>, principalmente <strong>9</strong> <strong>meses</strong> para el segmento <strong>D</strong>, lo que sugiere una alta demanda por viviendas más accesibles, en parte impulsada por la disponibilidad de créditos y la composición sociodemográfica local, que incluye una población mayormente de ingresos medios y bajos. Por otro lado, segmentos de precio intermedio, como <strong>"C"</strong> y <strong>"B"</strong>, presentan tiempos de venta más variables, con picos en antigüedad de <strong>10</strong> a <strong>12</strong> <strong>meses</strong>, reflejando una menor estabilidad en la demanda de propiedades de este rango de precio.</p>
-                <p>Para los segmentos de mayor valor, como <strong>"S"</strong> y <strong>"L"</strong>, el tiempo de venta tiende a prolongarse debido a la baja proporción de compradores con suficiente capacidad económica para adquirir propiedades de alta gama en <strong>Tulancingo</strong>. Además, factores como la falta de infraestructura de lujo en la ciudad y la concentración de personas con altos ingresos en municipios vecinos como <strong>Pachuca</strong> podrían estar limitando la absorción de propiedades residenciales premium en estos segmentos.</p>
+                <p>En Puebla, el tiempo estimado de venta de las propiedades varía según el segmento inmobiliario al que pertenecen.</p>
+
+                <p>El segmento A muestra una alta concentración de inmuebles que tardan <strong>10 meses</strong> en venderse, con <strong>135</strong> propiedades en esta categoría. Esta tendencia también se observa en los segmentos B, C y D, con <strong>143</strong>, <strong>161</strong> y <strong>133</strong> propiedades respectivamente que requieren <strong>10 meses</strong> para venderse.</p>
+
+                <p>Sin embargo, el segmento E presenta un comportamiento diferente, ya que un gran número de sus propiedades se venden en el <strong>séptimo</strong> u <strong>octavo</strong> mes, lo que indica un mayor dinamismo en este mercado en comparación con los segmentos anteriores.</p>
+
+                <p>En el segmento L, el comportamiento es más estable, ya que las propiedades tienen una probabilidad similar de venderse en <strong>7 meses</strong> o más de <strong>19 meses</strong>.</p>
+
+                <p>Finalmente, el mercado S es el que concentra el mayor número de propiedades que tardan en venderse, con <strong>309</strong> propiedades que se comercializan principalmente en un plazo de <strong>10 meses</strong>, siendo el más lento entre todos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -741,7 +773,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Puebla por género y rango de edad</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
