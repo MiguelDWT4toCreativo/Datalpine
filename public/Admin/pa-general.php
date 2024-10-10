@@ -175,7 +175,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de créditos por segmento para el año 2022.</p>
+                <p>Distribución de segmentos. Conoce la participación en el mercado inmobiliario por segmentos <strong>(S, A, B, C, D, E)</strong>. Cada sección representa el porcentaje o proporción en ese segmento específico en relación con el total.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -193,14 +193,21 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.</p>
-                <p>- <strong>Segmento E:</strong> El subsegmento <strong>E2</strong> es el más destacado, mientras que <strong>E1 y E3</strong> tienen una menor representación, indicando una demanda más limitada en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</p>
-                <p>- <strong>Segmento D:</strong> Aunque <strong>D1</strong> y <strong>D2</strong> muestran una presencia notable, <strong>D3</strong> tienen una representación más baja, sugiriendo una demanda relativamente menor en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</p>
-                <p>- <strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</p>
-                <p>- <strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente.</p>
-                <p>Mientras que los segmentos S muestra una fuerte presencia en los extremos de la escala de precios, los segmentos A, B, C, D y E muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.</p>
+            <p>
+    La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.
+</p>
+<ul>
+    <li><strong>Segmento E:</strong> El subsegmento <strong>E2</strong> es el más destacado, mientras que <strong>E1</strong> y <strong>E3</strong> tienen una menor representación, indicando una demanda más limitada en los rangos de precios más altos.</li>
+    <li><strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</li>
+    <li><strong>Segmento D:</strong> Aunque <strong>D1</strong> y <strong>D2</strong> muestran una presencia notable, <strong>D3</strong> tiene una representación más baja, sugiriendo una demanda relativamente menor en los rangos de precios más altos.</li>
+    <li><strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</li>
+    <li><strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</li>
+    <li><strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente.</li>
+</ul>
+<p>
+    Mientras que los segmentos <strong>S</strong> muestran una fuerte presencia en los extremos de la escala de precios, los segmentos <strong>A, B, C, D y E</strong> muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.
+</p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

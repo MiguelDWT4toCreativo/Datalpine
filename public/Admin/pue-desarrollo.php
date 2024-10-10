@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Puebla | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -112,7 +112,6 @@
     <div class="row">
 
 
-        <!-- Gráfica 4: Distribución % de créditos por vivienda valor -->
 <!-- Distribución % de créditos por vivienda valor -->
 <div class="col-md-12">
     <div class="card">
@@ -172,7 +171,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra que la mayor parte de los créditos se concentró en las viviendas de tipo Tradicional (<strong>37.63%</strong>) y Media (<strong>35.19%</strong>), lo que indica una preferencia del mercado por viviendas con características intermedias en tamaño y valor. Esto puede deberse a que el segmento Tradicional se adapta mejor a las necesidades de la clase media, que representa una parte significativa de la población de Tulancingo. En cambio, la vivienda Económica y Residencial Plus tienes participaciones marginales (<strong>4.88%</strong> y <strong>0.35%</strong> respectivamente), lo que refleja una baja demanda para propiedades en los extremos del espectro de valor respecto a los tipos popular y residencial, podemos observar que tienen participaciones relativamente pequeñas y similares. Lo cual se puede deber a  que cada uno atiende un mercado más pequeño: el Popular por capacidad adquisitiva y el Residencial por preferencia hacia viviendas de mayor valor. La alta preferencia por viviendas Tradicionales y Medias podría estar influenciada por factores como el nivel de ingresos y las políticas locales de financiamiento de vivienda, que tienden a favorecer propiedades de estos segmentos debido a su mayor accesibilidad para la población.</p>
+            <p>
+                La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>29.25%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las <strong>residenciales</strong> (<strong>13.12%</strong>) y <strong>tradicionales</strong> (<strong>27.58%</strong>), la categoría de <strong>"vivienda media"</strong> domina el mercado.
+            </p>
+            <p>
+                Las viviendas <strong>económicas</strong>, <strong>popular</strong> y de <strong>lujo</strong>, con un <strong>7.21%</strong>, <strong>13.12%</strong> y <strong>3.79%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+            </p>
+
             
             </div>
             <div class="modal-footer">
@@ -189,7 +194,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2023, el segmento Tradicional (<strong>35.19%</strong>) y el Media (<strong>35.19%</strong>) dominan el mercado, sugiriendo una preferencia por viviendas de valor intermedio. La categoría Popular crece a <strong>17.07%</strong>, lo que indica una mayor demanda en este tipo de vivienda debido posiblemente a políticas de financiamiento accesibles y aumento en la construcción de vivienda asequible. La categoría Económica y Residencial muestran el mismo porcentaje (<strong>5.23%</strong>). Estos dos segmentos serían entonces nichos de mercado pequeños, lo cual es indicativo de menor disponibilidad o preferencia por estos segmentos en comparación con otros tipos de vivienda. Por último, esta la categoría residencial Plus, con la menor participación, este sería un nicho aún más pequeño, debido a que está dirigido a personas de altos ingresos y que buscan el mayor lujo.</p>
+            <p>
+                La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>32.19%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las <strong>residenciales</strong> (<strong>14.01%</strong>) y <strong>tradicionales</strong> (<strong>28.96%</strong>), la categoría de <strong>"vivienda media"</strong> domina el mercado.
+            </p>
+            <p>
+                Las viviendas <strong>económicas</strong>, <strong>popular</strong> y <strong>residencial plus</strong>, con un <strong>3.85%</strong>, <strong>16.86%</strong> y <strong>4.12%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -205,7 +216,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2024, las categorías de vivienda Media (<strong>35.33%</strong>) y Tradicional (<strong>34.67%</strong>) concentraron nuevamente la mayor parte de los créditos, indicando una preferencia por viviendas de costo intermedio, posiblemente debido a la combinación de características accesibles y mayores prestaciones. La vivienda Popular continúa creciendo, ahora representa el <strong>20%</strong> del total, siendo esto indicativo de una creciente demanda significativa por propiedades de menor costo. La categoría Económica muestra un valor mínimo (<strong>0.67%</strong>), lo que podría deberse a crecientes limitaciones de financiamiento este rango. El segmento Residencial (<strong>7.33%</strong>) y Residencial Plus (<strong>2%</strong>) tienen baja participación, lo que podría explicarse por la menor proporción de consumidores que optan por propiedades de alto valor, un fenómeno que se ve influenciado por el contexto económico, como la inflación y las tasas de interés, que tienden a afectar más a los segmentos de lujo y reducir la demanda en estos sectores.</p>
+            <p>
+                La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>34.74%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las <strong>residenciales</strong> (<strong>16.29%</strong>) y <strong>tradicionales</strong> (<strong>27.28%</strong>), la categoría de <strong>"vivienda media"</strong> domina el mercado.
+            </p>
+            <p>
+                Las viviendas <strong>económicas</strong>, <strong>popular</strong> y <strong>residencial plus</strong>, con un <strong>0.62%</strong>, <strong>16.37%</strong> y <strong>4.70%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -299,7 +316,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El organismo con mayor porcentaje de créditos otorgados es INFONAVIT, con un <strong>44.44%</strong>, destacando como la principal fuente de financiamiento. Los siguientes en importancia son CNBV y FOVISSSTE, cada uno con un <strong>27.61%</strong> de participación, lo que indica que tienen una contribución equilibrada. Finalmente, BANJERCITO representa solo el <strong>0.34%</strong>, reflejando su nicho específico en el mercado de crédito. La diferencia en participación podría explicarse por el tipo de población atendida por cada organismo: INFONAVIT cubre a la mayor parte de los trabajadores asalariados, mientras que FOVISSSTE está dirigido a empleados del sector público y BANJERCITO a miembros de las fuerzas armadas, estos últimos siendo una minoría.</p>
+            <p>
+                Al observar la gráfica podemos deducir que <strong>INFONAVIT</strong> y <strong>CNBV</strong> dominan el mercado de créditos con un <strong>46.10%</strong> y <strong>35.80%</strong> respectivamente, siendo las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.
+            </p>
+            <p>
+                <strong>FOVISSTE</strong> tiene una participación menor pero significativa con un <strong>10.90%</strong>. El FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.
+            </p>
+            <p>
+                <strong>BANJERCITO</strong>, <strong>INSUS</strong> y <strong>CONAVI</strong> tienen una participación mínima, ya que estas tres últimas instituciones muestran un porcentaje menor a <strong>7.5%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -315,7 +341,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Durante 2023. Los tres organismos principales son Infonavit, CNBV y Fovissste, con Infonavit ocupando el mayor porcentaje (<strong>54.72%</strong>), seguido de CNBV (<strong>23.78%</strong>) y Fovissste (<strong>21.50%</strong>). El hecho de que Infonavit tenga un porcentaje significativamente mayor se debe a su orientación hacia trabajadores de menores ingresos, lo que lo hace más accesible y una opción predominante en la región. Mientras tanto, CNBV y Fovissste atienden a un perfil de trabajadores con mayores ingresos o características específicas, como empleados del sector público (Fovissste). La concentración en Infonavit sugiere una prevalencia de créditos destinados a vivienda popular o media en la zona.</p>
+            <p>
+                Al observar la gráfica podemos deducir que <strong>INFONAVIT</strong> y <strong>CNBV</strong> dominan el mercado de créditos con un <strong>55%</strong> y <strong>31.80%</strong> respectivamente, siendo las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.
+            </p>
+            <p>
+                <strong>FOVISSTE</strong> tiene una participación menor pero significativa con un <strong>9.60%</strong>. El FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.
+            </p>
+            <p>
+                <strong>BANJERCITO</strong>, <strong>INSUS</strong> y <strong>CONAVI</strong> tienen una participación mínima o nula, ya que estas tres últimas instituciones muestran un porcentaje menor a <strong>4%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -331,7 +366,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2024 se observa que el INFONAVIT concentra <strong>63.87%</strong> del total de créditos, una proporción significativamente mayor en comparación con los demás organismos. Esto puede deberse a la accesibilidad de sus programas de financiamiento, destinados principalmente a trabajadores con ingresos bajos y medios, lo que lo hace la opción preferida en esta región. Por otro lado, FOVISSSTE cubre un <strong>19.37%</strong>, siendo relevante para empleados del sector público, mientras que la CNBV representa el <strong>16.75%</strong>, orientándose hacia un perfil más diversificado. La tendencia refleja cómo las características de empleo y la dinámica laboral de la región influencian las decisiones de financiamiento.</p>
+            <p>
+                Al observar la gráfica podemos deducir que existe dominancia de <strong>INFONAVIT</strong> y <strong>CNBV</strong>. Es evidente que el <strong>INFONAVIT</strong> y la <strong>CNBV</strong> son las instituciones que concentran la mayor parte de los porcentajes de créditos otorgados, con un <strong>61%</strong> y <strong>29.50%</strong> respectivamente. Estas dos entidades son las principales proveedoras de financiamiento a la población.
+            </p>
+            <p>
+                Aunque con una menor participación, el <strong>FOVISSTE</strong> también tiene una presencia significativa en el otorgamiento de créditos, alrededor del <strong>8.30%</strong>.
+            </p>
+            <p>
+                En cuanto a <strong>BANJERCITO</strong> y <strong>CONAVI</strong>, muestran una participación menor a <strong>1.5%</strong>, por lo que estas instituciones otorgan una cantidad muy baja de créditos.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -388,8 +432,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -404,7 +448,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica <strong>muestra la distribución del número de estacionamientos</strong> de los inmuebles en <strong>Tulancingo</strong>, clasificados por segmentos de precio. Las barras representan el número de casas distribuidas en <strong>siete segmentos</strong>: E, D, C, B, A, S y L, que reflejan el rango de precios de las propiedades de las más <strong>económicas</strong> a las más <strong>caras</strong>. El color de las barras indica el número de estacionamientos, variando de <strong>1</strong> a <strong>6</strong> y con una diferencia notable entre los distintos segmentos. Este gráfico es útil para entender cómo la oferta de estacionamientos varía según el rango de precios y qué segmentos están mejor equipados en términos de infraestructura para vehículos.</p>
+            En gráfico de pastel se visualiza la distribución de estacionamientos de manera general en el mercado inmobiliario de <strong>Puebla</strong>. Cada porción del círculo representa un porcentaje de un numero específico de estacionamiento.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -422,9 +466,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico muestra que el <strong>48.9%</strong> de los inmuebles en <strong>Tulancingo</strong> cuentan con un solo estacionamiento, seguido de un <strong>46.9%</strong> que tiene dos estacionamientos, lo que sugiere que la mayoría de las propiedades en la ciudad están orientadas hacia familias o individuos que poseen uno o dos vehículos. Las opciones con tres o más estacionamientos son significativamente menos comunes, con porcentajes que no superan el <strong>3%</strong>.</p>
-                <p>Este patrón puede explicarse por el contexto económico y socio-cultural de la región, donde la mayoría de las familias tienen un nivel adquisitivo que les permite poseer uno o dos vehículos, pero las propiedades más grandes o lujosas, con más espacios de estacionamiento, son más escasas y, generalmente, están dirigidas a una pequeña porción de la población con mayor capacidad económica.</p>
-                <p>Además, la falta de propiedades con más de tres estacionamientos podría indicar una tendencia hacia viviendas más compactas, lo cual es común en zonas urbanas o semiurbanas donde el espacio puede ser limitado. Contextualmente, esto coincide con el hecho de que <strong>Tulancingo</strong> es una ciudad en crecimiento, pero aún no ha alcanzado el nivel de urbanización de ciudades más grandes donde las propiedades más amplias son más comunes y los segmentos más altos de la población tienen mayor acceso a viviendas con múltiples estacionamientos.</p>
+            <p>
+                En el mercado inmobiliario de <strong>Puebla</strong>, un porcentaje importante de viviendas cuenta con <strong>2 estacionamientos</strong>, con un <strong>48.6%</strong> de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad. Las viviendas que poseen <strong>1 estacionamiento</strong> representan un <strong>29.4%</strong>; hay que tener en cuenta que este número es estándar, ya que todas las viviendas deben tener al menos un estacionamiento.
+            </p>
+            <p>
+                Por otra parte, las propiedades que tienen espacio para <strong>3 lugares de estacionamiento</strong> representan un <strong>11.4%</strong>. Finalmente, para el resto de las categorías, el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades con más de <strong>3 estacionamientos</strong>; estas pueden ser las que tienen más espacio.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -442,9 +490,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La distribución de estacionamientos parece estar influenciada por el tamaño de las propiedades y el precio, ya que los segmentos de mayor valor suelen ofrecer más espacio para vehículos, una tendencia común en zonas con un nivel socioeconómico más alto.</p>
-                <p>Factores económicos como el crecimiento de la clase media y la expansión urbana en <strong>Tulancingo</strong> probablemente están afectando esta distribución, ya que el aumento en la demanda de viviendas de precio medio también incrementa la necesidad de propiedades con más estacionamientos. Por otro lado, los segmentos más bajos reflejan una mayor densidad de viviendas con menos espacio, lo que se ve en la prevalencia de <strong>1</strong> estacionamiento en esos rangos.</p>
-                <p>Con estos datos, es posible identificar tendencias sobre cómo se distribuye el espacio destinado a estacionamientos según el valor de la propiedad, lo cual puede tener implicaciones en términos de planeación urbana, necesidades de movilidad  e inversión inmobiliaria en <strong>Tulancingo</strong>.</p>
+            <p>
+                Es notorio que el <strong>segmento S</strong> es el que tiene mayor concentración de propiedades con <strong>5 estacionamientos</strong>, lo que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio alto, de <strong>4 millones a 12 millones</strong>. 
+            </p>
+            <p>
+                Por su parte, los <strong>segmentos A</strong> y <strong>B</strong> son los que poseen una cantidad importante de casas con <strong>1 o 2 estacionamientos</strong>. Estas casas son consideradas de un precio medio, donde las familias de <strong>Puebla</strong> pueden acceder a ellas.
+            </p>
+            <p>
+                Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -499,8 +553,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -533,7 +587,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución del número de baños en las propiedades de Tulancingo, organizadas por segmentos de precios. En el eje vertical se observa el número total de casas en cada rango, mientras que el eje horizontal refleja la cantidad de baños. Cada segmento de precio está representado por diferentes colores, lo que permite visualizar de manera clara la relación entre el número de baños y el precio de las propiedades. Esta visualización es útil para entender cómo varía la oferta inmobiliaria en función de los servicios básicos que ofrecen las viviendas (como el número de baños) y cómo estos se relacionan con los diferentes segmentos de precio. </p>
+            <p>
+                Para las primeras cantidades de baños (<strong>1</strong>, <strong>2</strong> y <strong>3</strong>), es notorio que están abarcadas por los <strong>segmentos E, D y C</strong>, lo que corresponde al rango de precios que tienen estos segmentos, donde el número de baños está relacionado con el precio de las propiedades.
+            </p>
+            <p>
+                Por su parte, a medida que aumenta el número de baños, también lo hace la concentración de propiedades en los segmentos más altos. A partir de <strong>4</strong>, <strong>5</strong>, y <strong>6 baños</strong>, los segmentos con mayor participación son el <strong>segmento B, A y S</strong>. Los precios de estas propiedades se consideran de nivel <strong>medio-alto</strong>.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -551,11 +611,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En esta gráfica, los inmuebles con un baño representan el <strong>38.9%</strong> del total, lo que sugiere que una gran parte de las propiedades en Tulancingo están construidas para cubrir necesidades básicas, ya sea por una tendencia a viviendas más accesibles o destinadas a familias más pequeñas.</p>
-                <p>Los inmuebles con dos baños constituyen el <strong>37.8%</strong>, lo que también es considerable y refleja una preferencia por viviendas que ofrecen un mayor grado de comodidad, sin llegar a ser lujosas.</p>
-                <p>Los inmuebles con tres baños tienen una presencia del <strong>17.8%</strong>, lo cual ya podría indicar viviendas más grandes y con mayor nivel adquisitivo.</p>
-                <p>A partir de los <strong>4</strong> baños, el porcentaje comienza a descender drásticamente, reflejando que las propiedades con más de cuatro baños son mucho menos comunes en el mercado de Tulancingo.</p>
-                <p>Este comportamiento refleja cómo el contexto económico y sociocultural en Tulancingo influye en la construcción de viviendas más accesibles para el grueso de la población, con predominancia de <strong>1</strong> a <strong>2</strong> baños en la mayoría de los casos, adaptándose a la demanda de las clases media y baja que busca una distribución eficiente en un menor espacio.</p>
+            <p>
+                Es notorio que la mayor parte de las propiedades de <strong>Puebla</strong> poseen <strong>2 baños</strong>, lo que representa el <strong>36.50%</strong> de todo el mercado inmobiliario. En menor proporción, pero igualmente representativas, están las propiedades que poseen <strong>1 baño</strong> (<strong>30.90%</strong>), <strong>3 baños</strong> (<strong>19.20%</strong>) y <strong>4 baños</strong> (<strong>8.82%</strong>). Esto implica que las propiedades con menor número de baños predominan, lo que corresponde a propiedades de precio más asequible.
+            </p>
+            <p>
+                Por otro lado, existe un grupo limitado y exclusivo de propiedades con <strong>5 baños</strong> (<strong>2.99%</strong>), <strong>6 baños</strong> (<strong>0.88%</strong>), <strong>7 baños</strong> (<strong>0.34%</strong>) y <strong>8 baños</strong> (<strong>0.34%</strong>). Dada esta cantidad, se puede intuir que son propiedades con un valor más alto.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -572,8 +633,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En los segmentos <strong>E</strong> y <strong>D</strong>, la mayoría de las propiedades tienen principalmente entre <strong>1</strong> y <strong>3</strong> baños, lo que es coherente con el tipo de viviendas más económicas o de interés social, donde se suelen encontrar servicios más básicos. A medida que se sube en el segmento de precios, especialmente en el <strong>A</strong> y <strong>S</strong>, es mayor la proporción de propiedades de estos segmentos con <strong>4</strong> o más baños, lo que refleja la mayor amplitud y lujo de estas viviendas. El bajo número de casas con más de <strong>5</strong> baños indica que estas características están restringidas a propiedades de muy alto costo o de lujo, como se puede observar en el segmento <strong>L</strong> o <strong>S</strong>.</p>
-                <p>Este comportamiento puede explicarse por el contexto socioeconómico de Tulancingo, donde una gran parte de la población puede estar orientada hacia la compra de viviendas más accesibles, pero también existe un mercado, aunque reducido, para propiedades de alta gama. La diferencia en el número de baños es un indicador de la amplitud y el tipo de vivienda disponible en cada rango de precios.</p>
+            <p>
+                Para las primeras cantidades de baños (<strong>1</strong>, <strong>2</strong> y <strong>3</strong>), es notorio que están abarcadas por los <strong>segmentos E, D y C</strong>, lo que corresponde al rango de precios que tienen estos segmentos, donde el número de baños está relacionado con el precio de las propiedades.
+            </p>
+            <p>
+                Por su parte, a medida que aumenta el número de baños, también lo hace la concentración de propiedades en los segmentos más altos. A partir de <strong>4</strong>, <strong>5</strong>, y <strong>6 baños</strong>, los segmentos con mayor participación son el <strong>segmento B, A y S</strong>. Los precios de estas propiedades se consideran de nivel <strong>medio-alto</strong>.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -643,8 +708,11 @@
                 <h5 class="modal-title" id="descriptionModalLabelRecamarasGeneral">Descripción General</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <p>La gráfica muestra la distribución de las propiedades en Tulancingo de Bravo según el número de recámaras disponibles. los colores representa el número de recámaras, que varía desde una hasta seis, y dentro de la gráfica de pastel se indica el porcentaje de propiedades que corresponden a cada categoría. Esta representación visual permite entender cómo se distribuye el mercado inmobiliario local en términos del tamaño de las viviendas, reflejado por el número de recámaras que ofrecen.</p>
+            <p>
+                El gráfico de pastel muestra los porcentajes del número de recámaras en un conjunto de propiedades, divididas en diferentes segmentos. Cada porción del círculo representa un porcentaje de propiedades con un número específico de recámaras, y los colores se utilizan para diferenciar cada categoría.
+            </p>
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -662,7 +730,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico muestra la distribución de los inmuebles en Tulancingo clasificados por el número de recámaras, organizados en distintos segmentos de precios. En el eje vertical se observa el número de casas, mientras que en el eje horizontal se clasifican los inmuebles en segmentos que van desde la clase más económica (E) hasta la clase de lujo (L). Cada barra está codificada por color para representar el número de recámaras que tienen los inmuebles, de una a seis recámaras. Este tipo de gráfico es útil para visualizar cómo el tamaño de las propiedades y las habitaciones de los inmuebles (en términos de recámaras) varían según el segmento de precio.</p>
+            <p>
+                En el gráfico de barras se muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -680,9 +750,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de propiedades se encuentra en las viviendas de tres recámaras. Esto podría estar relacionado con el tamaño promedio de las familias en la región, donde es común que las familias nucleares busquen espacios que acomoden a padres e hijos cómodamente. Las casas de dos recámaras también tienen una presencia significativa, indicando una oferta considerable para familias pequeñas o quizás también para parejas jóvenes.</p>
-                <p>Las propiedades con cuatro recámaras o más son menos numerosas, lo que puede deberse a una menor demanda de viviendas más grandes, posiblemente por el costo asociado a ellas o porque la mayoría de las familias no requieren espacios tan amplios. Las viviendas de una recámara representan la menor proporción, lo que podría indicar una oferta limitada para personas solteras, o bien, una menor preferencia por este tipo de inmuebles en el mercado local.</p>
-                <p>El contexto económico y sociocultural de Tulancingo de Bravo influye en esta distribución. La ciudad cuenta con una población mayoritariamente de clase media, donde las familias, nucleares predominantemente, buscan viviendas que equilibren espacio y costo. Las políticas de desarrollo urbano y los programas de vivienda también pueden incentivar la construcción de este tipo de propiedades para satisfacer las necesidades habitacionales de la mayoría de la población.</p>
+            <p>
+                Con un <strong>44.3%</strong> y <strong>27.2%</strong> de la participación, la distribución de <strong>3</strong> y <strong>4 recámaras</strong>, respectivamente, es la más frecuente. Esto sugiere que es común encontrar propiedades con este número de recámaras, correspondiente al tamaño de las familias en la ciudad de <strong>Puebla</strong>.
+            </p>
+            <p>
+                En menor proporción se encuentran las propiedades con <strong>2 recámaras</strong> (<strong>23.50%</strong>), <strong>5 recámaras</strong> (<strong>2.95%</strong>), <strong>6 recámaras</strong> (<strong>1.71%</strong>) y <strong>1 recámara</strong> (<strong>0.43%</strong>). Esto sugiere que hay una oferta menor en propiedades con un número tan alto o tan bajo de recámaras.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -699,9 +772,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se observa que los inmuebles del segmento <strong>E</strong> son predominantemente de tres recámaras, lo que sugiere una tendencia clara en el mercado de vivienda más económica, donde las familias promedio buscan un equilibrio entre espacio y precio. A medida que avanzamos a segmentos de precios más altos, como los segmentos <strong>D</strong>, <strong>C</strong> y <strong>B</strong>, las casas de dos y tres recámaras siguen siendo predominantes, pero también comienzan a aparecer opciones con cuatro recámaras, lo que podría reflejar una mayor demanda de espacio entre los compradores de estos segmentos.</p>
-                <p>Es interesante notar que en los segmentos de mayor valor, como <strong>A</strong> y <strong>S</strong>, la distribución es más variada, con una mayor proporción del total de los segmentos de casas que tienen más de cuatro recámaras. Esto podría estar relacionado con el hecho de que los compradores en estos segmentos tienden a buscar propiedades más grandes y con mayor número de habitaciones, probablemente motivados por ingresos más altos o el deseo de mayor confort y espacio.</p>
-                <p>Finalmente, el hecho de que haya muy pocas propiedades con más de cinco recámaras en todos los segmentos sugiere que la mayoría de las viviendas en Tulancingo están diseñadas para satisfacer las necesidades de familias medianas, lo que está en línea con el promedio demográfico de la región.</p>
+            <p>
+                El <strong>segmento S</strong> es el que presenta la mayor cantidad de casas con <strong>3 o 4 recámaras</strong>. Al ser considerado un segmento con un rango de precios de entre <strong>4 millones a 12 millones</strong>, las propiedades corresponden a zonas residenciales de gran tamaño.
+            </p>
+            <p>
+                Para el <strong>segmento L</strong> sucede algo muy similar, y aunque tiene poca representación, es notorio que las propiedades de lujo cuentan con <strong>3 a 4 recámaras</strong>.
+            </p>
+            <p>
+                Para los segmentos de menor valor (<strong>E, D, C, B, A</strong>), es posible notar que predominan propiedades con <strong>2 y 3 recámaras</strong>, lo que sugiere que la mayoría de las familias que adquieren este tipo de propiedades son familias pequeñas. Además, el precio de estos segmentos las hace asequibles.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -772,7 +851,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico circular muestra la distribución porcentual de casas en Tulancingo según el rango de metros cuadrados (M2) de construcción, dividido en seis categorías: <strong>0-100 M2</strong>, <strong>100-150 M2</strong>, <strong>150-200 M2</strong>, <strong>200-250 M2</strong>, <strong>250-300 M2</strong>, y <strong>más de 300 M2</strong>. La visualización permite entender la proporción de viviendas dentro de cada rango de tamaño en la ciudad, lo que es útil para evaluar la oferta inmobiliaria en función del tamaño de las propiedades.</p>
+            <p>
+                El gráfico de pastel muestra la distribución porcentual de diferentes rangos de metros cuadrados de construcción. Cada porción del círculo representa un porcentaje de un rango específico de metros cuadrados, y los colores se utilizan para diferenciar cada categoría.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -790,7 +872,20 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de barras muestra la distribución de propiedades en Tulancingo, segmentadas por rangos de precios y metros cuadrados de construcción. En el eje X se encuentran los segmentos de precios (E, D, C, B, A, S, L, y Élite) y en el eje Y, el número de casas en cada categoría. Los colores indican los diferentes rangos de metros cuadrados de construcción, desde menos de 100 m² hasta más de 300 m². Este gráfico permite visualizar cómo se distribuyen las propiedades en función de su tamaño y precio, lo que es útil para identificar patrones y tendencias en la oferta de viviendas.</p>
+            <p>
+                Es notorio que el <strong>segmento S</strong> es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300 metros cuadrados</strong>, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de <strong>4 millones hasta 12 millones de pesos</strong>, es decir, son consideradas de gama alta.
+            </p>
+            <p>
+                En su contraparte, el <strong>segmento E</strong> es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0 a 100 metros cuadrados</strong>, lo que muestra la relación que hay entre metros de construcción y el precio en el mercado inmobiliario de <strong>Puebla</strong>.
+            </p>
+            <p>
+                En el <strong>segmento D</strong> se puede notar que hay una concentración de propiedades de un tamaño entre <strong>0 a 100 metros cuadrados de construcción</strong>, lo que corresponde al precio de <strong>1M a 1.75M pesos</strong>. En lo que corresponde a los segmentos <strong>C</strong> y <strong>B</strong>, la concentración de propiedades se encuentra en el rango de <strong>100 a 150 metros cuadrados</strong>.
+            </p>
+            <p>
+                El <strong>segmento A</strong> concentra propiedades de <strong>200 a 250 metros cuadrados</strong>, lo que podría estar directamente relacionado con el precio y el tipo de segmento en el que está ubicado.
+            </p>
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -808,9 +903,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico revela que la mayoría de las viviendas en Tulancingo están en el rango de 0-100 M2 (<strong>26.6%</strong>), seguido por aquellas de 100-150 M2 (<strong>25.4%</strong>). Esto sugiere que el mercado inmobiliario en esta ciudad tiende a ofrecer viviendas más pequeñas, lo que puede reflejar el acceso a financiamiento limitado para propiedades más grandes.</p>
-                <p>Las casas en el rango de 150-200 M2 representan el <strong>14.9%</strong> del total, mientras que las casas en el rango de 200-250 M2 comprenden el <strong>14.8%</strong>. Las viviendas de entre 250 y 300 M2 constituyen el <strong>5.98%</strong>. Estos valores indican que, aunque hay una oferta considerable de viviendas del rango de 250 a 300 tiene una participación marginal, a comparación del rango superior, lo que indica que en el mercado de las propiedades de mayor tamaño, las relativamente pequeñas en este sector son las menos preferidas.</p>
-                <p>Las casas más grandes, como las de más de 300 M2, representan un porcentaje menor (<strong>12.3%</strong>), lo que podría estar vinculado a un menor número de compradores con capacidad económica para adquirir propiedades más amplias. El contexto socioeconómico y el nivel de ingreso medio de los habitantes de Tulancingo podrían explicar esta tendencia, con una mayor demanda de viviendas más accesibles en términos de tamaño.</p>
+            <p>
+                Observamos una distribución bajamente equilibrada entre los diferentes rangos de superficie. No hay un rango que domine significativamente sobre los demás. La presencia de todos los rangos, desde los más pequeños (<strong>0-100 m²</strong>) hasta los más grandes (<strong>300+ m²</strong>), indica una oferta inmobiliaria bastante diversificada. Esto sugiere que el mercado puede satisfacer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y económicas hasta quienes requieren espacios más amplios.
+            </p>
+            <p>
+                Sin embargo, los rangos de <strong>100-150 m²</strong> (<strong>23%</strong>) y <strong>0-100 m²</strong> (<strong>19.1%</strong>) concentran una porción considerable del total, lo que sugiere que hay una cantidad significativa de propiedades con tamaños medios. Además, el rango de <strong>300+ m²</strong> también concentra una distribución considerable con el <strong>23.1%</strong>, lo que es bastante notable. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que puedan adaptarse a las necesidades de familias medianas o pequeñas.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -911,17 +1009,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En el rango de <strong>0 a 100 m²</strong>, el precio promedio es de <strong>$13,465.45</strong> pesos, lo cual indica que las propiedades más pequeñas tienden a tener un costo elevado por metro cuadrado, posiblemente debido a que suelen ubicarse en zonas céntricas o con alta demanda, donde el espacio es limitado y se aprovecha al máximo.</p>
+            <p>
+                Los segmentos más pequeños (<strong>0-100 m²</strong> y <strong>100-150 m²</strong>) presentan los valores más altos, de <strong>$18,073.86</strong> y <strong>$17,407.97</strong> respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: <strong>150-200 m²</strong> con <strong>$14,410.15</strong>, y <strong>200-250 m²</strong> con <strong>$11,818</strong>.
+            </p>
+            <p>
+                El precio se eleva nuevamente en propiedades de <strong>250 a 300 m²</strong> y más de <strong>300 m²</strong>, con promedios de <strong>$12,844.51</strong> y <strong>$18,445.99</strong> respectivamente.
+            </p>
+            <p>
+                La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.
+            </p>
 
-                <p>En el caso del rango de <strong>100 a 150 m²</strong>, el precio promedio es de <strong>$10,653.55</strong> pesos, una disminución significativa que puede deberse a una mayor oferta de propiedades de este tamaño en la región.</p>
-
-                <p>Se observa que el segmento con un mayor precio promedio es el de <strong>150-200 m²</strong> con <strong>$14,088.97</strong>, lo que puede explicarse por una mayor demanda de este tipo de propiedades que suelen ser adecuadas para familias de tamaño medio con una capacidad adquisitiva no tan baja.</p>
-
-                <p>Por su parte, las propiedades de <strong>200 a 250 m²</strong> tienen un precio promedio de <strong>$12,816.69</strong> pesos, lo cual sugiere que hay un incremento en el valor para propiedades que ofrecen mayor amplitud, aunque siguen estando por debajo del rango de 150-200 m².</p>
-
-                <p>En contraste, el rango de <strong>250-300 m²</strong> presenta un precio significativamente menor de <strong>$9,082.59</strong>, lo que podría deberse a una menor disponibilidad o preferencia de los compradores por propiedades de este tamaño, que tienden a ser más difíciles de vender.</p>
-
-                <p>Por otro lado, el precio promedio de propiedades de más de <strong>300 m²</strong> es de <strong>$11,319.74</strong>, lo cual puede estar relacionado con una oferta limitada de propiedades de lujo en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
