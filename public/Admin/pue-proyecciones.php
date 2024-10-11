@@ -143,69 +143,7 @@
 
 <!-- Sección Proyección y Forecast -->
 <!-- Sección Colonias y Potencial de Inversión -->
-<div class="container-fluid">
-    <div class="row">
 
-        <!-- Mitad derecha: Colonias de Alto Potencial -->
-<!-- Mitad derecha: Destino del crédito -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Tulancingo según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La alta proporción de créditos destinados a vivienda usada (<strong>51.1%</strong>) en Tulancingo podría estar vinculada a factores económicos locales, como una mayor accesibilidad a propiedades más asequibles en el mercado secundario. La menor participación de vivienda nueva (<strong>26.7%</strong>) sugiere una oferta limitada o precios elevados que restringen el acceso a este tipo de propiedades.</p>
-                <p>Además, la considerable asignación para mejoramientos (<strong>18.3%</strong>) refleja una tendencia de inversión en la mejora de viviendas existentes, lo que podría estar relacionado con un envejecimiento del parque habitacional o la necesidad de actualizar propiedades. Por último, el pequeño porcentaje destinado a otros programas (<strong>4.0%</strong>) podría sugerir que estos programas no son muy conocidos o utilizados en la región.</p>
-                <p>Este comportamiento puede estar influenciado por las condiciones socioeconómicas de Tulancingo, como una menor capacidad de adquisición para nuevas viviendas o un mayor enfoque en propiedades ya existentes como inversión.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
     </div>
 </div>
@@ -253,7 +191,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el precio promedio de los inmuebles en relación con la cantidad de baños que contiene la vivienda que se está ofertando.</p>
+                <p>Se muestra la relación entre el número de baños y el precio promedio de las propiedades en la ciudad de Puebla. Esta información es útil para identificar como el precio promedio de los inmuebles en la ciudad de Puebla varía en función del número de baños, permitiendo segmentar las propiedades. Además ayuda a determinar comprender que tipos de propiedades predominan el mercado y cómo de alinean con las preferencias de los compradores. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -271,9 +209,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Primeramente, se observa una tendencia ascendente en la relación de precio-número de baños, lo cual es coherente ya que, a mayor número de baños, mayor debería de ser el precio promedio de las viviendas. Entonces, es claro que la cantidad de baños es un factor que influye directamente en el valor de una vivienda.</p>
-                <p>Aunque se observa un cambio considerable en el valor de las viviendas al pasar de <strong>5</strong> a <strong>6</strong> baños, esto posiblemente se deba a que a partir de <strong>6</strong> baños o más se podrían considerar propiedades de lujo. Sin embargo, también se debe tener claro que podrían estar influyendo otros factores externos o directamente relacionados con las propiedades, tales como el tamaño de la vivienda o terreno, propiedades en zonas privadas con áreas de uso común, entre otras.</p>
-                <p>La gráfica muestra una correlación positiva entre el número de baños y el precio promedio de las propiedades. Esto indica que la cantidad de baños es un factor importante a considerar al evaluar el valor de una vivienda.</p>
+                <p>Como podría esperarse, el valor de las propiedades incrementa significativamente a medida que estas tienen más baños, y entre más de estos, son cada vez mayores los incrementos en el precio promedio. Es decir, mientras que el precio medio incrementa poco entre las propiedades con un solo baño y las de dos baños, el incremento del precio medio de las propiedades de 5 baños a las de más de 6 es muy grande, por esto mismo es enorme la diferencia entre el precio medio de la primera categoría y la última.</p>
+
+                <p>Mientras que los inmuebles con un baño tienen un precio promedio de <strong>$2,718,721.18 MXN</strong>, las de seis baños o más alcanzan un valor medio de <strong>$13,293,127.75 MXN</strong>. Tal patrón sugiere que los compradores asocian un mayor número de baños con propiedades más lujosas, orientadas a segmentos de mayor poder adquisitivo.</p>
+
+                <p>Lo anterior puede deberse, en parte, al enfoque del mercado inmobiliario poblano en propiedades con comodidades adicionales, las cuales suelen ser más atractivas para familias numerosas o individuos que buscan características premium. Factores socioeconómicos como el relativamente alto porcentaje de población de clase media en la ciudad y la demanda de viviendas con ciertas características específicas pueden explicar este creciente incremento en los precios conforme aumenta la cantidad de baños en la propiedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -291,7 +231,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede observar que en cuanto a las viviendas que cuentan con 1, 2, 3 baños, los precios promedios son similares, alrededor de los <strong>$2,000,000</strong> (dos millones de pesos). A diferencia de las viviendas que cuentan con 4 baños, que tienen un cambio significativo en su precio promedio, aproximándose a los <strong>$4,000,000</strong> (cuatro millones de pesos). Este aumento podría deberse a diversos factores, como el público al que le interesa este segmento, el tamaño del terreno, las características de las viviendas o la antigüedad de las mismas.</p>
+                <p>Podemos notar que a medida que aumenta el número de baños, se incrementa el precio medio de los inmuebles, y que los incrementos en los precios son cada vez mayores para cada sección. Es decir, mientras que el precio medio incrementa poco entre las propiedades con un solo baño y las de dos baños (de <strong>$2.7 millones</strong> a <strong>$2.9 millones</strong> de pesos), el incremento del precio medio de las propiedades de 3 baños a las de más de 4 es muy grande (de <strong>$4.6 millones</strong> a <strong>$6.8 millones</strong> de pesos).</p>
+
+                <p>Tal patrón sugiere que los compradores asocian un mayor número de baños con propiedades más valiosas, orientadas a segmentos de mayor poder adquisitivo. Lo cual en parte puede deberse al enfoque del mercado inmobiliario poblano en propiedades con comodidades adicionales, las cuales suelen ser más atractivas para familias numerosas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -454,7 +396,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Tulancingo de Bravo.</p>
+                <p>La gráfica muestra la proporción del tiempo que las propiedades han permanecido en el mercado inmobiliario en Puebla, dividiéndose en dos categorías: Menos de un año en stock y más de un año en stock. El tamaño de cada segmento refleja el porcentaje de propiedades en cada categoría.</p>
+
+                <p>Esto es útil para analizar el riesgo en el mercado inmobiliario. Si un gran porcentaje de los inmuebles permanecen en stock por más de un año, podríamos suponer un bajo nivel de demanda, que en términos de riesgo indicaría una alta probabilidad de que los precios disminuyan o se estanquen.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -472,8 +416,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El <strong>87%</strong> de las viviendas que se han ofertado en Tulancingo de Bravo se han vendido en menos de un año, esto indica que el mercado inmobiliario de la ciudad es bastante dinámico y que la demanda por viviendas es alta.</p>
-                <p>Esto podría ser por diversas razones tales como una alta rotación del mercado inmobiliario de la ciudad, el cual también podría estar relacionado a factores como el crecimiento económico, el desarrollo urbano, precios accesibles, entre otros.</p>
+                <p>El gráfico muestra que el <strong>85%</strong> de las propiedades en Puebla han estado en el mercado por menos de un año, mientras que el <strong>14.4%</strong> ha permanecido por más de un año.</p>
+
+                <p>Esto sugiere que la mayoría de las propiedades se han listado recientemente, lo cual refleja una dinámica de mercado activo con alta oferta de nuevos inmuebles o una demanda más activa que en otras zonas.</p>
+
+                <p>Sin embargo, el <strong>14.4%</strong> de las propiedades que han estado más de un año en el mercado indican un riesgo de estancamiento, lo que podría deberse a factores como sobreprecio, localización poco atractiva, o exceso de oferta en segmentos específicos.</p>
+
+                <p>La distribución también refleja que, aunque hay alta actividad de ventas y entradas nuevas al mercado, aún existen desafíos que no logran satisfacer las preferencias de los compradores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -709,7 +658,11 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La grafica nos muestra las cinco colonias las cuales tienen en promedio los precios más bajos respecto a todas las colonias en las que se ofertan inmuebles en Tulancingo de Bravo.</p>
+                <p>El gráfico muestra una comparación de los precios medios de los inmuebles ubicados en las colonias con los costos más bajos en la ciudad de <strong>Puebla</strong>. Las colonias representadas en el gráfico son <strong>San Ramón Infonavit</strong>, <strong>Santa Bárbara</strong>, <strong>Santa María La Ribera</strong>, <strong>Lomas de San Valentín</strong> y <strong>San Juan Bosco</strong>.</p>
+
+                <p>Cada barra corresponde a una colonia y su longitud indica el precio medio de los inmuebles en esa ubicación. La información es útil para entender el posicionamiento relativo de estas colonias dentro del mercado económico de la ciudad.</p>
+
+                <p>Este análisis permite a los inversores y compradores identificar las áreas de mayor accesibilidad económica y demanda en <strong>Puebla</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -727,8 +680,15 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Las colonias que más barato ofertan sus inmuebles son <strong>Paseos de Chavarría</strong> y <strong>Villa Elena</strong>; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de <strong>Tulancingo de Bravo</strong>, lo que significa que, hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. </p>
-                <p>Además, se puede observar que, la colonia <strong>Hacienda Margarita</strong>, <strong>Jardines del Paraíso</strong> y <strong>Fracc Jardines del Paraíso</strong> ofrecen precios bajos alrededor del <strong>medio millón de pesos</strong> las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.</p>
+                <p>La gráfica refleja cómo, incluso dentro de las zonas con los precios más accesibles, existe una considerable variabilidad en el costo de los inmuebles.</p>
+
+                <p><strong>San Ramón Infonavit</strong> presenta el precio medio más bajo con <strong>$326,622</strong> pesos. Se trata de una colonia que ha sido históricamente considerada como una zona de vivienda social con infraestructura limitada y mayor densidad de población.</p>
+
+                <p>En contraste, <strong>San Juan Bosco</strong> tiene un costo superior, con una media de <strong>$502,333.33</strong> pesos, probablemente debido a una mejor ubicación y un entorno urbano más desarrollado.</p>
+
+                <p>Además, factores como la conectividad vial, el acceso a servicios y la percepción de seguridad influyen en los precios de estas colonias en particular.</p>
+
+                <p>Esto sugiere que, aunque todas estas áreas se encuentran en la parte baja del espectro de precios en <strong>Puebla</strong>, las condiciones y características de cada colonia crean diferencias de valor significativas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -746,7 +706,11 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La grafica muestra las cinco colonias las cuales tienen en promedio los precios más altos respecto a todas las colonias en las que se ofertan inmuebles en Pachuca de Soto.</p>
+                <p>El gráfico muestra una comparación de los precios medios de los inmuebles ubicados en las colonias con los costos más altos en la ciudad de <strong>Puebla</strong>. Las colonias representadas en el gráfico son <strong>Villa Magna</strong>, <strong>Club de Golf de Puebla</strong>, <strong>Santa Cruz</strong>, <strong>Bosques de Angelópolis</strong> y <strong>San Rafael Poniente</strong>.</p>
+
+                <p>Cada barra corresponde a una colonia y su longitud indica el precio medio de los inmuebles en esa ubicación. La información es útil para entender el posicionamiento relativo de estas colonias dentro del mercado premium de la ciudad.</p>
+
+                <p>Este análisis permite a los inversores y compradores identificar las áreas de mayor exclusividad y demanda en <strong>Puebla</strong>, proporcionando una visión clara de las zonas más cotizadas del mercado inmobiliario local.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -764,8 +728,13 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se puede ver que la colonia que más alto oferta sus inmuebles es <strong>Centro</strong>, superando en promedio los <strong>$7,000,000</strong>; esto es posible que sea a que esta zona se encuentra cerca de diferentes destinos y rápido acceso a servicios públicos. </p>
-                <p>En cuanto a la colonia que sigue es <strong>Felipe Ángeles</strong> con un promedio de <strong>$7,000,000</strong>, lo más probable es que debido a que los inmuebles que se ofertan en esta zona justo están en plena zona turística de <strong>Tulancingo de Bravo</strong> lo cual hace que se eleven sus precios. Por su parte, <strong>Tulancingo</strong>, <strong>Lindavista</strong> y <strong>Residencial la Quinta</strong> son zonas residenciales de alto prestigio y debido a esa razón es que sus precios están alrededor de los <strong>$5,000,000</strong> en promedio.</p>
+                <p>Las colonias más exclusivas de Puebla presentan precios elevados, lo que refleja su alta demanda y posicionamiento dentro del mercado inmobiliario local. Esto se puede atribuir a la calidad de vida que ofrecen, incluyendo una infraestructura moderna, servicios de alto nivel y seguridad.</p>
+
+                <p><strong>Villa Magna</strong> (<strong>$17,935,294.12</strong>), al ser la colonia con el precio promedio más alto, destaca por sus grandes desarrollos residenciales y la cercanía a centros de esparcimiento de lujo, lo cual la convierte en una de las áreas más exclusivas de la ciudad.</p>
+
+                <p><strong>Club de Golf Puebla</strong> (<strong>$15,824,450</strong>) y <strong>Bosques de Angelópolis</strong> (<strong>$13,375,165.92</strong>) también se caracterizan por su orientación hacia un público de alto poder adquisitivo, al contar con amplias áreas verdes, lo que incrementa su atractivo.</p>
+
+                <p>La diferencia de precios refleja tanto el prestigio asociado a cada colonia como la limitada oferta de propiedades disponibles, lo que aumenta el valor de mercado de las mismas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -832,9 +801,11 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico.
-                </p>
+                <p>El gráfico muestra el tiempo que las propiedades han estado en el mercado en la ciudad de Puebla, dividido en diferentes rangos de días.</p>
+
+                <p>El eje horizontal indica los rangos de tiempo en el mercado (0-30 días, 31-120 días, 121-240 días, 241-364 días y más de 365 días), mientras que el eje vertical muestra la cantidad de propiedades dentro de cada categoría.</p>
+
+                <p>La utilidad del gráfico radica en identificar cuántas propiedades permanecen en el mercado durante un periodo de tiempo específico, para así evaluar la velocidad de ventas y la demanda inmobiliaria en diferentes periodos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -852,10 +823,11 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Mayor concentración en los primeros días:</strong> La barra más alta corresponde al rango de <strong>0-30</strong> días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.</p>
-                <p><strong>Rango 0-30 días:</strong> Este rango concentra la mayor cantidad de propiedades, lo que sugiere que muchas propiedades se venden en el primer mes.</p>
-                <p><strong>Rango 31-120 días:</strong> Aunque menor que el rango anterior, este rango también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes.</p>
-                <p><strong>Rangos superiores:</strong> Los rangos superiores a <strong>120</strong> días presentan una disminución en el número de propiedades, lo que sugiere que, a partir de este punto, la probabilidad de que una propiedad se venda disminuye.</p>
+                <p>La mayoría de las propiedades se venden en un periodo de corto a medio, teniendo <strong>1,165</strong> vendidas entre 0 y 30 días y <strong>975</strong> entre 31 y 120 días. Esto indica un mercado dinámico, en el cual una gran parte de las viviendas encuentra comprador en los primeros meses de su oferta. Sin embargo, a partir de los 121 días (<strong>580</strong> propiedades), la cantidad de inmuebles vendidos disminuye significativamente, lo cual puede indicar un estancamiento progresivo para inmuebles que no se vendieron en un periodo temprano.</p>
+
+                <p>Finalmente, se observa un ligero aumento en el número de propiedades que han estado en el mercado por más de 365 días (<strong>499</strong> inmuebles). Este fenómeno puede deberse a algunas propiedades que no se ajustan a la demanda predominante por diversos factores. Además, la alta competencia y la sobreoferta de inmuebles en ciertos segmentos pueden provocar que algunas propiedades permanezcan en el mercado durante un año o más.</p>
+
+                <p>La tendencia general revela que, aunque la mayoría de propiedades se venden relativamente rápido, hay una proporción significativa que enfrenta dificultades para encontrar compradores, lo cual puede estar influido por factores económicos locales y la saturación del mercado inmobiliario de la ciudad.</p>
             </div>
             </div>
             <div class="modal-footer">
