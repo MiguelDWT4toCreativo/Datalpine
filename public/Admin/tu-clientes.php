@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Querétaro | DatAlpine</title>
+    <title>Tulancingo | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Querétaro</a></li>
-                                    <li class="breadcrumb-item active">Santiago de Querétaro</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
+                                    <li class="breadcrumb-item active">Tulancingo</li>
                                 </ol>
                             </div>                            
                         </div>
