@@ -188,7 +188,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de créditos otorgados en Tulancingo, según el nivel de ingreso de los solicitantes medido en UMAs (Unidades de Medida y Actualización). El eje horizontal indica diferentes rangos de ingreso en UMAs, que van desde ≤ <strong>2.60</strong> hasta más de <strong>12.00</strong> UMAs, mientras que el eje vertical refleja el porcentaje de créditos otorgados en cada rango de ingreso. El gráfico es útil para entender cómo se distribuyen los créditos entre diferentes grupos de ingresos y qué porcentaje representa cada uno.</p>
+                <p>Se visualiza la distribución de créditos en Puebla para el año , clasificados según el porcentaje de UMAS (Unidades de Medida y Actualización). La gráfica segmenta los créditos otorgados en diferentes intervalos de UMAS, permitiendo analizar la frecuencia de créditos dentro de cada rango. Esta gráfica es útil para identificar las tendencias en la distribución de créditos según los montos relativos a las UMAS, un indicador clave del poder adquisitivo de los solicitantes y su capacidad de financiamiento.</p>
            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -317,7 +317,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Tulancingo según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
+                <p>Se muestra el destino de los créditos otorgados en diferentes modalidades en el mercado inmobiliario. La gráfica refleja qué porcentaje del total de créditos se destina a la compra de inmuebles nuevos, al mejoramiento de propiedades, a la compra de inmuebles usados, y a otros programas. Este tipo de gráfico permite identificar hacia qué modalidades se dirigen la mayoría de los recursos financieros y puede ser útil para analizar las tendencias en el mercado inmobiliario, así como las preferencias de los compradores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
