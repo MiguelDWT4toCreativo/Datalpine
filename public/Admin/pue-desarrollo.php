@@ -153,7 +153,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución porcentual de los créditos otorgados por tipo de vivienda. Las variables representadas son el porcentaje de créditos (eje y) y los tipos de vivienda (eje x), que se desglosan en seis categorías: Económica, Popular, Tradicional, Media, Residencial y Residencial Plus. Cada barra refleja el porcentaje de participación de cada categoría en el total de créditos otorgados, permitiendo visualizar qué tipos de vivienda concentraron la mayor cantidad de créditos. La utilidad de la gráfica es comparar la proporción de cada tipo de vivienda y entender la preferencia del mercado por diferentes segmentos.</p>
+                <p>La gráfica presenta una distribución porcentual de créditos otorgados para la adquisición de viviendas, clasificados por diferentes tipos de vivienda: Económica, Popular, Tradicional, Media, Residencial y Residencial Plus.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -298,7 +298,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el porcentaje de créditos hipotecarios otorgados por diferentes organismos en Tulancingo. Las variables que se representan son los organismos financieros en el eje horizontal y el porcentaje de créditos otorgados en el eje vertical. Está organizada de manera que cada barra corresponde a un organismo: INFONAVIT, CNBV, FOVISSSTE y BANJERCITO. La altura de las barras refleja el porcentaje relativo de participación de cada entidad en el total de créditos otorgados. Esta estructura permite visualizar fácilmente cuáles organismos tienen mayor o menor participación en la oferta de crédito.</p>
+                <p>El diagrama de barras muestra la distribución porcentual de créditos otorgados por diferentes instituciones financieras como lo son INFONAVIT, CNBV, FOVISSTE, BANJERCITO, INSUS Y CONAVI durante un año especifico.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -448,7 +448,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            En gráfico de pastel se visualiza la distribución de estacionamientos de manera general en el mercado inmobiliario de <strong>Puebla</strong>. Cada porción del círculo representa un porcentaje de un numero específico de estacionamiento.
+                <p>
+                    En gráfico de pastel se visualiza la distribución de estacionamientos de manera general en el mercado inmobiliario de <strong>Puebla</strong>. Cada porción del círculo representa un porcentaje de un numero específico de estacionamiento.
+                </p>
+                <p>
+                    El grafico de barras muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -587,13 +592,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                Para las primeras cantidades de baños (<strong>1</strong>, <strong>2</strong> y <strong>3</strong>), es notorio que están abarcadas por los <strong>segmentos E, D y C</strong>, lo que corresponde al rango de precios que tienen estos segmentos, donde el número de baños está relacionado con el precio de las propiedades.
-            </p>
-            <p>
-                Por su parte, a medida que aumenta el número de baños, también lo hace la concentración de propiedades en los segmentos más altos. A partir de <strong>4</strong>, <strong>5</strong>, y <strong>6 baños</strong>, los segmentos con mayor participación son el <strong>segmento B, A y S</strong>. Los precios de estas propiedades se consideran de nivel <strong>medio-alto</strong>.
-            </p>
-
+                <p>Se muestra la distribución de los segmentos de acuerdo a la cantidad de baños con la que cuenta cada uno.</p>
+                
+                <p>Cada barra representa la cantidad de casas que tienen un número específico de baños para un segmento determinado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -872,20 +873,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                Es notorio que el <strong>segmento S</strong> es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300 metros cuadrados</strong>, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de <strong>4 millones hasta 12 millones de pesos</strong>, es decir, son consideradas de gama alta.
-            </p>
-            <p>
-                En su contraparte, el <strong>segmento E</strong> es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0 a 100 metros cuadrados</strong>, lo que muestra la relación que hay entre metros de construcción y el precio en el mercado inmobiliario de <strong>Puebla</strong>.
-            </p>
-            <p>
-                En el <strong>segmento D</strong> se puede notar que hay una concentración de propiedades de un tamaño entre <strong>0 a 100 metros cuadrados de construcción</strong>, lo que corresponde al precio de <strong>1M a 1.75M pesos</strong>. En lo que corresponde a los segmentos <strong>C</strong> y <strong>B</strong>, la concentración de propiedades se encuentra en el rango de <strong>100 a 150 metros cuadrados</strong>.
-            </p>
-            <p>
-                El <strong>segmento A</strong> concentra propiedades de <strong>200 a 250 metros cuadrados</strong>, lo que podría estar directamente relacionado con el precio y el tipo de segmento en el que está ubicado.
-            </p>
-
-
+                <p>
+                    Este gráfico de barras muestra la distribución de propiedades en Puebla, segmentadas por rangos de precios y metros cuadrados de construcción. En el eje X se encuentran los segmentos de precios (E, D, C, B, A, S, y L) y en el eje Y, el número de casas en cada categoría. Los colores indican los diferentes rangos de metros cuadrados de construcción, desde menos de 100 m² hasta más de 300 m².
+                </p>
+                <p>
+                    Este gráfico permite visualizar cómo se distribuyen las propiedades en función de su tamaño y precio, lo que es útil para identificar patrones y tendencias en la oferta de viviendas.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -925,8 +918,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En Tulancingo, los segmentos <strong>E</strong> y <strong>D</strong> concentran la mayor cantidad de viviendas con menos de <strong>150 m²</strong>, lo que indica que estos segmentos están orientados a compradores con menores ingresos, probablemente familias que buscan viviendas más accesibles. Este fenómeno puede ser un reflejo de la realidad económica local, donde la demanda de casas más pequeñas prevalece en las clases baja y media-baja.</p>
-                <p>En contraste, los segmentos más altos como <strong>A</strong> y <strong>S</strong> tienen una mayor representación de casas con más de <strong>250 m²</strong>, lo cual sugiere que hay un nicho de mercado para viviendas más grandes y exclusivas, orientado a compradores con mayor poder adquisitivo. Aunque estas propiedades son menos comunes, su presencia muestra un interés en opciones residenciales más amplias y costosas, posiblemente para familias con mayor estabilidad económica o inversores interesados en propiedades de lujo.</p>
+            <p>
+                Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de 300 metros cuadrados. Esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de 4 millones hasta 12 millones de pesos, es decir, son consideradas de gama alta.
+            </p>
+
+            <p>
+                En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción. Esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Puebla. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre 0 a 100 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos.
+            </p>
+
+            <p>
+                En lo que corresponde a los segmentos C y B, la concentración de propiedades se encuentra en propiedades de 100 a 150 metros cuadrados. El segmento A concentra propiedades de 200 a 250 metros cuadrados, lo que podría estar directamente relacionado con el precio y el tipo de segmento en el que está ubicado.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -991,7 +993,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p> El gráfico muestra el precio promedio por metro cuadrado en diferentes rangos de tamaño de terreno en Tulancingo. En el eje X se presentan los distintos rangos de metros cuadrados, desde propiedades de entre <strong>0</strong> a <strong>100 m²</strong> hasta propiedades de más de <strong>300 m²</strong>. El eje Y representa el precio promedio en dólares por metro cuadrado para cada rango. Esta visualización es útil para identificar las diferencias en el precio del terreno según su tamaño, proporcionando una visión general del valor inmobiliario en la ciudad. </p>
+                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

@@ -199,13 +199,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <p>
-                        Se muestra la distribución de créditos por monto en <strong>Puebla</strong> durante el año <strong>2022</strong>. Cada barra representa un rango de monto de los créditos y su altura indica la cantidad de créditos otorgados dentro de ese rango. Se toman en cuenta cinco rangos: <strong>0 a 1 millón de pesos</strong>, <strong>1 a 2 millones</strong>, <strong>2 a 3 millones</strong>, <strong>3 a 4 millones</strong> y <strong>4 a 20 millones de pesos</strong>.
-                    </p>
-                    <p>
-                        La gráfica es útil para visualizar la preferencia de los compradores y el acceso a financiamiento, identificando en qué rango se concentra la mayor cantidad de créditos. Esta información puede ayudar a entender el comportamiento del mercado inmobiliario y a detectar qué tipos de propiedades son más accesibles o demandadas en términos de financiamiento.
-                    </p>
+                        <p>Muestra el promedio del monto de créditos otorgados para viviendas nuevas y usadas en Puebla, desglosado trimestralmente.</p>
 
+                        <p>En el eje vertical se encuentran los valores de los montos promedios de crédito en millones de pesos, mientras que el eje horizontal representa los trimestres del año (de 1T a 4T). La línea morada muestra los valores para las viviendas nuevas y la línea rosa los valores para viviendas usadas.</p>
+
+                        <p>Este tipo de gráfico es útil para identificar cómo se comportan los valores de los créditos a lo largo del tiempo y permite comparar las diferencias entre estos dos tipos de propiedades.</p>
+
+                        <p>Es relevante para entender las variaciones del mercado inmobiliario y cómo se ajustan los precios según el tipo de vivienda.</p>
                     </div>
                 </div>
             </div>
@@ -487,26 +487,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                La distribución de propiedades por segmento en <strong>2023</strong> muestra que el mercado inmobiliario en esta región se concentra principalmente en los segmentos de valor medio alto y muy alto, <strong>B</strong> y <strong>S</strong> con <strong>23%</strong> y <strong>23.5%</strong> respectivamente. La preeminencia de estos segmentos podría estar impulsada por un auge de desarrollos en zonas exclusivas o por un perfil de comprador con alto poder adquisitivo, y sus proporciones extremadamente similares se puede deber a la estructura socioeconómica y la distribución de la población en <strong>Puebla</strong>. Puebla tiene una edad mediana de <strong>28 años</strong>, lo que indica una población joven con un perfil laboral y familiar en crecimiento, quienes suelen demandar inmuebles con características que brinden comodidad y una mayor calidad y valor a medida que crecen profesionalmente o buscan mejorar su nivel de vida (segmento <strong>B</strong>).
-            </p>
-            <p>
-                La concentración de ingresos y la desigualdad también podría suponer compradores de mayor poder adquisitivo o personas que buscan propiedades de alto valor como una inversión a largo plazo (segmento <strong>S</strong>).
-            </p>
-            <p>
-                Por el contrario, el segmento <strong>E</strong>, que representa las propiedades más accesibles (menores a <strong>1 millón de pesos</strong>), tiene una participación mínima. Esto indica que hay poca oferta de viviendas asequibles, lo que podría ser un área de oportunidad para desarrolladores enfocados en vivienda de interés social o accesible.
-            </p>
-            <p>
-                El segmento <strong>A</strong>, que representa el <strong>14.7%</strong> del mercado, se enfoca en propiedades de pesos, ubicadas en el rango alto del mercado. Esta participación indica que hay una oferta moderada de propiedades para compradores con un nivel adquisitivo considerable, que buscan calidad y buena ubicación sin llegar a los precios más elevados. La menor participación de este segmento, en comparación con <strong>S</strong> y <strong>B</strong>, puede deberse a que el perfil de compradores de esta categoría es más específico y reducido.
-            </p>
-            <p>
-                El segmento <strong>D</strong> y <strong>C</strong> también tienen una representación significativa, sumando entre ambos un <strong>36.1%</strong>, lo que sugiere que hay un equilibrio en la oferta de viviendas de rango medio y medio bajo. Esto refleja un mercado diverso, con opciones para distintos perfiles de compradores, pero dominado por las propiedades de mayor valor.
-            </p>
-            <p>
-                La distribución del mercado en <strong>2023</strong> se inclina hacia propiedades de alto valor, mientras que la oferta de viviendas más accesibles es limitada, lo que podría afectar la capacidad de adquisición de un público más amplio y requerir ajustes en la oferta para atender mejor las necesidades de otros segmentos de la población.
-            </p>
+                <p>El gráfico presentado muestra la distribución de propiedades en Puebla, segmentada por diferentes rangos de precio. Cada segmento está representado con un color distinto y se identifica con las categorías S, A, B, D, C, A y E.</p>
 
+                <p>La gráfica permite visualizar fácilmente las proporciones de cada segmento dentro del total, lo que la hace útil para identificar cómo se reparte la oferta inmobiliaria en la región. Esto permite identificar cuáles tipos de propiedades predominan y detectar posibles áreas de oportunidad para ajustarse a la demanda del mercado.</p>
 
+                <p>Asimismo, esta visualización coadyuva a la toma de decisiones informadas basadas en la disponibilidad y la competencia en cada rango de precios.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -524,22 +509,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                En <strong>2024</strong>, la distribución de propiedades por segmento en <strong>Puebla</strong> muestra un cambio significativo respecto al año anterior. El <strong>segmento E</strong>, que abarca las propiedades más accesibles (menores a <strong>1 millón de pesos</strong>), es ahora el de mayor participación con un <strong>25%</strong>. Esto sugiere un aumento en la oferta de viviendas económicas, lo que podría responder a políticas de desarrollo orientadas a satisfacer la demanda de viviendas asequibles o a un ajuste de precios por parte de los desarrolladores para hacer frente a una desaceleración económica.
-            </p>
-            <p>
-                Por otro lado, el <strong>segmento S</strong>, que en años anteriores había dominado, ahora tiene un <strong>21.5%</strong>, manteniéndose como uno de los segmentos principales, pero reflejando una ligera disminución. Esto puede indicar que los desarrolladores están diversificando la oferta hacia viviendas más accesibles, dada la reducción en el poder adquisitivo de algunos compradores o la preferencia por opciones más económicas ante un entorno económico incierto.
-            </p>
-            <p>
-                Los <strong>segmentos D</strong> y <strong>C</strong> (<strong>14%</strong> y <strong>13.8%</strong>, respectivamente) presentan una representación equilibrada, lo que sugiere un mercado bien distribuido en el rango medio-bajo, con opciones variadas para compradores que buscan propiedades con una buena relación calidad-precio.
-            </p>
-            <p>
-                En contraste, los segmentos de mayor valor (<strong>A</strong> y <strong>B</strong>) tienen una participación menor (<strong>10.3%</strong> y <strong>11.2%</strong>), reflejando nuevamente un ajuste hacia propiedades de menor costo. Finalmente, el <strong>segmento L</strong> (<strong>4.21%</strong>) sigue teniendo la participación más baja, lo que indica que las propiedades de lujo aún representan un nicho pequeño en el mercado inmobiliario local.
-            </p>
-            <p>
-                En conjunto, la distribución del mercado en <strong>2024</strong> muestra una transición hacia una mayor oferta de vivienda asequible, respondiendo a una posible necesidad de atraer a compradores con menor capacidad económica, lo cual contrasta con la tendencia de años anteriores hacia propiedades de alto valor.
-            </p>
-
+                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -556,7 +526,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (<strong>1</strong> a <strong>1.75 millones</strong>) con un <strong>41.6%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (<strong>1.75</strong> a <strong>2.5 millones</strong>) con un <strong>17.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con <strong>16.7%</strong> de participación, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>), <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+                <p>La distribución de propiedades por segmento en <strong>2023</strong> muestra que el mercado inmobiliario en esta región se concentra principalmente en los segmentos de valor medio alto y muy alto, B y S con <strong>23%</strong> y <strong>23.5%</strong> respectivamente. La preeminencia de estos segmentos podría estar impulsada por un auge de desarrollos en zonas exclusivas o por un perfil de comprador con alto poder adquisitivo y sus proporciones extremadamente similares se puede deber a estructura socioeconómica y la distribución de la población en Puebla.</p>
+
+                <p>Puebla tiene una edad mediana de <strong>28 años</strong>, lo que indica una población joven con un perfil laboral y familiar en crecimiento, quienes suele demandar inmuebles con características que brinden comodidad y una mayor calidad y valor a medida que crecen profesionalmente o buscan mejorar su nivel de vida (segmento B). La concentración de ingresos y la desigualdad también podría suponer a compradores de mayor poder adquisitivo o personas que buscan propiedades de alto valor como una inversión a largo plazo (segmento S).</p>
+
+                <p>Por el contrario, el segmento E, que representa las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos), tiene una participación mínima. Esto indica que hay poca oferta de viviendas asequibles, lo que podría ser un área de oportunidad para desarrolladores enfocados en vivienda de interés social o accesible.</p>
+
+                <p>El segmento A, que representa el <strong>14.7%</strong> del mercado, se enfoca en propiedades de pesos, ubicadas en el rango alto del mercado. Esta participación indica que hay una oferta moderada de propiedades para compradores con un nivel adquisitivo considerable, que buscan calidad y buena ubicación sin llegar a los precios más elevados. La menor participación de este segmento, en comparación con S y B, puede deberse a que el perfil de compradores de esta categoría es más específico y reducido.</p>
+
+                <p>El segmento D y C también tienen una representación significativa, sumando entre ambos un <strong>36.1%</strong>, lo que sugiere que hay un equilibrio en la oferta de viviendas de rango medio y medio bajo. Esto refleja un mercado diverso, con opciones para distintos perfiles de compradores, pero dominado por las propiedades de mayor valor.</p>
+
+                <p>La distribución del mercado en <strong>2023</strong> se inclina hacia propiedades de alto valor, mientras que la oferta de viviendas más accesibles es limitada, lo que podría afectar la capacidad de adquisición de un público más amplio y requerir ajustes en la oferta para atender mejor las necesidades de otros segmentos de la población.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -573,7 +553,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el <strong>ano 2024</strong> se nota un importante cambio, ya que, la mayor concentración de propiedades se encuentra en el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con un <strong>60.5%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) con un <strong>15.7%</strong>, seguido por los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>C</strong> (<strong>1.75 millones</strong> a <strong>2.5 millones</strong>) con <strong>7.12%</strong> y <strong>7%</strong>, respectivamente, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>) y <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+                <p>En <strong>2024</strong>, la distribución de propiedades por segmento en Puebla muestra un cambio significativo respecto al año anterior. El segmento E que abarca las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos) es ahora el de mayor participación con un <strong>25%</strong>. Esto sugiere un aumento en la oferta de viviendas económicas, lo que podría responder a políticas de desarrollo orientadas a satisfacer la demanda de viviendas asequibles o a un ajuste de precios por parte de los desarrolladores para hacer frente a una desaceleración económica.</p>
+
+                <p>Por otro lado, el segmento S, que en años anteriores había dominado, ahora tiene un <strong>21.5%</strong>, manteniéndose como uno de los segmentos principales, pero reflejando una ligera disminución. Esto puede indicar que los desarrolladores están diversificando la oferta hacia viviendas más accesibles, dada la reducción en el poder adquisitivo de algunos compradores o la preferencia por opciones más económicas ante un entorno económico incierto.</p>
+
+                <p>Los segmentos D y C (<strong>14%</strong> y <strong>13.8%</strong>, respectivamente) presentan una representación equilibrada, lo que sugiere un mercado bien distribuido en el rango medio-bajo, con opciones variadas para compradores que buscan propiedades con una buena relación calidad-precio.</p>
+
+                <p>En contraste, los segmentos de mayor valor (A y B) tienen una participación menor (<strong>10.3%</strong> y <strong>11.2%</strong>), reflejando nuevamente un ajuste hacia propiedades de menor costo. Finalmente, el segmento L (<strong>4.21%</strong>) sigue teniendo la participación más baja, lo que indica que las propiedades de lujo aún representan un nicho pequeño en el mercado inmobiliario local.</p>
+
+                <p>En conjunto, la distribución del mercado en <strong>2024</strong> muestra una transición hacia una mayor oferta de vivienda asequible, respondiendo a una posible necesidad de atraer a compradores con menor capacidad económica, lo cual contrasta con la tendencia de años anteriores hacia propiedades de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -657,7 +645,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el promedio de precios por segmento en el mercado inmobiliario. Cada barra representa el valor promedio de las propiedades dentro de cada segmento, desde el segmento S, hasta el segmento E. Este gráfico es útil para visualizar cómo varían los precios promedio de las propiedades en cada categoría.</p>
+                <p>La gráfica muestra el promedio de precios por segmento de inmuebles en Puebla. Cada segmento representa un rango de precios específico, desde el segmento E (menos de 500 mil a 1 millón de pesos) hasta el segmento ELITE (mayor a 22 millones). Este gráfico permite identificar cómo varían los precios promedio entre los diferentes segmentos de propiedades en el mercado inmobiliario de la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -723,7 +711,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Este gráfico de línea muestra la evolución de la mediana del precio de oferta durante los <strong>meses</strong> de <strong>febrero</strong> a <strong>agosto</strong> de <strong>2024</strong>. El eje vertical representa el precio en <strong>millones de pesos</strong>, mientras que el eje horizontal muestra los <strong>meses</strong> del año. La línea azul conecta los puntos que representan la mediana del precio de oferta en cada <strong>mes</strong>.</p>
+                <p>La gráfica muestra la mediana del precio de oferta de inmuebles en Puebla durante el año 2024, con un desglose mes a mes desde febrero hasta agosto. Este gráfico permite visualizar las fluctuaciones en los precios de los inmuebles ofertados en el mercado, lo que proporciona una indicación de las tendencias del mercado inmobiliario en la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -795,7 +783,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Este gráfico de línea muestra la evolución del precio de oferta durante los meses de <strong>febrero</strong> a <strong>agosto</strong> de <strong>2024</strong> en Tulancingo de Bravo, Hgo. El eje vertical representa el precio en pesos mexicanos, mientras que el eje horizontal muestra los meses del año.</p>
+                        <p>Se muestra el histórico de precios de oferta de inmuebles en Puebla durante el año 2024. El gráfico de líneas refleja cómo ha variado el precio promedio de los inmuebles listados en el mercado mes a mes, desde marzo hasta agosto de 2024. Esta visualización es útil para identificar las tendencias de precios a lo largo del tiempo, destacando las fluctuaciones y posibles cambios estacionales en el mercado inmobiliario.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -868,7 +856,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la cantidad de créditos otorgados en el año en <strong>Tulancingo de Bravo</strong>, segmentados según el monto de los créditos. El eje X representa diferentes rangos de valores de los créditos otorgados, desde menos de <strong>1 millón</strong> hasta menos de <strong>20 millones</strong> de pesos, mientras que el eje Y indica la cantidad total de créditos en cada uno de esos rangos. Este tipo de gráfico permite identificar las tendencias en el otorgamiento de créditos según su valor, lo cual es útil para entender cuáles son los montos más comunes de financiamiento solicitados. La gráfica puede ayudar a detectar si existe una mayor demanda de créditos pequeños o grandes, así como patrones de financiación en el mercado inmobiliario de <strong>Tulancingo</strong>.</p>
+                <p>Se muestra la distribución de créditos por monto en Puebla. Cada barra representa un rango de monto de los créditos y  su altura, la cantidad de créditos otorgados dentro de ese rango. Se toman en cuenta cinco rangos: 0 a 1 millón de pesos, 1 a 2 millones, 2 a 3 millones, 3 a 4 millones y 4 a 20 millones de pesos. La gráfica es útil para visualizar la preferencia de los compradores y el acceso a financiamiento, identificando en qué rango se concentra la mayor cantidad de créditos. Esta información puede ayudar a entender el comportamiento del mercado inmobiliario y a detectar qué tipos de propiedades son más accesibles o demandadas en términos de financiamiento.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
