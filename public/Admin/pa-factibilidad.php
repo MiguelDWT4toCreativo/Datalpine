@@ -294,32 +294,30 @@
 
         <!-- Repite el modal de interpretación para los otros años -->
 
-<!-- Script para controlar la visualización de gráficas -->
-<script>
-    function showYearlyData(year) {
-        // Ocultar todas las gráficas
-        const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyData${y}`).style.display = 'none';
-        });
+        <!-- Script para controlar la visualización de gráficas -->
+        <script>
+            function showYearlyData(year) {
+                // Ocultar todas las gráficas
+                const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
+                years.forEach(y => {
+                    document.getElementById(`yearlyData${y}`).style.display = 'none';
+                });
 
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyData${year}`).style.display = 'block';
-        }
+                // Mostrar la gráfica correspondiente al año seleccionado
+                if (year) {
+                    document.getElementById(`yearlyData${year}`).style.display = 'block';
+                }
 
-        // Actualizar el botón de interpretación según el año
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-    }
+                // Actualizar el botón de interpretación según el año
+                const interpretationButton = document.getElementById('interpretationButton');
+                interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+            }
 
-    // Mostrar la gráfica de 2019 por defecto al cargar la página
-    window.onload = function() {
-        showYearlyData('2019');
-    };
-</script>
-
-
+            // Mostrar la gráfica de 2019 por defecto al cargar la página
+            window.onload = function() {
+                showYearlyData('2019');
+            };
+        </script>
 
 
         <!-- Estacionalidad -->
@@ -412,8 +410,6 @@
     </div>
     
 </div>
-
-        </div>
 
         <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">

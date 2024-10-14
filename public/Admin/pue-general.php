@@ -831,67 +831,8 @@
 
 
 
-<div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Tendencia de Mercado & Dinámica de Precios -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tendencia de precios por segmento</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal Descripción -->
-<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="descriptionModalLabel">Descripción</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Modal Interpretación -->
-<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="interpretationModalLabel">Interpretación</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Variabilidad en los segmentos: Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios. El segmento <strong>A</strong> Experimenta un aumento en el precio (<strong>27.35%</strong>), aunque es el menor de todos los segmentos. El segmento <strong>B</strong> Presenta un aumento (<strong>35.05%</strong>) más pronunciada en comparación con el segmento <strong>A</strong>. El segmento <strong>C</strong> Muestra un aumento en el precio (<strong>58.89%</strong>) de todos los segmentos, lo que indica un alza significativa en sus precios. El segmento <strong>D</strong> Este segmento experimenta un aumento considerable en su precio (<strong>92.09%</strong>), destacándose como el único con una tendencia al alza. El segmento <strong>E</strong>: Muestra una disminución en el precio (<strong>-1.08%</strong>), aunque no tan pronunciada como en los segmentos <strong>B</strong> y <strong>C</strong>. El segmento <strong>S</strong> no presenta cambio en sus precios.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 

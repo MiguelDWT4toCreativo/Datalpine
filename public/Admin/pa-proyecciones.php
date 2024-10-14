@@ -860,6 +860,171 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
     </div>
 </div>
 
+<!-- Columna completa: Mapa por Colonias -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Mapa por Colonias</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalMapaColonias">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalMapaColonias">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_map_colonias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalMapaColonias" tabindex="-1" aria-labelledby="descriptionModalLabelMapaColonias" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelMapaColonias">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Este mapa interactivo muestra la distribución geográfica de las colonias en Pachuca. Cada colonia está coloreada según una clasificación basada en el valor promedio de las propiedades en la zona. El mapa permite a los usuarios visualizar las áreas con inmuebles de mayor y menor valor, proporcionando una clara representación de la estructura del mercado inmobiliario en Pachuca.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalMapaColonias" tabindex="-1" aria-labelledby="interpretationModalLabelMapaColonias" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelMapaColonias">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El mapa revela una concentración de colonias con propiedades de alto valor en la zona norte de Pachuca, en áreas como <strong>Zona Plateada</strong> y <strong>San Javier</strong>, donde los precios son significativamente más altos que en otras regiones. Estas áreas corresponden a desarrollos recientes y proyectos exclusivos que han atraído a compradores de alto poder adquisitivo.</p>
+                <p>Por otro lado, en la zona sur de la ciudad, se encuentran colonias con propiedades de menor valor, como <strong>La Raza</strong> y <strong>Parque de Poblamiento</strong>, que se caracterizan por una oferta inmobiliaria más accesible, orientada a compradores con ingresos medios y bajos. Este contraste entre las diferentes zonas destaca las disparidades económicas y la segmentación del mercado inmobiliario en la ciudad.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Columna completa: Forecast créditos generales -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="forecastSelect" onchange="showForecastData(this.value)">
+                        <option value="valor">Valor</option>
+                        <option value="general">General</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalForecast">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonForecast" data-bs-toggle="modal" data-bs-target="#interpretationModalForecastValor">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_forecast_creditos_valor.html" width="100%" height="400" frameborder="0" id="forecastDataValor" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_forecast_creditos_general.html" width="100%" height="400" frameborder="0" id="forecastDataGeneral" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalForecast" tabindex="-1" aria-labelledby="descriptionModalLabelForecast" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelForecast">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra el forecast de créditos generales en Pachuca. Se incluyen proyecciones basadas en datos históricos, permitiendo analizar el comportamiento futuro de los créditos tanto en términos generales como en valor. Esta herramienta es útil para evaluar el crecimiento o decrecimiento esperado en el otorgamiento de créditos en el mercado local.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: Valor -->
+<div class="modal fade" id="interpretationModalForecastValor" tabindex="-1" aria-labelledby="interpretationModalLabelForecastValor" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelForecastValor">Interpretación - Valor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El forecast basado en valor sugiere un incremento constante en los créditos de mayor valor en Pachuca. Esto puede estar asociado con el crecimiento económico de la región y la demanda por inmuebles de mayor valor, lo que incrementa la cantidad de créditos otorgados en este rango. Se espera que esta tendencia se mantenga, especialmente con el desarrollo de proyectos inmobiliarios de alto valor.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: General -->
+<div class="modal fade" id="interpretationModalForecastGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelForecastGeneral" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelForecastGeneral">Interpretación - General</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El forecast general muestra una tendencia estable en el número total de créditos otorgados, aunque con ligeras fluctuaciones. Esto indica un mercado maduro donde la demanda por créditos se mantiene relativamente constante. Se proyecta que los créditos seguirán siendo otorgados de manera estable, lo que sugiere una confianza continua en el sector inmobiliario de la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script to control the display of the graphs -->
+<script>
+    function showForecastData(type) {
+        // Hide all graphs
+        document.getElementById('forecastDataValor').style.display = 'none';
+        document.getElementById('forecastDataGeneral').style.display = 'none';
+
+        // Show the selected graph
+        if (type === 'valor') {
+            document.getElementById('forecastDataValor').style.display = 'block';
+            document.getElementById('interpretationButtonForecast').setAttribute('data-bs-target', '#interpretationModalForecastValor');
+        } else if (type === 'general') {
+            document.getElementById('forecastDataGeneral').style.display = 'block';
+            document.getElementById('interpretationButtonForecast').setAttribute('data-bs-target', '#interpretationModalForecastGeneral');
+        }
+    }
+
+    // Show "Valor" graph by default on page load
+    window.onload = function() {
+        showForecastData('valor');
+    };
+</script>
+
 
     </div>
 </div>
