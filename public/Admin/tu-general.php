@@ -737,23 +737,32 @@
 </div>
 
 
-<!-- g_piramid_poblacion -->
+<!-- g_piramid_poblacion con un solo desplegable y dos iframes para Hidalgo y Tulancingo -->
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población de Querétaro por género y rango de edad</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Demográfico: Distribución de la población por género y rango de edad</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
+                <div class="mb-3">
+                    <select class="form-select me-2" id="locationSelect" onchange="updateGraphs()">
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Tulancingo">Tulancingo</option>
+                    </select>
+                </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPiramid">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPiramid">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonPiramid" data-bs-toggle="modal">Interpretación</button>
                 </div>
             </div>
+
+            <!-- Espacios para los dos iframes -->
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_piramid_poblacion_hgo.html" width="100%" height="400" frameborder="0" id="iframeHidalgo" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="iframeTulancingo" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -768,7 +777,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica proporciona una representación visual de la población de Tulancingo de Bravo, segmentada por rangos de edad y género para observar cómo se distribuye la población en el estado.</p>
+                <p>La gráfica proporciona una representación visual de la población segmentada por rangos de edad y género en la ubicación seleccionada para observar cómo se distribuye la población en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -777,16 +786,16 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalPiramid" tabindex="-1" aria-labelledby="interpretationModalLabelPiramid" aria-hidden="true">
+<!-- Modal for Interpretation Hidalgo -->
+<div class="modal fade" id="interpretationModalPiramidHidalgo" tabindex="-1" aria-labelledby="interpretationModalLabelHidalgo" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelPiramid">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelHidalgo">Interpretación Hidalgo</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En la pirámide poblacional de <strong>Tulancingo de Bravo</strong> se puede observar que la población que más predomina en distribución es el rango de <strong>15 a 19 años</strong>, pero también de <strong>20 a 49 años</strong> se tiene un gran volumen lo cual representa que gran parte de los habitantes tienen la edad en la cual están en posibilidades de adquirir una vivienda.</p>
+                <p>En la pirámide poblacional de <strong>Hidalgo</strong>, se observa una distribución mayoritaria en los rangos de <strong>20 a 49 años</strong>, lo que indica una población en edad productiva. Este grupo es clave para la demanda de viviendas y desarrollo inmobiliario en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -795,71 +804,52 @@
     </div>
 </div>
 
-
-
-
-
-<div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Tendencia de Mercado & Dinámica de Precios -->
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tendencia de precios por segmento</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
+<!-- Modal for Interpretation Tulancingo -->
+<div class="modal fade" id="interpretationModalPiramidTulancingo" tabindex="-1" aria-labelledby="interpretationModalLabelTulancingo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelTulancingo">Interpretación Tulancingo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En la pirámide poblacional de <strong>Tulancingo de Bravo</strong>, se observa una mayor concentración en el rango de <strong>15 a 19 años</strong>, pero también una fuerte presencia en el rango de <strong>20 a 49 años</strong>, lo que representa una alta demanda potencial de viviendas en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Modal Descripción -->
-<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="descriptionModalLabel">Descripción</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Script para actualizar los iframes y modales según la ubicación seleccionada -->
+<script>
+    function updateGraphs() {
+        const location = document.getElementById('locationSelect').value;
 
-<!-- Modal Interpretación -->
-<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="interpretationModalLabel">Interpretación</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Variabilidad en los segmentos: Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios. El segmento <strong>A</strong> Experimenta un aumento en el precio (<strong>27.35%</strong>), aunque es el menor de todos los segmentos. El segmento <strong>B</strong> Presenta un aumento (<strong>35.05%</strong>) más pronunciada en comparación con el segmento <strong>A</strong>. El segmento <strong>C</strong> Muestra un aumento en el precio (<strong>58.89%</strong>) de todos los segmentos, lo que indica un alza significativa en sus precios. El segmento <strong>D</strong> Este segmento experimenta un aumento considerable en su precio (<strong>92.09%</strong>), destacándose como el único con una tendencia al alza. El segmento <strong>E</strong>: Muestra una disminución en el precio (<strong>-1.08%</strong>), aunque no tan pronunciada como en los segmentos <strong>B</strong> y <strong>C</strong>. El segmento <strong>S</strong> no presenta cambio en sus precios.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
+        // Mostrar/ocultar iframes según la ubicación seleccionada
+        if (location === 'Hidalgo') {
+            document.getElementById('iframeHidalgo').style.display = 'block';
+            document.getElementById('iframeTulancingo').style.display = 'none';
+        } else if (location === 'Tulancingo') {
+            document.getElementById('iframeHidalgo').style.display = 'none';
+            document.getElementById('iframeTulancingo').style.display = 'block';
+        }
+
+        // Actualizar el botón de interpretación para abrir el modal correcto
+        const interpretationButton = document.getElementById('interpretationButtonPiramid');
+        if (location === 'Hidalgo') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalPiramidHidalgo');
+        } else if (location === 'Tulancingo') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalPiramidTulancingo');
+        }
+    }
+
+    // Cargar las gráficas de Hidalgo por defecto al iniciar la página
+    window.onload = function() {
+        updateGraphs();
+    };
+</script>
 
 
 

@@ -281,7 +281,7 @@
 
 
         <!-- Columna completa: Profesiones -->
-        <!-- <div class="col-md-12">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title subtitle mb-3 text-center">Profesiones</h5>
@@ -300,10 +300,47 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <!-- Columna completa: g_bar_mercadosalario_parejas_vol -->
-        <!-- <div class="col-md-12">
+        <!-- Modal for Description -->
+        <div class="modal fade" id="descriptionModal3" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel3">Descripción</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>La gráfica muestra la distribución de las profesiones más comunes en Pachuca, segmentada por sectores como la salud, la educación, la tecnología y los servicios. Cada barra representa un sector profesional y su proporción relativa en el mercado laboral de la ciudad.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation -->
+        <div class="modal fade" id="interpretationModal3" tabindex="-1" aria-labelledby="interpretationModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel3">Interpretación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>La distribución de las profesiones refleja que el sector de la salud y la educación son los más representativos en Pachuca, seguidos por los servicios. Esto indica que la demanda laboral se concentra en estos sectores debido a la presencia de universidades, hospitales y centros educativos. El crecimiento en el sector tecnológico también es notable, lo que sugiere una tendencia al alza en la digitalización y la innovación tecnológica en la región.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Columna completa: Mercado salario parejas (Volumen) -->
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title subtitle mb-3 text-center">Mercado salario parejas (Volumen)</h5>
@@ -318,14 +355,51 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_parejas_vol.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Modal for Description -->
+        <div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica representa el volumen del mercado salarial para parejas en Pachuca. Muestra el número de parejas que caen dentro de distintos rangos salariales, permitiendo una visión clara de cómo se distribuyen los ingresos en la ciudad para este grupo demográfico. Es útil para identificar los segmentos de población que tienen mayor capacidad adquisitiva para acceder a inmuebles.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation -->
+        <div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>La gráfica de mercado salarial para parejas muestra que la mayoría de las parejas en Pachuca se concentran en el rango salarial de <strong>25,000 a 35,000 pesos mensuales</strong>, lo que indica una capacidad adquisitiva media-alta en este grupo. Esta distribución refleja que muchas parejas están en condiciones de adquirir viviendas de rango medio-alto, lo que puede influir en el comportamiento del mercado inmobiliario. Las parejas con salarios superiores a <strong>50,000 pesos mensuales</strong> representan una menor proporción, pero también constituyen un segmento de mercado atractivo para propiedades de lujo o de mayor valor.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Columna completa: g_bar_mercadosalario_parejas -->
-        <!-- <div class="col-md-12">
+         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title subtitle mb-3 text-center">Mercado salario parejas</h5>
@@ -346,8 +420,8 @@
             </div>
         </div>
 
-        <!-- Columna completa: g_bar_mercadosalario_persona -->
-        <!-- <div class="col-md-12">
+        <!-- Columna completa: Mercado salario por persona -->
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title subtitle mb-3 text-center">Mercado salario por persona</h5>
@@ -362,11 +436,49 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_persona.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal6" tabindex="-1" aria-labelledby="descriptionModalLabel6" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel6">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica presenta la distribución del salario individual en Pachuca. Los datos segmentan los rangos salariales para ilustrar cómo se distribuye el ingreso entre los habitantes de la ciudad, permitiendo identificar los grupos con mayor o menor poder adquisitivo dentro del mercado inmobiliario.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal6" tabindex="-1" aria-labelledby="interpretationModalLabel6" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel6">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra que la mayoría de las personas en Pachuca se encuentran en un rango salarial de <strong>10,000 a 15,000 pesos mensuales</strong>, lo que representa a una clase media baja con limitaciones en su capacidad de compra de propiedades. Los individuos con ingresos superiores a <strong>25,000 pesos</strong> representan una minoría (<strong>15%</strong>), pero son un grupo importante con mayor poder adquisitivo y acceso a propiedades de mayor valor.</p>
+                <p>En los rangos más bajos (<strong>menos de 7,000 pesos</strong>), se observa una participación considerable, lo que indica una franja importante de la población que enfrenta dificultades para acceder al mercado inmobiliario formal, probablemente recurriendo a opciones de alquiler o viviendas de bajo costo.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Columna completa: g_pie_creditos_genero -->
@@ -699,7 +811,7 @@
 </div>
 
 
-<!-- g_piramid_poblacion -->
+<!-- g_piramid_poblacion con un solo desplegable y dos iframes para Hidalgo y Tulancingo -->
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -710,34 +822,36 @@
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div class="mb-3">
-                    <select class="form-select me-2" id="locationSelect" onchange="showLocationData(this.value)">
-                        <option value="pachuca">Hidalgo</option>
-                        <option value="ciudad">Pachuca</option>
+                    <select class="form-select me-2" id="locationSelect" onchange="updateGraphs()">
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Tulancingo">Tulancingo</option>
                     </select>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPiramid">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonPiramid" data-bs-toggle="modal">Interpretación</button>
                 </div>
             </div>
+
+            <!-- Espacios para los dos iframes -->
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_piramid_poblacion_edad_gen_hidalgo.html" width="100%" height="400" frameborder="0" id="pachucaData" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="ciudadData" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_piramid_poblacion_hgo.html" width="100%" height="400" frameborder="0" id="iframeHidalgo" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="iframeTulancingo" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal9" tabindex="-1" aria-labelledby="descriptionModalLabel9" aria-hidden="true">
+<div class="modal fade" id="descriptionModalPiramid" tabindex="-1" aria-labelledby="descriptionModalLabelPiramid" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel9">Descripción</h5>
+                <h5 class="modal-title" id="descriptionModalLabelPiramid">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de la población por rango de edad y género en la ciudad de Pachuca de Soto en los últimos años.</p>
+                <p>La gráfica proporciona una representación visual de la población segmentada por rangos de edad y género en la ubicación seleccionada para observar cómo se distribuye la población en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -746,16 +860,16 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal9" tabindex="-1" aria-labelledby="interpretationModalLabel9" aria-hidden="true">
+<!-- Modal for Interpretation Hidalgo -->
+<div class="modal fade" id="interpretationModalPiramidHidalgo" tabindex="-1" aria-labelledby="interpretationModalLabelHidalgo" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel9">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModalLabelHidalgo">Interpretación Hidalgo</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En la ciudad de Pachuca de Soto gran parte de la población se encuentra en un rango de edad de entre  20 a 49 años, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa.</p>
+                <p>En la pirámide poblacional de <strong>Hidalgo</strong>, se observa una distribución mayoritaria en los rangos de <strong>20 a 49 años</strong>, lo que indica una población en edad productiva. Este grupo es clave para la demanda de viviendas y desarrollo inmobiliario en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -764,30 +878,53 @@
     </div>
 </div>
 
-<!-- Script para controlar la visualización de gráficas -->
+<!-- Modal for Interpretation Tulancingo -->
+<div class="modal fade" id="interpretationModalPiramidTulancingo" tabindex="-1" aria-labelledby="interpretationModalLabelTulancingo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelTulancingo">Interpretación Tulancingo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En la ciudad de Pachuca de Soto buena parte de la población se encuentra en un rango de edad de 0 a 19 años, esta población considera a los menores de edad. Por su parte, el grupo de edad de 20 a 49 años y de 35 a 49 años tienen una participación similar. Este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para actualizar los iframes y modales según la ubicación seleccionada -->
 <script>
-    function showLocationData(location) {
-        // Ocultar todas las gráficas
-        document.getElementById('pachucaData').style.display = 'none';
-        document.getElementById('ciudadData').style.display = 'none';
+    function updateGraphs() {
+        const location = document.getElementById('locationSelect').value;
 
-        // Mostrar la gráfica correspondiente a la ubicación seleccionada
-        if (location === 'pachuca') {
-            document.getElementById('pachucaData').style.display = 'block';
-        } else if (location === 'ciudad') {
-            document.getElementById('ciudadData').style.display = 'block';
+        // Mostrar/ocultar iframes según la ubicación seleccionada
+        if (location === 'Hidalgo') {
+            document.getElementById('iframeHidalgo').style.display = 'block';
+            document.getElementById('iframeTulancingo').style.display = 'none';
+        } else if (location === 'Tulancingo') {
+            document.getElementById('iframeHidalgo').style.display = 'none';
+            document.getElementById('iframeTulancingo').style.display = 'block';
         }
 
-        // Actualizar el botón de interpretación según la ubicación seleccionada
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal9`);
+        // Actualizar el botón de interpretación para abrir el modal correcto
+        const interpretationButton = document.getElementById('interpretationButtonPiramid');
+        if (location === 'Hidalgo') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalPiramidHidalgo');
+        } else if (location === 'Tulancingo') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalPiramidTulancingo');
+        }
     }
 
-    // Mostrar la gráfica de Pachuca por defecto al cargar la página
+    // Cargar las gráficas de Hidalgo por defecto al iniciar la página
     window.onload = function() {
-        showLocationData('pachuca');
+        updateGraphs();
     };
 </script>
+
 
 
 
@@ -921,13 +1058,14 @@
         const interpretationButton = document.getElementById('interpretationButton');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
     }
+
+    // Mostrar la gráfica del primer año (2022) por defecto al cargar la página
+    window.onload = function() {
+        showYearlyDataSet2('2022');
+    };
 </script>
 
 
-
-
-    </div>
-</div>
 
 
 <!-- End Page-content -->
