@@ -177,7 +177,8 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: none;"></iframe>
+                                <!-- Modificación en la sección de iframe para que 2019 se muestre por defecto -->
+                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2020.html" width="100%" height="400" frameborder="0" id="yearlyData2020" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2021.html" width="100%" height="400" frameborder="0" id="yearlyData2021" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022" style="display: none;"></iframe>
@@ -375,6 +376,82 @@
                 </div>
             </div>
         </div>
+
+        <!-- Gráfica: Distribución de créditos por grupos de edad -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por grupos de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalAgeGroup">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalAgeGroup">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalAgeGroup" tabindex="-1" aria-labelledby="descriptionModalLabelAgeGroup" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelAgeGroup">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                El gráfico de pastel está dividido en tres secciones, cada una representa un rango de edad y está asociada a un color específico:
+            </p>
+            <ul>
+                <li><strong>Azul:</strong> Edad de 30 a 59 años.</li>
+                <li><strong>Violeta:</strong> Edad menor a 29 años.</li>
+                <li><strong>Rojo:</strong> Edad de 60 años o más.</li>
+            </ul>
+            <p>
+                El tamaño de cada sección es proporcional al porcentaje de créditos otorgados a cada grupo de edad. Los porcentajes correspondientes a cada grupo se muestran dentro de cada sección.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalAgeGroup" tabindex="-1" aria-labelledby="interpretationModalLabelAgeGroup" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelAgeGroup">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                <strong>Dominancia del Grupo de 30 a 59 años:</strong> El grupo de edad entre <strong>30 y 59 años</strong> concentra la mayor proporción de créditos, representando el <strong>77.7%</strong> del total. Esto sugiere que este grupo de edad es el principal solicitante y beneficiario de créditos.
+            </p>
+            <p>
+                <strong>Menor Participación de Jóvenes y Adultos Mayores:</strong> Los grupos de edad menor a <strong>29 años</strong> y de <strong>60 años o más</strong> tienen una participación menor en la obtención de créditos. El grupo de edad menor a 29 años representa el <strong>18.3%</strong> de los créditos, mientras que el grupo de 60 años o más solo representa el <strong>3.97%</strong>.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
