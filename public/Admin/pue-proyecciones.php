@@ -464,7 +464,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            La grafica nos muestra las cinco colonias las cuales tienen en promedio los precios más bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro               
+            El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -482,9 +482,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Las colonias que más barato ofertan sus inmuebles son Andadores Satélite y Satélite Sección 3N S; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de Santiago de Querétaro, lo que significa que,  hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. 
-
-Además, se puede observar que, la colonia rinconada del capricho, San Pedro Martin y Unidad Roma ofrecen precios bajos alrededor del medio millón de pesos las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.
+            <p>
+                A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de <strong>Puebla</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>6,733,923</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>7,188,185</strong>.
+            </p>
+            <p>
+                Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
+            </p>
             
             </div>
             <div class="modal-footer">

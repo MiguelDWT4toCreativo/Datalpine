@@ -982,7 +982,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2023</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>

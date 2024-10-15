@@ -444,6 +444,80 @@
             </div>
         </div>
 
+        <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por grupos de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEdad">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEdad">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalEdad" tabindex="-1" aria-labelledby="descriptionModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelEdad">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                <p>
+                    La gráfica muestra la distribución de los créditos otorgados en la ciudad de <strong>Puebla</strong> según tres grupos de edad: personas de <strong>30 a 59 años</strong>, menores de <strong>29</strong> y mayores de <strong>60 años</strong>. 
+                </p>
+                <p>
+                    Esta información es útil para identificar el segmento de población que tiene mayor participación en el acceso a créditos, lo que permite enfocar estrategias de financiamiento y políticas de desarrollo hacia los grupos etarios que predominan en el mercado.
+                </p>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalEdad" tabindex="-1" aria-labelledby="interpretationModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelEdad">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Los datos reflejan que el <strong>71.6%</strong> de los créditos fueron otorgados a personas de entre <strong>30 y 59 años</strong>, lo cual es lógico dado que este rango de edad tiende a tener una estabilidad laboral y económica que facilita el acceso a financiamientos.
+            </p>
+            <p>
+                Por otro lado, un <strong>21.4%</strong> de los créditos se destinó a personas menores de <strong>29 años</strong>, lo que podría deberse a un aumento de la demanda de vivienda por parte de las nuevas generaciones que buscan independencia económica y habitacional a edades relativamente tempranas.
+            </p>
+            <p>
+                Finalmente, solo un <strong>7%</strong> corresponde a personas mayores de <strong>60 años</strong>, lo que puede indicar que este grupo suele adquirir vivienda en etapas anteriores de su vida o que encuentran menos atractivo endeudarse a largo plazo por la propia etapa vital en la que se encuentran.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
         <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
