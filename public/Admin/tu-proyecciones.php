@@ -146,67 +146,6 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Mitad derecha: Colonias de Alto Potencial -->
-<!-- Mitad derecha: Destino del crédito -->
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Destino del crédito</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal4">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal4">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel4">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en Tulancingo según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModalLabel4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel4">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La alta proporción de créditos destinados a vivienda usada (<strong>51.1%</strong>) en Tulancingo podría estar vinculada a factores económicos locales, como una mayor accesibilidad a propiedades más asequibles en el mercado secundario. La menor participación de vivienda nueva (<strong>26.7%</strong>) sugiere una oferta limitada o precios elevados que restringen el acceso a este tipo de propiedades.</p>
-                <p>Además, la considerable asignación para mejoramientos (<strong>18.3%</strong>) refleja una tendencia de inversión en la mejora de viviendas existentes, lo que podría estar relacionado con un envejecimiento del parque habitacional o la necesidad de actualizar propiedades. Por último, el pequeño porcentaje destinado a otros programas (<strong>4.0%</strong>) podría sugerir que estos programas no son muy conocidos o utilizados en la región.</p>
-                <p>Este comportamiento puede estar influenciado por las condiciones socioeconómicas de Tulancingo, como una menor capacidad de adquisición para nuevas viviendas o un mayor enfoque en propiedades ya existentes como inversión.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
     </div>
 </div>
 
@@ -500,7 +439,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_bar_proy_poblacion_hgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -515,7 +454,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            La grafica nos muestra las cinco colonias las cuales tienen en promedio los precios más bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro               
+            El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -533,10 +472,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Las colonias que más barato ofertan sus inmuebles son Andadores Satélite y Satélite Sección 3N S; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de Santiago de Querétaro, lo que significa que,  hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. 
+            <p>
+                A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de <strong>Pachuca</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>3,144,514</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>3,350,825</strong>.
+            </p>
+            <p>
+                Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
+            </p>
 
-Además, se puede observar que, la colonia rinconada del capricho, San Pedro Martin y Unidad Roma ofrecen precios bajos alrededor del medio millón de pesos las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.
-            
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -852,10 +794,19 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Mayor concentración en los primeros días:</strong> La barra más alta corresponde al rango de <strong>0-30</strong> días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.</p>
-                <p><strong>Rango 0-30 días:</strong> Este rango concentra la mayor cantidad de propiedades, lo que sugiere que muchas propiedades se venden en el primer mes.</p>
-                <p><strong>Rango 31-120 días:</strong> Aunque menor que el rango anterior, este rango también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes.</p>
-                <p><strong>Rangos superiores:</strong> Los rangos superiores a <strong>120</strong> días presentan una disminución en el número de propiedades, lo que sugiere que, a partir de este punto, la probabilidad de que una propiedad se venda disminuye.</p>
+            <p>
+            La mayor concentración de ventas de propiedades se da en los primeros <strong>30 días</strong>, lo que sugiere una demanda activa en el mercado, ya que muchas propiedades encuentran comprador rápidamente. En el rango de <strong>0 a 30 días</strong> se concentra la mayoría de las ventas, lo que indica que muchas propiedades se venden en el primer mes.
+        </p>
+        <p>
+            El rango de <strong>31 a 120 días</strong> sigue un ritmo casi igual al anterior, con solo <strong>5 propiedades menos</strong>, y sigue representando una cantidad significativa de ventas, mostrando que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes.
+        </p>
+        <p>
+            A partir de los <strong>120 días</strong>, los rangos superiores muestran una disminución en el número de ventas, lo que indica que la probabilidad de venta se reduce después de ese período. En el rango de <strong>4 a 8 meses</strong>, las propiedades vendidas ascienden ligeramente por encima de las <strong>200</strong>, mientras que en el rango de <strong>241 a 364 días</strong> se reducen a solo <strong>134 unidades</strong>, lo que demuestra que, tras superar los 240 días en el mercado, la demanda disminuye de manera exponencial.
+        </p>
+        <p>
+            Finalmente, en el rango de <strong>más de 365 días</strong>, solo <strong>65 propiedades</strong> se venden después de este tiempo.
+        </p>
+
             </div>
             </div>
             <div class="modal-footer">
