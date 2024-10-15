@@ -388,98 +388,6 @@
             </div>
         </div>
 
-
-
-        <!-- Segmentación de mercado: Promedio de precio por segmento -->
-        <div class="row">
-        <div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades por segmento </h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmentoPropiedades">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmentoPropiedades">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmentoPropiedades" tabindex="-1" aria-labelledby="descriptionModalLabelSegmentoPropiedades" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmentoPropiedades">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-             <p>
-                Se muestra la segmentación del mercado inmobiliario en <strong>Querétaro</strong> para el <strong>año 2023</strong>, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el <strong>segmento D</strong> (<strong>1 millón a 1.75 millones</strong>) hasta el <strong>segmento S</strong> (<strong>4 millones a 12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.
-            </p>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmentoPropiedades" tabindex="-1" aria-labelledby="interpretationModalLabelSegmentoPropiedades" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmentoPropiedades">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El gráfico revela que el segmento <strong>E</strong> domina el mercado con la mayor cantidad de propiedades ofertadas, lo que refleja una fuerte demanda por viviendas más accesibles. Los segmentos <strong>C</strong> y <strong>D</strong> también tienen una participación significativa, sugiriendo un interés constante en propiedades de rango medio. Sin embargo, el segmento <strong>S</strong> muestra una menor oferta, lo que indica una concentración limitada de propiedades de lujo en el mercado actual.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="col-md-6">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="yearSelectSegmento" onchange="showSegmentoData(this.value)">
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmentoUnique">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
     <div class="modal-dialog">
@@ -561,14 +469,73 @@
     };
 </script>
 
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por grupos de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEdad">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEdad">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalEdad" tabindex="-1" aria-labelledby="descriptionModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelEdad">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    La gráfica muestra la distribución de créditos hipotecarios por grupos de edad en Querétaro. Permite identificar qué grupos de edad son los que más créditos solicitan y cómo se distribuyen los préstamos en función de la edad de los solicitantes.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalEdad" tabindex="-1" aria-labelledby="interpretationModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelEdad">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    En la distribución por grupos de edad, se observa que la mayor cantidad de créditos se otorgan a personas en el rango de <strong>30 a 39 años</strong>. Esto puede estar relacionado con que en esta etapa de la vida, muchas personas buscan adquirir propiedades como una inversión a largo plazo o para formar un hogar. El segundo grupo con más créditos es el de <strong>40 a 49 años</strong>, lo que también indica que las personas continúan adquiriendo inmuebles incluso después de los 40, probablemente debido a una mayor estabilidad financiera. Los grupos más jóvenes, de <strong>20 a 29 años</strong>, tienen menos participación en los créditos, lo que puede estar relacionado con ingresos más bajos o menor acceso a financiamiento. 
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Promedio de precio por segmento</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Promedio de precio por segmento</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>

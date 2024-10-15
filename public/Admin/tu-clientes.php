@@ -274,7 +274,13 @@
         const interpretationButton = document.getElementById('interpretationButtonUMAS');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
     }
+
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    window.onload = function() {
+        showYearlyDataUMAS('2022'); // Mostrar la gráfica de 2022 al cargar
+    };
 </script>
+
 
 
 <!-- Mitad derecha: Destino del crédito -->

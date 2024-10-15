@@ -318,13 +318,19 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Variabilidad en los segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alta en los precios.</p>
-                <p><strong>Segmento A:</strong> Experimenta un aumento en el precio (27.35%), aunque es el menor de todos los segmentos.</p>
-                <p><strong>Segmento B:</strong> Presenta un aumento (35.05%) más pronunciada en comparación con el segmento A.</p>
-                <p><strong>Segmento C:</strong> Muestra un aumento en el precio (58.89%) de todos los segmentos, lo que indica un alza significativa en sus precios.</p>
-                <p><strong>Segmento D:</strong> Este segmento experimenta un aumento considerable en su precio (92.09%), destacándose como el único con una tendencia al alza.</p>
-                <p><strong>Segmento E:</strong> Muestra una disminución en el precio (-1.08%), aunque no tan pronunciada como en los segmentos B y C.</p>
-                <p><strong>Segmento S:</strong> No presenta cambio en sus precios.</p>
+            <p>
+                <strong>Variabilidad en los segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan una reducción en sus precios, lo que sugiere una tendencia general a la baja.
+            </p>
+            <p>
+                El <strong>segmento A</strong> experimenta una disminución mínima en el precio (<strong>-0.32%</strong>), siendo la menor de todas. El <strong>segmento B</strong> presenta un decrecimiento ligeramente mayor (<strong>-0.73%</strong>) en comparación con el segmento A. El <strong>segmento C</strong> muestra una disminución superior en el precio (<strong>-2.18%</strong>), lo que indica una baja significativa.
+            </p>
+            <p>
+                El <strong>segmento S</strong> presenta un aumento modesto en su precio (<strong>0.77%</strong>), destacándose como el primero con una tendencia al alza. El <strong>segmento E</strong> muestra un aumento en el precio (<strong>2.96%</strong>), aunque no tan pronunciado como el del <strong>segmento D</strong> (<strong>4.08%</strong>), siendo este último el que muestra el mayor aumento de todos.
+            </p>
+            <p>
+                El <strong>segmento L</strong> no presenta cambio en sus precios.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

@@ -377,6 +377,81 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por grupos de edad</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEdad">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEdad">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalEdad" tabindex="-1" aria-labelledby="descriptionModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelEdad">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                <p>
+                    El gráfico de pastel está dividido en tres secciones, cada una representa un rango de edad y está asociada a un color específico:
+                </p>
+                <ul>
+                    <li><strong>Azul:</strong> Edad de 30 a 59 años.</li>
+                    <li><strong>Violeta:</strong> Edad menor a 29 años.</li>
+                    <li><strong>Rojo:</strong> Edad de 60 años o más.</li>
+                </ul>
+                <p>
+                    El tamaño de cada sección es proporcional al porcentaje de créditos otorgados a cada grupo de edad. Los porcentajes correspondientes a cada grupo se muestran dentro de cada sección.
+                </p>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalEdad" tabindex="-1" aria-labelledby="interpretationModalLabelEdad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelEdad">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <strong>Dominancia del Grupo de 30 a 59 años:</strong> El grupo de edad entre <strong>30 y 59 años</strong> concentra la mayor proporción de créditos, representando el <strong>77.7%</strong> del total. Esto sugiere que este grupo de edad es el principal solicitante y beneficiario de créditos.
+                </p>
+                <p>
+                    <strong>Menor Participación de Jóvenes y Adultos Mayores:</strong> Los grupos de edad menor a <strong>29 años</strong> y de <strong>60 años o más</strong> tienen una participación menor en la obtención de créditos. El grupo de edad menor a 29 años representa el <strong>18.3%</strong> de los créditos, mientras que el grupo de 60 años o más solo representa el <strong>3.97%</strong>.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -879,109 +954,6 @@
                 </div>
             </div>
         </div> -->
-
-        <!-- Distribución de Propiedades -->
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2023</h5>
-                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-user-tie me-2"></i>
-                                    <span class="developer-label">Desarrollador</span>
-                                </div>
-                                <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
-                                </div>
-                            </div>
-                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Description 2023 -->
-        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Interpretation 2023 -->
-        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Description 2024 -->
-        <div class="modal fade" id="descriptionModal16" tabindex="-1" aria-labelledby="descriptionModalLabel16" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel16">Descripción 2024</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2024.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Interpretation 2024 -->
-        <div class="modal fade" id="interpretationModal16" tabindex="-1" aria-labelledby="interpretationModalLabel16" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel16">Interpretación 2024</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2024.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-        <!-- Agrega los modals para las gráficas restantes -->
 
     </div>
 </div>

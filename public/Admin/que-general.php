@@ -138,8 +138,136 @@
                     <h1>General</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
+
+
+                    <!-- Columna completa: Distribución de segmentos -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de segmentos</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegment">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegment">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" id="segmentData" style="display: block; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegment" tabindex="-1" aria-labelledby="descriptionModalLabelSegment" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegment">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra la distribución de los diferentes segmentos del mercado inmobiliario en Pachuca. Permite analizar la concentración de inmuebles por segmentos y observar las diferencias en la demanda y oferta de cada uno de ellos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalSegment" tabindex="-1" aria-labelledby="interpretationModalLabelSegment" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegment">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica de distribución de segmentos revela que los inmuebles de rango medio-alto tienen la mayor concentración en Pachuca. El segmento B, que abarca propiedades de 2.5 a 3.25 millones de pesos, es el más representado. Por otro lado, el segmento E, con propiedades de bajo valor (menos de 500 mil pesos), tiene la menor participación, lo que refleja una oferta limitada en ese rango de precios.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Proyección Poblacional</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPoblacion">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPoblacion">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalPoblacion" tabindex="-1" aria-labelledby="descriptionModalLabelPoblacion" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelPoblacion">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalPoblacion" tabindex="-1" aria-labelledby="interpretationModalLabelPoblacion" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelPoblacion">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                <p>
+                    A lo largo de los años que se analizan, se revela un crecimiento progresivo en la ciudad de <strong>Querétaro</strong> para los próximos años. En <strong>2021</strong> la ciudad contaba con una población total aproximada de <strong>2,442,205</strong>, y para <strong>2027</strong> se proyecta que esta población aumente a <strong>2,723,968</strong>.
+                </p>
+                <p>
+                    Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica de la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
+                </p>
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Sección Proyección y Forecast -->
 <div class="container-fluid">
@@ -306,8 +434,12 @@
             </div>
             <div class="modal-body">
                 <!-- Aquí va el contenido de la descripción -->
-                <p>La gráfica muestra las tendencias de precios por segmento en el mercado inmobiliario de Querétaro. Se puede observar la distribución de precios en diferentes segmentos de propiedades, desde las más accesibles hasta las de lujo, en un periodo determinado.</p>
+                <p>
+                    El gráfico de barras muestra las tendencias de precios para diferentes segmentos (representados por las letras <strong>A, B, C, D, E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el porcentaje de cambio en el precio de ese segmento. Las barras que se extienden hacia arriba indican un aumento en el precio, mientras que las que se extienden hacia abajo indican una disminución.
+                </p>
+
             </div>
+
         </div>
     </div>
 </div>
@@ -322,7 +454,19 @@
             </div>
             <div class="modal-body">
                 <!-- Aquí va el contenido de la interpretación -->
-                <p>La interpretación de los datos revela que el segmento de propiedades de menor valor sigue siendo el más dominante en términos de volumen de créditos, mientras que los segmentos de mayor valor, aunque estables, atraen a un nicho específico de inversionistas y compradores de alto poder adquisitivo.</p>
+                <p>
+                    <strong>Variabilidad en los segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos. La mayoría de los segmentos presentan un aumento en sus precios, lo que sugiere una tendencia general al alza en los precios.
+                </p>
+                <p>
+                    El <strong>segmento B</strong> presenta un aumento en el precio (<strong>58.48%</strong>), aunque es el menor de todos los segmentos. El <strong>segmento A</strong> presenta un aumento más pronunciado (<strong>62.28%</strong>) en comparación con el segmento B. El <strong>segmento C</strong> muestra un aumento en el precio (<strong>77.83%</strong>), lo que indica un alza significativa en sus precios.
+                </p>
+                <p>
+                    Los <strong>segmentos D</strong> y <strong>E</strong> experimentan un aumento considerable en su precio (<strong>128.21%</strong> y <strong>133.77%</strong>, respectivamente), destacándose como los mayores incrementos con una clara tendencia al alza.
+                </p>
+                <p>
+                    El <strong>segmento S</strong> muestra una disminución pronunciada en el precio (<strong>-89.12%</strong>), siendo el único segmento con una tendencia a la baja.
+                </p>
+
             </div>
         </div>
     </div>
@@ -629,8 +773,8 @@
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal8">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal8">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalTiempoVenta">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalTiempoVenta">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -639,6 +783,49 @@
         </div>
     </div>
 </div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalTiempoVenta" tabindex="-1" aria-labelledby="descriptionModalLabelTiempoVenta" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo total de venta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalTiempoVenta" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo total de venta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Es posible notar que en el mercado inmobiliario de <strong>Santiago de Querétaro</strong> las propiedades se venden en periodos largos de tiempo, <strong>9 meses</strong> o entre <strong>16 y 18 meses</strong>. Esto muestra lo dinámico que es el mercado en la zona.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModal8" tabindex="-1" aria-labelledby="descriptionModalLabel8" aria-hidden="true">
@@ -670,7 +857,7 @@
             </div>
             <div class="modal-body">
                 <p>
-                    El **tiempo total de venta** refleja la velocidad con la que se mueve el mercado inmobiliario en Querétaro. Un tiempo de venta más corto indica una alta demanda y un mercado dinámico, mientras que tiempos más largos podrían sugerir saturación de oferta o poca demanda. En propiedades de segmentos altos, el tiempo de venta suele ser mayor debido a su valor más elevado y la menor cantidad de compradores potenciales. Por otro lado, en segmentos más bajos o accesibles, el tiempo de venta tiende a ser menor debido a la mayor accesibilidad financiera de los compradores.
+                    El tiempo total de venta refleja la velocidad con la que se mueve el mercado inmobiliario en Querétaro. Un tiempo de venta más corto indica una alta demanda y un mercado dinámico, mientras que tiempos más largos podrían sugerir saturación de oferta o poca demanda. En propiedades de segmentos altos, el tiempo de venta suele ser mayor debido a su valor más elevado y la menor cantidad de compradores potenciales. Por otro lado, en segmentos más bajos o accesibles, el tiempo de venta tiende a ser menor debido a la mayor accesibilidad financiera de los compradores.
                 </p>
                 <p>
                     Este dato es clave para **desarrolladores** y **vendedores** que buscan ajustar estrategias de precios, marketing y tiempos de lanzamiento para maximizar la rotación de propiedades.
@@ -684,27 +871,64 @@
 </div>
 
 
-        <!-- Columna completa: g_bar_tiempo_venta -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal9">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal9">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Columna completa: g_bar_tiempo_venta -->
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalTiempoVenta">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalTiempoVenta">Interpretación</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_tiempoventa.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalTiempoVenta" tabindex="-1" aria-labelledby="descriptionModalLabelTiempoVenta" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo de venta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica muestra el tiempo promedio que se tarda en vender una propiedad en Querétaro. El "tiempo de venta" mide el intervalo entre el momento en que una propiedad se pone a la venta y cuando se completa la transacción. Este indicador es importante para evaluar la eficiencia y rapidez del mercado inmobiliario en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalTiempoVenta" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo de venta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El análisis de esta gráfica revela que el tiempo promedio de venta en Querétaro ha disminuido en los últimos trimestres. Esto sugiere una mayor demanda o una mejora en las condiciones del mercado inmobiliario, lo que permite que las propiedades se vendan más rápidamente. Por otro lado, si el tiempo de venta aumenta, podría indicar un mercado más saturado o una menor demanda de propiedades.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Gráfica: Demográfico: Distribución de la población de Querétaro por género y rango de edad -->
 <div class="col-md-12">
@@ -737,7 +961,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de la población por rango de edad y género en la ciudad de Querétaro en los últimos años.</p>
+            <p>
+                El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L</strong> y <strong>S</strong>), y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses).
+            </p>
+            <p>
+                La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -756,8 +986,12 @@
             </div>
             <div class="modal-body">
             <p>
-                En la ciudad de <strong>Santiago de Querétaro</strong>, buena parte de la población se encuentra en un rango de edad de entre <strong>20 a 49 años</strong>, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa.
+                Es posible notar que el mercado inmobiliario de <strong>Santiago de Querétaro</strong> es consistente en el tiempo que tardan las propiedades en venderse. La mayoría de los segmentos poseen tiempos de venta homogéneos.
             </p>
+            <p>
+                Sin embargo, el <strong>segmento S</strong> es el grupo que mayor participación tiene en periodos de venta de <strong>9 meses</strong> y <strong>16 a 18 meses</strong>. Esto puede deberse a que son propiedades con alto precio, lo que dificulta que puedan venderse rápidamente.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -765,128 +999,8 @@
         </div>
     </div>
 </div>
-
 
         <!-- g_bar_distribucion_segmentos -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución créditos por segmentos</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="yearSelect" onchange="showYearlyDataSet2(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023s2" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024s2" style="display: none;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Esta gráfica muestra la distribución de segmentos para cada año.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El predominio de los créditos en el segmento <strong>E</strong> (<strong>47.5%</strong>) refleja una alta demanda por propiedades de menor precio, donde hay una oferta considerable de inmuebles más accesibles; lo cual puede estar relacionado con el nivel adquisitivo de la mayoría de la población en Santiago de Querétaro y la estructura del mercado inmobiliario. Esto puede explicarse también por la composición económica de la ciudad, que cuenta con una fuerte participación de sectores como la industria manufacturera, comercio, servicios y construcción; lo que genera una clase trabajadora enfocada en propiedades de bajo a mediano costo. El segmento <strong>S</strong>, a pesar de ser más costoso, representa un <strong>10.3%</strong> de los créditos, lo cual indica un nicho de mercado de alta gama, probablemente impulsado por una pequeña élite económica. </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El segmento <strong>E</strong> continúa siendo el mayor receptor de créditos en <strong>2023</strong>, con un <strong>44.4%</strong>, lo que sugiere que sigue existiendo una fuerte demanda por propiedades más económicas. Esto puede estar relacionado con los niveles de ingresos predominantes en la región y una oferta inmobiliaria enfocada en propiedades accesibles para la clase trabajadora de Santiago de Querétaro. Sin embargo, la estabilidad del segmento <strong>S</strong>, que recibe el <strong>11.9%</strong> de los créditos, indica la persistencia de un mercado de alta gama, probablemente dirigido a inversionistas o un grupo que percibe mayores ingresos.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>43.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>21.1%</strong>) y <strong>C</strong> (<strong>11.6%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>10.4%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script -->
-<script>
-    function showYearlyDataSet2(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyData${y}s2`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyData${year}s2`).style.display = 'block';
-        }
-
-        // Actualizar el botón de interpretación según el año
-        const interpretationButton = document.getElementById('interpretationButton');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
-    }
-</script>
-
 
 
     </div>
