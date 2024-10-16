@@ -651,11 +651,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento L es el segmento con el precio promedio más alto, con <strong>16 millones</strong>. Esto sugiere que los productos o servicios de este segmento tienen características o atributos que justifican un precio premium.</p>
-                <p>El segmento S, con un precio promedio de <strong>5.7 millones</strong>, se ubica en un punto intermedio entre los segmentos de mayor y menor precio.</p>
-                <p>El segmento A le sigue en precio, con un valor promedio de <strong>3.6 millones</strong>. Al igual que el segmento L, este segmento parece ofrecer productos o servicios de alta gama o con características diferenciadoras.</p>
-                <p>Los segmentos B y C presentan precios promedio similares, alrededor de <strong>2.9</strong> y <strong>2.1 millones</strong>.</p>
-                <p>Los segmentos D y E son los segmentos con los precios promedio más bajos, con valores inferiores a <strong>2 millones</strong> de pesos. Esto podría indicar que los productos o servicios de estos segmentos son más básicos o tienen una demanda menor.</p>
+            <p>
+                El siguiente gráfico muestra cuál es el valor promedio de una propiedad en cada segmento específico, lo que permite tener un panorama amplio sobre la accesibilidad de las propiedades que se ofertan en el mercado inmobiliario de <strong>Tulancingo</strong>. 
+            </p>
+            <p>
+                Además, se identifican los compradores potenciales y el segmento que mejor se ajusta a su presupuesto y necesidades.
+            </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -954,6 +955,74 @@
                 </div>
             </div>
         </div> -->
+
+                <!-- Distribución de Propiedades -->
+                <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                                <div>
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                </div>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Agrega los modals para las gráficas restantes -->
 
     </div>
 </div>

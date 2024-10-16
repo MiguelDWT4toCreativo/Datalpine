@@ -404,7 +404,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica <strong>muestra la distribución del número de estacionamientos</strong> de los inmuebles en <strong>Tulancingo</strong>, clasificados por segmentos de precio. Las barras representan el número de casas distribuidas en <strong>siete segmentos</strong>: E, D, C, B, A, S y L, que reflejan el rango de precios de las propiedades de las más <strong>económicas</strong> a las más <strong>caras</strong>. El color de las barras indica el número de estacionamientos, variando de <strong>1</strong> a <strong>6</strong> y con una diferencia notable entre los distintos segmentos. Este gráfico es útil para entender cómo la oferta de estacionamientos varía según el rango de precios y qué segmentos están mejor equipados en términos de infraestructura para vehículos.</p>
+            <p>
+                El gráfico de barras muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -442,9 +445,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La distribución de estacionamientos parece estar influenciada por el tamaño de las propiedades y el precio, ya que los segmentos de mayor valor suelen ofrecer más espacio para vehículos, una tendencia común en zonas con un nivel socioeconómico más alto.</p>
-                <p>Factores económicos como el crecimiento de la clase media y la expansión urbana en <strong>Tulancingo</strong> probablemente están afectando esta distribución, ya que el aumento en la demanda de viviendas de precio medio también incrementa la necesidad de propiedades con más estacionamientos. Por otro lado, los segmentos más bajos reflejan una mayor densidad de viviendas con menos espacio, lo que se ve en la prevalencia de <strong>1</strong> estacionamiento en esos rangos.</p>
-                <p>Con estos datos, es posible identificar tendencias sobre cómo se distribuye el espacio destinado a estacionamientos según el valor de la propiedad, lo cual puede tener implicaciones en términos de planeación urbana, necesidades de movilidad  e inversión inmobiliaria en <strong>Tulancingo</strong>.</p>
+            <p>
+                Es notorio que los <strong>segmentos E</strong> y <strong>D</strong> son los que poseen mayor concentración de propiedades con <strong>1 o 2 estacionamientos</strong>, lo que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio económico, de <strong>menos de 500 mil</strong> a <strong>1 millón</strong> y de <strong>1 millón a 1.75 millones</strong>, respectivamente.
+            </p>
+            <p>
+                Conforme aumenta el valor de las propiedades, la cantidad de estacionamientos aumenta ligeramente. Para la ciudad de <strong>Tulancingo</strong>, la distribución de estacionamientos parece estar influenciada por el precio de las propiedades.
+            </p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
