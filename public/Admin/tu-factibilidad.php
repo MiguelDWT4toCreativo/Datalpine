@@ -580,7 +580,7 @@
     };
 </script>
 
-        <!-- Porcentaje de vivienda ofertadas por antigüedad -->
+        <!-- Porcentaje de vivienda ofertadas por antigüedad 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -600,7 +600,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 <!-- Promedio de precio por segmento -->
 <div class="col-md-12">
