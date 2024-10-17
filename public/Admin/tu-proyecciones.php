@@ -138,7 +138,7 @@
                     <h1>Proyecciones y oportunidades</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Tulancingo, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Proyección y Forecast -->

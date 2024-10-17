@@ -707,7 +707,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
+                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Pachuca de Soto durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

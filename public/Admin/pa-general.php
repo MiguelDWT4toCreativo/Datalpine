@@ -280,7 +280,7 @@
 </div>
 
 
-        <!-- Columna completa: Profesiones -->
+        <!-- Columna completa: Profesiones 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -300,7 +300,7 @@
                     </div> 
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- Modal for Description -->
         <div class="modal fade" id="descriptionModal3" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
