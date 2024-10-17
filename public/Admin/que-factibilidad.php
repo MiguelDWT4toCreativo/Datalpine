@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: none;"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2020.html" width="100%" height="400" frameborder="0" id="yearlyData2020" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2021.html" width="100%" height="400" frameborder="0" id="yearlyData2021" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022" style="display: none;"></iframe>
@@ -325,7 +325,7 @@
             // Mostrar la gráfica de 2022 por defecto al cargar la página
             window.onload = function() {
                 showYearlyData('2019');
-            };
+            };      
         </script>
 
 
@@ -590,7 +590,7 @@
 </div>
 
 
-        <!-- Porcentaje de vivienda ofertadas por antigüedad -->
+        <!-- Porcentaje de vivienda ofertadas por antigüedad 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -610,7 +610,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 <!-- Mediana del precio de oferta -->
 <div class="col-md-12">

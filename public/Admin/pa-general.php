@@ -296,8 +296,8 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_profesiones.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/Tablas/profesiones.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -339,7 +339,7 @@
         </div>
 
 
-        <!-- Columna completa: Mercado salario parejas (Volumen) -->
+        <!-- Columna completa: Mercado salario parejas (Volumen) 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -356,10 +356,10 @@
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                         <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_mercadosalario_parejas_vol.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+                    </div> C:\xampp\htdocs\datalpine\resources\Ciudades\p\assets\graficas\g_bar_mercadosalario_parejas_vol.html
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- Modal for Description -->
         <div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModalLabel4" aria-hidden="true">
@@ -398,7 +398,7 @@
         </div>
 
 
-        <!-- Columna completa: g_bar_mercadosalario_parejas -->
+        <!-- Columna completa: g_bar_mercadosalario_parejas 
          <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -418,9 +418,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
-        <!-- Columna completa: Mercado salario por persona -->
+        <!-- Columna completa: Mercado salario por persona 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -440,7 +440,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModal6" tabindex="-1" aria-labelledby="descriptionModalLabel6" aria-hidden="true">
@@ -482,7 +482,7 @@
 
 
 <!-- Columna completa: g_pie_creditos_genero -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por género</h5>
@@ -546,7 +546,7 @@
 </div>
 
 <!-- Gráfica: Distribución % de créditos por categoría (trimestre) -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución % de créditos por categoría (trimestre)</h5>
@@ -684,7 +684,7 @@
 
 
 <!-- Columna completa: g_bar_tiempoventa_total -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta</h5>
@@ -749,7 +749,7 @@
 
 
 <!-- Columna completa: g_bar_tiempo_venta -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
@@ -824,7 +824,7 @@
                 <div class="mb-3">
                     <select class="form-select me-2" id="locationSelect" onchange="updateGraphs()">
                         <option value="Hidalgo">Hidalgo</option>
-                        <option value="Tulancingo">Tulancingo</option>
+                        <option value="Tulancingo">Pachuca</option>
                     </select>
                 </div>
                 <div>
@@ -836,7 +836,7 @@
             <!-- Espacios para los dos iframes -->
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_piramid_poblacion_hgo.html" width="100%" height="400" frameborder="0" id="iframeHidalgo" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="iframeTulancingo" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_piramid_poblacion.html" width="100%" height="400" frameborder="0" id="iframeTulancingo" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>

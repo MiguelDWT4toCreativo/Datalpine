@@ -339,10 +339,10 @@
     </div>
 </div>
 
-<!-- Sección Clientes Potenciales -->
+<!-- Sección Clientes Potenciales 
 <div class="container-fluid">
-    <div class="row">
-        <!-- Columna completa: Clientes potenciales foráneos -->
+    <div class="row">-->
+        <!-- Columna completa: Clientes potenciales foráneos 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -364,7 +364,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modales para Descripción e Interpretación -->
 <!-- Modal 1 -->

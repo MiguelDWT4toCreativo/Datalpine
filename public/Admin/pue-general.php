@@ -434,7 +434,7 @@
 
 
         <!-- Columna completa: g_pie_creditos_genero -->
-        <div class="col-md-6">
+        <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución de créditos por género</h5>
@@ -496,7 +496,7 @@
 </div>
 
 <!-- Gráfica: Distribución % de créditos por categoría (trimestre) -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución % de créditos por categoría (trimestre)</h5>
@@ -640,7 +640,7 @@
 
 
 <!-- Columna completa: g_bar_tiempoventa_total -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (General)</h5>
@@ -703,7 +703,7 @@
 
 
 <!-- Columna completa: g_bar_tiempo_venta -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (Segmentos)</h5>
