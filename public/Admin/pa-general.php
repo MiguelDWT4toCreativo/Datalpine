@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencia.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_segmento_tendencias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
