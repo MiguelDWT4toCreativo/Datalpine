@@ -543,8 +543,8 @@
                     </div>
                 </div>
                 <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: none; min-height: 430px; border: 0;"></iframe>
-                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: none; min-height: 430px; border: 0;"></iframe>
                     <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
                 </div>
             </div>

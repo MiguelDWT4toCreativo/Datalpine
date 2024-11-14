@@ -544,7 +544,7 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada (5 años) [%]</h5>
+                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada Estimación Anual [%]</h5>
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-user-tie me-2"></i>
