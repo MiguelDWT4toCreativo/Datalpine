@@ -422,7 +422,7 @@
 
 <!-- Gráfica: Estacionamientos -->
  <div class="row">
- <div class="col-md-6">
+ <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
@@ -450,7 +450,7 @@
     </div>
 </div>
 
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
@@ -647,7 +647,7 @@
 
 <div class="row">
     <!-- Gráfica: Recámaras -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Recámaras</h5>
@@ -658,8 +658,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="segmentSelectRecamaras" onchange="showSegmentDataRecamaras(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
+                    <option value="segmentos">Segmentos</option>
+                    <option value="general">General</option>                        
                     </select>
                 </div>
                 <div>
@@ -668,15 +668,15 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Gráfica: Distribución m2 construidos -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
@@ -908,7 +908,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el precio promedio por metro cuadrado (m²) de las propiedades en Querétaro. Esta métrica es útil para evaluar cómo varía el precio del terreno o de la construcción en diferentes zonas o segmentos del mercado inmobiliario, lo cual ayuda a compradores y desarrolladores a tomar decisiones informadas sobre inversión. Los valores presentados reflejan el costo relativo por metro cuadrado en cada periodo evaluado.</p>
+                <p>La gráfica muestra el precio promedio por metro cuadrado (m²) de las propiedades en Pachuca de Soto. Esta métrica es útil para evaluar cómo varía el precio del terreno o de la construcción en diferentes zonas o segmentos del mercado inmobiliario, lo cual ayuda a compradores y desarrolladores a tomar decisiones informadas sobre inversión. Los valores presentados reflejan el costo relativo por metro cuadrado en cada periodo evaluado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

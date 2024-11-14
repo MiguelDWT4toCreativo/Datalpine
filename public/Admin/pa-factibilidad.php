@@ -457,7 +457,7 @@
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
@@ -654,7 +654,7 @@
 </div>
 
 
-        <!-- Porcentaje de vivienda ofertadas por antigüedad -->
+        <!-- Porcentaje de vivienda ofertadas por antigüedad 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -674,7 +674,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 <!-- Mediana del precio de oferta -->
 <div class="col-md-12">
@@ -707,7 +707,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Querétaro durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
+                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Pachuca de Soto durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -982,7 +982,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>

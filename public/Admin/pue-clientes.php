@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: block;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
             </div>
@@ -283,6 +283,10 @@
         const interpretationButton = document.getElementById('interpretationButtonUMAS');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
     }
+    // Show the 2022 graph by default when the page loads
+    window.onload = function() {
+        showYearDataSegmento('2022');
+    };
 </script>
 
 
@@ -359,10 +363,10 @@
     </div>
 </div>
 
-<!-- Sección Clientes Potenciales -->
+<!-- Sección Clientes Potenciales 
 <div class="container-fluid">
-    <div class="row">
-        <!-- Columna completa: Clientes potenciales foráneos -->
+    <div class="row">-->
+        <!-- Columna completa: Clientes potenciales foráneos 
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -384,7 +388,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modales para Descripción e Interpretación -->
 <!-- Modal 1 -->

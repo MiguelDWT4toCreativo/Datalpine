@@ -138,7 +138,7 @@
                     <h1>Proyecciones y Tendencias</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Pachuca de Soto, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 
@@ -852,7 +852,7 @@
             </div>
             <div class="modal-body">
                 <p>
-                Las colonias de <strong>Centro</strong> y <strong>El Tezontle</strong> presentan los porcentajes más altos, lo que sugiere que son las zonas más predominantes, la ubicación estratégica de estas colonias, con buena conectividad a vías principales y servicios, las hace más atractivas. Como siguiente las colonias de <strong>San Antonio el Desmonte</strong>, <strong>Valle del Sol</strong> y <strong>Zona Plateada</strong> presentan porcentaje de participación similar, aunque hay un porcentaje menor los nuevos desarrollos inmobiliarios provocan que las colonias sean altamente potenciales en Santiago de Querétaro.
+                Las colonias de <strong>Centro</strong> y <strong>El Tezontle</strong> presentan los porcentajes más altos, lo que sugiere que son las zonas más predominantes, la ubicación estratégica de estas colonias, con buena conectividad a vías principales y servicios, las hace más atractivas. Como siguiente las colonias de <strong>San Antonio el Desmonte</strong>, <strong>Valle del Sol</strong> y <strong>Zona Plateada</strong> presentan porcentaje de participación similar, aunque hay un porcentaje menor los nuevos desarrollos inmobiliarios provocan que las colonias sean altamente potenciales en Pachuca de Soto.
                 </p>
             </div>
             <div class="modal-footer">
@@ -878,7 +878,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_map_colonias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/colonias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -921,7 +921,7 @@
     </div>
 </div>
 
-<!-- Columna completa: Forecast créditos generales -->
+<!-- Columna completa: Forecast créditos generales 
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -948,7 +948,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalForecast" tabindex="-1" aria-labelledby="descriptionModalLabelForecast" aria-hidden="true">

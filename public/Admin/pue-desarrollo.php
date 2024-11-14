@@ -411,7 +411,7 @@
 
 
 <!-- Gráfica: Estacionamientos -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
@@ -537,7 +537,7 @@
 
 <!-- Gráfica: Distribución de baños [V2] -->
 <!-- Gráfica: Distribución de baños [V2] -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
@@ -673,7 +673,7 @@
 
 
 <!-- Gráfica: Recámaras -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Recámaras</h5>
@@ -815,7 +815,7 @@
 
         <!-- Gráfica 9: g_bar_dist_m2_construidos -->
 <!-- Gráfica: Distribución m2 construidos -->
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
