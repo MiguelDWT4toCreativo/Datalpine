@@ -1,5 +1,7 @@
 <?php include 'layouts/session.php'; ?>
 <?php include 'layouts/head-main.php'; ?>
+<!-- Contenido específico para Querétaro aquí -->
+
 
 <head>
 

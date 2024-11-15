@@ -1,5 +1,7 @@
 <?php include 'layouts/session.php'; ?>
 <?php include 'layouts/head-main.php'; ?>
+<!-- Contenido específico para Querétaro aquí -->
+
 
 <head>
 
@@ -336,13 +338,75 @@
     </div>
 </div>
 
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Profesiones</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalProfessions">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalProfessions">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/tablas/tabla_profesiones.html" 
+                        width="100%" 
+                        height="400" 
+                        frameborder="0" 
+                        style="min-height: 430px; border: 0;">
+                </iframe>
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- Sección Clientes Potenciales 
+<!-- Modales de Descripción e Interpretación -->
+<div class="modal fade" id="descriptionModalProfessions" tabindex="-1" aria-labelledby="descriptionModalProfessionsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalProfessionsLabel">Descripción: Distribución de Profesiones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Esta gráfica muestra la distribución de las principales profesiones en Querétaro. Los datos reflejan los sectores más representativos según el número de trabajadores, permitiendo identificar tendencias y demandas laborales en la región.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalProfessions" tabindex="-1" aria-labelledby="interpretationModalProfessionsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalProfessionsLabel">Interpretación: Distribución de Profesiones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                La interpretación de esta gráfica permite analizar cuáles profesiones tienen mayor presencia en el mercado laboral de Querétaro. Esto es útil para evaluar oportunidades de empleo, identificar sectores con mayor crecimiento, y diseñar estrategias educativas o de capacitación.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<!-- Sección Clientes Potenciales -->
 <div class="container-fluid">
-    <div class="row">-->
-        <!-- Columna completa: Clientes potenciales foráneos 
+    <div class="row">
+        <!-- Columna completa: Clientes potenciales foráneos -->
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -354,17 +418,16 @@
                         </div>
                         <div>
                             <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/ruta/a/grafica5.html" width="100%" height="400" frameborder="0"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/foraneos.html" width="100%" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>-->
+</div>
 
 <!-- Modales para Descripción e Interpretación -->
 <!-- Modal 1 -->
