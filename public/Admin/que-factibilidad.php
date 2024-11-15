@@ -1037,7 +1037,7 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
