@@ -627,28 +627,9 @@
     </div>
 </div>
 
-<!-- Columna completa: g_pie_creditos_genero -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades (Mapa de calor)</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalmc">Descripción</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Columna completa: g_pie_creditos_genero -->
+
+<!-- Columna completa: g_pie_creditos_genero
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -668,7 +649,7 @@
         </div>
     </div>
 </div>
-
+ -->
 
         <div class="col-md-12">
     <div class="card">

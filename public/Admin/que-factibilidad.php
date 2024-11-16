@@ -1019,13 +1019,74 @@
     </div>
 </div>
 
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                                <div>
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal1555">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal1555">Interpretación</button>
+                                </div>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal1555" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal1555" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Distribución de Propiedades -->
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
@@ -1044,6 +1105,8 @@
                 </div>
             </div>
         </div>
+
+       
 
         <!-- Modal for Description 2023 -->
         <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
