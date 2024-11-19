@@ -111,22 +111,24 @@
                                     <span data-key="t-profile">Pachuca</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="pa-general.php" data-key="t-user-list">General</a></li>
                                     <li><a href="pa-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
                                     <li><a href="pa-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
                                     <li><a href="pa-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
                                     <li><a href="pa-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
-                                    <li><a href="pa-general.php" data-key="t-user-list">General</a></li>
+                                    
                                 </ul>
                                 <li>
                                 <a href="javascript:void(0);" class="has-arrow">
                                     <span data-key="t-contacts">Tulancingo</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="tu-general.php" data-key="t-user-list">General</a></li>
                                     <li><a href="tu-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
                                     <li><a href="tu-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
                                     <li><a href="tu-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
                                     <li><a href="tu-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
-                                    <li><a href="tu-general.php" data-key="t-user-list">General</a></li>
+                                    
                                 </ul>
 
                                 </li>
@@ -138,23 +140,25 @@
                             <span data-key="t-contacts">Puebla</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="pue-general.php" data-key="t-user-list">General</a></li>
                             <li><a href="pue-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
                             <li><a href="pue-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
                             <li><a href="pue-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
                             <li><a href="pue-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
-                            <li><a href="pue-general.php" data-key="t-user-list">General</a></li>
+                            
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="has-arrow">
-                            <span data-key="t-contacts">Querátaro</span>
+                            <span data-key="t-contacts">Querétaro</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
+                            <li><a href="que-general.php" data-key="t-user-list">General</a></li>
                             <li><a href="que-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
                             <li><a href="que-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
                             <li><a href="que-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
                             <li><a href="que-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
-                            <li><a href="que-general.php" data-key="t-user-list">General</a></li>
+                            
                         </ul>
                     </li>
                 </ul>
