@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" id="segmentData" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" id="segmentData" style="display: block; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -175,7 +175,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución de los diferentes segmentos del mercado inmobiliario en Pachuca. Permite analizar la concentración de inmuebles por segmentos y observar las diferencias en la demanda y oferta de cada uno de ellos.</p>
+                <p>La gráfica muestra la distribución de los diferentes segmentos del mercado inmobiliario en Querétaro. Permite analizar la concentración de inmuebles por segmentos y observar las diferencias en la demanda y oferta de cada uno de ellos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -192,8 +192,8 @@
                 <h5 class="modal-title" id="interpretationModalLabelSegment">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <p>La gráfica de distribución de segmentos revela que los inmuebles de rango medio-alto tienen la mayor concentración en Pachuca. El segmento B, que abarca propiedades de 2.5 a 3.25 millones de pesos, es el más representado. Por otro lado, el segmento E, con propiedades de bajo valor (menos de 500 mil pesos), tiene la menor participación, lo que refleja una oferta limitada en ese rango de precios.</p>
+            <div class="modal-body" style="text-align: justify;">
+                <p>En Querétaro, el segmento inmobiliario con mayor presencia es el <strong>S</strong>, que abarca más del <strong>45%</strong> del mercado. Dentro de este, el segmento <strong>S1</strong> destaca con una participación del <strong>29.9%</strong>, lo que sugiere que es un mercado amplio para una parte de la población. El segundo segmento más relevante es el B, con poco más del <strong>15%</strong> del mercado, donde la segmento <strong>E2</strong> tiene un <strong>5.87%</strong>. Esto refleja la existencia de un mercado inmobiliario más accesible en el estado, indicando la presencia de un sector de la población con un poder adquisitivo medio. En conjunto, estos datos demuestran la diversidad del mercado inmobiliario en Querétaro que cubre diferentes segmentos poblacionales.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -293,7 +293,9 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill"data-bs-toggle="modal" data-bs-target="#interpretationModal2022">2022</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill"data-bs-toggle="modal" data-bs-target="#interpretationModal2023">2023</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill"data-bs-toggle="modal" data-bs-target="#interpretationModal2024">2024</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -669,7 +671,9 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModaltrimestre">2022</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal2023trimestre">2023</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal2024trimestre">2024</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -703,11 +707,11 @@
 </div>
 
 <!-- Modal for Interpretation 2022 -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
+<div class="modal fade" id="interpretationModaltrimestre" tabindex="-1" aria-labelledby="interpretationModaltrimestre" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="interpretationModaltrimestre">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -725,11 +729,11 @@
 </div>
 
 <!-- Modal for Interpretation 2023 -->
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+<div class="modal fade" id="interpretationModal2023trimestre" tabindex="-1" aria-labelledby="interpretationModalLabel2023trimestre" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2023trimestre">Interpretación 2023</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -745,11 +749,11 @@
 </div>
 
 <!-- Modal for Interpretation 2024 -->
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+<div class="modal fade" id="interpretationModal2024trimestre" tabindex="-1" aria-labelledby="interpretationModalLabel2024trimestre" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2024trimestre">Interpretación 2024</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -792,7 +796,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado total de venta</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -815,7 +819,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo total de venta</h5>
+                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo estimado total de venta</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -836,7 +840,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo total de venta</h5>
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo estimado total de venta</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -901,15 +905,15 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Meses de antigüedad</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalTiempoVenta">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalTiempoVenta">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalMesesAtiguedad">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalMesesAtiguedad">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -920,15 +924,20 @@
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalTiempoVenta" tabindex="-1" aria-labelledby="descriptionModalLabelTiempoVenta" aria-hidden="true">
+<div class="modal fade" id="descriptionModalMesesAtiguedad" tabindex="-1" aria-labelledby="descriptionLabelMesesAtiguedad" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo de venta</h5>
+                <h5 class="modal-title" id="descriptionModalMesesAtiguedad">Descripción: Meses de antigüedad</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra el tiempo promedio que se tarda en vender una propiedad en Querétaro. El "tiempo de venta" mide el intervalo entre el momento en que una propiedad se pone a la venta y cuando se completa la transacción. Este indicador es importante para evaluar la eficiencia y rapidez del mercado inmobiliario en la región.</p>
+                <p>
+                    El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L</strong> y <strong>S</strong>), y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses).
+                </p>
+                <p>
+                    La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -938,15 +947,15 @@
 </div>
 
 <!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalTiempoVenta" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
+<div class="modal fade" id="interpretationModalMesesAtiguedad" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo de venta</h5>
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Meses de antigüedad</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El análisis de esta gráfica revela que el tiempo promedio de venta en Querétaro ha disminuido en los últimos trimestres. Esto sugiere una mayor demanda o una mejora en las condiciones del mercado inmobiliario, lo que permite que las propiedades se vendan más rápidamente. Por otro lado, si el tiempo de venta aumenta, podría indicar un mercado más saturado o una menor demanda de propiedades.</p>
+                <p>Es posible notar que el mercado inmobiliario de Santiago de Querétaro, es consistente en el tiempo que tardan las propiedades en venderse. La mayoría de los segmentos poseen tiempos de venta homogéneos. Sin embargo, el segmento S es el grupo que mayor participación tiene en periodos de venta de 9 meses y 16 a 18 meses, esto puede deberse a que son propiedades con alto precio, lo que dificulta que puedan venderse rápido.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -988,10 +997,7 @@
             </div>
             <div class="modal-body">
             <p>
-                El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L</strong> y <strong>S</strong>), y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses).
-            </p>
-            <p>
-                La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.
+            Se muestra la distribución de la población por rango de edad y género en la ciudad de Querétaro en los últimos años.
             </p>
 
             </div>
@@ -1012,10 +1018,7 @@
             </div>
             <div class="modal-body">
             <p>
-                Es posible notar que el mercado inmobiliario de <strong>Santiago de Querétaro</strong> es consistente en el tiempo que tardan las propiedades en venderse. La mayoría de los segmentos poseen tiempos de venta homogéneos.
-            </p>
-            <p>
-                Sin embargo, el <strong>segmento S</strong> es el grupo que mayor participación tiene en periodos de venta de <strong>9 meses</strong> y <strong>16 a 18 meses</strong>. Esto puede deberse a que son propiedades con alto precio, lo que dificulta que puedan venderse rápidamente.
+            En la ciudad de Santiago de Querétaro buena parte de la población se encuentra en un rango de edad de entre  20 a 49 años, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa. 
             </p>
 
             </div>
