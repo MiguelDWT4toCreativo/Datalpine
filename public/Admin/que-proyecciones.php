@@ -171,7 +171,7 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill"  data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -205,7 +205,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelBanosGeneral">Interpretación General</h5>
+                <h5 class="modal-title" id="interpretationModalLabelBanosGeneral">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -379,9 +379,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                La gráfica muestra una tendencia ascendente en el promedio de días que los inmuebles permanecen en oferta en <strong>Querétaro</strong> durante los primeros meses de <strong>2024</strong>. Esto indica que, en general, los inmuebles están tardando más tiempo en venderse en comparación con el inicio del año. 
+                <p>La gráfica muestra una tendencia ascendente en el promedio de días que los inmuebles permanecen en oferta en <strong>Querétaro</strong> durante los primeros meses de <strong>2024</strong>. Esto indica que, en general, los inmuebles están tardando más tiempo en venderse en comparación con el inicio del año. </p>
+                <p>El mercado inmobiliario de <strong>Querétaro</strong> experimentó una variabilidad significativa en el primer semestre de <strong>2024</strong>. Iniciando el año con un tiempo promedio de venta relativamente bajo (<strong>199</strong> días en marzo), se observó una breve recuperación en abril (<strong>189</strong> días). Sin embargo, a partir de mayo se registró un aumento considerable en los días que las propiedades permanecieron en el mercado, alcanzando un máximo de <strong>304</strong> días en agosto. Esta tendencia ascendente sugiere una desaceleración en la demanda y dificultades para encontrar compradores, lo cual podría estar relacionado con factores como cambios en las tasas de interés, menor disponibilidad de compradores o un aumento en la oferta de propiedades.</p>
 
-El mercado inmobiliario de <strong>Querétaro</strong> experimentó una variabilidad significativa en el primer semestre de <strong>2024</strong>. Iniciando el año con un tiempo promedio de venta relativamente bajo (<strong>199</strong> días en marzo), se observó una breve recuperación en abril (<strong>189</strong> días). Sin embargo, a partir de mayo se registró un aumento considerable en los días que las propiedades permanecieron en el mercado, alcanzando un máximo de <strong>304</strong> días en agosto. Esta tendencia ascendente sugiere una desaceleración en la demanda y dificultades para encontrar compradores, lo cual podría estar relacionado con factores como cambios en las tasas de interés, menor disponibilidad de compradores o un aumento en la oferta de propiedades.
+
+                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -491,7 +493,7 @@ El mercado inmobiliario de <strong>Querétaro</strong> experimentó una variabil
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            La grafica nos muestra las cinco colonias las cuales tienen en promedio los precios más bajos respecto a todas las colonias en las que se ofertan inmuebles en Santiago de Querétaro               
+                <p>El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -509,10 +511,7 @@ El mercado inmobiliario de <strong>Querétaro</strong> experimentó una variabil
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Las colonias que más barato ofertan sus inmuebles son Andadores Satélite y Satélite Sección 3N S; esto es posible que sea a dos importantes razones las cuales son que ambas zonas se encuentran en las salidas de Santiago de Querétaro, lo que significa que,  hay un difícil el acceso a los diferentes servicios tanto de transporte, entretenimiento, educación, entre otras. Otro factor importante es ambas zonas se encuentran detrás de zonas industriales, lo cual hace que disminuyan sus precios. 
-
-Además, se puede observar que, la colonia rinconada del capricho, San Pedro Martin y Unidad Roma ofrecen precios bajos alrededor del medio millón de pesos las tres zonas, esto también podría relacionarse con su lejanía a la zona metropolitana y difícil acceso a servicios públicos.
-            
+            A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de Querétaro para los próximos años. En 2021 la ciudad contaba con una población total aproximada de 2,442,205, y para 2027 se proyecta que esta población aumenté a 2,723,968. Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además de que, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -524,302 +523,261 @@ Además, se puede observar que, la colonia rinconada del capricho, San Pedro Mar
     </div>
 </div>
 
-<!-- Comentado para no ser visible -->
+<!-- Gráfica: Forecast créditos generales -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
+                        <option value="forecastcp">Valor Promedio</option>
+                        <option value="forecastcc">Cantidad</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPromedio">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for promedio -->
+<div class="modal fade" id="descriptionModalPromedio" tabindex="-1" aria-labelledby="descriptionModalPromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalPromedio">Descripción Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de los montos de los créditos generales para los próximos años en la ciudad de Querétaro; estos se subdividen en 2 categorías, vivienda nueva y vivienda usada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for cantidad -->
+<div class="modal fade" id="descriptionModalCantidad" tabindex="-1" aria-labelledby="descriptionModalCantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalCantidad">Descripción Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de la cantidad de créditos para los próximos años en la ciudad de Querétaro; estos se subdividen en 3 categorías, Créditos generales, para Vivienda Nueva y Vivienda Usada.  </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: CANTIDAD -->
+<div class="modal fade" id="interpretationModalLabelcantidad" tabindex="-1" aria-labelledby="interpretationModalLabelcantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelcantidad">Interpretación Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026 de aproximadamente 9,264 y 9,288, respectivamente para cada año. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
+                <p>Para los créditos que se otorgan para viviendas nuevas se estima una ligera disminución del año 2024 al 2025 de alrededor de 482 créditos, y del año 2025 a 2026 también disminuirán 76 créditos. Estas estimaciones proponen un contexto complejo para la adquisición de viviendas nuevas en la ciudad de Santiago de Querétaro. </p>
+                <p>Por su parte, los créditos para viviendas usadas tendrán una disminución de 335 créditos al pasar del año 2024 a 2025; sin embargo del año 2025 al 2026 se espera que esto aumente 113 créditos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: Promedio -->
+<div class="modal fade" id="interpretationModalpromedio" tabindex="-1" aria-labelledby="interpretationModalpromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalpromedio">Interpretación Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
+                <p>Para los créditos otorgados de Vivienda Nueva se puede observar que los créditos tendrán un aumento sostenido de <strong>$213,229</strong> de 2025 a 2026. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.</p>
+                <p>Por su parte, los créditos otorgados de Vivienda Usada igual presentarán un aumento en su valor de 2025 a 2026, aproximadamente de <strong>$232,30</strong>; esto implica que para las viviendas de la ciudad será mas accesible el mejoramiento.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showBathroomData(option) {
+        // Ocultar todas las gráficas
+        document.getElementById('fcp').style.display = 'none';
+        document.getElementById('fcc').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente a la opción seleccionada
+        if (option === 'forecastcp') {
+            document.getElementById('fcp').style.display = 'block';
+            document.getElementById('descriptionModalPromedio').setAttribute('data-bs-target', '#interpretationModalpromedio');
+        } else if (option === 'forecastcc') {
+            document.getElementById('fcc').style.display = 'block';
+            document.getElementById('descriptionModalCantidad').setAttribute('data-bs-target', '#interpretationModalLabelcantidad');
+        }
+    }
+
+    // Mostrar la gráfica "forecast creditos generales" por defecto al cargar la página
+    window.onload = function() {
+        showBathroomData('forecastcp');
+    };
+</script>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Gráfica: Plusvalía estimada -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="plusvaliaSelect" onchange="showPlusvaliaData(this.value)">
+                        <option value="plusvaliaa">Anual</option>
+                        <option value="plusvaliam">Mensual</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalplusvalia_ano">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" id="plusvalia_ano" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" id="plusvalia_mes" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for descripcion general -->
+<div class="modal fade" id="descriptionModalplusvalia_ano" tabindex="-1" aria-labelledby="descriptionModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalplusvalia_anoo">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta sección proporciona un pronóstico de la plusvalía para el sector inmobiliario en la ciudad de Querétaro.<p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: año -->
+<div class="modal fade" id="interpretationModalplusvalia_ano" tabindex="-1" aria-labelledby="interpretationModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalplusvalia_anoo">Interpretación Anual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en los próximos 3 años en la ciudad de Querétaro, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva. Los datos proyectados para los próximos dos años en Querétaro indican una tendencia al alza en el valor de los inmuebles. Para el 2025 las viviendas aumentarán aproximadamente $475,909.46; y para 2026 el aumento será de $ 527,101.39. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: mes -->
+<div class="modal fade" id="interpretationModalLabelplusvalia_mes" tabindex="-1" aria-labelledby="interpretationModalLabelplusvalia_mes" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelplusvalia_mess">Interpretación  Mensual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en el próximo año en la ciudad de Querétaro, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva, con ligeras variaciones en meses que en los cuales el precio se mantuvo constante. Esto significa que, en promedio, el monto ha ido aumentando mes a mes. Sin embargo, es importante notar que el crecimiento no es constante y hay algunos meses donde el aumento es más pronunciado que en otros. Los últimos meses del año muestran un crecimiento más acelerado en comparación con los primeros meses. Si la tendencia actual se mantiene, es probable que el monto continúe aumentando en los años siguientes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Script para controlar la visualización de gráficas -->
+    <script>
+        function showPlusvaliaData(option) {
+            // Ocultar todas las gráficas
+            document.getElementById('plusvalia_ano').style.display = 'none';
+            document.getElementById('plusvalia_mes').style.display = 'none';
+
+            // Mostrar la gráfica correspondiente a la opción seleccionada
+            if (option === 'plusvaliaa') {
+                document.getElementById('plusvalia_ano').style.display = 'block';
+                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
+            } else if (option === 'plusvaliam') {
+                document.getElementById('plusvalia_mes').style.display = 'block';
+                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+            }
+        }
+
+        // Mostrar la gráfica "Plusvalía estimada" por defecto al cargar la página
+        window.onload = function() {
+            showPlusvaliaData('plusvaliaa');
+        };
+    </script>
+    </div>
+
+
+
 <div class="container-fluid">
     <div class="row">
-        <!-- Mitad izquierda: Forecast Casas y Departamentos -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales (valor promedio)</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal11">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal11">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modales de Descripción e Interpretación -->
-<div class="modal fade" id="descriptionModal11" tabindex="-1" aria-labelledby="descriptionModal11Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal11Label">Descripción: Forecast créditos generales (valor promedio)</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            La siguiente gráfica muestra el pronóstico de los montos de los créditos generales para los próximos años en la ciudad de Querétaro; estos se subdividen en 2 categorías, vivienda nueva y vivienda usada.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal11" tabindex="-1" aria-labelledby="interpretationModal11Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal11Label">Interpretación: Forecast créditos generales (valor promedio)</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para <strong>2025</strong> y <strong>2026</strong>. Esta totalidad de créditos se subdivide en <strong>2</strong> grandes categorías, Vivienda Nueva y Vivienda Usada. 
-
-Para los créditos otorgados de Vivienda Nueva se puede observar que los créditos tendrán un aumento sostenido de <strong>$213,229</strong> de <strong>2025</strong> a <strong>2026</strong>. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.
-
-Por su parte, los créditos otorgados de Vivienda Usada igual presentarán un aumento en su valor de <strong>2025</strong> a <strong>2026</strong>, aproximadamente de <strong>$232,30</strong>; esto implica que para las viviendas de la ciudad será mas accesible el mejoramiento.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-        <!-- Mitad derecha: Forecast créditos generales (valor) [V2_PROMEDIO] -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales (cantidad)</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
-<!-- Modales de Descripción e Interpretación -->
-<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModal12Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal12Label">Descripción: Forecast créditos generales</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            La siguiente gráfica muestra el pronóstico de la cantidad de créditos para los próximos años en la ciudad de Querétaro; estos se subdividen en 3 categorías, Créditos generales, para Vivienda Nueva y Vivienda Usada.              </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal12" tabindex="-1" aria-labelledby="interpretationModal12Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal12Label">Interpretación: Forecast créditos generales</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para <strong>2025</strong> y <strong>2026</strong> de aproximadamente <strong>9,264</strong> y <strong>9,288</strong>, respectivamente para cada año. Esta totalidad de créditos se subdivide en <strong>2</strong> grandes categorías, Vivienda Nueva y Vivienda Usada.
-
-Para los créditos que se otorgan para viviendas nuevas se estima una ligera disminución del año <strong>2024</strong> al <strong>2025</strong> de alrededor de <strong>482</strong> créditos, y del año <strong>2025</strong> a <strong>2026</strong> también disminuirán <strong>76</strong> créditos. Estas estimaciones proponen un contexto complejo para la adquisición de viviendas nuevas en la ciudad de Santiago de Querétaro. 
-
-Por su parte, los créditos para viviendas usadas tendrán una disminución de <strong>335</strong> créditos al pasar del año <strong>2024</strong> a <strong>2025</strong>; sin embargo del año <strong>2025</strong> al <strong>2026</strong> se espera que esto aumente <strong>113</strong> créditos.            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Sección Plusvalía & Proyección Anual -->
-<div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Plusvalía estimada (5 años) [%] -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada Estimación Anual [%]</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal13">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal13">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modales de Descripción e Interpretación -->
-<div class="modal fade" id="descriptionModal13" tabindex="-1" aria-labelledby="descriptionModal13Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal13Label">Descripción: Plusvalía estimada Anual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            La siguiente gráfica muestra el pronóstico de la plusvalía que tendrá el área de inmuebles para los próximos años en la ciudad de Querétaro.            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal13" tabindex="-1" aria-labelledby="interpretationModal13Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal13Label">Interpretación: Plusvalía estimada Anual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            De acuerdo a los datos que se pronostica tener en los próximos <strong>3</strong> años en la ciudad de <strong>Querétaro</strong>, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva. Los datos proyectados para los próximos <strong>dos</strong> años en <strong>Querétaro</strong> indican una tendencia al alza en el valor de los inmuebles. Para el <strong>2025</strong> las viviendas aumentarán aproximadamente <strong>$475,909.46</strong>; y para <strong>2026</strong> el aumento será de <strong>$527,101.39</strong>. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-        <!-- Mitad derecha: Plusvalía estimada (5 años) [Total] -->
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada mensual</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal14">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal14">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
-<!-- Modales de Descripción e Interpretación -->
-<div class="modal fade" id="descriptionModal14" tabindex="-1" aria-labelledby="descriptionModal14Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal14Label">Descripción: Plusvalía estimada mensual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Esta gráfica representa la estimación de la plusvalía mensual, medida en porcentajes, para un periodo específico. Proporciona una visión detallada del crecimiento proyectado mes a mes en el valor de las propiedades dentro de la región analizada.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal14" tabindex="-1" aria-labelledby="interpretationModal14Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal14Label">Interpretación: Plusvalía estimada mensual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                La interpretación de esta gráfica sugiere que un incremento constante en la plusvalía mensual refleja una oportunidad de inversión favorable, indicando que el valor de la propiedad puede mantenerse en aumento mes tras mes. Este dato es clave para evaluar retornos a corto plazo.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modales de Descripción e Interpretación -->
-<div class="modal fade" id="descriptionModal14" tabindex="-1" aria-labelledby="descriptionModal14Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal14Label">Descripción: Plusvalía estimada mensual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            La siguiente gráfica muestra el pronóstico de la plusvalía que tendrá el área de inmuebles para los meses del 2024 en la ciudad de Querétaro.            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal14" tabindex="-1" aria-labelledby="interpretationModal14Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal14Label">Interpretación: Plusvalía estimada mensual</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            De acuerdo a los datos que se pronostica tener en el próximo año en la ciudad de Querétaro, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva, con ligeras variaciones en meses que en los cuales el precio se mantuvo constante. Esto significa que, en promedio, el monto ha ido aumentando mes a mes. Sin embargo, es importante notar que el crecimiento no es constante y hay algunos meses donde el aumento es más pronunciado que en otros. Los últimos meses del año muestran un crecimiento más acelerado en comparación con los primeros meses. Si la tendencia actual se mantiene, es probable que el monto continúe aumentando en los años siguientes.             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-Colonias más baratas<!-- Proyección Forecast Media Anual -->
-<div class="container-fluid">
-    <div class="row">
-        <!-- Columna izquierda: Proyección Forecast Media Anual
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Proyección Forecast Media Anual</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_forecast_media_anual.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Columna derecha: Colonias más baratas -->
         <div class="col-md-12">
     <div class="card">
@@ -838,8 +796,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interpretación Baratas</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasCaras">Interpretación Caras</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interp. Baratas</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasCaras">Interp. Caras</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -989,10 +947,8 @@ Colonias más baratas<!-- Proyección Forecast Media Anual -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                La barra más alta corresponde al rango de 0-30 días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.
-
-Aunque menor que el rango anterior, el rango de 31 a 120 días también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes. Los rangos superiores a 120 días presentan una disminución en el número de propiedades, lo que sugiere que a partir de este punto, la probabilidad de que una propiedad se venda disminuye.
+                <p>La barra más alta corresponde al rango de 0-30 días, lo que indica que una gran cantidad de propiedades se venden rápidamente. Esto sugiere que existe una demanda activa en el mercado y que muchas propiedades encuentran a su comprador en un corto período de tiempo.</p>
+                <p>Aunque menor que el rango anterior, el rango de 31 a 120 días también tiene un número significativo de propiedades, lo que indica que un porcentaje considerable de propiedades se venden entre el primer y cuarto mes. Los rangos superiores a <strong>120 días</strong> presentan una disminución en el número de propiedades, lo que sugiere que a partir de este punto, la probabilidad de que una propiedad se venda disminuye.
                     
             </p>
             </div>
