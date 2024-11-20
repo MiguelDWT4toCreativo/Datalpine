@@ -456,8 +456,8 @@
 
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
-        <div class="row">
-        <div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
@@ -485,7 +485,6 @@
             </div>
         </div>
     </div>
-    
 </div>
 
         <!-- Modal for Description -->
@@ -592,6 +591,10 @@
     };
 </script>
 
+</div>
+
+
+
 
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
 <div class="col-md-12">
@@ -652,6 +655,7 @@
         </div>
     </div>
 </div>
+
 
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad 
