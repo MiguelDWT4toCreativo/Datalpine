@@ -144,6 +144,132 @@
 <!-- Sección Proyección y Forecast -->
 <div class="container-fluid">
     <div class="row">
+
+<!-- Gráfica: Distribución de créditos por segmento -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Distribución de segmentos. Conoce la participación en el mercado inmobiliario por segmentos <strong>(E, D, C, B, A, S, L)</strong>. Cada sección representa el porcentaje o proporción en ese segmento específico en relación con el total.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En Tulancingo de Bravo, el segmento inmobiliario con mayor presencia es el E, que abarca más del <strong>35%</strong> del mercado. Dentro de este, el segmento E2 destaca con una participación del <strong>18.44%</strong>, lo que sugiere que es un mercado amplio para una parte de la población.</p>
+                <p>El segundo segmento más relevante es el D, con poco más del <strong>25%</strong> del mercado, donde la segmento D3 tiene un <strong>10.42%</strong>. Esto refleja la existencia de un mercado inmobiliario más accesible en el estado, indicando la presencia de un sector de la población con un poder adquisitivo menor.</p>
+                <p>En conjunto, estos datos demuestran la diversidad del mercado inmobiliario en Querétaro que cubre diferentes segmentos poblacionales.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Proyección Poblacional</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPoblacion">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPoblacion">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_bar_proy_poblacion_hgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalPoblacion" tabindex="-1" aria-labelledby="descriptionModalLabelPoblacion" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelPoblacion">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModalPoblacion" tabindex="-1" aria-labelledby="interpretationModalLabelPoblacion" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelPoblacion">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    A lo largo de los años que se analizan se revela un crecimiento progresivo en Hidalgo para los próximos años. En 2021 Hidalgo contaba con una población total aproximada de <strong>3,144,514</strong>, y para 2027 se proyecta que esta población aumentará a <strong>3,350,825</strong>. Este crecimiento de la población propone un escenario favorecedor para Hidalgo, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además de que, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- Gráfica: Distribución de créditos por segmento -->
 <div class="col-md-12">
     <div class="card">
@@ -300,7 +426,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.</p>
+                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>S</strong> y <strong>L</strong>). Cada barra representa un segmento y su altura indica el <strong>porcentaje de cambio</strong> en el precio de ese segmento. Las barras que se extienden hacia arriba indican un <strong>aumento</strong> en el precio, mientras que las que se extienden hacia abajo indican una <strong>disminución</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -626,7 +752,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (General)</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado total de venta</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -687,7 +813,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado de venta (Segmentos)</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Meses de Antigüedad</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
