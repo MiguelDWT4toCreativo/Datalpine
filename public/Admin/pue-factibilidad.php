@@ -520,151 +520,6 @@
 
 
 
-        <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
-<div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades por segmento</h5>
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-user-tie me-2"></i>
-                        <span class="developer-label">Desarrollador</span>
-                    </div>
-                    <div class="mb-3">
-                        <select class="form-select" id="yearSelectSegmento" onchange="showYearDataSegmento(this.value)">
-                            <option value="2023" selected>2023</option>
-                            <option value="2024">2024</option>
-                        </select>
-                    </div>
-                    <div>
-                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonSegmento" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2023">Interpretación</button>
-                    </div>
-                </div>
-                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description (Same for all years) -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El gráfico presentado muestra la distribución de propiedades en Puebla, segmentada por diferentes rangos de precio. Cada segmento está representado con un color distinto y se identifica con las categorías S, A, B, D, C, A y E.</p>
-
-                <p>La gráfica permite visualizar fácilmente las proporciones de cada segmento dentro del total, lo que la hace útil para identificar cómo se reparte la oferta inmobiliaria en la región. Esto permite identificar cuáles tipos de propiedades predominan y detectar posibles áreas de oportunidad para ajustarse a la demanda del mercado.</p>
-
-                <p>Asimismo, esta visualización coadyuva a la toma de decisiones informadas basadas en la disponibilidad y la competencia en cada rango de precios.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals for Interpretation (One for each year) -->
-<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La distribución de propiedades por segmento en <strong>2023</strong> muestra que el mercado inmobiliario en esta región se concentra principalmente en los segmentos de valor medio alto y muy alto, B y S con <strong>23%</strong> y <strong>23.5%</strong> respectivamente. La preeminencia de estos segmentos podría estar impulsada por un auge de desarrollos en zonas exclusivas o por un perfil de comprador con alto poder adquisitivo y sus proporciones extremadamente similares se puede deber a estructura socioeconómica y la distribución de la población en Puebla.</p>
-
-                <p>Puebla tiene una edad mediana de <strong>28 años</strong>, lo que indica una población joven con un perfil laboral y familiar en crecimiento, quienes suele demandar inmuebles con características que brinden comodidad y una mayor calidad y valor a medida que crecen profesionalmente o buscan mejorar su nivel de vida (segmento B). La concentración de ingresos y la desigualdad también podría suponer a compradores de mayor poder adquisitivo o personas que buscan propiedades de alto valor como una inversión a largo plazo (segmento S).</p>
-
-                <p>Por el contrario, el segmento E, que representa las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos), tiene una participación mínima. Esto indica que hay poca oferta de viviendas asequibles, lo que podría ser un área de oportunidad para desarrolladores enfocados en vivienda de interés social o accesible.</p>
-
-                <p>El segmento A, que representa el <strong>14.7%</strong> del mercado, se enfoca en propiedades de pesos, ubicadas en el rango alto del mercado. Esta participación indica que hay una oferta moderada de propiedades para compradores con un nivel adquisitivo considerable, que buscan calidad y buena ubicación sin llegar a los precios más elevados. La menor participación de este segmento, en comparación con S y B, puede deberse a que el perfil de compradores de esta categoría es más específico y reducido.</p>
-
-                <p>El segmento D y C también tienen una representación significativa, sumando entre ambos un <strong>36.1%</strong>, lo que sugiere que hay un equilibrio en la oferta de viviendas de rango medio y medio bajo. Esto refleja un mercado diverso, con opciones para distintos perfiles de compradores, pero dominado por las propiedades de mayor valor.</p>
-
-                <p>La distribución del mercado en <strong>2023</strong> se inclina hacia propiedades de alto valor, mientras que la oferta de viviendas más accesibles es limitada, lo que podría afectar la capacidad de adquisición de un público más amplio y requerir ajustes en la oferta para atender mejor las necesidades de otros segmentos de la población.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>En <strong>2024</strong>, la distribución de propiedades por segmento en Puebla muestra un cambio significativo respecto al año anterior. El segmento E que abarca las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos) es ahora el de mayor participación con un <strong>25%</strong>. Esto sugiere un aumento en la oferta de viviendas económicas, lo que podría responder a políticas de desarrollo orientadas a satisfacer la demanda de viviendas asequibles o a un ajuste de precios por parte de los desarrolladores para hacer frente a una desaceleración económica.</p>
-
-                <p>Por otro lado, el segmento S, que en años anteriores había dominado, ahora tiene un <strong>21.5%</strong>, manteniéndose como uno de los segmentos principales, pero reflejando una ligera disminución. Esto puede indicar que los desarrolladores están diversificando la oferta hacia viviendas más accesibles, dada la reducción en el poder adquisitivo de algunos compradores o la preferencia por opciones más económicas ante un entorno económico incierto.</p>
-
-                <p>Los segmentos D y C (<strong>14%</strong> y <strong>13.8%</strong>, respectivamente) presentan una representación equilibrada, lo que sugiere un mercado bien distribuido en el rango medio-bajo, con opciones variadas para compradores que buscan propiedades con una buena relación calidad-precio.</p>
-
-                <p>En contraste, los segmentos de mayor valor (A y B) tienen una participación menor (<strong>10.3%</strong> y <strong>11.2%</strong>), reflejando nuevamente un ajuste hacia propiedades de menor costo. Finalmente, el segmento L (<strong>4.21%</strong>) sigue teniendo la participación más baja, lo que indica que las propiedades de lujo aún representan un nicho pequeño en el mercado inmobiliario local.</p>
-
-                <p>En conjunto, la distribución del mercado en <strong>2024</strong> muestra una transición hacia una mayor oferta de vivienda asequible, respondiendo a una posible necesidad de atraer a compradores con menor capacidad económica, lo cual contrasta con la tendencia de años anteriores hacia propiedades de alto valor.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script for controlling the display of graphs and modals -->
-<script>
-    function showYearDataSegmento(year) {
-        // Hide all year graphs
-        document.getElementById('yearDataSegmento2022').style.display = 'none';
-        document.getElementById('yearDataSegmento2023').style.display = 'none';
-        document.getElementById('yearDataSegmento2024').style.display = 'none';
-
-        // Show the selected year's graph
-        document.getElementById(`yearDataSegmento${year}`).style.display = 'block';
-
-        // Update the interpretation button to point to the correct modal
-        const interpretationButton = document.getElementById('interpretationButtonSegmento');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
-    }
-
-    // Show the 2023 graph by default when the page loads
-    window.onload = function() {
-        showYearDataSegmento('2023');
-    };
-</script>
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad 
         <div class="col-md-12">
@@ -1051,6 +906,156 @@
 
 
 
+        <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
+        <div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades por segmento</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user-tie me-2"></i>
+                        <span class="developer-label">Desarrollador</span>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" id="yearSelectSegmento" onchange="showYearDataSegmento(this.value)">
+                            <option value="2023" selected>2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonSegmento" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2023">Interpretación</button>
+                    </div>
+                </div>
+                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description (Same for all years) -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El gráfico presentado muestra la distribución de propiedades en Puebla, segmentada por diferentes rangos de precio. Cada segmento está representado con un color distinto y se identifica con las categorías S, A, B, D, C, A y E.</p>
+
+                <p>La gráfica permite visualizar fácilmente las proporciones de cada segmento dentro del total, lo que la hace útil para identificar cómo se reparte la oferta inmobiliaria en la región. Esto permite identificar cuáles tipos de propiedades predominan y detectar posibles áreas de oportunidad para ajustarse a la demanda del mercado.</p>
+
+                <p>Asimismo, esta visualización coadyuva a la toma de decisiones informadas basadas en la disponibilidad y la competencia en cada rango de precios.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation (One for each year) -->
+<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La distribución de propiedades por segmento en <strong>2023</strong> muestra que el mercado inmobiliario en esta región se concentra principalmente en los segmentos de valor medio alto y muy alto, B y S con <strong>23%</strong> y <strong>23.5%</strong> respectivamente. La preeminencia de estos segmentos podría estar impulsada por un auge de desarrollos en zonas exclusivas o por un perfil de comprador con alto poder adquisitivo y sus proporciones extremadamente similares se puede deber a estructura socioeconómica y la distribución de la población en Puebla.</p>
+
+                <p>Puebla tiene una edad mediana de <strong>28 años</strong>, lo que indica una población joven con un perfil laboral y familiar en crecimiento, quienes suele demandar inmuebles con características que brinden comodidad y una mayor calidad y valor a medida que crecen profesionalmente o buscan mejorar su nivel de vida (segmento B). La concentración de ingresos y la desigualdad también podría suponer a compradores de mayor poder adquisitivo o personas que buscan propiedades de alto valor como una inversión a largo plazo (segmento S).</p>
+
+                <p>Por el contrario, el segmento E, que representa las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos), tiene una participación mínima. Esto indica que hay poca oferta de viviendas asequibles, lo que podría ser un área de oportunidad para desarrolladores enfocados en vivienda de interés social o accesible.</p>
+
+                <p>El segmento A, que representa el <strong>14.7%</strong> del mercado, se enfoca en propiedades de pesos, ubicadas en el rango alto del mercado. Esta participación indica que hay una oferta moderada de propiedades para compradores con un nivel adquisitivo considerable, que buscan calidad y buena ubicación sin llegar a los precios más elevados. La menor participación de este segmento, en comparación con S y B, puede deberse a que el perfil de compradores de esta categoría es más específico y reducido.</p>
+
+                <p>El segmento D y C también tienen una representación significativa, sumando entre ambos un <strong>36.1%</strong>, lo que sugiere que hay un equilibrio en la oferta de viviendas de rango medio y medio bajo. Esto refleja un mercado diverso, con opciones para distintos perfiles de compradores, pero dominado por las propiedades de mayor valor.</p>
+
+                <p>La distribución del mercado en <strong>2023</strong> se inclina hacia propiedades de alto valor, mientras que la oferta de viviendas más accesibles es limitada, lo que podría afectar la capacidad de adquisición de un público más amplio y requerir ajustes en la oferta para atender mejor las necesidades de otros segmentos de la población.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En <strong>2024</strong>, la distribución de propiedades por segmento en Puebla muestra un cambio significativo respecto al año anterior. El segmento E que abarca las propiedades más accesibles (menores a <strong>1 millón</strong> de pesos) es ahora el de mayor participación con un <strong>25%</strong>. Esto sugiere un aumento en la oferta de viviendas económicas, lo que podría responder a políticas de desarrollo orientadas a satisfacer la demanda de viviendas asequibles o a un ajuste de precios por parte de los desarrolladores para hacer frente a una desaceleración económica.</p>
+
+                <p>Por otro lado, el segmento S, que en años anteriores había dominado, ahora tiene un <strong>21.5%</strong>, manteniéndose como uno de los segmentos principales, pero reflejando una ligera disminución. Esto puede indicar que los desarrolladores están diversificando la oferta hacia viviendas más accesibles, dada la reducción en el poder adquisitivo de algunos compradores o la preferencia por opciones más económicas ante un entorno económico incierto.</p>
+
+                <p>Los segmentos D y C (<strong>14%</strong> y <strong>13.8%</strong>, respectivamente) presentan una representación equilibrada, lo que sugiere un mercado bien distribuido en el rango medio-bajo, con opciones variadas para compradores que buscan propiedades con una buena relación calidad-precio.</p>
+
+                <p>En contraste, los segmentos de mayor valor (A y B) tienen una participación menor (<strong>10.3%</strong> y <strong>11.2%</strong>), reflejando nuevamente un ajuste hacia propiedades de menor costo. Finalmente, el segmento L (<strong>4.21%</strong>) sigue teniendo la participación más baja, lo que indica que las propiedades de lujo aún representan un nicho pequeño en el mercado inmobiliario local.</p>
+
+                <p>En conjunto, la distribución del mercado en <strong>2024</strong> muestra una transición hacia una mayor oferta de vivienda asequible, respondiendo a una posible necesidad de atraer a compradores con menor capacidad económica, lo cual contrasta con la tendencia de años anteriores hacia propiedades de alto valor.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script for controlling the display of graphs and modals -->
+<script>
+    function showYearDataSegmento(year) {
+        // Hide all year graphs
+        document.getElementById('yearDataSegmento2022').style.display = 'none';
+        document.getElementById('yearDataSegmento2023').style.display = 'none';
+        document.getElementById('yearDataSegmento2024').style.display = 'none';
+
+        // Show the selected year's graph
+        document.getElementById(`yearDataSegmento${year}`).style.display = 'block';
+
+        // Update the interpretation button to point to the correct modal
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+
+    // Show the 2023 graph by default when the page loads
+    window.onload = function() {
+        showYearDataSegmento('2023');
+    };
+</script>
+
+        
+    </div>
+</div>
+
 
         <!-- Perspectiva Mercado -->
         <!-- <div class="col-md-12">
@@ -1097,8 +1102,132 @@
         </div> -->
 
         
-    </div>
-</div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                                <div>
+                                   <!-- <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal1555">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal1555">Interpretación</button>
+                                    -->
+                                </div>
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal1555" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal1555" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Distribución de Propiedades -->
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                               <!-- <div> 
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                </div>-->
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- Agrega los modals para las gráficas restantes -->

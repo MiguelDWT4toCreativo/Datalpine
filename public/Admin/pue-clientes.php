@@ -138,7 +138,7 @@
                     <h1>Identificación de cliente potencial</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Puebla, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Créditos y Segmentación -->
@@ -167,7 +167,7 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalUMAS">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonUMAS" data-bs-toggle="modal">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonUMAS" data-bs-toggle="modal" data-bs-target=>Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -535,6 +535,245 @@
         </div>
     </div>
 </div>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Profesiones</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <!--<div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalProfessions">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalProfessions">Interpretación</button>
+                </div>-->
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/tablas/tabla_profesiones.html" 
+                        width="100%" 
+                        height="400" 
+                        frameborder="0" 
+                        style="min-height: 430px; border: 1px solid #ccc; !important">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modales de Descripción e Interpretación -->
+<div class="modal fade" id="descriptionModalProfessions" tabindex="-1" aria-labelledby="descriptionModalProfessionsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalProfessionsLabel">Descripción: Distribución de Profesiones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Esta gráfica muestra la distribución de las principales profesiones en Querétaro. Los datos reflejan los sectores más representativos según el número de trabajadores, permitiendo identificar tendencias y demandas laborales en la región.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalProfessions" tabindex="-1" aria-labelledby="interpretationModalProfessionsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalProfessionsLabel">Interpretación: Distribución de Profesiones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                La interpretación de esta gráfica permite analizar cuáles profesiones tienen mayor presencia en el mercado laboral de Querétaro. Esto es útil para evaluar oportunidades de empleo, identificar sectores con mayor crecimiento, y diseñar estrategias educativas o de capacitación.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Sección Clientes Potenciales -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- Columna completa: Clientes potenciales foráneos -->
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title subtitle mb-3 text-center">Clientes potenciales foráneos</h5>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie me-2"></i>
+                            <span class="developer-label">Desarrollador</span>
+                        </div>
+<!--
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
+                        </div>-->
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/mapas/foraneos.html" width="100%" height="400" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modales para Descripción e Interpretación -->
+<!-- Modal 1 -->
+<div class="modal fade" id="descriptionModal1" tabindex="-1" aria-labelledby="descriptionModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal1Label">Descripción </h5>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar descripción aquí -->
+                 <p>- Promedio de valor de Créditos para casas nueva y para vivienda usada</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal1" tabindex="-1" aria-labelledby="interpretationModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal1Label">Interpretación - Promedio de valor de Créditos para casas nueva y para vivienda usada</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar interpretación aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="descriptionModal2" tabindex="-1" aria-labelledby="descriptionModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal2Label">Descripción - Distribución % de créditos por categoría (trimestre)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar descripción aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal2" tabindex="-1" aria-labelledby="interpretationModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal2Label">Interpretación - Distribución % de créditos por categoría (trimestre)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar interpretación aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="descriptionModal3" tabindex="-1" aria-labelledby="descriptionModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal3Label">Descripción - Créditos por porcentaje de UMAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar descripción aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal3" tabindex="-1" aria-labelledby="interpretationModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal3Label">Interpretación - Créditos por porcentaje de UMAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar interpretación aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal4Label">Descripción - Destino del crédito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar descripción aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal4Label">Interpretación - Destino del crédito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar interpretación aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal5Label">Descripción - Clientes potenciales foráneos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar descripción aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal5Label">Interpretación - Clientes potenciales foráneos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Agregar interpretación aquí -->
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
