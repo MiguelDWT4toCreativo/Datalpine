@@ -176,7 +176,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico nos muestra la distribución de los segmentos ofertados en el mercado inmobiliario de Puebla en valores porcentuales, con una clasificación por color de acuerdo a la clase a la que pertenecen dentro del mismo segmento. </p>
+                <p>La gráfica ilustra la distribución de los segmentos en el mercado inmobiliario de Puebla, destacando la participación de cada segmento <strong>(E, D, C, B, A, S, L y ELITE)</strong> en relación con el total, con una representación visual clara de cada sección.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -193,8 +193,19 @@
                 <h5 class="modal-title" id="interpretationModalLabelSegment">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" style="text-align: justify;">
-                <p>En Puebla, el segmento inmobiliario con mayor presencia es el <strong>E</strong>, que abarca más del <strong>25%</strong> del mercado. Dentro de este, el segmento <strong>E2</strong> destaca con una participación del <strong>13.17%</strong>, lo que sugiere que es un mercado accesible para una amplia parte de la población. El segundo segmento más relevante es el <strong>S</strong>, con más del <strong>20%</strong> del mercado, donde la clase <strong>1</strong> tiene un <strong>13.11%</strong>. Esto refleja la existencia de un mercado inmobiliario de lujo en el estado, indicando la presencia de un sector de la población con alto poder adquisitivo. En conjunto, estos datos demuestran la diversidad del mercado inmobiliario en Puebla, que cubre diferentes segmentos poblacionales.</p>
+            <div class="modal-body" style="overflow-y: auto; max-height: 90vh;">
+                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario de Puebla de Zaragoza. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.</p>
+                <ul>
+                    <li><strong>Segmento E:</strong> El subsegmento <strong>E2</strong> es el más destacado, mientras que <strong>E1</strong> y <strong>E3</strong> tienen una menor representación, sin embargo es notoria su fuerte presencia en el mercado.</li>
+                    <li><strong>Segmento D:</strong> Aunque <strong>D1</strong> y <strong>D3</strong> muestran una presencia notable, <strong>D2</strong> tiene una representación intermedia sugiriendo una demanda considerable en los rangos de precios más altos.</li>
+                    <li><strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</li>
+                    <li><strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</li>
+                    <li><strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</li>
+                    <li><strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente, sin embargo, S2 y S3 son subsegmentos que tienen alta participación en el mercado, indicando una demanda amplia para propiedades de alto valor.</li>
+                    <li><strong>Segmento L:</strong> Los subsegmentos de las propiedades L tienen una representación baja en el mercado, sin embargo en L1 las propiedades tienen una presencia destacable.</li>
+                    <li><strong>Segmento ELITE:</strong> Tiene una presencia escasa en todo el mercado inmobiliario.</li>
+                </ul>
+                <p>Mientras que los segmentos <strong>E y S</strong> muestran una fuerte presencia en los extremos de la escala de precios, los segmentos <strong>D, C, B y A</strong> muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -203,69 +214,6 @@
     </div>
 </div>
 
-
-
-
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Proyección Poblacional</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPoblacion">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPoblacion">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalPoblacion" tabindex="-1" aria-labelledby="descriptionModalLabelPoblacion" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelPoblacion">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalPoblacion" tabindex="-1" aria-labelledby="interpretationModalLabelPoblacion" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelPoblacion">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de <strong>Puebla</strong> para los próximos años. En <strong>2021</strong> la ciudad contaba con una población total aproximada de <strong>6,733,923</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>7,188,185</strong>. Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además de que, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Gráfica: Distribución de créditos por segmento -->
 <div class="col-md-12">
@@ -285,21 +233,19 @@
                     </select>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmentooo">Descripción</button>
                     <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="segmentoData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="segmentoDataContainer"></div>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="descriptionModalSegmentooo" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -379,22 +325,27 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentoData(year) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentoData2022').style.display = 'none';
-        document.getElementById('segmentoData2023').style.display = 'none';
-        document.getElementById('segmentoData2024').style.display = 'none';
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_creditos_segmento_${year}.html`;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        iframe.style.minHeight = '430px';
+        iframe.style.border = '0';
 
-        // Mostrar la gráfica correspondiente al año seleccionado
-        document.getElementById(`segmentoData${year}`).style.display = 'block';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('segmentoDataContainer').innerHTML = '';
+        document.getElementById('segmentoDataContainer').appendChild(iframe);
 
         // Cambiar el modal de interpretación según el año seleccionado
         document.getElementById('interpretationButtonSegmento').setAttribute('data-bs-target', `#interpretationModal${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
-    window.onload = function() {
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentoData('2022');
-    };
+    });
 </script>
 
 
@@ -429,7 +380,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras muestra la tendencia de los precios por segmento inmobiliario en Puebla en valores porcentuales.</p>
+                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (representados por las letras <strong>E, D, C, B, A, S, L</strong>). Cada barra representa un segmento y su altura indica el porcentaje de cambio en el precio de ese segmento. Las barras que se extienden hacia arriba indican un aumento en el precio, mientras que las que se extienden hacia abajo indican una disminución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -587,7 +538,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica distingue la diferencia en la proporción de préstamos entre hombres y mujeres en el mercado inmobiliario de Puebla. Esta información es útil para comprender las tendencias de financiamiento y la participación de cada género en términos de acceso a créditos. Al visualizar esta distribución, se pueden identificar posibles disparidades o patrones en la obtención de préstamos inmobiliarios entre hombres y mujeres, lo que puede ser valioso para analizar la equidad en el acceso al financiamiento en el sector inmobiliario de la ciudad.</p>
+                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres de 2019 a 2024.</p>
+                
+                <p>Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario.</p>
+                
+                <p>Si la proporción de hombres es mayor, se sugiere que más créditos se otorgan a este grupo, y si la proporción de mujeres es mayor, se observa lo contrario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -658,7 +613,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras muestra la distribución porcentual de los créditos por segmento inmobiliario  trimestralmente en Puebla. </p>
+                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Puebla de Zaragoza, desde el segmento <strong>E</strong> (<strong>3.25 a 4 millones</strong>) hasta el segmento <strong>ELITE</strong> (<strong>más 12 millones</strong>). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -676,13 +631,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2022</strong> se otorgaron <strong>12,163</strong> créditos en Puebla. Según el análisis trimestral, el segmento que recibió el mayor número de créditos fue el <strong>E</strong>, mientras que en el segmento Elite no se otorgaron créditos.</p>
-
-                <p>Durante el primer trimestre, el <strong>17.7%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>4.6%</strong>. Esta tendencia se mantuvo en el segundo trimestre, aunque con una disminución en la participación global: el segmento <strong>E</strong> bajó al <strong>16.9%</strong> y el <strong>D</strong> al <strong>4.4%</strong>.</p>
-
-                <p>En el tercer trimestre, el segmento <strong>E</strong> representó el <strong>16.1%</strong> de los créditos y el <strong>D</strong> el <strong>4.3%</strong>. Finalmente, en el cuarto trimestre, el segmento <strong>E</strong> continuó con una participación decreciente del <strong>14%</strong>, mientras que el <strong>D</strong> se mantuvo el <strong>4.3%</strong>.</p>
-
-                <p>Esto refleja una tendencia decreciente en el otorgamiento de créditos a lo largo del año.</p>
+                <p>Para el año <strong>2022</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Puebla de Zaragoza. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los segmentos <strong>S</strong> y <strong>L</strong> sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -700,13 +649,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2023</strong> se otorgaron <strong>10,837</strong> créditos en Puebla. Según el análisis trimestral, el segmento que recibió el mayor número de créditos fue el <strong>E</strong>, mientras que en el segmento Elite no se otorgaron créditos.</p>
-
-                <p>Durante el primer trimestre, el <strong>13.9%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>4.1%</strong>. Esta tendencia se mantuvo en el segundo trimestre, aunque tuvo un incremento en la participación global: el segmento <strong>E</strong> creció al <strong>15.3%</strong> y el <strong>D</strong> al <strong>4.8%</strong>.</p>
-
-                <p>En el tercer trimestre, el segmento <strong>E</strong> tuvo una caída y representó el <strong>13.8%</strong> de los créditos, y el <strong>D</strong> el <strong>4.99%</strong>. Finalmente, en el cuarto trimestre, el segmento <strong>E</strong> tuvo un incremento con el <strong>16.8%</strong>, mientras que el <strong>D</strong> también incrementó con el <strong>5.2%</strong>.</p>
-
-                <p>Esto refleja una tendencia variable en el otorgamiento de créditos a lo largo del año.</p>
+                <p>Para el año <strong>2023</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Puebla de Zaragoza. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. La participación de los segmentos de mayor valor (S y L) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -724,11 +667,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong> se han otorgado <strong>5,583</strong> créditos en Puebla durante los dos primeros trimestres. Según el análisis trimestral, el segmento que ha recibido el mayor número de créditos es el <strong>E</strong>, mientras que en el segmento Elite se han otorgado la menor cantidad de créditos.</p>
-
-                <p>Durante el primer trimestre, el <strong>27.8%</strong> de los créditos se destinaron al segmento <strong>E</strong>, seguido del segmento <strong>D</strong> con el <strong>6.7%</strong>. Esta tendencia se mantuvo en el segundo trimestre, con un crecimiento en la participación total: el segmento <strong>E</strong> creció al <strong>32%</strong> y el <strong>D</strong> al <strong>10.2%</strong>.</p>
-
-                <p>Esto refleja una tendencia creciente en el otorgamiento de créditos a lo largo de los primeros trimestres del año.</p>
+                <p>Para los primeros 2 trimestres del <strong>2024</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) sigue dominando de manera significativa en ambos trimestres con más del <strong>21%</strong> de los créditos otorgados, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica. El segmento <strong>D</strong> (1 millón a 1.75 millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Puebla de Zaragoza, este atrayendo a compradores con mayor poder adquisitivo. Mientras que el resto de los segmentos presentan porcentajes de participación menores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -766,7 +705,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo estimado total de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo general de venta</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -793,7 +732,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses, de 7 a 24 ) y su altura indica el número de casas vendidas dentro de ese rango.</p>
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L y S</strong>) y barras individuales dentro de cada grupo corresponden a diferentes rango de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -829,7 +768,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Meses de antigüedad</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta (por segmento)</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -856,7 +795,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El grafico de barras nos muestra el tiempo estimado de venta y numero de propiedades por segmento inmobiliario en Puebla. </p>
+                <p>El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong> A, B, C, D, E, L y S</strong>) y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

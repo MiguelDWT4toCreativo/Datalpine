@@ -908,7 +908,6 @@
     </div>
 
 
-</div>
 
 
 
@@ -922,28 +921,7 @@
 
 <!-- Proyección Forecast Media Anual -->
 <div class="container-fluid">
-    <div class="row">
-        <!-- Columna izquierda: Proyección Forecast Media Anual
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Proyección Forecast Media Anual</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_forecast_media_anual.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="row">        
         <!-- Columna derecha: Colonias más baratas -->
 <!-- Gráfica: Colonias -->
 <div class="col-md-12">
@@ -1092,6 +1070,78 @@
         showColoniasData('masbaratas');
     };
 </script>
+
+
+        <!-- Gráfica: Tiempo en el mercado -->
+        <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Colonias Predominantes</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal33">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal33">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_colonias_predominantes.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal33" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel3">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                Se muestra una relación de las colonias en las cuales hay una mayor concentración de propiedades en oferta dentro de la zona de Puebla. Estas colonias podrían ser percibidas como zonas con mayor plusvalía o potencial de crecimiento, lo que atrae a más inversionistas y propietarios que buscan vender sus propiedades.                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal33" tabindex="-1" aria-labelledby="interpretationModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel3">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                La colonia <strong>Puebla</strong> es la que tiene la mayor participación en el mercado inmobiliario con un <strong>4.1%</strong> seguida por <strong>Jardines de San Manuel</strong> con <strong>3.1%</strong>. Estos relativamente altos porcentajes pueden explicarse por la ubicación de las mismas, ya que ambas colonias están bien conectadas con el resto de la ciudad y poseen características de urbanización desarrollada como  acceso conveniente a servicios, escuelas y zonas comerciales, lo cual las hace atractivas para compradores potenciales y proyectos de vivienda. El <strong>centro histórico</strong> con un <strong>2.4%</strong> está por debajo de las dos primeras, posiblemente por restricciones de desarrollo y altos costos de mantenimiento asociados con las regulaciones de preservación patrimonial.  <strong>La Paz</strong> y <strong>Bello Horizonte</strong>, con <strong>2.3%</strong> y <strong>2%</strong> respectivamente, podrían estar limitadas en oferta por su menor extensión territorial o por que se concentran en propiedades residenciales de menor densidad y baja rotación en el mercado.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
         <!-- Gráfica 3: Tiempo en el mercado -->

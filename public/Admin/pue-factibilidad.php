@@ -1048,7 +1048,7 @@
 
     // Show the 2023 graph by default when the page loads
     window.onload = function() {
-        showYearDataSegmento('2023');
+        showYearDataSegmento('2022');
     };
 </script>
 
