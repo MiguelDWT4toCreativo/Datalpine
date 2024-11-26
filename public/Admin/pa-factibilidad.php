@@ -351,7 +351,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>El gráfico muestra la cantidad de créditos otorgados en Pachuca durante los diferentes trimestres, desde el primer trimestre de 2022 hasta el tercer trimestre de 2024. La gráfica ilustra cómo ha variado el número de créditos concedidos en cada periodo, proporcionando una visión clara de la estacionalidad del mercado crediticio en la región. Este tipo de gráfico es útil para identificar patrones recurrentes y fluctuaciones en la actividad de financiamiento.</p>
+                        <p>El gráfico muestra la cantidad de créditos otorgados en Pachuca durante los diferentes trimestres, desde el primer trimestre de 2022 hasta el segundo trimestre de 2024. La gráfica ilustra cómo ha variado el número de créditos concedidos en cada periodo, proporcionando una visión clara de la estacionalidad del mercado crediticio en la región. Este tipo de gráfico es útil para identificar patrones recurrentes y fluctuaciones en la actividad de financiamiento.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -368,7 +368,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        La gráfica revela que el número de créditos otorgados ha experimentado variaciones significativas a lo largo de los años. En general, el cuarto trimestre de cada año muestra un pico en la cantidad de créditos otorgados, alcanzando los 400 créditos en dos años consecutivos. Este patrón puede estar relacionado con la mayor actividad económica durante los últimos meses del año, cuando los compradores tienden a finalizar transacciones inmobiliarias. En contraste, los trimestres intermedios, como el segundo y tercer trimestre muestran valores relativamente estables, con variaciones de 50 unidades, excepto por dos valores atípicos. El segundo trimestre del 2023, que es muy alto y para ese trimestre (400 créditos) y el aún más atípico tercer trimestre de 2024 siendo particularmente bajo (150 créditos). Este último  podría indicar una desaceleración en la demanda o una menor actividad en el mercado inmobiliario de Pachuca</p>
+                        La gráfica revela que el número de créditos otorgados ha experimentado variaciones significativas a lo largo de los años. En general, el cuarto trimestre de cada año muestra un pico en la cantidad de créditos otorgados, alcanzando los <strong>395</strong> créditos en dos años consecutivos. Este patrón puede estar relacionado con la mayor actividad económica durante los últimos meses del año, cuando los compradores tienden a finalizar transacciones inmobiliarias. En contraste, los trimestres intermedios, como el segundo y tercer trimestre muestran valores relativamente estables, con variaciones de 50 unidades, excepto por dos valores atípicos. El segundo trimestre del 2023, que es muy alto y para ese trimestre (<strong>388</strong> créditos) y el segundo trimestre de 2024 siendo particularmente alto (<strong>336</strong> créditos). Este último podría indicar una aceleración en la demanda o una mayor actividad en el mercado inmobiliario de Pachuca.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -456,8 +456,8 @@
 
 
         <!-- Segmentación de mercado: Promedio de precio por segmento -->
-        <div class="row">
-        <div class="col-md-12">
+<div class="row">
+<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
@@ -485,7 +485,6 @@
             </div>
         </div>
     </div>
-    
 </div>
 
         <!-- Modal for Description -->
@@ -497,7 +496,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil pesos</strong> (E) hasta más de <strong>4 millones de pesos</strong> (S), y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
+                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil</strong> pesos <strong>(E)</strong> hasta más de <strong>22 millones de pesos</strong> <strong>(ELITE)</strong>, y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -515,13 +514,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica revela una distribución bastante equilibrada:</p>
+                <p>La gráfica revela una distribución de propiedades bastante equilibrada. El segmento <strong>D</strong> (1.75 millones a 2.5 millones) y <strong>S</strong> (4 millones a 12 millones) tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
 
-                <p>Los segmentos S y D, que representan propiedades de más de <strong>4 millones</strong> de pesos y de <strong>1.75</strong> a <strong>2.5 millones</strong> de pesos respectivamente, tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de lujo como el de otras de precios más accesibles.</p>
+                <p>El segmento <strong>B</strong>, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento <strong>A</strong> (3.25 a 4 millones de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
 
-                <p>El segmento B, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento A (<strong>3.25</strong> a <strong>4 millones</strong> de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
+                <p>Por otro lado, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
 
-                <p>Por otro lado, el segmento E, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
+                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación en Pachuca.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -538,9 +537,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2023, el segmento S, correspondiente a propiedades de más de <strong>4 millones de pesos</strong>, representa la mayor proporción de la distribución con un <strong>23.5%</strong>. Esto indica una fuerte presencia de propiedades de lujo en el mercado de Pachuca, reflejando posiblemente el aumento en la demanda de inversiones inmobiliarias de alto valor.</p>
-                <p>El segundo segmento más representado es el B, que abarca propiedades con precios entre <strong>2.5</strong> y <strong>3.25 millones de pesos</strong>, con un <strong>23%</strong>. Esto sugiere que hay una notable demanda por propiedades de rango medio-alto. Los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y C (<strong>1.75 a 2.5 millones</strong>) también tienen una participación significativa con un <strong>18.2%</strong> y <strong>17.9%</strong>, respectivamente, lo que indica que el mercado de propiedades de precios medios sigue siendo fuerte.</p>
-                <p>En el extremo opuesto, el segmento E, con propiedades de menos de <strong>500 mil pesos</strong>, representa solo el <strong>2.81%</strong> de la distribución, lo que refleja una oferta muy limitada de propiedades económicas en Pachuca. El segmento A vuelve a situarse tras los últimos mencionados con un <strong>14.7%</strong>, lo que indica una porción relativamente pequeña aunque aún así significativa que está interesada en propiedades de alto valor que no llegan  a ser de lujo.</p>
+                <p>En 2023, el segmento <strong>S</strong>, correspondiente a propiedades de <strong>más de 4 millones de pesos</strong>, representa la mayor proporción de la distribución con un <strong>23.5%</strong>. Esto indica una fuerte presencia de propiedades de media-alta en el mercado de Pachuca, reflejando posiblemente el aumento en la demanda de inversiones inmobiliarias de alto valor.</p>
+                <p>El segundo segmento más representado es el <strong>B</strong>, que abarca propiedades con precios entre <strong>2.5</strong> y <strong>3.25 millones de pesos</strong>, con un <strong>23%</strong>. Esto sugiere que hay una notable demanda por propiedades de rango medio-alto. Los segmentos <strong>D</strong> (1.75 a 2.5 millones de pesos) y <strong>C</strong> (1.75 a 2.5 millones) también tienen una participación significativa con un <strong>18.2%</strong> y <strong>17.9%</strong>, respectivamente, lo que indica que el mercado de propiedades de precios medios sigue siendo fuerte.</p>
+                <p>El segmento <strong>A</strong> vuelve a situarse tras los últimos mencionados con un <strong>14.7%</strong>, lo que indica una porción relativamente pequeña aunque significativa que está interesada en propiedades de valor intermedio.</p>
+                <p>En el extremo opuesto, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil pesos</strong>, representa solo el <strong>2.81%</strong> de la distribución, lo que refleja una oferta muy limitada de propiedades económicas en Pachuca.</p>
+                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación.</p>
                 <p>Este comportamiento refleja una polarización del mercado inmobiliario en Pachuca, donde tanto las propiedades de alto valor como las de rango medio tienen una participación significativa, mientras que las propiedades de bajo costo son menos comunes.</p>
             </div>
             <div class="modal-footer">
@@ -558,7 +559,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, lo que indica una gran presencia de propiedades de alto valor en Pachuca. Por otro lado, el segmento E, con solo el <strong>2.12%</strong>, muestra una oferta mínima de propiedades de bajo costo, lo que podría reflejar la exclusión de compradores de ingresos más bajos. Otros segmentos, como el A y el B, también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
+                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
+                <p>Por otro lado, el segmento E (<strong>menos 500 mil a 1 millón</strong>) y C (<strong>1.75 millones a 2.5 millones</strong>) muestran casi la misma participación del <strong>16.8%</strong> y <strong>16.4%</strong>, lo que implica un presencia de propiedades de precios asequibles. Otros segmentos, como el B (<strong>2.5 millones a 3.25 millones</strong>) y A (<strong>3.25 millones a 4 millones</strong>) también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
+                <p>Finalmente en este año es posible resaltar que las propiedades del segmento L (<strong>12 millones a 22 millones</strong>) empiezan a tener presencia en la zona, lo que puede ser señal de una pequeña élite recién establecida.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -591,6 +594,10 @@
         showYearlyDataSegmento('2022');
     };
 </script>
+
+</div>
+
+
 
 
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
@@ -652,6 +659,7 @@
         </div>
     </div>
 </div>
+
 
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad 
@@ -926,6 +934,11 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
         const interpretationButton = document.getElementById('interpretationButtonMontos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalMontos${year}`);
     }
+
+    // Show "Valor" graph by default on page load
+    window.onload = function() {
+        showForecastData('2022');
+    };
 </script>
 
 
@@ -989,12 +1002,12 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                                     <span class="developer-label">Desarrollador</span>
                                 </div>
                                 <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descripcionModalPropiedades">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretacionModalPropiedades">Interpretación</button>
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -1003,15 +1016,16 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
         </div>
 
         <!-- Modal for Description 2023 -->
-        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+        <div class="modal fade" id="descripcionModalPropiedades" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                        <p>El mapa de calor presentado ofrece una visualización de la densidad de propiedades disponibles en la ciudad. La representación utiliza una escala de colores que va desde el rojo intenso, indicando una alta concentración de propiedades en una zona específica, hasta el azul más claro, denotando una menor oferta de propiedades en esa área, donde cada propiedad está geolocalizada mediante sus coordenadas de latitud y longitud.</p>
+                        <p>Esta representación permite identificar fácilmente áreas con alta demanda y concentración de propiedades, así como áreas con menor competencia y potencial para el desarrollo inmobiliario.</p>                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -1021,52 +1035,16 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
         </div>
 
         <!-- Modal for Interpretation 2023 -->
-        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+        <div class="modal fade" id="interpretacionModalPropiedades" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Description 2024 -->
-        <div class="modal fade" id="descriptionModal16" tabindex="-1" aria-labelledby="descriptionModalLabel16" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel16">Descripción 2024</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2024.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal for Interpretation 2024 -->
-        <div class="modal fade" id="interpretationModal16" tabindex="-1" aria-labelledby="interpretationModalLabel16" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel16">Interpretación 2024</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2024.</p>
-                    </div>
+                    <p>El análisis de la distribución de la oferta de propiedades revela que algunas colonias destacan por su alta densidad de disponibilidad, en esta vista del mapa se aprecia una distribución uniforme a lo largo de Pachuca de Soto.</p>
+                    <p>Este panorama ofrece una visión clara de las áreas con mayor y menor disponibilidad de propiedades.</p>                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     </div>

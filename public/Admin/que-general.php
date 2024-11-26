@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" id="segmentData" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_segmentos.html" width="100%" height="400" frameborder="0" id="segmentData" style="display: block; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -175,7 +175,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución de los diferentes segmentos del mercado inmobiliario en Pachuca. Permite analizar la concentración de inmuebles por segmentos y observar las diferencias en la demanda y oferta de cada uno de ellos.</p>
+                <p>La gráfica muestra la distribución de segmentos en el mercado inmobiliario de Querétaro, destacando la participación en cada segmento <strong>(E, D, C, B, A, S, L y ELITE)</strong> y permitiendo identificar cuáles son los segmentos más fuertes en el mercado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -192,75 +192,19 @@
                 <h5 class="modal-title" id="interpretationModalLabelSegment">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <p>La gráfica de distribución de segmentos revela que los inmuebles de rango medio-alto tienen la mayor concentración en Pachuca. El segmento B, que abarca propiedades de 2.5 a 3.25 millones de pesos, es el más representado. Por otro lado, el segmento E, con propiedades de bajo valor (menos de 500 mil pesos), tiene la menor participación, lo que refleja una oferta limitada en ese rango de precios.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Proyección Poblacional</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPoblacion">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPoblacion">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_proy_poblacion.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalPoblacion" tabindex="-1" aria-labelledby="descriptionModalLabelPoblacion" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelPoblacion">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                El gráfico de barras muestra una estimación del crecimiento de la población en la ciudad para los próximos años. Cada barra representa un año y su altura indica el numero de personas que se esperan vivan en determinada región cada año. Las barras que se extienden hacia arriba indican un aumento en el número de personas, mientras que las que se extienden hacia abajo indican una disminución de las mismas. 
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalPoblacion" tabindex="-1" aria-labelledby="interpretationModalLabelPoblacion" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelPoblacion">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                <p>
-                    A lo largo de los años que se analizan, se revela un crecimiento progresivo en la ciudad de <strong>Querétaro</strong> para los próximos años. En <strong>2021</strong> la ciudad contaba con una población total aproximada de <strong>2,442,205</strong>, y para <strong>2027</strong> se proyecta que esta población aumente a <strong>2,723,968</strong>.
-                </p>
-                <p>
-                    Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica de la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
-                </p>
-
-                </p>
+            <div class="modal-body" style="overflow-y: auto; max-height: 90vh;">
+                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario de Santiago de Querétaro. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.</p>
+                <ul>
+                    <li><strong>Segmento E:</strong> El subsegmento <strong>E3</strong> es el más destacado, mientras que <strong>E1</strong> y <strong>E2</strong> tienen una menor representación, indicando una demanda más limitada en los rangos de precios más bajos.</li>
+                    <li><strong>Segmento D:</strong> Tiene una distribución de subsegmentos más equilibrada, aunque es bajo para el tamaño del mercado de la ciudad.</li>
+                    <li><strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</li>
+                    <li><strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</li>
+                    <li><strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</li>
+                    <li><strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente, sin embargo, <strong>S2</strong> y <strong>S3</strong> son subsegmentos que tienen alta participación en el mercado, indicando una demanda amplia para propiedades de alto valor.</li>
+                    <li><strong>Segmento L:</strong> Los subsegmentos de las propiedades L tienen una representación baja en el mercado, el subsegmento que más destaca es el <strong>L1</strong>.</li>
+                    <li><strong>Segmento ELITE:</strong> Tiene una presencia mínima, sin embargo es notorio que hay demanda para propiedades de lujo.</li>
+                </ul>
+                <p>Mientras que el segmento <strong>S</strong> muestra una fuerte presencia en los extremos de la escala de precios, los segmentos <strong>D, C, B y A</strong> muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -292,21 +236,18 @@
                     </select>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmentooo">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
                 </div>
             </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2022.html" width="100%" height="400" frameborder="0" id="segmentoData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2023.html" width="100%" height="400" frameborder="0" id="segmentoData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_2024.html" width="100%" height="400" frameborder="0" id="segmentoData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+            <div id="segmentoDataContainer" style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <!-- Contenido dinámico será agregado aquí -->
             </div>
         </div>
     </div>
 </div>
-
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="descriptionModalSegmentooo" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -314,7 +255,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio. Si se observa una mayor proporción en segmentos de menor valor, sugiere que los compradores se inclinan por propiedades más accesibles. Por el contrario, una concentración en segmentos altos indicaría una demanda por inmuebles de lujo.</p>
+                <p>Se muestra la distribución de créditos en segmentos de precios de inmuebles. Esta gráfica permite identificar las tendencias en la concesión de créditos según el valor de las propiedades. Una mayor concentración de créditos en un segmento indica una preferencia por inmuebles de ese rango de precio.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -332,7 +273,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>47.8%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los <strong>precios inmobiliarios</strong>, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.1%</strong>) y <strong>C</strong> (<strong>10.3%</strong>) refleja una posible mejora en el <strong>poder adquisitivo</strong> o un incremento en las <strong>inversiones</strong> en propiedades de rango medio. El segmento <strong>S</strong> (<strong>10.3%</strong>) mantiene un <strong>mercado estable</strong> para propiedades de <strong>lujo</strong>, sugiriendo una demanda sostenida en el <strong>nicho de alto valor</strong>.</p>
+                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>47.8%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.1%</strong>) y <strong>C</strong> (<strong>10.3%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>10.3%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -350,9 +291,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>44.4%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.9%</strong>) y <strong>C</strong> (<strong>11%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>11%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.
-            </p>
+                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>44.4%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>19.9%</strong>) y <strong>C</strong> (<strong>11%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>11%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -370,9 +309,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                El <strong>segmento E</strong> sigue siendo el más demandado con el <strong>43.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con <strong>años anteriores</strong>. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del <strong>segmento D</strong> (<strong>21.1%</strong>) y <strong>segmento C</strong> (<strong>11.6%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El <strong>segmento S</strong> (<strong>10.4%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.
-            </p>
+                <p>El segmento <strong>E</strong> sigue siendo el más demandado con el <strong>43.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor. El crecimiento del segmento <strong>D</strong> (<strong>21.1%</strong>) y <strong>C</strong> (<strong>11.6%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio. El segmento <strong>S</strong> (<strong>10.4%</strong>) mantiene un mercado estable para propiedades de lujo, sugiriendo una demanda sostenida en el nicho de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -380,27 +317,30 @@
         </div>
     </div>
 </div>
-
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentoData(year) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentoData2022').style.display = 'none';
-        document.getElementById('segmentoData2023').style.display = 'none';
-        document.getElementById('segmentoData2024').style.display = 'none';
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_pie_dist_creditos_segmento_${year}.html`;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        iframe.style.minHeight = '430px';
+        iframe.style.border = '0';
 
-        // Mostrar la gráfica correspondiente al año seleccionado
-        document.getElementById(`segmentoData${year}`).style.display = 'block';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('segmentoDataContainer').innerHTML = '';
+        document.getElementById('segmentoDataContainer').appendChild(iframe);
 
-        // Actualizar el botón de interpretación según el año seleccionado
-        const interpretationButton = document.getElementById('interpretationButtonSegmento');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+        // Cambiar el modal de interpretación según el año seleccionado
+        document.getElementById('interpretationButtonSegmento').setAttribute('data-bs-target', `#interpretationModal${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
-    window.onload = function() {
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentoData('2022');
-    };
+    });
 </script>
 
 
@@ -436,10 +376,7 @@
             </div>
             <div class="modal-body">
                 <!-- Aquí va el contenido de la descripción -->
-                <p>
-                    El gráfico de barras muestra las tendencias de precios para diferentes segmentos (representados por las letras <strong>A, B, C, D, E</strong> y <strong>S</strong>). Cada barra representa un segmento y su altura indica el porcentaje de cambio en el precio de ese segmento. Las barras que se extienden hacia arriba indican un aumento en el precio, mientras que las que se extienden hacia abajo indican una disminución.
-                </p>
-
+                <p>El gráfico de barras muestra las tendencias de precios para diferentes segmentos (representados por las letras <strong>E, D, C, B, A, S, L</strong>). Cada barra representa un segmento y su altura indica el porcentaje de cambio en el precio de ese segmento. Las barras que se extienden hacia arriba indican un aumento en el precio, mientras que las que se extienden hacia abajo indican una disminución.</p>
             </div>
 
         </div>
@@ -595,9 +532,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>
-                La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres. Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario. Si la proporción de hombres es mayor, se sugiere que más créditos se otorgan a este grupo, y si la proporción de mujeres es mayor, se observa lo contrario.
-                </p>
+                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres de 2019 a 2024.</p>
+                
+                <p>Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario.</p>
+                
+                <p>Si la proporción de hombres es mayor, se sugiere que más créditos se otorgan a este grupo, y si la proporción de mujeres es mayor, se observa lo contrario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -627,28 +566,9 @@
     </div>
 </div>
 
-<!-- Columna completa: g_pie_creditos_genero -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades (Mapa de calor)</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalmc">Descripción</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Columna completa: g_pie_creditos_genero -->
+
+<!-- Columna completa: g_pie_creditos_genero
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -668,7 +588,7 @@
         </div>
     </div>
 </div>
-
+ -->
 
         <div class="col-md-12">
     <div class="card">
@@ -688,7 +608,9 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModal2022">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModalCategoria2022">Interpretación</button>
+                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal2023trimestre">2023</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal2024trimestre">2024</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -696,7 +618,7 @@
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
-        </div>
+        </</div>
     </div>
 </div>
 
@@ -710,7 +632,7 @@
             </div>
             <div class="modal-body">
              <p>
-                Se muestra la distribución porcentual de créditos por categorías de precios durante los <strong>cuatro trimestres del año 2022</strong>. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles, desde el <strong>segmento A</strong> (<strong>3.25 a 4 millones</strong>) hasta el <strong>segmento S</strong> (<strong>4 a 12 millones</strong>). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.
+                Se muestra la distribución porcentual de créditos por categorías de precios durante los <strong>cuatro trimestres del año</strong>. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Santiago de Querétaro, desde el <strong>segmento E</strong> (<strong>3.25 a 4 millones</strong>) hasta el <strong>segmento ELITE</strong> (<strong>más 12 millones</strong>). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.
             </p>
 
             </div>
@@ -722,18 +644,17 @@
 </div>
 
 <!-- Modal for Interpretation 2022 -->
-<div class="modal fade" id="interpretationModal2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
+<div class="modal fade" id="interpretationModalCategoria2022" tabindex="-1" aria-labelledby="interpretationModalLabelCategoria2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="interpretationModalLabelCategoria2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
             <p>
-                El <strong>segmento E</strong> (<strong>menos de 500 mil a 1 millón</strong>) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en <strong>Querétaro</strong>. El crecimiento del sector inmobiliario en Querétaro, que representa el <strong>9.6%</strong> del <strong>PIB estatal</strong>, refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. La estabilidad en los <strong>segmentos de mayor valor (S)</strong> sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.
+                Para el año 2022, el segmento <strong>E</strong> (menos de <strong>500 mil</strong> a <strong>1 millón</strong>) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Santiago de Querétaro. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles. Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los segmentos <strong>S</strong> y <strong>L</strong> sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región. 
             </p>
-
 
             </div>
             <div class="modal-footer">
@@ -744,16 +665,16 @@
 </div>
 
 <!-- Modal for Interpretation 2023 -->
-<div class="modal fade" id="interpretationModal2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+<div class="modal fade" id="interpretationModalCategoria2023" tabindex="-1" aria-labelledby="interpretationModalLabelCategoria2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
+                <h5 class="modal-title" id="interpretationModalLabelCategoria2023">Interpretación 2023</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
              <p>
-                En 2023, se observa un incremento en la participación del <strong>segmento D</strong>, lo que sugiere una ligera inclinación del mercado hacia propiedades de bajo a medio valor, con el <strong>segmento E</strong> manteniendo su posición dominante. Esto podría estar relacionado con incentivos para la compra de propiedades más económicas. Al mismo tiempo, el <strong>segmento S</strong> continúa mostrando demanda, aunque ligeramente menor que en 2022, lo que podría reflejar una estabilización en la oferta de propiedades de lujo en la región.
+                Para el año <strong>2023</strong>, el segmento <strong>E</strong> (menos de <strong>500 mil</strong> a <strong>1 millón</strong>) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. La participación de los segmentos de mayor valor (<strong>S</strong>, <strong>L</strong> y <strong>ELITE</strong>) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.
             </p>
             </div>
             <div class="modal-footer">
@@ -764,11 +685,11 @@
 </div>
 
 <!-- Modal for Interpretation 2024 -->
-<div class="modal fade" id="interpretationModal2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+<div class="modal fade" id="interpretationModalCategoria2024" tabindex="-1" aria-labelledby="interpretationModalLabelCategoria2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title" id="interpretationModalLabelCategoria2024">Interpretación 2024</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -796,7 +717,7 @@
 
         // Actualizar el botón de interpretación
         const interpretationButton = document.getElementById('interpretationButtonCategoria');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalCategoria${year}`);
     }
 
     // Mostrar la gráfica de 2022 por defecto al cargar la página
@@ -811,7 +732,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo general de venta</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -834,14 +755,11 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo total de venta</h5>
+                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                El gráfico de barras representa el tiempo estimado de venta de propiedades en función de su antigüedad. Cada barra corresponde a un rango de antigüedad (medido en meses) y su altura indica el número de casas vendidas dentro de ese rango.
-            </p>
-
+                <p>El gráfico de barras representa el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L y S</strong>) y barras individuales dentro de cada grupo corresponden a diferentes rango de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -855,7 +773,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo total de venta</h5>
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -920,15 +838,15 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Tiempo de venta</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Tiempo total de venta (por segmento)</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalTiempoVenta">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalTiempoVenta">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalMesesAtiguedad">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalMesesAtiguedad">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -939,15 +857,15 @@
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalTiempoVenta" tabindex="-1" aria-labelledby="descriptionModalLabelTiempoVenta" aria-hidden="true">
+<div class="modal fade" id="descriptionModalMesesAtiguedad" tabindex="-1" aria-labelledby="descriptionLabelMesesAtiguedad" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelTiempoVenta">Descripción: Tiempo de venta</h5>
+                <h5 class="modal-title" id="descriptionModalMesesAtiguedad">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica muestra el tiempo promedio que se tarda en vender una propiedad en Querétaro. El "tiempo de venta" mide el intervalo entre el momento en que una propiedad se pone a la venta y cuando se completa la transacción. Este indicador es importante para evaluar la eficiencia y rapidez del mercado inmobiliario en la región.</p>
+                <p>El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong> A, B, C, D, E, L y S</strong>) y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses). La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -957,15 +875,15 @@
 </div>
 
 <!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalTiempoVenta" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
+<div class="modal fade" id="interpretationModalMesesAtiguedad" tabindex="-1" aria-labelledby="interpretationModalLabelTiempoVenta" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación: Tiempo de venta</h5>
+                <h5 class="modal-title" id="interpretationModalLabelTiempoVenta">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El análisis de esta gráfica revela que el tiempo promedio de venta en Querétaro ha disminuido en los últimos trimestres. Esto sugiere una mayor demanda o una mejora en las condiciones del mercado inmobiliario, lo que permite que las propiedades se vendan más rápidamente. Por otro lado, si el tiempo de venta aumenta, podría indicar un mercado más saturado o una menor demanda de propiedades.</p>
+                <p>Es posible notar que el mercado inmobiliario de Santiago de Querétaro, es consistente en el tiempo que tardan las propiedades en venderse. La mayoría de los segmentos poseen tiempos de venta homogéneos. Sin embargo, el segmento S es el grupo que mayor participación tiene en periodos de venta de 9 meses y 16 a 18 meses, esto puede deberse a que son propiedades con alto precio, lo que dificulta que puedan venderse rápido.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -1007,10 +925,7 @@
             </div>
             <div class="modal-body">
             <p>
-                El gráfico de barras visualiza el tiempo estimado de venta de propiedades en diferentes segmentos del mercado inmobiliario. Cada grupo representa un segmento específico (identificado por las letras <strong>A, B, C, D, E, L</strong> y <strong>S</strong>), y las barras individuales dentro de cada grupo corresponden a diferentes rangos de antigüedad de las propiedades (medido en meses).
-            </p>
-            <p>
-                La altura de cada barra indica el número de casas vendidas en ese segmento y rango de antigüedad.
+            Se muestra la distribución de la población por rango de edad y género en la ciudad de Querétaro en los últimos años.
             </p>
 
             </div>
@@ -1031,10 +946,7 @@
             </div>
             <div class="modal-body">
             <p>
-                Es posible notar que el mercado inmobiliario de <strong>Santiago de Querétaro</strong> es consistente en el tiempo que tardan las propiedades en venderse. La mayoría de los segmentos poseen tiempos de venta homogéneos.
-            </p>
-            <p>
-                Sin embargo, el <strong>segmento S</strong> es el grupo que mayor participación tiene en periodos de venta de <strong>9 meses</strong> y <strong>16 a 18 meses</strong>. Esto puede deberse a que son propiedades con alto precio, lo que dificulta que puedan venderse rápidamente.
+            En la ciudad de Santiago de Querétaro buena parte de la población se encuentra en un rango de edad de entre  20 a 49 años, este rango de edad es importante ya que comúnmente se caracteriza por ser población económicamente activa. 
             </p>
 
             </div>

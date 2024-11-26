@@ -139,13 +139,190 @@
                     <h1>Desarrollo de Producto</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Pachuca de Soto, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
+                    <div class="col-md-12"><div class="card"></div></div>
+                <!--SE MANEJAN LOS 6 CARD DE Perspectiva general de mercado POR FILTRO DE TIPO DE MERCADO-->
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;">
+                        <h4 class="mb-3">Perspectiva General de Mercado</h4>
+                    </div>
+                    <div class="col-md-auto" style="text-align: center; margin: 0 auto;">
+                        <select class="form-select" id="segmentFilter" style="text-align: center;" onchange="actualizarTablas(this.value)">
+                            <option value="general">General</option>
+                            <option value="E">E</option>
+                            <option value="D">D</option>
+                            <option value="C">C</option>
+                            <option value="B">B</option>
+                            <option value="A">A</option>                                                        
+                            <option value="S">S</option>
+                            <option value="L">L</option>
+                            <!--<option value="ELITE">ELITE</option>-->
+                        </select>
+                        <h4 class="mb-3"></h4>
+                    </div>
+                </div>
+                    <!-- Cargar el script -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script src="pa-filtros_mercado.js"></script>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Promedio</h5>                                
+                                <table class="table" id="tablaPromedios">                                    
+                                    <tbody id="tableBodyPromedios">
+                                        <tr>
+                                            <td>Estacionamientos</td>
+                                            <td id="estacionamientos"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Recámaras</td>
+                                            <td id="recamaras"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Baños</td>
+                                            <td id="banos"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Mediana</h5>
+                                <table class="table" id="tablaMediana">                                    
+                                    <tbody id="tableBodyMediana">                                      
+                                        <tr>
+                                            <td>Estacionamientos</td>
+                                            <td id="estacionamientos-mediana"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Recámaras</td>
+                                            <td id="recamaras-mediana"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Baños</td>
+                                            <td id="banos-mediana"></td>
+                                        </tr>  
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Precio Mercado</h5>
+                                <table class="table" id="tablaPrecioMercado">                                    
+                                    <tbody id="tableBodyPrecioMercado">
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="precio-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="precio-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="precio-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="precio-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">M2 Terreno</h5>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="metros-terreno-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="metros-terreno-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="metros-terreno-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="metros-terreno-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">M2 Construcción</h5>
+                            <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="metros-construidos-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="metros-construidos-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="metros-construidos-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="metros-construidos-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Precio M2 Construcción</h5>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="precio-metros-construidos-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="precio-metros-construidos-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="precio-metros-construidos-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="precio-metros-construidos-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 
 
-    <div class="row">
-
-
+                </div>
 
         <!-- Gráfica 4: Distribución % de créditos por vivienda valor -->
 <!-- Distribución % de créditos por vivienda valor -->
@@ -207,7 +384,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el 38% de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las residenciales 18% y tradicionales 22%, la categoría de "vivienda media" domina el mercado. Las viviendas económicas, popular y de lujo, con un 4%, 6% y 4% de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
+            <p>La gráfica muestra una clara tendencia hacia la adquisición de viviendas de valor medio, concentrando el <strong>38%</strong> de los créditos hipotecarios. Esto sugiere que la clase media es el motor principal del mercado inmobiliario. Si bien existe una demanda por viviendas de diferentes rangos de precios, como las <strong>residenciales</strong> <strong>18%</strong> y <strong>tradicionales</strong> <strong>22%</strong>, la categoría de "vivienda media" domina el mercado.</p>
+            <p>Las viviendas <strong>económicas</strong>, <strong>popular</strong> y de <strong>lujo</strong>, con un <strong>4%</strong>, <strong>6%</strong> y <strong>4%</strong> de los créditos respectivamente, representan segmentos más pequeños. Factores como el poder adquisitivo, las políticas gubernamentales y la disponibilidad de oferta influyen en esta distribución.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -341,11 +519,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>34.97%</strong> y <strong>42.91%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</p>
-
-                <p>FOVISSTE tiene una participación menor pero significativa con un <strong>21.6%</strong>, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</p>
-
-                <p>BANJERCITO tiene una participación mínima o nula, esta última institución muestra un porcentaje de <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
+                <p>Al observar la gráfica es notorio que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>34.97%</strong> y <strong>42.91%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que son las preferidas por los solicitantes. FOVISSTE tiene una participación menor pero significativa con un <strong>21.6%</strong>. Por su parte, BANJERCITO tiene una participación mínima o nula, esta última institución muestra un porcentaje de <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -361,11 +535,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Al observar la gráfica podemos deducir que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>45.43%</strong> y <strong>34.42%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado. Esto sugiere que estas dos instituciones tienen una mayor participación en el mercado de créditos y son las preferidas por los solicitantes.</p>
-
-                <p>FOVISSTE tiene una participación menor pero significativa con un <strong>18.26%</strong>, el FOVISSTE también otorgó una cantidad considerable de créditos, aunque en menor proporción que las dos instituciones anteriores. Esto indica que el FOVISSTE tiene una presencia importante en el mercado, pero en menor escala.</p>
-
-                <p>BANJERCITO, INSUS y CONAVI tienen una participación mínima, estas tres últimas instituciones muestran un porcentaje alrededor del <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
+                <p>Al observar la gráfica es notorio que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>45.43%</strong> y <strong>34.42%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado, esto sugiere que son las preferidas por los solicitantes. FOVISSTE tiene una participación menor pero significativa con un <strong>18.26%</strong>. Por su parte, BANJERCITO, INSUS y CONAVI tienen una participación mínima, estas tres últimas instituciones muestran un porcentaje alrededor de <strong>1%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es prácticamente inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -381,11 +551,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Al observar la gráfica podemos deducir que existe dominancia de INFONAVIT y CNBV. Es evidente que el INFONAVIT y la CNBV son las instituciones que concentran la mayor parte de porcentajes de créditos otorgados con un <strong>48.77%</strong> y <strong>33.59%</strong> respectivamente. Estas dos entidades son las principales proveedoras de financiamiento a la población.</p>
-
-                <p>FOVISSTE, aunque con una participación menor, también tiene una presencia significativa en el otorgamiento de créditos, alrededor del <strong>17.38%</strong>.</p>
-
-                <p>BANJERCITO muestra una participación prácticamente nula con el <strong>0%</strong> en el otorgamiento de créditos.</p>
+                <p>Al observar la gráfica es notorio que INFONAVIT y CNBV dominan el mercado de créditos con un <strong>48.77%</strong> y <strong>33.59%</strong> respectivamente, son las instituciones que otorgaron la mayor cantidad de créditos en el periodo analizado, esto sugiere que son las preferidas por los solicitantes. El FOVISSTE tiene una participación menor pero significativa con un <strong>17.38%</strong>. Por su parte BANJERCITO tienen una presencia mínima o nula con un <strong>26%</strong>, lo que sugiere que su participación en el otorgamiento de créditos es inexistente en el periodo analizado.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -440,6 +606,7 @@
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEstacionamientos">Descripción</button>
                     <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientosGeneral">Interpretación</button>
+                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientos">Interpretación</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -450,33 +617,6 @@
     </div>
 </div>
 
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="segmentSelectBanos" onchange="showSegmentDataBanos(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
  </div>
 
 
@@ -490,7 +630,7 @@
             </div>
             <div class="modal-body">
                 <p>El gráfico de pastel visualiza la distribución general de estacionamientos en el mercado inmobiliario. Cada porción del círculo representa un porcentaje correspondiente a un número específico de estacionamientos, proporcionando una visión clara de la prevalencia de diferentes configuraciones de estacionamiento en las propiedades.</p>
-                <p>El gráfico de barras muestra la distribución detallada del número de casas con diferentes cantidades de estacionamientos, agrupadas por segmentos o categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos dentro de un segmento determinado. Los diferentes colores se utilizan para distinguir entre los distintos números de estacionamientos, facilitando la comparación visual entre segmentos y configuraciones de estacionamiento.</p>
+                <p>El gráfico de barras muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -508,13 +648,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En el mercado inmobiliario de Pachuca de Soto un porcentaje importante de viviendas cuenta con <strong>2</strong> estacionamientos, con el <strong>52.4%</strong> de participación, lo que sugiere que este número de estacionamientos es una media en la ciudad.</p>
+                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
-                <p>Las viviendas que poseen <strong>1</strong> estacionamiento representan un <strong>32.4%</strong>, hay que tener en cuenta que este número es estándar, todas las viviendas deben tener al menos un estacionamiento.</p>
-
-                <p>Por otra parte, las propiedades que tienen espacio para <strong>3</strong> lugares de estacionamiento representan <strong>8.29%</strong>.</p>
-
-                <p>Finalmente, para el resto de las categorías el porcentaje de participación es mucho menor, lo que implica que hay exclusividad para las propiedades con más de <strong>3</strong> estacionamientos, estas pueden ser las que tienen más espacio.</p>
+                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -530,11 +666,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que el segmento S es el que mayor concentración de propiedades con <strong>5</strong> estacionamientos, lo que es congruente con la categoría, ya que las casas de este segmento se encuentran en un rango de precio alto, de <strong>4</strong> millones a <strong>12</strong> millones.</p>
+                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
-                <p>Por su parte, los segmentos A y B son los que poseen una cantidad importante en casas con <strong>1</strong> o <strong>2</strong> estacionamientos, estas casas son consideradas de un precio medio, donde las familias de Pachuca de Soto pueden acceder a ellas.</p>
-
-                <p>Finalmente, el resto de las categorías presentan una distribución de estacionamientos más equilibrada.</p>
+                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -542,7 +676,24 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="interpretationModalEstacionamientos" tabindex="-1" aria-labelledby="interpretationModalLabelEstacionamientos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelEstacionamientos">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
+                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentDataEstacionamientos(segment) {
@@ -570,6 +721,34 @@
 <!-- Gráfica: Distribución de baños [V2] -->
 
 
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="segmentSelectBanos" onchange="showSegmentDataBanos(this.value)">
+                        <option value="general">General</option>
+                        <option value="segmentos">Segmentos</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
+                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalBanos">Interpretación</button>-->
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalBanos" tabindex="-1" aria-labelledby="descriptionModalLabelBanos" aria-hidden="true">
     <div class="modal-dialog">
@@ -579,7 +758,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución de los segmentos de acuerdo a la cantidad de baños con la que cuenta cada uno. Cada barra representa la cantidad de casas que tienen un número específico de baños para un segmento determinado.</p>
+                <p>Representa la distribución de la cantidad de baños que poseen las propiedades en la ciudad de Pachuca de Soto. Cada porción del círculo representa una cantidad específica de baños. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -597,7 +776,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> Es notorio que la mayor parte de las propiedades de <strong>Pachuca de Soto</strong> poseen principalmente entre <strong>1</strong> (<strong>27.9%</strong>), <strong>2</strong> (<strong>26.8%</strong>), <strong>3</strong> (<strong>23.3%</strong>)  baños, esto representa más de la mitad de todo el mercado inmobiliario e implica que estas propiedades con menor cantidad de baños sean las que tienen un precio asequible. . Por otro lado, en menor representación están las propiedades que poseen <strong>4</strong>(<strong>13.5%</strong>), <strong>5</strong> (<strong>6.26%</strong>), <strong>6</strong> (<strong>1.61%</strong>), <strong>7</strong> (<strong>0.39%</strong>), <strong>8</strong> (<strong>1.24%</strong>) baños,  dada estas cantidades se puede intuir que son propiedades con un valor más alto.</p>
+                <p>Es notorio que la mayor parte de las propiedades de <strong>Pachuca de Soto</strong> poseen principalmente entre <strong>1</strong> (<strong>27.9%</strong>), <strong>2</strong> (<strong>26.8%</strong>), <strong>3</strong> (<strong>23.3%</strong>)  baños, esto representa más de la mitad de todo el mercado inmobiliario e implica que estas propiedades con menor cantidad de baños sean las que tienen un precio asequible. . Por otro lado, en menor representación están las propiedades que poseen <strong>4</strong>(<strong>13.5%</strong>), <strong>5</strong> (<strong>6.26%</strong>), <strong>6</strong> (<strong>1.61%</strong>), <strong>7</strong> (<strong>0.39%</strong>), <strong>8</strong> (<strong>0.241%</strong>) baños,  dada estas cantidades se puede intuir que son propiedades con un valor más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -614,6 +793,22 @@
             </div>
             <div class="modal-body">
                 <p>Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="interpretationModalBanos" tabindex="-1" aria-labelledby="interpretationModalLabelBanos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelBanos">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Es notorio que la mayor parte de las propiedades de <strong>Pachuca de Soto</strong> poseen principalmente entre <strong>1</strong> (<strong>27.9%</strong>), <strong>2</strong> (<strong>26.8%</strong>), <strong>3</strong> (<strong>23.3%</strong>)  baños, esto representa más de la mitad de todo el mercado inmobiliario e implica que estas propiedades con menor cantidad de baños sean las que tienen un precio asequible. . Por otro lado, en menor representación están las propiedades que poseen <strong>4</strong>(<strong>13.5%</strong>), <strong>5</strong> (<strong>6.26%</strong>), <strong>6</strong> (<strong>1.61%</strong>), <strong>7</strong> (<strong>0.39%</strong>), <strong>8</strong> (<strong>0.241%</strong>) baños,  dada estas cantidades se puede intuir que son propiedades con un valor más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -658,8 +853,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="segmentSelectRecamaras" onchange="showSegmentDataRecamaras(this.value)">
-                    <option value="segmentos">Segmentos</option>
                     <option value="general">General</option>                        
+                    <option value="segmentos">Segmentos</option>
                     </select>
                 </div>
                 <div>
@@ -675,37 +870,6 @@
     </div>
 </div>
 
-<!-- Gráfica: Distribución m2 construidos -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="segmentSelectM2Construidos" onchange="showSegmentDataM2Construidos(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalM2Construidos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#interpretationModalM2ConstruidosGeneral">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-</div>
-
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalRecamaras" tabindex="-1" aria-labelledby="descriptionModalLabelRecamaras" aria-hidden="true">
@@ -716,9 +880,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de pastel muestra los porcentajes del número de recámaras en un conjunto de propiedades, divididas en diferentes segmentos. Cada porción del círculo representa un porcentaje de propiedades con un número específico de recámaras, y los colores se utilizan para diferenciar cada categoría.</p>
+                <p>El gráfico de pastel ilustra la distribución porcentual del número de recámaras en un conjunto de propiedades, clasificadas por segmentos. Cada sección del gráfico circular representa el porcentaje de propiedades que tienen un número específico de recámaras, y los colores se emplean para distinguir entre las diferentes categorías.</p>
                 
-                <p>El gráfico de barras muestra la distribución de la cantidad de casas que tienen un determinado número de recámaras, agrupadas por segmentos. Cada barra representa la cantidad de casas que tienen un número específico de recámaras para un segmento determinado. Los diferentes colores representan el número de recámaras.</p>
+                <p>El gráfico de barras ilustra la cantidad de casas por segmento que tienen un número específico de recámaras. Las barras se dividen por segmento, y cada una representa el número de casas dentro de ese segmento que tienen un determinado número de recámaras. Los colores utilizados distinguen entre los diferentes números de recámaras.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -756,7 +920,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos C, D y B presentan la mayor cantidad de casas con 3 recámaras, lo que sugiere que en este segmento predominan las casas de mayor tamaño y podría ser por la distribución del número de recámaras puede reflejar el tamaño promedio de las familias que habitan en cada segmento, lo cual en este segmento podría predominar las familias grandes que requieran de una casa con 3 recamaras. Los segmentos A, E y S segmentos presentan una distribución más equilibrada entre el número de recámaras, aunque se observa una tendencia hacia casas con 2 o 3 recámaras en algunos casos.</p>
+                <p>Los segmentos C, D, y B destacan por tener la mayor cantidad de viviendas con 3 recámaras, lo que indica que en estos segmentos prevalecen las casas de mayor tamaño. Esto puede deberse a que la distribución del número de recámaras refleja el tamaño promedio de las familias que habitan en cada segmento, lo que en este caso podría ser que las familias grandes que necesitan una casa con 3 recámaras sean las más comunes. Por otro lado, los segmentos A, E, y S exhiben una distribución más uniforme entre el número de recámaras, aunque se nota una inclinación hacia casas con 2 o 3 recámaras en algunos casos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -790,154 +954,6 @@
 
 
         <!-- Gráfica 9: g_bar_dist_m2_construidos -->
-
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalM2Construidos" tabindex="-1" aria-labelledby="descriptionModalLabelM2Construidos" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelM2Construidos">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El gráfico de pastel muestra la distribución porcentual de diferentes rangos de metros cuadrados de construcción. Cada porción del círculo representa un porcentaje de un rango específico de metros cuadrados, y los colores se utilizan para diferenciar cada categoría.</p>
-                
-                <p>El grafico de barras muestra la distribución de la cantidad de casas en diferentes rangos de metros cuadrados de construcción, agrupadas por segmentos. Cada barra representa la cantidad de casas dentro de un rango específico. Los diferentes colores representan los diferentes rangos de metros cuadrados.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalM2ConstruidosGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelM2ConstruidosGeneral" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelM2ConstruidosGeneral">Interpretación General</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Observamos una distribución bastante equilibrada entre los diferentes rangos de superficie. No hay un rango que domine significativamente sobre los demás. La presencia de todos los rangos, desde los más pequeños (<strong>0-100 m²</strong>) hasta los más grandes (<strong>300+ m²</strong>), indica una oferta inmobiliaria bastante diversificada. Esto sugiere que el mercado puede satisfacer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y económicas hasta quienes requieren espacios más amplios.</p>
-
-                <p>Sin embargo, los rangos de <strong>100-150 m²</strong> (<strong>23.2%</strong>) y <strong>200-250 m²</strong> (<strong>19.1%</strong>) concentran una porción considerable del total, lo que sugiere que hay una cantidad significativa de propiedades con tamaños medios. Además, los rangos de <strong>150-200 m²</strong> concentran una distribución considerable con el <strong>19%</strong>, lo que es bastante significativo. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que puedan adaptarse a las necesidades de familias medianas o pequeñas.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="interpretationModalM2ConstruidosSegmentos" tabindex="-1" aria-labelledby="interpretationModalLabelM2ConstruidosSegmentos" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelM2ConstruidosSegmentos">Interpretación Segmentos</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de <strong>300</strong> metros cuadrados, esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de <strong>4</strong> millones hasta <strong>12</strong> millones de pesos, es decir son consideradas de gama alta.</p>
-
-                <p>En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de <strong>0</strong> a <strong>100</strong> metros de construcción, esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto.</p>
-
-                <p>En el segmento D se puede notar que hay una concentración propiedades de un tamaño de entre <strong>0</strong> a <strong>150</strong> metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de <strong>1M</strong> a <strong>1.75M</strong> pesos.</p>
-
-                <p>En lo que corresponde a los segmentos C, B, A la concentración de propiedades se encuentra de <strong>100</strong> a <strong>150</strong>, <strong>150</strong> a <strong>200</strong> y de <strong>200</strong> a <strong>250</strong> metros cuadrados, respectivamente.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script para controlar la visualización de gráficas -->
-<script>
-    function showSegmentDataM2Construidos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataM2ConstruidosGeneral').style.display = 'none';
-        document.getElementById('segmentDataM2ConstruidosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (segment) {
-            document.getElementById(`segmentDataM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
-        }
-
-        // Actualizar el botón de interpretación para abrir el modal correcto
-        const interpretationButton = document.getElementById('interpretationButtonM2Construidos');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
-    }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
-        showSegmentDataM2Construidos('general');
-    };
-</script>
-
-<!-- Gráfica 12: Precio Promedio por m2 -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m²</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La gráfica muestra el precio promedio por metro cuadrado (m²) de las propiedades en Pachuca de Soto. Esta métrica es útil para evaluar cómo varía el precio del terreno o de la construcción en diferentes zonas o segmentos del mercado inmobiliario, lo cual ayuda a compradores y desarrolladores a tomar decisiones informadas sobre inversión. Los valores presentados reflejan el costo relativo por metro cuadrado en cada periodo evaluado.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModal12" tabindex="-1" aria-labelledby="interpretationModalLabel12" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel12">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Este rango presenta el precio promedio por metro cuadrado más alto, lo que indica que las propiedades con un tamaño mayores a 300 metros cuadrados son, en promedio, las más caras por metro cuadrado, esto podría ser debido a que las propiedades más grandes suelen ubicarse en zonas más exclusivas o con mayor demanda, lo que podría justificar precios más altos por metro cuadrado. Los demás rangos presentan precios promedio ligeramente inferiores, aunque la diferencia entre ellos no es muy significativa esto podría ser por construir una propiedad más grande puede resultar en costos unitarios más bajos.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    </div>
-</div>
 
 
 

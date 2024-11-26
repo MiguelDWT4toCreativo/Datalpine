@@ -142,7 +142,7 @@
                     <h1>Factibilidad y viabilidad</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Créditos y Viviendas -->
@@ -502,7 +502,7 @@
             </div>
             <div class="modal-body">
                 <p>
-                    La gráfica muestra la distribución de créditos hipotecarios por grupos de edad en Querétaro. Permite identificar qué grupos de edad son los que más créditos solicitan y cómo se distribuyen los préstamos en función de la edad de los solicitantes.
+                El gráfico de pastel muestra la distribución de créditos por grupos de edad en la ciudad de <strong>Santiago de Querétaro</strong>. Los segmentos analizados son menores de 29 años, personas entre 30 y 59 años, y mayores de 60 años. Este tipo de visualización es útil para entender la proporción de créditos otorgados en función de las edades de los solicitantes, lo que puede ofrecer una perspectiva sobre las tendencias demográficas en el acceso a financiamiento inmobiliario.
                 </p>
             </div>
             <div class="modal-footer">
@@ -522,7 +522,13 @@
             </div>
             <div class="modal-body">
                 <p>
-                    En la distribución por grupos de edad, se observa que la mayor cantidad de créditos se otorgan a personas en el rango de <strong>30 a 39 años</strong>. Esto puede estar relacionado con que en esta etapa de la vida, muchas personas buscan adquirir propiedades como una inversión a largo plazo o para formar un hogar. El segundo grupo con más créditos es el de <strong>40 a 49 años</strong>, lo que también indica que las personas continúan adquiriendo inmuebles incluso después de los 40, probablemente debido a una mayor estabilidad financiera. Los grupos más jóvenes, de <strong>20 a 29 años</strong>, tienen menos participación en los créditos, lo que puede estar relacionado con ingresos más bajos o menor acceso a financiamiento. 
+                    La mayoría de los créditos otorgados se concentran en el grupo de personas entre <strong>30 y 59 años</strong>, representando un <strong>68.7%</strong> del total. Esto sugiere que la población en este rango de edad es la que tiene mayor capacidad económica para acceder a créditos, posiblemente debido a que se encuentran en su etapa laboral más estable y productiva.
+                </p>
+                <p>
+                    El grupo de menores de <strong>29 años</strong> representa el <strong>23.7%</strong>, lo que indica que, aunque los jóvenes también tienen acceso a créditos, su participación es significativamente menor en comparación con el grupo de mayor edad. Esto puede deberse a que muchos jóvenes aún no han alcanzado la estabilidad financiera necesaria para solicitar un crédito hipotecario.
+                </p>
+                <p>
+                    Finalmente, las personas mayores de <strong>60 años</strong> representan solo el <strong>7.56%</strong> de los créditos otorgados, lo que puede estar relacionado con la menor demanda de este grupo por nuevas adquisiciones inmobiliarias o con las políticas más estrictas de los bancos al conceder créditos a personas de mayor edad.
                 </p>
             </div>
             <div class="modal-footer">
@@ -544,8 +550,8 @@
                     <span class="developer-label">Desarrollador</span>
                 </div>
                 <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPrecioSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPrecioSegmento">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -556,7 +562,7 @@
 </div>
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="descriptionModalPrecioSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -574,7 +580,7 @@
 </div>
 
 <!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
+<div class="modal fade" id="interpretationModalPrecioSegmento" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -582,7 +588,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La interpretación de esta gráfica proporciona información clave sobre cómo varían los precios promedio en distintos segmentos de mercado, ayudando a entender las tendencias y diferencias entre ellos.</p>
+                <p>Proporciona información clave sobre cómo varían los precios promedio en distintos segmentos de mercado, ayudando a entender las tendencias y diferencias entre ellos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -705,7 +711,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>El gráfico muestra una drástica caída en los precios de oferta en el mes de <strong>abril</strong>, seguida de un repunte constante a partir de <strong>mayo</strong>, alcanzando su punto más alto en <strong>agosto</strong>. La caída inicial en <strong>abril</strong> puede estar relacionada con una reducción temporal en la demanda o con factores estacionales que afectaron el mercado en ese periodo. La recuperación posterior y el incremento sostenido en los meses siguientes sugieren un fortalecimiento del mercado inmobiliario, posiblemente impulsado por una creciente demanda, propiciada por la expansión económica de la región y la llegada de nuevos desarrollos en Querétaro, lo que genera una presión al alza en los precios de las propiedades. </p>
+                        <p>Se muestra el histórico de precios de oferta de inmuebles en Querétaro durante el año 2024, desde marzo hasta agosto. El gráfico de líneas refleja cómo ha variado el precio promedio de los inmuebles listados en el mercado mes a mes. Esta visualización es útil para identificar las tendencias de precios a lo largo del tiempo, destacando las fluctuaciones y posibles cambios estacionales en el mercado inmobiliario.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -722,7 +728,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>La gráfica refleja primero un valor constante de <strong>4.5 millones</strong> desde <strong>marzo</strong> hasta <strong>mayo</strong>. Para posteriormente, mostrar una tendencia a la baja muy pronunciada, sobre todo durante <strong>mayo</strong>, en la mediana del precio de oferta de los inmuebles constante desde <strong>abril</strong> de <strong>2024</strong>. Este descenso puede estar relacionado con una serie de factores, como un ajuste en la oferta y demanda del mercado, cambios en la economía local, o variaciones estacionales en el mercado inmobiliario. La caída en la mediana del precio de oferta podría indicar un periodo de desaceleración en el mercado inmobiliario de Querétaro durante este año.</p>
+                        <p>El gráfico muestra una drástica caída en los precios de oferta en el mes de <strong>abril</strong>, seguida de un repunte constante a partir de <strong>mayo</strong>, alcanzando su punto más alto en <strong>agosto</strong>. La caída inicial en <strong>abril</strong> puede estar relacionada con una reducción temporal en la demanda o con factores estacionales que afectaron el mercado en ese periodo. La recuperación posterior y el incremento sostenido en los meses siguientes sugieren un fortalecimiento del mercado inmobiliario, posiblemente impulsado por una creciente demanda, propiciada por la expansión económica de la región y la llegada de nuevos desarrollos en Querétaro, lo que genera una presión al alza en los precios de las propiedades.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -807,7 +813,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> La mayor concentración de créditos sigue estando en el rango de menos de <strong>1 millón de pesos</strong>, lo que sugiere que una gran parte de la población de <strong>Querétaro</strong> continúa solicitando créditos de montos bajos. Por otro lado, la notable participación de créditos de menos de <strong>20 millones de pesos</strong> indica una demanda creciente en proyectos de alto valor, impulsada por inversionistas o compradores con mayor capacidad adquisitiva.</p>
+                <p>La mayor concentración de créditos sigue estando en el rango de menos de <strong>1 millón de pesos</strong>, lo que sugiere que una gran parte de la población de <strong>Querétaro</strong> continúa solicitando créditos de montos bajos. Por otro lado, la notable participación de créditos de menos de <strong>20 millones de pesos</strong> indica una demanda creciente en proyectos de alto valor, impulsada por inversionistas o compradores con mayor capacidad adquisitiva.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -824,7 +830,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p><strong>Interpretación:</strong> En <strong>2024</strong>, la mayor cantidad de créditos sigue concentrándose en el rango de menos de <strong>1 millón de pesos</strong>. Este comportamiento está relacionado con la estructura económica de <strong>Querétaro</strong>. La participación constante de los créditos de mayor monto, especialmente en el rango de menos de <strong>20 millones de pesos</strong>, sugiere que existe un mercado robusto para proyectos inmobiliarios de lujo o de alto valor.</p>
+                <p> En <strong>2024</strong>, la mayor cantidad de créditos sigue concentrándose en el rango de menos de <strong>1 millón de pesos</strong>. Este comportamiento está relacionado con la estructura económica de <strong>Querétaro</strong>. La participación constante de los créditos de mayor monto, especialmente en el rango de menos de <strong>20 millones de pesos</strong>, sugiere que existe un mercado robusto para proyectos inmobiliarios de lujo o de alto valor.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -905,7 +911,7 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2023</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades por segmento 2023</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
@@ -925,7 +931,7 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades 2024</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades por segmento 2024</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
@@ -1019,31 +1025,95 @@
     </div>
 </div>
 
-        <!-- Distribución de Propiedades -->
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
                                     <span class="developer-label">Desarrollador</span>
                                 </div>
                                 <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                   <!-- <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal1555">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal1555">Interpretación</button>
+                                    -->
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal1555" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal1555" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Distribución de Propiedades -->
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                               <!-- <div> 
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                </div>-->
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
 
         <!-- Modal for Description 2023 -->
         <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">

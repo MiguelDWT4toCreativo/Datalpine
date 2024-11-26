@@ -138,7 +138,7 @@
                     <h1>Proyecciones y oportunidades</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Querétaro, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Puebla, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Proyección y Forecast -->
@@ -361,6 +361,74 @@
     </div>
 </div>
 
+
+
+
+<!-- Mitad derecha: Proyección días -->
+<div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title subtitle mb-3 text-center">Proyección días</h5>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie me-2"></i>
+                            <span class="developer-label">Desarrollador</span>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal8">Descripción</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal8">Interpretación</button>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_proyeccion_dias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modales de Descripción e Interpretación -->
+<div class="modal fade" id="descriptionModal8" tabindex="-1" aria-labelledby="descriptionModal8Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModal8Label">Descripción: Proyección días</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            La siguiente gráfica muestra el promedio de días que permanecen en oferta los inmuebles para los meses del 2024 en la ciudad de Puebla.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModal8" tabindex="-1" aria-labelledby="interpretationModal8Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModal8Label">Interpretación: Proyección días</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica muestra una tendencia ascendente en el promedio de días que los inmuebles permanecen en oferta en <strong>Puebla</strong> durante los primeros meses de <strong>2024</strong>. Esto indica que, en general, los inmuebles están tardando más tiempo en venderse en comparación con el inicio del año. </p>
+                <p>El mercado inmobiliario de <strong>Puebla</strong> experimentó una variabilidad significativa en el primer semestre de <strong>2024</strong>. Iniciando el año con un tiempo promedio de venta relativamente bajo (<strong>154</strong> días en marzo), se observó una breve recuperación en abril (<strong>189</strong> días). Sin embargo, a partir de julio se registró un aumento considerable en los días que las propiedades permanecieron en el mercado, alcanzando un máximo de <strong>306</strong> días en septiembre. Esta tendencia ascendente sugiere una desaceleración en la demanda y dificultades para encontrar compradores, lo cual podría estar relacionado con factores como cambios en las tasas de interés, menor disponibilidad de compradores o un aumento en la oferta de propiedades.</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+
+
+
 <!-- Sección Riesgo & Poblacional -->
 <div class="container-fluid">
     <div class="row">
@@ -478,12 +546,12 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel10">Interpretación</h5>
+                <h5 class="modal-title" id="interpretationModal10">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
             <p>
-                A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de <strong>Puebla</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>6,733,923</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>7,188,185</strong>.
+                A lo largo de los años que se analizan se revela un crecimiento progresivo en la ciudad de <strong>Querétaro</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>2,442,205</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>2,723,968</strong>.
             </p>
             <p>
                 Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica que hay en la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
@@ -598,30 +666,262 @@
     </div>
 </div> -->
 
-<!-- Proyección Forecast Media Anual -->
 <div class="container-fluid">
     <div class="row">
-        <!-- Columna izquierda: Proyección Forecast Media Anual
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Proyección Forecast Media Anual</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_forecast_media_anual.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
+<!-- Gráfica: Forecast créditos generales -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
+                        <option value="forecastcp">Valor Promedio</option>
+                        <option value="forecastcc">Cantidad</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPromedio">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>
                 </div>
             </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
         </div>
+    </div>
+</div>
+
+<!-- Modal for promedio -->
+<div class="modal fade" id="descriptionModalPromedio" tabindex="-1" aria-labelledby="descriptionModalPromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalPromedio">Descripción Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La siguiente gráfica muestra el pronóstico de los montos de los créditos generales para los próximos años en la ciudad de Puebla; estos se subdividen en 2 categorías, vivienda nueva y vivienda usada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for cantidad -->
+<div class="modal fade" id="descriptionModalCantidad" tabindex="-1" aria-labelledby="descriptionModalCantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalCantidad">Descripción Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La siguiente gráfica muestra el pronóstico de la cantidad de créditos para los próximos años en la ciudad de Puebla; estos se subdividen en 3 categorías, Créditos generales, para Vivienda Nueva y Vivienda Usada.   </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: CANTIDAD -->
+<div class="modal fade" id="interpretationModalLabelcantidad" tabindex="-1" aria-labelledby="interpretationModalLabelcantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelcantidad">Interpretación Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Según los datos históricos disponibles, el panorama de los créditos seguirá una tendencia negativa a lo largo del año. Se prevé un aumento constante en los créditos totales para 2025, aproximadamente de 1910. Estos créditos se dividen en dos categorías principales: Vivienda Nueva y Vivienda Usada.</p>
+                <p>En cuanto a los créditos otorgados para viviendas nuevas, se estima una disminución moderada del año 2024 al 2025, de unos 619 créditos, y una disminución adicional de 231 créditos del año 2025 al 2026. Estas proyecciones sugieren un entorno complejo para la adquisición de viviendas nuevas en la ciudad de Puebla.</p>
+                <p>Por otro lado, los créditos para viviendas usadas experimentarán una disminución de 216 créditos al pasar del año 2024 a 2025; sin embargo, se espera un aumento de 68 créditos del año 2025 al 2026.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: Promedio -->
+<div class="modal fade" id="interpretationModalpromedio" tabindex="-1" aria-labelledby="interpretationModalpromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalpromedio">Interpretación Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá un crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
+                <p>Para los créditos otorgados de Vivienda Nueva se puede observar que los créditos tendrán un aumento sostenido de <strong>$92,626</strong> de 2025 a 2026. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.</p>
+                <p>Por su parte, los créditos otorgados de Vivienda Usada igual presentarán un aumento en su valor de 2025 a 2026, aproximadamente de <strong>$143,206</strong>; esto implica que para las viviendas de la ciudad será más accesible el mejoramiento.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showBathroomData(option) {
+        // Ocultar todas las gráficas
+        document.getElementById('fcp').style.display = 'none';
+        document.getElementById('fcc').style.display = 'none';
+
+        // Mostrar la gráfica correspondiente a la opción seleccionada
+        if (option === 'forecastcp') {
+            document.getElementById('fcp').style.display = 'block';
+            document.getElementById('descriptionModalPromedio').setAttribute('data-bs-target', '#interpretationModalpromedio');
+        } else if (option === 'forecastcc') {
+            document.getElementById('fcc').style.display = 'block';
+            document.getElementById('descriptionModalCantidad').setAttribute('data-bs-target', '#interpretationModalLabelcantidad');
+        }
+    }
+
+    // Mostrar la gráfica "forecast creditos generales" por defecto al cargar la página
+    window.onload = function() {
+        showBathroomData('forecastcp');
+    };
+</script>
+
+
+</div>
+<!-- Gráfica: Plusvalía estimada -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="plusvaliaSelect" onchange="showPlusvaliaData(this.value)">
+                        <option value="plusvaliaa">Anual</option>
+                        <option value="plusvaliam">Mensual</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalplusvalia_ano">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" id="plusvalia_ano" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" id="plusvalia_mes" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for descripcion general -->
+<div class="modal fade" id="descriptionModalplusvalia_ano" tabindex="-1" aria-labelledby="descriptionModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalplusvalia_anoo">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de la plusvalía que tendrá el área de inmuebles para los próximos años y meses en la ciudad de Puebla.<p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: año -->
+<div class="modal fade" id="interpretationModalplusvalia_ano" tabindex="-1" aria-labelledby="interpretationModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalplusvalia_anoo">Interpretación Anual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en los próximos 3 años en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva. Los datos proyectados para los próximos dos años en Puebla indican una tendencia al alza en el valor de los inmuebles. Para el 2025 las viviendas aumentarán aproximadamente <strong>$709,208.76</strong>; y para 2026 el aumento será de <strong>$858,704.76</strong>. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: mes -->
+<div class="modal fade" id="interpretationModalLabelplusvalia_mes" tabindex="-1" aria-labelledby="interpretationModalLabelplusvalia_mes" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelplusvalia_mess">Interpretación  Mensual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en el próximo año en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva, con ligeras variaciones en meses que en los cuales el precio se mantuvo constante. Esto significa que, en promedio, el monto ha ido aumentando mes a mes. Sin embargo, es importante notar que el crecimiento no es constante y hay algunos meses donde el aumento es más pronunciado que en otros. Los últimos meses del año muestran un crecimiento más acelerado en comparación con los primeros meses. Si la tendencia actual se mantiene, es probable que el monto continúe aumentando en los años siguientes. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Script para controlar la visualización de gráficas -->
+    <script>
+        function showPlusvaliaData(option) {
+            // Ocultar todas las gráficas
+            document.getElementById('plusvalia_ano').style.display = 'none';
+            document.getElementById('plusvalia_mes').style.display = 'none';
+
+            // Mostrar la gráfica correspondiente a la opción seleccionada
+            if (option === 'plusvaliaa') {
+                document.getElementById('plusvalia_ano').style.display = 'block';
+                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
+            } else if (option === 'plusvaliam') {
+                document.getElementById('plusvalia_mes').style.display = 'block';
+                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+            }
+        }
+
+        // Mostrar la gráfica "Plusvalía estimada" por defecto al cargar la página
+        window.onload = function() {
+            showPlusvaliaData('plusvaliaa');
+        };
+    </script>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Proyección Forecast Media Anual -->
+<div class="container-fluid">
+    <div class="row">        
         <!-- Columna derecha: Colonias más baratas -->
 <!-- Gráfica: Colonias -->
 <div class="col-md-12">
@@ -770,6 +1070,78 @@
         showColoniasData('masbaratas');
     };
 </script>
+
+
+        <!-- Gráfica: Tiempo en el mercado -->
+        <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Colonias Predominantes</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal33">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal33">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_colonias_predominantes.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal33" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel3">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                Se muestra una relación de las colonias en las cuales hay una mayor concentración de propiedades en oferta dentro de la zona de Puebla. Estas colonias podrían ser percibidas como zonas con mayor plusvalía o potencial de crecimiento, lo que atrae a más inversionistas y propietarios que buscan vender sus propiedades.                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal33" tabindex="-1" aria-labelledby="interpretationModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel3">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                La colonia <strong>Puebla</strong> es la que tiene la mayor participación en el mercado inmobiliario con un <strong>4.1%</strong> seguida por <strong>Jardines de San Manuel</strong> con <strong>3.1%</strong>. Estos relativamente altos porcentajes pueden explicarse por la ubicación de las mismas, ya que ambas colonias están bien conectadas con el resto de la ciudad y poseen características de urbanización desarrollada como  acceso conveniente a servicios, escuelas y zonas comerciales, lo cual las hace atractivas para compradores potenciales y proyectos de vivienda. El <strong>centro histórico</strong> con un <strong>2.4%</strong> está por debajo de las dos primeras, posiblemente por restricciones de desarrollo y altos costos de mantenimiento asociados con las regulaciones de preservación patrimonial.  <strong>La Paz</strong> y <strong>Bello Horizonte</strong>, con <strong>2.3%</strong> y <strong>2%</strong> respectivamente, podrían estar limitadas en oferta por su menor extensión territorial o por que se concentran en propiedades residenciales de menor densidad y baja rotación en el mercado.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
         <!-- Gráfica 3: Tiempo en el mercado -->

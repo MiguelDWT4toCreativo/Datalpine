@@ -112,6 +112,220 @@
     <div class="row">
 
 
+    <div class="col-12">
+                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                            <div class="page-title-right">
+                                <ol class="breadcrumb mb-sm-0 font-size-18">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Puebla</a></li>
+                                </ol>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+
+                <!-- Características y Distribución de Propiedades -->
+                <style>
+                    .titulo {
+                        text-align: center;
+                        color: #333;
+                        font-size: 24px;
+                        font-weight: bold;
+                        font-family: Arial, sans-serif;
+                    }
+                </style>
+                <div class="titulo">
+                    <h1>Desarrollo de Producto</h1>
+                </div>
+                <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
+                    actuales sobre el mercado inmobiliario en Puebla, proporcionando una visión completa de las
+                    transformaciones, tendencias y precios a lo largo del tiempo.</p>
+
+
+    <div class="col-md-12"><div class="card"></div></div>
+                <!--SE MANEJAN LOS 6 CARD DE Perspectiva general de mercado POR FILTRO DE TIPO DE MERCADO-->
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;">
+                        <h4 class="mb-3">Perspectiva General de Mercado</h4>
+                    </div>
+                    <div class="col-md-auto" style="text-align: center; margin: 0 auto;">
+                        <select class="form-select" id="segmentFilter" style="text-align: center;" onchange="actualizarTablas(this.value)">
+                            <option value="general">General</option>
+                            <option value="E">E</option>
+                            <option value="D">D</option>
+                            <option value="C">C</option>
+                            <option value="B">B</option>
+                            <option value="A">A</option>                                                        
+                            <option value="S">S</option>
+                            <option value="L">L</option>
+                            <!--<option value="ELITE">ELITE</option>-->
+                        </select>
+                        <h4 class="mb-3"></h4>
+                    </div>
+                </div>
+                    <!-- Cargar el script -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script src="pue-filtros_mercado.js"></script>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Promedio</h5>                                
+                                <table class="table" id="tablaPromedios">                                    
+                                    <tbody id="tableBodyPromedios">
+                                        <tr>
+                                            <td>Estacionamientos</td>
+                                            <td id="estacionamientos"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Recámaras</td>
+                                            <td id="recamaras"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Baños</td>
+                                            <td id="banos"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Mediana</h5>
+                                <table class="table" id="tablaMediana">                                    
+                                    <tbody id="tableBodyMediana">                                      
+                                        <tr>
+                                            <td>Estacionamientos</td>
+                                            <td id="estacionamientos-mediana"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Recámaras</td>
+                                            <td id="recamaras-mediana"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Baños</td>
+                                            <td id="banos-mediana"></td>
+                                        </tr>  
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Precio Mercado</h5>
+                                <table class="table" id="tablaPrecioMercado">                                    
+                                    <tbody id="tableBodyPrecioMercado">
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="precio-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="precio-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="precio-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="precio-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">M2 Terreno</h5>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="metros-terreno-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="metros-terreno-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="metros-terreno-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="metros-terreno-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                            <h5 class="card-title">M2 Construcción</h5>
+                            <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="metros-construidos-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="metros-construidos-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="metros-construidos-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="metros-construidos-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Precio M2 Construcción</h5>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Mínimo</td>
+                                            <td id="precio-metros-construidos-minimo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máximo</td>
+                                            <td id="precio-metros-construidos-maximo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Promedio</td>
+                                            <td id="precio-metros-construidos-promedio"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mediana</td>
+                                            <td id="precio-metros-construidos-mediana"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
 <!-- Distribución % de créditos por vivienda valor -->
 <div class="col-md-12">
     <div class="card">

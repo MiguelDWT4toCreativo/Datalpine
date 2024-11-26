@@ -162,8 +162,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <select class="form-select" id="yearSelect" onchange="showYearlyData(this.value)">
-                                        <option value="">Seleccione un año</option>
-                                        <option value="2019">2019</option>
+                                        <option value="2019">Seleccione un año</option>
+                                        <option value="2019" selected>2019</option>
                                         <option value="2020">2020</option>
                                         <option value="2021">2021</option>
                                         <option value="2022">2022</option>
@@ -455,130 +455,6 @@
 
 
 
-        <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
-<div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-user-tie me-2"></i>
-                        <span class="developer-label">Desarrollador</span>
-                    </div>
-                    <div class="mb-3">
-                        <select class="form-select" id="yearSelectSegmento" onchange="showYearDataSegmento(this.value)">
-                            <option value="2022">2022</option>
-                            <option value="2023" selected>2023</option>
-                            <option value="2024">2024</option>
-                        </select>
-                    </div>
-                    <div>
-                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonSegmento" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2023">Interpretación</button>
-                    </div>
-                </div>
-                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: none; min-height: 430px; border: 0;"></iframe>
-                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: block; min-height: 430px; border: 0;"></iframe>
-                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description (Same for all years) -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se muestra la segmentación del mercado inmobiliario en <strong>Tulancingo de Bravo</strong> durante el año, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) hasta el segmento <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals for Interpretation (One for each year) -->
-<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (1 a 1.75 millones) con un <strong>37%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (1.75 a 2.5 millones) con un <strong>20.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a 1 millón), lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (2.5 millones a 3.25 millones) y <strong>A</strong> (3.25 millones a 4 millones), <strong>S</strong> (4 millones a 12 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (<strong>1</strong> a <strong>1.75 millones</strong>) con un <strong>41.6%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (<strong>1.75</strong> a <strong>2.5 millones</strong>) con un <strong>17.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con <strong>16.7%</strong> de participación, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>), <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Para el <strong>ano 2024</strong> se nota un importante cambio, ya que, la mayor concentración de propiedades se encuentra en el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con un <strong>60.5%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) con un <strong>15.7%</strong>, seguido por los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>C</strong> (<strong>1.75 millones</strong> a <strong>2.5 millones</strong>) con <strong>7.12%</strong> y <strong>7%</strong>, respectivamente, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>) y <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script for controlling the display of graphs and modals -->
-<script>
-    function showYearDataSegmento(year) {
-        // Hide all year graphs
-        document.getElementById('yearDataSegmento2022').style.display = 'none';
-        document.getElementById('yearDataSegmento2023').style.display = 'none';
-        document.getElementById('yearDataSegmento2024').style.display = 'none';
-
-        // Show the selected year's graph
-        document.getElementById(`yearDataSegmento${year}`).style.display = 'block';
-
-        // Update the interpretation button to point to the correct modal
-        const interpretationButton = document.getElementById('interpretationButtonSegmento');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
-    }
-
-    // Show the 2023 graph by default when the page loads
-    window.onload = function() {
-        showYearDataSegmento('2023');
-    };
-</script>
 
         <!-- Porcentaje de vivienda ofertadas por antigüedad 
         <div class="col-md-12">
@@ -910,6 +786,130 @@
 
 
 
+        <!-- Segmentación de mercado: Distribución de propiedades por segmento -->
+        <div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user-tie me-2"></i>
+                        <span class="developer-label">Desarrollador</span>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" id="yearSelectSegmento" onchange="showYearDataSegmento(this.value)">
+                            <option value="2022">2022</option>
+                            <option value="2023" selected>2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonSegmento" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2023">Interpretación</button>
+                    </div>
+                </div>
+                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2022" style="display: none; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2023" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearDataSegmento2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description (Same for all years) -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Se muestra la segmentación del mercado inmobiliario en <strong>Tulancingo de Bravo</strong> durante el año, representando la distribución de propiedades por segmento de precio. Cada segmento está clasificado en función del valor de las propiedades, desde el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) hasta el segmento <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>). La gráfica permite identificar la concentración del mercado en cada rango de precios, lo que es útil para entender las tendencias de compra y venta en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation (One for each year) -->
+<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (1 a 1.75 millones) con un <strong>37%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (1.75 a 2.5 millones) con un <strong>20.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a 1 millón), lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (2.5 millones a 3.25 millones) y <strong>A</strong> (3.25 millones a 4 millones), <strong>S</strong> (4 millones a 12 millones) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La mayor concentración de propiedades se encuentra en el segmento <strong>D</strong> (<strong>1</strong> a <strong>1.75 millones</strong>) con un <strong>41.6%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>C</strong> (<strong>1.75</strong> a <strong>2.5 millones</strong>) con un <strong>17.7%</strong>, seguido por el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con <strong>16.7%</strong> de participación, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>), <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Para el <strong>ano 2024</strong> se nota un importante cambio, ya que, la mayor concentración de propiedades se encuentra en el segmento <strong>E</strong> (>500 mil a <strong>1 millón</strong>) con un <strong>60.5%</strong>. Esto indica una fuerte presencia de propiedades de menor valor en el mercado inmobiliario de <strong>Tulancingo de Bravo</strong>, reflejando la posición económica de la región y la demanda por inmuebles de asequibles o de valor bajo. En segundo lugar, está el segmento <strong>D</strong> (<strong>1 millón</strong> a <strong>1.75 millones</strong>) con un <strong>15.7%</strong>, seguido por los segmentos <strong>B</strong> (<strong>2.5 millones</strong> a <strong>3.25 millones</strong>) y <strong>C</strong> (<strong>1.75 millones</strong> a <strong>2.5 millones</strong>) con <strong>7.12%</strong> y <strong>7%</strong>, respectivamente, lo que sugiere un interés sostenido en propiedades de rango medio-bajo. Por otro lado, los segmentos <strong>A</strong> (<strong>3.25 millones</strong> a <strong>4 millones</strong>) y <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong>) tienen una menor participación, lo que puede estar relacionado con una menor oferta o una preferencia de los compradores por inmuebles de mayor valor en la zona. Esta distribución puede estar influenciada por la atracción de inversionistas y compradores con mayor poder adquisitivo, así como por el desarrollo de proyectos inmobiliarios exclusivos en la región.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script for controlling the display of graphs and modals -->
+<script>
+    function showYearDataSegmento(year) {
+        // Hide all year graphs
+        document.getElementById('yearDataSegmento2022').style.display = 'none';
+        document.getElementById('yearDataSegmento2023').style.display = 'none';
+        document.getElementById('yearDataSegmento2024').style.display = 'none';
+
+        // Show the selected year's graph
+        document.getElementById(`yearDataSegmento${year}`).style.display = 'block';
+
+        // Update the interpretation button to point to the correct modal
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+
+    // Show the 2023 graph by default when the page loads
+    window.onload = function() {
+        showYearDataSegmento('2023');
+    };
+</script>
 
 
         <!-- Perspectiva Mercado -->
@@ -962,25 +962,90 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Mapa de Calor: Distribución de Propiedades</h5>
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Propiedades</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
                                     <span class="developer-label">Desarrollador</span>
                                 </div>
                                 <div>
-                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
-                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                   <!-- <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>-->
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/hidalgo_heat_map.html" width="100%" height="400" frameborder="0"></iframe>
+                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Distribución de Propiedades -->
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                               <!-- <div> 
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                </div>-->
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
 
         <!-- Modal for Description 2023 -->
         <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
