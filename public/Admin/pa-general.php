@@ -710,9 +710,12 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <div id="segmentoTrimestreDataContainer"></div>    
+                <!--                                
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                -->
             </div>
         </div>
     </div>
@@ -805,7 +808,27 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showCategoriaData(year) {
-        // Ocultar todas las gráficas
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_${year}.html`;        
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        iframe.style.minHeight = '430px';
+        iframe.style.border = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('segmentoTrimestreDataContainer').innerHTML = '';
+        document.getElementById('segmentoTrimestreDataContainer').appendChild(iframe);
+        // Cambiar el modal de interpretación según el año seleccionado
+        document.getElementById('interpretationModalTrimestre').setAttribute('data-bs-target', `#interpretationModal${year}`);
+    }
+    
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
+        showCategoriaData('2022');
+    });      
+</script>
+<!--  // Ocultar todas las gráficas
         document.getElementById('categoriaData2022').style.display = 'none';
         document.getElementById('categoriaData2023').style.display = 'none';
         document.getElementById('categoriaData2024').style.display = 'none';
@@ -821,9 +844,7 @@
     // Mostrar la gráfica de 2022 por defecto al cargar la página
     window.onload = function() {
         showCategoriaData('2022');
-    };
-</script>
-
+    };-->
 
 <!-- Columna completa: g_bar_tiempo_venta -->
 <div class="col-md-12">

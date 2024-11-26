@@ -162,8 +162,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <select class="form-select" id="yearSelect" onchange="showYearlyData(this.value)">
-                                        <option value="">Seleccione un año</option>
-                                        <option value="2019">2019</option>
+                                        <option value="2019">Seleccione un año</option>
+                                        <option value="2019"selected>2019</option>
                                         <option value="2020">2020</option>
                                         <option value="2021">2021</option>
                                         <option value="2022">2022</option>
@@ -177,14 +177,15 @@
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <!-- Modificación en la sección de iframe para que 2019 se muestre por defecto -->
+                                <div id="nuevaUsadaContainer"></div>    
+                                <!-- Modificación en la sección de iframe para que 2019 se muestre por defecto 
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2020.html" width="100%" height="400" frameborder="0" id="yearlyData2020" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2021.html" width="100%" height="400" frameborder="0" id="yearlyData2021" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024" style="display: none;"></iframe>
-                            </div>
+                           --> </div>
                         </div>
                     </div>
                 </div>
@@ -294,20 +295,18 @@
         </div>
 
         <!-- Repite el modal de interpretación para los otros años -->
-
-        <!-- Script para controlar la visualización de gráficas -->
+        <!-- Script para controlar la visualización de gráficas-->
         <script>
             function showYearlyData(year) {
-                // Ocultar todas las gráficas
-                const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
-                years.forEach(y => {
-                    document.getElementById(`yearlyData${y}`).style.display = 'none';
-                });
-
-                // Mostrar la gráfica correspondiente al año seleccionado
-                if (year) {
-                    document.getElementById(`yearlyData${year}`).style.display = 'block';
-                }
+                // Crear el iframe dinámicamente
+                const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('nuevaUsadaContainer').innerHTML = '';
+                document.getElementById('nuevaUsadaContainer').appendChild(iframe);
 
                 // Actualizar el botón de interpretación según el año
                 const interpretationButton = document.getElementById('interpretationButton');
@@ -315,11 +314,11 @@
             }
 
             // Mostrar la gráfica de 2019 por defecto al cargar la página
-            window.onload = function() {
+            document.addEventListener('DOMContentLoaded', function() {
                 showYearlyData('2019');
-            };
-        </script>
-
+            });
+        </script> 
+      
 
         <!-- Estacionalidad -->
         <div class="col-md-12">
@@ -452,159 +451,11 @@
     </div>
 </div>
 
-
-
-
-        <!-- Segmentación de mercado: Promedio de precio por segmento -->
-<div class="row">
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Distribución de propiedades por segmento</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="yearSelectSegmento" onchange="showYearlyDataSegmento(this.value)">
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2022">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2022" style="display: block;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2023" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2024" style="display: none;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-        <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil</strong> pesos <strong>(E)</strong> hasta más de <strong>22 millones de pesos</strong> <strong>(ELITE)</strong>, y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals for Interpretation -->
-<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La gráfica revela una distribución de propiedades bastante equilibrada. El segmento <strong>D</strong> (1.75 millones a 2.5 millones) y <strong>S</strong> (4 millones a 12 millones) tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
-
-                <p>El segmento <strong>B</strong>, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento <strong>A</strong> (3.25 a 4 millones de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
-
-                <p>Por otro lado, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
-
-                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación en Pachuca.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>En 2023, el segmento <strong>S</strong>, correspondiente a propiedades de <strong>más de 4 millones de pesos</strong>, representa la mayor proporción de la distribución con un <strong>23.5%</strong>. Esto indica una fuerte presencia de propiedades de media-alta en el mercado de Pachuca, reflejando posiblemente el aumento en la demanda de inversiones inmobiliarias de alto valor.</p>
-                <p>El segundo segmento más representado es el <strong>B</strong>, que abarca propiedades con precios entre <strong>2.5</strong> y <strong>3.25 millones de pesos</strong>, con un <strong>23%</strong>. Esto sugiere que hay una notable demanda por propiedades de rango medio-alto. Los segmentos <strong>D</strong> (1.75 a 2.5 millones de pesos) y <strong>C</strong> (1.75 a 2.5 millones) también tienen una participación significativa con un <strong>18.2%</strong> y <strong>17.9%</strong>, respectivamente, lo que indica que el mercado de propiedades de precios medios sigue siendo fuerte.</p>
-                <p>El segmento <strong>A</strong> vuelve a situarse tras los últimos mencionados con un <strong>14.7%</strong>, lo que indica una porción relativamente pequeña aunque significativa que está interesada en propiedades de valor intermedio.</p>
-                <p>En el extremo opuesto, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil pesos</strong>, representa solo el <strong>2.81%</strong> de la distribución, lo que refleja una oferta muy limitada de propiedades económicas en Pachuca.</p>
-                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación.</p>
-                <p>Este comportamiento refleja una polarización del mercado inmobiliario en Pachuca, donde tanto las propiedades de alto valor como las de rango medio tienen una participación significativa, mientras que las propiedades de bajo costo son menos comunes.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
-                <p>Por otro lado, el segmento E (<strong>menos 500 mil a 1 millón</strong>) y C (<strong>1.75 millones a 2.5 millones</strong>) muestran casi la misma participación del <strong>16.8%</strong> y <strong>16.4%</strong>, lo que implica un presencia de propiedades de precios asequibles. Otros segmentos, como el B (<strong>2.5 millones a 3.25 millones</strong>) y A (<strong>3.25 millones a 4 millones</strong>) también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
-                <p>Finalmente en este año es posible resaltar que las propiedades del segmento L (<strong>12 millones a 22 millones</strong>) empiezan a tener presencia en la zona, lo que puede ser señal de una pequeña élite recién establecida.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script para controlar la visualización de gráficas -->
-<script>
-    function showYearlyDataSegmento(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataSegmento${y}`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataSegmento${year}`).style.display = 'block';
-        }
-
-        // Actualizar el botón de interpretación para abrir el modal correcto
-        const interpretationButton = document.getElementById('interpretationButtonSegmento');
-        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
-    }
-
-    // Mostrar la gráfica de 2022 por defecto al cargar la página
-    window.onload = function() {
-        showYearlyDataSegmento('2022');
-    };
-</script>
-
-</div>
-
-
-
-
 <!-- Segmentación de mercado: Promedio de precio por segmento -->
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Segmentación de mercado: Promedio de precio por segmento</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Promedio de precio por segmento</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -659,6 +510,30 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
 
 
 
@@ -818,8 +693,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectMontos" onchange="showYearlyDataMontos(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -830,10 +705,12 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <div id="creditosMontosContainer"></div>    
+                <!--
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_monto_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2022" style="display: block;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_monto_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2023" style="display: none;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_monto_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2024" style="display: none;"></iframe>
-            </div>
+            --></div>
         </div>
     </div>
 </div>
@@ -867,10 +744,10 @@
             <div class="modal-body">
                 <p>En <strong>2022</strong>, la mayor concentración de créditos en <strong>Pachuca de Soto</strong> se encuentra en el rango de menos de <strong>1 millón</strong> de pesos, con <strong>758</strong> créditos otorgados. Esto refleja que una gran parte de los compradores busca propiedades más accesibles, lo que podría estar relacionado con la estructura económica de la población.
 
-Los créditos en el rango de menos de <strong>2 millones</strong> de pesos también son significativos, con <strong>333</strong> créditos, lo que indica una demanda considerable por viviendas en este segmento medio. Por otro lado, la cantidad de créditos disminuye drásticamente en los rangos superiores, con <strong>137</strong> créditos en el rango de menos de <strong>3 millones</strong>, solo <strong>56</strong> créditos en el rango de menos de <strong>4 millones</strong> y <strong>104</strong> créditos en el rango de menos de <strong>20 millones</strong> de pesos. Esta distribución sugiere que, aunque hay un mercado para propiedades de mayor valor, la mayoría de los compradores se concentra en los segmentos de viviendas más económicas. Además que los créditos otorgados para el mercado de propiedades de mayor valor, se concentran  en una parte considerable en los inmuebles más costosos (créditos de menos de <strong>20 millones</strong>) lo que podría indicar que hay un sector pequeño, pero relevante, interesado en propiedades de lujo.
+        Los créditos en el rango de menos de <strong>2 millones</strong> de pesos también son significativos, con <strong>333</strong> créditos, lo que indica una demanda considerable por viviendas en este segmento medio. Por otro lado, la cantidad de créditos disminuye drásticamente en los rangos superiores, con <strong>137</strong> créditos en el rango de menos de <strong>3 millones</strong>, solo <strong>56</strong> créditos en el rango de menos de <strong>4 millones</strong> y <strong>104</strong> créditos en el rango de menos de <strong>20 millones</strong> de pesos. Esta distribución sugiere que, aunque hay un mercado para propiedades de mayor valor, la mayoría de los compradores se concentra en los segmentos de viviendas más económicas. Además que los créditos otorgados para el mercado de propiedades de mayor valor, se concentran  en una parte considerable en los inmuebles más costosos (créditos de menos de <strong>20 millones</strong>) lo que podría indicar que hay un sector pequeño, pero relevante, interesado en propiedades de lujo.
 
-Este comportamiento podría estar vinculado al acceso limitado a créditos de mayor valor y a la preferencia por propiedades más accesibles para la mayoría de la población. También puede reflejar una distribución desigual en la capacidad de compra de la población en <strong>Pachuca</strong>.</p>
-            </div>
+        Este comportamiento podría estar vinculado al acceso limitado a créditos de mayor valor y a la preferencia por propiedades más accesibles para la mayoría de la población. También puede reflejar una distribución desigual en la capacidad de compra de la población en <strong>Pachuca</strong>.</p>
+                    </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -888,9 +765,9 @@ Este comportamiento podría estar vinculado al acceso limitado a créditos de ma
             <div class="modal-body">
                 <p>En <strong>2023</strong>, la mayor cantidad de créditos otorgados en <strong>Pachuca de Soto</strong> se concentra en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>790</strong> créditos, lo que indica una demanda considerable por propiedades más asequibles en la ciudad. Este patrón es similar al observado el año anterior y refleja las características económicas de la población, donde la mayor parte de los compradores busca opciones dentro de los segmentos más accesibles.
 
-El segundo rango con más créditos es el de menos de <strong>2 millones</strong> de pesos, con <strong>341</strong> créditos, lo que sugiere que los compradores con un presupuesto medio también tienen una participación significativa en el mercado. Sin embargo, en los rangos de mayor valor, como los de menos de <strong>3 millones</strong> de pesos, menos de <strong>4 millones</strong> de pesos y menos de <strong>20 millones</strong>, la cantidad de créditos cae drásticamente, con solo <strong>118</strong>, <strong>53</strong> y <strong>97</strong> créditos respectivamente. Esto refleja una menor demanda de propiedades de alto valor, posiblemente debido a la falta de acceso a financiamiento de mayor valor o a las preferencias por propiedades más económicas. Vemos también que el otorgamiento de créditos por cantidades más altas, es muy significativo el segmento de menos de <strong>20 millones</strong>, con <strong>97</strong> créditos, relativamente cercano al del menos de <strong>3 millones</strong> con <strong>118</strong> créditos, lo que indica que existe un sector relativamente pequeño pero importante que está interesado en los inmuebles de lujo
+        El segundo rango con más créditos es el de menos de <strong>2 millones</strong> de pesos, con <strong>341</strong> créditos, lo que sugiere que los compradores con un presupuesto medio también tienen una participación significativa en el mercado. Sin embargo, en los rangos de mayor valor, como los de menos de <strong>3 millones</strong> de pesos, menos de <strong>4 millones</strong> de pesos y menos de <strong>20 millones</strong>, la cantidad de créditos cae drásticamente, con solo <strong>118</strong>, <strong>53</strong> y <strong>97</strong> créditos respectivamente. Esto refleja una menor demanda de propiedades de alto valor, posiblemente debido a la falta de acceso a financiamiento de mayor valor o a las preferencias por propiedades más económicas. Vemos también que el otorgamiento de créditos por cantidades más altas, es muy significativo el segmento de menos de <strong>20 millones</strong>, con <strong>97</strong> créditos, relativamente cercano al del menos de <strong>3 millones</strong> con <strong>118</strong> créditos, lo que indica que existe un sector relativamente pequeño pero importante que está interesado en los inmuebles de lujo
 
-Esta distribución destaca las limitaciones en el poder adquisitivo de la mayoría de los compradores en <strong>Pachuca</strong>, así como la oferta predominante de propiedades dentro de los segmentos de menor costo.</p>
+        Esta distribución destaca las limitaciones en el poder adquisitivo de la mayoría de los compradores en <strong>Pachuca</strong>, así como la oferta predominante de propiedades dentro de los segmentos de menor costo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -917,32 +794,28 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
         </div>
     </div>
 </div>
-
 <script>
     function showYearlyDataMontos(year) {
-        // Ocultar todas las gráficas
-        document.getElementById('yearlyDataMontos2022').style.display = 'none';
-        document.getElementById('yearlyDataMontos2023').style.display = 'none';
-        document.getElementById('yearlyDataMontos2024').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataMontos${year}`).style.display = 'block';
-        }
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_monto_${year}.html?year=${year}`;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('creditosMontosContainer').innerHTML = '';
+        document.getElementById('creditosMontosContainer').appendChild(iframe);
 
         // Actualizar el botón de interpretación según el año
         const interpretationButton = document.getElementById('interpretationButtonMontos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalMontos${year}`);
     }
 
-    // Show "Valor" graph by default on page load
-    window.onload = function() {
-        showForecastData('2022');
-    };
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
+        showYearlyDataMontos('2022');
+    });
 </script>
-
-
-
 
 
         <!-- Perspectiva Mercado -->
@@ -988,6 +861,148 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 </div>
             </div>
         </div> -->
+         <!-- Segmentación de mercado: Promedio de precio por segmento -->
+<div class="row">
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de propiedades por segmento</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="yearSelectSegmento" onchange="showYearlyDataSegmento(this.value)">
+                        <option value="2022" selected>2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalSegmento">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonSegmento" data-bs-toggle="modal" data-bs-target="#interpretationModalSegmento2022">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <div id="PropiedadesSegmentoContainer"></div>
+                <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2022" style="display: block;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2023" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataSegmento2024" style="display: none;"></iframe>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Modal for Description -->
+<div class="modal fade" id="descriptionModalSegmento" tabindex="-1" aria-labelledby="descriptionModalLabelSegmento" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelSegmento">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil</strong> pesos <strong>(E)</strong> hasta más de <strong>22 millones de pesos</strong> <strong>(ELITE)</strong>, y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalSegmento2022" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2022" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>La gráfica revela una distribución de propiedades bastante equilibrada. El segmento <strong>D</strong> (1.75 millones a 2.5 millones) y <strong>S</strong> (4 millones a 12 millones) tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
+
+                <p>El segmento <strong>B</strong>, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento <strong>A</strong> (3.25 a 4 millones de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
+
+                <p>Por otro lado, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
+
+                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación en Pachuca.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2023" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2023" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2023">Interpretación 2023</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En 2023, el segmento <strong>S</strong>, correspondiente a propiedades de <strong>más de 4 millones de pesos</strong>, representa la mayor proporción de la distribución con un <strong>23.5%</strong>. Esto indica una fuerte presencia de propiedades de media-alta en el mercado de Pachuca, reflejando posiblemente el aumento en la demanda de inversiones inmobiliarias de alto valor.</p>
+                <p>El segundo segmento más representado es el <strong>B</strong>, que abarca propiedades con precios entre <strong>2.5</strong> y <strong>3.25 millones de pesos</strong>, con un <strong>23%</strong>. Esto sugiere que hay una notable demanda por propiedades de rango medio-alto. Los segmentos <strong>D</strong> (1.75 a 2.5 millones de pesos) y <strong>C</strong> (1.75 a 2.5 millones) también tienen una participación significativa con un <strong>18.2%</strong> y <strong>17.9%</strong>, respectivamente, lo que indica que el mercado de propiedades de precios medios sigue siendo fuerte.</p>
+                <p>El segmento <strong>A</strong> vuelve a situarse tras los últimos mencionados con un <strong>14.7%</strong>, lo que indica una porción relativamente pequeña aunque significativa que está interesada en propiedades de valor intermedio.</p>
+                <p>En el extremo opuesto, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil pesos</strong>, representa solo el <strong>2.81%</strong> de la distribución, lo que refleja una oferta muy limitada de propiedades económicas en Pachuca.</p>
+                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación.</p>
+                <p>Este comportamiento refleja una polarización del mercado inmobiliario en Pachuca, donde tanto las propiedades de alto valor como las de rango medio tienen una participación significativa, mientras que las propiedades de bajo costo son menos comunes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalSegmento2024" tabindex="-1" aria-labelledby="interpretationModalLabelSegmento2024" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2024">Interpretación 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
+                <p>Por otro lado, el segmento E (<strong>menos 500 mil a 1 millón</strong>) y C (<strong>1.75 millones a 2.5 millones</strong>) muestran casi la misma participación del <strong>16.8%</strong> y <strong>16.4%</strong>, lo que implica un presencia de propiedades de precios asequibles. Otros segmentos, como el B (<strong>2.5 millones a 3.25 millones</strong>) y A (<strong>3.25 millones a 4 millones</strong>) también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
+                <p>Finalmente en este año es posible resaltar que las propiedades del segmento L (<strong>12 millones a 22 millones</strong>) empiezan a tener presencia en la zona, lo que puede ser señal de una pequeña élite recién establecida.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showYearlyDataSegmento(year) {
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_propiedades_segmento_${year}.html?year=${year}`;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('PropiedadesSegmentoContainer').innerHTML = '';
+        document.getElementById('PropiedadesSegmentoContainer').appendChild(iframe);
+
+        // Actualizar el botón de interpretación para abrir el modal correcto
+        const interpretationButton = document.getElementById('interpretationButtonSegmento');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalSegmento${year}`);
+    }
+     // Mostrar la gráfica de 2022 por defecto al cargar la página
+     document.addEventListener('DOMContentLoaded', function() {
+        showYearlyDataSegmento('2022');
+    });
+</script>
+
+</div>
 
         <!-- Distribución de Propiedades -->
         <div class="col-md-12">
@@ -1051,6 +1066,71 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 </div>
             </div>
         </div>
+
+ <!-- Distribución de Propiedades -->
+ <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title subtitle mb-3 text-center">Distribución de Colonias</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    <span class="developer-label">Desarrollador</span>
+                                </div>
+                               <!-- <div> 
+                                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
+                                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
+                                </div>-->
+                            </div>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <!-- Modal for Description 2023 -->
+        <div class="modal fade" id="descriptionModal15" tabindex="-1" aria-labelledby="descriptionModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Interpretation 2023 -->
+        <div class="modal fade" id="interpretationModal15" tabindex="-1" aria-labelledby="interpretationModalLabel15" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

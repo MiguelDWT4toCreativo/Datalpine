@@ -163,12 +163,12 @@
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
-                <div class="mb-3">
+                <!--<div class="mb-3">
                     <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
                         <option value="banos">General</option>
                         <option value="cuatrobanos">Cuatro Baños</option>
                     </select>
-                </div>
+                </div>-->
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
                     <button class="btn btn-sm btn-outline-secondary rounded-pill"  data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
@@ -176,7 +176,7 @@
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <!--                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -541,13 +541,15 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPromedio">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" id="DescFCG" data-bs-target="#descriptionModalPromedio">Interpretación</button>
+                    <!-- <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="fcgenerales"></div>
+                <!--<iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -629,26 +631,35 @@
 </div>
 
 <!-- Script para controlar la visualización de gráficas -->
+<!-- Script para controlar la visualización de gráficas -->
 <script>
     function showBathroomData(option) {
-        // Ocultar todas las gráficas
-        document.getElementById('fcp').style.display = 'none';
-        document.getElementById('fcc').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
+        // Crear el iframe dinámicamente
+        let iframe;
         if (option === 'forecastcp') {
-            document.getElementById('fcp').style.display = 'block';
-            document.getElementById('descriptionModalPromedio').setAttribute('data-bs-target', '#interpretationModalpromedio');
+            iframe = document.createElement('iframe');
+            iframe.src = "/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_promedio.html"; // Cambiado de Queretaro a Puebla
+            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalPromedio');
         } else if (option === 'forecastcc') {
-            document.getElementById('fcc').style.display = 'block';
-            document.getElementById('descriptionModalCantidad').setAttribute('data-bs-target', '#interpretationModalLabelcantidad');
+            iframe = document.createElement('iframe');
+            iframe.src = "/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_forecast_credit_cantidad.html"; // Cambiado de Queretaro a Puebla
+            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalCantidad');
+        }
+        if (iframe) {
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            document.getElementById('fcgenerales').innerHTML = ''; // Actualizar el contenedor
+            document.getElementById('fcgenerales').appendChild(iframe);
+        } else {
+            console.error('El directorio especificado no existe.');
         }
     }
 
-    // Mostrar la gráfica "forecast creditos generales" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showBathroomData('forecastcp');
-    };
+    });
 </script>
 
 
@@ -683,8 +694,9 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalplusvalia_ano">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" id="interpretationButtonPlusvalia" data-bs-target="#interpretationModalplusvalia_ano">Interpretación</button>
+                        <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -757,13 +769,17 @@
             document.getElementById('plusvalia_ano').style.display = 'none';
             document.getElementById('plusvalia_mes').style.display = 'none';
 
-            // Mostrar la gráfica correspondiente a la opción seleccionada
-            if (option === 'plusvaliaa') {
-                document.getElementById('plusvalia_ano').style.display = 'block';
-                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
-            } else if (option === 'plusvaliam') {
-                document.getElementById('plusvalia_mes').style.display = 'block';
-                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+             // Mostrar la gráfica correspondiente a la opción seleccionada
+             const interpretationButton = document.getElementById('interpretationButtonPlusvalia');
+            switch (option) {
+                case 'plusvaliaa':
+                    document.getElementById('plusvalia_ano').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
+                    break;
+                case 'plusvaliam':
+                    document.getElementById('plusvalia_mes').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+                    break;
             }
         }
 
@@ -796,13 +812,13 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interp. Baratas</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasCaras">Interp. Caras</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasBaratas">Interpretación</button>
+
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
+            <div id="coloniasDataMasBaratas"></div>
+
             </div>
         </div>
     </div>
@@ -875,23 +891,41 @@
 
 <!-- Script para controlar la visualización de gráficas -->
 <script>
-    function showColoniasData(option) {
-        // Ocultar todas las gráficas
-        document.getElementById('coloniasDataMasBaratas').style.display = 'none';
-        document.getElementById('coloniasDataMasCaras').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (option === 'masbaratas') {
-            document.getElementById('coloniasDataMasBaratas').style.display = 'block';
-        } else if (option === 'mascaras') {
-            document.getElementById('coloniasDataMasCaras').style.display = 'block';
+   function showColoniasData(option) {
+        // Crear el iframe dinámicamente
+        let iframe;
+        let srcPath = "/datalpine/resources/Ciudades/Queretaro/assets/graficas/";
+        let modalTarget;
+        switch (option) {
+            case 'masbaratas':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_baratas.html";
+                modalTarget = '#interpretationModalColoniasBaratas';
+                break;
+            case 'mascaras':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_caras.html";
+                modalTarget = '#interpretationModalColoniasCaras';
+                break;
+            default:
+                console.error('Opción no válida.');
+                return;
+        }
+        if (iframe) {
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            document.getElementById('coloniasDataMasBaratas').innerHTML = ''; // Actualizar el contenedor
+            document.getElementById('coloniasDataMasBaratas').appendChild(iframe);
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', modalTarget);
+        } else {
+            console.error('El directorio especificado no existe.');
         }
     }
-
-    // Mostrar la gráfica "Más Baratas" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de colonias más baratas por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showColoniasData('masbaratas');
-    };
+    });
 </script>
 
         <!-- Gráfica: Colonias Predominantes -->

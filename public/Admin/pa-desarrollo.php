@@ -337,8 +337,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectViviendaValor" onchange="showYearlyDataViviendaValor(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -349,9 +349,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <div id="ViviendaValorContainer"></div>
+                <!-- <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -437,26 +438,25 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showYearlyDataViviendaValor(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataViviendaValor${y}`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataViviendaValor${year}`).style.display = 'block';
-        }
+          // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_vivienda_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('ViviendaValorContainer').innerHTML = '';
+                document.getElementById('ViviendaValorContainer').appendChild(iframe);
+            
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonViviendaValor');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalViviendaValor${year}`);
     }
-
-    // Mostrar la gráfica del año 2022 por defecto al cargar la página
-    window.onload = function() {
-        showYearlyDataViviendaValor('2022');
-    };
+     // Mostrar la gráfica de 2019 por defecto al cargar la página
+   document.addEventListener('DOMContentLoaded', function() {
+    showYearlyDataViviendaValor('2022');
+});
 </script>
 
 
@@ -472,8 +472,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectOrganismo" onchange="showYearlyDataOrganismo(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -484,9 +484,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <div id="OrganismoContainer"></div>
+<!---<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -563,61 +564,61 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showYearlyDataOrganismo(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataOrganismo${y}`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataOrganismo${year}`).style.display = 'block';
-        }
+          // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_organismo_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('OrganismoContainer').innerHTML = '';
+                document.getElementById('OrganismoContainer').appendChild(iframe);
+                
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonOrganismo');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalOrganismo${year}`);
     }
-
-    // Mostrar la gráfica del año 2022 por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showYearlyDataOrganismo('2022');
-    };
+    });
 </script>
 
-
+ </div>
 <!-- Gráfica: Estacionamientos -->
  <div class="row">
- <div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user-tie me-2"></i>
+                        <span class="developer-label">Desarrollador</span>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" id="segmentSelectEstacionamientos" onchange="showSegmentDataEstacionamientos(this.value)">
+                            <option value="general">General</option>
+                            <option value="segmentos">Segmentos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEstacionamientos">Descripción</button>
+                        <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientosGeneral">Interpretación</button>
+                        <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientos">Interpretación</button>-->
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <select class="form-select" id="segmentSelectEstacionamientos" onchange="showSegmentDataEstacionamientos(this.value)">
-                        <option value="general">General</option>
-                        <option value="segmentos">Segmentos</option>
-                    </select>
+                <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                    <div id="EstacionamientosContainer"></div>
+    <!--                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
                 </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalEstacionamientos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonEstacionamientos" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientosGeneral">Interpretación</button>
-                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalEstacionamientos">Interpretación</button>-->
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
-</div>
 
- </div>
+
 
 
 <!-- Modal for Description -->
@@ -697,24 +698,24 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentDataEstacionamientos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataEstacionamientosGeneral').style.display = 'none';
-        document.getElementById('segmentDataEstacionamientosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (segment) {
-            document.getElementById(`segmentDataEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
-        }
+         // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_estacionamientos.html`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('EstacionamientosContainer').innerHTML = '';
+                document.getElementById('EstacionamientosContainer').appendChild(iframe);
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonEstacionamientos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataEstacionamientos('general');
-    };
+    });
 </script>
 
 
@@ -743,8 +744,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="BanosContainer"></div>
+<!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -816,28 +818,30 @@
         </div>
     </div>
 </div>
-
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentDataBanos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataBanosGeneral').style.display = 'none';
-        document.getElementById('segmentDataBanosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (segment) {
-            document.getElementById(`segmentDataBanos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
-        }
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_banos.html`;
+        iframe.src = srcPath;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('BanosContainer').innerHTML = '';
+        document.getElementById('BanosContainer').appendChild(iframe);
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonBanos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalBanos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
 
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataBanos('general');
-    };
+    });
 </script>
 
 <div class="row">
@@ -863,8 +867,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+               <!-- <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
+                <div id="RecamarasContainer"></div>
             </div>
         </div>
     </div>
@@ -932,30 +937,259 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentDataRecamaras(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataRecamarasGeneral').style.display = 'none';
-        document.getElementById('segmentDataRecamarasSegmentos').style.display = 'none';
+          // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_recamaras.html`;
+        iframe.src = srcPath;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('RecamarasContainer').innerHTML = '';
+        document.getElementById('RecamarasContainer').appendChild(iframe);
 
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (segment) {
-            document.getElementById(`segmentDataRecamaras${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
-        }
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonRecamaras');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalRecamaras${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+   // Mostrar la gráfica de 2019 por defecto al cargar la página
+   document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataRecamaras('general');
-    };
+    });
 </script>
 
 
         <!-- Gráfica 9: g_bar_dist_m2_construidos -->
+        <!-- Gráfica 9: g_bar_dist_m2_construidos -->
+<!-- Gráfica: Distribución m2 construidos -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="segmentSelectM2Construidos" onchange="showSegmentDataM2Construidos(this.value)">
+                        <option value="general">General</option>
+                        <option value="segmentos">Segmentos</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#descriptionModalM2ConstruidosGeneral">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonM2Construidos" data-bs-toggle="modal" data-bs-target="#interpretationModalM2ConstruidosGeneral">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
+                <div id="M2ConstruidosContainer"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description General -->
+<div class="modal fade" id="descriptionModalM2ConstruidosGeneral" tabindex="-1" aria-labelledby="descriptionModalLabelM2ConstruidosGeneral" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelM2ConstruidosGeneral">Descripción General</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                El gráfico de pastel muestra la distribución porcentual de diferentes rangos de metros cuadrados de construcción. Cada porción del círculo representa un porcentaje de un rango específico de metros cuadrados, y los colores se utilizan para diferenciar cada categoría.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description Segmentos -->
+<div class="modal fade" id="descriptionModalM2ConstruidosSegmentos" tabindex="-1" aria-labelledby="descriptionModalLabelM2ConstruidosSegmentos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabelM2ConstruidosSegmentos">Descripción Segmentos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Este gráfico de barras muestra la distribución de propiedades en Puebla, segmentadas por rangos de precios y metros cuadrados de construcción. En el eje X se encuentran los segmentos de precios (E, D, C, B, A, S, y L) y en el eje Y, el número de casas en cada categoría. Los colores indican los diferentes rangos de metros cuadrados de construcción, desde menos de 100 m² hasta más de 300 m².
+                </p>
+                <p>
+                    Este gráfico permite visualizar cómo se distribuyen las propiedades en función de su tamaño y precio, lo que es útil para identificar patrones y tendencias en la oferta de viviendas.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for Interpretation -->
+<div class="modal fade" id="interpretationModalM2ConstruidosGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelM2ConstruidosGeneral" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelM2ConstruidosGeneral">Interpretación General</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Observamos una distribución bajamente equilibrada entre los diferentes rangos de superficie. No hay un rango que domine significativamente sobre los demás. La presencia de todos los rangos, desde los más pequeños (<strong>0-100 m²</strong>) hasta los más grandes (<strong>300+ m²</strong>), indica una oferta inmobiliaria bastante diversificada. Esto sugiere que el mercado puede satisfacer las necesidades de diferentes tipos de compradores, desde aquellos que buscan viviendas pequeñas y económicas hasta quienes requieren espacios más amplios.
+            </p>
+            <p>
+                Sin embargo, los rangos de <strong>100-150 m²</strong> (<strong>23%</strong>) y <strong>0-100 m²</strong> (<strong>19.1%</strong>) concentran una porción considerable del total, lo que sugiere que hay una cantidad significativa de propiedades con tamaños medios. Además, el rango de <strong>300+ m²</strong> también concentra una distribución considerable con el <strong>23.1%</strong>, lo que es bastante notable. Esto podría indicar una demanda en el mercado por inmuebles de dimensiones intermedias, que puedan adaptarse a las necesidades de familias medianas o pequeñas.
+            </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="interpretationModalM2ConstruidosSegmentos" tabindex="-1" aria-labelledby="interpretationModalLabelM2ConstruidosSegmentos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelM2ConstruidosSegmentos">Interpretación Segmentos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Es notorio que el segmento S es el que concentra una cantidad significativa de propiedades en un rango de más de 300 metros cuadrados. Esto se debe a que las propiedades que están dentro de estos segmentos tienen un rango de precio elevado, de 4 millones hasta 12 millones de pesos, es decir, son consideradas de gama alta.
+            </p>
+
+            <p>
+                En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción. Esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Puebla. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre 0 a 100 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos.
+            </p>
+
+            <p>
+                En lo que corresponde a los segmentos C y B, la concentración de propiedades se encuentra en propiedades de 100 a 150 metros cuadrados. El segmento A concentra propiedades de 200 a 250 metros cuadrados, lo que podría estar directamente relacionado con el precio y el tipo de segmento en el que está ubicado.
+            </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showSegmentDataM2Construidos(segment) {
+         // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_dist_m2_construidos.html`;
+        if (!document.querySelector(`[src='${srcPath}']`)) {
+            iframe.src = srcPath;
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            // Reemplazar el contenido del contenedor
+            document.getElementById('M2ConstruidosContainer').innerHTML = '';
+            document.getElementById('M2ConstruidosContainer').appendChild(iframe);
+        } else {
+            console.error('El directorio especificado no existe.');
+        }
+
+        // Actualizar los botones de descripción e interpretación
+        const descriptionButton = document.getElementById('descriptionButtonM2Construidos');
+        const interpretationButton = document.getElementById('interpretationButtonM2Construidos');
+        descriptionButton.setAttribute('data-bs-target', `#descriptionModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
+        interpretationButton.setAttribute('data-bs-target', `#interpretationModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
+    }
+
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
+        showSegmentDataM2Construidos('general');
+    });
+</script>
 
 
+        <!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
+      <!-- Gráfica 12: g_bar_PrecioPromedio_m2 -->
+      <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m²</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="520" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal12" tabindex="-1" aria-labelledby="descriptionModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel12">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>El grafico de barras muestra el precio promedio por metro cuadrado total para diferentes rangos de metros cuadrados construidos. Cada barra representa el precio promedio para un rango específico de metros cuadrados.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal12" tabindex="-1" aria-labelledby="interpretationModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel12">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>
+                Los segmentos más pequeños (<strong>0-100 m²</strong> y <strong>100-150 m²</strong>) presentan los valores más altos, de <strong>$18,073.86</strong> y <strong>$17,407.97</strong> respectivamente, lo cual sugiere que las propiedades de tamaño reducido son más caras por metro cuadrado. Seguido, el precio promedio disminuye en los rangos medios: <strong>150-200 m²</strong> con <strong>$14,410.15</strong>, y <strong>200-250 m²</strong> con <strong>$11,818</strong>.
+            </p>
+            <p>
+                El precio se eleva nuevamente en propiedades de <strong>250 a 300 m²</strong> y más de <strong>300 m²</strong>, con promedios de <strong>$12,844.51</strong> y <strong>$18,445.99</strong> respectivamente.
+            </p>
+            <p>
+                La diferencia en los precios puede estar influenciada por la demanda de propiedades más pequeñas en áreas urbanas, donde los espacios más reducidos suelen ser más costosos. Por otro lado, las propiedades más grandes pueden ofrecer un precio menor por m² debido a economías de escala y a la disponibilidad de terrenos más amplios en las zonas periféricas de la ciudad, donde la competencia por espacio es menor.
+            </p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
 
 <!-- End Page-content -->
 

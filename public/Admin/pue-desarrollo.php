@@ -338,8 +338,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectViviendaValor" onchange="showYearlyDataViviendaValor(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -350,9 +350,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <!--<iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2022" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataViviendaValor2024" style="display: none; min-height: 430px; border: 0;"></iframe>-->
+                <div id="ViviendaValorContainer"></div>
             </div>
         </div>
     </div>
@@ -448,26 +449,25 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showYearlyDataViviendaValor(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataViviendaValor${y}`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataViviendaValor${year}`).style.display = 'block';
-        }
+         // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_vivienda_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('ViviendaValorContainer').innerHTML = '';
+                document.getElementById('ViviendaValorContainer').appendChild(iframe);
+            
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonViviendaValor');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalViviendaValor${year}`);
     }
-
-    // Mostrar la gráfica del año 2022 por defecto al cargar la página
-    window.onload = function() {
-        showYearlyDataViviendaValor('2022');
-    };
+  // Mostrar la gráfica de 2019 por defecto al cargar la página
+  document.addEventListener('DOMContentLoaded', function() {
+    showYearlyDataViviendaValor('2022');
+});
 </script>
 
 
@@ -483,8 +483,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectOrganismo" onchange="showYearlyDataOrganismo(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -495,9 +495,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <div id="OrganismoContainer"></div>
+<!--<iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2022" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataOrganismo2024" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -601,26 +602,27 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showYearlyDataOrganismo(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataOrganismo${y}`).style.display = 'none';
-        });
+          // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_organismo_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('OrganismoContainer').innerHTML = '';
+                document.getElementById('OrganismoContainer').appendChild(iframe);
+                
 
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataOrganismo${year}`).style.display = 'block';
-        }
 
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonOrganismo');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalOrganismo${year}`);
     }
 
-    // Mostrar la gráfica del año 2022 por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showYearlyDataOrganismo('2022');
-    };
+    });
 </script>
 
 
@@ -646,8 +648,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="EstacionamientosContainer"></div>
+<!-- <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_estacionamientos.html" width="100%" height="400" frameborder="0" id="segmentDataEstacionamientosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -729,22 +732,25 @@
 <!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showSegmentDataEstacionamientos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataEstacionamientosGeneral').style.display = 'none';
-        document.getElementById('segmentDataEstacionamientosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        document.getElementById(`segmentDataEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
+          // Crear el iframe dinámicamente
+          const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_estacionamientos.html`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('EstacionamientosContainer').innerHTML = '';
+                document.getElementById('EstacionamientosContainer').appendChild(iframe);
 
         // Cambiar el target del botón de interpretación según la opción seleccionada
         const interpretationButton = document.getElementById('interpretationButtonEstacionamientos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalEstacionamientos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataEstacionamientos('general');
-    };
+    });
+    
 </script>
 
 
@@ -772,8 +778,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="BanosContainer"></div>
+<!--<iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_banos.html" width="100%" height="400" frameborder="0" id="segmentDataBanosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -865,12 +872,17 @@
 <!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showSegmentDataBanos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataBanosGeneral').style.display = 'none';
-        document.getElementById('segmentDataBanosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        document.getElementById(`segmentDataBanos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
+         // Crear el iframe dinámicamente
+         const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_banos.html`;
+        iframe.src = srcPath;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('BanosContainer').innerHTML = '';
+        document.getElementById('BanosContainer').appendChild(iframe);
 
         // Actualizar los botones de descripción e interpretación
         const descriptionButton = document.getElementById('descriptionButtonBanos');
@@ -878,11 +890,11 @@
         descriptionButton.setAttribute('data-bs-target', `#descriptionModalBanos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalBanos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+    
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataBanos('general');
-    };
+    });
 </script>
 
 
@@ -908,8 +920,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="RecamarasContainer"></div>
+<!--<iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_recamaras.html" width="100%" height="400" frameborder="0" id="segmentDataRecamarasSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -1007,12 +1020,17 @@
 <!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showSegmentDataRecamaras(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataRecamarasGeneral').style.display = 'none';
-        document.getElementById('segmentDataRecamarasSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        document.getElementById(`segmentDataRecamaras${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
+       // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_recamaras.html`;
+        iframe.src = srcPath;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('RecamarasContainer').innerHTML = '';
+        document.getElementById('RecamarasContainer').appendChild(iframe);
 
         // Actualizar los botones de descripción e interpretación
         const descriptionButton = document.getElementById('descriptionButtonRecamaras');
@@ -1020,11 +1038,10 @@
         descriptionButton.setAttribute('data-bs-target', `#descriptionModalRecamaras${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalRecamaras${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
-
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+      // Mostrar la gráfica de 2019 por defecto al cargar la página
+      document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataRecamaras('general');
-    };
+    });
 </script>
 
         <!-- Gráfica 9: g_bar_dist_m2_construidos -->
@@ -1050,8 +1067,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>
+<!--<iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_pie_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosGeneral" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_m2_construidos.html" width="100%" height="400" frameborder="0" id="segmentDataM2ConstruidosSegmentos" style="display: none; min-height: 430px; border: 0;"></iframe>-->
+                <div id="M2ConstruidosContainer"></div>
             </div>
         </div>
     </div>
@@ -1154,12 +1172,21 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showSegmentDataM2Construidos(segment) {
-        // Ocultar todas las gráficas
-        document.getElementById('segmentDataM2ConstruidosGeneral').style.display = 'none';
-        document.getElementById('segmentDataM2ConstruidosSegmentos').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        document.getElementById(`segmentDataM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`).style.display = 'block';
+         // Crear el iframe dinámicamente
+         const iframe = document.createElement('iframe');
+        // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
+        const srcPath = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_dist_m2_construidos.html`;
+        if (!document.querySelector(`[src='${srcPath}']`)) {
+            iframe.src = srcPath;
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            // Reemplazar el contenido del contenedor
+            document.getElementById('M2ConstruidosContainer').innerHTML = '';
+            document.getElementById('M2ConstruidosContainer').appendChild(iframe);
+        } else {
+            console.error('El directorio especificado no existe.');
+        }
 
         // Actualizar los botones de descripción e interpretación
         const descriptionButton = document.getElementById('descriptionButtonM2Construidos');
@@ -1168,10 +1195,10 @@
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalM2Construidos${segment.charAt(0).toUpperCase() + segment.slice(1)}`);
     }
 
-    // Mostrar la gráfica "General" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showSegmentDataM2Construidos('general');
-    };
+    });
 </script>
 
 
@@ -1192,7 +1219,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_PrecioPromedio_m2.html" width="100%" height="520" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>

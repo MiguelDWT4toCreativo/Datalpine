@@ -153,21 +153,24 @@
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
+                <!--
                 <div class="mb-3">
                     <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
                         <option value="banos">General</option>
                         <option value="cuatrobanos">Cuatro Baños</option>
                     </select>
-                </div>
+                </div>-->
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
+                <!--                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>-->
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
                 </div>
+                
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
+                <!--                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+-->            </div>
         </div>
     </div>
 </div>
@@ -264,15 +267,8 @@
 </script>
 
 
-    </div>
-</div>
-
-<!-- Sección Mercado & Precios -->
-
-
 <!-- Sección Meses de Oferta & Proyecciones -->
-<div class="container-fluid">
-    <div class="row">
+
         <!-- Mitad izquierda: Meses de oferta (Month of Supply) -->
 <!-- Gráfica: Meses de oferta (Month of Supply) -->
 <div class="col-md-12">
@@ -333,30 +329,6 @@
     </div>
 </div>
 
-
-        <!-- Mitad derecha: Proyección días -->
-        <!-- <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Proyección días</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal8">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal8">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_proyeccion_dias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Sección Riesgo & Poblacional -->
 <div class="container-fluid">
@@ -487,15 +459,273 @@
     </div>
 </div>
 
+
+
+<!-- Gráfica: Forecast créditos generales -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
+                        <option value="forecastcp">Valor Promedio</option>
+                        <option value="forecastcc">Cantidad</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPromedio">Descripción</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" id="DescFCG" data-bs-target="#descriptionModalPromedio">Interpretación</button>
+                        <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>-->
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <div id="fcgenerales"></div>
+            <!-- <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>-->
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- Proyección Forecast Media Anual -->
-<div class="container-fluid">
-    <div class="row">
+<!-- Modal for promedio -->
+<div class="modal fade" id="descriptionModalPromedio" tabindex="-1" aria-labelledby="descriptionModalPromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalPromedio">Descripción Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de los montos de los créditos generales para los próximos años en la ciudad de Querétaro; estos se subdividen en 2 categorías, vivienda nueva y vivienda usada.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for cantidad -->
+<div class="modal fade" id="descriptionModalCantidad" tabindex="-1" aria-labelledby="descriptionModalCantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalCantidad">Descripción Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de la cantidad de créditos para los próximos años en la ciudad de Querétaro; estos se subdividen en 3 categorías, Créditos generales, para Vivienda Nueva y Vivienda Usada.  </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: CANTIDAD -->
+<div class="modal fade" id="interpretationModalLabelcantidad" tabindex="-1" aria-labelledby="interpretationModalLabelcantidad" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelcantidad">Interpretación Cantidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026 de aproximadamente 9,264 y 9,288, respectivamente para cada año. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
+                <p>Para los créditos que se otorgan para viviendas nuevas se estima una ligera disminución del año 2024 al 2025 de alrededor de 482 créditos, y del año 2025 a 2026 también disminuirán 76 créditos. Estas estimaciones proponen un contexto complejo para la adquisición de viviendas nuevas en la ciudad de Santiago de Querétaro. </p>
+                <p>Por su parte, los créditos para viviendas usadas tendrán una disminución de 335 créditos al pasar del año 2024 a 2025; sin embargo del año 2025 al 2026 se espera que esto aumente 113 créditos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: Promedio -->
+<div class="modal fade" id="interpretationModalpromedio" tabindex="-1" aria-labelledby="interpretationModalpromedio" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalpromedio">Interpretación Promedio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
+                <p>Para los créditos otorgados de Vivienda Nueva se puede observar que los créditos tendrán un aumento sostenido de <strong>$213,229</strong> de 2025 a 2026. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.</p>
+                <p>Por su parte, los créditos otorgados de Vivienda Usada igual presentarán un aumento en su valor de 2025 a 2026, aproximadamente de <strong>$232,30</strong>; esto implica que para las viviendas de la ciudad será mas accesible el mejoramiento.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para controlar la visualización de gráficas -->
+<script>
+    function showBathroomData(option) {
+              // Crear el iframe dinámicamente
+       let iframe;
+       if (option === 'forecastcp') {
+           iframe = document.createElement('iframe');
+           iframe.src = "/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_promedio.html";
+           document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalPromedio');
+       } else if (option === 'forecastcc') {
+           iframe = document.createElement('iframe');
+           iframe.src = "/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_cantidad.html";
+           document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalCantidad');
+       }
+       if (iframe) {
+           iframe.width = '100%';
+           iframe.height = '400';
+           iframe.frameborder = '0';
+           document.getElementById('fcgenerales').innerHTML = ''; // Actualizar el contenedor
+           document.getElementById('fcgenerales').appendChild(iframe);
+       } else {
+           console.error('El directorio especificado no existe.');
+       }
+        // Update the interpretation button to open the correct modal based on the selected filter
+        const interpretationButton = document.getElementById('DescFCG');
+        if (option === 'forecastcp') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalpromedio');
+        } else if (option === 'forecastcc') {
+            interpretationButton.setAttribute('data-bs-target', '#interpretationModalLabelcantidad');
+        }
         
-        <!-- Columna derecha: Colonias más baratas -->
-<!-- Gráfica: Colonias Más Caras y Más Baratas -->
+    }
+
+      // Mostrar la gráfica de 2019 por defecto al cargar la página
+      document.addEventListener('DOMContentLoaded', function() {
+        showBathroomData('forecastcp');
+    });
+</script>
+
+
+<!-- Gráfica: Plusvalía estimada -->
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" id="plusvaliaSelect" onchange="showPlusvaliaData(this.value)">
+                        <option value="plusvaliaa">Anual</option>
+                        <option value="plusvaliam">Mensual</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalplusvalia_ano">Descripción</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" id="interpretationButtonPlusvalia" data-bs-target="#interpretationModalplusvalia_ano">Interpretación</button>
+                        <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>-->
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" id="plusvalia_ano" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" id="plusvalia_mes" style="display: none; min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for descripcion general -->
+<div class="modal fade" id="descriptionModalplusvalia_ano" tabindex="-1" aria-labelledby="descriptionModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalplusvalia_anoo">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pronóstico de la plusvalía que tendrá el área de inmuebles para los próximos años y meses en la ciudad de Puebla.<p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: año -->
+<div class="modal fade" id="interpretationModalplusvalia_ano" tabindex="-1" aria-labelledby="interpretationModalplusvalia_ano" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalplusvalia_anoo">Interpretación Anual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en los próximos 3 años en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva. Los datos proyectados para los próximos dos años en Puebla indican una tendencia al alza en el valor de los inmuebles. Para el 2025 las viviendas aumentarán aproximadamente <strong>$709,208.76</strong>; y para 2026 el aumento será de <strong>$858,704.76</strong>. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation: mes -->
+<div class="modal fade" id="interpretationModalLabelplusvalia_mes" tabindex="-1" aria-labelledby="interpretationModalLabelplusvalia_mes" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabelplusvalia_mess">Interpretación  Mensual</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>De acuerdo a los datos que se pronostica tener en el próximo año en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva, con ligeras variaciones en meses que en los cuales el precio se mantuvo constante. Esto significa que, en promedio, el monto ha ido aumentando mes a mes. Sin embargo, es importante notar que el crecimiento no es constante y hay algunos meses donde el aumento es más pronunciado que en otros. Los últimos meses del año muestran un crecimiento más acelerado en comparación con los primeros meses. Si la tendencia actual se mantiene, es probable que el monto continúe aumentando en los años siguientes. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Script para controlar la visualización de gráficas -->
+    <script>
+        function showPlusvaliaData(option) {
+            // Ocultar todas las gráficas
+            document.getElementById('plusvalia_ano').style.display = 'none';
+            document.getElementById('plusvalia_mes').style.display = 'none';
+            // Mostrar la gráfica correspondiente a la opción seleccionada
+            const interpretationButton = document.getElementById('interpretationButtonPlusvalia');
+            switch (option) {
+                case 'plusvaliaa':
+                    document.getElementById('plusvalia_ano').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
+                    break;
+                case 'plusvaliam':
+                    document.getElementById('plusvalia_mes').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+                    break;
+            }
+        }
+
+        // Mostrar la gráfica "Plusvalía estimada" por defecto al cargar la página
+        window.onload = function() {
+            showPlusvaliaData('plusvaliaa');
+        };
+    </script>
+
+
+
+
+
+
+
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -517,8 +747,9 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="coloniasDataMasBaratas"></div>
+                <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -587,29 +818,45 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showColoniasData(option) {
-        // Ocultar todas las gráficas
-        document.getElementById('coloniasDataMasBaratas').style.display = 'none';
-        document.getElementById('coloniasDataMasCaras').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (option === 'masbaratas') {
-            document.getElementById('coloniasDataMasBaratas').style.display = 'block';
-            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasBaratas');
-        } else if (option === 'mascaras') {
-            document.getElementById('coloniasDataMasCaras').style.display = 'block';
-            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasCaras');
+        // Crear el iframe dinámicamente
+        let iframe;
+        let srcPath = "/datalpine/resources/Ciudades/Pachuca/assets/graficas/";
+        let modalTarget;
+        switch (option) {
+            case 'masbaratas':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_baratas.html";
+                modalTarget = '#interpretationModalColoniasBaratas';
+                break;
+            case 'mascaras':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_caras.html";
+                modalTarget = '#interpretationModalColoniasCaras';
+                break;
+            default:
+                console.error('Opción no válida.');
+                return;
+        }
+        if (iframe) {
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            document.getElementById('coloniasDataMasBaratas').innerHTML = ''; // Actualizar el contenedor
+            document.getElementById('coloniasDataMasBaratas').appendChild(iframe);
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', modalTarget);
+        } else {
+            console.error('El directorio especificado no existe.');
         }
     }
-
-    // Mostrar la gráfica "Más Baratas" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de colonias más baratas por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showColoniasData('masbaratas');
-    };
+    });
 </script>
 
 
         <!-- Gráfica: Colonias predominantes -->
-<div class="col-md-12">
+        <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Colonias Predominantes</h5>
@@ -669,8 +916,10 @@
         </div>
     </div>
 </div>
-        <!-- Gráfica: Tiempo en el mercado -->
-        <div class="col-md-12">
+
+
+    <!-- Gráfica: Tiempo en el mercado -->
+    <div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Tiempo en el mercado</h5>
@@ -737,174 +986,9 @@
     </div>
 </div>
 
-<!-- Columna completa: Mapa por Colonias -->
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Mapa por Colonias</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalMapaColonias">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalMapaColonias">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/colonias.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalMapaColonias" tabindex="-1" aria-labelledby="descriptionModalLabelMapaColonias" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelMapaColonias">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Este mapa interactivo muestra la distribución geográfica de las colonias en Pachuca. Cada colonia está coloreada según una clasificación basada en el valor promedio de las propiedades en la zona. El mapa permite a los usuarios visualizar las áreas con inmuebles de mayor y menor valor, proporcionando una clara representación de la estructura del mercado inmobiliario en Pachuca.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalMapaColonias" tabindex="-1" aria-labelledby="interpretationModalLabelMapaColonias" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelMapaColonias">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El mapa revela una concentración de colonias con propiedades de alto valor en la zona norte de Pachuca, en áreas como <strong>Zona Plateada</strong> y <strong>San Javier</strong>, donde los precios son significativamente más altos que en otras regiones. Estas áreas corresponden a desarrollos recientes y proyectos exclusivos que han atraído a compradores de alto poder adquisitivo.</p>
-                <p>Por otro lado, en la zona sur de la ciudad, se encuentran colonias con propiedades de menor valor, como <strong>La Raza</strong> y <strong>Parque de Poblamiento</strong>, que se caracterizan por una oferta inmobiliaria más accesible, orientada a compradores con ingresos medios y bajos. Este contraste entre las diferentes zonas destaca las disparidades económicas y la segmentación del mercado inmobiliario en la ciudad.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Columna completa: Forecast créditos generales 
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select" id="forecastSelect" onchange="showForecastData(this.value)">
-                        <option value="valor">Valor</option>
-                        <option value="general">General</option>
-                    </select>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalForecast">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonForecast" data-bs-toggle="modal" data-bs-target="#interpretationModalForecastValor">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_forecast_creditos_valor.html" width="100%" height="400" frameborder="0" id="forecastDataValor" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_forecast_creditos_general.html" width="100%" height="400" frameborder="0" id="forecastDataGeneral" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>-->
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalForecast" tabindex="-1" aria-labelledby="descriptionModalLabelForecast" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelForecast">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>La gráfica muestra el forecast de créditos generales en Pachuca. Se incluyen proyecciones basadas en datos históricos, permitiendo analizar el comportamiento futuro de los créditos tanto en términos generales como en valor. Esta herramienta es útil para evaluar el crecimiento o decrecimiento esperado en el otorgamiento de créditos en el mercado local.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation: Valor -->
-<div class="modal fade" id="interpretationModalForecastValor" tabindex="-1" aria-labelledby="interpretationModalLabelForecastValor" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelForecastValor">Interpretación - Valor</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El forecast basado en valor sugiere un incremento constante en los créditos de mayor valor en Pachuca. Esto puede estar asociado con el crecimiento económico de la región y la demanda por inmuebles de mayor valor, lo que incrementa la cantidad de créditos otorgados en este rango. Se espera que esta tendencia se mantenga, especialmente con el desarrollo de proyectos inmobiliarios de alto valor.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation: General -->
-<div class="modal fade" id="interpretationModalForecastGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelForecastGeneral" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelForecastGeneral">Interpretación - General</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>El forecast general muestra una tendencia estable en el número total de créditos otorgados, aunque con ligeras fluctuaciones. Esto indica un mercado maduro donde la demanda por créditos se mantiene relativamente constante. Se proyecta que los créditos seguirán siendo otorgados de manera estable, lo que sugiere una confianza continua en el sector inmobiliario de la región.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Script to control the display of the graphs -->
-<script>
-    function showForecastData(type) {
-        // Hide all graphs
-        document.getElementById('forecastDataValor').style.display = 'none';
-        document.getElementById('forecastDataGeneral').style.display = 'none';
-
-        // Show the selected graph
-        if (type === 'valor') {
-            document.getElementById('forecastDataValor').style.display = 'block';
-            document.getElementById('interpretationButtonForecast').setAttribute('data-bs-target', '#interpretationModalForecastValor');
-        } else if (type === 'general') {
-            document.getElementById('forecastDataGeneral').style.display = 'block';
-            document.getElementById('interpretationButtonForecast').setAttribute('data-bs-target', '#interpretationModalForecastGeneral');
-        }
-    }
-
-    // Show "Valor" graph by default on page load
-    window.onload = function() {
-        showForecastData('valor');
-    };
-</script>
 
 
-    </div>
-</div>
+
 
 
 <!-- End Page-content -->

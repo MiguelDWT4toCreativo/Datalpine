@@ -164,12 +164,12 @@
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
-                <div class="mb-3">
+                <!-- <div class="mb-3">
                     <select class="form-select" id="bathroomSelect" onchange="showBathroomData(this.value)">
                         <option value="banos">General</option>
                         <option value="cuatrobanos">Cuatro Baños</option>
                     </select>
-                </div>
+                </div>-->
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
                     <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
@@ -177,8 +177,8 @@
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
                 <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
-            </div>
+                <!--                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
+-->            </div>
         </div>
     </div>
 </div>
@@ -570,13 +570,15 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPromedio">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" id="DescFCG" data-bs-target="#descriptionModalPromedio">Interpretación</button>
+                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalpromedio">Promedio</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelcantidad">Cantidad</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="fcgenerales"></div>
+                <!--<iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_promedio.html" width="100%" height="400" frameborder="0" id="fcp" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_cantidad.html" width="100%" height="400" frameborder="0" id="fcc" style="display: none; min-height: 430px; border: 0;"></iframe>-->
             </div>
         </div>
     </div>
@@ -660,128 +662,36 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showBathroomData(option) {
-        // Ocultar todas las gráficas
-        document.getElementById('fcp').style.display = 'none';
-        document.getElementById('fcc').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
+        // Crear el iframe dinámicamente
+        let iframe;
         if (option === 'forecastcp') {
-            document.getElementById('fcp').style.display = 'block';
-            document.getElementById('descriptionModalPromedio').setAttribute('data-bs-target', '#interpretationModalpromedio');
+            iframe = document.createElement('iframe');
+            iframe.src = "/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_promedio.html"; // Cambiado de Queretaro a Puebla
+            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalPromedio');
         } else if (option === 'forecastcc') {
-            document.getElementById('fcc').style.display = 'block';
-            document.getElementById('descriptionModalCantidad').setAttribute('data-bs-target', '#interpretationModalLabelcantidad');
+            iframe = document.createElement('iframe');
+            iframe.src = "/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_scatt_forecast_credit_cantidad.html"; // Cambiado de Queretaro a Puebla
+            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalCantidad');
+        }
+        if (iframe) {
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            document.getElementById('fcgenerales').innerHTML = ''; // Actualizar el contenedor
+            document.getElementById('fcgenerales').appendChild(iframe);
+        } else {
+            console.error('El directorio especificado no existe.');
         }
     }
 
-    // Mostrar la gráfica "forecast creditos generales" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showBathroomData('forecastcp');
-    };
+    });
 </script>
-<!-- Comentado para no ser visible -->
-<!-- <div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Forecast Casas y Departamentos 
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Forecast Casas y Departamentos</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal11">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal11">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_forecast_casas_departamentos.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Mitad derecha: Forecast créditos generales (valor) [V2_PROMEDIO] 
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Forecast créditos generales (valor) [V2_PROMEDIO]</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal12">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal12">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_forecast_creditos_v2_promedio.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <!-- Sección Plusvalía & Proyección Anual -->
-<!-- <div class="container-fluid">
-    <div class="row">
-        <!-- Mitad izquierda: Plusvalía estimada (5 años) [%]
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada (5 años) [%]</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal13">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal13">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_plusvalia_estimada_5_anos_porcentaje.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Estas van en un desplegable, porcentaje/total
-        <!-- Mitad derecha: Plusvalía estimada (5 años) [Total]
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Plusvalía estimada (5 años) [Total]</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal14">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal14">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_plusvalia_estimada_5_anos_total.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-
-
-
-
-
 <!-- Gráfica: Plusvalía estimada -->
 <div class="col-md-12">
     <div class="card">
@@ -800,8 +710,9 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalplusvalia_ano">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" id="interpretationButtonPlusvalia" data-bs-target="#interpretationModalplusvalia_ano">Interpretación</button>
+                    <!--<button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalplusvalia_ano">Interp.Anual</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalLabelplusvalia_mes">Interp. Mensual</button>-->
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
@@ -874,13 +785,17 @@
             document.getElementById('plusvalia_ano').style.display = 'none';
             document.getElementById('plusvalia_mes').style.display = 'none';
 
-            // Mostrar la gráfica correspondiente a la opción seleccionada
-            if (option === 'plusvaliaa') {
-                document.getElementById('plusvalia_ano').style.display = 'block';
-                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
-            } else if (option === 'plusvaliam') {
-                document.getElementById('plusvalia_mes').style.display = 'block';
-                document.getElementById('descriptionModalplusvalia_ano').setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+         // Mostrar la gráfica correspondiente a la opción seleccionada
+         const interpretationButton = document.getElementById('interpretationButtonPlusvalia');
+            switch (option) {
+                case 'plusvaliaa':
+                    document.getElementById('plusvalia_ano').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalplusvalia_ano');
+                    break;
+                case 'plusvaliam':
+                    document.getElementById('plusvalia_mes').style.display = 'block';
+                    interpretationButton.setAttribute('data-bs-target', '#interpretationModalLabelplusvalia_mes');
+                    break;
             }
         }
 
@@ -935,12 +850,12 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" id="descriptionButtonColonias" data-bs-toggle="modal" data-bs-target="#descriptionModalColoniasMasBaratas">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasMasBaratas">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonColonias" data-bs-toggle="modal" data-bs-target="#interpretationModalColoniasBaratas">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>
+            <div id="coloniasDataMasBaratas"></div>
+
             </div>
         </div>
     </div>
@@ -1023,27 +938,121 @@
 <!-- Script para controlar la visualización de gráficas y los modales -->
 <script>
     function showColoniasData(option) {
-        // Ocultar todas las gráficas
-        document.getElementById('coloniasDataMasBaratas').style.display = 'none';
-        document.getElementById('coloniasDataMasCaras').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente a la opción seleccionada
-        if (option === 'masbaratas') {
-            document.getElementById('coloniasDataMasBaratas').style.display = 'block';
-            document.getElementById('descriptionButtonColonias').setAttribute('data-bs-target', '#descriptionModalColoniasMasBaratas');
-            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasMasBaratas');
-        } else if (option === 'mascaras') {
-            document.getElementById('coloniasDataMasCaras').style.display = 'block';
-            document.getElementById('descriptionButtonColonias').setAttribute('data-bs-target', '#descriptionModalColoniasMasCaras');
-            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', '#interpretationModalColoniasMasCaras');
+        // Crear el iframe dinámicamente
+        let iframe;
+        let srcPath = "/datalpine/resources/Ciudades/Tulancingo/assets/graficas/";
+        let modalTarget;
+        switch (option) {
+            case 'masbaratas':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_baratas.html";
+                modalTarget = '#interpretationModalColoniasBaratas';
+                break;
+            case 'mascaras':
+                iframe = document.createElement('iframe');
+                iframe.src = srcPath + "g_bar_colonias_caras.html";
+                modalTarget = '#interpretationModalColoniasCaras';
+                break;
+            default:
+                console.error('Opción no válida.');
+                return;
+        }
+        if (iframe) {
+            iframe.width = '100%';
+            iframe.height = '400';
+            iframe.frameborder = '0';
+            document.getElementById('coloniasDataMasBaratas').innerHTML = ''; // Actualizar el contenedor
+            document.getElementById('coloniasDataMasBaratas').appendChild(iframe);
+            document.getElementById('interpretationButtonColonias').setAttribute('data-bs-target', modalTarget);
+        } else {
+            console.error('El directorio especificado no existe.');
         }
     }
-
-    // Mostrar la gráfica "Más Baratas" por defecto al cargar la página
-    window.onload = function() {
+    // Mostrar la gráfica de colonias más baratas por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
         showColoniasData('masbaratas');
-    };
+    });
 </script>
+
+
+
+
+
+        <!-- Gráfica: Colonias Predominantes -->
+        <div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title subtitle mb-3 text-center">Colonias Predominantes</h5>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie me-2"></i>
+                    <span class="developer-label">Desarrollador</span>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal33">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal33">Interpretación</button>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_bar_colonias_predominantes.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Description -->
+<div class="modal fade" id="descriptionModal33" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="descriptionModalLabel3">Descripción</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                Se muestra una relación de las colonias en las cuales hay una mayor concentración de propiedades en oferta dentro de la zona de Tulancingo de Bravo.            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Interpretation -->
+<div class="modal fade" id="interpretationModal33" tabindex="-1" aria-labelledby="interpretationModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="interpretationModalLabel3">Interpretación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                Se observa que la colonia de <strong>Jardines del Sur</strong> es el que lidera la oferta dentro de la zona, ya que tiene un mayor número de propiedades en venta con un <strong>7.5%</strong> de la oferta total de la zona, posiblemente debido a una mayor oferta de nuevos desarrollos o por una mayor disposición de los propietarios de los inmuebles a vender sus viviendas.
+                </p>
+                <p>
+                Además, las cinco colonias aglutinan una parte significativa de la oferta total, lo que sugiere que la oferta de propiedades en venta no está distribuida de manera uniforme en toda la ciudad, lo que podría estar relacionado con factores como el nivel socioeconómico de la zona, la disponibilidad de servicios, el tipo de vivienda predominante y el atractivo para los compradores.
+                </p>
+                <p>
+                En general las cinco zonas mostradas en el grafico son las que predominan la oferta por diferentes razones las cuales podrían ser algunas de las que menciono a continuación: 
+                </p>
+                <ul>
+                    <li>Podría haber nuevos desarrollos inmobiliarios, lo que aumentaría la oferta de viviendas disponibles para la venta.</li>
+                    <li>Estas colonias podrían ser percibidas como zonas con mayor plusvalía o potencial de crecimiento, lo que atrae a más inversionistas y propietarios que buscan vender sus propiedades.</li>
+                    <li>La ubicación estratégica de estas colonias, con buena conectividad a vías principales y servicios, las hace más atractivas para los compradores y puede contribuir a una mayor rotación de propiedades.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
 
         <!-- Gráfica 3: Tiempo en el mercado -->

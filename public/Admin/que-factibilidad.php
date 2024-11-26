@@ -164,8 +164,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <select class="form-select" id="yearSelect" onchange="showYearlyData(this.value)">
-                                        <option value="">Seleccione un año</option>
-                                        <option value="2019">2019</option>
+                                        <option value="2019">Seleccione un año</option>
+                                        <option value="2019" selected>2019</option>
                                         <option value="2020">2020</option>
                                         <option value="2021">2021</option>
                                         <option value="2022">2022</option>
@@ -178,14 +178,15 @@
                                     <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal">Interpretación</button>
                                 </div>
                             </div>
-                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
+                            <div style="border-top: 1px solid #ccc; padding-top: 10px;">                    
+                                <div id="nuevaUsadaContainer"></div>    
+                            <!--<iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2019.html" width="100%" height="400" frameborder="0" id="yearlyData2019" style="display: block;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2020.html" width="100%" height="400" frameborder="0" id="yearlyData2020" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2021.html" width="100%" height="400" frameborder="0" id="yearlyData2021" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2022.html" width="100%" height="400" frameborder="0" id="yearlyData2022" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2023.html" width="100%" height="400" frameborder="0" id="yearlyData2023" style="display: none;"></iframe>
                                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_2024.html" width="100%" height="400" frameborder="0" id="yearlyData2024" style="display: none;"></iframe>
-                            </div>
+                            --></div>
                         </div>
                     </div>
                 </div>
@@ -309,27 +310,26 @@
 
         <script>
             function showYearlyData(year) {
-                // Ocultar todas las gráficas
-                const years = ['2019', '2020', '2021', '2022', '2023', '2024'];
-                years.forEach(y => {
-                    document.getElementById(`yearlyData${y}`).style.display = 'none';
-                });
-
-                // Mostrar la gráfica correspondiente al año seleccionado
-                if (year) {
-                    document.getElementById(`yearlyData${year}`).style.display = 'block';
-                }
+                // Crear el iframe dinámicamente
+                const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_scatt_creditos_nuevausada_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('nuevaUsadaContainer').innerHTML = '';
+                document.getElementById('nuevaUsadaContainer').appendChild(iframe);
 
                 // Actualizar el botón de interpretación según el año
                 const interpretationButton = document.getElementById('interpretationButton');
                 interpretationButton.setAttribute('data-bs-target', `#interpretationModal${year}`);
             }
-            // Mostrar la gráfica de 2022 por defecto al cargar la página
-            window.onload = function() {
+            
+            // Mostrar la gráfica de 2019 por defecto al cargar la página
+            document.addEventListener('DOMContentLoaded', function() {
                 showYearlyData('2019');
-            };      
+            });
         </script>
-
 
 
 
@@ -749,8 +749,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectMontos" onchange="showYearlyDataMontos(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -761,9 +761,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2022" style="display: block;"></iframe>
+                <div id="creditosMontosContainer"></div>    
+                <!--<iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2022" style="display: block;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2023" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2024" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataMontos2024" style="display: none;"></iframe>-->
             </div>
         </div>
     </div>
@@ -841,20 +842,25 @@
 
 <script>
     function showYearlyDataMontos(year) {
-        // Ocultar todas las gráficas
-        document.getElementById('yearlyDataMontos2022').style.display = 'none';
-        document.getElementById('yearlyDataMontos2023').style.display = 'none';
-        document.getElementById('yearlyDataMontos2024').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataMontos${year}`).style.display = 'block';
-        }
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Queretaro/assets/graficas/g_bar_creditos_monto_${year}.html?year=${year}`;
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('creditosMontosContainer').innerHTML = '';
+        document.getElementById('creditosMontosContainer').appendChild(iframe);
 
         // Actualizar el botón de interpretación según el año
         const interpretationButton = document.getElementById('interpretationButtonMontos');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalMontos${year}`);
     }
+
+    // Mostrar la gráfica de 2022 por defecto al cargar la página
+    document.addEventListener('DOMContentLoaded', function() {
+        showYearlyDataMontos('2022');
+    });
 </script>
 
 

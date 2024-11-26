@@ -592,13 +592,16 @@
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#creditSegmentationModal2022">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModalTrimestre2022">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <div id="segmentoTrimestreDataContainer"></div>    
+                <!--                                
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
+                -->
             </div>
         </div>
     </div>
@@ -613,7 +616,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Puebla de Zaragoza, desde el segmento <strong>E</strong> (<strong>3.25 a 4 millones</strong>) hasta el segmento <strong>ELITE</strong> (<strong>más 12 millones</strong>). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
+                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Pachuca de Soto, desde el segmento E (<strong>3.25</strong> a <strong>4</strong> millones) hasta el segmento ELITE (más <strong>12</strong> millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -623,15 +626,19 @@
 </div>
 
 <!-- Modal for Interpretation 2022 -->
-<div class="modal fade" id="creditSegmentationModal2022" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2022" aria-hidden="true">
+<div class="modal fade" id="interpretationModalTrimestre2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="creditSegmentationModalLabel2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2022</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Puebla de Zaragoza. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los segmentos <strong>S</strong> y <strong>L</strong> sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
+                <p>Para el año <strong>2022</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+
+                <p>Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los segmentos S y L sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+
+                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -641,15 +648,19 @@
 </div>
 
 <!-- Modal for Interpretation 2023 -->
-<div class="modal fade" id="creditSegmentationModal2023" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2023" aria-hidden="true">
+<div class="modal fade" id="interpretationModalTrimestre2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="creditSegmentationModalLabel2023">Interpretación 2023</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación 2023</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2023</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Puebla de Zaragoza. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana. La participación de los segmentos de mayor valor (S y L) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales. Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
+                <p>Para el año <strong>2023</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+
+                <p>La participación de los segmentos de mayor valor (S y L) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+
+                <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -659,15 +670,19 @@
 </div>
 
 <!-- Modal for Interpretation 2024 -->
-<div class="modal fade" id="creditSegmentationModal2024" tabindex="-1" aria-labelledby="creditSegmentationModalLabel2024" aria-hidden="true">
+<div class="modal fade" id="interpretationModalTrimestre2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="creditSegmentationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para los primeros 2 trimestres del <strong>2024</strong>, el segmento <strong>E</strong> (menos de 500 mil a 1 millón) sigue dominando de manera significativa en ambos trimestres con más del <strong>21%</strong> de los créditos otorgados, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica. El segmento <strong>D</strong> (1 millón a 1.75 millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Puebla de Zaragoza, este atrayendo a compradores con mayor poder adquisitivo. Mientras que el resto de los segmentos presentan porcentajes de participación menores.</p>
+                <p>Para los primeros 2 trimestres del 2024, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
+
+                <p>El segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Pachuca de Soto, este atrayendo a compradores con mayor poder adquisitivo.</p>
+
+                <p>Mientras que el resto de los segmentos presentan porcentajes de participación menores.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -679,25 +694,26 @@
 <!-- Script para controlar la visualización de gráficas -->
 <script>
     function showCategoriaData(year) {
-        // Ocultar todas las gráficas
-        document.getElementById('categoriaData2022').style.display = 'none';
-        document.getElementById('categoriaData2023').style.display = 'none';
-        document.getElementById('categoriaData2024').style.display = 'none';
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        document.getElementById(`categoriaData${year}`).style.display = 'block';
-
-        // Actualizar el botón de interpretación según el año seleccionado
-        const interpretationButton = document.getElementById('interpretationButtonCategoria');
-        interpretationButton.setAttribute('data-bs-target', `#creditSegmentationModal${year}`);
+        // Crear el iframe dinámicamente
+        const iframe = document.createElement('iframe');
+        iframe.src = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_dist_creditos_segmento_percent_${year}.html`;        
+        iframe.width = '100%';
+        iframe.height = '400';
+        iframe.frameborder = '0';
+        iframe.style.minHeight = '430px';
+        iframe.style.border = '0';
+        // Reemplazar el contenido del contenedor
+        document.getElementById('segmentoTrimestreDataContainer').innerHTML = '';
+        document.getElementById('segmentoTrimestreDataContainer').appendChild(iframe);
+        // Cambiar el modal de interpretación según el año seleccionado
+        document.getElementById('interpretationModalTrimestre').setAttribute('data-bs-target', `#interpretationModal${year}`);
     }
-
+    
     // Mostrar la gráfica de 2022 por defecto al cargar la página
-    window.onload = function() {
+    document.addEventListener('DOMContentLoaded', function() {
         showCategoriaData('2022');
-    };
+    });      
 </script>
-
 
 
 

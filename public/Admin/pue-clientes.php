@@ -159,8 +159,8 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectUMAS" onchange="showYearlyDataUMAS(this.value)">
-                        <option value="">Seleccione un año</option>
-                        <option value="2022">2022</option>
+                        <option value="2022">Seleccione un año</option>
+                        <option value="2022" selected>2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
@@ -171,9 +171,10 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: block;"></iframe>
+                <div id="UMASContainer"></div>
+                <!-- <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2022.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2022" style="display: block;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2023.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2023" style="display: none;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Puebla/assets/graficas/g_bar_creditos_umas_2024.html" width="100%" height="400" frameborder="0" id="yearlyDataUMAS2024" style="display: none;"></iframe>-->
             </div>
         </div>
     </div>
@@ -266,27 +267,27 @@
 </div>
 
 <!-- Script para controlar la visualización de gráficas -->
+<!-- Script para controlar la visualización de gráficas -->
 <script>
     function showYearlyDataUMAS(year) {
-        // Ocultar todas las gráficas
-        const years = ['2022', '2023', '2024'];
-        years.forEach(y => {
-            document.getElementById(`yearlyDataUMAS${y}`).style.display = 'none';
-        });
-
-        // Mostrar la gráfica correspondiente al año seleccionado
-        if (year) {
-            document.getElementById(`yearlyDataUMAS${year}`).style.display = 'block';
-        }
-
+         // Crear el iframe dinámicamente
+       const iframe = document.createElement('iframe');
+                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_${year}.html?year=${year}`;
+                iframe.width = '100%';
+                iframe.height = '400';
+                iframe.frameborder = '0';
+                // Reemplazar el contenido del contenedor
+                document.getElementById('UMASContainer').innerHTML = '';
+                document.getElementById('UMASContainer').appendChild(iframe);
+                
         // Actualizar el botón de interpretación para abrir el modal correcto
         const interpretationButton = document.getElementById('interpretationButtonUMAS');
         interpretationButton.setAttribute('data-bs-target', `#interpretationModalUMAS${year}`);
     }
-    // Show the 2022 graph by default when the page loads
-    window.onload = function() {
-        showYearDataSegmento('2022');
-    };
+    // Mostrar la gráfica de 2019 por defecto al cargar la página
+   document.addEventListener('DOMContentLoaded', function() {
+    showYearlyDataUMAS('2022');
+});
 </script>
 
 
