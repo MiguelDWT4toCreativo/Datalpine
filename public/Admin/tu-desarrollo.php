@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-md-auto" style="text-align: center; margin: 0 auto;">
                         <select class="form-select" id="segmentFilter" style="text-align: center;" onchange="actualizarTablas(this.value)">
-                            <option value="general">General</option>
+                            <option value="general" selected>General</option>
                             <option value="E">E</option>
                             <option value="D">D</option>
                             <option value="C">C</option>
