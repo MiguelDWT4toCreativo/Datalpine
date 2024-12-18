@@ -31,37 +31,36 @@ const grupoPrecioMercadoJson = {
 };
 
 const grupoMetrosTerrenoJson = {
-    "A": { "Mínimo": "30.00 m²", "Máximo": "22,415.00 m²", "Promedio": "167.42 m²", "Mediana": "147.00 m²" },
-    "B": { "Mínimo": "14.00 m²", "Máximo": "1,387.00 m²", "Promedio": "133.18 m²", "Mediana": "128.00 m²" },
-    "C": { "Mínimo": "42.00 m²", "Máximo": "11,267.00 m²", "Promedio": "122.91 m²", "Mediana": "112.00 m²" },
-    "D": { "Mínimo": "44.00 m²", "Máximo": "2,144.00 m²", "Promedio": "110.06 m²", "Mediana": "89.00 m²" },
-    "E": { "Mínimo": "35.00 m²", "Máximo": "290,000.00 m²", "Promedio": "677.74 m²", "Mediana": "220.00 m²" },
-    "L": { "Mínimo": "103.00 m²", "Máximo": "80,000.00 m²", "Promedio": "930.26 m²", "Mediana": "700.00 m²" },
-    "S": { "Mínimo": "15.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "525.92 m²", "Mediana": "250.00 m²" },
-    "general": { "Mínimo": "14.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "381.36 m²", "Mediana": "180.00 m²" }
+    "A": { "Mínimo": "30.00 m²", "Máximo": "22,415.00 m²", "Promedio": "168.82 m²", "Mediana": "145.00 m²" },
+    "B": { "Mínimo": "52.00 m²", "Máximo": "1,387.00 m²", "Promedio": "129.77 m²", "Mediana": "124.00 m²" },
+    "C": { "Mínimo": "42.00 m²", "Máximo": "11,267.00 m²", "Promedio": "123.72 m²", "Mediana": "110.00 m²" },
+    "D": { "Mínimo": "44.00 m²", "Máximo": "2,144.00 m²", "Promedio": "114.14 m²", "Mediana": "86.00 m²" },
+    "E": { "Mínimo": "35.00 m²", "Máximo": "290,000.00 m²", "Promedio": "696.80 m²", "Mediana": "234.00 m²" },
+    "L": { "Mínimo": "103.00 m²", "Máximo": "80,000.00 m²", "Promedio": "885.85 m²", "Mediana": "700.00 m²" },
+    "S": { "Mínimo": "44.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "522.59 m²", "Mediana": "250.00 m²" },
+    "general": { "Mínimo": "30.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "419.84 m²", "Mediana": "189.00 m²" }
 };
 
 const grupoMetrosConstruidosJson = {
-    "A": { "Mínimo": "51.00 m²", "Máximo": "22,415.00 m²", "Promedio": "177.88 m²", "Mediana": "166.00 m²" },
-    "B": { "Mínimo": "15.00 m²", "Máximo": "543.00 m²", "Promedio": "136.28 m²", "Mediana": "132.00 m²" },
-    "C": { "Mínimo": "42.00 m²", "Máximo": "11,267.00 m²", "Promedio": "128.81 m²", "Mediana": "112.00 m²" },
-    "D": { "Mínimo": "42.00 m²", "Máximo": "1,064.00 m²", "Promedio": "112.30 m²", "Mediana": "84.00 m²" },
-    "E": { "Mínimo": "35.00 m²", "Máximo": "280,000.00 m²", "Promedio": "502.63 m²", "Mediana": "260.00 m²" },
-    "L": { "Mínimo": "165.00 m²", "Máximo": "80,000.00 m²", "Promedio": "635.97 m²", "Mediana": "500.00 m²" },
-    "S": { "Mínimo": "52.00 m²", "Máximo": "15,683.00 m²", "Promedio": "276.03 m²", "Mediana": "265.00 m²" },
-    "general": { "Mínimo": "14.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "419.74 m²", "Mediana": "189.00 m²" }
+    "A": { "Mínimo": "51.00 m²", "Máximo": "22,415.00 m²", "Promedio": "180.02 m²", "Mediana": "168.00 m²" },
+    "B": { "Mínimo": "52.00 m²", "Máximo": "543.00 m²", "Promedio": "137.56 m²", "Mediana": "132.00 m²" },
+    "C": { "Mínimo": "42.00 m²", "Máximo": "11,267.00 m²", "Promedio": "129.46 m²", "Mediana": "112.00 m²" },
+    "D": { "Mínimo": "42.00 m²", "Máximo": "1,064.00 m²", "Promedio": "113.19 m²", "Mediana": "85.00 m²" },
+    "E": { "Mínimo": "41.00 m²", "Máximo": "280,000.00 m²", "Promedio": "505.28 m²", "Mediana": "263.00 m²" },
+    "L": { "Mínimo": "165.00 m²", "Máximo": "80,000.00 m²", "Promedio": "636.52 m²", "Mediana": "500.00 m²" },
+    "S": { "Mínimo": "44.00 m²", "Máximo": "15,683.00 m²", "Promedio": "274.38 m²", "Mediana": "260.00 m²" },
+    "general": { "Mínimo": "30.00 m²", "Máximo": "2,500,000.00 m²", "Promedio": "419.84 m²", "Mediana": "189.00 m²" }
 };
 const grupoPrecioMetrosConstruidosJson = {
-    "A": { "Mínimo": "$169.53", "Máximo": "$69,835.68", "Promedio": "$23,622.36", "Mediana": "$22,000.00" },
-    "B": { "Mínimo": "$5,930.02", "Máximo": "$175,333.33", "Promedio": "$23,060.99", "Mediana": "$21,598.64" },
-    "C": { "Mínimo": "$164.11", "Máximo": "$56,808.81", "Promedio": "$19,121.77", "Mediana": "$18,873.87" },
-    "D": { "Mínimo": "$1,221.80", "Máximo": "$28,571.43", "Promedio": "$15,801.09", "Mediana": "$16,875.00" },
-    "E": { "Mínimo": "$651.04", "Máximo": "$38,695,652.17", "Promedio": "$80,018.90", "Mediana": "$8,214.29" },
-    "L": { "Mínimo": "$237.50", "Máximo": "$74,733.33", "Promedio": "$32,173.26", "Mediana": "$31,926.41" },
-    "S": { "Mínimo": "$464.20", "Máximo": "$111,320.75", "Promedio": "$24,339.18", "Mediana": "$22,302.56" },
-    "general": { "Mínimo": "$164.11", "Máximo": "$38,695,652.17", "Promedio": "$27,623.68", "Mediana": "$21,428.57" }
+    "A": { "Mínimo": "$169.53", "Máximo": "$69,835.68", "Promedio": "$23,359.40", "Mediana": "$21,698.11" },
+    "B": { "Mínimo": "$5,930.02", "Máximo": "$60,565.38", "Promedio": "$22,788.10", "Mediana": "$21,428.57" },
+    "C": { "Mínimo": "$164.11", "Máximo": "$56,808.81", "Promedio": "$19,020.13", "Mediana": "$18,837.14" },
+    "D": { "Mínimo": "$1,221.80", "Máximo": "$28,571.43", "Promedio": "$15,739.80", "Mediana": "$16,867.47" },
+    "E": { "Mínimo": "$651.04", "Máximo": "$38,695,652.17", "Promedio": "$79,968.85", "Mediana": "$8,034.78" },
+    "L": { "Mínimo": "$237.50", "Máximo": "$74,733.33", "Promedio": "$32,169.16", "Mediana": "$31,926.41" },
+    "S": { "Mínimo": "$464.20", "Máximo": "$111,320.75", "Promedio": "$23,813.80", "Mediana": "$22,045.45" },
+    "general": { "Mínimo": "$164.11", "Máximo": "$38,695,652.17", "Promedio": "$27,505.91", "Mediana": "$21,260.87" }
 };
-
 
 // Función para actualizar las tablas
 function actualizarTablas(segmento) {

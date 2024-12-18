@@ -541,7 +541,7 @@
     </div>
 </div>
 
-<!-- Mediana del precio de oferta -->
+<!-- Mediana del precio de oferta
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -561,7 +561,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalPrecioOferta" tabindex="-1" aria-labelledby="descriptionModalLabelPrecioOferta" aria-hidden="true">

@@ -140,7 +140,7 @@
                     <h1>Factibilidad y viabilidad</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Pachuca de Soto, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Créditos y Viviendas -->
@@ -559,7 +559,7 @@
             </div>
         </div>-->
 
-<!-- Mediana del precio de oferta -->
+<!-- Mediana del precio de oferta 
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -579,7 +579,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalPrecioOferta" tabindex="-1" aria-labelledby="descriptionModalLabelPrecioOferta" aria-hidden="true">
