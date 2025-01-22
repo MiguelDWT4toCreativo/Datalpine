@@ -135,6 +135,29 @@
                             </li>
                         </ul>
                     </li>
+
+
+                    <li>
+                        <a href="javascript:void(0);" class="has-arrow">
+                            <span data-key="t-contacts">Jalisco</span>
+                        </a>
+                        <ul class="sub-menu" aria-expanded="false">
+                            <li>
+                                <a href="javascript:void(0);" class="has-arrow">
+                                    <span data-key="t-contacts">Pto. Vallarta</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="pv-general.php" data-key="t-user-list">General</a></li>
+                                    <li><a href="pv-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
+                                    <li><a href="pv-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
+                                    <li><a href="pv-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
+                                    <li><a href="pv-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
                     <li>
                         <a href="javascript:void(0);" class="has-arrow">
                             <span data-key="t-contacts">Puebla</span>
@@ -161,6 +184,7 @@
                             
                         </ul>
                     </li>
+                    
                 </ul>
             </li>
 
