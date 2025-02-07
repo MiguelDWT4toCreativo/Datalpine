@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Pto. Vallarta | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Jalisco</a></li>
+                                    <li class="breadcrumb-item active">Puerto Vallarta</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -138,7 +138,7 @@
                     <h1>Identificación de cliente potencial</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Hidalgo, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Puerto Vallarta, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Créditos y Segmentación -->
@@ -207,12 +207,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.</p>
+                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>25.85%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.</p>
 
-                <p>En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.</p>
+                <p>En los segmentos de menor ingreso, los porcentajes más significativos, como el <strong>16.71%</strong> en ≤ <strong>2.60 UMAS</strong>, o el <strong>15.52%</strong> en <strong>2.61 a 4.00 UMAS</strong>, podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.</p>
 
-                <p>Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.</p>
+                <p>Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 6.00 UMAS</strong>, con un <strong>15.21%</strong>, y <strong>6.01 a 9.00 UMAS</strong>, con un <strong>16.55%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. El segmento de <strong>9.01 a 12 UMAS</strong> presenta un porcentaje más bajo, con un <strong>10.17%</strong>, lo que podría sugerir una menor demanda o acceso a créditos en este rango.</p>
             </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -228,12 +229,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2023</strong>, el mayor porcentaje de créditos se concentró en el rango de ingresos superiores a <strong>12</strong> UMAS (<strong>23.6%</strong>), lo que resalta la mayor participación de personas con altos ingresos en el mercado crediticio. Los segmentos de ingresos medios, como el rango de <strong>6.01-9.00</strong> UMAS (<strong>17.9%</strong>) y el de <strong>4.01-6.00</strong> UMAS (<strong>15.3%</strong>), también muestran una actividad considerable, lo que indica un mercado activo en estos niveles de ingreso.</p>
+                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>22.27%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.</p>
 
-                <p>El segmento de <strong>9.01-12.00</strong> UMAS también es significativo con un <strong>14.6%</strong>, lo que muestra que hay una buena proporción de créditos para personas con ingresos medios-altos. Esta proporción es igual para el rango de las <strong>2.61</strong> a las <strong>4</strong> UMAS. En comparación, los créditos otorgados a personas con ingresos más bajos, ≤ <strong>2.60</strong> UMAS (<strong>13.9%</strong>), son menores, lo que sugiere barreras en el acceso al crédito para este grupo.</p>
+                <p>En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.68%</strong> en ≤ <strong>2.60 UMAS</strong>, o el <strong>14.75%</strong> en <strong>2.61 a 4.00 UMAS</strong>, podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.</p>
 
-                <p>Este patrón refleja que la mayoría de los créditos otorgados están dirigidos a personas con ingresos medios y altos, mientras que el acceso es más limitado para quienes perciben ingresos menores. Esto podría deberse a mayores restricciones crediticias para los grupos de menores ingresos o a una mayor capacidad adquisitiva de los sectores altos en <strong>Pachuca</strong>.</p>
+                <p>Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 6.00 UMAS</strong>, con un <strong>17.33%</strong>, y <strong>6.01 a 9.00 UMAS</strong>, con un <strong>17.70%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. El segmento de <strong>9.01 a 12 UMAS</strong> presenta un porcentaje más bajo, con un <strong>13.27%</strong>, lo que podría sugerir una menor demanda o acceso a créditos en este rango.</p>
             </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -249,14 +251,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El mayor porcentaje de créditos otorgados se encuentra en el rango de > <strong>12</strong> UMAS (<strong>21%</strong>), lo que indica una prevalencia de créditos dirigidos a personas con ingresos más altos. Esto sugiere que los hogares con mayor capacidad adquisitiva son los que están solicitando y obteniendo una mayor cantidad de financiamiento en <strong>Pachuca de Soto</strong>.</p>
+                <p>La concentración de créditos en el segmento de > <strong>12</strong> UMAS, con un <strong>21.54%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico. Además, programas como el de vivienda federal anunciado por la presidenta Claudia Sheinbaum, que incluye la construcción de viviendas a bajo costo en Hidalgo, podrían estar impulsando el acceso a créditos en diferentes segmentos de ingresos[1][2].</p>
 
-                <p>Por otro lado, los créditos en los rangos de <strong>4.01-6.00</strong> UMAS (<strong>19%</strong>) y <strong>6.01-9.00</strong> UMAS (<strong>17.6%</strong>) también representan una parte importante del mercado, lo que podría estar relacionado con el tamaño del sector de ingresos medios en la ciudad. La participación más baja se observa en el rango de ≤ <strong>2.60</strong> UMAS (<strong>12.5%</strong>), lo que indica que las personas con menores ingresos tienen un acceso más limitado a los créditos, posiblemente debido a mayores requisitos de solvencia o menor capacidad para cumplir con los pagos.</p>
+                <p>En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>13.93%</strong> en ≤ <strong>2.60 UMAS</strong>, o el <strong>16.00%</strong> en <strong>2.61 a 4.00 UMAS</strong>, podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo. Sin embargo, programas de vivienda a bajo costo y regularización podrían mejorar el acceso a créditos para esta población[1][2].</p>
 
-                <p>Es notable como el rango de <strong>9.01</strong> a <strong>12</strong> UMAS tiene un porcentaje menor que los dos rangos inferiores a este. Ingresos medios-altos tienen un bajo interés en obtener créditos inmobiliarios.</p>
-
-                <p>Este patrón sugiere en general, una concentración de financiamiento en los sectores de ingresos altos y medios, con una menor participación de los segmentos de ingresos bajos en el mercado inmobiliario de <strong>Pachuca</strong> en <strong>2024</strong>.</p>
-            </div>
+                <p>Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 6.00 UMAS</strong>, con un <strong>18.25%</strong>, y <strong>6.01 a 9.00 UMAS</strong>, con un <strong>17.99%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. El segmento de <strong>9.01 a 12 UMAS</strong> presenta un porcentaje más bajo, con un <strong>12.28%</strong>, lo que podría sugerir una menor demanda o acceso a créditos en este rango. La meta de otorgar 9 mil créditos de vivienda en 2024 en Hidalgo también refleja un esfuerzo por aumentar el acceso al financiamiento para la vivienda en diferentes niveles de ingresos[6].</p>
+            </div>            
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -269,7 +269,7 @@
     function showYearlyDataUMAS(year) {
          // Crear el iframe dinámicamente
        const iframe = document.createElement('iframe');
-                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_umas_${year}.html?year=${year}`;
+                iframe.src = `/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_creditos_umas_${year}.html?year=${year}`;
                 iframe.width = '100%';
                 iframe.height = '400';
                 iframe.frameborder = '0';
@@ -305,7 +305,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_creditos_destino.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
@@ -320,7 +320,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en <strong>Pachuca de Soto</strong> según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda nueva, usada, mejoramientos y otros programas. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
+                <p>El gráfico muestra cómo se distribuyen los créditos hipotecarios en <strong>Pto. Vallarta</strong> según el tipo de inmueble adquirido o modalidad del crédito. Las modalidades consideradas incluyen la compra de vivienda <strong>nueva</strong>, <strong>usada</strong>, <strong>mejoramientos</strong> y <strong>otros programas</strong>. Esta visualización ayuda a entender las preferencias de los compradores y la distribución de los créditos otorgados en estas diferentes modalidades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -338,7 +338,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La mayor parte de los créditos se destina a la compra de inmuebles nuevos (<strong>46.2%</strong>), lo que puede explicarse por la alta oferta de desarrollos inmobiliarios en <strong>Pachuca</strong>, que buscan atraer a compradores con propiedades nuevas y modernas. El porcentaje significativo de créditos para inmuebles usados (<strong>35.9%</strong>) sugiere que también hay un mercado consolidado de propiedades existentes, probablemente debido a la ubicación o al menor costo en comparación con los desarrollos nuevos. La inversión en mejoras representa un porcentaje menor (<strong>10.6%</strong>), lo que podría indicar que la mayoría de los propietarios optan por vender o adquirir nuevas propiedades en lugar de mejorar las actuales. y un porcentaje aún menor de los créditos se destinan a otros programas (<strong>7.2%</strong>)</p>
+                <p>La mayor parte de los créditos se destina a la compra de inmuebles nuevos, con un <strong>48.33%</strong>, lo que puede explicarse por la alta oferta de desarrollos inmobiliarios en <strong>Pachuca</strong>, que buscan atraer a compradores con propiedades nuevas y modernas. El porcentaje significativo de créditos para inmuebles usados, con un <strong>21.51%</strong>, sugiere que también hay un mercado consolidado de propiedades existentes, probablemente debido a la ubicación o al menor costo en comparación con los desarrollos nuevos. La inversión en mejoras representa un porcentaje considerable, con un <strong>24.82%</strong>, lo que podría indicar que muchos propietarios están optando por mejorar sus propiedades actuales en lugar de adquirir nuevas. Finalmente, un porcentaje menor de los créditos se destinan a otros programas, con un <strong>5.34%</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -367,53 +367,29 @@
 
 <div class="col-md-12">
     <div class="card">
-        <div class="card-body" style="padding-bottom: 0;">
+        <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Profesiones</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
+                <div>
+                   <!-- <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalProfessions">Descripción</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalProfessions">Interpretación</button>-->
+                </div>
             </div>
-            <div class="iframe-container">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/Tablas/tabla_profesiones_off.html" 
-                        frameborder="0">
+            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/Tablas/tabla_profesiones_off.html" 
+                        width="100%" 
+                        height="400" 
+                        frameborder="0" 
+                        style="min-height: 490px; border: 1px solid #ccc; !important">
                 </iframe>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .iframe-container {
-        position: relative;
-        width: 100%;
-        height: 525px; /* Set a fixed initial height */
-        box-sizing: border-box;
-    }
-
-    .iframe-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-
-    @media (max-width: 768px) {
-        .iframe-container {
-            height: 400px; /* Adjusted height for mobile */
-            overflow-x: auto;
-            overflow-y: auto;
-        }
-        .iframe-container iframe {
-            width: 100%;
-            height: 100%;
-            zoom: 0.8;
-        }
-    }
-</style>
 
 <!-- Modales de Descripción e Interpretación -->
 <div class="modal fade" id="descriptionModalProfessions" tabindex="-1" aria-labelledby="descriptionModalProfessionsLabel" aria-hidden="true">
@@ -424,7 +400,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Esta gráfica muestra la distribución de las principales profesiones en Querétaro. Los datos reflejan los sectores más representativos según el número de trabajadores, permitiendo identificar tendencias y demandas laborales en la región.
+                Esta gráfica muestra la distribución de las principales profesiones en <strong>Puerto Vallarta</strong>. Los datos reflejan los sectores más representativos según el número de trabajadores, permitiendo identificar tendencias y demandas laborales en la región.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -437,7 +413,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalProfessionsLabel">Interpretación: Distribución de Profesiones</h5>
+                <h5 class="modal-title" id="interpretationModalProfessionsLabel">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -456,7 +432,6 @@
 <!-- Sección Clientes Potenciales -->
 <div class="container-fluid">
     <div class="row">
-        <!-- Columna completa: Clientes potenciales foráneos -->
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -466,199 +441,50 @@
                             <i class="fas fa-user-tie me-2"></i>
                             <span class="developer-label">Desarrollador</span>
                         </div>
-<!--
                         <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                        </div>-->
+                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalfor">Descripción</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalfor">Interpretación</button>
+                        </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/foraneos.html" width="100%" height="400" frameborder="0"></iframe>
+                    <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/mapas/foraneos.html" width="100%" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Sección Clientes Potenciales 
-<div class="container-fluid">
-    <div class="row">-->
-        <!-- Columna completa: Clientes potenciales foráneos 
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title subtitle mb-3 text-center">Clientes potenciales foráneos</h5>
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-user-tie me-2"></i>
-                            <span class="developer-label">Desarrollador</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal5">Descripción</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal5">Interpretación</button>
-                        </div>
-                    </div>
-                    <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/foraneos.png" width="100%" height="400" frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->
 
 <!-- Modales para Descripción e Interpretación -->
 <!-- Modal 1 -->
-<div class="modal fade" id="descriptionModal1" tabindex="-1" aria-labelledby="descriptionModal1Label" aria-hidden="true">
+<div class="modal fade" id="descriptionModalfor" tabindex="-1" aria-labelledby="descriptionModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal1Label">Descripción - Promedio de valor de Créditos para casas nueva y para vivienda usada</h5>
+                <h5 class="modal-title" id="descriptionModal1Label">Descripción</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <!-- Agregar descripción aquí -->
+                <p>El mapa muestra la distribución de compradores de otras regiones interesados en adquirir propiedades en la ciudad de Puerto Vallarta. Estos compradores se clasifican según su región de origen y se ponderan en función de un análisis detallado de variables clave, como el tamaño del mercado, la demanda del producto o servicio y la accesibilidad logística. Esta información permite comprender de dónde provienen los interesados en el mercado inmobiliario local, facilitando la identificación de tendencias y preferencias de compra.</p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="interpretationModal1" tabindex="-1" aria-labelledby="interpretationModal1Label" aria-hidden="true">
+<div class="modal fade" id="interpretationModalfor" tabindex="-1" aria-labelledby="interpretationModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal1Label">Interpretación - Promedio de valor de Créditos para casas nueva y para vivienda usada</h5>
+                <h5 class="modal-title" id="interpretationModal1Label">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <!-- Agregar interpretación aquí -->
+                <p>La mayoría de los compradores de casas en Puerto Vallarta provienen de <strong>Jalisco</strong>, representando el <strong>45.35%</strong> de las ventas. Le siguen <strong>Nayarit</strong> con un <strong>44.25%</strong> y la <strong>Ciudad de México</strong> con un <strong>7.96%</strong>. Otras regiones que también aportan significativamente son <strong>Zacatecas</strong> (1.33%), <strong>Baja California Sur</strong> (0.44%), <strong>Guanajuato</strong> (0.33%) y <strong>Querétaro</strong> (0.33%).</p>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Modal 2 -->
-<div class="modal fade" id="descriptionModal2" tabindex="-1" aria-labelledby="descriptionModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal2Label">Descripción - Distribución % de créditos por categoría (trimestre)</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar descripción aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal2" tabindex="-1" aria-labelledby="interpretationModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal2Label">Interpretación - Distribución % de créditos por categoría (trimestre)</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar interpretación aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 3 -->
-<div class="modal fade" id="descriptionModal3" tabindex="-1" aria-labelledby="descriptionModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal3Label">Descripción - Créditos por porcentaje de UMAS</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            Esta gráfica de barras muestra la distribución de créditos otorgados en Pachuca de Soto durante el año, clasificados según el nivel de ingresos en UMAS (Unidades de Medida y Actualización). El eje X refleja los diferentes rangos de ingresos, y el eje Y muestra el porcentaje de créditos otorgados en cada rango. Esta visualización ayuda a comprender cómo los diferentes niveles de ingreso afectan el acceso al crédito en la ciudad.
-                <!-- Agregar descripción aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal3" tabindex="-1" aria-labelledby="interpretationModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal3Label">Interpretación - Créditos por porcentaje de UMAS</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                La concentración de créditos en el segmento de > <strong>12 UMAS</strong>, con un <strong>28.14%</strong>, refleja una tendencia hacia un grupo más acomodado económicamente, que tiene mayor acceso a financiamiento. Esta tendencia podría explicarse por el crecimiento de la clase media alta en la región y una creciente demanda de propiedades de mayor valor, especialmente en  inversiones en inmuebles de lujo, ya que <strong>Pachuca</strong> se ha convertido en un punto de interés para inversionistas por su cercanía a la <strong>Ciudad de México</strong> y su potencial de desarrollo económico.
-
-En los segmentos de menor ingreso, los porcentajes más bajos, como el <strong>14.77%</strong> en ≤ <strong>2.60 UMAS</strong>,  o el <strong>14.11%</strong> en <strong>2.61 a 6 UMAS</strong> podrían estar relacionados con la capacidad limitada de financiamiento de estas personas, quienes probablemente dependen de subsidios o apoyos gubernamentales para acceder a créditos más pequeños o viviendas de interés social. El acceso al crédito también puede verse limitado por la falta de historial crediticio o la inestabilidad laboral en este grupo.
-
-Además, los datos de ingresos medios en los segmentos entre <strong>4.01 - 12.00 UMAS</strong>, con promedios de <strong>15.59%</strong> y <strong>12.62%</strong>, indican que hay una población considerable con ingresos medianos que sigue accediendo a financiamiento para vivienda. Aunque sorprende que el segmento de <strong>9.01 a 12 UMAS</strong> tenga el porcentaje más bajo de todos.
-                </p>
-               
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 4 -->
-<div class="modal fade" id="descriptionModal4" tabindex="-1" aria-labelledby="descriptionModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal4Label">Descripción - Destino del crédito</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar descripción aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal4" tabindex="-1" aria-labelledby="interpretationModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal4Label">Interpretación - Destino del crédito</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar interpretación aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 5 -->
-<div class="modal fade" id="descriptionModal5" tabindex="-1" aria-labelledby="descriptionModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModal5Label">Descripción - Clientes potenciales foráneos</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar descripción aquí -->
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="interpretationModal5" tabindex="-1" aria-labelledby="interpretationModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModal5Label">Interpretación - Clientes potenciales foráneos</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- Agregar interpretación aquí -->
-            </div>
-        </div>
-    </div>
-</div>
 
 
 

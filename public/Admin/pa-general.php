@@ -151,7 +151,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución por segmento</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de segmentos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -315,11 +315,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El segmento E sigue siendo el más demandado con el <strong>53.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor.</p>
+                <p>El <strong>segmento E</strong> sigue siendo el más demandado con el <strong>53.5%</strong> de los créditos, pero muestra una tendencia a la baja en comparación con años anteriores. Este descenso podría estar relacionado con un aumento en los precios inmobiliarios, lo que empuja la demanda hacia propiedades de mayor valor.</p>
 
-                <p>El crecimiento del segmento D (<strong>20.5%</strong>) y C (<strong>8.96%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio.</p>
+                <p>El crecimiento del <strong>segmento D</strong> (<strong>20.5%</strong>) y <strong>C</strong> (<strong>8.96%</strong>) refleja una posible mejora en el poder adquisitivo o un incremento en las inversiones en propiedades de rango medio.</p>
 
-                <p>El segmento S (<strong>7.2%</strong>) mantiene un mercado estable para propiedades de valor medio-alto, sugiriendo una demanda sostenida en este nicho específico.</p>
+                <p>El <strong>segmento S</strong> (<strong>7.2%</strong>) mantiene un mercado estable para propiedades de valor medio-alto, sugiriendo una demanda sostenida en este nicho específico.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -410,10 +410,10 @@
             <div class="modal-body">
                 <p><strong>Variabilidad entre segmentos:</strong> Los diferentes segmentos muestran comportamientos de precios bastante distintos, lo que indica que factores específicos afectan a cada uno de manera diferente.</p>
                 <p><strong>Dominancia de tendencias a la baja:</strong> La mayoría de los segmentos muestran una disminución en sus precios, lo que sugiere una tendencia general a la baja en los precios del mercado en general.</p>
-                <p><strong>Segmentos A, B, y L:</strong> Experimentan pequeñas disminuciones en sus precios (-0.45%, -0.20%, -1.01%), lo que sugiere una ligera tendencia a la baja en estos segmentos.</p>
-                <p><strong>Segmento C:</strong> Muestra un ligero aumento en su precio(0.25%), lo que sugiere una mayor demanda.</p>
-                <p><strong>Segmento S:</strong> Presenta la mayor disminución en el precio (-2.27%)de todos los segmentos, indicando una caída significativa en sus precios. Esto podría deberse a diversos factores como cambios en las condiciones económicas que afectan específicamente a este segmento.</p>
-                <p><strong>Segmentos E y D:</strong> Muestran una disminución igual grande en sus precios (1.66%, 1.26%), lo que sugiere una mayor demanda o una escasez de productos o servicios en estos segmentos.</p>
+                <p><strong>Segmentos A, B, y L:</strong> Experimentan pequeñas disminuciones en sus precios (<strong>-0.45%, -0.20%, -1.01%</strong>), lo que sugiere una ligera tendencia a la baja en estos segmentos.</p>
+                <p><strong>Segmento C:</strong> Muestra un ligero aumento en su precio(<strong>0.25%</strong>), lo que sugiere una mayor demanda.</p>
+                <p><strong>Segmento S:</strong> Presenta la mayor disminución en el precio (<strong>-2.27%</strong>)de todos los segmentos, indicando una caída significativa en sus precios. Esto podría deberse a diversos factores como cambios en las condiciones económicas que afectan específicamente a este segmento.</p>
+                <p><strong>Segmentos E y D:</strong> Muestran una disminución igual grande en sus precios (<strong>1.66%, 1.26%</strong>), lo que sugiere una mayor demanda o una escasez de productos o servicios en estos segmentos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -454,7 +454,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>La gráfica muestra la distribución de las profesiones más comunes en Pachuca, segmentada por sectores como la salud, la educación, la tecnología y los servicios. Cada barra representa un sector profesional y su proporción relativa en el mercado laboral de la ciudad.</p>
+                        <p>La gráfica muestra la distribución de las profesiones más comunes en <strong>Pachuca</strong>, segmentada por sectores como la salud, la educación, la tecnología y los servicios. Cada barra representa un sector profesional y su proporción relativa en el mercado laboral de la ciudad.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -513,7 +513,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica representa el volumen del mercado salarial para parejas en Pachuca. Muestra el número de parejas que caen dentro de distintos rangos salariales, permitiendo una visión clara de cómo se distribuyen los ingresos en la ciudad para este grupo demográfico. Es útil para identificar los segmentos de población que tienen mayor capacidad adquisitiva para acceder a inmuebles.</p>
+                        <p>Esta gráfica representa el volumen del mercado salarial para parejas en <strong>Pachuca</strong>. Muestra el número de parejas que caen dentro de distintos rangos salariales, permitiendo una visión clara de cómo se distribuyen los ingresos en la ciudad para este grupo demográfico. Es útil para identificar los segmentos de población que tienen mayor capacidad adquisitiva para acceder a inmuebles.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -531,7 +531,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>La gráfica de mercado salarial para parejas muestra que la mayoría de las parejas en Pachuca se concentran en el rango salarial de <strong>25,000 a 35,000 pesos mensuales</strong>, lo que indica una capacidad adquisitiva media-alta en este grupo. Esta distribución refleja que muchas parejas están en condiciones de adquirir viviendas de rango medio-alto, lo que puede influir en el comportamiento del mercado inmobiliario. Las parejas con salarios superiores a <strong>50,000 pesos mensuales</strong> representan una menor proporción, pero también constituyen un segmento de mercado atractivo para propiedades de lujo o de mayor valor.</p>
+                        <p>La gráfica de mercado salarial para parejas muestra que la mayoría de las parejas en <strong>Pachuca</strong> se concentran en el rango salarial de <strong>25,000 a 35,000 pesos mensuales</strong>, lo que indica una capacidad adquisitiva media-alta en este grupo. Esta distribución refleja que muchas parejas están en condiciones de adquirir viviendas de rango medio-alto, lo que puede influir en el comportamiento del mercado inmobiliario. Las parejas con salarios superiores a <strong>50,000 pesos mensuales</strong> representan una menor proporción, pero también constituyen un segmento de mercado atractivo para propiedades de lujo o de mayor valor.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -594,7 +594,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica presenta la distribución del salario individual en Pachuca. Los datos segmentan los rangos salariales para ilustrar cómo se distribuye el ingreso entre los habitantes de la ciudad, permitiendo identificar los grupos con mayor o menor poder adquisitivo dentro del mercado inmobiliario.</p>
+                <p>Esta gráfica presenta la distribución del salario individual en <strong>Pachuca</strong>. Los datos segmentan los rangos salariales para ilustrar cómo se distribuye el ingreso entre los habitantes de la ciudad, permitiendo identificar los grupos con mayor o menor poder adquisitivo dentro del mercado inmobiliario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -655,7 +655,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres de 2019 a 2024.</p>
+                <p>La gráfica de pastel refleja la proporción de créditos otorgados a hombres y mujeres de <strong>2019</strong> a <strong>2024</strong>.</p>
                 
                 <p>Este tipo de gráfico nos muestra posibles diferencias en el acceso al financiamiento por género y ofrece información sobre cómo se distribuyen los recursos financieros en el mercado inmobiliario.</p>
                 
@@ -730,7 +730,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Pachuca de Soto, desde el segmento E (<strong>3.25</strong> a <strong>4</strong> millones) hasta el segmento ELITE (más <strong>12</strong> millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
+                <p>Se muestra la distribución porcentual de créditos por categorías de precios durante los cuatro trimestres del año. Esta gráfica revela las tendencias en la concesión de créditos para diferentes rangos de precios de inmuebles en Pachuca de Soto, desde el <strong>segmento E</strong> (<strong>3.25</strong> a <strong>4</strong> millones) hasta el <strong>segmento ELITE</strong> (más <strong>12</strong> millones). Un mayor porcentaje en un trimestre indica una mayor demanda de créditos en ese segmento para ese periodo, y las variaciones entre trimestres muestran cómo las preferencias de los compradores fluctúan a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -748,9 +748,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2022</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+                <p>Para el año <strong>2022</strong>, el <strong>segmento E</strong> (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
 
-                <p>Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los segmentos S y L sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+                <p>Conforme aumentan los precios de los segmentos, los créditos otorgados disminuyen. La participación de los <strong>segmentos S</strong> y <strong>L</strong> sugieren un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
 
                 <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
@@ -770,9 +770,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para el año <strong>2023</strong>, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
+                <p>Para el año <strong>2023</strong>, el <strong>segmento E</strong> (menos de <strong>500</strong> mil a <strong>1</strong> millón) domina en todos los trimestres, lo que indica una preferencia constante por propiedades más accesibles en Pachuca de Soto. El crecimiento del sector inmobiliario en la zona refleja una fuerte demanda de inmuebles, en especial en la zona metropolitana.</p>
 
-                <p>La participación de los segmentos de mayor valor (S y L) sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
+                <p>La participación de los segmentos de mayor valor <strong>(S y L)</strong> sugiere un nicho de mercado para adquirir propiedades de lujo, probablemente impulsado por la creciente atracción de inversionistas nacionales e internacionales.</p>
 
                 <p>Esto también puede estar vinculado a la expansión de desarrollos sostenibles y la llegada de nuevos proyectos residenciales y comerciales en la región.</p>
             </div>
@@ -792,9 +792,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para los primeros 2 trimestres del 2024, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
+                <p>Para los primeros 2 trimestres del 2024, el <strong>segmento E</strong> (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
 
-                <p>El segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Pachuca de Soto, este atrayendo a compradores con mayor poder adquisitivo.</p>
+                <p>El <strong>segmento D</strong> (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de <strong>Pachuca de Soto</strong>, este atrayendo a compradores con mayor poder adquisitivo.</p>
 
                 <p>Mientras que el resto de los segmentos presentan porcentajes de participación menores.</p>
             </div>
@@ -895,7 +895,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es posible notar que el mercado inmobiliario de Pachuca de Soto es consistente en el tiempo que tardan las propiedades en venderse, la mayoría de los segmentos tarda hasta <strong>7 meses</strong>. De manera más particular, el segmento E tiene una participación importante de <strong>7</strong> a <strong>9</strong> meses. Un caso muy parecido al segmento <strong>D</strong>, con la diferencia de la cantidad de propiedades se venden. Los segmentos <strong>C</strong>, <strong>B</strong> y <strong>A</strong> poseen tiempos de venta más homogéneos. Mientras que, el segmento <strong>S</strong> comienza a tener participación en periodos más extendidos más de <strong>10</strong> meses y el segmento <strong>L</strong> destaca en un periodo de <strong>19</strong> a <strong>24</strong> meses, esto puede deberse a que es un segmento con precios mucho más altos.</p>
+                <p>Es posible notar que el mercado inmobiliario de Pachuca de Soto es consistente en el tiempo que tardan las propiedades en venderse, la mayoría de los segmentos tarda hasta <strong>7 meses</strong>. De manera más particular, el segmento <strong>E</strong> tiene una participación importante de <strong>7</strong> a <strong>9</strong> meses. Un caso muy parecido al segmento <strong>D</strong>, con la diferencia de la cantidad de propiedades se venden. Los segmentos <strong>C</strong>, <strong>B</strong> y <strong>A</strong> poseen tiempos de venta más homogéneos. Mientras que, el segmento <strong>S</strong> comienza a tener participación en periodos más extendidos más de <strong>10</strong> meses y el segmento <strong>L</strong> destaca en un periodo de <strong>19</strong> a <strong>24</strong> meses, esto puede deberse a que es un segmento con precios mucho más altos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -1043,7 +1043,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelTulancingo">Interpretación Tulancingo</h5>
+                <h5 class="modal-title" id="interpretationModalLabelTulancingo">Interpretación Pachuca</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

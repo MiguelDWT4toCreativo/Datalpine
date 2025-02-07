@@ -201,8 +201,8 @@
                     <li><strong>Segmento C:</strong> Los subsegmentos <strong>C1, C2 y C3</strong> muestran una distribución uniforme, reflejando estabilidad en la demanda en la gama media del mercado.</li>
                     <li><strong>Segmento B:</strong> Los subsegmentos <strong>B1, B2 y B3</strong> ofrecen una variedad de opciones para compradores con presupuestos variados, mostrando una distribución equilibrada de propiedades en diferentes rangos de precios.</li>
                     <li><strong>Segmento A:</strong> <strong>A1, A2 y A3</strong> tienen una representación similar, indicando una demanda estable en los rangos de precios más altos.</li>
-                    <li><strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente, sin embargo, S2 y S3 son subsegmentos que tienen alta participación en el mercado, indicando una demanda amplia para propiedades de alto valor.</li>
-                    <li><strong>Segmento L:</strong> Los subsegmentos de las propiedades L tienen una representación baja en el mercado, sin embargo en L1 las propiedades tienen una presencia destacable.</li>
+                    <li><strong>Segmento S:</strong> Este segmento es el <strong>S1</strong> el más prominente, sin embargo, <strong>S2</strong> y <strong>S3</strong> son subsegmentos que tienen alta participación en el mercado, indicando una demanda amplia para propiedades de alto valor.</li>
+                    <li><strong>Segmento L:</strong> Los subsegmentos de las propiedades <strong>L</strong> tienen una representación baja en el mercado, sin embargo en L1 las propiedades tienen una presencia destacable.</li>
                     <li><strong>Segmento ELITE:</strong> Tiene una presencia escasa en todo el mercado inmobiliario.</li>
                 </ul>
                 <p>Mientras que los segmentos <strong>E y S</strong> muestran una fuerte presencia en los extremos de la escala de precios, los segmentos <strong>D, C, B y A</strong> muestran una distribución más equilibrada en sus respectivos subsegmentos. Esta información nos permite entender las tendencias de demanda y adaptar estrategias de comercialización y desarrollo de propiedades en consecuencia.</p>
@@ -271,7 +271,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En Puebla en el año 2022, el <strong>64.8%</strong> de los créditos otorgados para la compra de bienes inmuebles se destinaron a propiedades dentro del segmento S, lo que refleja que una gran parte de la población recurre a diversas instituciones financieras para adquirir su vivienda. El segundo segmento con mayor participación en créditos es el D, con un <strong>17.6%</strong>. Los segmentos con menor emisión de créditos son el A, con el <strong>1.84%</strong>, y el segmento L, con el <strong>0.425%</strong>, debido a que las propiedades de este segmento podrían ser consideradas de lujo.</p>
+                <p>En Puebla en el año 2022, el <strong>64.8%</strong> de los créditos otorgados para la compra de bienes inmuebles se destinaron a propiedades dentro del <strong>segmento S</strong>, lo que refleja que una gran parte de la población recurre a diversas instituciones financieras para adquirir su vivienda. El segundo segmento con mayor participación en créditos es el <strong>D</strong>, con un <strong>17.6%</strong>. Los segmentos con menor emisión de créditos son el <strong>A</strong>, con el <strong>1.84%</strong>, y el <strong>segmento L</strong>, con el <strong>0.425%</strong>, debido a que las propiedades de este segmento podrían ser consideradas de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -291,7 +291,7 @@
             <div class="modal-body">
                 <p>En Puebla, durante el año 2023, el <strong>59.8%</strong> de los créditos otorgados para la compra de bienes inmuebles se destinaron a propiedades dentro del segmento S, lo que indica que, aunque son créditos de menor valor, existe una alta demanda. Los segmentos D y C ocuparon el segundo y tercer lugar, con una participación del <strong>19.3%</strong> y <strong>8.58%</strong> respectivamente.</p>
 
-                <p>Por otro lado, los segmentos con menor emisión de créditos fueron el A, con un <strong>2.3%</strong>, y el segmento L, con un <strong>0.563%</strong>, debido a que estos créditos están dirigidos a la adquisición de propiedades de lujo, lo que implica un valor más alto.</p>
+                <p>Por otro lado, los segmentos con menor emisión de créditos fueron el <strong>A</strong>, con un <strong>2.3%</strong>, y el <strong>segmento L</strong>, con un <strong>0.563%</strong>, debido a que estos créditos están dirigidos a la adquisición de propiedades de lujo, lo que implica un valor más alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -309,9 +309,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2024, Puebla destinó el <strong>59.2%</strong> de los créditos otorgados a la compra de propiedades en el segmento inmobiliario S, lo que refleja que una gran parte de la población busca inmuebles de bajo valor y opta por financiamiento moderado.</p>
+                <p>En 2024, Puebla destinó el <strong>59.2%</strong> de los créditos otorgados a la compra de propiedades en el segmento inmobiliario <strong>S</strong>, lo que refleja que una gran parte de la población busca inmuebles de bajo valor y opta por financiamiento moderado.</p>
 
-                <p>El segundo segmento con mayor participación fue el D, con un <strong>18.9%</strong>, siguiendo la misma tendencia de créditos de menor valor.</p>
+                <p>El segundo segmento con mayor participación fue el <strong>D</strong>, con un <strong>18.9%</strong>, siguiendo la misma tendencia de créditos de menor valor.</p>
 
                 <p>Por otro lado, el segmento inmobiliario Elite recibió menos del <strong>0.5%</strong> de los créditos, debido al alto valor de las propiedades en esta categoría, lo que implicaría financiamientos significativamente elevados.</p>
             </div>

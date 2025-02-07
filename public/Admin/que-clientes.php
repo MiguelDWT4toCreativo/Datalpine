@@ -341,29 +341,53 @@
 
 <div class="col-md-12">
     <div class="card">
-        <div class="card-body">
+        <div class="card-body" style="padding-bottom: 0;">
             <h5 class="card-title subtitle mb-3 text-center">Profesiones</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
                     <span class="developer-label">Desarrollador</span>
                 </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalProfessions">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalProfessions">Interpretación</button>
-                </div>
             </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/tablas/tabla_profesiones.html" 
-                        width="100%" 
-                        height="400" 
-                        frameborder="0" 
-                        style="min-height: 430px; border: 1px solid #ccc; !important">
+            <div class="iframe-container">
+                <iframe src="/datalpine/resources/Ciudades/Queretaro/assets/Tablas/tabla_profesiones_off.html" 
+                        frameborder="0">
                 </iframe>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 520px; /* Set a fixed initial height */
+        box-sizing: border-box;
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    @media (max-width: 768px) {
+        .iframe-container {
+            height: 400px; /* Adjusted height for mobile */
+            overflow-x: auto;
+            overflow-y: auto;
+        }
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            zoom: 0.8;
+        }
+    }
+</style>
 
 <!-- Modales de Descripción e Interpretación -->
 <div class="modal fade" id="descriptionModalProfessions" tabindex="-1" aria-labelledby="descriptionModalProfessionsLabel" aria-hidden="true">

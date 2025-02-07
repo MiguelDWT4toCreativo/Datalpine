@@ -118,20 +118,23 @@
                                     <li><a href="pa-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
                                     
                                 </ul>
-                                <li>
-                                <a href="javascript:void(0);" class="has-arrow">
-                                    <span data-key="t-contacts">Tulancingo</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="tu-general.php" data-key="t-user-list">General</a></li>
-                                    <li><a href="tu-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
-                                    <li><a href="tu-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
-                                    <li><a href="tu-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
-                                    <li><a href="tu-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
-                                    
-                                </ul>
+                                <!--
+                                 <li>
+                                    <a href="javascript:void(0);" class="has-arrow">
+                                        <span data-key="t-contacts">Tulancingo</span>
+                                    </a>
+                                    <ul class="sub-menu" aria-expanded="false">
+                                        <li><a href="tu-general.php" data-key="t-user-list">General</a></li>
+                                        <li><a href="tu-factibilidad.php" data-key="t-user-grid">Factibilidad y Viabilidad</a></li>
+                                        <li><a href="tu-clientes.php" data-key="t-user-grid">Identificación de cliente potencial</a></li>
+                                        <li><a href="tu-desarrollo.php" data-key="t-user-grid">Desarrollo de producto</a></li>
+                                        <li><a href="tu-proyecciones.php" data-key="t-user-grid">Proyecciones y oportunidades</a></li>
+                                        
+                                    </ul>
 
                                 </li>
+                                
+                                -->
                             </li>
                         </ul>
                     </li>

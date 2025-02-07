@@ -156,7 +156,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title subtitle mb-3 text-center">Promedio de valor de Créditos para casas nueva y para vivienda usada</h5>
+                        <h5 class="card-title subtitle mb-3 text-center">Promedio de monto en créditos para casa nueva y vivienda usada</h5>
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>

@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Pto. Vallarta | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,10 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca de Soto
-
-                                    </li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Jalisco</a></li>
+                                    <li class="breadcrumb-item active">Puerto Vallarta</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -140,7 +138,7 @@
                     <h1>Factibilidad y viabilidad</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Pachuca de Soto, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Puerto Vallarta, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 <!-- Sección Créditos y Viviendas -->
@@ -154,8 +152,8 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title subtitle mb-3 text-center">Promedio de monto en créditos para casa nueva y vivienda usada</h5>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="card-title subtitle mb-3 text-center">Promedio de valor de Créditos para casas nueva y para vivienda usada</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
                                 <div class="d-flex align-items-center">
                                     <i class="fas fa-user-tie me-2"></i>
                                     <span class="developer-label">Desarrollador</span>
@@ -168,7 +166,6 @@
                                         <option value="2021">2021</option>
                                         <option value="2022">2022</option>
                                         <option value="2023">2023</option>
-                                        <option value="2024">2024</option>
                                     </select>
                                 </div>
                                 <div>
@@ -201,8 +198,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Se presenta el promedio del monto de los créditos otorgados para viviendas nuevas y usadas en <strong>Pachuca de Soto</strong> durante el año 2019, desglosado por trimestres. La gráfica de líneas permite comparar cómo varían los montos de los créditos según el tipo de vivienda, destacando las diferencias entre los créditos otorgados para inmuebles nuevos y usados a lo largo del año. Esta visualización es útil para observar las tendencias y fluctuaciones en los valores de los créditos en el mercado inmobiliario.</p>
-                        
+                        <p>Se presenta el promedio del monto de los créditos otorgados para viviendas nuevas y usadas en Pto. Vallarta durante los años 2019 a 2023, desglosado por trimestres.</p> 
+                        <p>La gráfica de líneas permite comparar cómo varían los montos de los créditos según el tipo de vivienda, destacando las diferencias entre los créditos otorgados para inmuebles nuevos y usados a lo largo del año.</p>
+                        <p>Esta visualización es útil para observar las tendencias y fluctuaciones en los valores de los créditos en el mercado inmobiliario.</p>                        
                     </div>
                 </div>
             </div>
@@ -216,8 +214,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En 2019, los créditos para <strong>viviendas nuevas</strong> mantuvieron un valor promedio más alto en comparación con las viviendas usadas durante todo el año, alcanzando su pico en el tercer trimestre antes de disminuir levemente en el cuarto trimestre. Esto podría explicarse por el interés sostenido en desarrollos nuevos en Pachuca, impulsado por el crecimiento de la infraestructura y la expansión de la ciudad.</p>
-                        <p>Por otro lado, los créditos para <strong>viviendas usadas</strong> mostraron fluctuaciones más notables, con una caída significativa en el segundo trimestre y una leve recuperación posterior, para volver a caer en el cuarto trimestre a un valor muy similar al del segundo. Esto podría estar relacionado con la oferta limitada de viviendas usadas en el mercado o con la competencia que representan las nuevas construcciones, que tienden a atraer a más compradores. La menor demanda de viviendas usadas también puede estar vinculada a la preferencia de los compradores por propiedades nuevas debido a mejores condiciones de financiamiento y a la percepción de mayor valor a largo plazo</p>
+                        <p>En el mercado inmobiliario de Puerto Vallarta, los promedios de los créditos otorgados para viviendas <strong>nuevas</strong> y <strong>usadas</strong> muestran tendencias interesantes.</p>
+                        <p>Durante el año 2019, los créditos para viviendas <strong>nuevas</strong> presentaron un aumento significativo en el cuarto trimestre, alcanzando un promedio de <strong>1,223,078.30</strong> pesos, lo que sugiere un mayor interés en la adquisición de propiedades <strong>nuevas</strong> hacia finales del año. Por otro lado, los créditos para viviendas <strong>usadas</strong> también mostraron un incremento en el cuarto trimestre, aunque a un ritmo menor, alcanzando un promedio de <strong>1,049,945.63</strong> pesos.</p>
+                        <p>Además, las fluctuaciones en los montos de crédito pueden influir en la estrategia de precios y promociones para atraer a compradores en diferentes momentos del año.</p>
                     </div>
                 </div>
             </div>
@@ -231,7 +230,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    En <strong>2020</strong>, los créditos para viviendas nuevas en <strong>Pachuca</strong> experimentaron una disminución durante el segundo y tercer trimestre, con una recuperación notable en el cuarto trimestre, alcanzando su punto más alto de casi <strong>2 millones de pesos</strong>. Esta caída a mediados de año podría estar relacionada con los efectos económicos derivados de la pandemia de <strong>COVID-19</strong>, que impactaron en la capacidad de los compradores para adquirir viviendas nuevas. Sin embargo, la fuerte recuperación hacia el final del año puede reflejar la activación estímulos económicos que incentivaron la adquisición de inmuebles nuevos. Por otro lado, los créditos para viviendas usadas mostraron un incremento constante a lo largo de los dos últimos trimestres del año, tras estar relativamente estable en la primera parte del año, pasando de un promedio de <strong>884 mil pesos</strong> en el primer trimestre a más de <strong>1.2 millones</strong> en el cuarto trimestre. Este comportamiento indica un aumento en la demanda de propiedades usadas, posiblemente debido a la accesibilidad de estas viviendas frente a las nuevas, en un contexto donde muchos compradores podrían estar buscando opciones más asequibles debido a la incertidumbre económica provocada por la pandemia
+                        <p>En el mercado inmobiliario de Puerto Vallarta, los promedios de los créditos otorgados para viviendas <strong>nuevas</strong> y <strong>usadas</strong> muestran tendencias interesantes.</p>
+                        <p>Durante este año, los créditos para viviendas <strong>nuevas</strong> presentaron un aumento significativo en el cuarto trimestre, alcanzando un promedio de <strong>1,464,739.20</strong> pesos, lo que sugiere un mayor interés en la adquisición de propiedades <strong>nuevas</strong> hacia finales del año. Por otro lado, los créditos para viviendas <strong>usadas</strong> mantuvieron un nivel estable, con un promedio de <strong>1,177,396.75</strong> pesos en el cuarto trimestre.</p>
+                        <p>Estas fluctuaciones en los montos de crédito pueden influir en las estrategias de precios y promociones para atraer a compradores en diferentes momentos del año. Además, el aumento en los créditos para viviendas <strong>nuevas</strong> indica un dinamismo en el mercado de propiedades recientes, lo que podría impulsar el desarrollo de nuevos proyectos residenciales en la región.</p>
                     </div>
                 </div>
             </div>
@@ -245,10 +246,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>
-                        En 2021, los créditos para viviendas nuevas experimentaron una leve caída en el segundo trimestre, seguido de un aumento sostenido hasta alcanzar su punto más alto en el cuarto trimestre con 1.85 millones de pesos. Este incremento podría estar vinculado a una mayor demanda de propiedades nuevas a medida que la economía se recuperaba tras la pandemia. Las ofertas atractivas y los estímulos fiscales también pudieron haber influido en esta recuperación. Por otro lado, los créditos para viviendas usadas muestran una tendencia diferente, con una muy leve caída en el segundo trimestre y un repunte en el tercero, pero terminando el año ligeramente por debajo del promedio del tercer trimestre. Esto sugiere que, si bien hubo interés en las propiedades usadas, las nuevas construcciones fueron más atractivas para los compradores debido a mejores condiciones de financiamiento o preferencias de los compradores por propiedades más modernas. La menor inversión en viviendas usadas puede reflejar también las limitaciones en la oferta de este tipo de propiedades en el mercado.
-                        </p>
-                        
+                        <p>Durante el año <strong>2021</strong>, los créditos para viviendas <strong>nuevas</strong> alcanzaron un máximo en el segundo trimestre, con un promedio de <strong>1,810,616.24</strong> pesos, lo que indica un fuerte interés en propiedades recientes durante este período. Por otro lado, los créditos para viviendas <strong>usadas</strong> mostraron un aumento significativo en el cuarto trimestre, alcanzando un promedio de <strong>1,970,088.86</strong> pesos, lo que sugiere un mayor interés en propiedades existentes hacia finales del año.</p>
+                        <p>Estas fluctuaciones en los montos de crédito pueden influir en las estrategias de precios y promociones para atraer a compradores en diferentes momentos del año. Además, el aumento en los créditos para viviendas <strong>usadas</strong> en el cuarto trimestre podría reflejar una mayor demanda por propiedades más asequibles o con características específicas que atraen a los compradores.</p>
                     </div>
                 </div>
             </div>
@@ -261,8 +260,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En 2022, los créditos para viviendas nuevas mostraron una tendencia al alza durante los primeros tres trimestres alcanzando su punto máximo en el tercero, con un promedio de más de 2.1 millones de pesos, antes de disminuir moderadamente en el cuarto trimestre. Este incremento sostenido durante los primeros tres trimestres refleja un interés creciente por viviendas nuevas, probablemente impulsado por el desarrollo de nuevos proyectos residenciales en Pachuca y el acceso a mejores condiciones de financiamiento. Por otro lado, los créditos para viviendas usadas tuvieron una caída notable en el segundo trimestre, alcanzando su punto más bajo del año, con un promedio de 1.46 millones. Sin embargo, hubo una recuperación a partir del tercer trimestre, lo que sugiere una demanda renovada por propiedades más asequibles en el mercado secundario, posiblemente debido a la estabilización económica tras las incertidumbres de los primeros meses del año. La tendencia al alza de ambos tipos de créditos hacia el final del año refleja una mayor confianza en el mercado inmobiliario de Pachuca de Soto, tanto en el sector de nuevas construcciones como en el mercado de propiedades usadas.</p>
-                       
+                        <p>En <strong>2022</strong>, los créditos para viviendas <strong>nuevas</strong> aumentaron significativamente en el cuarto trimestre, alcanzando un promedio de <strong>1,915,828.41</strong> pesos, lo que indica un mayor interés en propiedades recientes hacia finales del año. Sin embargo, los créditos para viviendas <strong>usadas</strong> mostraron un crecimiento aún más pronunciado, alcanzando un máximo en el cuarto trimestre con un promedio de <strong>2,372,802.68</strong> pesos. Este aumento en los créditos para viviendas <strong>usadas</strong> sugiere un fuerte interés en propiedades existentes, posiblemente debido a su valoración o características únicas.</p>
+                        <p>Estas fluctuaciones en los montos de crédito pueden influir en las estrategias de precios y promociones para atraer a compradores en diferentes momentos del año. Además, el dinamismo en el mercado de viviendas <strong>usadas</strong> podría impulsar la renovación y mejora de propiedades existentes en la región.</p>
                     </div>
                 </div>
             </div>
@@ -275,7 +274,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>En 2023, los créditos para viviendas nuevas experimentaron un fuerte incremento en el tercer trimestre, alcanzando un promedio superior a los 2.5 millones de pesos, antes de disminuir de manera considerable en el cuarto trimestre, regresando a niveles del segundo trimestre. Esta subida en el tercer trimestre podría estar relacionada con el lanzamiento de nuevos proyectos residenciales o un aumento en la demanda de propiedades nuevas debido a las mejores condiciones crediticias durante ese periodo. La caída en el cuarto trimestre refleja una posible saturación del mercado o una menor demanda en los últimos meses del año, lo que puede deberse a factores estacionales. Por otro lado, los créditos para viviendas usadas mostraron cambios menos abruptos, aunque con una considerable caída en el segundo trimestre, seguida de una recuperación en el tercero, volviendo a un valor muy similar al del primer trimestre. Sin embargo, el monto promedio de los créditos para viviendas usadas disminuyó nuevamente en el cuarto trimestre, lo que puede estar vinculado a la menor disponibilidad de propiedades usadas o a la preferencia de los compradores por inmuebles nuevos. Esta tendencia refleja el comportamiento diferenciado entre ambos mercados.</p>
+                        <p>Los créditos para viviendas <strong>nuevas</strong> alcanzaron un máximo en el tercer trimestre de <strong>2023</strong>, con un promedio de <strong>2,253,129.77</strong> pesos, lo que indica un fuerte interés en propiedades recientes durante este período. Sin embargo, en el cuarto trimestre, los créditos para viviendas <strong>nuevas</strong> disminuyeron significativamente, alcanzando un promedio de <strong>1,583,775.78</strong> pesos. Por otro lado, los créditos para viviendas <strong>usadas</strong> mostraron un crecimiento constante, alcanzando un promedio de <strong>2,252,095.82</strong> pesos en el cuarto trimestre. Este dinamismo en el mercado de viviendas <strong>usadas</strong> sugiere un interés sostenido en propiedades existentes, posiblemente debido a su valoración o características únicas.</p>
+                        <p>Estas fluctuaciones en los montos de crédito pueden influir en las estrategias de precios y promociones para atraer a compradores en diferentes momentos del año. Además, el interés en viviendas <strong>usadas</strong> podría impulsar la renovación y mejora de propiedades existentes en la región.</p>
                     </div>
                 </div>
             </div>
@@ -300,7 +300,7 @@
             function showYearlyData(year) {
                 // Crear el iframe dinámicamente
                 const iframe = document.createElement('iframe');
-                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_creditos_nuevausada_${year}.html?year=${year}`;
+                iframe.src = `/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_creditos_nuevausada_${year}.html?year=${year}`;
                 iframe.width = '100%';
                 iframe.height = '400';
                 iframe.frameborder = '0';
@@ -336,7 +336,7 @@
                         </div>
                     </div>
                     <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                        <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_estacionalidad.html" width="100%" height="400" frameborder="0"></iframe>
+                        <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_estacionalidad.html" width="100%" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -350,7 +350,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>El gráfico muestra la cantidad de créditos otorgados en Pachuca durante los diferentes trimestres, desde el primer trimestre de 2022 hasta el segundo trimestre de 2024. La gráfica ilustra cómo ha variado el número de créditos concedidos en cada periodo, proporcionando una visión clara de la estacionalidad del mercado crediticio en la región. Este tipo de gráfico es útil para identificar patrones recurrentes y fluctuaciones en la actividad de financiamiento.</p>
+                        <p>El gráfico muestra el número de créditos hipotecarios adquiridos por trimestre en los años 2022, 2023 y 2024. Proporciona una representación visual de la variación en la adquisición de créditos hipotecarios a lo largo de diferentes trimestres, mostrando tendencias y cambios en el mercado de préstamos para viviendas.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -367,7 +367,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        La gráfica revela que el número de créditos otorgados ha experimentado variaciones significativas a lo largo de los años. En general, el cuarto trimestre de cada año muestra un pico en la cantidad de créditos otorgados, alcanzando los <strong>395 créditos</strong> en dos años consecutivos. Este patrón puede estar relacionado con la mayor actividad económica durante los últimos meses del año, cuando los compradores tienden a finalizar transacciones inmobiliarias. En contraste, los trimestres intermedios, como el segundo y tercer trimestre muestran valores relativamente estables, con variaciones de 50 unidades, excepto por dos valores atípicos. El segundo trimestre del 2023, que es muy alto y para ese trimestre (<strong>388 créditos</strong>) y el segundo trimestre de 2024 siendo particularmente alto (<strong>336 créditos</strong>). Este último podría indicar una aceleración en la demanda o una mayor actividad en el mercado inmobiliario de Pachuca.</p>
+                        <p>En el mercado de créditos hipotecarios de Puerto Vallarta, el número de créditos adquiridos por trimestre entre 2022 y 2024 muestra algunas tendencias interesantes.</p>
+                        <ul>
+                            <li>Durante el año <strong>2022</strong>, se observó un aumento significativo en el cuarto trimestre, con <strong>359</strong> créditos, lo que sugiere un mayor interés en la adquisición de viviendas hacia finales del año.</li>
+                            <li>En <strong>2023</strong>, el número de créditos continuó creciendo en los primeros dos trimestres, alcanzando un máximo de <strong>382</strong> créditos en el segundo trimestre, pero luego disminuyó ligeramente en los trimestres siguientes.</li>
+                            <li>En <strong>2024</strong>, el número de créditos se mantuvo estable en los primeros tres trimestres, pero disminuyó notablemente en el cuarto trimestre, con solo <strong>216</strong> créditos. Esta disminución podría reflejar cambios en las condiciones económicas o en la demanda del mercado inmobiliario.</li>
+                        </ul>
+                        <p>Estas fluctuaciones pueden influir en las estrategias de financiamiento y promoción para atraer a compradores en diferentes momentos del año. Además, la variación en la adquisición de créditos hipotecarios puede indicar ajustes en el mercado de préstamos para viviendas, posiblemente debido a factores como las tasas de interés o la confianza del consumidor.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -392,7 +398,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_pie_creditos_edad.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -411,8 +417,8 @@
                 El gráfico de pastel está dividido en tres secciones, cada una representa un rango de edad y está asociada a un color específico:
             </p>
             <ul>
-                <li><strong>Azul:</strong> Edad de 30 a 59 años.</li>
                 <li><strong>Violeta:</strong> Edad menor a 29 años.</li>
+                <li><strong>Azul:</strong> Edad de 30 a 59 años.</li>
                 <li><strong>Rojo:</strong> Edad de 60 años o más.</li>
             </ul>
             <p>
@@ -436,13 +442,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                <strong>Dominancia del Grupo de 30 a 59 años:</strong> El grupo de edad entre <strong>30 y 59 años</strong> concentra la mayor proporción de créditos, representando el <strong>77.7%</strong> del total. Esto sugiere que este grupo de edad es el principal solicitante y beneficiario de créditos.
-            </p>
-            <p>
-                <strong>Menor Participación de Jóvenes y Adultos Mayores:</strong> Los grupos de edad menor a <strong>29 años</strong> y de <strong>60 años o más</strong> tienen una participación menor en la obtención de créditos. El grupo de edad menor a 29 años representa el <strong>18.3%</strong> de los créditos, mientras que el grupo de 60 años o más solo representa el <strong>3.97%</strong>.
-            </p>
-
+                <p>El grupo de edad entre <strong>30 y 59 años</strong> es el más activo en la obtención de créditos, representando el <strong>70.6%</strong> del total, lo que sugiere que este rango de edad es el más estable y con mayor capacidad de endeudamiento para adquirir viviendas. 
+                Por otro lado, los grupos de edad <strong>menor a 29 años</strong> y <strong>mayor a 60 años</strong> tienen una participación menor, con <strong>23.1%</strong> y <strong>6.35%</strong> respectivamente. </p>
+                <p>Esta distribución indica que las estrategias de financiamiento y promoción podrían centrarse en atraer a los adultos en plena edad laboral, mientras que también se podría explorar cómo aumentar la accesibilidad para los jóvenes y adultos mayores, posiblemente mediante programas específicos o condiciones crediticias más favorables.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -469,7 +471,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_precio_promedio_segmento.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -484,7 +486,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra el promedio de precios por segmento de inmuebles en <strong>Pachuca de Soto</strong>. Cada segmento representa un rango de precios específico, desde el <strong>segmento E</strong> (menos de 500 mil a 1 millón de pesos) hasta el <strong>segmento S</strong> (4 millones a 12 millones de pesos). Este gráfico permite identificar cómo varían los precios promedio entre los diferentes segmentos de propiedades en el mercado inmobiliario de la ciudad.</p>
+                <p>La gráfica muestra el promedio de precios por segmento de inmuebles en <strong>Puerto Vallarta</strong>. Cada segmento representa un rango de precios específico, desde el segmento <strong>E</strong> (menos de <strong>500 mil</strong> a <strong>1 millón</strong> de pesos) hasta el segmento <strong>S</strong> (<strong>4 millones</strong> a <strong>12 millones</strong> de pesos). Este gráfico permite identificar cómo varían los precios promedio entre los diferentes segmentos de propiedades en el mercado inmobiliario de la ciudad.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -502,7 +504,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La interpretación de esta gráfica proporciona información clave sobre cómo varían los precios promedio en distintos segmentos de mercado, ayudando a entender las tendencias y diferencias entre ellos.</p>
+                <p>La gráfica presenta los precios promedio por segmento en el mercado de Puerto Vallarta.</p>
+                <p>Se observa que:</p>
+                <ul>
+                    <li>El segmento ELITE tiene el precio promedio más alto, con $ <strong>38,065,790.28</strong>.</li>
+                    <li>Le sigue el segmento L, con un precio promedio de $ <strong>16,176,652.18</strong>. Mientras que en el segmento S el precio promedio es de $ <strong>7,220,461.11</strong>.</li>
+                    <li>En el segmento A, el precio promedio es de $ <strong>3,619,286.56</strong>, y en el segmento B, es de $ <strong>2,873,077.19</strong>.</li>
+                    <li>Finalmente, el segmento C tiene el precio promedio de $ <strong>2,113,947.77</strong>, el segmento D tiene un precio promedio de $ <strong>1,370,685.79</strong> y el segmento E tiene el precio promedio más bajo con un precio promedio de $ <strong>634,980.59</strong>.</li>
+                </ul>
+                <p>Lo anterior permite entender la distribución de precios en el mercado inmobiliario local y puede ayudar a los asesores inmobiliarios a guiar a sus clientes en la búsqueda de propiedades que se ajusten a sus presupuestos y necesidades específicas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -559,64 +569,6 @@
             </div>
         </div>-->
 
-<!-- Mediana del precio de oferta 
-<div class="col-md-12">
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Mediana del precio de oferta</h5>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-tie me-2"></i>
-                    <span class="developer-label">Desarrollador</span>
-                </div>
-                <div>
-                    <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalPrecioOferta">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalPrecioOferta">Interpretación</button>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta_mediana.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
-            </div>
-        </div>
-    </div>
-</div>-->
-
-<!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalPrecioOferta" tabindex="-1" aria-labelledby="descriptionModalLabelPrecioOferta" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="descriptionModalLabelPrecioOferta">Descripción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Se muestra el histórico de la mediana del precio de oferta de los inmuebles en Pachuca de Soto durante el año 2024. La gráfica permite observar la evolución del precio de oferta a lo largo de los meses, desde marzo hasta agosto de 2024. Este tipo de gráfico es útil para identificar tendencias en el mercado inmobiliario, tales como aumentos o disminuciones en los precios de oferta, lo que puede estar influenciado por diversos factores económicos, estacionales o de demanda.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal for Interpretation -->
-<div class="modal fade" id="interpretationModalPrecioOferta" tabindex="-1" aria-labelledby="interpretationModalLabelPrecioOferta" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelPrecioOferta">Interpretación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Durante <strong>2024</strong>, los precios de oferta de los inmuebles en Pachuca de Soto mostraron una tendencia decreciente desde <strong>marzo</strong>, hasta alcanzar su punto más bajo en <strong>mayo</strong> de <strong>2024</strong>, con una mediana inferior a <strong>2.3 millones</strong> de pesos. Esto podría estar relacionado con una baja temporal en la demanda de propiedades o con factores estacionales que afectaron el mercado.</p>
-                <p>A partir de <strong>junio</strong>, los precios comenzaron a recuperarse de forma constante, alcanzando su punto más alto en <strong>agosto</strong> de <strong>2024</strong>, con una mediana cercana a los <strong>2.5 millones</strong> de pesos regresando al valor que se tenía en <strong>febrero</strong>. Este repunte sugiere un fortalecimiento en la demanda o el ingreso de nuevos desarrollos al mercado. La tendencia al alza en los meses de verano podría estar impulsada por una mayor actividad económica o el inicio de nuevos proyectos inmobiliarios.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -638,7 +590,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_precio_oferta.html" width="100%" height="400" frameborder="0"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_precio_oferta.html" width="100%" height="400" frameborder="0"></iframe>
             </div>
         </div>
     </div>
@@ -653,7 +605,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Se muestra el histórico de precios de oferta de inmuebles en <strong>Pachuca de Soto</strong> durante el año 2024. El gráfico de líneas refleja cómo ha variado el precio promedio de los inmuebles listados en el mercado mes a mes, desde <strong>febrero hasta agosto de 2024</strong>. Esta visualización permite identificar las fluctuaciones en los precios a lo largo del tiempo, ofreciendo una perspectiva sobre el comportamiento del mercado inmobiliario en la ciudad.</p>
+                <p>Esta visualización representa la mediana de precios en el mercado durante el período de 2022-2023. Observa una vista general en la tendencia de precios medianos en el mercado de viviendas durante el periodo considerado.</p>
+                <ul>
+                    <li>Si la mediana es alta, esto sugiere que las casas se vendieron a precios relativamente altos en ese periodo, indicando un mercado inmobiliario robusto o alta demanda de propiedades.</li>
+                    <li>Si la mediana es baja, implica que los precios promedio fueron más asequibles. Esto podría señalar un mercado más accesible para compradores.</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -671,7 +627,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica presenta una marcada caída en los precios de oferta de inmuebles durante marzo del 2024, seguida de una rápida recuperación en los meses posteriores, principalmente en mayo, alcanzando su <strong>punto máximo en julio</strong>. Esta caída temporal podría estar relacionada con factores estacionales o con una baja en la demanda en ese periodo específico. La recuperación observada en los meses posteriores refleja un ajuste del mercado, <strong>probablemente impulsado por un aumento en la demanda de propiedades y el crecimiento de proyectos de vivienda en la región</strong>. Además, el comportamiento de los precios podría estar vinculado a la reactivación del sector inmobiliario en Pachuca tras las dificultades provocadas por la pandemia, ya que el mercado inmobiliario ha mostrado signos de recuperación desde 2023. Este tipo de fluctuaciones también puede ser consecuencia de los desarrollos urbanos y proyectos de infraestructura que han elevado el valor de las propiedades en la zona</p>
+                <p>La gráfica muestra cómo han variado los precios medios de las viviendas de <strong>septiembre 2023</strong> a <strong>enero de 2024</strong>.</p>
+                <p>Se observa que la mediana de los precios fueron subiendo de forma constante mes con mes, en <strong>septiembre</strong> la mediana fue de <strong>$6,200,000</strong>, hasta llegar a <strong>enero</strong> con una mediana de precio de <strong>$7,318,925</strong>, esto nos muestra un mercado muy activo y una gran demanda de propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -724,7 +681,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución de créditos otorgados en <strong>Pachuca de Soto</strong> por año, con un desglose de los créditos en diferentes rangos de valor. Los rangos varían desde menos de <strong>1 millón</strong> de pesos hasta créditos menos de <strong>20 millones</strong> de pesos, permitiendo observar la concentración de créditos en cada segmento de monto.</p>
+                <p>La gráfica muestra la distribución de créditos otorgados en <strong>Puerto Vallarta</strong> por año, con un desglose de los créditos en diferentes rangos de valor. Los rangos varían desde menos de <strong>1 millón</strong> de pesos hasta créditos menos de <strong>20 millones</strong> de pesos, permitiendo observar la concentración de créditos en cada segmento de monto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -742,12 +699,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2022</strong>, la mayor concentración de créditos en <strong>Pachuca de Soto</strong> se encuentra en el rango de menos de <strong>1 millón</strong> de pesos, con <strong>758</strong> créditos otorgados. Esto refleja que una gran parte de los compradores busca propiedades más accesibles, lo que podría estar relacionado con la estructura económica de la población.
-
-        Los créditos en el rango de menos de <strong>2 millones</strong> de pesos también son significativos, con <strong>333</strong> créditos, lo que indica una demanda considerable por viviendas en este segmento medio. Por otro lado, la cantidad de créditos disminuye drásticamente en los rangos superiores, con <strong>137</strong> créditos en el rango de menos de <strong>3 millones</strong>, solo <strong>56</strong> créditos en el rango de menos de <strong>4 millones</strong> y <strong>104</strong> créditos en el rango de menos de <strong>20 millones</strong> de pesos. Esta distribución sugiere que, aunque hay un mercado para propiedades de mayor valor, la mayoría de los compradores se concentra en los segmentos de viviendas más económicas. Además que los créditos otorgados para el mercado de propiedades de mayor valor, se concentran  en una parte considerable en los inmuebles más costosos (créditos de menos de <strong>20 millones</strong>) lo que podría indicar que hay un sector pequeño, pero relevante, interesado en propiedades de lujo.
-
-        Este comportamiento podría estar vinculado al acceso limitado a créditos de mayor valor y a la preferencia por propiedades más accesibles para la mayoría de la población. También puede reflejar una distribución desigual en la capacidad de compra de la población en <strong>Pachuca</strong>.</p>
-                    </div>
+                <p>En el mercado de créditos hipotecarios de <strong>Puerto Vallarta</strong>, la distribución de los créditos otorgados muestra una concentración significativa en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>810</strong> créditos. Este segmento representa la mayoría de las transacciones, lo que sugiere que el mercado está dominado por compradores que buscan propiedades más asequibles. En contraste, los créditos en el rango de <strong>1 a 2 millones</strong> de pesos son menos frecuentes, con solo <strong>242</strong> créditos, y aún menos en los rangos superiores. Los créditos por encima de <strong>4 millones</strong> de pesos, que llegan hasta <strong>20 millones</strong>, suman <strong>96</strong> transacciones, lo que indica una presencia de compradores con mayor capacidad económica, posiblemente inversores o compradores de propiedades de lujo. Esta distribución puede influir en las estrategias de financiamiento y promoción, enfocándose en diferentes segmentos del mercado según el monto del crédito y el perfil del comprador. Además, la concentración en créditos de menor valor sugiere un mercado accesible para compradores de primera vivienda o propiedades más económicas.</p>
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -763,11 +716,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2023</strong>, la mayor cantidad de créditos otorgados en <strong>Pachuca de Soto</strong> se concentra en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>790</strong> créditos, lo que indica una demanda considerable por propiedades más asequibles en la ciudad. Este patrón es similar al observado el año anterior y refleja las características económicas de la población, donde la mayor parte de los compradores busca opciones dentro de los segmentos más accesibles.
-
-        El segundo rango con más créditos es el de menos de <strong>2 millones</strong> de pesos, con <strong>341</strong> créditos, lo que sugiere que los compradores con un presupuesto medio también tienen una participación significativa en el mercado. Sin embargo, en los rangos de mayor valor, como los de menos de <strong>3 millones</strong> de pesos, menos de <strong>4 millones</strong> de pesos y menos de <strong>20 millones</strong>, la cantidad de créditos cae drásticamente, con solo <strong>118</strong>, <strong>53</strong> y <strong>97</strong> créditos respectivamente. Esto refleja una menor demanda de propiedades de alto valor, posiblemente debido a la falta de acceso a financiamiento de mayor valor o a las preferencias por propiedades más económicas. Vemos también que el otorgamiento de créditos por cantidades más altas, es muy significativo el segmento de menos de <strong>20 millones</strong>, con <strong>97</strong> créditos, relativamente cercano al del menos de <strong>3 millones</strong> con <strong>118</strong> créditos, lo que indica que existe un sector relativamente pequeño pero importante que está interesado en los inmuebles de lujo
-
-        Esta distribución destaca las limitaciones en el poder adquisitivo de la mayoría de los compradores en <strong>Pachuca</strong>, así como la oferta predominante de propiedades dentro de los segmentos de menor costo.</p>
+                <p>En el mercado de créditos hipotecarios de <strong>Puerto Vallarta</strong> durante <strong>2023</strong>, la distribución de los créditos otorgados muestra una concentración significativa en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>820</strong> créditos. Este segmento representa la mayoría de las transacciones, lo que sugiere que el mercado está dominado por compradores que buscan propiedades más asequibles. En contraste, los créditos en el rango de <strong>1 a 2 millones</strong> de pesos son menos frecuentes, con <strong>293</strong> créditos, y aún menos en los rangos superiores. Los créditos por encima de <strong>4 millones</strong> de pesos, que llegan hasta <strong>20 millones</strong>, suman <strong>111</strong> transacciones, lo que indica una presencia de compradores con mayor capacidad económica, posiblemente inversores o compradores de propiedades de lujo. Esta distribución puede influir en las estrategias de financiamiento y promoción, enfocándose en diferentes segmentos del mercado según el monto del crédito y el perfil del comprador. Además, la concentración en créditos de menor valor sugiere un mercado accesible para compradores de primera vivienda o propiedades más económicas.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -784,9 +733,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong>, la mayor concentración de créditos otorgados sigue estando en el rango de menos de <strong>1 millón</strong> de pesos, con <strong>424</strong> créditos, lo que reafirma la tendencia predominante hacia la compra de propiedades más accesibles, reflejando la demanda por viviendas económicas y las limitaciones financieras de los compradores en Pachuca
-
-El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de pesos, cuenta con <strong>191</strong> créditos, lo que indica una menor demanda en comparación con el segmento más económico, pero aún representa una parte significativa del mercado. Los segmentos más altos, con menos de <strong>3 millones</strong>,  menos de <strong>4 millones</strong> y menos de <strong>20 millones</strong> de pesos, muestran una cantidad mucho menor de créditos otorgados, con <strong>42</strong> y <strong>59</strong> créditos respectivamente. Esta menor concentración en los segmentos de mayor valor sugiere que el acceso a propiedades de alto costo sigue siendo limitado y que la mayoría de los compradores opta por propiedades más asequibles. Aunque como en años pasados no hay una diferencia tan relativamente grande entre el segmento de menos de <strong>3 millones</strong> y el de menos de <strong>20 millones</strong>, por lo que podemos decir que ese sector interesado en propiedades de lujo sigue estando presente. Es bastante notable como respecto a años  pasados, prácticamente todas los segmentos han experimentado drásticas reducciones en los créditos otorgados, lo que podría indicar una desaceleración económica en este año.</p>
+                <p>En el mercado de créditos hipotecarios de <strong>Puerto Vallarta</strong> durante <strong>2024</strong>, la distribución de los créditos otorgados muestra una concentración significativa en el rango de menos de <strong>1 millón</strong> de pesos, con un total de <strong>640</strong> créditos. Este segmento representa la mayoría de las transacciones, lo que sugiere que el mercado está dominado por compradores que buscan propiedades más asequibles. En contraste, los créditos en el rango de <strong>1 a 2 millones</strong> de pesos son menos frecuentes, con <strong>267</strong> créditos, y aún menos en los rangos superiores. Los créditos por encima de <strong>4 millones</strong> de pesos, que llegan hasta <strong>20 millones</strong>, suman <strong>104</strong> transacciones, lo que indica una presencia de compradores con mayor capacidad económica, posiblemente inversores o compradores de propiedades de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -798,7 +745,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
     function showYearlyDataMontos(year) {
         // Crear el iframe dinámicamente
         const iframe = document.createElement('iframe');
-        iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_creditos_monto_${year}.html?year=${year}`;
+        iframe.src = `/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_creditos_monto_${year}.html?year=${year}`;
         iframe.width = '100%';
         iframe.height = '400';
         iframe.frameborder = '0';
@@ -862,7 +809,6 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
             </div>
         </div> -->
          <!-- Segmentación de mercado: Promedio de precio por segmento -->
-<div class="row">
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -874,9 +820,9 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 </div>
                 <div class="mb-3">
                     <select class="form-select" id="yearSelectSegmento" onchange="showYearlyDataSegmento(this.value)">
-                        <option value="2022" selected>2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
+                        <!--<option value="2022" selected>2022</option>
+                        <option value="2023">2023</option>-->
+                        <option value="2024" selected>2024</option>
                     </select>
                 </div>
                 <div>
@@ -903,7 +849,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Esta gráfica de pastel muestra la distribución de propiedades en Pachuca de Soto, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil</strong> pesos <strong>(E)</strong> hasta más de <strong>22 millones de pesos</strong> <strong>(ELITE)</strong>, y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
+                <p>Esta gráfica de pastel muestra la distribución de propiedades en Puerto Vallarta, clasificadas por diferentes segmentos de precio. Los segmentos van desde menos de <strong>500 mil</strong> pesos <strong>(E)</strong> hasta más de <strong>22 millones de pesos</strong> <strong>(ELITE)</strong>, y permiten observar cómo se reparte el mercado inmobiliario en términos de valor de las propiedades.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -917,18 +863,12 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación 2022</h5>
+                <h5 class="modal-title" id="interpretationModalLabelSegmento2022">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
+            </div>            
             <div class="modal-body">
-                <p>La gráfica revela una distribución de propiedades bastante equilibrada. El segmento <strong>D</strong> (1.75 millones a 2.5 millones) y <strong>S</strong> (4 millones a 12 millones) tienen casi la misma proporción, con alrededor del <strong>21%</strong> cada uno. Esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
-
-                <p>El segmento <strong>B</strong>, que incluye propiedades que valen entre <strong>2.5</strong> y <strong>3.25 millones</strong> de pesos, tiene la mayor proporción con un <strong>22.3%</strong>, lo que sugiere que este rango de precios es muy popular entre los compradores. Mientras tanto, el segmento <strong>A</strong> (3.25 a 4 millones de pesos) muestra una participación menor del <strong>12.1%</strong>, lo que puede reflejar una oferta limitada o menor demanda de inmuebles de alto valor, que tampoco llegan a ser de lujo.</p>
-
-                <p>Por otro lado, el segmento <strong>E</strong>, con propiedades de menos de <strong>500 mil</strong> pesos, tiene la menor proporción con solo <strong>4.35%</strong>. Esto podría ser indicativo de una oferta muy limitada de propiedades de bajo costo.</p>
-
-                <p>Los segmentos <strong>L</strong> (de 12 millones a 22 millones) y <strong>ELITE</strong> (más de 22 millones) no tienen participación en Pachuca.</p>
-            </div>
+                <p>En el mercado inmobiliario de <strong>Puerto Vallarta</strong>, se observa una participación significativa de propiedades de precio elevado. El <strong>segmento S</strong>, que probablemente incluye propiedades de lujo o de gran valor, representa el <strong>53.9%</strong> del total, mientras que el <strong>segmento L</strong>, que también incluye propiedades de alto valor, contribuye con el <strong>23.1%</strong>. Esta concentración en propiedades de precio alto refleja la naturaleza del mercado inmobiliario de Puerto Vallarta, que es conocido por su atractivo turístico y su demanda de propiedades exclusivas, especialmente entre extranjeros y compradores de segundas residencias.</p>
+            </div>            
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -966,9 +906,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En <strong>2024</strong>, los segmentos D (<strong>1.75 a 2.5 millones de pesos</strong>) y S (<strong>más de 4 millones</strong>) dominan el mercado, con un <strong>21.4%</strong> y <strong>19.2%</strong> respectivamente, esto indica una demanda significativa en ambos extremos del espectro de precios en el mercado de Pachuca, tanto en el segmento de las propiedades de nivel medio-alto como el de otras más accesibles.</p>
-                <p>Por otro lado, el segmento E (<strong>menos 500 mil a 1 millón</strong>) y C (<strong>1.75 millones a 2.5 millones</strong>) muestran casi la misma participación del <strong>16.8%</strong> y <strong>16.4%</strong>, lo que implica un presencia de propiedades de precios asequibles. Otros segmentos, como el B (<strong>2.5 millones a 3.25 millones</strong>) y A (<strong>3.25 millones a 4 millones</strong>) también tienen una participación significativa, lo que sugiere una oferta equilibrada entre propiedades de distintos rangos de precios en el mercado.</p>
-                <p>Finalmente en este año es posible resaltar que las propiedades del segmento L (<strong>12 millones a 22 millones</strong>) empiezan a tener presencia en la zona, lo que puede ser señal de una pequeña élite recién establecida.</p>
+                <p>En el mercado inmobiliario de Puerto Vallarta, se observa una participación significativa de propiedades de precio elevado. El segmento S, que probablemente incluye propiedades de lujo o de gran valor, representa el <strong>53.9%</strong> del total, mientras que el segmento L, que también incluye propiedades de alto valor, contribuye con el <strong>23.1%</strong>. Esta concentración en propiedades de precio alto refleja la naturaleza del mercado inmobiliario de Puerto Vallarta, que es conocido por su atractivo turístico y su demanda de propiedades exclusivas, especialmente entre extranjeros y compradores de segundas residencias.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -1002,7 +940,7 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
     });
 </script>
 
-</div>
+
 
         <!-- Distribución de Propiedades -->
         <div class="col-md-12">
@@ -1022,7 +960,8 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                                 </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>
+                                <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/propiedades.html" width="100%" height="400" frameborder="0"></iframe>-->
+                                <iframe src="https://datalpine.mx/dashboard/heatmap_puerto_vallarta_corrected.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -1058,8 +997,15 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    <p>El análisis de la distribución de la oferta de propiedades revela que algunas colonias destacan por su alta densidad de disponibilidad, en esta vista del mapa se aprecia una distribución uniforme a lo largo de Pachuca de Soto.</p>
-                    <p>Este panorama ofrece una visión clara de las áreas con mayor y menor disponibilidad de propiedades.</p>                    </div>
+                        <p>El mapa de calor revela que las zonas más densamente pobladas con propiedades (marcadas en rojo) se encuentran en:</p>
+                        <ul>
+                            <li><strong>Puerto Vallarta Centro</strong></li>
+                            <li><strong>Marina Vallarta</strong></li>
+                            <li><strong>Nuevo Vallarta</strong></li>
+                        </ul>
+                        <p>Estas zonas son hotspots inmobiliarios debido a su infraestructura desarrollada, atractivos turísticos, y fácil acceso a servicios esenciales. Invertir en estas áreas puede ofrecer retornos significativos debido a la alta demanda y la apreciación del valor de las propiedades.</p>
+                        <p>Baja Demanda: Colonias como <strong>Rancho Alegre</strong> y <strong>Valle Marlín</strong> tienen una muy baja cantidad de propiedades disponibles.</p>
+                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     </div>
@@ -1079,13 +1025,14 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
                                     <i class="fas fa-user-tie me-2"></i>
                                     <span class="developer-label">Desarrollador</span>
                                 </div>
-                               <!-- <div> 
+                                <div> 
                                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModal15">Descripción</button>
                                     <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModal15">Interpretación</button>
-                                </div>-->
+                                </div>
                             </div>
                             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>
+                                <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/mapas/colonias.html" width="100%" height="400" frameborder="0"></iframe>-->
+                                <iframe src="https://datalpine.mx/dashboard/puertovallarta_property_map_final_v2.html" width="100%" height="400" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -1100,11 +1047,20 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción 2023</h5>
+                        <h5 class="modal-title" id="descriptionModalLabel15">Descripción</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica muestra la distribución de propiedades para el año 2023.</p>
+                        <p>Este mapa interactivo ofrece una representación visual de las colonias locales, proporcionando información clave sobre el mercado inmobiliario. Incluye datos como el precio promedio de las propiedades, el costo por metro cuadrado de terreno y de construcción, así como el promedio de recámaras, baños y cajones de estacionamiento. Además, detalla los precios promedio por metro cuadrado de terreno y de construcción.</p>
+                        <p>Cada colonia se clasifica en un segmento específico, desde <strong>E</strong> (<strong>menor precio</strong>) hasta <strong>S</strong> (<strong>mayor precio</strong>) , según el rango de precios de las propiedades y están representados de la siguiente manera:</p>
+                        <ul>
+                            <li><strong>SEGMENTO E</strong>: Menor a <strong>1M</strong> (Verde)</li>
+                            <li><strong>SEGMENTO D</strong>: <strong>1M</strong> - <strong>1.75M</strong> (Amarillo)</li>
+                            <li><strong>SEGMENTO C</strong>: <strong>1.75M</strong>-<strong>2.5M</strong> (Azul)</li>
+                            <li><strong>SEGMENTO B</strong>: <strong>2.5M</strong>-<strong>3.25</strong> (Morado)</li>
+                            <li><strong>SEGMENTO A</strong>: <strong>3.25M</strong>-<strong>4M</strong> (Naranja)</li>
+                            <li><strong>SEGMENTO S</strong>: <strong>4KK+</strong> (Rojo)</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -1118,11 +1074,12 @@ El siguiente segmento, con créditos de menos de <strong>2 millones</strong> de 
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación 2023</h5>
+                        <h5 class="modal-title" id="interpretationModalLabel15">Interpretación</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Esta gráfica proporciona una visión detallada de la distribución de propiedades para el año 2023.</p>
+                        <p>La mayoría de las colonias en <strong>Puerto Vallarta</strong> presentan propiedades con precios intermedios a altos, indicando un mercado inmobiliario enfocado en un segmento de nivel medio a alto. Las zonas turísticas como <strong>Marina Vallarta</strong> y <strong>Nuevo Vallarta</strong> dominan con una alta cantidad de propiedades, reflejando su popularidad y demanda. Las propiedades económicas son menos frecuentes y generalmente están ubicadas en las periferias o en zonas menos desarrolladas.</p>
+                        <p>Esta interpretación nos permite entender mejor la distribución de precios y la densidad de propiedades en las diferentes colonias, ayudando a identificar áreas de interés.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

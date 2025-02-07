@@ -203,8 +203,13 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" style="overflow-y: auto; max-height: 90vh;">
-                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario de Puerto Vallarta. El análisis del comportamiento de cada segmento y sus subsegmentos revela patrones interesantes en el mercado inmobiliario.</p>
-                <p>Podemos observar que el segmento predominante es el segmento <strong>S</strong> en todos sus subsegmentos, con <strong>S1</strong> representando el <strong>23.16%</strong> (azul), <strong>S2</strong> el <strong>15.87%</strong> (rojo) y <strong>S3</strong> el <strong>16%</strong> (amarillo). Esto indica que las propiedades en Puerto Vallarta son costosas, situándose principalmente en el rango de precios de <strong>4 a 12 millones de pesos</strong>. El segundo segmento más común es el segmento <strong>B</strong>, mientras que el segmento <strong>E</strong> es el menos representado, indicando que hay pocas propiedades con precios menores a <strong>1 millón de pesos</strong>.</p>
+                <p>La gráfica revela una distribución variada de propiedades en diferentes rangos de precios en el mercado inmobiliario de Puerto Vallarta. El análisis del comportamiento de cada segmento revela patrones interesantes en el mercado inmobiliario.</p>
+
+                <p>Podemos observar que el segmento <strong>S</strong> es el más representado, aunque el <strong>segmento ELITE</strong> también tiene una participación significativa, lo que indica una demanda notable por propiedades de lujo en la región.</p>
+
+                <p>Por otro lado, el <strong>segmento E</strong> es el menos representado, lo que sugiere que hay pocas propiedades con precios menores a <strong>1 millón de pesos</strong>, lo que podría indicar que el mercado de viviendas económicas es limitado en Puerto Vallarta.</p>
+
+                <p>En general, el mercado inmobiliario de Puerto Vallarta muestra una tendencia hacia propiedades de mayor valor, lo que podría estar influenciado por su atractivo turístico y la demanda de propiedades de lujo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -228,7 +233,7 @@
                     <select class="form-select" id="segmentoSelect" onchange="showSegmentoData(this.value)">
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
-                        <!--<option value="2024">2024</option>-->
+                        <option value="2024">2024</option>
                     </select>
                 </div>
                 <div>
@@ -319,15 +324,18 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>En 2024, Puebla destinó el <strong>59.2%</strong> de los créditos otorgados a la compra de propiedades en el segmento inmobiliario S, lo que refleja que una gran parte de la población busca inmuebles de bajo valor y opta por financiamiento moderado.</p>
-
-                <p>El segundo segmento con mayor participación fue el D, con un <strong>18.9%</strong>, siguiendo la misma tendencia de créditos de menor valor.</p>
-
-                <p>Por otro lado, el segmento inmobiliario Elite recibió menos del <strong>0.5%</strong> de los créditos, debido al alto valor de las propiedades en esta categoría, lo que implicaría financiamientos significativamente elevados.</p>
+                <p>En el año <strong>2024</strong>, la distribución de créditos presenta algunas variaciones con respecto a años anteriores.</p>
+                <ul>
+                    <li>El <strong>segmento E</strong> sigue siendo el más solicitado, representando el <strong>54.24%</strong> de los créditos, lo que confirma su posición como el segmento de menor precio más demandado.</li>
+                    <li>El <strong>segmento D</strong> es el segundo más solicitado con <strong>19.07%</strong>, mostrando un interés creciente en este segmento.</li>
+                    <li>Los <strong>segmentos C</strong> y <strong>S</strong> tienen participaciones moderadas con <strong>9.15%</strong> y <strong>7.46%</strong>, respectivamente.</li>
+                    <li>Los <strong>segmentos B</strong>, <strong>A</strong> y <strong>L</strong> muestran participaciones más bajas con <strong>6.36%</strong>, <strong>2.37%</strong> y <strong>0.93%</strong>, respectivamente.</li>
+                    <li>El <strong>segmento ELITE</strong> tiene una participación mínima del <strong>0.42%</strong>.</li>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -414,15 +422,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica representa la variación y cambio de precios que se han presentado en cada trimestre entre 2023 y 2024, correspondientes a los diferentes segmentos de mercado.</p>
+                <p>El Segmento <strong>ELITE</strong> experimentó una variación positiva, con un aumento del <strong>2.03%</strong>, lo que indica un incremento moderado en los precios de las viviendas de lujo.</p>
 
-                <p>El Segmento <strong>ELITE</strong> experimentó la mayor variación positiva, con un aumento del <strong>20.27%</strong>, un incremento significativo en los precios de las viviendas en este segmento durante el período de estudio, indicando un mercado inmobiliario en alza.</p>
+                <p>Por otro lado, los segmentos <strong>A</strong>, <strong>B</strong>, y <strong>C</strong> mostraron variaciones positivas, con aumentos del <strong>0.87%</strong>, <strong>2.22%</strong>, y <strong>1.60%</strong> respectivamente, lo que podría interpretarse como un mercado más estable o accesible durante el período analizado.</p>
 
-                <p>Por otro lado, los segmentos <strong>A</strong>, <strong>B</strong>, y <strong>C</strong> mostraron variaciones positivas, con disminuciones del <strong>0.87%</strong>, <strong>2.22%</strong>, y <strong>1.16%</strong> respectivamente, interpretándose como un mercado más accesible durante el período analizado.</p>
-
-                <p>Por último, los segmentos <strong>E</strong>, <strong>S</strong>, <strong>L</strong>, <strong>D</strong> registraron una variación negativa del <strong>2.39%</strong>, <strong>0.74%</strong>, <strong>0.79%</strong>, y <strong>0.46%</strong>.</p>
-
-                <p>Todo lo anterior nos brinda un panorama completo sobre el comportamiento de los precios que tendrán en los próximos meses en cada segmento.</p>
+                <p>Por último, los segmentos <strong>E</strong>, <strong>S</strong>, <strong>L</strong>, y <strong>D</strong> registraron variaciones mixtas. El segmento <strong>E</strong> tuvo una disminución del <strong>-0.74%</strong>, el <strong>S</strong> un aumento del <strong>0.79%</strong>, el <strong>L</strong> un aumento del <strong>0.46%</strong>, y el <strong>D</strong> una disminución del <strong>-2.39%</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -585,7 +589,6 @@
         </div>
     </div>
 </div>
-
 <!-- Gráfica: Distribución % de créditos por categoría (trimestre) -->
 <div class="col-md-12">
     <div class="card">
@@ -600,21 +603,16 @@
                     <select class="form-select" id="categoriaSelect" onchange="showCategoriaData(this.value)">
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
-                        <!--<option value="2024">2024</option>-->
+                        <option value="2024">2024</option>
                     </select>
                 </div>
                 <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalCategoria">Descripción</button>
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonCategoria" data-bs-toggle="modal" data-bs-target="#interpretationModalTrimestre2022">Interpretación</button>
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButton" data-bs-toggle="modal">Interpretación</button>
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <div id="segmentoTrimestreDataContainer"></div>    
-                <!--                                
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2022.html" width="100%" height="400" frameborder="0" id="categoriaData2022" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2023.html" width="100%" height="400" frameborder="0" id="categoriaData2023" style="display: none; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_dist_creditos_segmento_percent_2024.html" width="100%" height="400" frameborder="0" id="categoriaData2024" style="display: none; min-height: 430px; border: 0;"></iframe>
-                -->
+                <div id="segmentoTrimestreDataContainer"></div>
             </div>
         </div>
     </div>
@@ -629,7 +627,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La gráfica muestra la distribución porcentual de créditos otorgados para propiedades en diferentes segmentos del mercado inmobiliario (<strong>S</strong>, <strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>) por trimestre durante <strong>2022</strong> - <strong>2023</strong>.</p>
+                <p>La gráfica muestra la distribución porcentual de créditos otorgados para propiedades en diferentes segmentos del mercado inmobiliario (<strong>S</strong>, <strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>, <strong>E</strong>, <strong>L</strong>) por trimestre durante <strong>2022</strong> - <strong>2024</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -638,23 +636,28 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation 2022 -->
-<div class="modal fade" id="interpretationModalTrimestre2022" tabindex="-1" aria-labelledby="interpretationModalLabel2022" aria-hidden="true">
+<!-- Modals for Interpretation - One for each year -->
+<div class="modal fade interpretation-modal" id="interpretationTrimestre2022" tabindex="-1" aria-labelledby="interpretationTrimestreLabel2022" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2022">Interpretación</h5>
+                <h5 class="modal-title">Interpretación 2022</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <ul>
-                    <li><strong>Segmento E:</strong> Es el segmento más predominante, con un aumento significativo en el tercer trimestre, alcanzando alrededor del <strong>22%</strong>. Esto sugiere que la mayoría de los créditos otorgados en 2023 se concentran en este rango de monto, especialmente en la segunda mitad del año. Esto podría indicar una mayor demanda o aprobación de créditos en este rango, posiblemente debido a cambios en las políticas de préstamos o condiciones económicas favorables.</li>
-                    <li><strong>Segmento D:</strong> Representa un <strong>3-6%</strong> de los créditos otorgados. Aunque su proporción es menor que la del segmento E, muestra un ligero incremento a lo largo del año, sugiriendo una moderada estabilidad en la demanda de créditos dentro de este rango de monto.</li>
-                    <li><strong>Segmento C:</strong> Oscila entre el <strong>2%</strong> y el <strong>3%</strong> de los créditos. La consistencia de estos valores indica que los préstamos en este rango de monto se mantuvieron estables, sin grandes fluctuaciones durante el año.</li>
-                    <li><strong>Segmentos B y A:</strong> Estos segmentos tienen una proporción muy baja, alrededor del <strong>1-2%</strong>. La baja representación sugiere que menos personas o entidades solicitan o califican para créditos en estos rangos de monto.</li>
-                    <li><strong>Segmentos S y L:</strong> Apenas visibles en el gráfico, con una representación mínima. Esto podría indicar que los créditos en estos rangos son muy poco comunes, posiblemente debido a que representan montos extremadamente altos o bajos, que no son típicamente solicitados o aprobados.</li>
-                </ul>
+                <p>La gráfica muestra la distribución porcentual de créditos otorgados para propiedades en diferentes segmentos del mercado inmobiliario durante 2022.</p>
+
+                <p>En el primer trimestre, el <strong>segmento E</strong> fue el más solicitado con un <strong>17.90%</strong> de los créditos, seguido por el <strong>segmento D</strong> con un <strong>4.08%</strong>.</p>
+
+                <p>En el segundo trimestre, el <strong>segmento E</strong> disminuyó su participación a un <strong>13.03%</strong>, mientras que el <strong>segmento S</strong> aumentó a un <strong>1.65%</strong>.</p>
+
+                <p>En el tercer trimestre, el <strong>segmento E</strong> recuperó terreno con un <strong>14.91%</strong>, y el <strong>segmento S</strong> continuó creciendo.</p>
+
+                <p>En el cuarto trimestre, el <strong>segmento E</strong> volvió a tener un <strong>17.74%</strong>, y el <strong>segmento D</strong> aumentó su participación a un <strong>4.63%</strong>.</p>
+
+                <p>Estos datos reflejan las tendencias en la demanda de créditos para diferentes segmentos del mercado inmobiliario a lo largo del año.</p>
             </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -662,22 +665,25 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation 2023 -->
-<div class="modal fade" id="interpretationModalTrimestre2023" tabindex="-1" aria-labelledby="interpretationModalLabel2023" aria-hidden="true">
+<div class="modal fade interpretation-modal" id="interpretationTrimestre2023" tabindex="-1" aria-labelledby="interpretationTrimestreLabel2023" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2023">Interpretación</h5>
+                <h5 class="modal-title">Interpretación 2023</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <ul>
-                    <li><strong>Segmento E:</strong> Es el segmento más predominante, con un aumento significativo en el tercer trimestre, alcanzando alrededor del <strong>22%</strong>. Esto sugiere que la mayoría de los créditos otorgados en 2023 se concentran en este rango de monto, especialmente en la segunda mitad del año. Esto podría indicar una mayor demanda o aprobación de créditos en este rango, posiblemente debido a cambios en las políticas de préstamos o condiciones económicas favorables.</li>
-                    <li><strong>Segmento D:</strong> Representa un <strong>3-6%</strong> de los créditos otorgados. Aunque su proporción es menor que la del segmento E, muestra un ligero incremento a lo largo del año, sugiriendo una moderada estabilidad en la demanda de créditos dentro de este rango de monto.</li>
-                    <li><strong>Segmento C:</strong> Oscila entre el <strong>2%</strong> y el <strong>3%</strong> de los créditos. La consistencia de estos valores indica que los préstamos en este rango de monto se mantuvieron estables, sin grandes fluctuaciones durante el año.</li>
-                    <li><strong>Segmentos B y A:</strong> Estos segmentos tienen una proporción muy baja, alrededor del <strong>1-2%</strong>. La baja representación sugiere que menos personas o entidades solicitan o califican para créditos en estos rangos de monto.</li>
-                    <li><strong>Segmentos S y L:</strong> Apenas visibles en el gráfico, con una representación mínima. Esto podría indicar que los créditos en estos rangos son muy poco comunes, posiblemente debido a que representan montos extremadamente altos o bajos, que no son típicamente solicitados o aprobados.</li>
-                </ul>
+                <p>La gráfica muestra la distribución porcentual de créditos otorgados para propiedades en diferentes segmentos del mercado inmobiliario durante 2023.</p>
+
+                <p>En el primer trimestre, el <strong>segmento E</strong> fue el más solicitado con un <strong>15.90%</strong> de los créditos, seguido por el <strong>segmento D</strong> con un <strong>4.84%</strong>.</p>
+
+                <p>En el segundo trimestre, el <strong>segmento E</strong> aumentó su participación a un <strong>17.20%</strong>, mientras que el <strong>segmento B</strong> también mostró un aumento significativo.</p>
+
+                <p>En el tercer trimestre, el <strong>segmento S</strong> aumentó su participación a un <strong>1.81%</strong>, y el <strong>segmento L</strong> continuó con una participación baja.</p>
+
+                <p>En el cuarto trimestre, el <strong>segmento D</strong> aumentó su participación a un <strong>4.77%</strong>, y el <strong>segmento S</strong> continuó creciendo.</p>
+
+                <p>Estos datos reflejan las tendencias en la demanda de créditos para diferentes segmentos del mercado inmobiliario a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -686,20 +692,23 @@
     </div>
 </div>
 
-<!-- Modal for Interpretation 2024 -->
-<div class="modal fade" id="interpretationModalTrimestre2024" tabindex="-1" aria-labelledby="interpretationModalLabel2024" aria-hidden="true">
+<div class="modal fade interpretation-modal" id="interpretationTrimestre2024" tabindex="-1" aria-labelledby="interpretationTrimestreLabel2024" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="interpretationModalLabel2024">Interpretación 2024</h5>
+                <h5 class="modal-title">Interpretación 2024</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para los primeros 2 trimestres del 2024, el segmento E (menos de <strong>500</strong> mil a <strong>1</strong> millón) sigue dominando de manera significativa en ambos trimestres, lo que refuerza la preferencia por propiedades más accesibles, probablemente impulsado por la demanda de jóvenes compradores y familias locales en busca de vivienda económica.</p>
+                <p>La gráfica muestra la distribución porcentual de créditos otorgados para propiedades en diferentes segmentos del mercado inmobiliario durante 2024.</p>
 
-                <p>El segmento D (<strong>1</strong> millón a <strong>1.75</strong> millones) también muestra una participación considerable, lo que puede estar relacionado con el crecimiento económico de Pachuca de Soto, este atrayendo a compradores con mayor poder adquisitivo.</p>
+                <p>En el primer trimestre, el <strong>segmento E</strong> fue el más solicitado con un <strong>17.43%</strong> de los créditos, seguido por el <strong>segmento D</strong> con un <strong>6.12%</strong>.</p>
 
-                <p>Mientras que el resto de los segmentos presentan porcentajes de participación menores.</p>
+                <p>En el segundo trimestre, el <strong>segmento E</strong> aumentó su participación a un <strong>19.29%</strong>, mientras que el <strong>segmento S</strong> mostró un aumento significativo con un <strong>3.32%</strong>.</p>
+
+                <p>En el tercer trimestre, el <strong>segmento E</strong> volvió a tener un <strong>17.43%</strong>, y el <strong>segmento ELITE</strong> aumentó su participación a un <strong>0.21%</strong>.</p>
+
+                <p>Estos datos reflejan las tendencias en la demanda de créditos para diferentes segmentos del mercado inmobiliario a lo largo del año.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -708,28 +717,30 @@
     </div>
 </div>
 
-<!-- Script para controlar la visualización de gráficas -->
 <script>
     function showCategoriaData(year) {
         // Crear el iframe dinámicamente
         const iframe = document.createElement('iframe');
-        iframe.src = `/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_dist_creditos_segmento_percent_${year}.html`;        
+        iframe.src = `/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_dist_creditos_segmento_percent_${year}.html`;
         iframe.width = '100%';
         iframe.height = '400';
         iframe.frameborder = '0';
         iframe.style.minHeight = '430px';
         iframe.style.border = '0';
+
         // Reemplazar el contenido del contenedor
         document.getElementById('segmentoTrimestreDataContainer').innerHTML = '';
         document.getElementById('segmentoTrimestreDataContainer').appendChild(iframe);
-        // Cambiar el modal de interpretación según el año seleccionado
-        document.getElementById('interpretationModalTrimestre').setAttribute('data-bs-target', `#interpretationModal${year}`);
+
+        // Actualizar el botón de interpretación para que abra el modal correcto
+        const interpretationButton = document.getElementById('interpretationButton');
+        interpretationButton.setAttribute('data-bs-target', `#interpretationTrimestre${year}`);
     }
-    
+
     // Mostrar la gráfica de 2022 por defecto al cargar la página
     document.addEventListener('DOMContentLoaded', function() {
         showCategoriaData('2022');
-    });      
+    });
 </script>
 
 

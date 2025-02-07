@@ -193,7 +193,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Casa Mediana</h5>
+                                <h5 class="card-title">Departamento Promedio</h5>
                                 <table class="table" id="tablaMediana">                                    
                                     <tbody id="tableBodyMediana">                                      
                                         <tr>
@@ -231,10 +231,6 @@
                                             <td>Promedio</td>
                                             <td id="precio-promedio"></td>
                                         </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="precio-mediana"></td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -257,10 +253,6 @@
                                         <tr>
                                             <td>Promedio</td>
                                             <td id="metros-terreno-promedio"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="metros-terreno-mediana"></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -285,10 +277,6 @@
                                             <td>Promedio</td>
                                             <td id="metros-construidos-promedio"></td>
                                         </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="metros-construidos-mediana"></td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -311,10 +299,6 @@
                                         <tr>
                                             <td>Promedio</td>
                                             <td id="precio-metros-construidos-promedio"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="precio-metros-construidos-mediana"></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -582,7 +566,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de Estacionamientos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -678,7 +662,7 @@
     function showSegmentDataEstacionamientos(segment) {
           // Crear el iframe dinámicamente
           const iframe = document.createElement('iframe');
-                iframe.src = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_estacionamientos.html`;
+                iframe.src = `/datalpine/resources/Ciudades/Tulancingo/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_estacionamientos.html`;
                 iframe.width = '100%';
                 iframe.height = '400';
                 iframe.frameborder = '0';
@@ -704,7 +688,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de Baños</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -836,7 +820,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Recámaras</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de Recámaras</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -969,8 +953,8 @@
 <!-- Gráfica: Distribución m2 construidos -->
 <div class="col-md-12">
     <div class="card">
-        <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
+        <div class="card-body">            
+            <h5 class="card-title subtitle mb-3 text-center">Distribución M² construidos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -1107,7 +1091,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m²</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por M² Construidos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>

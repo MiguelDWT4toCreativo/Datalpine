@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Pachuca | DatAlpine</title>
+    <title>Pto. Vallarta | DatAlpine</title>
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -115,8 +115,8 @@
                         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                             <div class="page-title-right">
                                 <ol class="breadcrumb mb-sm-0 font-size-18">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hidalgo</a></li>
-                                    <li class="breadcrumb-item active">Pachuca</li>
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Jalisco</a></li>
+                                    <li class="breadcrumb-item active">Puerto Vallarta</li>
                                 </ol>
                             </div>                            
                         </div>
@@ -138,13 +138,13 @@
                     <h1>Proyecciones y Tendencias</h1>
                 </div>
                 <p style="font-size: 18px; line-height: 1.5; color: #444;">Este apartado ofrece datos históricos y
-                    actuales sobre el mercado inmobiliario en Pachuca de Soto, proporcionando una visión completa de las
+                    actuales sobre el mercado inmobiliario en Puerto Vallarta, proporcionando una visión completa de las
                     transformaciones, tendencias y precios a lo largo del tiempo.</p>
 
 
 
 <!-- Gráfica: Precio Promedio de Baños -->
-<div class="col-md-12">
+<!--<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Precio Promedio de Baños</h5>
@@ -160,23 +160,23 @@
                         <option value="cuatrobanos">Cuatro Baños</option>
                     </select>
                 </div>-->
-                <div>
+    <!--            <div>
                     <button class="btn btn-sm btn-outline-primary rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#descriptionModalBanos">Descripción</button>
                 <!--                    <button class="btn btn-sm btn-outline-secondary rounded-pill" id="interpretationButtonBanos" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>-->
-                    <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
+        <!--            <button class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#interpretationModalBanosGeneral">Interpretación</button>
                 </div>
                 
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_precio_promedio_banos.html" width="100%" height="400" frameborder="0" id="bathroomDataBanos" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <!--                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_precio_promedio_banos_14.html" width="100%" height="400" frameborder="0" id="bathroomDataCuatroBanos" style="display: none; min-height: 430px; border: 0;"></iframe>
--->            </div>
+-->         <!--   </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
-<div class="modal fade" id="descriptionModalBanos" tabindex="-1" aria-labelledby="descriptionModalLabelBanos" aria-hidden="true">
+<!--<div class="modal fade" id="descriptionModalBanos" tabindex="-1" aria-labelledby="descriptionModalLabelBanos" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -191,10 +191,10 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Interpretation: General -->
-<div class="modal fade" id="interpretationModalBanosGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelBanosGeneral" aria-hidden="true">
+<!--<div class="modal fade" id="interpretationModalBanosGeneral" tabindex="-1" aria-labelledby="interpretationModalLabelBanosGeneral" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -213,10 +213,10 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Interpretation: Cuatro Baños -->
-<div class="modal fade" id="interpretationModalCuatroBanos" tabindex="-1" aria-labelledby="interpretationModalLabelCuatroBanos" aria-hidden="true">
+<!--<div class="modal fade" id="interpretationModalCuatroBanos" tabindex="-1" aria-labelledby="interpretationModalLabelCuatroBanos" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -241,7 +241,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Script para controlar la visualización de gráficas -->
 <script>
@@ -271,7 +271,7 @@
 
         <!-- Mitad izquierda: Meses de oferta (Month of Supply) -->
 <!-- Gráfica: Meses de oferta (Month of Supply) -->
-<div class="col-md-12">
+<!--<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Meses de oferta (Month of Supply)</h5>
@@ -286,11 +286,11 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_MonthSupply.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_MonthSupply_2024.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModal7" tabindex="-1" aria-labelledby="descriptionModalLabel7" aria-hidden="true">
@@ -350,7 +350,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_pie_riesgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -365,7 +365,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Pachuca de Soto.</p>
+                <p>El riesgo de que las viviendas se queden en Stock (sin venderse) por un lapso de tiempo de más de un año, es importante analizarlo ya que nos ofrece una vista rápida de la oferta y la demanda de las viviendas en Puerto Vallarta.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -383,9 +383,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>La porción más grande del gráfico corresponde a los productos que han estado en stock menos de un año, con un <strong>82.4%</strong>. Esto indica que la mayoría de los productos se venden con rapidez, lo que sugiere una buena rotación de inventario y una alta demanda.</p>
+                <p>En este contexto, las casas que llevan más de un año en stock (<strong>59.6%</strong>) representan un riesgo menor en términos de porcentaje, pero aún así indican una proporción significativa.</p>
 
-                <p>La porción restante, correspondiente a productos en stock más de un año, representa el <strong>17.6%</strong> del total. Aunque es una porción menor, sigue siendo relevante y puede indicar la existencia de productos con menor rotación o que podrían requerir acciones específicas para acelerar su venta.</p>
+                <p>Por otro lado, las casas que llevan menos de un año en stock representan la mayoría en términos porcentuales (<strong>40.4%</strong>) e indican una rotación más activa del inventario.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -412,7 +412,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_bar_proy_poblacion_hgo.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/compartidas/assets/graficas/g_bar_proy_poblacion_jalisco.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -445,12 +445,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <p>
-                A lo largo de los años que se analizan, se revela un crecimiento progresivo en la ciudad de <strong>Pachuca</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>3,144,514</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>3,350,825</strong>.
-            </p>
-            <p>
-                Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica de la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
-            </p>
+                <p>
+                    A lo largo de los años que se analizan, se revela un crecimiento progresivo en la ciudad de <strong>Puerto Vallarta</strong> para los próximos años. En <strong>2021</strong>, la ciudad contaba con una población total aproximada de <strong>8,543,114</strong>, y para <strong>2027</strong> se proyecta que esta población aumentará a <strong>9,020,390</strong>.
+                </p>
+                <p>
+                    Este crecimiento de la población propone un escenario favorecedor para la ciudad, ya que influye directamente en la demanda de viviendas, lo que podría ser una oportunidad para la construcción de nuevos proyectos inmobiliarios. Además, la dinámica económica de la zona también tiene impacto debido a la distribución de edades, ingresos y estilo de vida que trae el crecimiento demográfico.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -502,7 +502,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Pronóstico de los montos de los créditos generales para los próximos años en la ciudad de <strong>Querétaro</strong>; estos se subdividen en 2 categorías, vivienda nueva y vivienda usada.</p>
+                <p>Se muestran las proyecciones de créditos generales en términos de valor monetario (<strong>total</strong> y <strong>promedio</strong>) para los años <strong>2019 a 2026</strong>, subdividiendose en las categorías "<strong>Vivienda Nueva</strong>" y "<strong>Vivienda Usada</strong>", proporcionando un análisis detallado de cómo se espera que evolucione el valor monetario de los créditos en estas dos clasificaciones a lo largo de los años proyectados.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -519,7 +519,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Pronóstico de la cantidad de créditos para los próximos años en la ciudad de <strong>Querétaro</strong>; estos se subdividen en 3 categorías, Créditos generales, para Vivienda Nueva y Vivienda Usada.  </p>
+                <p>El monto total de créditos en Puerto Vallarta presenta una proyección ascendente, estimándose un aumento de <strong>$1,430,769,432.43</strong> en <strong>2019</strong> a <strong>$1,850,699,331.67</strong> en <strong>2026</strong>. Esta tendencia refleja un crecimiento constante a lo largo del periodo analizado.</p>
+                <p>Para vivienda nueva se observa un aumento gradual de <strong>$999,430,693.08</strong> en <strong>2019</strong> a <strong>$1,014,220,724.54</strong> en <strong>2026</strong> evidenciando una estabilidad y crecimiento constante en los años posteriores.</p>
+                <p>Por otro lado, los créditos destinados a la "Vivienda Usada" aunque se registran fluctuaciones, destaca un incremento progresivo de <strong>$317,261,438.05</strong> en <strong>2019</strong> a <strong>$628,801,488.21</strong> en <strong>2026</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -537,9 +539,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026 de aproximadamente 9,264 y 9,288, respectivamente para cada año. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
-                <p>Para los créditos que se otorgan para viviendas nuevas se estima una ligera disminución del año 2024 al 2025 de alrededor de 482 créditos, y del año 2025 a 2026 también disminuirán 76 créditos. Estas estimaciones proponen un contexto complejo para la adquisición de viviendas nuevas en la ciudad de <strong>Santiago de Querétaro</strong>. </p>
-                <p>Por su parte, los créditos para viviendas usadas tendrán una disminución de 335 créditos al pasar del año 2024 a 2025; sin embargo del año 2025 al 2026 se espera que esto aumente 113 créditos.</p>
+                <p>Para todas las categorías, se evidencia un crecimiento constante de <strong>$774,645.06</strong> en <strong>2019</strong> a <strong>$1,469,975.64</strong> en <strong>2026</strong>.</p>
+                <p>En relación a "Vivienda Nueva" en Puerto Vallarta, se observa una trayectoria ascendente en los montos promedio por crédito a lo largo de los años proyectados. Desde <strong>$1,024,006.86</strong> en <strong>2019</strong>, se anticipa un crecimiento constante hasta alcanzar <strong>$1,635,839.88</strong> en <strong>2026</strong>.</p>
+                <p>En cuanto a la categoría de "Vivienda Usada" en Puerto Vallarta, se observa una variación en los montos promedio por crédito a lo largo de los años proyectados. Partiendo de <strong>$906,461.25</strong> en <strong>2019</strong>, se experimenta un aumento a <strong>$2,061,644.22</strong> en <strong>2026</strong>.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -557,9 +559,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para 2025 y 2026. Esta totalidad de créditos se subdivide en 2 grandes categorías, Vivienda Nueva y Vivienda Usada.</p>
-                <p>Para los créditos otorgados de Vivienda Nueva se puede observar que los créditos tendrán un aumento sostenido de <strong>$213,229</strong> de 2025 a 2026. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.</p>
-                <p>Por su parte, los créditos otorgados de Vivienda Usada igual presentarán un aumento en su valor de 2025 a 2026, aproximadamente de <strong>$232,30</strong>; esto implica que para las viviendas de la ciudad será mas accesible el mejoramiento.</p>
+                <p>De acuerdo a los datos históricos con los que se cuentan, la evolución del panorama de créditos seguirá una crecimiento positivo. Los créditos totales continuarán con un aumento consistente para <strong>2025</strong> y <strong>2026</strong>. Esta totalidad de créditos se subdivide en 2 grandes categorías, <strong>Vivienda Nueva</strong> y <strong>Vivienda Usada</strong>.</p>
+                <p>Para los créditos otorgados de <strong>Vivienda Nueva</strong> se puede observar que los créditos tendrán un aumento sostenido de <strong>$213,229</strong> de <strong>2025</strong> a <strong>2026</strong>. Esto es señal del aumento de los precios de las viviendas en la ciudad, debido a factores como tasas de interés, inflación o equilibrio entre la demandada y la oferta.</p>
+                <p>Por su parte, los créditos otorgados de <strong>Vivienda Usada</strong> igual presentarán un aumento en su valor de <strong>2025</strong> a <strong>2026</strong>, aproximadamente de <strong>$232,30</strong>; esto implica que para las viviendas de la ciudad será mas accesible el mejoramiento.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -575,11 +577,11 @@
        let iframe;
        if (option === 'forecastcp') {
            iframe = document.createElement('iframe');
-           iframe.src = "/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_promedio.html";
+           iframe.src = "/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_forecast_credit_promedio.html";
            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalPromedio');
        } else if (option === 'forecastcc') {
            iframe = document.createElement('iframe');
-           iframe.src = "/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_forecast_credit_cantidad.html";
+           iframe.src = "/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_forecast_credit_total.html";
            document.getElementById('DescFCG').setAttribute('data-bs-target', '#descriptionModalCantidad');
        }
        if (iframe) {
@@ -632,8 +634,8 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" id="plusvalia_ano" style="display: block; min-height: 430px; border: 0;"></iframe>
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" id="plusvalia_mes" style="display: none; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_plusvaliaestimada_ano.html" width="100%" height="400" frameborder="0" id="plusvalia_ano" style="display: block; min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_scatt_plusvaliaestimada_mes24.html" width="100%" height="400" frameborder="0" id="plusvalia_mes" style="display: none; min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -649,7 +651,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Pronóstico de la plusvalía que tendrá el área de inmuebles para los próximos años y meses en la ciudad de Puebla.<p>
+                <p>Pronóstico de la plusvalía que tendrá el área de inmuebles para los próximos años y meses en la ciudad de Puerto Vallarta.<p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -667,8 +669,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo a los datos que se pronostica tener en los próximos 3 años en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva. Los datos proyectados para los próximos dos años en Puebla indican una tendencia al alza en el valor de los inmuebles. Para el 2025 las viviendas aumentarán aproximadamente <strong>$709,208.76</strong>; y para 2026 el aumento será de <strong>$858,704.76</strong>. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.</p>
+                <p>De acuerdo a los datos proyectados para los próximos años en la ciudad de Puerto Vallarta, la evolución del panorama de precios de los inmuebles muestra una tendencia positiva. Los datos indican que el valor promedio de los inmuebles aumentará significativamente. En 2025, el promedio se estima en <strong>$6,830,869.62</strong>, lo que representa un incremento de <strong>$323,074.94</strong> respecto a 2024. Para 2026, se proyecta un valor promedio de <strong>$7,169,983.39</strong>, lo que supone un aumento adicional de <strong>$339,113.77</strong>. Finalmente, para 2027, el promedio se estima en <strong>$7,525,932.22</strong>, con un incremento de <strong>$355,948.83</strong> respecto a 2026. Esta apreciación de las propiedades en la ciudad representa una oportunidad para hacer inversiones, en donde se obtienen ganancias significativas para el futuro.</p>
             </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
             </div>
@@ -685,7 +688,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>De acuerdo a los datos que se pronostica tener en el próximo año en la ciudad de Puebla, la evolución del panorama de precios de los inmuebles tendrá una tendencia positiva, con ligeras variaciones en meses que en los cuales el precio se mantuvo constante. Esto significa que, en promedio, el monto ha ido aumentando mes a mes. Sin embargo, es importante notar que el crecimiento no es constante y hay algunos meses donde el aumento es más pronunciado que en otros. Los últimos meses del año muestran un crecimiento más acelerado en comparación con los primeros meses. Si la tendencia actual se mantiene, es probable que el monto continúe aumentando en los años siguientes. </p>
+                <p>De acuerdo a los datos proyectados para los próximos años en la ciudad de Puerto Vallarta, la evolución del panorama de precios de los inmuebles muestra una tendencia positiva, con un incremento constante en el valor promedio. En 2024, el promedio se estima en <strong>$9,916,809.24</strong>, lo que representa un aumento de <strong>$97,028.50</strong> respecto a 2023. Para 2025, se proyecta un valor promedio de <strong>$10,409,122.33</strong>, con un incremento de <strong>$492,313.09</strong>. En 2026, el promedio se estima en <strong>$10,925,875.97</strong>, lo que supone un aumento adicional de <strong>$516,753.64</strong>, y finalmente, para 2027, el promedio se estima en <strong>$11,468,283.47</strong>, con un incremento de <strong>$542,407.50</strong> respecto a 2026. Esta tendencia al alza refleja la continua demanda por propiedades en la región, impulsada por su atractivo turístico y la inversión en infraestructura.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -726,7 +729,7 @@
 
 
 
-<div class="col-md-12">
+<!--<div class="col-md-12">
     <div class="card">
         <div class="card-body">
             <h5 class="card-title subtitle mb-3 text-center">Colonias</h5>
@@ -750,10 +753,10 @@
                 <div id="coloniasDataMasBaratas"></div>
                 <!--<iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_baratas.html" width="100%" height="400" frameborder="0" id="coloniasDataMasBaratas" style="display: block; min-height: 430px; border: 0;"></iframe>
                 <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_colonias_caras.html" width="100%" height="400" frameborder="0" id="coloniasDataMasCaras" style="display: none; min-height: 430px; border: 0;"></iframe>-->
-            </div>
+           <!-- </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModalColonias" tabindex="-1" aria-labelledby="descriptionModalLabelColonias" aria-hidden="true">
@@ -855,7 +858,7 @@
 </script>
 
 
-        <!-- Gráfica: Colonias predominantes -->
+        <!-- Gráfica: Colonias predominantes 
         <div class="col-md-12">
     <div class="card">
         <div class="card-body">
@@ -875,7 +878,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- Modal for Description -->
 <div class="modal fade" id="descriptionModal33" tabindex="-1" aria-labelledby="descriptionModalLabel3" aria-hidden="true">
@@ -934,7 +937,7 @@
                 </div>
             </div>
             <div style="border-top: 1px solid #ccc; padding-top: 10px;">
-                <iframe src="/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_bar_tiempo_mercado.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
+                <iframe src="/datalpine/resources/Ciudades/Vallarta/assets/graficas/g_bar_tiempo_mercado.html" width="100%" height="400" frameborder="0" style="min-height: 430px; border: 0;"></iframe>
             </div>
         </div>
     </div>
@@ -950,7 +953,7 @@
             </div>
             <div class="modal-body">
                 <p>
-                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico en el mercado inmobiliario de Pachuca de Soto.
+                El grafico de barras muestra el número de propiedades en función del tiempo que llevan en el mercado. Cada barra representa el número de propiedades que han estado en venta durante un rango de días específico en el mercado inmobiliario de Puerto Vallarta.
                 </p>
             </div>
             <div class="modal-footer">
@@ -970,13 +973,10 @@
             </div>
             <div class="modal-body">
                 <p>
-                La barra más alta corresponde al rango de <strong>121-240</strong> días, lo que indica que una gran cantidad de propiedades se venden medianamente rápido, entre <strong>4</strong> a <strong>8</strong> meses.
+                El análisis de la información revela que la categoría con el mayor número de unidades es la de "<strong>101-365</strong> días", con un total de <strong>1319</strong> unidades. Este intervalo de tiempo indica que una cantidad significativa de unidades inmobiliarias permanecen en el mercado durante un periodo relativamente prolongado antes de concretar la venta.
                 </p>
                 <p>
-                Como siguiente, hay propiedades que se venden de entre <strong>31-120</strong> días, de ahí están las propiedades que se venden en más de <strong>1</strong> año.
-                </p>
-                <p>
-                Esto sugiere que existe una demanda activa en el mercado y donde las propiedades se quedan un periodo medio-corto.
+                Por otro lado, la categoría con el menor número de unidades es la de "<strong>0-10</strong> días", que registra <strong>159</strong> unidades.
                 </p>
             </div>
             <div class="modal-footer">

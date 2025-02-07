@@ -192,7 +192,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Casa Mediana</h5>
+                                <h5 class="card-title">Departamento Promedio</h5>
                                 <table class="table" id="tablaMediana">                                    
                                     <tbody id="tableBodyMediana">                                      
                                         <tr>
@@ -230,10 +230,6 @@
                                             <td>Promedio</td>
                                             <td id="precio-promedio"></td>
                                         </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="precio-mediana"></td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -256,10 +252,6 @@
                                         <tr>
                                             <td>Promedio</td>
                                             <td id="metros-terreno-promedio"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="metros-terreno-mediana"></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -284,10 +276,6 @@
                                             <td>Promedio</td>
                                             <td id="metros-construidos-promedio"></td>
                                         </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="metros-construidos-mediana"></td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -310,10 +298,6 @@
                                         <tr>
                                             <td>Promedio</td>
                                             <td id="precio-metros-construidos-promedio"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mediana</td>
-                                            <td id="precio-metros-construidos-mediana"></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -591,7 +575,7 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title subtitle mb-3 text-center">Estacionamientos</h5>
+                <h5 class="card-title subtitle mb-3 text-center">Distribución de Estacionamientos</h5>
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <div class="d-flex align-items-center">
                         <i class="fas fa-user-tie me-2"></i>
@@ -630,8 +614,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de pastel visualiza la distribución general de estacionamientos en el mercado inmobiliario. Cada porción del círculo representa un porcentaje correspondiente a un número específico de estacionamientos, proporcionando una visión clara de la prevalencia de diferentes configuraciones de estacionamiento en las propiedades.</p>
-                <p>El gráfico de barras muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.</p>
+                <p>El gráfico de <strong>pastel</strong> visualiza la distribución general de estacionamientos en el mercado inmobiliario. Cada porción del círculo representa un porcentaje correspondiente a un número específico de estacionamientos, proporcionando una visión clara de la prevalencia de diferentes configuraciones de estacionamiento en las propiedades.</p>
+                <p>El gráfico de <strong>barras</strong> muestra la distribución del número de casas que tienen un determinado número de estacionamientos, agrupadas por diferentes categorías. Cada barra representa la cantidad de casas que tienen un número específico de estacionamientos para una categoría determinada. Los diferentes colores representan el número de estacionamientos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -649,9 +633,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
+                <p>Es notorio que en <strong>todos los segmentos 1</strong> y <strong>2</strong> es el número de estacionamientos que más predomina, sin embargo en el <strong>segmento E</strong> y <strong>D</strong> resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
-                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
+                <p>Por su parte el <strong>segmento S</strong> es el que mayor concentración de propiedades con <strong>5 estacionamientos</strong> tiene y esto es compatible con el precio alto que maneja.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -667,9 +651,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
+                <p>Es notorio que en <strong>todos los segmentos 1</strong> y <strong>2</strong> es el número de estacionamientos que más predomina, sin embargo en el <strong>segmento E</strong> y <strong>D</strong> resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
-                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
+                <p>Por su parte el <strong>segmento S</strong> es el que mayor concentración de propiedades con <strong>5 estacionamientos</strong> tiene y esto es compatible con el precio alto que maneja.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -685,9 +669,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Es notorio que en todos los segmentos 1 y 2 es el número de estacionamientos que más predomina, sin embargo en el segmento E y D resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
+                <p>Es notorio que en <strong>todos los segmentos 1</strong> y <strong>2</strong> es el número de estacionamientos que más predomina, sin embargo en el <strong>segmento E</strong> y <strong>D</strong> resaltan las propiedades con 1 baño lo que es congruente con el precio que poseen.</p>
 
-                <p>Por su parte el segmento S es el que mayor concentración de propiedades con 5 estacionamientos tiene y esto es compatible con el precio alto que maneja.</p>
+                <p>Por su parte el <strong>segmento S</strong> es el que mayor concentración de propiedades con <strong>5 estacionamientos</strong> tiene y esto es compatible con el precio alto que maneja.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -725,7 +709,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución de baños</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de Baños</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -760,7 +744,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Representa la distribución de la cantidad de baños que poseen las propiedades en la ciudad de Pachuca de Soto. Cada porción del círculo representa una cantidad específica de baños. </p>
+                <p>Representa la distribución de la cantidad de baños que poseen las propiedades en la <strong>ciudad de Pachuca de Soto</strong>. Cada porción del círculo representa una cantidad específica de baños. </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -794,7 +778,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Para las primeras cantidades de baños (1, 2, y 3) es notorio que las abarcan los segmentos E, D y C, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir 4, 5, 6 los segmentos mayor participación tienen son el B, A y S, los precios de estas propiedades son considerados de medio-alto.</p>
+                <p>Para las primeras cantidades de baños (<strong>1, 2, y 3</strong>) es notorio que las abarcan los <strong>segmentos E</strong>, <strong>D</strong> y <strong>C</strong>, lo que es correspondiente al rango de precios que tienen estos segmentos, donde el número de baños está relacionado al precio de las propiedades. Por su parte, a medida que aumentan los baños también lo hace la concentración de propiedades de los segmentos más altos, a partir <strong>4, 5, 6</strong> los segmentos mayor participación tienen son el <strong>B</strong>, <strong>A</strong> y <strong>S</strong>, los precios de estas propiedades son considerados de medio-alto.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -849,7 +833,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Recámaras</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución de Recámaras</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -885,9 +869,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>El gráfico de pastel ilustra la distribución porcentual del número de recámaras en un conjunto de propiedades, clasificadas por segmentos. Cada sección del gráfico circular representa el porcentaje de propiedades que tienen un número específico de recámaras, y los colores se emplean para distinguir entre las diferentes categorías.</p>
+                <p>El gráfico de <strong>pastel</strong> ilustra la distribución porcentual del número de recámaras en un conjunto de propiedades, clasificadas por segmentos. Cada sección del gráfico circular representa el porcentaje de propiedades que tienen un número específico de recámaras, y los colores se emplean para distinguir entre las diferentes categorías.</p>
                 
-                <p>El gráfico de barras ilustra la cantidad de casas por segmento que tienen un número específico de recámaras. Las barras se dividen por segmento, y cada una representa el número de casas dentro de ese segmento que tienen un determinado número de recámaras. Los colores utilizados distinguen entre los diferentes números de recámaras.</p>
+                <p>El gráfico de <strong>barras</strong> ilustra la cantidad de casas por segmento que tienen un número específico de recámaras. Las barras se dividen por segmento, y cada una representa el número de casas dentro de ese segmento que tienen un determinado número de recámaras. Los colores utilizados distinguen entre los diferentes números de recámaras.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -905,9 +889,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Con un <strong>41.7%</strong> de participación, las viviendas con 2 recámaras representan la categoría más frecuente, lo que sugiere que es común encontrar propiedades con este número de habitaciones en este conjunto de datos. Esto podría indicar que se trata de propiedades diseñadas para familias medianas.</p>
+                <p>Con un <strong>41.7%</strong> de participación, las viviendas con <strong>2</strong> recámaras representan la categoría más frecuente, lo que sugiere que es común encontrar propiedades con este número de habitaciones en este conjunto de datos. Esto podría indicar que se trata de propiedades diseñadas para familias medianas.</p>
 
-                <p>Las categorías restantes presentan porcentajes mucho menores, lo que sugiere que son opciones menos frecuentes. Es posible que estas categorías representen propiedades más pequeñas (1 o 2 recámaras) o más grandes (4, 5 o 6 recámaras), que podrían ser adecuadas para personas solteras, parejas o familias numerosas.</p>
+                <p>Las categorías restantes presentan porcentajes mucho menores, lo que sugiere que son opciones menos frecuentes. Es posible que estas categorías representen propiedades más pequeñas (<strong>1</strong> o <strong>2</strong> recámaras) o más grandes (<strong>4</strong>, <strong>5</strong> o <strong>6</strong> recámaras), que podrían ser adecuadas para personas solteras, parejas o familias numerosas.</p>
 
                 <p>Esta distribución puede ser debido a que las propiedades con más recámaras suelen ser más caras. Sin embargo, esto puede variar dependiendo de otros factores como la ubicación, la antigüedad y las características de la propiedad.</p>
             </div>
@@ -925,7 +909,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Los segmentos C, D, y B destacan por tener la mayor cantidad de viviendas con 3 recámaras, lo que indica que en estos segmentos prevalecen las casas de mayor tamaño. Esto puede deberse a que la distribución del número de recámaras refleja el tamaño promedio de las familias que habitan en cada segmento, lo que en este caso podría ser que las familias grandes que necesitan una casa con 3 recámaras sean las más comunes. Por otro lado, los segmentos A, E, y S exhiben una distribución más uniforme entre el número de recámaras, aunque se nota una inclinación hacia casas con 2 o 3 recámaras en algunos casos.</p>
+                <p>Los <strong>segmentos C</strong>, <strong>D</strong>, y <strong>B</strong> destacan por tener la mayor cantidad de viviendas con <strong>3</strong> recámaras, lo que indica que en estos segmentos prevalecen las casas de mayor tamaño. Esto puede deberse a que la distribución del número de recámaras refleja el tamaño promedio de las familias que habitan en cada segmento, lo que en este caso podría ser que las familias grandes que necesitan una casa con <strong>3</strong> recámaras sean las más comunes. Por otro lado, los <strong>segmentos A</strong>, <strong>E</strong>, y <strong>S</strong> exhiben una distribución más uniforme entre el número de recámaras, aunque se nota una inclinación hacia casas con <strong>2</strong> o <strong>3</strong> recámaras en algunos casos.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -940,7 +924,7 @@
           // Crear el iframe dinámicamente
        const iframe = document.createElement('iframe');
         // Asegurarse de que el directorio exista, si no, proporcionar un mensaje de error
-        const srcPath = `/datalpine/resources/Ciudades/Puebla/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_recamaras.html`;
+        const srcPath = `/datalpine/resources/Ciudades/Pachuca/assets/graficas/g_${segment === 'general' ? 'pie' : 'bar'}_recamaras.html`;
         iframe.src = srcPath;
         iframe.width = '100%';
         iframe.height = '400';
@@ -967,7 +951,7 @@
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Distribución m2 construidos</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Distribución M² construidos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
@@ -1024,7 +1008,7 @@
             </div>
             <div class="modal-body">
                 <p>
-                    Este gráfico de barras muestra la distribución de propiedades en Puebla, segmentadas por rangos de precios y metros cuadrados de construcción. En el eje X se encuentran los segmentos de precios (E, D, C, B, A, S, y L) y en el eje Y, el número de casas en cada categoría. Los colores indican los diferentes rangos de metros cuadrados de construcción, desde menos de 100 m² hasta más de 300 m².
+                    Este gráfico de barras muestra la distribución de propiedades en Pachuca de Soto, segmentadas por rangos de precios y metros cuadrados de construcción. En el eje X se encuentran los segmentos de precios (E, D, C, B, A, S, y L) y en el eje Y, el número de casas en cada categoría. Los colores indican los diferentes rangos de metros cuadrados de construcción, desde menos de 100 m² hasta más de 300 m².
                 </p>
                 <p>
                     Este gráfico permite visualizar cómo se distribuyen las propiedades en función de su tamaño y precio, lo que es útil para identificar patrones y tendencias en la oferta de viviendas.
@@ -1073,7 +1057,7 @@
             </p>
 
             <p>
-                En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción. Esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Puebla. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre 0 a 100 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos.
+                En su contraparte, el segmento E es el que tiene propiedades con un rango de metros de construcción mayormente en el rango de 0 a 100 metros de construcción. Esto muestra la relación que hay entre metros de construcción y el precio que hay en el mercado inmobiliario de Pachuca de Soto. En el segmento D se puede notar que hay una concentración de propiedades de un tamaño de entre 0 a 100 metros cuadrados de construcción, esto corresponde al precio que tiene el segmento de 1M a 1.75M pesos.
             </p>
 
             <p>
@@ -1125,7 +1109,7 @@
       <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por m²</h5>
+            <h5 class="card-title subtitle mb-3 text-center">Precio Promedio por M² construidos</h5>
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-user-tie me-2"></i>
